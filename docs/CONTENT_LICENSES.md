@@ -1,5 +1,14 @@
 # Content licenses
 
+## Rights scope
+
+This file registers **audio and fonts**. Editorial rights — prose, translations, notation, the
+MaqamWorld name, advisor contributions — are decided in `docs/phase0/rights-triage.md`.
+
+Pack 1 copies no MaqamWorld prose, translation, notation, or audio. Its only ship audio is
+commissioned material with a signed assignment, so the MaqamWorld rights gate does not block
+shipping. Commission and advisor evidence is tracked in the triage document, §5.
+
 ## Current development pack: `maqams.json` (version 2)
 
 - Location: `app/src/main/assets/content/`

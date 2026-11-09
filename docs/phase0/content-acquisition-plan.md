@@ -6,6 +6,8 @@
 **Source:** <https://www.maqamworld.com/> (EN + AR editions)  
 **Companion docs:** `maqam-content-audio-spec.md`, `ui-ux-audit.md`, `CONTENT_LICENSES.md`
 
+**Decisions locked 2026-11-10:** 5 items per lesson · DroneToggle ships · 15 masters per maqam · all Pack 1 audio commissioned.
+
 ---
 
 ## 0. Review log (2026-11-10)
@@ -19,9 +21,9 @@ Corrections applied:
 | R2 | Current pack is already **schema version 2**. Calling the target “schema v2” was ambiguous. | Target is now **pack schema v3**. |
 | R3 | Source counts were overstated: the index lists **43 maqams**, but only **35** have detail pages; **24** jins detail pages were found, not 27. | Corrected in §2 and §5. |
 | R4 | A/B comparison currently plays the answer phrase against the other maqam’s **default 12-second clip**. With phrase-level content that compares unlike material. | Added a matched **contrast core** and `contrast_phrase_id` contract in §6.3. |
-| R5 | The app has **no drone control**; the UI audit plans one, but it is not implemented. Three drone masters would be orphaned. | Drone is now a conditional decision, not an automatic asset. |
-| R6 | The spec contradicts itself on signature registers: §5 counts 3 signature phrases, §6 says every signature phrase exists in two registers. | Added an explicit decision table in §6.1 (15 vs 18 masters per maqam). |
-| R7 | `AGENTS.md` says 4 items per lesson; the UI contract says 5; the pack has 4. | Flagged as a required owner decision in §6.5 and §12. |
+| R5 | The app has **no drone control**; the UI audit plans one, but it is not implemented. Three drone masters would be orphaned. | **DroneToggle ships**; one drone master per maqam is included. |
+| R6 | The spec contradicts itself on signature registers: §5 counts 3 signature phrases, §6 says every signature phrase exists in two registers. | **15 masters per maqam** selected; 3 signatures cover ≥2 registers. |
+| R7 | `AGENTS.md` says 4 items per lesson; the UI contract says 5; the pack has 4. | **5 items per lesson** selected; AGENTS must be updated. |
 | R8 | The 100–150-word maqam cards and listening suggestions belong to a Library screen that does not exist yet. | Split copy into **ship-required** and **Library-ready** in §6.6. |
 | R9 | `CONTENT_LICENSES.md` is not stale; it was already updated for the maqam pack and onboarding. | Removed the earlier “100-song target” finding; corrected the audit in §8. |
 | R10 | The 7 unreferenced maqam files are documented as future content, not silent orphans. | Softened the finding; added a no-orphan/usage-map rule instead of calling them undocumented. |
@@ -36,8 +38,9 @@ long audio examples. The app needs a much smaller, curated, offline, rights-clea
 
 - **5 onboarding drills + 1 first-win item** (the current app requires these).
 - **3 starter maqams:** Rast, Hijaz, Nahawand.
-- **15–18 phrase masters per maqam**, depending on three decisions in §6.1.
-- **3 recognition lessons** at 4 or 5 items each, depending on the owner decision in §6.5.
+- **15 phrase masters per maqam** (45 total).
+- **3 recognition lessons** at 5 items each.
+- **A shipped DroneToggle** with one loopable drone master per maqam.
 - **Original Arabic teaching copy**, written for learners.
 - **Rights IDs and checksums** for every shipped asset.
 
@@ -52,8 +55,8 @@ The plan separates four asset classes that are easy to conflate:
 
 **Recommended path:** use MaqamWorld to freeze theory and Arabic terminology, write original app
 copy, redraw any notation, and commission **45 maqam masters + 5 onboarding drills** for Rast,
-Hijaz, and Nahawand. Runtime `0.75×` supplies the slow variants. Ship behind the existing
-recognition loop, then expand to Pack 2 and Pack 3.
+Hijaz, and Nahawand. Ship a DroneToggle, runtime `0.75×` slow playback, and 5-item lessons. Then
+expand to Pack 2 and Pack 3.
 
 **Blocking issue:** the site footer reads “© 2001–2018 MaqamWorld. All rights reserved.” Even if
 the app team controls the site, the recordings are performances of named compositions and may
@@ -104,10 +107,10 @@ re-mastering pass — more work than commissioning clean phrases, with worse ped
 | --- | --- | --- |
 | Onboarding: 5 drills + first win | No direct equivalent | Author and record original drills; first win uses a Hijaz signature |
 | 9 core maqams, 3 at launch | 43 listed, 35 detail pages | Curate and freeze 9; map variants |
-| 15–18 phrase masters per maqam | Long audio examples | Commission short, matched phrases |
+| 15 phrase masters per maqam | Long audio examples | Commission short, matched phrases |
 | A/B contrast per item | Nothing usable | Record a matched contrast core per pair |
 | 2–4 s phrases, 4–6 s scales | Songs and taqsims | New recordings with a strict brief |
-| Two registers per signature phrase | Various | Decide 15 vs 18 masters (§6.1) |
+| Two registers per signature phrase | Various | 3 signatures cover ≥2 registers (15-master set) |
 | Plain / light ornament levels | Ornamented performances | Record separate takes |
 | Arabic learner copy | Academic/editorial prose | Write original prompts, cards, explanations |
 | Item-level explanations | None | Author one per item |
@@ -122,8 +125,18 @@ re-mastering pass — more work than commissioning clean phrases, with worse ped
 
 ### 4.1 Rights matrix
 
-Create one row per asset class before any extraction. Each row needs: rights holder, license
-type, territory, term, editing rights, credit requirement, evidence file, and approver.
+Decisions are recorded in **`docs/phase0/rights-triage.md`** (Stage A complete, 2026-11-10). One row
+per asset class with decision, basis, status, and evidence. Summary:
+
+- **Green:** names, scale/tuning facts, structural terminology with original definitions, CC0
+  synth placeholders, OFL fonts.
+- **Amber, reference-only:** site prose, Arabic translations, notation, site audio, the MaqamWorld
+  name, library suggestions, advisor contributions.
+- **Red:** reusing compositions excerpted in site audio.
+- **Green once signed:** commissioned masters, drones, onboarding drills.
+
+Because nothing expressive is copied, Pack 1 needs no MaqamWorld license. The only open shipping
+dependencies are our own commission and advisor agreements.
 
 | Asset class | What we need | Fallback if not cleared |
 | --- | --- | --- |
@@ -162,6 +175,10 @@ The pack cannot pass acceptance with any Amber/Red asset in `assets/content/`.
 **Parallel work:** rights triage can run alongside the source snapshot and fact inventory. The
 gate blocks shipping and audio reuse, not reading public pages or writing original copy.
 
+**Stage A outcome (2026-11-10):** every expressive class is reference-only, so the gate clears for
+Pack 1 by copying nothing. Remaining blockers are the commission agreement and the advisor
+agreement, both tracked in `docs/phase0/rights-triage.md` §5.
+
 ---
 
 ## 5. Inventory and mapping
@@ -181,12 +198,16 @@ gate blocks shipping and audio reuse, not reading public pages or writing origin
 | `huzam` | هزام | `/maqam/huzam.php` | 3 | Gated on full theory sign-off |
 
 Advanced backlog, after launch: Jiharkah, Nawa Athar, Suznak, Farahfaza, Shawq Afza, Lami,
-Rast Suznak. Some backlog names have no dedicated detail page; verify before scoping. Do not let
+Rast Suznak. Eight index names share another maqam's detail page and are therefore not standalone
+pages: Farahfaza, Muhayyar, Rahat al-Arwah, Sazkar, Shadd Araban, Shahnaz, Suzidil, Yakah. They are
+related maqams, not aliases — see `docs/content/maqamworld/aliases.csv`. Do not let
 the 43-page source pull v1 into a 43-maqam scope.
 
 ### 5.2 Inventory files
 
-Create `docs/content/maqamworld/` (or a private working folder) with:
+**Done 2026-11-10:** `docs/content/maqamworld/` contains `maqamworld_inventory.csv` (9 rows),
+`aliases.csv`, `terminology_ar.csv`, and a README with the source log. Verified counts: 43 index
+names, 35 detail pages, 24 jins names. Facts only; no page snapshots in the repo.
 
 **`maqamworld_inventory.csv`**
 
@@ -221,36 +242,44 @@ win does, so it must reuse the approved Hijaz signature phrase and a matched Nah
 
 ### 5.4 Extraction rules
 
-1. Snapshot the page and date it before using it as a source.
+1. Log the URL and access date in the source log before using it. Do not keep page copies in the
+   repo; the source log is the evidence (`docs/content/maqamworld/README.md`).
 2. Record facts, not sentences. Never paste site prose into the pack.
 3. One row per app ID; variants stay in `aliases.csv`, not in the shipping pack.
-4. Mark every derived row Amber until the rights matrix clears it.
+4. Mark every derived row with the triage status; facts are Green, expressive classes are Amber.
 5. Cross-check the Arabic name against the Arabic page, not an English transliteration.
 
 ---
 
 ## 6. Target pack v1
 
-### 6.1 Audio inventory and the three decisions
+### 6.1 Audio inventory (locked)
 
-The 18-phrase spec assumes three slow signature slots. The app already has pitch-preserved
-`0.75×` playback, so recommend **runtime slow** instead of separate files. The unique-master count
-then depends on two unresolved questions: drone support and signature registers.
+**Selected configuration:** 15 masters per maqam, drone included, with three signature phrases
+covering at least two registers. Runtime `0.75×` supplies the slow variants. Pack total:
+**45 maqam masters + 5 onboarding drills = 50 new assets**. The first win reuses the Hijaz
+signature, so it adds no file.
 
-| Decision | Masters per maqam | Maqam total | Onboarding | First win | Pack total |
-| --- | --- | --- | --- | --- | --- |
-| A (recommended): 15/maqam, drone included, 3 signatures across ≥2 registers | 15 | 45 | 5 | reuse Hijaz signature | 50 |
-| B: 15/maqam minus drone (no DroneToggle in v1) | 14 | 42 | 5 | reuse | 47 |
-| C: 18/maqam, each signature in two registers, drone included | 18 | 54 | 5 | reuse | 59 |
+| Item | Count |
+| --- | --- |
+| Scale up / down / ornamented | 9 (3 × 3) |
+| Lower-jins phrases | 9 (3 × 3) |
+| Upper-jins phrases | 9 (3 × 3) |
+| Signature phrases | 9 (3 × 3, covering ≥2 registers) |
+| Cadences | 6 (2 × 3) |
+| Drones | 3 (1 × 3) |
+| **Maqam masters** | **45** |
+| Onboarding drills | 5 |
+| First win | reuse Hijaz signature |
+| **Total new assets** | **50** |
 
-If the advisor rejects runtime slow and wants separate `0.75×` masters, add **3 files per maqam**
-(9 total for Pack 1). Do not add them by default.
+**15-master breakdown per maqam:** scale up, scale down, ornamented scale, 3 lower-jins,
+3 upper-jins, 3 signature, 2 cadence, 1 drone.
 
-**15-master breakdown (Decision A):** scale up, scale down, ornamented scale, 3 lower-jins,
-3 upper-jins, 3 signature, 2 cadence, 1 drone.  
-**18-master breakdown (Decision C):** same, but 6 signature files (each of the 3 signatures in two
-registers).  
-The spec's §5 and §6 contradict each other here; the advisor must pick A or C in Gate 2.
+Rejected options: 14/maqam without drones (DroneToggle now ships, so the drone master is required)
+and 18/maqam with every signature in two registers (the 15-master set already covers two registers
+across the signature group). If the advisor rejects runtime slow after listening, add **3 files per
+maqam** (9 total) and re-run QA; do not add them by default.
 
 ### 6.2 Onboarding contract
 
@@ -268,6 +297,9 @@ Each onboarding step needs:
 The first win needs a prompt, audio, two maqam IDs, an answer in those IDs, and an explanation.
 It must use the approved Hijaz signature phrase; the contrast should be the matched Nahawand
 signature, not an arbitrary default clip.
+
+The DroneToggle is in scope. The home-note drill should ship with a drone bed, and the lesson
+player must expose a toggle that loops the tonic + fifth drone independently of the phrase.
 
 ### 6.3 A/B contrast contract
 
@@ -304,7 +336,7 @@ Requirements:
 | Ornament | Plain for first exposure; light for generalization |
 | Pack size | ≤15 MB target, 25 MB hard ceiling |
 
-### 6.5 Lesson contract and the 4-vs-5 decision
+### 6.5 Lesson contract (5 items)
 
 Three lessons, one per starter pair:
 
@@ -314,10 +346,9 @@ Three lessons, one per starter pair:
 | `rast_hijaz` | راست أم حجاز؟ | rast, hijaz | 5 |
 | `rast_nahawand` | راست أم نهاوند؟ | rast, nahawand | 5 |
 
-**Conflict:** `AGENTS.md` says 4 items per lesson; `ui-ux-audit.md` says 5 progress dots and
-5 items; the current pack has 4. The UI already renders dots from `session.total`, so 5 works
-without a layout change. Recommend **5** and update `AGENTS.md`; if the owner freezes 4, the
-authoring count becomes 12 items, not 15.
+**Decision:** **5 items per lesson**, 15 items total. `AGENTS.md` still says 4 and must be
+updated. The UI already renders dots from `session.total`, so no layout change is needed. The
+DroneToggle is not a lesson item and does not count toward the 5.
 
 Authoring rules:
 
@@ -446,22 +477,26 @@ Engineering implications:
   per-item `options` is redundant unless a future lesson mixes option sets.
 - Validator additions: unique phrase IDs, phrase→maqam exists, item→phrase exists,
   contrast→phrase exists and belongs to another lesson option, every approved phrase has
-  `rights_id` and an existing file, no orphan phrases.
+  `rights_id` and an existing file, no undocumented phrases.
+- Drone phrases use `type: "drone"` and are looped by the player; the DroneToggle controls them
+  independently of item audio.
 - Verify `sha256` in CI, not at runtime.
 - Keep audio in per-section subfolders (`audio/hijaz/`, `audio/onboarding/`); update the current
   flat path resolution.
 - Do not ship the raw MaqamWorld snapshot in the APK.
 
-### 6.8 Usage map and no-orphan rule
+### 6.8 Usage map and no-undocumented-asset rule
 
-Every shipped master must be referenced by at least one of:
+Every shipped master gets a usage-map row naming its consumer:
 
 1. An onboarding step or the first win.
 2. A lesson item (as `phrase_id` or `contrast_phrase_id`).
-3. A Library surface (once it exists).
+3. The DroneToggle.
+4. A declared future lesson in the current pack (`reserved_for_lesson`).
 
-Anything else is either removed or explicitly tagged `reserved_for_pack: 2` and excluded from the
-release build. This replaces the current “ship 7 unreferenced files for future maqams” practice.
+“Zero orphans” means **zero undocumented files**, not zero unused files. A master that is neither
+used by v1 nor declared for a planned Pack 1b lesson is archived outside the APK. This replaces the
+current “ship 7 unreferenced files for future maqams” practice.
 
 ---
 
@@ -471,11 +506,11 @@ release build. This replaces the current “ship 7 unreferenced files for future
 | --- | --- | --- | --- | --- |
 | 0. Rights | Rights matrix, contracts, credit line | Signed register | Legal + Content | Every class Green/Amber; no Red in pack |
 | 1. Inventory | Snapshot pages, build 43→9 CSV, glossary | `maqamworld_inventory.csv` | Content | 9 core rows reviewed; aliases captured |
-| 2. Theory + playback | Tuning worksheet, ajnas, signature-register, drone, item-count, A/B decisions | Signed decision record | Advisor + Product | 3 launch maqams approved; decisions A/B/C and 4/5 fixed |
+| 2. Theory + playback | Tuning worksheet, ajnas, 15-master coverage, A/B contrast | Signed theory record | Advisor + Product | 3 launch maqams approved; locked 5/15/DroneToggle contract confirmed |
 | 3. Copy | Onboarding copy, signatures, item explanations | Arabic copy sheet | Content + Advisor | Fits learner voice; no copied prose |
 | 4. Audio | Brief, record, edit, master, QA | Maqam masters + 5 drills + cue sheet | Audio producer | Tuning/loudness/noise pass; advisor approves |
 | 5. Lessons | Assign phrases and contrasts, balance, validate | Pack JSON | Content | Items valid, no repeats, matched contrasts |
-| 6. Integration | Schema v3, loader, validator, tests | Build + tests | Android | Unit + instrumented tests pass |
+| 6. Integration | Schema v3, DroneToggle, loader, validator, tests | Build + tests | Android | Unit + instrumented tests pass |
 | 7. Release | Device QA, blind test, licenses, tag | Pack v1 | QA + Content | RTL/320 dp/TalkBack/airplane pass |
 
 ### 7.1 Audio brief (send to producer)
@@ -498,10 +533,9 @@ release build. This replaces the current “ship 7 unreferenced files for future
 - Two options per drill; one unambiguous answer; one instrument family.
 - 2–6 s each; home-note drill may run to 6–8 s to establish the drone.
 - Original exercises; no maqam names in the prompt; no notation required.
-- Recommendation: commission the five drills with the same producer as the maqam phrases for a
-  consistent timbre. If budget is tight, the current CC0 synth drills can ship as placeholders,
-  but they must be clearly labeled in the license doc and replaced before the pack is marketed as
-  a finished listening course.
+- The five drills are commissioned with the same producer as the maqam phrases for a consistent
+  timbre. The current CC0 synth drills remain dev-only fallbacks and must not be the shipped
+  onboarding pack.
 
 ### 7.3 Copy brief
 
@@ -530,7 +564,7 @@ release build. This replaces the current “ship 7 unreferenced files for future
 | Maqam clips are 12 s, same contour, equal-tempered semitone tables | Rast is a major scale; Bayati/Saba/Sikah/Huzam lose their characteristic intervals; weak recognition training |
 | Onboarding drills are synthesized relative exercises | Acceptable as placeholders; commission or keep CC0 explicitly |
 | One default audio per maqam; A/B compares unlike material | Contrast must be matched by type, instrument, and register |
-| No drone control in the app | Drone masters would be orphaned unless DroneToggle ships |
+| No drone control in the current app | DroneToggle is now in scope; drone masters ship with the toggle |
 | No phrase-level schema, rights IDs, checksums, or contrast IDs | Cannot pass the content gate |
 | `CONTENT_LICENSES.md` documents all 15 files and the 18-phrase target | Not stale; it does still use 8–15 s phrase language, which conflicts with the 2–4 s spec |
 
@@ -550,13 +584,15 @@ matched contrasts.
 - [ ] First win uses an approved Hijaz signature and a matched Nahawand contrast.
 - [ ] Onboarding audio is 2–6 s, clear on a phone speaker, and consistent in timbre.
 - [ ] No maqam name appears in a drill prompt before the first win.
+- [ ] Home-note drill audio includes a clear drone bed; DroneToggle loops seamlessly; toggle state
+      is visible and announced.
 
 ### Content QA
 
 - [ ] Rights matrix signed; zero Amber/Red assets in the pack.
 - [ ] Advisor signs the 3-maqam tuning table and every phrase.
-- [ ] 15/18 masters exist per the Gate 2 decision; every phrase has metadata and `rights_id`.
-- [ ] Signature phrases cover at least two registers (or two registers each, per decision C).
+- [ ] 45 maqam masters + 5 onboarding drills exist; every phrase has metadata and `rights_id`.
+- [ ] Three signature phrases per maqam cover at least two registers.
 - [ ] Every lesson item has a matched contrast phrase; A/B loudness is even.
 - [ ] Runtime `0.75×` passed listening QA on device speaker and headphones.
 - [ ] Tuning within ±5 cents; −16 LUFS; −1 dBTP; noise floor < −60 dBFS.
@@ -564,7 +600,7 @@ matched contrasts.
 - [ ] Every item points to an existing phrase; no repeats; balanced answers.
 - [ ] Every explanation is ≤2 sentences and names an audible feature.
 - [ ] Arabic copy reviewed for RTL, diacritics, and terminology consistency.
-- [ ] Every shipped master appears in the usage map; zero orphans.
+- [ ] Every shipped master appears in the usage map; zero undocumented files.
 - [ ] Blind test: five target users distinguish Hijaz from Nahawand after one session.
 
 ### Engineering QA
@@ -574,8 +610,10 @@ matched contrasts.
 - [ ] `./gradlew :app:lintDebug` has no new errors.
 - [ ] `./gradlew :app:connectedDebugAndroidTest` passes for the lesson flow.
 - [ ] Device QA: RTL, 320 dp width, TalkBack, airplane mode, audio focus/unplug.
+- [ ] Physical test device: check for the Avast overlay before debugging a missing package; use the
+      Samsung TalkBack component for accessibility passes.
 - [ ] Pack ≤25 MB; cold content load is fast; no network dependency.
-- [ ] Drone behavior matches the Gate 2 decision; no orphan drone files.
+- [ ] DroneToggle ships; drone loops seamlessly at fixed gain; drone file is in the usage map.
 
 ### Release QA
 
@@ -594,10 +632,10 @@ Assumes rights triage and studio booking start immediately; full legal clearance
 
 | Week | Content | Audio | Engineering | Gate |
 | --- | --- | --- | --- | --- |
-| 1 | Rights triage, snapshot, 43→9 CSV | Brief + quotes | Playback decisions | Rights triage + inventory |
-| 2 | Theory worksheet, onboarding copy | Studio booked | Schema v3 design | Theory + playback freeze |
+| 1 | Rights triage, snapshot, 43→9 CSV | Brief + quotes | DroneToggle + schema v3 design | Rights triage + inventory |
+| 2 | Theory worksheet, onboarding copy | Studio booked | DroneToggle implementation | Theory + playback freeze |
 | 3 | Maqam cards, item drafts | Record maqam + onboarding | Import/validator | Copy draft |
-| 4 | Lesson/contrast assembly | Edit/master/QA | Loader + validator | Audio approved |
+| 4 | Lesson/contrast assembly | Edit/master/QA | Loader + validator + drone QA | Audio approved |
 | 5 | Advisor review, fixes | Re-takes if needed | Tests + device QA | Content QA |
 | 6 | Licenses, credits, release notes | Final masters | Release candidate | Launch |
 
@@ -622,10 +660,11 @@ Assumes rights triage and studio booking start immediately; full legal clearance
 | MaqamWorld rights are not cleared for app use | High | Blocks reuse | Rights gate; fall back to facts + original copy + commissioned audio |
 | Site audio has performer/composition encumbrances | High | Blocks audio reuse | Do not reuse; commission original phrases |
 | Advisor disagrees with site theory or regional practice | Medium | Rework | Freeze tuning before recording; advisor signs the worksheet |
-| Signature-register decision is deferred | Medium | Wrong asset count | Decide A/B/C at Gate 2, before booking |
+| Advisor rejects the 15-master coverage | Medium | Late re-record | Advisor signs the 15-master inventory before booking |
 | A/B compares unlike phrases | High | Bad teaching | Matched contrast core; `contrast_phrase_id`; QA listen |
-| Drone UI never ships | Medium | Orphan assets | Defer drone masters or add DroneToggle in the same release |
-| Item count stays ambiguous | Medium | Rework lessons | Owner decision at Gate 2; update AGENTS |
+| Drone loop clicks or masks the phrase | Medium | Poor lesson audio | Seamless loop, fixed gain, phone-speaker QA |
+| 5-item lesson overflows at 320 dp | Low | Layout regression | 320 dp + TalkBack QA |
+| Onboarding drills sound disconnected from maqam audio | Medium | Jarring first session | Same producer and instrument family |
 | Phrases are too similar to distinguish | Medium | Bad lessons | Blind tests; contrast pairs; matched registers/instruments |
 | Scope expands to 43 maqams | High | Slips launch | Freeze Pack 1 at 3; backlog everything else |
 | Arabic terminology drifts | Medium | Confusing copy | Single glossary; advisor-approved terms |
@@ -634,33 +673,48 @@ Assumes rights triage and studio booking start immediately; full legal clearance
 
 ---
 
-## 12. Decisions required before Gate 2
+## 12. Decisions locked and defaults
 
-| Decision | Options | Recommendation |
-| --- | --- | --- |
-| Items per lesson | 4 (AGENTS) vs 5 (UI contract) | **5**, update AGENTS; 15 items |
-| Drone in v1 | Ship DroneToggle + 3 drones vs defer drones | **Ship** if the toggle is in scope; otherwise defer and drop 3 files |
-| Signature registers | 3 signatures across ≥2 registers (15) vs each in 2 registers (18) | **15** for launch; add registers in Pack 1b |
-| Slow variants | Runtime `0.75×` vs separate masters | **Runtime**, unless advisor rejects after listening |
-| Audio source | Reuse cleared site audio vs commission | **Commission**; site audio is long-form and encumbered |
-| Onboarding audio | Commission 5 drills vs keep CC0 synth | **Commission** with the same producer; CC0 only as dev fallback |
-| Library copy | Write 100–150-word cards now vs defer | **Defer** until the Library screen ships |
+**Locked 2026-11-10**
+
+| Decision | Outcome |
+| --- | --- |
+| Items per lesson | **5**; 15 items total |
+| Drone | **DroneToggle ships**; one loopable drone master per maqam (3 total) |
+| Signature registers | **15 masters per maqam**; 3 signatures cover ≥2 registers |
+| Audio source | **Commission all Pack 1 audio**; no site audio reuse; 45 maqam masters + 5 onboarding drills |
+| Onboarding audio | **Included in the commission**; CC0 synth only as a dev fallback |
+
+**Defaults pending advisor/owner**
+
+| Decision | Default |
+| --- | --- |
+| Slow variants | Runtime `0.75×`; add 9 separate files only if the advisor rejects after listening |
+| Library copy | Defer 100–150-word cards and listening suggestions until the Library screen ships |
+| Lesson order | Hijaz/Nahawand first win, then Rast/Hijaz, then Rast/Nahawand |
 
 ---
 
 ## 13. Immediate next actions
 
-1. **Rights triage:** decide reuse vs reference-only for each asset class; open the matrix. Full
-   legal clearance can run in parallel.
-2. **Snapshot:** save the maqam/jins pages (EN + AR) with dates and URLs outside the APK.
+1. **Rights triage:** done, 2026-11-10 — see `docs/phase0/rights-triage.md`. All expressive classes
+   are reference-only; only our commission and advisor agreements remain open.
+2. **Snapshot:** save the maqam/jins pages (EN + AR) with dates and URLs outside the APK. Record
+   facts and URLs only; do not commit page copies.
 3. **Inventory:** fill the 9 core rows; add aliases; note the 8 listed maqams without detail pages.
-4. **Playback contract:** freeze item count, drone support, signature registers, and A/B contrast.
-5. **Advisor kickoff:** approve the 3-maqam tuning table, phrase list, and contrast core.
-6. **Audio:** send the brief; book two to three studio days for maqam masters + 5 onboarding drills.
+4. **Playback contract:** locked at 5 items, DroneToggle, 15 masters/maqam, commissioned audio.
+   Confirm the matched A/B contrast design and hand the DroneToggle spec to engineering.
+5. **Advisor kickoff:** approve the 3-maqam tuning table, 15-master inventory, phrase list, and
+   contrast core.
+6. **Audio:** send the brief; book two to three studio days for 45 maqam masters, 3 drones, and
+   5 onboarding drills.
 7. **Copy:** draft ship-required onboarding and lesson copy; defer Library cards.
 8. **Schema:** agree pack v3 and the import/validate scripts before the first audio delivery.
-9. **Usage map:** remove or exclude the 7 unreferenced files; require zero orphans at release.
-10. **Schedule:** set gate reviews for Weeks 1, 2, 4, and 6; do not record before Gate 2.
+9. **Usage map:** remove or exclude the 7 unreferenced files; require zero undocumented assets at
+   release.
+10. **DroneToggle:** implement the toggle and loop playback in parallel with content production.
+11. **Schedule:** set gate reviews for Weeks 1, 2, 4, and 6; do not record before the advisor signs
+    the tuning table.
 
 ---
 
@@ -727,7 +781,7 @@ high_low,أي النغمتين أعلى؟,onboarding/on-01-high-low.m4a,"الأ�
 - [ ] Three lower-jins phrases, three upper-jins phrases.
 - [ ] Three signature phrases, plus matched contrast signature.
 - [ ] Two cadences.
-- [ ] One loopable drone (if DroneToggle ships).
+- [ ] One loopable drone (DroneToggle ships).
 - [ ] Lesson items assigned where the maqam is an option.
 - [ ] Every file has rights ID, checksum, duration, loudness.
 - [ ] Every file appears in the usage map.

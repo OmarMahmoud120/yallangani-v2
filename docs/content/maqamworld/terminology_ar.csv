@@ -1,0 +1,15 @@
+term_en,term_ar,gloss_ar,used_in,advisor_status,notes
+maqam,مقام,قالب لحني له درجات وأجناس وسلوك مميز,lessons + home,draft,Learner-facing copy is written in task #4
+jins,جنس,وحدة لحنية من ثلاث إلى خمس درجات,lessons + feedback,draft,Plural ajnas = أجنس
+tonic,قرار,الدرجة التي يستقر عليها المقام,feedback + theory,draft,Also called the home note
+ghammaz,غماز,الدرجة التي يبدأ منها الجنس الأعلى,feedback + theory,draft,Sometimes transliterated ghammaz/ghammāz
+scale degree,درجة,موضع النغمة داخل سلم المقام,feedback,draft,
+cadence,قفلة,ختام لحني يعيد الاستقرار,feedback,draft,
+neutral interval,بُعد محايد,مسافة بين الصغيرة والكبيرة,feedback + onboarding,draft,Advisor to confirm; alternative wording: مسافة محايدة
+ornament,زخرفة,نغمة زائدة تزيّن اللحن,feedback,draft,
+sayr,سير,المسار اللحني الذي يبني شخصية المقام,theory + library,draft,Library-only until that screen ships
+register,طبقة,المنطقة الصوتية التي يُعزف فيها اللحن,audio brief + lesson labels,draft,Advisor to confirm; do not use سجل
+lower jins,الجنس الأسفل,الجنس الذي يبدأ عند القرار,theory,draft,Internal + advisor worksheet
+upper jins,الجنس الأعلى,الجنس الذي يبدأ عند الغماز,theory,draft,Internal + advisor worksheet
+drone,قرار مستمر,نغمة قرار تُسمع باستمرار تحت اللحن,DroneToggle label,draft,Alternative: درون; decide with #4 and the advisor
+quarter tone,ربع درجة,نصف المسافة بين نصف تون,onboarding + feedback,draft,Informal form ربع تون is not used in learner copy

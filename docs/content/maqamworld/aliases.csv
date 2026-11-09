@@ -1,0 +1,22 @@
+surface,script,relation,canonical_app_id,page_slug,evidence_url,note,status
+Rahat al-Arwah,latin,alternate_name,huzam,huzam,https://www.maqamworld.com/en/maqam/huzam.php,Shares the Huzam detail page; the page title pairs both names. Safe to treat as the same entry.,confirmed
+راحة الارواح,arabic,alternate_name,huzam,huzam,https://www.maqamworld.com/ar/maqam/huzam.php,Arabic spelling as printed on the page (no hamza on the alif).,confirmed
+Farahfaza,latin,distinct_maqam,nahawand,nahawand,https://www.maqamworld.com/en/maqam/nahawand.php,Separate maqam entry that shares the Nahawand detail page. Do not merge into nahawand; it needs its own tuning and phrases if ever added.,confirmed
+Muhayyar,latin,distinct_maqam,bayati,bayati,https://www.maqamworld.com/en/maqam/bayati.php,Separate entry sharing the Bayati page. Do not merge.,confirmed
+Sazkar,latin,distinct_maqam,-,kirdan,https://www.maqamworld.com/en/maqam/kirdan.php,Separate entry sharing the Kirdan page. Kirdan is not in the core nine.,confirmed
+Shadd Araban,latin,distinct_maqam,-,hijazkar,https://www.maqamworld.com/en/maqam/hijazkar.php,Separate entry sharing the Hijazkar page. Not an alias of hijaz.,confirmed
+Shahnaz,latin,distinct_maqam,-,hijazkar,https://www.maqamworld.com/en/maqam/hijazkar.php,Separate entry sharing the Hijazkar page.,confirmed
+Suzidil,latin,distinct_maqam,-,hijazkar,https://www.maqamworld.com/en/maqam/hijazkar.php,Separate entry sharing the Hijazkar page.,confirmed
+Yakah,latin,distinct_maqam,-,nairuz,https://www.maqamworld.com/en/maqam/nairuz.php,Separate entry sharing the Nairuz page.,confirmed
+Sikah Baladi,latin,distinct_maqam,-,sikah_baladi,https://www.maqamworld.com/en/maqam/sikah_baladi.php,Has its own page. Do not merge into sikah.,confirmed
+Bayati Shuri,latin,distinct_maqam,-,bayati_shuri,https://www.maqamworld.com/en/maqam/bayati_shuri.php,Has its own page. Do not merge into bayati.,confirmed
+Nahawand Murassa‘,latin,distinct_maqam,-,nahawand_murassaa,https://www.maqamworld.com/en/maqam/nahawand_murassaa.php,Has its own page. Do not merge into nahawand.,confirmed
+Ajam Ushayran,latin,distinct_maqam,-,ajam_ushayran,https://www.maqamworld.com/en/maqam/ajam_ushayran.php,Has its own page. Do not merge into ajam.,confirmed
+Saba Zamzam,latin,distinct_maqam,-,saba_zamzam,https://www.maqamworld.com/en/maqam/saba_zamzam.php,Has its own page. Do not merge into saba.,confirmed
+Hijazkar,latin,distinct_maqam,-,hijazkar,https://www.maqamworld.com/en/maqam/hijazkar.php,Has its own page. Not an alias of hijaz.,confirmed
+Hejaz,latin,transliteration,hijaz,hijaz,https://www.maqamworld.com/en/maqam/hijaz.php,English spelling variant used outside the site.,draft
+Nihawand,latin,transliteration,nahawand,nahawand,https://www.maqamworld.com/en/maqam/nahawand.php,English spelling variant.,draft
+Bayyati,latin,transliteration,bayati,bayati,https://www.maqamworld.com/en/maqam/bayati.php,English spelling variant.,draft
+Sika,latin,transliteration,sikah,sikah,https://www.maqamworld.com/en/maqam/sikah.php,English spelling variant.,draft
+Huzzam,latin,transliteration,huzam,huzam,https://www.maqamworld.com/en/maqam/huzam.php,English spelling variant.,draft
+Rāst,latin,transliteration,rast,rast,https://www.maqamworld.com/en/maqam/rast.php,Diacritic transliteration used on the site.,draft
