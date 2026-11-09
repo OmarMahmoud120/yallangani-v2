@@ -2,6 +2,7 @@ package com.osmartapps.yallanghanee
 
 import androidx.compose.ui.test.hasContentDescription
 import androidx.compose.ui.test.junit4.createAndroidComposeRule
+import androidx.compose.ui.test.onAllNodesWithContentDescription
 import androidx.compose.ui.test.onAllNodesWithText
 import androidx.compose.ui.test.onFirst
 import androidx.compose.ui.test.performClick
@@ -39,6 +40,24 @@ class RecognitionFlowTest {
             .onAllNodes(hasContentDescription("خيار", substring = true))
             .fetchSemanticsNodes()
         assertTrue("expected two answer cards, found ${answers.size}", answers.size == 2)
+    }
+
+    @Test
+    fun opensSettingsAndReturnsHome() {
+        skipOnboardingIfShown()
+        waitForText(context.getString(R.string.home_intro_title))
+
+        compose
+            .onAllNodesWithContentDescription(context.getString(R.string.settings_title))
+            .onFirst()
+            .performClick()
+        waitForText(context.getString(R.string.settings_motion))
+
+        compose
+            .onAllNodesWithText(context.getString(R.string.gallery_back))
+            .onFirst()
+            .performClick()
+        waitForText(context.getString(R.string.home_intro_title))
     }
 
     private fun skipOnboardingIfShown() {

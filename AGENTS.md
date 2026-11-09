@@ -136,10 +136,12 @@ can coexist with the legacy Play install on a physical phone. Release builds kee
 | `data/MaqamRepository.kt` | Reads `assets/content/maqams.json` and validates audio assets. |
 | `data/MaqamPackValidator.kt` | Content rules used by the app and unit tests. |
 | `data/ProgressStore.kt` | DataStore-backed completed-lesson set. |
+| `data/SettingsStore.kt` | DataStore-backed motion preference. |
 | `audio/AudioPlayer.kt` | MediaPlayer sequence playback with pitch-preserved speed, focus, and unplug handling. |
 | `audio/AudioFocus.kt` | Transient audio focus and noisy-audio receiver. |
 | `ui/theme/Theme.kt` | Night Majlis tokens, per-maqam accents, two-font typography. |
-| `ui/HomeScreen.kt` | Continue card, three-maqam path, progress, reset. |
+| `ui/HomeScreen.kt` | Continue card, three-maqam path, progress, settings entry. |
+| `ui/SettingsScreen.kt` | Motion preference, about/licences, destructive reset. |
 | `ui/LessonScreen.kt` | Listen orb, slow mode, A/B comparison, answers, teaching feedback, exit confirm. |
 | `ui/ResultsScreen.kt` | Score, pass/fail copy, learned summary, next/retry/home. |
 | `ui/YallaApp.kt` | Home/Lesson/Results routing from view-model state. |

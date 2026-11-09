@@ -22,9 +22,11 @@
 | §9 component gallery | Implemented (debug builds only) | `ui/gallery/GalleryScreen.kt`, opened from the Home header when `BuildConfig.DEBUG` |
 | §14.2 step 3 onboarding + first win | Implemented | `ui/OnboardingScreen.kt`, `onboarding` block in `maqams.json`, `data/ProgressStore.kt` |
 | §11 accessibility gate | Verified 2026-11-10 | TalkBack traversal, 200% font scale, 320 dp width, measured contrast (see §11.5) |
+| §14.2 step 6 settings (subset of S8) | Implemented | `ui/SettingsScreen.kt`, `data/SettingsStore.kt`, `model/MotionPreference.kt`, gear in `ui/HomeScreen.kt` |
 
-Still open from this plan: the 18-phrase-per-maqam pack, profile/settings (#20), a full TalkBack
-and 200% font-scale pass, and the 5-user usability test. The shipped lessons use the three existing
+Still open from this plan: the 18-phrase-per-maqam pack, the Library (S7, content-blocked), the
+settings items that depend on features that do not exist yet (daily goal, sound effects, haptics),
+and the 5-user usability test. The shipped lessons use the three existing
 demo phrases and say so in the pack notice; the five onboarding drills and the first-win item are
 generated CC0 clips documented in `docs/CONTENT_LICENSES.md`.
 
@@ -505,6 +507,10 @@ cards press to 0.98 scale; haptic selection on tap; success/error haptics on fee
 - **Reset progress** at the bottom, destructive confirm.
 - No accounts, no sign-in, no analytics toggle in the MVP (analytics is aggregate and documented in
   `analytics-taxonomy.md`).
+- **Shipped 2026-11-10:** reduced motion, about (version, offline note, pack notice, audio CC0,
+  font OFL), and reset — reached from the Home gear icon. Daily goal, sound effects, and haptics
+  are deferred until those features exist; no placeholder toggles ship. Reset now lives only here,
+  not on Home.
 
 ### S9 — Loading / error / empty
 
@@ -701,6 +707,18 @@ Run on the SM-S908E with the debug build, TalkBack enabled for the traversal pas
   order, and activation path were verified. A native-speaker listening check of TTS pronunciation
   is recommended before release.
 
+### 11.6 Settings verification (2026-11-10)
+
+- **Entry and layout:** the Home gear (content description «الإعدادات») opens settings in RTL;
+  motion rows are radio buttons with Arabic labels, the about panel shows version 2.0.0, the offline
+  note, the pack notice, and the CC0/OFL licence lines.
+- **Reduced motion:** selecting «تقليل الحركة» stops the orb pulse — two screenshots 700 ms apart
+  cropped to the orb are byte-identical — while «تشغيل الحركة» produces differing frames. The
+  choice survives a cold start (DataStore).
+- **Reset:** the confirm dialog appears, and confirming returns Home with «0 من 3 دروس».
+- **320 dp:** settings scrolls, all rows and the reset section stay reachable; motion hint and
+  licence lines wrap without clipping.
+
 ---
 
 ## 12. Copy deck (Arabic) and terminology
@@ -808,7 +826,8 @@ no gambling language, no ad copy. Every explanation names the interval or the no
 | 7 | Accessibility/RTL gate + 5-user usability test | #25 |
 
 Steps 1–5 landed in the 2026-11-10 P0 slice (the world map from step 2 is deferred; Home opens the
-three lessons directly). Steps 6–7 remain open.
+three lessons directly). Step 7's accessibility gate landed 2026-11-10 and the settings part of
+step 6 shipped the same day; the Library remains content-blocked and the 5-user test is open.
 
 **Design-first gate:** every step lands as a preview/gallery screen before it is wired to real
 content. No production lesson code until the owner approves the corresponding screen spec.

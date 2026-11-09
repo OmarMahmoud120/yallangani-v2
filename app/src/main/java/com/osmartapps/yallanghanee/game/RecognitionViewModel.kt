@@ -8,7 +8,9 @@ import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
 import com.osmartapps.yallanghanee.data.MaqamRepository
 import com.osmartapps.yallanghanee.data.ProgressStore
+import com.osmartapps.yallanghanee.data.SettingsStore
 import com.osmartapps.yallanghanee.model.MaqamPack
+import com.osmartapps.yallanghanee.model.MotionPreference
 import com.osmartapps.yallanghanee.model.RecognitionLesson
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -35,6 +37,7 @@ data class RecognitionUiState(
     val completedLessons: Set<String> = emptySet(),
     val onboardingStep: Int = 0,
     val onboardingComplete: Boolean? = null,
+    val motionPreference: MotionPreference = MotionPreference.System,
     val session: RecognitionSession? = null,
     val result: LessonResult? = null,
 ) {
@@ -49,6 +52,7 @@ data class RecognitionUiState(
 class RecognitionViewModel(
     private val repository: MaqamRepository,
     private val progressStore: ProgressStore,
+    private val settingsStore: SettingsStore,
     private val random: Random = Random.Default,
 ) : ViewModel() {
 
@@ -72,6 +76,11 @@ class RecognitionViewModel(
                 }
             }
         }
+        viewModelScope.launch {
+            settingsStore.motion.collect { preference ->
+                _state.update { it.copy(motionPreference = preference) }
+            }
+        }
     }
 
     fun retry() = load()
@@ -86,6 +95,11 @@ class RecognitionViewModel(
     fun completeOnboarding() {
         _state.update { it.copy(onboardingComplete = true) }
         viewModelScope.launch(Dispatchers.IO) { progressStore.completeOnboarding() }
+    }
+
+    fun setMotionPreference(preference: MotionPreference) {
+        _state.update { it.copy(motionPreference = preference) }
+        viewModelScope.launch(Dispatchers.IO) { settingsStore.setMotion(preference) }
     }
 
     fun startLesson(lessonId: String) {
@@ -178,6 +192,7 @@ class RecognitionViewModel(
                 RecognitionViewModel(
                     MaqamRepository(appContext.assets),
                     ProgressStore(appContext),
+                    SettingsStore(appContext),
                 )
             }
         }

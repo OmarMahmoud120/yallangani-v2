@@ -29,6 +29,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.staticCompositionLocalOf
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -47,6 +48,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import com.osmartapps.yallanghanee.R
+import com.osmartapps.yallanghanee.model.MotionPreference
 import com.osmartapps.yallanghanee.ui.theme.NightBg
 import com.osmartapps.yallanghanee.ui.theme.NightError
 import com.osmartapps.yallanghanee.ui.theme.NightGold
@@ -270,14 +272,17 @@ fun MasteryRing(
     }
 }
 
+val LocalMotionPreference = staticCompositionLocalOf { MotionPreference.System }
+
 @Composable
 fun rememberMotionEnabled(context: android.content.Context): Boolean {
-    val scale = remember(context) {
+    val preference = LocalMotionPreference.current
+    val systemAnimationsEnabled = remember(context) {
         android.provider.Settings.Global.getFloat(
             context.contentResolver,
             android.provider.Settings.Global.ANIMATOR_DURATION_SCALE,
             1f,
-        )
+        ) > 0f
     }
-    return scale > 0f
+    return preference.enabled(systemAnimationsEnabled)
 }
