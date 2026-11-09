@@ -21,6 +21,7 @@ class RecognitionFlowTest {
 
     @Test
     fun opensALessonAndShowsTwoAnswers() {
+        skipOnboardingIfShown()
         waitForText(context.getString(R.string.home_intro_title))
 
         val startLabels = listOf(
@@ -38,6 +39,18 @@ class RecognitionFlowTest {
             .onAllNodes(hasContentDescription("خيار", substring = true))
             .fetchSemanticsNodes()
         assertTrue("expected two answer cards, found ${answers.size}", answers.size == 2)
+    }
+
+    private fun skipOnboardingIfShown() {
+        val skip = context.getString(R.string.onboarding_skip)
+        val home = context.getString(R.string.home_intro_title)
+        compose.waitUntil(15_000) {
+            compose.onAllNodesWithText(skip).fetchSemanticsNodes().isNotEmpty() ||
+                compose.onAllNodesWithText(home).fetchSemanticsNodes().isNotEmpty()
+        }
+        if (compose.onAllNodesWithText(skip).fetchSemanticsNodes().isNotEmpty()) {
+            compose.onAllNodesWithText(skip).onFirst().performClick()
+        }
     }
 
     private fun waitForText(text: String, timeoutMs: Long = 15_000) {

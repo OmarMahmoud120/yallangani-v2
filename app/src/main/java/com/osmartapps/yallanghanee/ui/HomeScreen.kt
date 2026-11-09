@@ -57,6 +57,7 @@ fun HomeScreen(
     completedLessons: Set<String>,
     onStartLesson: (String) -> Unit,
     onResetProgress: () -> Unit,
+    onOpenGallery: (() -> Unit)? = null,
 ) {
     var showResetDialog by remember { mutableStateOf(false) }
     val completedCount = pack.lessons.count { it.id in completedLessons }
@@ -80,7 +81,7 @@ fun HomeScreen(
                 .padding(horizontal = 24.dp, vertical = 20.dp),
             verticalArrangement = Arrangement.spacedBy(20.dp),
         ) {
-            HomeHeader()
+            HomeHeader(onOpenGallery = onOpenGallery)
             Text(
                 text = stringResource(R.string.home_intro_body),
                 color = NightTextMuted,
@@ -149,18 +150,32 @@ fun HomeScreen(
 }
 
 @Composable
-private fun HomeHeader() {
-    Column {
-        Text(
-            text = stringResource(R.string.app_name),
-            color = NightGold,
-            style = MaterialTheme.typography.displayMedium,
-        )
-        Text(
-            text = stringResource(R.string.product_line),
-            color = NightTextMuted,
-            style = MaterialTheme.typography.labelMedium,
-        )
+private fun HomeHeader(onOpenGallery: (() -> Unit)?) {
+    Row(
+        modifier = Modifier.fillMaxWidth(),
+        verticalAlignment = Alignment.Top,
+    ) {
+        Column(modifier = Modifier.weight(1f)) {
+            Text(
+                text = stringResource(R.string.app_name),
+                color = NightGold,
+                style = MaterialTheme.typography.displayMedium,
+            )
+            Text(
+                text = stringResource(R.string.product_line),
+                color = NightTextMuted,
+                style = MaterialTheme.typography.labelMedium,
+            )
+        }
+        if (onOpenGallery != null) {
+            TextButton(onClick = onOpenGallery) {
+                Text(
+                    text = stringResource(R.string.gallery_title),
+                    color = NightTextMuted,
+                    style = MaterialTheme.typography.labelMedium,
+                )
+            }
+        }
     }
 }
 

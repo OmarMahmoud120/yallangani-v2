@@ -163,6 +163,14 @@ fun ListenOrb(
 
 enum class AnswerState { Idle, Correct, Incorrect, Revealed }
 
+fun answerState(optionId: String, selectedId: String?, answerId: String): AnswerState = when {
+    selectedId == null -> AnswerState.Idle
+    optionId == selectedId && optionId == answerId -> AnswerState.Correct
+    optionId == selectedId -> AnswerState.Incorrect
+    optionId == answerId -> AnswerState.Revealed
+    else -> AnswerState.Idle
+}
+
 @Composable
 fun AnswerCard(
     label: String,

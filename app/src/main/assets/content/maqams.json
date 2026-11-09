@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "notice": "حزمة تطوير: العبارات الثلاث الأولى ألحان مُصنَّعة داخل المشروع (CC0) وتُستبدل بحزمة المقامات المرخّصة قبل النشر.",
   "maqams": [
     {
@@ -30,6 +30,72 @@
       "status": "approved"
     }
   ],
+  "onboarding": {
+    "steps": [
+      {
+        "id": "high_low",
+        "prompt_ar": "أي النغمتين أعلى؟",
+        "audio": "on-01-high-low.mp3",
+        "options": [
+          { "id": "first", "label_ar": "الأولى" },
+          { "id": "second", "label_ar": "الثانية" }
+        ],
+        "answer": "second",
+        "explanation_ar": "الثانية أعلى بخمس درجات تقريبًا؛ الأذن تقيس الارتفاع بسرعة."
+      },
+      {
+        "id": "up_down",
+        "prompt_ar": "أي المقطعين يبدأ صاعدًا؟",
+        "audio": "on-02-up-down.mp3",
+        "options": [
+          { "id": "first", "label_ar": "الأولى" },
+          { "id": "second", "label_ar": "الثانية" }
+        ],
+        "answer": "first",
+        "explanation_ar": "الصعود يبني التوقع نحو الأعلى، والهبوط يعيدك إلى القرار."
+      },
+      {
+        "id": "same_different",
+        "prompt_ar": "هل النغمتان متطابقتان؟",
+        "audio": "on-03-same-different.mp3",
+        "options": [
+          { "id": "same", "label_ar": "متطابقتان" },
+          { "id": "different", "label_ar": "مختلفتان" }
+        ],
+        "answer": "different",
+        "explanation_ar": "الثانية أعلى قليلًا؛ حتى الفرق الصغير له اسم."
+      },
+      {
+        "id": "long_short",
+        "prompt_ar": "أي النغمتين أطول؟",
+        "audio": "on-04-long-short.mp3",
+        "options": [
+          { "id": "first", "label_ar": "الأولى" },
+          { "id": "second", "label_ar": "الثانية" }
+        ],
+        "answer": "first",
+        "explanation_ar": "المدة جزء من شخصية النغمة، لا الارتفاع وحده."
+      },
+      {
+        "id": "home_note",
+        "prompt_ar": "أي المقطعين ينتهي على نغمة البيت؟",
+        "audio": "on-05-home-note.mp3",
+        "options": [
+          { "id": "first", "label_ar": "الأولى" },
+          { "id": "second", "label_ar": "الثانية" }
+        ],
+        "answer": "second",
+        "explanation_ar": "ما قبل النهاية يبني التوقع، والنهاية تستقر على البيت فوق الدرون."
+      }
+    ],
+    "first_win": {
+      "prompt_ar": "أي مقام تسمع؟",
+      "audio": "01-alhijaz.mp3",
+      "maqam_ids": ["hijaz", "nahawand"],
+      "answer": "hijaz",
+      "explanation_ar": "المسافة الزائدة بين الدرجتين الثانية والثالثة هي توقيع الحجاز."
+    }
+  },
   "lessons": [
     {
       "id": "hijaz_nahawand",

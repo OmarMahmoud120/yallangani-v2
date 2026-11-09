@@ -16,8 +16,6 @@ import androidx.compose.foundation.layout.safeDrawingPadding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.material3.Button
-import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
@@ -34,6 +32,7 @@ import com.osmartapps.yallanghanee.game.LessonResult
 import com.osmartapps.yallanghanee.model.MaqamPack
 import com.osmartapps.yallanghanee.ui.components.MaqamSigil
 import com.osmartapps.yallanghanee.ui.components.MasteryRing
+import com.osmartapps.yallanghanee.ui.components.PrimaryActionButton
 import com.osmartapps.yallanghanee.ui.theme.NightBg
 import com.osmartapps.yallanghanee.ui.theme.NightGold
 import com.osmartapps.yallanghanee.ui.theme.NightOutlineSoft
@@ -138,7 +137,7 @@ fun ResultsScreen(
         }
         Spacer(Modifier.height(20.dp))
         if (result.passed && hasNextLesson) {
-            PrimaryButton(
+            PrimaryActionButton(
                 label = stringResource(R.string.results_next),
                 onClick = onNext,
             )
@@ -150,12 +149,12 @@ fun ResultsScreen(
                 )
             }
         } else if (result.passed) {
-            PrimaryButton(
+            PrimaryActionButton(
                 label = stringResource(R.string.results_home),
                 onClick = onHome,
             )
         } else {
-            PrimaryButton(
+            PrimaryActionButton(
                 label = stringResource(R.string.results_retry),
                 onClick = onRetry,
             )
@@ -171,19 +170,3 @@ fun ResultsScreen(
     }
 }
 
-@Composable
-private fun PrimaryButton(label: String, onClick: () -> Unit) {
-    Button(
-        onClick = onClick,
-        modifier = Modifier
-            .fillMaxWidth()
-            .height(58.dp),
-        shape = RoundedCornerShape(18.dp),
-        colors = ButtonDefaults.buttonColors(
-            containerColor = NightGold,
-            contentColor = NightBg,
-        ),
-    ) {
-        Text(text = label, style = MaterialTheme.typography.titleMedium)
-    }
-}

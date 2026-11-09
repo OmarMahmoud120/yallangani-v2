@@ -3,8 +3,7 @@
     <string name="app_name">يلا نغني</string>
     <string name="product_line">نغمة | مقام</string>
 
-    <string name="home_intro_title">تعلّم اللحن</string>
-    <string name="home_intro_body">اسمع العبارة، ثم اختر المقام. لا تحتاج إلى معرفة مسبقة.</string>
+    <string name="home_intro_title">تعلّم اللحن</string>    <string name="home_intro_body">اسمع العبارة، ثم اختر المقام. لا تحتاج إلى معرفة مسبقة.</string>
     <string name="home_continue">تابع درسك</string>
     <string name="home_start">ابدأ أول درس</string>
     <string name="home_completed">أتقنت الدروس الثلاثة</string>
@@ -17,6 +16,14 @@
     <string name="maqam_done">أُتقن</string>
     <string name="maqam_new">جديد</string>
     <string name="maqam_lesson_count">%1$d دروس</string>
+
+    <string name="onboarding_skip">تخطّي</string>
+    <string name="onboarding_eyebrow">تمرين الاستماع</string>
+    <string name="onboarding_challenge">تحديك الأول</string>
+    <string name="onboarding_listen_hint">اضغط الكرة لسماع المقطع</string>
+    <string name="onboarding_replay_hint">اسمع مرة أخرى</string>
+    <string name="onboarding_next">التالي</string>
+    <string name="onboarding_start">ابدأ رحلتك</string>
 
     <string name="lesson_position">الدرس %1$d من %2$d</string>
     <string name="lesson_prompt">أي مقام تسمع؟</string>
@@ -66,4 +73,30 @@
     <string name="load_error">تعذّر تحميل المحتوى</string>
     <string name="retry">إعادة المحاولة</string>
     <string name="demo_notice">حزمة تطوير: العبارات ألحان تجريبية.</string>
+
+    <string name="gallery_title">مختبر المكوّنات</string>
+    <string name="gallery_back">رجوع</string>
+    <string name="gallery_sigils">توقيعات المقامات</string>
+    <string name="gallery_orb">كرة الاستماع</string>
+    <string name="gallery_orb_idle">خامل</string>
+    <string name="gallery_orb_playing">يعمل</string>
+    <string name="gallery_orb_complete">اكتمل</string>
+    <string name="gallery_orb_disabled">معطّل</string>
+    <string name="gallery_answers">بطاقات الإجابة</string>
+    <string name="gallery_answer_idle">حالة خاملة</string>
+    <string name="gallery_answer_correct">إجابة صحيحة</string>
+    <string name="gallery_answer_incorrect">إجابة خاطئة</string>
+    <string name="gallery_answer_revealed">الإجابة الصحيحة</string>
+    <string name="gallery_progress">نقاط التقدم</string>
+    <string name="gallery_mastery">حلقة الإتقان</string>
+    <string name="gallery_mastery_none">غير مكتمل</string>
+    <string name="gallery_mastery_done">مكتمل</string>
+    <string name="gallery_controls">أدوات الدرس</string>
+    <string name="gallery_feedback">التغذية الراجعة</string>
+    <string name="gallery_audio_error">خطأ الصوت</string>
+    <string name="gallery_typography">الطباعة</string>
+    <string name="gallery_type_display">يلا نغني</string>
+    <string name="gallery_type_headline">تعلّم اللحن، درسًا بعد درس</string>
+    <string name="gallery_type_body">اسمع العبارة كاملة قبل أن تختار؛ الإعادة مجانية دائمًا.</string>
+    <string name="gallery_type_label">تفاصيل صغيرة تحت العناوين</string>
 </resources>

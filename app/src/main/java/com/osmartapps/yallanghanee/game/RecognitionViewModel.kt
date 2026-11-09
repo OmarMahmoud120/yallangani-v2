@@ -33,6 +33,8 @@ data class RecognitionUiState(
     val error: String? = null,
     val pack: MaqamPack? = null,
     val completedLessons: Set<String> = emptySet(),
+    val onboardingStep: Int = 0,
+    val onboardingComplete: Boolean? = null,
     val session: RecognitionSession? = null,
     val result: LessonResult? = null,
 ) {
@@ -60,9 +62,31 @@ class RecognitionViewModel(
                 _state.update { it.copy(completedLessons = completed) }
             }
         }
+        viewModelScope.launch {
+            progressStore.onboarding.collect { progress ->
+                _state.update {
+                    it.copy(
+                        onboardingStep = progress.step,
+                        onboardingComplete = progress.complete,
+                    )
+                }
+            }
+        }
     }
 
     fun retry() = load()
+
+    fun onboardingNext() {
+        val steps = _state.value.pack?.onboarding?.steps ?: return
+        val next = (_state.value.onboardingStep + 1).coerceAtMost(steps.size)
+        _state.update { it.copy(onboardingStep = next) }
+        viewModelScope.launch(Dispatchers.IO) { progressStore.setOnboardingStep(next) }
+    }
+
+    fun completeOnboarding() {
+        _state.update { it.copy(onboardingComplete = true) }
+        viewModelScope.launch(Dispatchers.IO) { progressStore.completeOnboarding() }
+    }
 
     fun startLesson(lessonId: String) {
         val pack = _state.value.pack ?: return

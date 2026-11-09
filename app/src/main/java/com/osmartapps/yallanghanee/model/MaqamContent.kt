@@ -8,10 +8,42 @@ data class MaqamPack(
     val version: Int,
     val notice: String? = null,
     val maqams: List<Maqam>,
+    val onboarding: Onboarding,
     val lessons: List<RecognitionLesson>,
 ) {
     fun maqamById(id: String): Maqam? = maqams.firstOrNull { it.id == id }
 }
+
+@Serializable
+data class Onboarding(
+    val steps: List<OnboardingStep>,
+    @SerialName("first_win") val firstWin: FirstWin,
+)
+
+@Serializable
+data class OnboardingStep(
+    val id: String,
+    @SerialName("prompt_ar") val promptAr: String,
+    val audio: String,
+    val options: List<OnboardingOption>,
+    val answer: String,
+    @SerialName("explanation_ar") val explanationAr: String,
+)
+
+@Serializable
+data class OnboardingOption(
+    val id: String,
+    @SerialName("label_ar") val labelAr: String,
+)
+
+@Serializable
+data class FirstWin(
+    @SerialName("prompt_ar") val promptAr: String,
+    val audio: String,
+    @SerialName("maqam_ids") val maqamIds: List<String>,
+    val answer: String,
+    @SerialName("explanation_ar") val explanationAr: String,
+)
 
 @Serializable
 data class Maqam(

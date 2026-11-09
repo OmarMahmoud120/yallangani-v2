@@ -2,7 +2,6 @@ package com.osmartapps.yallanghanee.ui
 
 import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.background
-import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.BoxWithConstraints
@@ -15,13 +14,9 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.safeDrawingPadding
 import androidx.compose.foundation.rememberScrollState
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Close
-import androidx.compose.material3.AlertDialog
-import androidx.compose.material3.Button
-import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
@@ -38,28 +33,25 @@ import androidx.compose.runtime.setValue
 import androidx.compose.runtime.withFrameNanos
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.semantics.LiveRegionMode
-import androidx.compose.ui.semantics.liveRegion
-import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.unit.dp
 import com.osmartapps.yallanghanee.R
 import com.osmartapps.yallanghanee.audio.AudioPlayer
 import com.osmartapps.yallanghanee.game.RecognitionSession
 import com.osmartapps.yallanghanee.ui.components.AnswerCard
-import com.osmartapps.yallanghanee.ui.components.AnswerState
+import com.osmartapps.yallanghanee.ui.components.AudioErrorPanel
+import com.osmartapps.yallanghanee.ui.components.ExitLessonDialog
+import com.osmartapps.yallanghanee.ui.components.FeedbackPanel
 import com.osmartapps.yallanghanee.ui.components.ListenOrb
+import com.osmartapps.yallanghanee.ui.components.PrimaryActionButton
 import com.osmartapps.yallanghanee.ui.components.ProgressDots
+import com.osmartapps.yallanghanee.ui.components.SlowToggle
+import com.osmartapps.yallanghanee.ui.components.answerState
 import com.osmartapps.yallanghanee.ui.theme.NightBg
-import com.osmartapps.yallanghanee.ui.theme.NightError
 import com.osmartapps.yallanghanee.ui.theme.NightGold
-import com.osmartapps.yallanghanee.ui.theme.NightOutlineSoft
 import com.osmartapps.yallanghanee.ui.theme.NightSurface
-import com.osmartapps.yallanghanee.ui.theme.NightSurfaceHigh
-import com.osmartapps.yallanghanee.ui.theme.NightSuccess
 import com.osmartapps.yallanghanee.ui.theme.NightText
 import com.osmartapps.yallanghanee.ui.theme.NightTextMuted
 import com.osmartapps.yallanghanee.ui.theme.maqamColor
@@ -193,7 +185,7 @@ fun LessonScreen(
                     ProgressDots(current = session.index, total = session.total)
                 }
                 SlowToggle(
-                    enabled = slow,
+                    active = slow,
                     onToggle = {
                         slow = !slow
                         stopPlayback()
@@ -260,7 +252,8 @@ fun LessonScreen(
                 question.options.forEachIndexed { index, option ->
                     val state = answerState(
                         optionId = option.id,
-                        session = session,
+                        selectedId = session.selectedId,
+                        answerId = question.answer.id,
                     )
                     AnswerCard(
                         label = option.nameAr,
@@ -283,22 +276,10 @@ fun LessonScreen(
                     explanation = question.explanation,
                     accent = maqamColor(question.answer.id),
                 )
-                Button(
+                PrimaryActionButton(
+                    label = stringResource(R.string.lesson_next),
                     onClick = onNext,
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .height(56.dp),
-                    shape = RoundedCornerShape(18.dp),
-                    colors = ButtonDefaults.buttonColors(
-                        containerColor = NightGold,
-                        contentColor = NightBg,
-                    ),
-                ) {
-                    Text(
-                        text = stringResource(R.string.lesson_next),
-                        style = MaterialTheme.typography.titleMedium,
-                    )
-                }
+                )
             } else if (audioError) {
                 AudioErrorPanel(
                     onRetry = { playPhrase() },
@@ -317,147 +298,5 @@ fun LessonScreen(
                 onDismiss = { showExitDialog = false },
             )
         }
-    }
-}
-
-@Composable
-private fun SlowToggle(enabled: Boolean, onToggle: () -> Unit) {
-    TextButton(onClick = onToggle) {
-        Text(
-            text = stringResource(
-                if (enabled) R.string.lesson_slow_on else R.string.lesson_slow,
-            ),
-            color = if (enabled) NightGold else NightTextMuted,
-            style = MaterialTheme.typography.labelLarge,
-        )
-    }
-}
-
-@Composable
-private fun FeedbackPanel(
-    correct: Boolean,
-    answerName: String,
-    explanation: String,
-    accent: androidx.compose.ui.graphics.Color,
-) {
-    val tone = if (correct) NightSuccess else NightError
-    Column(
-        modifier = Modifier
-            .fillMaxWidth()
-            .clip(RoundedCornerShape(20.dp))
-            .background(tone.copy(alpha = 0.12f))
-            .border(1.dp, tone.copy(alpha = 0.55f), RoundedCornerShape(20.dp))
-            .semantics { liveRegion = LiveRegionMode.Polite }
-            .padding(18.dp),
-        verticalArrangement = Arrangement.spacedBy(8.dp),
-    ) {
-        Text(
-            text = stringResource(
-                if (correct) R.string.lesson_correct else R.string.lesson_wrong,
-            ),
-            color = tone,
-            style = MaterialTheme.typography.titleMedium,
-        )
-        if (!correct) {
-            Text(
-                text = stringResource(R.string.lesson_answer_is, answerName),
-                color = accent,
-                style = MaterialTheme.typography.labelLarge,
-            )
-        }
-        Text(
-            text = explanation,
-            color = NightText,
-            style = MaterialTheme.typography.bodyMedium,
-        )
-    }
-}
-
-@Composable
-private fun AudioErrorPanel(onRetry: () -> Unit, onSkip: () -> Unit) {
-    Column(
-        modifier = Modifier
-            .fillMaxWidth()
-            .clip(RoundedCornerShape(20.dp))
-            .background(NightSurfaceHigh)
-            .border(1.dp, NightOutlineSoft, RoundedCornerShape(20.dp))
-            .padding(18.dp),
-        verticalArrangement = Arrangement.spacedBy(10.dp),
-    ) {
-        Text(
-            text = stringResource(R.string.lesson_audio_error),
-            color = NightText,
-            style = MaterialTheme.typography.titleSmall,
-        )
-        Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-            TextButton(onClick = onRetry) {
-                Text(
-                    text = stringResource(R.string.lesson_retry),
-                    color = NightGold,
-                    style = MaterialTheme.typography.labelLarge,
-                )
-            }
-            TextButton(onClick = onSkip) {
-                Text(
-                    text = stringResource(R.string.lesson_skip),
-                    color = NightTextMuted,
-                    style = MaterialTheme.typography.labelLarge,
-                )
-            }
-        }
-    }
-}
-
-@Composable
-private fun ExitLessonDialog(onConfirm: () -> Unit, onDismiss: () -> Unit) {
-    AlertDialog(
-        onDismissRequest = onDismiss,
-        title = {
-            Text(
-                text = stringResource(R.string.lesson_exit_title),
-                color = NightText,
-                style = MaterialTheme.typography.titleLarge,
-            )
-        },
-        text = {
-            Text(
-                text = stringResource(R.string.lesson_exit_body),
-                color = NightTextMuted,
-                style = MaterialTheme.typography.bodyMedium,
-            )
-        },
-        confirmButton = {
-            TextButton(onClick = onConfirm) {
-                Text(
-                    text = stringResource(R.string.lesson_exit_confirm),
-                    color = NightGold,
-                    style = MaterialTheme.typography.labelLarge,
-                )
-            }
-        },
-        dismissButton = {
-            TextButton(onClick = onDismiss) {
-                Text(
-                    text = stringResource(R.string.lesson_exit_cancel),
-                    color = NightTextMuted,
-                    style = MaterialTheme.typography.labelLarge,
-                )
-            }
-        },
-        containerColor = NightSurfaceHigh,
-    )
-}
-
-private fun answerState(
-    optionId: String,
-    session: RecognitionSession,
-): AnswerState {
-    if (!session.answered) return AnswerState.Idle
-    val answerId = session.question.answer.id
-    return when {
-        optionId == session.selectedId && optionId == answerId -> AnswerState.Correct
-        optionId == session.selectedId -> AnswerState.Incorrect
-        optionId == answerId -> AnswerState.Revealed
-        else -> AnswerState.Idle
     }
 }

@@ -1,7 +1,9 @@
 package com.osmartapps.yallanghanee.game
 
+import com.osmartapps.yallanghanee.model.FirstWin
 import com.osmartapps.yallanghanee.model.Maqam
 import com.osmartapps.yallanghanee.model.MaqamPack
+import com.osmartapps.yallanghanee.model.Onboarding
 import com.osmartapps.yallanghanee.model.RecognitionItem
 import com.osmartapps.yallanghanee.model.RecognitionLesson
 import org.junit.Assert.assertEquals
@@ -38,8 +40,18 @@ class RecognitionEngineTest {
         ),
     )
     private val pack = MaqamPack(
-        version = 1,
+        version = 2,
         maqams = listOf(hijaz, nahawand),
+        onboarding = Onboarding(
+            steps = emptyList(),
+            firstWin = FirstWin(
+                promptAr = "أي مقام تسمع؟",
+                audio = "01-alhijaz.mp3",
+                maqamIds = listOf("hijaz", "nahawand"),
+                answer = "hijaz",
+                explanationAr = "توقيع الحجاز",
+            ),
+        ),
         lessons = listOf(lesson),
     )
 

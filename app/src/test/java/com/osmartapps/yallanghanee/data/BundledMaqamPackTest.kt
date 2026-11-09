@@ -62,4 +62,12 @@ class BundledMaqamPackTest {
         assertTrue(pack.maqams.all { it.status == "approved" })
         assertTrue(pack.maqams.all { it.signatureAr.isNotBlank() })
     }
+
+    @Test
+    fun `onboarding teaches five drills and a known first win`() {
+        assertEquals(5, pack.onboarding.steps.size)
+        val firstWin = pack.onboarding.firstWin
+        assertTrue("first win answer must be one of its options", firstWin.answer in firstWin.maqamIds)
+        assertTrue("first win answer must be a known maqam", pack.maqamById(firstWin.answer) != null)
+    }
 }

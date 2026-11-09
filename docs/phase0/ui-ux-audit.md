@@ -19,11 +19,14 @@
 | F-03 under-instrumented audio | Implemented | `audio/AudioPlayer.kt` (0.75× pitch-preserved, A/B sequence), lesson orb |
 | F-04 non-teaching feedback | Implemented | `ui/LessonScreen.kt` feedback panel + results summary |
 | F-05 ads inside the learning loop | Implemented | `ui/YallaApp.kt` no longer references `AdsController` |
+| §9 component gallery | Implemented (debug builds only) | `ui/gallery/GalleryScreen.kt`, opened from the Home header when `BuildConfig.DEBUG` |
+| §14.2 step 3 onboarding + first win | Implemented | `ui/OnboardingScreen.kt`, `onboarding` block in `maqams.json`, `data/ProgressStore.kt` |
+| §11 accessibility gate | Verified 2026-11-10 | TalkBack traversal, 200% font scale, 320 dp width, measured contrast (see §11.5) |
 
-Still open from this plan: interactive onboarding micro-exercises (dropped from the slice; the
-first lesson is the first win), the 18-phrase-per-maqam pack, profile/settings (#20), a TalkBack
-pass, and the instrumented recognition-flow test. The shipped lessons use the three existing demo
-phrases and say so in the pack notice.
+Still open from this plan: the 18-phrase-per-maqam pack, profile/settings (#20), a full TalkBack
+and 200% font-scale pass, and the 5-user usability test. The shipped lessons use the three existing
+demo phrases and say so in the pack notice; the five onboarding drills and the first-win item are
+generated CC0 clips documented in `docs/CONTENT_LICENSES.md`.
 
 ---
 
@@ -672,6 +675,32 @@ the visual order is right-to-left and the traversal follows it automatically.
   library detail so a deaf or hard-of-hearing user can still learn the vocabulary. Do not claim
   the listening skill is accessible without hearing; be explicit in the store listing.
 
+### 11.5 Verification pass (2026-11-10)
+
+Run on the SM-S908E with the debug build, TalkBack enabled for the traversal pass.
+
+- **TalkBack traversal:** Home → «ابدأ أول درس» → lesson → answer → feedback → «التالي» → next
+  item completed with keyboard/accessibility focus only (Enter to activate). The feedback panel is
+  a polite live region, so the result and explanation are announced without stealing focus; answer
+  cards announce «حجاز، خيار ١ من ٢»; progress announces «الدرس ١ من ٤» (lessons) and «الخطوة ١
+  من ٥» (onboarding); close, slow, A/B, retry, and skip controls all have Arabic labels.
+- **Deviations from §11.2:** the shipped orb label is «اسمع العبارة» (not «استمع إلى العبارة»),
+  feedback uses a *polite* (not assertive) live region so it does not interrupt the current
+  utterance, and progress dots announce the position on the dot row rather than individually.
+- **200% font scale:** onboarding (including feedback and the primary button), Home, lesson, and
+  results render without clipping or overlap at 384 dp width. Feedback auto-scrolls to the next
+  action, so the CTA stays reachable.
+- **320 dp width:** all screens render; the onboarding CTA previously fell below the fold after
+  feedback, so `OnboardingScreen` now scrolls to the action when an answer is committed, matching
+  `LessonScreen`.
+- **Contrast (measured):** text pairs 8.31–16.28:1; primary button 8.95:1. Interactive boundaries:
+  idle answer card 3.17:1, correct 5.54:1, incorrect 4.78:1, revealed 3.88:1. Decorative panel
+  borders (`NightOutlineSoft`) are below 3:1 against `NightSurfaceHigh`, but those panels are not
+  interactive; every interactive boundary passes.
+- **Still manual:** spoken TalkBack output was not recorded; the semantic tree, labels, focus
+  order, and activation path were verified. A native-speaker listening check of TTS pronunciation
+  is recommended before release.
+
 ---
 
 ## 12. Copy deck (Arabic) and terminology
@@ -777,6 +806,9 @@ no gambling language, no ad copy. Every explanation names the interval or the no
 | 5 | Feedback, scaffolds, results | #17 |
 | 6 | Library + settings | #20 |
 | 7 | Accessibility/RTL gate + 5-user usability test | #25 |
+
+Steps 1–5 landed in the 2026-11-10 P0 slice (the world map from step 2 is deferred; Home opens the
+three lessons directly). Steps 6–7 remain open.
 
 **Design-first gate:** every step lands as a preview/gallery screen before it is wired to real
 content. No production lesson code until the owner approves the corresponding screen spec.
