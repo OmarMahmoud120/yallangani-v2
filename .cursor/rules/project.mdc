@@ -1,0 +1,23 @@
+---
+description: Yalla Nghanni Android game project rules
+alwaysApply: true
+---
+
+# Yalla Nghanni
+
+Offline-first Arabic/RTL song-guessing game. Kotlin + Jetpack Compose, single `:app` module.
+Read `AGENTS.md` before making changes.
+
+Key rules:
+
+- Keep `game/GameEngine.kt` pure Kotlin (no Android imports) and covered by unit tests.
+- Route every Arabic comparison through `game/ArabicText.kt`; never compare raw strings.
+- Levels come only from `app/src/main/assets/content/levels.json`; audio only from
+  `app/src/main/assets/content/audio/`. Document every track in `docs/CONTENT_LICENSES.md`.
+- Network is only for AdMob: one interstitial after every 5th solved round, one opt-in rewarded
+  ad for the hint. No banners, app-open ads, analytics, billing, accounts, or Play Games.
+- Never commit real AdMob IDs; builds default to Google test unit IDs and read overrides from
+  Gradle properties (`admob.appId`, `admob.interstitialUnitId`, `admob.rewardedUnitId`).
+- Gameplay must stay fully functional offline; ad failures never block progression.
+- User-facing strings go in `res/values/strings.xml` (Arabic). Layouts must be verified in RTL.
+- Verify with `./gradlew :app:testDebugUnitTest` and `./gradlew :app:assembleDebug`.

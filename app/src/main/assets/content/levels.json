@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "question": "ما اسم هذه الأغنية؟",
+  "notice": "حزمة تجريبية: ألحان مُصنَّعة داخل المشروع ولا تحتوي على تسجيلات محمية. استبدلها بمحتوى مرخّص قبل النشر.",
+  "levels": [
+    { "id": 1, "title": "لحن الحجاز", "audio": "01-alhijaz.mp3" },
+    { "id": 2, "title": "لحن النهاوند", "audio": "02-alnahawand.mp3" },
+    { "id": 3, "title": "لحن الكرد", "audio": "03-alkurd.mp3" },
+    { "id": 4, "title": "لحن الصبا", "audio": "04-alsaba.mp3" },
+    { "id": 5, "title": "لحن البياتي", "audio": "05-albayati.mp3" },
+    { "id": 6, "title": "لحن الرست", "audio": "06-alrast.mp3" },
+    { "id": 7, "title": "لحن السيكا", "audio": "07-alsika.mp3" },
+    { "id": 8, "title": "لحن العجم", "audio": "08-alajam.mp3" },
+    { "id": 9, "title": "لحن الهزام", "audio": "09-alhuzam.mp3" },
+    { "id": 10, "title": "لحن البنجكاه", "audio": "10-albanjkah.mp3" }
+  ]
+}

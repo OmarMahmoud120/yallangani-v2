@@ -1,0 +1,10 @@
+out/
+__pycache__/
+# audio/video must never be committed here; this folder takes MIDI only
+melodies/*.mp4
+melodies/*.webm
+melodies/*.mkv
+melodies/*.mp3
+melodies/*.wav
+melodies/*.m4a
+melodies/*.aac
