@@ -17,21 +17,22 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.osmartapps.yallanghanee.R
-import com.osmartapps.yallanghanee.ui.theme.BrandCream
-import com.osmartapps.yallanghanee.ui.theme.BrandGold
-import com.osmartapps.yallanghanee.ui.theme.BrandRedDeep
+import com.osmartapps.yallanghanee.ui.theme.NightBg
+import com.osmartapps.yallanghanee.ui.theme.NightGold
+import com.osmartapps.yallanghanee.ui.theme.NightText
+import com.osmartapps.yallanghanee.ui.theme.NightTextMuted
 
 @Composable
 fun LoadingState() {
     Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
         Column(
             horizontalAlignment = Alignment.CenterHorizontally,
-            verticalArrangement = Arrangement.spacedBy(16.dp),
+            verticalArrangement = Arrangement.spacedBy(18.dp),
         ) {
-            CircularProgressIndicator(color = BrandGold)
+            CircularProgressIndicator(color = NightGold)
             Text(
                 text = stringResource(R.string.loading),
-                color = BrandCream,
+                color = NightTextMuted,
                 style = MaterialTheme.typography.titleMedium,
             )
         }
@@ -41,7 +42,9 @@ fun LoadingState() {
 @Composable
 fun ErrorState(onRetry: () -> Unit) {
     Box(
-        modifier = Modifier.fillMaxSize().padding(32.dp),
+        modifier = Modifier
+            .fillMaxSize()
+            .padding(32.dp),
         contentAlignment = Alignment.Center,
     ) {
         Column(
@@ -50,18 +53,21 @@ fun ErrorState(onRetry: () -> Unit) {
         ) {
             Text(
                 text = stringResource(R.string.load_error),
-                color = BrandCream,
-                style = MaterialTheme.typography.titleLarge,
+                color = NightText,
+                style = MaterialTheme.typography.headlineSmall,
                 textAlign = TextAlign.Center,
             )
             Button(
                 onClick = onRetry,
                 colors = ButtonDefaults.buttonColors(
-                    containerColor = BrandGold,
-                    contentColor = BrandRedDeep,
+                    containerColor = NightGold,
+                    contentColor = NightBg,
                 ),
             ) {
-                Text(stringResource(R.string.retry), style = MaterialTheme.typography.titleMedium)
+                Text(
+                    text = stringResource(R.string.retry),
+                    style = MaterialTheme.typography.titleMedium,
+                )
             }
         }
     }

@@ -22,3 +22,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Yallanghanni"
 include(":app")
+include(":spike")

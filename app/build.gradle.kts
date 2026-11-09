@@ -94,7 +94,6 @@ dependencies {
 
     implementation(libs.androidx.datastore.preferences)
     implementation(libs.kotlinx.serialization.json)
-    implementation(libs.lottie.compose)
     implementation(libs.play.services.ads)
 
     debugImplementation(libs.androidx.compose.ui.tooling)

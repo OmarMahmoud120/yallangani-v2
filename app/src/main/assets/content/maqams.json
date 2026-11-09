@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "notice": "حزمة تطوير: العبارات الثلاث الأولى ألحان مُصنَّعة داخل المشروع (CC0) وتُستبدل بحزمة المقامات المرخّصة قبل النشر.",
+  "maqams": [
+    {
+      "id": "hijaz",
+      "name_ar": "حجاز",
+      "color": "#C97B5A",
+      "jins_ar": "جنس حجاز",
+      "signature_ar": "المسافة الزائدة بين الدرجتين الثانية والثالثة هي توقيع الحجاز.",
+      "audio": "01-alhijaz.mp3",
+      "status": "approved"
+    },
+    {
+      "id": "nahawand",
+      "name_ar": "نهاوند",
+      "color": "#C77E9B",
+      "jins_ar": "جنس نهاوند",
+      "signature_ar": "الدرجة الثالثة صغيرة؛ هذا هو المقام الصغير المألوف للأذن.",
+      "audio": "02-alnahawand.mp3",
+      "status": "approved"
+    },
+    {
+      "id": "rast",
+      "name_ar": "راست",
+      "color": "#E2A45C",
+      "jins_ar": "جنس راست",
+      "signature_ar": "الدرجة الثالثة محايدة بين الكبير والصغير؛ هذا هو قرار الرست.",
+      "audio": "06-alrast.mp3",
+      "status": "approved"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "hijaz_nahawand",
+      "title_ar": "حجاز أم نهاوند؟",
+      "maqam_ids": ["hijaz", "nahawand"],
+      "items": [
+        { "id": "hn_1", "answer": "hijaz" },
+        { "id": "hn_2", "answer": "nahawand" },
+        { "id": "hn_3", "answer": "hijaz" },
+        { "id": "hn_4", "answer": "nahawand" }
+      ]
+    },
+    {
+      "id": "rast_hijaz",
+      "title_ar": "راست أم حجاز؟",
+      "maqam_ids": ["rast", "hijaz"],
+      "items": [
+        { "id": "rh_1", "answer": "rast" },
+        { "id": "rh_2", "answer": "hijaz" },
+        { "id": "rh_3", "answer": "rast" },
+        { "id": "rh_4", "answer": "hijaz" }
+      ]
+    },
+    {
+      "id": "rast_nahawand",
+      "title_ar": "راست أم نهاوند؟",
+      "maqam_ids": ["rast", "nahawand"],
+      "items": [
+        { "id": "rn_1", "answer": "nahawand" },
+        { "id": "rn_2", "answer": "rast" },
+        { "id": "rn_3", "answer": "nahawand" },
+        { "id": "rn_4", "answer": "rast" }
+      ]
+    }
+  ]
+}

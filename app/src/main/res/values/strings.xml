@@ -1,41 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">يلا نغني</string>
+    <string name="product_line">نغمة | مقام</string>
 
-    <string name="home_play">ابدأ</string>
-    <string name="home_stage">المرحلة %1$d من %2$d</string>
-    <string name="home_solved">تم حل %1$d من %2$d</string>
-    <string name="home_complete">أكملت كل المراحل</string>
+    <string name="home_intro_title">تعلّم اللحن</string>
+    <string name="home_intro_body">اسمع العبارة، ثم اختر المقام. لا تحتاج إلى معرفة مسبقة.</string>
+    <string name="home_continue">تابع درسك</string>
+    <string name="home_start">ابدأ أول درس</string>
+    <string name="home_completed">أتقنت الدروس الثلاثة</string>
+    <string name="home_progress">%1$d من %2$d دروس</string>
+    <string name="home_path">مسارك</string>
+    <string name="home_library">المقامات</string>
+    <string name="home_offline">يعمل بدون إنترنت</string>
     <string name="home_reset">إعادة التقدم</string>
-    <string name="home_footer">موسيقى تجريبية • تعمل بدون إنترنت</string>
+    <string name="home_next_review">درسك القادم: %1$s</string>
+    <string name="maqam_done">أُتقن</string>
+    <string name="maqam_new">جديد</string>
+    <string name="maqam_lesson_count">%1$d دروس</string>
+
+    <string name="lesson_position">الدرس %1$d من %2$d</string>
+    <string name="lesson_prompt">أي مقام تسمع؟</string>
+    <string name="lesson_listen">اسمع العبارة</string>
+    <string name="lesson_playing">يعمل الآن…</string>
+    <string name="lesson_stop">أوقف التشغيل</string>
+    <string name="lesson_replay">إعادة</string>
+    <string name="lesson_slow">أبطأ</string>
+    <string name="lesson_slow_on">أبطأ مفعّل</string>
+    <string name="lesson_compare">اسمع الفرق</string>
+    <string name="lesson_compare_caption">%1$s ثم %2$s</string>
+    <string name="lesson_correct">أحسنت</string>
+    <string name="lesson_wrong">ليس تمامًا</string>
+    <string name="lesson_answer_is">الإجابة: %1$s</string>
+    <string name="lesson_next">التالي</string>
+    <string name="lesson_close">إغلاق</string>
+    <string name="lesson_answer_cd">%1$s، خيار %2$d من %3$d</string>
+    <string name="lesson_progress_cd">الخطوة %1$d من %2$d</string>
+
+    <string name="lesson_exit_title">إنهاء الدرس؟</string>
+    <string name="lesson_exit_body">سيُلغى تقدمك في هذا الدرس، ويمكنك البدء من جديد لاحقًا.</string>
+    <string name="lesson_exit_confirm">إنهاء</string>
+    <string name="lesson_exit_cancel">متابعة</string>
+
+    <string name="lesson_audio_error">تعذّر تشغيل المقطع</string>
+    <string name="lesson_retry">إعادة المحاولة</string>
+    <string name="lesson_skip">تخطّي</string>
+
+    <string name="results_title">نتيجة الدرس</string>
+    <string name="results_score">%1$d من %2$d</string>
+    <string name="results_passed">أذنك بدأت تلتقط الفرق</string>
+    <string name="results_failed">أعد الدرس لتثبيت الفرق</string>
+    <string name="results_learned">ما تعلمته</string>
+    <string name="results_next">الدرس التالي</string>
+    <string name="results_retry">أعد الدرس</string>
+    <string name="results_home">إلى الرئيسية</string>
+    <string name="results_correct">صحيح</string>
+    <string name="results_wrong">خطأ</string>
+    <string name="results_item_cd">%1$s، %2$s</string>
 
     <string name="reset_title">إعادة التقدم؟</string>
-    <string name="reset_message">سيُحذف تقدمك وعداد الجولات. لا يمكن التراجع.</string>
+    <string name="reset_message">سيُحذف تقدمك في الدروس. لا يمكن التراجع.</string>
     <string name="reset_confirm">إعادة</string>
     <string name="reset_cancel">إلغاء</string>
-
-    <string name="onboarding_title">كيف تلعب؟</string>
-    <string name="onboarding_message">استمع إلى المقطع، ثم اضغط على الحروف لتكوين اسم الأغنية. اضغط حرفًا موضوعًا في الخانات لإعادته. زر «تلميح» يضع حرفًا صحيحًا بعد مشاهدة إعلان.</string>
-    <string name="onboarding_start">فهمت، هيا نلعب</string>
-
-    <string name="game_back">رجوع</string>
-    <string name="game_stage">المرحلة %1$d / %2$d</string>
-    <string name="game_listen">اضغط للاستماع</string>
-    <string name="game_pause">إيقاف مؤقت</string>
-    <string name="game_wrong">حاول مرة أخرى</string>
-    <string name="game_hint">تلميح</string>
-    <string name="game_correct">أحسنت!</string>
-    <string name="game_next">التالي</string>
-    <string name="game_start_over">ابدأ من جديد</string>
-    <string name="game_completed">أكملت كل المراحل!</string>
 
     <string name="loading">جارٍ تحميل المحتوى…</string>
     <string name="load_error">تعذّر تحميل المحتوى</string>
     <string name="retry">إعادة المحاولة</string>
-
-    <string name="letter_cd">حرف %1$s</string>
-    <string name="slot_empty_cd">خانة فارغة</string>
-    <string name="slot_filled_cd">خانة %1$s</string>
-    <string name="play_song_cd">تشغيل الأغنية</string>
-    <string name="ad_unavailable">الإعلان غير متاح الآن، حاول لاحقاً</string>
+    <string name="demo_notice">حزمة تطوير: العبارات ألحان تجريبية.</string>
 </resources>

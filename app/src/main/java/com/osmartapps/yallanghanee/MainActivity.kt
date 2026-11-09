@@ -10,7 +10,7 @@ import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.ui.platform.LocalLayoutDirection
 import androidx.compose.ui.unit.LayoutDirection
 import com.osmartapps.yallanghanee.ui.YallaApp
-import com.osmartapps.yallanghanee.ui.theme.YallanghanniTheme
+import com.osmartapps.yallanghanee.ui.theme.NightMajlisTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,7 +20,7 @@ class MainActivity : ComponentActivity() {
         )
         super.onCreate(savedInstanceState)
         setContent {
-            YallanghanniTheme {
+            NightMajlisTheme {
                 CompositionLocalProvider(LocalLayoutDirection provides LayoutDirection.Rtl) {
                     YallaApp()
                 }
