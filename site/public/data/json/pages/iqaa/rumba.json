@@ -1,0 +1,217 @@
+{
+  "url": "https://www.maqamworld.com/en/iqaa/rumba.php",
+  "path": "/en/iqaa/rumba.php",
+  "section": "iqaa",
+  "slug": "iqaa/rumba",
+  "kind": "entry",
+  "title": "Iqa‘ Rumba 4/4",
+  "subtitle": null,
+  "description": "Iqa‘ Rumba",
+  "lang": "en",
+  "paragraphs": [
+    "Iqa‘ Rumba is an Arabic adaptation of the Latin American dance rhythm by the same name. It became fashionable starting from the 1930s and was used to add a litte foreign flavor to Arabic arrangements."
+  ],
+  "text": "Iqa‘ Rumba 4/4 Iqa‘ Index Pronunciation of Rumba Iqa‘ Rumba is an Arabic adaptation of the Latin American dance rhythm by the same name. It became fashionable starting from the 1930s and was used to add a litte foreign flavor to Arabic arrangements. Al-Fann (1945) Vocals and Music by Muhammad Abdel Wahab (Egypt) Amal Hayati (1965) Umm Kulthum Music by Muhammad Abdel Wahab (Egypt) Ansak Da Kalam (1961) Umm Kulthum Music by Baligh Hamdi (Egypt) Ba‘id ‘Annak (1965) Umm Kulthum Music by Baligh Hamdi (Egypt) Darit el-Ayyam (1970) Umm Kulthum Music by Muhammad Abdel Wahab (Egypt) Qari’at al-Fingan (1976) Abdel Halim Hafez Music by Muhammad al-Mugi Shu‘uri Nahiyetak (1981) Warda Music by Sayyed Makkawi Iqa‘ Rumba 4/4 Tabla demonstration by Faisal Zedan",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Al-Fann (1945)",
+      "artist": "Vocals and Music by Muhammad Abdel Wahab (Egypt)",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/rumba/al_fann.mp3",
+      "local_path": "data/media/iqaa/rumba/al_fann.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Amal Hayati (1965)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Muhammad Abdel Wahab (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/rumba/amal_hayati.mp3",
+      "local_path": "data/media/iqaa/rumba/amal_hayati.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Ansak Da Kalam (1961)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Baligh Hamdi (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/rumba/ansak.mp3",
+      "local_path": "data/media/iqaa/rumba/ansak.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Ba‘id ‘Annak (1965)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Baligh Hamdi (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/rumba/ba3id_3annak.mp3",
+      "local_path": "data/media/iqaa/rumba/ba3id_3annak.mp3"
+    },
+    {
+      "index": 5,
+      "title": "Darit el-Ayyam (1970)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Muhammad Abdel Wahab (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/rumba/darit_il_ayyam.mp3",
+      "local_path": "data/media/iqaa/rumba/darit_il_ayyam.mp3"
+    },
+    {
+      "index": 6,
+      "title": "Qari’at al-Fingan (1976)",
+      "artist": "Abdel Halim Hafez",
+      "credits": [
+        "Music by Muhammad al-Mugi"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/rumba/qariat_al_fingan.mp3",
+      "local_path": "data/media/iqaa/rumba/qariat_al_fingan.mp3"
+    },
+    {
+      "index": 7,
+      "title": "Shu‘uri Nahiyetak (1981)",
+      "artist": "Warda",
+      "credits": [
+        "Music by Sayyed Makkawi"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/rumba/shu3uri_nahiyetak.mp3",
+      "local_path": "data/media/iqaa/rumba/shu3uri_nahiyetak.mp3"
+    },
+    {
+      "index": 8,
+      "title": "Iqa‘ Rumba 4/4",
+      "artist": "Tabla demonstration by Faisal Zedan",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/demo/iqaa/tabla/rumba.mp3",
+      "local_path": "data/media/iqaa/rumba/rumba.mp3"
+    }
+  ],
+  "notes": [],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/rumba/al_fann.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/rumba/al_fann.mp3",
+      "status": "downloaded",
+      "sha256": "f09ca6754d48e10470c1792ceb22fe2944e36c1e5ae967f7dc30fd97d5a699ae",
+      "bytes": 553646,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/rumba/amal_hayati.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/rumba/amal_hayati.mp3",
+      "status": "downloaded",
+      "sha256": "a742ba3884739dc234288f863b0c526840e08ee036270dd7792485bd819afa14",
+      "bytes": 413288,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/rumba/ansak.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/rumba/ansak.mp3",
+      "status": "downloaded",
+      "sha256": "826f4f7b62d62b5e099d28e40e62a28f5fbc04322a3c382800980ddfa7284480",
+      "bytes": 559358,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/rumba/ba3id_3annak.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/rumba/ba3id_3annak.mp3",
+      "status": "downloaded",
+      "sha256": "a1b1fd52658b7a98f411e88dd4ebb88e0d0101c36fea02ac95cbf844c9d3d6d7",
+      "bytes": 630293,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/rumba/darit_il_ayyam.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/rumba/darit_il_ayyam.mp3",
+      "status": "downloaded",
+      "sha256": "52e69e62cf9ffecce3efaac445468bef127fdd70d221478793d695a50bb98db7",
+      "bytes": 254050,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/rumba/qariat_al_fingan.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/rumba/qariat_al_fingan.mp3",
+      "status": "downloaded",
+      "sha256": "65852379fb9e154a9dd99eb417fff7ed4a28e71e71bac9fac6f79663b77f261c",
+      "bytes": 447653,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/rumba/shu3uri_nahiyetak.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/rumba/shu3uri_nahiyetak.mp3",
+      "status": "downloaded",
+      "sha256": "bf6ca67b7e4bcc1866179a40d64041aa72cae83e1ca9ff39a65d30a8490d098a",
+      "bytes": 780669,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/demo/iqaa/tabla/rumba.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/rumba/rumba.mp3",
+      "status": "downloaded",
+      "sha256": "2e7a22c4bd5f8e07a96458f239fee1634a3219896063d8186c38a62dec76b921",
+      "bytes": 782045,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/rumba.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/iqaa/rumba/rumba-bc35bbdd.mp3",
+      "status": "downloaded",
+      "sha256": "1e45f0e6ca5817afbcebb856117085a7f40b2db1116dd193338bb37e377fb020",
+      "bytes": 24031,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/iqaa/rumba.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/rumba/rumba.png",
+      "status": "downloaded",
+      "sha256": "d71f083a622435539647d472410169f88b4951174c4c5c9e3025a0d50c98b79d",
+      "bytes": 11262,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/tabla.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/rumba/tabla.png",
+      "status": "downloaded",
+      "sha256": "bc7d7630f1797012041feecf8f1a7bc6d926498a88661ab4f28451d50b6c8f30",
+      "bytes": 11602,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Iqa‘ Index",
+      "url": "#",
+      "kind": "anchor"
+    }
+  ],
+  "content_hash": "e74dfffcaf1e1b9ad511dcccd6a6e7ba0dd45d398878b8b328cb506ddab22a4e",
+  "fetched_at": "2026-11-10T12:10:55.132705Z",
+  "status_code": 200,
+  "html_file": "data/raw/iqaa/rumba.html"
+}

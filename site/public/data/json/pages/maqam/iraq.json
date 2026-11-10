@@ -1,0 +1,189 @@
+{
+  "url": "https://www.maqamworld.com/en/maqam/iraq.php",
+  "path": "/en/maqam/iraq.php",
+  "section": "maqam",
+  "slug": "maqam/iraq",
+  "kind": "entry",
+  "title": "Maqam ‘Iraq",
+  "subtitle": "A member of the Maqam Sikah Family",
+  "description": "Maqam ‘Iraq",
+  "lang": "en",
+  "paragraphs": [
+    "Click the notes and hold using the mouse to hear them play.",
+    "Maqam ‘Iraq is a rare member of the Sikah maqam family, although it is more common as a modulation in the sayr of Maqam Huzam. Its scale starts with the root Jins Sikah on the tonic of B, followed by Jins Bayati on the 3rd degree then Jins Rast on the 6th degree.",
+    "Explore other maqamat in the Maqam Sikah Family."
+  ],
+  "text": "Maqam ‘Iraq A member of the Maqam Sikah Family Maqam Index Pronunciation of ‘Iraq Click the notes and hold using the mouse to hear them play. Maqam ‘Iraq is a rare member of the Sikah maqam family , although it is more common as a modulation in the sayr of Maqam Huzam . Its scale starts with the root Jins Sikah on the tonic of B , followed by Jins Bayati on the 3 rd degree then Jins Rast on the 6 th degree. Explore other maqamat in the Maqam Sikah Family . Jayin ya Arz el-Jabal Wadih al-Safi Muwashah Jalla Man Ansha Jamalak Ensemble Ornina (Syria) Conducted by Dr. Muhammad Qadri Dalal Sama‘i ‘Iraq Tunisian Radio Orchestra Music by Yusuf Basha el-Hali Ta‘bani Ya Layla Joseph Saqr Music by Ziad Rahbani",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Jayin ya Arz el-Jabal",
+      "artist": "Wadih al-Safi",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/iraq/jayin_ya_arz_el_jabal.mp3",
+      "local_path": "data/media/maqam/iraq/jayin_ya_arz_el_jabal.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Muwashah Jalla Man Ansha Jamalak",
+      "artist": "Ensemble Ornina (Syria)",
+      "credits": [
+        "Conducted by Dr. Muhammad Qadri Dalal"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/iraq/jalla_man_ansha_jamalak.mp3",
+      "local_path": "data/media/maqam/iraq/jalla_man_ansha_jamalak.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Sama‘i ‘Iraq",
+      "artist": "Tunisian Radio Orchestra",
+      "credits": [
+        "Music by Yusuf Basha"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/iraq/samai_iraq_yussuf_basha.mp3",
+      "local_path": "data/media/maqam/iraq/samai_iraq_yussuf_basha.mp3"
+    },
+    {
+      "index": 4,
+      "title": "el-Hali Ta‘bani Ya Layla",
+      "artist": "Joseph Saqr",
+      "credits": [
+        "Music by Ziad Rahbani"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/iraq/el_hali_taabani.mp3",
+      "local_path": "data/media/maqam/iraq/el_hali_taabani.mp3"
+    }
+  ],
+  "notes": [
+    {
+      "name": "B3",
+      "frequency": 241.0
+    },
+    {
+      "name": "C4",
+      "frequency": 260.74
+    },
+    {
+      "name": "D4",
+      "frequency": 293.33
+    },
+    {
+      "name": "E4",
+      "frequency": 320.0
+    },
+    {
+      "name": "F4",
+      "frequency": 347.65
+    },
+    {
+      "name": "G4",
+      "frequency": 391.11
+    },
+    {
+      "name": "A4",
+      "frequency": 440.0
+    },
+    {
+      "name": "B4",
+      "frequency": 482.0
+    }
+  ],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/iraq/jayin_ya_arz_el_jabal.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/iraq/jayin_ya_arz_el_jabal.mp3",
+      "status": "downloaded",
+      "sha256": "53e05f40f5398545dd10cb9004920dfde524b6d6826263ad6106755a346ddd04",
+      "bytes": 925513,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/iraq/jalla_man_ansha_jamalak.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/iraq/jalla_man_ansha_jamalak.mp3",
+      "status": "downloaded",
+      "sha256": "2c73c3983691ce554fe664ad9a58192a3eb2cd3ffcd0751aa1cd310117c472a1",
+      "bytes": 746775,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/iraq/samai_iraq_yussuf_basha.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/iraq/samai_iraq_yussuf_basha.mp3",
+      "status": "downloaded",
+      "sha256": "75157266ae3d2663e72932321e1902b08665a8c5266ec26a89641ca8d0ccb795",
+      "bytes": 1667079,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/iraq/el_hali_taabani.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/iraq/el_hali_taabani.mp3",
+      "status": "downloaded",
+      "sha256": "e5f1392e17475a29a7f37e5c832d81ebfe5cf7691995696d0756b522cafa09ca",
+      "bytes": 445604,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/iraq.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/maqam/iraq/iraq.mp3",
+      "status": "downloaded",
+      "sha256": "e70e3b1fd38c1d463bf530d82ddb54daf4174939822ed7b3960603f996c7af11",
+      "bytes": 35525,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/maqam/iraq.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/maqam/iraq/iraq.png",
+      "status": "downloaded",
+      "sha256": "d8be7f3d6a8b695fee770db146984859c8b6d3b6ee0577782d06d53046e4fdbc",
+      "bytes": 14448,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Maqam Sikah Family",
+      "url": "https://www.maqamworld.com/en/maqam/f_sikah.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Maqam Huzam",
+      "url": "https://www.maqamworld.com/en/maqam/huzam.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Sikah",
+      "url": "https://www.maqamworld.com/en/jins/sikah.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Bayati",
+      "url": "https://www.maqamworld.com/en/jins/bayati.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Rast",
+      "url": "https://www.maqamworld.com/en/jins/rast.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "477db12e511c890ceaa411ea36d8728e056604666f802e0d4ddc722abddfdd06",
+  "fetched_at": "2026-11-10T12:10:54.901148Z",
+  "status_code": 200,
+  "html_file": "data/raw/maqam/iraq.html"
+}

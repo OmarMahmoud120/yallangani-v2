@@ -1,0 +1,200 @@
+{
+  "url": "https://www.maqamworld.com/en/jins/rast.php",
+  "path": "/en/jins/rast.php",
+  "section": "jins",
+  "slug": "jins/rast",
+  "kind": "entry",
+  "title": "Jins Rast",
+  "subtitle": "Root jins of the Maqam Rast Family",
+  "description": "Jins Rast",
+  "lang": "en",
+  "paragraphs": [
+    "Click the notes and hold using the mouse to hear them play.",
+    "Jins Rast is a widely popular 5-note jins. It is notated here with its tonic on C and its ghammaz on G. Jins Rast is the first jins in Maqam Rast, Maqam Suznak, and other maqamat in the Maqam Rast Family."
+  ],
+  "text": "Jins Rast Root jins of the Maqam Rast Family Jins Index Pronunciation of Rast Click the notes and hold using the mouse to hear them play. Jins Rast is a widely popular 5-note jins . It is notated here with its tonic on C and its ghammaz on G. Jins Rast is the first jins in Maqam Rast , Maqam Suznak , and other maqamat in the Maqam Rast Family . Ghannili Shwayy Shwayy (1945) Umm Kulthum Music by Zakariya Ahmad (Egypt) ‘Ala Allah T‘ud (1970) Wadih al-Safi Music by Farid al-Atrash Min ‘Azzibak Vocals and Music by Muhammad Abdel Wahab (Egypt) Min ‘Izz el-Nawm Fairouz Music by Philemon Wehbe Ya Nas el-Dinye Dulab Sabah",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Ghannili Shwayy Shwayy (1945)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Zakariya Ahmad (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/rast/ghannili.mp3",
+      "local_path": "data/media/jins/rast/ghannili.mp3"
+    },
+    {
+      "index": 2,
+      "title": "‘Ala Allah T‘ud (1970)",
+      "artist": "Wadih al-Safi",
+      "credits": [
+        "Music by Farid al-Atrash"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/rast/3alalla_t3ud.mp3",
+      "local_path": "data/media/jins/rast/3alalla_t3ud.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Min ‘Azzibak",
+      "artist": "Vocals and Music by Muhammad Abdel Wahab (Egypt)",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/jins/rast/min_3azzibak.mp3",
+      "local_path": "data/media/jins/rast/min_3azzibak.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Min ‘Izz el-Nawm",
+      "artist": "Fairouz",
+      "credits": [
+        "Music by Philemon Wehbe"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/rast/min_3izz_el_nawm.mp3",
+      "local_path": "data/media/jins/rast/min_3izz_el_nawm.mp3"
+    },
+    {
+      "index": 5,
+      "title": "Ya Nas el-Dinye Dulab",
+      "artist": "Sabah",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/jins/rast/ya_nas_el_dinye_dulab.mp3",
+      "local_path": "data/media/jins/rast/ya_nas_el_dinye_dulab.mp3"
+    }
+  ],
+  "notes": [
+    {
+      "name": "A3",
+      "frequency": 220.0
+    },
+    {
+      "name": "B3",
+      "frequency": 241.0
+    },
+    {
+      "name": "C4",
+      "frequency": 260.74
+    },
+    {
+      "name": "D4",
+      "frequency": 293.33
+    },
+    {
+      "name": "E4",
+      "frequency": 320.0
+    },
+    {
+      "name": "F4",
+      "frequency": 347.65
+    },
+    {
+      "name": "G4",
+      "frequency": 391.11
+    },
+    {
+      "name": "A4♭",
+      "frequency": 422.0
+    },
+    {
+      "name": "A4",
+      "frequency": 440.0
+    }
+  ],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/jins/rast/ghannili.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/rast/ghannili.mp3",
+      "status": "downloaded",
+      "sha256": "dd4776c95d1b0250e2737d74aecf037a19f69512c790dd5c604f6a346d5bf5c2",
+      "bytes": 1005537,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/rast/3alalla_t3ud.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/rast/3alalla_t3ud.mp3",
+      "status": "downloaded",
+      "sha256": "0f33168ef23d51a57bea11d59f0e90a69d8aeddef0105cd00be1b77992586bd4",
+      "bytes": 734018,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/rast/min_3azzibak.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/rast/min_3azzibak.mp3",
+      "status": "downloaded",
+      "sha256": "233a42056e0fd39a69d0988e834fee8205cc036ebe780665ba74e94ce4166665",
+      "bytes": 643824,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/rast/min_3izz_el_nawm.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/rast/min_3izz_el_nawm.mp3",
+      "status": "downloaded",
+      "sha256": "d99d40713233e19327fb61fb380d8ad752945aa0306ee46a49c1106cac166a8d",
+      "bytes": 522215,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/rast/ya_nas_el_dinye_dulab.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/rast/ya_nas_el_dinye_dulab.mp3",
+      "status": "downloaded",
+      "sha256": "bfe74411499a3bbe1c345e1668e99e70c7dd92c79724974bf94e339b43eb49b9",
+      "bytes": 433664,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/rast.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/jins/rast/rast.mp3",
+      "status": "downloaded",
+      "sha256": "fb4bad20a02b404310a164f1221f90aa24039ca496553034ae6c07ffcd5a900e",
+      "bytes": 28211,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/jins/rast.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/jins/rast/rast.png",
+      "status": "downloaded",
+      "sha256": "aa85178181df2f9ae473e832962737bb0027810a11595473ab44f0b1bea626b3",
+      "bytes": 11404,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Maqam Rast Family",
+      "url": "https://www.maqamworld.com/en/maqam/f_rast.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Maqam Rast",
+      "url": "https://www.maqamworld.com/en/maqam/rast.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Suznak",
+      "url": "https://www.maqamworld.com/en/maqam/suznak.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "abf807af6063a97f2c076c3b1f15ac6e4610f6bcf511c6386989e93a2824c5fb",
+  "fetched_at": "2026-11-10T12:10:55.075018Z",
+  "status_code": 200,
+  "html_file": "data/raw/jins/rast.html"
+}

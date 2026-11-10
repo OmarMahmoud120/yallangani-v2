@@ -1,0 +1,207 @@
+{
+  "url": "https://www.maqamworld.com/en/iqaa/malfuf.php",
+  "path": "/en/iqaa/malfuf.php",
+  "section": "iqaa",
+  "slug": "iqaa/malfuf",
+  "kind": "entry",
+  "title": "Iqa‘ Malfuf 2/4",
+  "subtitle": "(also called Laff)",
+  "description": "Iqa‘ Malfuf",
+  "lang": "en",
+  "paragraphs": [
+    "Iqa‘ Malfuf (also called Laff) is primarily used in folk and popular Arabic music. If feels short and cyclical, and often modulates to and from other 2/4 iqa‘at like Karachi and Fox. Alternatively 2 consecutive measures of Malfuf could modulate to one measure of a 4/4 iqa‘ like Baladi or Maqsum."
+  ],
+  "text": "Iqa‘ Malfuf 2/4 (also called Laff ) Iqa‘ Index Pronunciation of Malfuf Iqa‘ Malfuf (also called Laff ) is primarily used in folk and popular Arabic music. If feels short and cyclical, and often modulates to and from other 2/4 iqa‘at like Karachi and Fox . Alternatively 2 consecutive measures of Malfuf could modulate to one measure of a 4/4 iqa‘ like Baladi or Maqsum . Ya Dara Duri Fina Fairouz Music by Philemon Wehbe Amal Hayati (1965) Umm Kulthum Music by Muhammad Abdel Wahab (Egypt) Muwashah Ya Sahi al-Sabru Waha Minni Hasan al-Haffar Muwashah Ya Sahi al-Sabru Waha Minni Sheikh Hamza Shakkur Ensemble Al Kindi Tulbah (Proposition) El-Funoun Ensemble Zaghareed: Music From The Palestinian Holy Land Iqa‘ Malfuf 2/4 Tabla demonstration by Faisal Zedan",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Ya Dara Duri Fina",
+      "artist": "Fairouz",
+      "credits": [
+        "Music by Philemon Wehbe"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/malfuf/ya_dara.mp3",
+      "local_path": "data/media/iqaa/malfuf/ya_dara.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Amal Hayati (1965)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Muhammad Abdel Wahab (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/malfuf/amal_hayati.mp3",
+      "local_path": "data/media/iqaa/malfuf/amal_hayati.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Muwashah Ya Sahi al-Sabru Waha Minni",
+      "artist": "Hasan al-Haffar",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/malfuf/ya_sahis_sabru_haffar.mp3",
+      "local_path": "data/media/iqaa/malfuf/ya_sahis_sabru_haffar.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Muwashah Ya Sahi al-Sabru Waha Minni",
+      "artist": "Sheikh Hamza Shakkur",
+      "credits": [
+        "Ensemble Al Kindi"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/malfuf/ya_sahis_sabru_shakkur.mp3",
+      "local_path": "data/media/iqaa/malfuf/ya_sahis_sabru_shakkur.mp3"
+    },
+    {
+      "index": 5,
+      "title": "Tulbah (Proposition)",
+      "artist": "El-Funoun Ensemble",
+      "credits": [
+        "Zaghareed: Music From The Palestinian Holy Land"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/malfuf/tulba.mp3",
+      "local_path": "data/media/iqaa/malfuf/tulba.mp3"
+    },
+    {
+      "index": 6,
+      "title": "Iqa‘ Malfuf 2/4",
+      "artist": "Tabla demonstration by Faisal Zedan",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/demo/iqaa/tabla/malfuf.mp3",
+      "local_path": "data/media/iqaa/malfuf/malfuf.mp3"
+    }
+  ],
+  "notes": [],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/malfuf/ya_dara.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/malfuf/ya_dara.mp3",
+      "status": "downloaded",
+      "sha256": "ab87f30845a1038aa1e3d31d0fd9ac824573bf28d0c7c7f902b93d42c44dd062",
+      "bytes": 501105,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/malfuf/amal_hayati.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/malfuf/amal_hayati.mp3",
+      "status": "downloaded",
+      "sha256": "e32dc30c77a4451ad424d77d731e3a77f620dfe524b88a16f48eee8b045a7cdd",
+      "bytes": 258534,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/malfuf/ya_sahis_sabru_haffar.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/malfuf/ya_sahis_sabru_haffar.mp3",
+      "status": "downloaded",
+      "sha256": "d2984be3601b642107c2e11f1357347b40de4e353c972ec3b0239f4860ad4905",
+      "bytes": 490737,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/malfuf/ya_sahis_sabru_shakkur.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/malfuf/ya_sahis_sabru_shakkur.mp3",
+      "status": "downloaded",
+      "sha256": "b1e7bbc8fe70c883226bf00aa6e69dcc4316c39ad856fa8fabfe2241e60de783",
+      "bytes": 576357,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/malfuf/tulba.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/malfuf/tulba.mp3",
+      "status": "downloaded",
+      "sha256": "62bf14eca272295f9fbebb5d560f9d87568ed3a57994fe80329efb54e2aff90b",
+      "bytes": 745524,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/demo/iqaa/tabla/malfuf.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/malfuf/malfuf.mp3",
+      "status": "downloaded",
+      "sha256": "943eff43f1a9bbd7a81374da0a7cfa87735b4cef3362ade618cb1ded5a23ee0e",
+      "bytes": 706813,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/malfuf.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/iqaa/malfuf/malfuf-3dbaee9f.mp3",
+      "status": "downloaded",
+      "sha256": "12827c0c68e8aa61dd1a983ae88135383d9653700be15526707a3100e61992d4",
+      "bytes": 33435,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/iqaa/malfuf.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/malfuf/malfuf.png",
+      "status": "downloaded",
+      "sha256": "42fe8472c21b8a320fde2209d283e3efc15b18b990cf37774657842a91b98b50",
+      "bytes": 7179,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/cd.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/malfuf/cd.png",
+      "status": "downloaded",
+      "sha256": "1f52da76667703a00010a07afefc9d78b6c3ccb8359b906fc6fd6b0cddd0255f",
+      "bytes": 5478,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/tabla.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/malfuf/tabla.png",
+      "status": "downloaded",
+      "sha256": "bc7d7630f1797012041feecf8f1a7bc6d926498a88661ab4f28451d50b6c8f30",
+      "bytes": 11602,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Iqa‘ Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Karachi",
+      "url": "https://www.maqamworld.com/en/iqaa/karachi.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Fox",
+      "url": "https://www.maqamworld.com/en/iqaa/fox.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Baladi",
+      "url": "https://www.maqamworld.com/en/iqaa/baladi.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqsum",
+      "url": "https://www.maqamworld.com/en/iqaa/maqsum.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "e328997ffbf7211e4e67db7fef330585e2d0b97e64d29feaaa822746ad8cc12c",
+  "fetched_at": "2026-11-10T12:10:55.117115Z",
+  "status_code": 200,
+  "html_file": "data/raw/iqaa/malfuf.html"
+}

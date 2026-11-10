@@ -12,6 +12,7 @@ data class RecognitionQuestion(
     val options: List<Maqam>,
 ) {
     val audio: String get() = item.audio?.let { "$AUDIO_DIR/$it" } ?: audioFor(answer)
+    val droneAudio: String? get() = answer.drone?.let { "$AUDIO_DIR/$it" }
     val explanation: String get() = item.explanationAr.ifBlank { answer.signatureAr }
     val contrast: Maqam get() = options.first { it.id != answer.id }
     val contrastAudio: String get() = audioFor(contrast)

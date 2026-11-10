@@ -1,0 +1,129 @@
+{
+  "url": "https://www.maqamworld.com/en/jins/sazkar.php",
+  "path": "/en/jins/sazkar.php",
+  "section": "jins",
+  "slug": "jins/sazkar",
+  "kind": "entry",
+  "title": "Jins Sazkar",
+  "subtitle": "A variation of Jins Rast with a raised 2nd",
+  "description": "Jins Sazkar",
+  "lang": "en",
+  "paragraphs": [
+    "Click the notes and hold using the mouse to hear them play.",
+    "Jins Sazkar is a 5-note jins. It is notated here with its tonic on C and its ghammaz on G. Jins Sazkar is the first jins in Maqam Sazkar."
+  ],
+  "text": "Jins Sazkar A variation of Jins Rast with a raised 2 nd Jins Index Pronunciation of Sazkar Click the notes and hold using the mouse to hear them play. Jins Sazkar is a 5-note jins. It is notated here with its tonic on C and its ghammaz on G. Jins Sazkar is the first jins in Maqam Sazkar . Qasida Mudnaka Gafahu Marqaduhu (1938) Vocals and Music by Muhammad Abdel Wahab (Egypt) Ya Dala‘ Dalla‘ (1974) Sabah Music by Farid al-Atrash",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Qasida Mudnaka Gafahu Marqaduhu (1938)",
+      "artist": "Vocals and Music by Muhammad Abdel Wahab (Egypt)",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/jins/sazkar/mudnaka.mp3",
+      "local_path": "data/media/jins/sazkar/mudnaka.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Ya Dala‘ Dalla‘ (1974)",
+      "artist": "Sabah",
+      "credits": [
+        "Music by Farid al-Atrash"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/sazkar/ya_dala3_sabah.mp3",
+      "local_path": "data/media/jins/sazkar/ya_dala3_sabah.mp3"
+    }
+  ],
+  "notes": [
+    {
+      "name": "B3",
+      "frequency": 241.0
+    },
+    {
+      "name": "C4",
+      "frequency": 260.74
+    },
+    {
+      "name": "D4♯",
+      "frequency": 310.0
+    },
+    {
+      "name": "E4",
+      "frequency": 320.0
+    },
+    {
+      "name": "F4",
+      "frequency": 347.65
+    },
+    {
+      "name": "G4",
+      "frequency": 391.11
+    },
+    {
+      "name": "A4♮",
+      "frequency": 440.0
+    }
+  ],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/jins/sazkar/mudnaka.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/sazkar/mudnaka.mp3",
+      "status": "downloaded",
+      "sha256": "5206f1acc58161bfb003eb3558e44e7ad7b164b84cfaa6da83ab9fb7c17fc15a",
+      "bytes": 252712,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/sazkar/ya_dala3_sabah.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/sazkar/ya_dala3_sabah.mp3",
+      "status": "downloaded",
+      "sha256": "c325247d4e51003d7b606b981aa745349e72209b84132bd7118fbe559825386e",
+      "bytes": 237901,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/sazkar.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/jins/sazkar/sazkar.mp3",
+      "status": "downloaded",
+      "sha256": "80054c5aa58b3bfb737a295ec58e5a782e6c831d2e2312056b68a295c491cd51",
+      "bytes": 44929,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/jins/sazkar.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/jins/sazkar/sazkar.png",
+      "status": "downloaded",
+      "sha256": "af6ec9395873760feed85293575bd2d7d10433067aaabe8e462a3fc0d776d28e",
+      "bytes": 10438,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Jins Rast",
+      "url": "https://www.maqamworld.com/en/jins/rast.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Maqam Sazkar",
+      "url": "https://www.maqamworld.com/en/maqam/kirdan.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "2e0b93e617516b38912adfce514efce5f7a106131bb69fc89663d722c4071d39",
+  "fetched_at": "2026-11-10T12:10:55.081599Z",
+  "status_code": 200,
+  "html_file": "data/raw/jins/sazkar.html"
+}

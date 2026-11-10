@@ -1,0 +1,314 @@
+{
+  "url": "https://www.maqamworld.com/en/maqam/huzam.php",
+  "path": "/en/maqam/huzam.php",
+  "section": "maqam",
+  "slug": "maqam/huzam",
+  "kind": "entry",
+  "title": "Maqam Huzam",
+  "subtitle": "A member of the Maqam Sikah Family",
+  "description": "Maqam Huzam/Rahat al-Arwah",
+  "lang": "en",
+  "paragraphs": [
+    "Click the notes and hold using the mouse to hear them play.",
+    "Maqam Huzam is by far the most common maqam in the Sikah family, and starts on E. Its scale starts with the root Jins Sikah on the tonic, followed by Jins Hijaz on the 3rd degree then Jins Rast on the 6th degree.",
+    "The transposition of Maqam Huzam to B has its own name: Maqam Rahat al-Arwah. Both maqamat have exactly the same sayr.",
+    "Explore other maqamat in the Maqam Sikah Family.",
+    "Watch a 1-minute sample Violin Taqsim in Maqam Rahat al-Arwah by Sami Abu Shumays."
+  ],
+  "text": "Maqam Huzam Maqam Rahat al-Arwah A member of the Maqam Sikah Family Maqam Index Pronunciation of Huzam Pronunciation of Rahat al-Arwah Click the notes and hold using the mouse to hear them play. Maqam Huzam is by far the most common maqam in the Sikah family, and starts on E . Its scale starts with the root Jins Sikah on the tonic , followed by Jins Hijaz on the 3 rd degree then Jins Rast on the 6 th degree. The transposition of Maqam Huzam to B has its own name: Maqam Rahat al-Arwah . Both maqamat have exactly the same sayr. Explore other maqamat in the Maqam Sikah Family . Watch a 1-minute sample Violin Taqsim in Maqam Rahat al-Arwah by Sami Abu Shumays. Muwashah Ya Ghusna Naqa (Maqam Huzam) Firqat al-Musiqa al-Arabiyya, Egypt Muwashah Ayyuha al-Saqi Sabah Fakhri Music by Majdi al-‘Aqili Nagham Al Ams Vol. 13 Huzam Dawr Emta el-Hawa (1936) Umm Kulthum Music by Zakariya Ahmad (Egypt) Marmar Zamani Fairouz (Traditional melody) Maqam Rahat al-Arwah examples el-Ward Gamil (1947) Umm Kulthum Music by Zakariya Ahmad (Egypt) Muwashah Ya Wahid al-Ghid Fairouz Andalousiyyat Dawr Inta Fahim (Maqam Rahat al-Arwah) Music and Vocals by Zakariya Ahmad Dulab Rahat al-Arwah Aicha Redouane Egypte Dulab Rahat al-Arwah Sabah Fakhri Live at Beiteddine",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Muwashah Ya Ghusna Naqa",
+      "artist": "(Maqam Huzam)",
+      "credits": [
+        "Firqat al-Musiqa al-Arabiyya, Egypt"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/huzam/ya_ghusna_naqa.mp3",
+      "local_path": "data/media/maqam/huzam/ya_ghusna_naqa.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Muwashah Ayyuha al-Saqi",
+      "artist": "Sabah Fakhri",
+      "credits": [
+        "Music by Majdi al-‘Aqili",
+        "Nagham Al Ams Vol. 13 Huzam"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/huzam/ayyuha_as_saqi.mp3",
+      "local_path": "data/media/maqam/huzam/ayyuha_as_saqi.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Dawr Emta el-Hawa (1936)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Zakariya Ahmad (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/huzam/dawr_emta_el_hawa.mp3",
+      "local_path": "data/media/maqam/huzam/dawr_emta_el_hawa.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Marmar Zamani",
+      "artist": "Fairouz",
+      "credits": [
+        "(Traditional melody)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/huzam/marmar_zamani.mp3",
+      "local_path": "data/media/maqam/huzam/marmar_zamani.mp3"
+    },
+    {
+      "index": 5,
+      "title": "el-Ward Gamil (1947)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Zakariya Ahmad (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/rahat-el-arwah/el_wardi_gamil.mp3",
+      "local_path": "data/media/maqam/huzam/el_wardi_gamil.mp3"
+    },
+    {
+      "index": 6,
+      "title": "Muwashah Ya Wahid al-Ghid",
+      "artist": "Fairouz",
+      "credits": [
+        "Andalousiyyat"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/rahat-el-arwah/ya_wahid_al_ghid.mp3",
+      "local_path": "data/media/maqam/huzam/ya_wahid_al_ghid.mp3"
+    },
+    {
+      "index": 7,
+      "title": "Dawr Inta Fahim",
+      "artist": "(Maqam Rahat al-Arwah)",
+      "credits": [
+        "Music and Vocals by Zakariya Ahmad"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/rahat-el-arwah/dawr_inta_fahim.mp3",
+      "local_path": "data/media/maqam/huzam/dawr_inta_fahim.mp3"
+    },
+    {
+      "index": 8,
+      "title": "Dulab Rahat al-Arwah",
+      "artist": "Aicha Redouane",
+      "credits": [
+        "Egypte"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/rahat-el-arwah/dulab_rahat_al_arwah.mp3",
+      "local_path": "data/media/maqam/huzam/dulab_rahat_al_arwah.mp3"
+    },
+    {
+      "index": 9,
+      "title": "Dulab Rahat al-Arwah",
+      "artist": "Sabah Fakhri",
+      "credits": [
+        "Live at Beiteddine"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/rahat-el-arwah/dulab_ayyuhal_saqi.mp3",
+      "local_path": "data/media/maqam/huzam/dulab_ayyuhal_saqi.mp3"
+    }
+  ],
+  "notes": [
+    {
+      "name": "E4",
+      "frequency": 322.0
+    },
+    {
+      "name": "F4",
+      "frequency": 347.65
+    },
+    {
+      "name": "G4",
+      "frequency": 391.11
+    },
+    {
+      "name": "A4♭",
+      "frequency": 423.0
+    },
+    {
+      "name": "B4♮",
+      "frequency": 492.0
+    },
+    {
+      "name": "C5",
+      "frequency": 521.48
+    },
+    {
+      "name": "D5",
+      "frequency": 586.66
+    },
+    {
+      "name": "E4",
+      "frequency": 644.0
+    }
+  ],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/huzam/ya_ghusna_naqa.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/huzam/ya_ghusna_naqa.mp3",
+      "status": "downloaded",
+      "sha256": "21cfcc8aeebe9c89006e595cc05d6858ffd77d37b41317b8062f84f29b53a4e8",
+      "bytes": 673544,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/huzam/ayyuha_as_saqi.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/huzam/ayyuha_as_saqi.mp3",
+      "status": "downloaded",
+      "sha256": "56c5be8e37fcb78e6271554cbf677aaec23f1f1359d1fef16a500302e44666fe",
+      "bytes": 1567189,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/huzam/dawr_emta_el_hawa.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/huzam/dawr_emta_el_hawa.mp3",
+      "status": "downloaded",
+      "sha256": "1d1fa589a11de8a2553d92961673663e71891fe49d56c1a015b9ef02e61e0e62",
+      "bytes": 1055545,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/huzam/marmar_zamani.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/huzam/marmar_zamani.mp3",
+      "status": "downloaded",
+      "sha256": "81805ab301406adb6127451685c6aa0ee3cd224fba62d7a1a86d9fef4d398287",
+      "bytes": 1158764,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/rahat-el-arwah/el_wardi_gamil.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/huzam/el_wardi_gamil.mp3",
+      "status": "downloaded",
+      "sha256": "02319612b7377f266eeddf57aa823d2e9607cdefaadf88befc23c4c5d21cc112",
+      "bytes": 845383,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/rahat-el-arwah/ya_wahid_al_ghid.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/huzam/ya_wahid_al_ghid.mp3",
+      "status": "downloaded",
+      "sha256": "08637eb978ba01c8c6a17c1159b7ee5bed09ce6abcdaac1b3b1f45f603b1279a",
+      "bytes": 780878,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/rahat-el-arwah/dawr_inta_fahim.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/huzam/dawr_inta_fahim.mp3",
+      "status": "downloaded",
+      "sha256": "edeeabfa6c228d4c49527009cad15ef56a55ceebc1aaf6e56958dcd8585916ef",
+      "bytes": 705334,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/rahat-el-arwah/dulab_rahat_al_arwah.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/huzam/dulab_rahat_al_arwah.mp3",
+      "status": "downloaded",
+      "sha256": "1c5a0181b334f05f307b07be7d7ece734a621589e28b4cb7fc2a093f73800071",
+      "bytes": 629000,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/rahat-el-arwah/dulab_ayyuhal_saqi.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/huzam/dulab_ayyuhal_saqi.mp3",
+      "status": "downloaded",
+      "sha256": "943bd7a2603e3281319417dffc84312b7bb3c7e598d2d398b062c62d6b25a54a",
+      "bytes": 791504,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/huzam.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/maqam/huzam/huzam.mp3",
+      "status": "downloaded",
+      "sha256": "d90a872cc6527320f951d76565af32e00c9fb79116e2dc48888f90dfbc56f3f0",
+      "bytes": 31346,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/rahat_al_arwah`.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/maqam/huzam/rahat_al_arwah.mp3",
+      "status": "downloaded",
+      "sha256": "6841e508947f04a0b4e8c8783c415418b563ee0543b6b2b2a6d6d806798cdc75",
+      "bytes": 35851,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/maqam/huzam.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/maqam/huzam/huzam.png",
+      "status": "downloaded",
+      "sha256": "57f6f6b1692533dfca7b0bc4d60cb2eabd1516399ca7666af0c928d60fb43981",
+      "bytes": 14517,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/cd.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/maqam/huzam/cd.png",
+      "status": "downloaded",
+      "sha256": "1f52da76667703a00010a07afefc9d78b6c3ccb8359b906fc6fd6b0cddd0255f",
+      "bytes": 5478,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Maqam Sikah Family",
+      "url": "https://www.maqamworld.com/en/maqam/f_sikah.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Jins Sikah",
+      "url": "https://www.maqamworld.com/en/jins/sikah.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Hijaz",
+      "url": "https://www.maqamworld.com/en/jins/hijaz.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Rast",
+      "url": "https://www.maqamworld.com/en/jins/rast.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Violin Taqsim in Maqam Rahat al-Arwah",
+      "url": "https://www.instagram.com/p/B94238GlwkA",
+      "kind": "external"
+    }
+  ],
+  "content_hash": "3873c5ff9e0f79dd4d5d74b01bd8f4f6333771756543dfcc24ad7a43d307e0a7",
+  "fetched_at": "2026-11-10T12:10:54.898673Z",
+  "status_code": 200,
+  "html_file": "data/raw/maqam/huzam.html"
+}

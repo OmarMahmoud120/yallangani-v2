@@ -1,0 +1,173 @@
+{
+  "url": "https://www.maqamworld.com/en/iqaa/dharafat.php",
+  "path": "/en/iqaa/dharafat.php",
+  "section": "iqaa",
+  "slug": "iqaa/dharafat",
+  "kind": "entry",
+  "title": "Iqa‘ Dharafat 13/8",
+  "subtitle": "(also spelled Zarafat)",
+  "description": "Iqa‘ Dharafat",
+  "lang": "en",
+  "paragraphs": [
+    "Iqa‘ Dharafat (also spelled Zarafat) is mostly used with the Muwashah vocal genre. Using this iqa‘ outside muwashahat (e.g. in a popular song) has the effect of adding a classical color by evoking the former repertoire."
+  ],
+  "text": "Iqa‘ Dharafat 13/8 (also spelled Zarafat) Iqa‘ Index Pronunciation of Dharafat Iqa‘ Dharafat (also spelled Zarafat) is mostly used with the Muwashah vocal genre. Using this iqa‘ outside muwashahat (e.g. in a popular song) has the effect of adding a classical color by evoking the former repertoire. Muwashah Tif Ya Durri Bil Qanani Al-Kindi Ensemble Music by ‘Umar al-Batsh The Aleppian Music Room I - Maqam Hijazkar Kurd Muwashah Wal-ladhi Wallaka Qalbi Ensemble Morkos il-Hubbi Kullo (1971) Umm Kulthum Music by Baligh Hamdi (Egypt) Mistanniyak ‘Aziza Galal Music by Baligh Hamdi (Egypt) Iqa‘ Dharafat 13/8 Tabla demonstration by Faisal Zedan",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Muwashah Tif Ya Durri Bil Qanani",
+      "artist": "Al-Kindi Ensemble",
+      "credits": [
+        "Music by ‘Umar al-Batsh",
+        "The Aleppian Music Room I - Maqam Hijazkar Kurd"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/dharafat/tif_ya_durri_alkindi.mp3",
+      "local_path": "data/media/iqaa/dharafat/tif_ya_durri_alkindi.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Muwashah Wal-ladhi Wallaka Qalbi",
+      "artist": "Ensemble Morkos",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/dharafat/walladhi_wallaka_qalbi.mp3",
+      "local_path": "data/media/iqaa/dharafat/walladhi_wallaka_qalbi.mp3"
+    },
+    {
+      "index": 3,
+      "title": "il-Hubbi Kullo (1971)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Baligh Hamdi (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/dharafat/il_hobb_kullo.mp3",
+      "local_path": "data/media/iqaa/dharafat/il_hobb_kullo.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Mistanniyak",
+      "artist": "‘Aziza Galal",
+      "credits": [
+        "Music by Baligh Hamdi (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/dharafat/mistanniyak.mp3",
+      "local_path": "data/media/iqaa/dharafat/mistanniyak.mp3"
+    },
+    {
+      "index": 5,
+      "title": "Iqa‘ Dharafat 13/8",
+      "artist": "Tabla demonstration by Faisal Zedan",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/demo/iqaa/tabla/dharafat.mp3",
+      "local_path": "data/media/iqaa/dharafat/dharafat.mp3"
+    }
+  ],
+  "notes": [],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/dharafat/tif_ya_durri_alkindi.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/dharafat/tif_ya_durri_alkindi.mp3",
+      "status": "downloaded",
+      "sha256": "1a9485044cd712baa1d454de297b9bc6cf91d49107f5093d19858a304da06d07",
+      "bytes": 1319936,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/dharafat/walladhi_wallaka_qalbi.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/dharafat/walladhi_wallaka_qalbi.mp3",
+      "status": "downloaded",
+      "sha256": "42732ad87898ad51cffc4c6c6168db0719481bc91f2024d92f592148f6c95c7f",
+      "bytes": 868047,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/dharafat/il_hobb_kullo.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/dharafat/il_hobb_kullo.mp3",
+      "status": "downloaded",
+      "sha256": "8085a79ea3e71471c3053069c264aad1cda7f8478c9a25309cffa3b636c55c5a",
+      "bytes": 676890,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/dharafat/mistanniyak.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/dharafat/mistanniyak.mp3",
+      "status": "downloaded",
+      "sha256": "7dd8085356963a8baedd388351865c9c734aabdefa83f6805b1ddefee26423bd",
+      "bytes": 440482,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/demo/iqaa/tabla/dharafat.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/dharafat/dharafat.mp3",
+      "status": "downloaded",
+      "sha256": "181bfdfb07d48bcea2b1d220644c5b608b65bc2f940371d334b8eade5284160c",
+      "bytes": 822169,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/dharafat.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/iqaa/dharafat/dharafat-a24a0049.mp3",
+      "status": "downloaded",
+      "sha256": "3d54d69bd974fa483e795f1c7acb961368b404063311a02f58816cfe844c7b6e",
+      "bytes": 40750,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/iqaa/dharafat.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/dharafat/dharafat.png",
+      "status": "downloaded",
+      "sha256": "50f4c2135d09458269adc76109ade076fefeb2be178ed8322be7b7d9e47d3ff5",
+      "bytes": 15608,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/cd.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/dharafat/cd.png",
+      "status": "downloaded",
+      "sha256": "1f52da76667703a00010a07afefc9d78b6c3ccb8359b906fc6fd6b0cddd0255f",
+      "bytes": 5478,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/tabla.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/dharafat/tabla.png",
+      "status": "downloaded",
+      "sha256": "bc7d7630f1797012041feecf8f1a7bc6d926498a88661ab4f28451d50b6c8f30",
+      "bytes": 11602,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Iqa‘ Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Muwashah",
+      "url": "https://www.maqamworld.com/en/form/vocal_comp.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "add482026ce3be16422c6b81f5e4df6c15d03561c709590511937a7f8d3322c0",
+  "fetched_at": "2026-11-10T12:10:55.103821Z",
+  "status_code": 200,
+  "html_file": "data/raw/iqaa/dharafat.html"
+}

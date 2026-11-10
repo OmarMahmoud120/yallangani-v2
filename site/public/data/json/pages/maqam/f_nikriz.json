@@ -1,0 +1,96 @@
+{
+  "url": "https://www.maqamworld.com/en/maqam/f_nikriz.php",
+  "path": "/en/maqam/f_nikriz.php",
+  "section": "maqam",
+  "slug": "maqam/f_nikriz",
+  "kind": "family",
+  "title": "Maqam Nikriz Family",
+  "subtitle": "Maqamat that start with Jins Nikriz",
+  "description": "Maqam Nikriz Family",
+  "lang": "en",
+  "paragraphs": [
+    "Maqam Nikriz Family is made of maqamat that start with Jins Nikriz.",
+    "Other maqam families:"
+  ],
+  "text": "Maqam Nikriz Family Maqamat that start with Jins Nikriz Maqam Index Pronunciation of Nikriz Maqam Nikriz Family is made of maqamat that start with Jins Nikriz . Maqam Nikriz Maqam Nawa Athar Maqam Athar Kurd Other maqam families: Maqam ‘Ajam Family Maqam Bayati Family Maqam Hijaz Family Maqam Kurd Family Maqam Nahawand Family Maqam Rast Family Maqam Sikah Family",
+  "tracks": [],
+  "notes": [],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/name/nikriz.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/maqam/f_nikriz/nikriz.mp3",
+      "status": "downloaded",
+      "sha256": "c49763159b7611b0938e4606ee534af9bc4105b6ccf473c673da9326ccf05e29",
+      "bytes": 36570,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Jins Nikriz",
+      "url": "https://www.maqamworld.com/en/jins/nikriz.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Maqam Nikriz",
+      "url": "https://www.maqamworld.com/en/maqam/nikriz.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Nawa Athar",
+      "url": "https://www.maqamworld.com/en/maqam/nawa_athar.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Athar Kurd",
+      "url": "https://www.maqamworld.com/en/maqam/athar_kurd.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam ‘Ajam Family",
+      "url": "https://www.maqamworld.com/en/maqam/f_ajam.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Bayati Family",
+      "url": "https://www.maqamworld.com/en/maqam/f_bayati.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Hijaz Family",
+      "url": "https://www.maqamworld.com/en/maqam/f_hijaz.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Kurd Family",
+      "url": "https://www.maqamworld.com/en/maqam/f_kurd.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Nahawand Family",
+      "url": "https://www.maqamworld.com/en/maqam/f_nahawand.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Rast Family",
+      "url": "https://www.maqamworld.com/en/maqam/f_rast.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Sikah Family",
+      "url": "https://www.maqamworld.com/en/maqam/f_sikah.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "51b8bdb7fd8495a4dcb14fa9972f7c1ed5b1b314cbc4d6efdaa31665e93f42aa",
+  "fetched_at": "2026-11-10T12:10:55.034244Z",
+  "status_code": 200,
+  "html_file": "data/raw/maqam/f_nikriz.html"
+}

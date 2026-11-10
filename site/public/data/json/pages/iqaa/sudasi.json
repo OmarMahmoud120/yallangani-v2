@@ -1,0 +1,194 @@
+{
+  "url": "https://www.maqamworld.com/en/iqaa/sudasi.php",
+  "path": "/en/iqaa/sudasi.php",
+  "section": "iqaa",
+  "slug": "iqaa/sudasi",
+  "kind": "entry",
+  "title": "Iqa‘ Sudasi 6/4",
+  "subtitle": "The second form of Iqa‘ Sudasi",
+  "description": "Iqa‘ Sudasi",
+  "lang": "en",
+  "paragraphs": [
+    "Iqa‘ Sudasi (whose name means based on the number \"six\") is a very popular iqa‘ to accompany folk line dances from Lebanon and Palestine, like the Dabke. It can modulate to 3 back-to-back measures of Iqa‘ Malfuf.",
+    "An alternative form of Iqa‘ Sudasi starts with 3 consecutive dum-s, and is commonly used in Lebanese dabke songs."
+  ],
+  "text": "Iqa‘ Sudasi 6/4 Iqa‘ Index Pronunciation of Sudasi Iqa‘ Sudasi (whose name means based on the number \"six\") is a very popular iqa‘ to accompany folk line dances from Lebanon and Palestine, like the Dabke. It can modulate to 3 back-to-back measures of Iqa‘ Malfuf . Dal‘ona Fairouz (traditional Lebanese folk song) Ya Mahla Layali el-Hawa (1963) Fairouz Music and lyrics by the Rahbani Brothers Ya Hajal Sannin (1965) Fairouz Music and lyrics by the Rahbani Brothers From the movie Bayya‘ el-Khawatim Iqa‘ Sudasi 6/4 Tabla demonstration by Faisal Zedan The second form of Iqa‘ Sudasi An alternative form of Iqa‘ Sudasi starts with 3 consecutive dum -s, and is commonly used in Lebanese dabke songs. Ya Trab ‘Ayntura Fairouz, Wadih al-Safi and Nasri Shamseddine Music and lyrics by the Rahbani Brothers Ya Ba‘albak Music and lyrics by Tania Saleh",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Dal‘ona",
+      "artist": "Fairouz",
+      "credits": [
+        "(traditional Lebanese folk song)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/sudasi_f1/dal3ona.mp3",
+      "local_path": "data/media/iqaa/sudasi/dal3ona.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Ya Mahla Layali el-Hawa (1963)",
+      "artist": "Fairouz",
+      "credits": [
+        "Music and lyrics by the Rahbani Brothers"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/sudasi_f1/ya_mahla_layali.mp3",
+      "local_path": "data/media/iqaa/sudasi/ya_mahla_layali.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Ya Hajal Sannin (1965)",
+      "artist": "Fairouz",
+      "credits": [
+        "Music and lyrics by the Rahbani Brothers",
+        "From the movie Bayya‘ el-Khawatim"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/sudasi_f1/ya_7ajal_sannin.mp3",
+      "local_path": "data/media/iqaa/sudasi/ya_7ajal_sannin.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Iqa‘ Sudasi 6/4",
+      "artist": "Tabla demonstration by Faisal Zedan",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/demo/iqaa/tabla/sudasi.mp3",
+      "local_path": "data/media/iqaa/sudasi/sudasi.mp3"
+    },
+    {
+      "index": 5,
+      "title": "Ya Trab ‘Ayntura",
+      "artist": "Fairouz, Wadih al-Safi and Nasri Shamseddine",
+      "credits": [
+        "Music and lyrics by the Rahbani Brothers"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/sudasi_f2/ya_trab_3ayntura.mp3",
+      "local_path": "data/media/iqaa/sudasi/ya_trab_3ayntura.mp3"
+    },
+    {
+      "index": 6,
+      "title": "Ya Ba‘albak",
+      "artist": "Music and lyrics by Tania Saleh",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/sudasi_f2/ya_b3albak.mp3",
+      "local_path": "data/media/iqaa/sudasi/ya_b3albak.mp3"
+    }
+  ],
+  "notes": [],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/sudasi_f1/dal3ona.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/sudasi/dal3ona.mp3",
+      "status": "downloaded",
+      "sha256": "a449842a40a5916f271e5e088146d67bfef1cad190d149373b7042f1c2ad3896",
+      "bytes": 703730,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/sudasi_f1/ya_mahla_layali.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/sudasi/ya_mahla_layali.mp3",
+      "status": "downloaded",
+      "sha256": "c875d2bdce93fe10b3cd8855c0c807f378a8f5683a90aa2ff41471cc3150f7b7",
+      "bytes": 487527,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/sudasi_f1/ya_7ajal_sannin.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/sudasi/ya_7ajal_sannin.mp3",
+      "status": "downloaded",
+      "sha256": "b0cc89422ab791b3c5e41d799fa5c008e109bc5ea0fc2945459223341bd07200",
+      "bytes": 774912,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/demo/iqaa/tabla/sudasi.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/sudasi/sudasi.mp3",
+      "status": "downloaded",
+      "sha256": "661c13c8ef58b7f6b224515f8ac0238b1db5a5239845a15304d47ff19856c68b",
+      "bytes": 681317,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/sudasi_f2/ya_trab_3ayntura.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/sudasi/ya_trab_3ayntura.mp3",
+      "status": "downloaded",
+      "sha256": "8aea40e55cb84bc4b86afba2708b7b980554f39d2d8588ea8f0dab52dbb6d50e",
+      "bytes": 965445,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/sudasi_f2/ya_b3albak.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/sudasi/ya_b3albak.mp3",
+      "status": "downloaded",
+      "sha256": "9aac00fa1fcba1486485972d1882efa001f4ef449a0f52953900ed6f2c800ecb",
+      "bytes": 857592,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/sudasi.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/iqaa/sudasi/sudasi-abe1c2c4.mp3",
+      "status": "downloaded",
+      "sha256": "23b342187584a3e2e900fc36f92071542b825ce0b8ec143c38092a98720ef325",
+      "bytes": 38660,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/iqaa/sudasi.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/sudasi/sudasi.png",
+      "status": "downloaded",
+      "sha256": "db3079ba9f5b3f20b7378af766969c0b73106c9651ea8f99b9202f0c16e657ec",
+      "bytes": 11266,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/tabla.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/sudasi/tabla.png",
+      "status": "downloaded",
+      "sha256": "bc7d7630f1797012041feecf8f1a7bc6d926498a88661ab4f28451d50b6c8f30",
+      "bytes": 11602,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/iqaa/sudasi-f2.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/sudasi/sudasi-f2.png",
+      "status": "downloaded",
+      "sha256": "cec103c92c1d308c7516150072e3ffe24afd5a7097aee6888a7a0d0a6bbeeef1",
+      "bytes": 19906,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Iqa‘ Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Iqa‘ Malfuf",
+      "url": "https://www.maqamworld.com/en/iqaa/malfuf.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "13d0aa2b6b7998255cfcc3d42fbe60c561df155df96e9326e4b47a62d6190ed4",
+  "fetched_at": "2026-11-10T12:10:55.141988Z",
+  "status_code": 200,
+  "html_file": "data/raw/iqaa/sudasi.html"
+}

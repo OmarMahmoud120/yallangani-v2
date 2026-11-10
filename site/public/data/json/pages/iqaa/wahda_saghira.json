@@ -1,0 +1,169 @@
+{
+  "url": "https://www.maqamworld.com/en/iqaa/wahda_saghira.php",
+  "path": "/en/iqaa/wahda_saghira.php",
+  "section": "iqaa",
+  "slug": "iqaa/wahda_saghira",
+  "kind": "entry",
+  "title": "Iqa‘ Wahda Saghira 2/4",
+  "subtitle": "(also called Wahda Basita)",
+  "description": "Iqa‘ Wahda Saghira",
+  "lang": "en",
+  "paragraphs": [
+    "Iqa‘ Wahda Saghira is a simple 2/4 iqa‘ used in both vocals and instrumental phrases. \"Wahda\" means one in Arabic, referring to the single dum per measure, while \"saghira\" means small. It is also known as Wahda Basita (\"basita\" is Arabic for simple)."
+  ],
+  "text": "Iqa‘ Wahda Saghira 2/4 (also called Wahda Basita ) Iqa‘ Index Pronunciation of Wahda Saghira Iqa‘ Wahda Saghira is a simple 2/4 iqa‘ used in both vocals and instrumental phrases. \"Wahda\" means one in Arabic, referring to the single dum per measure, while \"saghira\" means small. It is also known as Wahda Basita (\"basita\" is Arabic for simple). Darit el-Ayyam (1970) Umm Kulthum Music by Muhammad Abdel Wahab (Egypt) al-Atlal (1966) Umm Kulthum Music by Riyad al-Sunbati ‘Ala Hesb Widad Albi (1953) Abdel Halim Hafez Music by Baligh Hamdi (Egypt) Qasida Mudnaka (1938) Vocals and Music by Muhammad Abdel Wahab (Egypt) Nibtidi Mnein el-Hikaya (1975) Abdel Halim Hafez Music by Muhammad Abdel Wahab (Egypt) Qal Eh Biyis'aluni Warda Music by Sayed Makkawi",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Darit el-Ayyam (1970)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Muhammad Abdel Wahab (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/wahda_saghira/darit_il_ayyam.mp3",
+      "local_path": "data/media/iqaa/wahda_saghira/darit_il_ayyam.mp3"
+    },
+    {
+      "index": 2,
+      "title": "al-Atlal (1966)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Riyad al-Sunbati"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/wahda_saghira/al_atlal.mp3",
+      "local_path": "data/media/iqaa/wahda_saghira/al_atlal.mp3"
+    },
+    {
+      "index": 3,
+      "title": "‘Ala Hesb Widad Albi (1953)",
+      "artist": "Abdel Halim Hafez",
+      "credits": [
+        "Music by Baligh Hamdi (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/wahda_saghira/3ala_hisbi_widab_albi.mp3",
+      "local_path": "data/media/iqaa/wahda_saghira/3ala_hisbi_widab_albi.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Qasida Mudnaka (1938)",
+      "artist": "Vocals and Music by Muhammad Abdel Wahab (Egypt)",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/wahda_saghira/mudnaka.mp3",
+      "local_path": "data/media/iqaa/wahda_saghira/mudnaka.mp3"
+    },
+    {
+      "index": 5,
+      "title": "Nibtidi Mnein el-Hikaya (1975)",
+      "artist": "Abdel Halim Hafez",
+      "credits": [
+        "Music by Muhammad Abdel Wahab (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/wahda_saghira/nibtidi.mp3",
+      "local_path": "data/media/iqaa/wahda_saghira/nibtidi.mp3"
+    },
+    {
+      "index": 6,
+      "title": "Qal Eh Biyis'aluni",
+      "artist": "Warda",
+      "credits": [
+        "Music by Sayed Makkawi"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/wahda_saghira/qal_eh_biyisaluni.mp3",
+      "local_path": "data/media/iqaa/wahda_saghira/qal_eh_biyisaluni.mp3"
+    }
+  ],
+  "notes": [],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/wahda_saghira/darit_il_ayyam.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/wahda_saghira/darit_il_ayyam.mp3",
+      "status": "downloaded",
+      "sha256": "a479203b473085bcd5efc6fbb6b417e4bdcc291e6e891136e0816e5c7ea15eea",
+      "bytes": 461805,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/wahda_saghira/al_atlal.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/wahda_saghira/al_atlal.mp3",
+      "status": "downloaded",
+      "sha256": "d24af1d1f208cff0e44634f4fb94a0903c73288583cdd943bf484bc605f12b0e",
+      "bytes": 575788,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/wahda_saghira/3ala_hisbi_widab_albi.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/wahda_saghira/3ala_hisbi_widab_albi.mp3",
+      "status": "downloaded",
+      "sha256": "51bcea8394662a7ea69d483cf4bd610ed64bc49aa19e9bf1d76d4c55ac510eff",
+      "bytes": 439913,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/wahda_saghira/mudnaka.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/wahda_saghira/mudnaka.mp3",
+      "status": "downloaded",
+      "sha256": "fbb17ec7aba269e53457f8619320baa28aee07cf086f9abc2199bb52ceb6795c",
+      "bytes": 367680,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/wahda_saghira/nibtidi.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/wahda_saghira/nibtidi.mp3",
+      "status": "downloaded",
+      "sha256": "0263258c50c213387b9375b8b9c456973796dc439c1fcb7470043c22ad9782f7",
+      "bytes": 610907,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/wahda_saghira/qal_eh_biyisaluni.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/wahda_saghira/qal_eh_biyisaluni.mp3",
+      "status": "downloaded",
+      "sha256": "6abdbc9ba0fc2af11964a9cbf54ae3027de569b1bb35630a23e73c584bf05a94",
+      "bytes": 763089,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/wahda_saghira.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/iqaa/wahda_saghira/wahda_saghira.mp3",
+      "status": "downloaded",
+      "sha256": "88ac63088fb9d0e56ffe0badb0fc1c3873bc08fc3540fc5e42f6aaefaac2c512",
+      "bytes": 49109,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/iqaa/wahda_saghira.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/wahda_saghira/wahda_saghira.png",
+      "status": "downloaded",
+      "sha256": "d7c29ce53ea9a45b3998cc75844962be0d6fcd680894a98e2927b4febc8f4892",
+      "bytes": 7447,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Iqa‘ Index",
+      "url": "#",
+      "kind": "anchor"
+    }
+  ],
+  "content_hash": "40ebaa0e7c9bafd1f207d585405c60baf6d8acc48b2136b6c935cb74cddd8ce9",
+  "fetched_at": "2026-11-10T12:10:55.150806Z",
+  "status_code": 200,
+  "html_file": "data/raw/iqaa/wahda_saghira.html"
+}

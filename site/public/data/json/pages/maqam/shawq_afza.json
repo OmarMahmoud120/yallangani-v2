@@ -1,0 +1,207 @@
+{
+  "url": "https://www.maqamworld.com/en/maqam/shawq_afza.php",
+  "path": "/en/maqam/shawq_afza.php",
+  "section": "maqam",
+  "slug": "maqam/shawq_afza",
+  "kind": "entry",
+  "title": "Maqam Shawq Afza",
+  "subtitle": "A member of the Maqam ‘Ajam Family",
+  "description": "Maqam Shawq Afza",
+  "lang": "en",
+  "paragraphs": [
+    "Click the notes and hold using the mouse to hear them play.",
+    "Maqam Shawq Afza is the most common variant of Maqam ‘Ajam. Its scale starts with the root Jins ‘Ajam on the tonic, while Jins Hijaz on the 5th degree is its distinguishing characteristic, as well as a frequent Jins Saba Dalanshin modulation on the 3rd/5th degrees.",
+    "Explore other maqamat in the Maqam ‘Ajam Family.",
+    "Watch a 1-minute sample Violin Taqsim in Maqam Shawq Afza by Sami Abu Shumays."
+  ],
+  "text": "Maqam Shawq Afza A member of the Maqam ‘Ajam Family Maqam Index Pronunciation of Shawq Afza Click the notes and hold using the mouse to hear them play. Maqam Shawq Afza is the most common variant of Maqam ‘Ajam . Its scale starts with the root Jins ‘Ajam on the tonic , while Jins Hijaz on the 5 th degree is its distinguishing characteristic, as well as a frequent Jins Saba Dalanshin modulation on the 3 rd /5 th degrees. Explore other maqamat in the Maqam ‘Ajam Family . Watch a 1-minute sample Violin Taqsim in Maqam Shawq Afza by Sami Abu Shumays. Lissa Fakir (1960) Umm Kulthum Music by Riyad al-Sunbati ‘Ala Allah T‘ud (1970) Wadih al-Safi Music by Farid al-Atrash Longa ‘Ajam Music by Abdu Daghir Malik al-Taqasim Iswarit el-‘Arus (1989) Fairouz Music by Philemon Wehbe",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Lissa Fakir (1960)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Riyad al-Sunbati"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/shawq_afza/lissa_fakir.mp3",
+      "local_path": "data/media/maqam/shawq_afza/lissa_fakir.mp3"
+    },
+    {
+      "index": 2,
+      "title": "‘Ala Allah T‘ud (1970)",
+      "artist": "Wadih al-Safi",
+      "credits": [
+        "Music by Farid al-Atrash"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/shawq_afza/3alallah_t3ud.mp3",
+      "local_path": "data/media/maqam/shawq_afza/3alallah_t3ud.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Longa ‘Ajam",
+      "artist": "Music by Abdu Daghir",
+      "credits": [
+        "Malik al-Taqasim"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/shawq_afza/longa_ajam.mp3",
+      "local_path": "data/media/maqam/shawq_afza/longa_ajam.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Iswarit el-‘Arus (1989)",
+      "artist": "Fairouz",
+      "credits": [
+        "Music by Philemon Wehbe"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/shawq_afza/zahrit_el_janub.mp3",
+      "local_path": "data/media/maqam/shawq_afza/zahrit_el_janub.mp3"
+    }
+  ],
+  "notes": [
+    {
+      "name": "C4",
+      "frequency": 260.74
+    },
+    {
+      "name": "D4",
+      "frequency": 293.33
+    },
+    {
+      "name": "E4",
+      "frequency": 328.0
+    },
+    {
+      "name": "F4",
+      "frequency": 347.65
+    },
+    {
+      "name": "G4",
+      "frequency": 391.11
+    },
+    {
+      "name": "A4♭",
+      "frequency": 423.0
+    },
+    {
+      "name": "B4♮",
+      "frequency": 492.0
+    },
+    {
+      "name": "C5",
+      "frequency": 521.48
+    }
+  ],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/shawq_afza/lissa_fakir.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/shawq_afza/lissa_fakir.mp3",
+      "status": "downloaded",
+      "sha256": "17d5607822dfbba40316f52d0c985d0ad9083a47899be54ac67a0a41cb12d0aa",
+      "bytes": 382760,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/shawq_afza/3alallah_t3ud.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/shawq_afza/3alallah_t3ud.mp3",
+      "status": "downloaded",
+      "sha256": "7e3d27ab2e891606c79d7028946ba3dea00ea48216fa4e982bc5c0d59c5783b4",
+      "bytes": 324615,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/shawq_afza/longa_ajam.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/shawq_afza/longa_ajam.mp3",
+      "status": "downloaded",
+      "sha256": "4d8703d03b123a223aebf5590232520249ed895d426ec4ab8f88b2367ec15454",
+      "bytes": 767567,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/shawq_afza/zahrit_el_janub.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/shawq_afza/zahrit_el_janub.mp3",
+      "status": "downloaded",
+      "sha256": "5dd4685f4ab0722061a5cdc1707b88f6d5f4d3f7ec2e57762e34e532dbce4aa6",
+      "bytes": 488180,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/shawq_afza.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/maqam/shawq_afza/shawq_afza.mp3",
+      "status": "downloaded",
+      "sha256": "86d19f69cac2ece895ef52b4007e3844a2577f153b7b767b6c7622c130e511a5",
+      "bytes": 45974,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/maqam/shawq_afza.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/maqam/shawq_afza/shawq_afza.png",
+      "status": "downloaded",
+      "sha256": "44a291a9c4b3fcbe21f0cd488536235b18b4ff21ad092959665132ce15c98f13",
+      "bytes": 11679,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/cd.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/maqam/shawq_afza/cd.png",
+      "status": "downloaded",
+      "sha256": "1f52da76667703a00010a07afefc9d78b6c3ccb8359b906fc6fd6b0cddd0255f",
+      "bytes": 5478,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Maqam ‘Ajam Family",
+      "url": "https://www.maqamworld.com/en/maqam/f_ajam.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Maqam ‘Ajam",
+      "url": "https://www.maqamworld.com/en/maqam/ajam.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins ‘Ajam",
+      "url": "https://www.maqamworld.com/en/jins/ajam.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Hijaz",
+      "url": "https://www.maqamworld.com/en/jins/hijaz.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Saba Dalanshin",
+      "url": "https://www.maqamworld.com/en/jins/saba_dalanshin.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Violin Taqsim in Maqam Shawq Afza",
+      "url": "https://www.instagram.com/p/B-SQ4tzFIiL",
+      "kind": "external"
+    }
+  ],
+  "content_hash": "19f8fa2d37aaf3811480d03f842cb1aa6a0aefab9af6c0d26ebf8db25ae40beb",
+  "fetched_at": "2026-11-10T12:10:54.991974Z",
+  "status_code": 200,
+  "html_file": "data/raw/maqam/shawq_afza.html"
+}

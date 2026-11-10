@@ -6,10 +6,13 @@ import kotlinx.serialization.Serializable
 @Serializable
 data class MaqamPack(
     val version: Int,
+    @SerialName("content_version") val contentVersion: String? = null,
+    @SerialName("published_at") val publishedAt: String? = null,
     val notice: String? = null,
     val maqams: List<Maqam>,
     val onboarding: Onboarding,
     val lessons: List<RecognitionLesson>,
+    @SerialName("audio_sha256") val audioSha256: Map<String, String> = emptyMap(),
 ) {
     fun maqamById(id: String): Maqam? = maqams.firstOrNull { it.id == id }
 }
@@ -53,6 +56,7 @@ data class Maqam(
     @SerialName("jins_ar") val jinsAr: String,
     @SerialName("signature_ar") val signatureAr: String,
     val audio: String,
+    val drone: String? = null,
     val status: String = APPROVED,
 ) {
     companion object {

@@ -1,0 +1,162 @@
+{
+  "url": "https://www.maqamworld.com/en/iqaa/wahda_w_nuss.php",
+  "path": "/en/iqaa/wahda_w_nuss.php",
+  "section": "iqaa",
+  "slug": "iqaa/wahda_w_nuss",
+  "kind": "entry",
+  "title": "Iqa‘ Wahda w-Nuss 4/4",
+  "subtitle": null,
+  "description": "Iqa‘ Wahda w-Nuss",
+  "lang": "en",
+  "paragraphs": [
+    "Iqa‘ Wahda w-Nuss (meaning \"one and a half\" in Arabic) is a syncopated version of Iqa‘ Maqsum with a first tak delayed by half of an an eighth note. It is very popular in the Tarab genre of the mid-twentieth century."
+  ],
+  "text": "Iqa‘ Wahda w-Nuss 4/4 Iqa‘ Index Pronunciation of Wahda w-Nuss Iqa‘ Wahda w-Nuss (meaning \"one and a half\" in Arabic) is a syncopated version of Iqa‘ Maqsum with a first tak delayed by half of an an eighth note. It is very popular in the Tarab genre of the mid-twentieth century. Nura Nura (1953) Vocals and Music by Farid al-Atrash Amal Hayati (1965) Umm Kulthum Music by Muhammad Abdel Wahab (Egypt) Ba‘id ‘Annak (1965) Umm Kulthum Music by Baligh Hamdi (Egypt) Ya Kawini Ya ‘Ali (1953) Sabah Music by Farid al-Atrash Iqa‘ Wahda w-Nuss 4/4 Tabla demonstration by Faisal Zedan",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Nura Nura (1953)",
+      "artist": "Vocals and Music by Farid al-Atrash",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/wahda_w_nuss/nura_nura.mp3",
+      "local_path": "data/media/iqaa/wahda_w_nuss/nura_nura.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Amal Hayati (1965)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Muhammad Abdel Wahab (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/wahda_w_nuss/amal_hayati.mp3",
+      "local_path": "data/media/iqaa/wahda_w_nuss/amal_hayati.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Ba‘id ‘Annak (1965)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Baligh Hamdi (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/wahda_w_nuss/ba3id_3annak.mp3",
+      "local_path": "data/media/iqaa/wahda_w_nuss/ba3id_3annak.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Ya Kawini Ya ‘Ali (1953)",
+      "artist": "Sabah",
+      "credits": [
+        "Music by Farid al-Atrash"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/wahda_w_nuss/ya_kawini_ya_ali.mp3",
+      "local_path": "data/media/iqaa/wahda_w_nuss/ya_kawini_ya_ali.mp3"
+    },
+    {
+      "index": 5,
+      "title": "Iqa‘ Wahda w-Nuss 4/4",
+      "artist": "Tabla demonstration by Faisal Zedan",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/demo/iqaa/tabla/wahda_w_nuss.mp3",
+      "local_path": "data/media/iqaa/wahda_w_nuss/wahda_w_nuss.mp3"
+    }
+  ],
+  "notes": [],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/wahda_w_nuss/nura_nura.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/wahda_w_nuss/nura_nura.mp3",
+      "status": "downloaded",
+      "sha256": "3e966d276a38aaaffddb32ff8f606b151da1ca78db257a3a98de07098fc50e3e",
+      "bytes": 540191,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/wahda_w_nuss/amal_hayati.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/wahda_w_nuss/amal_hayati.mp3",
+      "status": "downloaded",
+      "sha256": "97379f281fc54ff4caa43fdda64a3fdd670447c3d65801dd7b3766175b8cd12c",
+      "bytes": 422031,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/wahda_w_nuss/ba3id_3annak.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/wahda_w_nuss/ba3id_3annak.mp3",
+      "status": "downloaded",
+      "sha256": "02d7a0a2805246ed7dea6eeea80bc7974016647c564803b97477d3003bdb5860",
+      "bytes": 488494,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/wahda_w_nuss/ya_kawini_ya_ali.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/wahda_w_nuss/ya_kawini_ya_ali.mp3",
+      "status": "downloaded",
+      "sha256": "5a51817c2ea834c344f340dffa24fef11322aef39651022a9ce3fcb62df9628d",
+      "bytes": 253317,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/demo/iqaa/tabla/wahda_w_nuss.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/wahda_w_nuss/wahda_w_nuss.mp3",
+      "status": "downloaded",
+      "sha256": "6634d9a606eaf260c04f6bc2aeafedea0aeb36a5d6a492748e51a9d1dbc215da",
+      "bytes": 728964,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/wahda_w_nuss.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/iqaa/wahda_w_nuss/wahda_w_nuss-8156864d.mp3",
+      "status": "downloaded",
+      "sha256": "865bd2aef56053ba2c4bc49d98e1c1d12e48d258990aa5d499fd51c930bcc067",
+      "bytes": 44929,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/iqaa/wahda_w_nuss.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/wahda_w_nuss/wahda_w_nuss.png",
+      "status": "downloaded",
+      "sha256": "b20e189fbe143be075dd9e875eeb32b9ba39763467df35fe7f3e0607c15d01ca",
+      "bytes": 11355,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/tabla.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/wahda_w_nuss/tabla.png",
+      "status": "downloaded",
+      "sha256": "bc7d7630f1797012041feecf8f1a7bc6d926498a88661ab4f28451d50b6c8f30",
+      "bytes": 11602,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Iqa‘ Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Iqa‘ Maqsum",
+      "url": "https://www.maqamworld.com/en/iqaa/maqsum.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "4ccd757e97c6ed06ee4b32ab807ac9c7e2184d32f0b0ac006914cb963c17b845",
+  "fetched_at": "2026-11-10T12:10:55.154028Z",
+  "status_code": 200,
+  "html_file": "data/raw/iqaa/wahda_w_nuss.html"
+}

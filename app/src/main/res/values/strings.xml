@@ -32,6 +32,8 @@
     <string name="lesson_replay">إعادة</string>
     <string name="lesson_slow">أبطأ</string>
     <string name="lesson_slow_on">أبطأ مفعّل</string>
+    <string name="lesson_drone">درون</string>
+    <string name="lesson_drone_on">درون مفعّل</string>
     <string name="lesson_compare">اسمع الفرق</string>
     <string name="lesson_compare_caption">%1$s ثم %2$s</string>
     <string name="lesson_correct">أحسنت</string>

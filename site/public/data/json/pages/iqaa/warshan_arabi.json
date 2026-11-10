@@ -1,0 +1,106 @@
+{
+  "url": "https://www.maqamworld.com/en/iqaa/warshan_arabi.php",
+  "path": "/en/iqaa/warshan_arabi.php",
+  "section": "iqaa",
+  "slug": "iqaa/warshan_arabi",
+  "kind": "entry",
+  "title": "Iqa‘ Warshan ‘Arabi 32/4",
+  "subtitle": null,
+  "description": "Iqa‘ Warshan ‘Arabi",
+  "lang": "en",
+  "paragraphs": [
+    "Iqa‘ Warshan ‘Arabi (‘Arabi means Arab) is a rare iqa‘ mostly used in the Muwashah vocal genre. It spans 8 measures of 4/4, bringing its time signature to 32/4."
+  ],
+  "text": "Iqa‘ Warshan ‘Arabi 32/4 Iqa‘ Index Pronunciation of Warshan ‘Arabi Iqa‘ Warshan ‘Arabi ( ‘Arabi means Arab) is a rare iqa‘ mostly used in the Muwashah vocal genre. It spans 8 measures of 4/4, bringing its time signature to 32/4. Muwashah Qatili Bi Ghunji al-Kahali Ensemble Al-Kindi Les Croisades Sous Le Regard De l'Orient Part I - Maqam Bayati Muwashah Ahi Min Juri al-Ghawani Abdel Halim Noueira Ensemble Music by Ahmad Abu Khalil al-Qabbani",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Muwashah Qatili Bi Ghunji al-Kahali",
+      "artist": "Ensemble Al-Kindi",
+      "credits": [
+        "Les Croisades Sous Le Regard De l'Orient Part I - Maqam Bayati"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/warshan_arabi/qatili_bi_ghunjil_alkindi.mp3",
+      "local_path": "data/media/iqaa/warshan_arabi/qatili_bi_ghunjil_alkindi.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Muwashah Ahi Min Juri al-Ghawani",
+      "artist": "Abdel Halim Noueira Ensemble",
+      "credits": [
+        "Music by Ahmad Abu Khalil al-Qabbani"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/warshan_arabi/ah_min_jour_el_ghawani.mp3",
+      "local_path": "data/media/iqaa/warshan_arabi/ah_min_jour_el_ghawani.mp3"
+    }
+  ],
+  "notes": [],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/warshan_arabi/qatili_bi_ghunjil_alkindi.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/warshan_arabi/qatili_bi_ghunjil_alkindi.mp3",
+      "status": "downloaded",
+      "sha256": "8155f1250d4c529a61fd7ecc3ff899f95d8c1f351ff668829c4d403e824bdc05",
+      "bytes": 1143373,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/warshan_arabi/ah_min_jour_el_ghawani.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/warshan_arabi/ah_min_jour_el_ghawani.mp3",
+      "status": "downloaded",
+      "sha256": "1027468d3cfb3d5abff424858a5e4ba3f7d6e14d2b84fb9e71d2aae6ae534b53",
+      "bytes": 849443,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/warshan_arabi.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/iqaa/warshan_arabi/warshan_arabi.mp3",
+      "status": "downloaded",
+      "sha256": "4b8be2c94e24a5ded283aed0b1ff818d0ee7485c504fa6d4cbb6de1c0d754cce",
+      "bytes": 17264,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/iqaa/warshan_arabi.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/warshan_arabi/warshan_arabi.png",
+      "status": "downloaded",
+      "sha256": "5aea9b928d99aec8418769ad7b85d55a85d6385dffcd5eab38092c2094932367",
+      "bytes": 26821,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/cd.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/warshan_arabi/cd.png",
+      "status": "downloaded",
+      "sha256": "1f52da76667703a00010a07afefc9d78b6c3ccb8359b906fc6fd6b0cddd0255f",
+      "bytes": 5478,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Iqa‘ Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Muwashah",
+      "url": "https://www.maqamworld.com/en/form/vocal_comp.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "c24dc8e853d1671fe94968899e37b5ea2ba7901b066bcd045ba8a27ae00f4a0a",
+  "fetched_at": "2026-11-10T12:10:55.155378Z",
+  "status_code": 200,
+  "html_file": "data/raw/iqaa/warshan_arabi.html"
+}

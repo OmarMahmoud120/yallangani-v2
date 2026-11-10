@@ -1,0 +1,186 @@
+{
+  "url": "https://www.maqamworld.com/en/iqaa/zaffa.php",
+  "path": "/en/iqaa/zaffa.php",
+  "section": "iqaa",
+  "slug": "iqaa/zaffa",
+  "kind": "entry",
+  "title": "Iqa‘ Zaffa 4/4",
+  "subtitle": null,
+  "description": "Iqa‘ Zaffa",
+  "lang": "en",
+  "paragraphs": [
+    "Iqa‘ Zaffa is named after a wedding procession involving a loud and diverse group of percussion instruments. Aside from weddings, it is a possible modulation from slowed down versions of 4/4 iqa‘at like Baladi and Maqsum."
+  ],
+  "text": "Iqa‘ Zaffa 4/4 Iqa‘ Index Pronunciation of Zaffa Iqa‘ Zaffa is named after a wedding procession involving a loud and diverse group of percussion instruments. Aside from weddings, it is a possible modulation from slowed down versions of 4/4 iqa‘at like Baladi and Maqsum . Duqqu il-Mazahir (1952) Vocals and Music by Farid al-Atrash Alf Leila w Leila (1969) Umm Kulthum Music by Baligh Hamdi (Egypt) Qadd Ah Ya Hilu Muhammad Khayri Qadd Ya Mal il-Sham Sabah Fakhri Music by Ahmad Abu Khalil al-Qabbani Hann el-Hadid (1974) Joseph Saqr Music by Ziad Rahbani From the musical Nazl el-Surur Iqa‘ Zaffa 4/4 Tabla demonstration by Faisal Zedan",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Duqqu il-Mazahir (1952)",
+      "artist": "Vocals and Music by Farid al-Atrash",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/zaffa/duqqu_il_mazahir.mp3",
+      "local_path": "data/media/iqaa/zaffa/duqqu_il_mazahir.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Alf Leila w Leila (1969)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Baligh Hamdi (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/zaffa/alf_leila_w_leila.mp3",
+      "local_path": "data/media/iqaa/zaffa/alf_leila_w_leila.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Qadd Ah Ya Hilu",
+      "artist": "Muhammad Khayri",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/zaffa/ah_ya_hilu.mp3",
+      "local_path": "data/media/iqaa/zaffa/ah_ya_hilu.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Qadd Ya Mal il-Sham",
+      "artist": "Sabah Fakhri",
+      "credits": [
+        "Music by Ahmad Abu Khalil al-Qabbani"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/zaffa/ya_mal_el_sham.mp3",
+      "local_path": "data/media/iqaa/zaffa/ya_mal_el_sham.mp3"
+    },
+    {
+      "index": 5,
+      "title": "Hann el-Hadid (1974)",
+      "artist": "Joseph Saqr",
+      "credits": [
+        "Music by Ziad Rahbani",
+        "From the musical Nazl el-Surur"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/zaffa/hann_el_hadid.mp3",
+      "local_path": "data/media/iqaa/zaffa/hann_el_hadid.mp3"
+    },
+    {
+      "index": 6,
+      "title": "Iqa‘ Zaffa 4/4",
+      "artist": "Tabla demonstration by Faisal Zedan",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/demo/iqaa/tabla/zaffa.mp3",
+      "local_path": "data/media/iqaa/zaffa/zaffa.mp3"
+    }
+  ],
+  "notes": [],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/zaffa/duqqu_il_mazahir.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/zaffa/duqqu_il_mazahir.mp3",
+      "status": "downloaded",
+      "sha256": "568a39b3b17440514f186a90c5474f6dd07b46831f0f461e0a0e634e43779ae5",
+      "bytes": 387322,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/zaffa/alf_leila_w_leila.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/zaffa/alf_leila_w_leila.mp3",
+      "status": "downloaded",
+      "sha256": "c25c820c30b6fc3015d5d21e7d9a97107857bfa45981ab7e921e9c2aa860c993",
+      "bytes": 825492,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/zaffa/ah_ya_hilu.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/zaffa/ah_ya_hilu.mp3",
+      "status": "downloaded",
+      "sha256": "1b921e0484aeb7a08ba6617a76d5c71e61a3f6b9992d061723d15f66d8fb9c8e",
+      "bytes": 682880,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/zaffa/ya_mal_el_sham.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/zaffa/ya_mal_el_sham.mp3",
+      "status": "downloaded",
+      "sha256": "d8ab2f479c7cd9f9ff40410ba0f0a517034d3f73477de6bc11e8c1936295d035",
+      "bytes": 382947,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/zaffa/hann_el_hadid.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/zaffa/hann_el_hadid.mp3",
+      "status": "downloaded",
+      "sha256": "57325eb3f3a263be73328e173853d67b7f49ed4fc19192aa8ec04d8c4fdd6edd",
+      "bytes": 639904,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/demo/iqaa/tabla/zaffa.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/zaffa/zaffa.mp3",
+      "status": "downloaded",
+      "sha256": "fb3841f2e3558dc76d47112934c764b5613215d41b82ee63bdfed9217f362086",
+      "bytes": 716426,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/zaffa.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/iqaa/zaffa/zaffa-7ef2b0dc.mp3",
+      "status": "downloaded",
+      "sha256": "531f51d73f2d5513202c42335d228bbd7c30016f20d58e106ea11d78d86cdcfa",
+      "bytes": 30301,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/iqaa/zaffa.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/zaffa/zaffa.png",
+      "status": "downloaded",
+      "sha256": "3e5fc4cddcd49350eb768a7be36c79337e08615b9c34a7c01572ba29b35ac16f",
+      "bytes": 12154,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/tabla.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/zaffa/tabla.png",
+      "status": "downloaded",
+      "sha256": "bc7d7630f1797012041feecf8f1a7bc6d926498a88661ab4f28451d50b6c8f30",
+      "bytes": 11602,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Iqa‘ Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Baladi",
+      "url": "https://www.maqamworld.com/en/iqaa/baladi.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqsum",
+      "url": "https://www.maqamworld.com/en/iqaa/maqsum.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "d871fc08d93bd20ceaa28b3d62a1b117058efb244bc6bd865e1ec4c84a9bcbe4",
+  "fetched_at": "2026-11-10T12:10:55.158802Z",
+  "status_code": 200,
+  "html_file": "data/raw/iqaa/zaffa.html"
+}

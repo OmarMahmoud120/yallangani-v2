@@ -1,0 +1,247 @@
+{
+  "url": "https://www.maqamworld.com/en/maqam/nikriz.php",
+  "path": "/en/maqam/nikriz.php",
+  "section": "maqam",
+  "slug": "maqam/nikriz",
+  "kind": "entry",
+  "title": "Maqam Nikriz",
+  "subtitle": "The principal maqam in the Maqam Nikriz Family",
+  "description": "Maqam Nikriz",
+  "lang": "en",
+  "paragraphs": [
+    "Click the notes and hold using the mouse to hear them play.",
+    "Maqam Nikriz is the main maqam in the Nikriz Family. Its scale starts with the root Jins Nikriz on the tonic, followed by Jins Nahawand on the 5th degree.",
+    "Explore other maqamat in the Maqam Nikriz Family.",
+    "Watch a 1-minute sample Violin Taqsim in Maqam Nikriz by Sami Abu Shumays."
+  ],
+  "text": "Maqam Nikriz The principal maqam in the Maqam Nikriz Family Maqam Index Pronunciation of Nikriz Click the notes and hold using the mouse to hear them play. Maqam Nikriz is the main maqam in the Nikriz Family. Its scale starts with the root Jins Nikriz on the tonic , followed by Jins Nahawand on the 5 th degree. Explore other maqamat in the Maqam Nikriz Family . Watch a 1-minute sample Violin Taqsim in Maqam Nikriz by Sami Abu Shumays. Ya Msahharni (1972) Umm Kulthum Music by Sayyed Makkawi Ba‘id ‘Annak (1965) Umm Kulthum Music by Baligh Hamdi (Egypt) Dawr il-Alb Yama Intazar (1931) Vocals and Music by Muhammad Abdel Wahab (Egypt) Saga al-Laylu (1939) Vocals and Music by Muhammad Abdel Wahab (Egypt) Muwashah Bayna Qasiyun Wa Rabwa Hassan al-Haffar Music by ‘Umar al-Batsh Muwashah Zarani Taht al-Ghayahib Muhammad Khayri Music by ‘Umar al-Batsh Dawr Yalli Qawamak Ya‘gibni Karem Mahmoud Music by Sayyed Darwish",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Ya Msahharni (1972)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Sayyed Makkawi"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/nikriz/ya_msahharni.mp3",
+      "local_path": "data/media/maqam/nikriz/ya_msahharni.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Ba‘id ‘Annak (1965)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Baligh Hamdi (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/nikriz/ba3id_3annak.mp3",
+      "local_path": "data/media/maqam/nikriz/ba3id_3annak.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Dawr il-Alb Yama Intazar (1931)",
+      "artist": "Vocals and Music by Muhammad Abdel Wahab (Egypt)",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/nikriz/il_albi_yama_intazar.mp3",
+      "local_path": "data/media/maqam/nikriz/il_albi_yama_intazar.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Saga al-Laylu (1939)",
+      "artist": "Vocals and Music by Muhammad Abdel Wahab (Egypt)",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/nikriz/saga_al_laylu.mp3",
+      "local_path": "data/media/maqam/nikriz/saga_al_laylu.mp3"
+    },
+    {
+      "index": 5,
+      "title": "Muwashah Bayna Qasiyun Wa Rabwa",
+      "artist": "Hassan al-Haffar",
+      "credits": [
+        "Music by ‘Umar al-Batsh"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/nikriz/bayna_qasiyun.mp3",
+      "local_path": "data/media/maqam/nikriz/bayna_qasiyun.mp3"
+    },
+    {
+      "index": 6,
+      "title": "Muwashah Zarani Taht al-Ghayahib",
+      "artist": "Muhammad Khayri",
+      "credits": [
+        "Music by ‘Umar al-Batsh"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/nikriz/zarani_taht_al_ghayahib.mp3",
+      "local_path": "data/media/maqam/nikriz/zarani_taht_al_ghayahib.mp3"
+    },
+    {
+      "index": 7,
+      "title": "Dawr Yalli Qawamak Ya‘gibni",
+      "artist": "Karem Mahmoud",
+      "credits": [
+        "Music by Sayyed Darwish"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/nikriz/yalli_awamak_yi3gibni.mp3",
+      "local_path": "data/media/maqam/nikriz/yalli_awamak_yi3gibni.mp3"
+    }
+  ],
+  "notes": [
+    {
+      "name": "D5",
+      "frequency": 586.66
+    },
+    {
+      "name": "C5",
+      "frequency": 521.48
+    },
+    {
+      "name": "B4♭",
+      "frequency": 463.54
+    },
+    {
+      "name": "A4♮",
+      "frequency": 440.0
+    },
+    {
+      "name": "G4",
+      "frequency": 391.11
+    },
+    {
+      "name": "F4♯",
+      "frequency": 375.0
+    },
+    {
+      "name": "E4♭",
+      "frequency": 315.0
+    },
+    {
+      "name": "D4",
+      "frequency": 293.33
+    },
+    {
+      "name": "C4",
+      "frequency": 260.74
+    }
+  ],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/nikriz/ya_msahharni.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/nikriz/ya_msahharni.mp3",
+      "status": "downloaded",
+      "sha256": "ccf122fea33cb49a9b34f22e14eb3c7ddad30b42b17eb2303abf9d27ddb60ffa",
+      "bytes": 572887,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/nikriz/ba3id_3annak.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/nikriz/ba3id_3annak.mp3",
+      "status": "downloaded",
+      "sha256": "64c51fcd731fa45170cbd0b384c6cd99a57415ff9011cf486b4e78166f67efe8",
+      "bytes": 1112497,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/nikriz/il_albi_yama_intazar.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/nikriz/il_albi_yama_intazar.mp3",
+      "status": "downloaded",
+      "sha256": "e007421d3c5ebf9ccfdf23efeedab1a5a01e723cac47d8b8fc8e9ba3fe665321",
+      "bytes": 406531,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/nikriz/saga_al_laylu.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/nikriz/saga_al_laylu.mp3",
+      "status": "downloaded",
+      "sha256": "e86ffb48adffbda921c18406209bcad2645310228705bbf3aa09ba302e3cbecd",
+      "bytes": 581902,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/nikriz/bayna_qasiyun.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/nikriz/bayna_qasiyun.mp3",
+      "status": "downloaded",
+      "sha256": "7a94b03c3a52e8c6808406cf206292de1733feec3dab7f50c77f1e665454c61a",
+      "bytes": 1101644,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/nikriz/zarani_taht_al_ghayahib.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/nikriz/zarani_taht_al_ghayahib.mp3",
+      "status": "downloaded",
+      "sha256": "fc6a79813212be7f203b935deafb7335b41d69e715c988b65946d35a94b51e47",
+      "bytes": 977693,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/nikriz/yalli_awamak_yi3gibni.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/nikriz/yalli_awamak_yi3gibni.mp3",
+      "status": "downloaded",
+      "sha256": "bda27015df30c2cf3f6dcc9459e76f58d02badc3d762e086d47bac7a29ceb634",
+      "bytes": 540177,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/nikriz.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/maqam/nikriz/nikriz.mp3",
+      "status": "downloaded",
+      "sha256": "c49763159b7611b0938e4606ee534af9bc4105b6ccf473c673da9326ccf05e29",
+      "bytes": 36570,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/maqam/nikriz.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/maqam/nikriz/nikriz.png",
+      "status": "downloaded",
+      "sha256": "2dba89451e9bb466d68841b202eaf7b6a1241641e5b3c20aea4315baa56bd769",
+      "bytes": 14376,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Maqam Nikriz Family",
+      "url": "https://www.maqamworld.com/en/maqam/f_nikriz.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Jins Nikriz",
+      "url": "https://www.maqamworld.com/en/jins/nikriz.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Nahawand",
+      "url": "https://www.maqamworld.com/en/jins/nahawand.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Violin Taqsim in Maqam Nikriz",
+      "url": "https://www.instagram.com/p/B-dBoriFT-3",
+      "kind": "external"
+    }
+  ],
+  "content_hash": "523abec6d7f74431e23680699bae33657a112ffa6ce4d6077af2200c4ab1c9f2",
+  "fetched_at": "2026-11-10T12:10:54.965697Z",
+  "status_code": 200,
+  "html_file": "data/raw/maqam/nikriz.html"
+}

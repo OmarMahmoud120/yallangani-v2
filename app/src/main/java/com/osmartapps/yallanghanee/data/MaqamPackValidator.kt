@@ -17,6 +17,9 @@ object MaqamPackValidator {
             if (maqam.signatureAr.isBlank()) errors += "blank signature for ${maqam.id}"
             if (maqam.status != "approved") errors += "maqam not approved: ${maqam.id}"
             if (!audioExists(maqam.audio)) errors += "missing audio: ${maqam.audio}"
+            maqam.drone?.let { drone ->
+                if (!audioExists(drone)) errors += "missing drone audio: $drone"
+            }
         }
 
         val onboarding = pack.onboarding

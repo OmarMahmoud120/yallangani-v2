@@ -1,0 +1,127 @@
+{
+  "url": "https://www.maqamworld.com/en/instr/accordion.php",
+  "path": "/en/instr/accordion.php",
+  "section": "instr",
+  "slug": "instr/accordion",
+  "kind": "entry",
+  "title": "The Arabic Accordion",
+  "subtitle": "An Accordion altered to include quartertone notes",
+  "description": "The Arabic Accordion",
+  "lang": "en",
+  "paragraphs": [
+    "The Accordion came to the Arabic music scene in Egypt in the early 20th century, and was originally used without any alteration to add a foreign flavor to the music (e.g. on \"Sahirtu\" by Muhammad Abdel Wahab in 1935). Later it was altered to add new notes (the \"quartertones\") that allowed it to play many more Arabic maqam scales with good-enough intonation.",
+    "The accordion is extremely popular in the Raqs Sharqi (belly dance) and Sha‘bi genres.",
+    "Explore other Arabized instruments:"
+  ],
+  "text": "The Arabic Accordion An Accordion altered to include quartertone notes Instrument Index Faruq Salama playing accordion on Umm Kulthum's \"Ya Msahharni\", Cairo, 1971 The Accordion came to the Arabic music scene in Egypt in the early 20 th century, and was originally used without any alteration to add a foreign flavor to the music (e.g. on \" Sahirtu \" by Muhammad Abdel Wahab in 1935). Later it was altered to add new notes (the \"quartertones\") that allowed it to play many more Arabic maqam scales with good-enough intonation. The accordion is extremely popular in the Raqs Sharqi (belly dance) and Sha‘bi genres. Ya Msahharni Egyptian Arabic Accordion pioneer Faruq Salama plays the introduction of Umm Kukthum's song Ya Msahharni (1972, music by Sayyed Makkawi. Faruq Salama Interview Interview about Faruq Salama about his experience playing the Arabic Accordion with Umm Kulthum's orchestra Fifi ‘Abdou A dance clip by Egyptian belly dancer Fifi ‘Abdou that opens with an Arabic accordion Ahmed ‘Adaweya Ahmed ‘Adaweya's song Ya Hilu il-Malamih (in the Egyptian Sha‘bi genre) accompanied by a belly dancer. Elias Lammam The National Arab Orchestra (USA) performing Farid al-Atrash's instrumental composition Kahramana in an arrangement that features the Arabic Accordion alongside traditional Arabic instruments. Explore other Arabized instruments: The Electric Guitar The Arabic Org The Oriental Keyboard The Arabic Piano The Saxophone The Trumpet",
+  "tracks": [],
+  "notes": [],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/instr/accordion.jpg",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/instr/accordion/accordion.jpg",
+      "status": "downloaded",
+      "sha256": "8ccf60e5d7712bd0ca3da3bebd19769e3a3abc8b5fb507618d02ef1e48263b26",
+      "bytes": 32083,
+      "content_type": null
+    },
+    {
+      "url": "https://img.youtube.com/vi/_0JgmVgSa94/hqdefault.jpg",
+      "kind": "image",
+      "source": "content",
+      "local_path": null,
+      "status": "skipped_external",
+      "sha256": null,
+      "bytes": null,
+      "content_type": null
+    },
+    {
+      "url": "https://img.youtube.com/WLQD2L5TiTM/hqdefault.jpg",
+      "kind": "image",
+      "source": "content",
+      "local_path": null,
+      "status": "skipped_external",
+      "sha256": null,
+      "bytes": null,
+      "content_type": null
+    },
+    {
+      "url": "https://img.youtube.com/vi/1nUqK5wLiME/hqdefault.jpg",
+      "kind": "image",
+      "source": "content",
+      "local_path": null,
+      "status": "skipped_external",
+      "sha256": null,
+      "bytes": null,
+      "content_type": null
+    },
+    {
+      "url": "https://img.youtube.com/vi/oANW6M63pRE/hqdefault.jpg",
+      "kind": "image",
+      "source": "content",
+      "local_path": null,
+      "status": "skipped_external",
+      "sha256": null,
+      "bytes": null,
+      "content_type": null
+    },
+    {
+      "url": "https://img.youtube.com/vi/7f5a9BhGios/hqdefault.jpg",
+      "kind": "image",
+      "source": "content",
+      "local_path": null,
+      "status": "skipped_external",
+      "sha256": null,
+      "bytes": null,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Instrument Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "maqam",
+      "url": "https://www.maqamworld.com/en/maqam.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Electric Guitar",
+      "url": "https://www.maqamworld.com/en/instr/guitar.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Arabic Org",
+      "url": "https://www.maqamworld.com/en/instr/org.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Oriental Keyboard",
+      "url": "https://www.maqamworld.com/en/instr/keyboard.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Arabic Piano",
+      "url": "https://www.maqamworld.com/en/instr/piano.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Saxophone",
+      "url": "https://www.maqamworld.com/en/instr/saxophone.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Trumpet",
+      "url": "https://www.maqamworld.com/en/instr/trumpet.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "2223c96c0462aca83813bc73a5391ceffe6489d91f1d688e3f3c16ba95b37c89",
+  "fetched_at": "2026-11-10T12:10:55.173110Z",
+  "status_code": 200,
+  "html_file": "data/raw/instr/accordion.html"
+}

@@ -1,0 +1,172 @@
+{
+  "url": "https://www.maqamworld.com/en/jins/lami.php",
+  "path": "/en/jins/lami.php",
+  "section": "jins",
+  "slug": "jins/lami",
+  "kind": "entry",
+  "title": "Jins Lami",
+  "subtitle": "A 4-note jins",
+  "description": "Jins Lami",
+  "lang": "en",
+  "paragraphs": [
+    "Click the notes and hold using the mouse to hear them play.",
+    "Jins Lami is a 4-note jins. It is notated here with its tonic on D and its ghammaz on G. Jins Lami is the first jins in Maqam Lami."
+  ],
+  "text": "Jins Lami A 4-note jins Jins Index Pronunciation of Lami Click the notes and hold using the mouse to hear them play. Jins Lami is a 4-note jins . It is notated here with its tonic on D and its ghammaz on G. Jins Lami is the first jins in Maqam Lami . el-Bortoqal (1938) Vocals and Music by Muhammad Abdel Wahab (Egypt) Ahmad Ya Habibi Vocals and Music by Sabri al-Mudallal el-Najmat (1964) Vocals and Music by Wadih al-Safi Gulli Ya Hilu Kazem el-Saher (Iraq) Qasida Aqulu Wa Qad Nahat Bi Qurbi Hamamatun Nazem al-Ghazali (Iraq)",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "el-Bortoqal (1938)",
+      "artist": "Vocals and Music by Muhammad Abdel Wahab (Egypt)",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/jins/lami/el_bortoqal.mp3",
+      "local_path": "data/media/jins/lami/el_bortoqal.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Ahmad Ya Habibi",
+      "artist": "Vocals and Music by Sabri al-Mudallal",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/jins/lami/ahmad_ya_habibi.mp3",
+      "local_path": "data/media/jins/lami/ahmad_ya_habibi.mp3"
+    },
+    {
+      "index": 3,
+      "title": "el-Najmat (1964)",
+      "artist": "Vocals and Music by Wadih al-Safi",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/jins/lami/el_najmat.mp3",
+      "local_path": "data/media/jins/lami/el_najmat.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Gulli Ya Hilu",
+      "artist": "Kazem el-Saher (Iraq)",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/jins/lami/gulli_ya_hilu.mp3",
+      "local_path": "data/media/jins/lami/gulli_ya_hilu.mp3"
+    },
+    {
+      "index": 5,
+      "title": "Qasida Aqulu Wa Qad Nahat Bi Qurbi Hamamatun",
+      "artist": "Nazem al-Ghazali (Iraq)",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/jins/lami/qasidat_aqulu.mp3",
+      "local_path": "data/media/jins/lami/qasidat_aqulu.mp3"
+    }
+  ],
+  "notes": [
+    {
+      "name": "D4",
+      "frequency": 293.33
+    },
+    {
+      "name": "E4♭",
+      "frequency": 308.25
+    },
+    {
+      "name": "F4",
+      "frequency": 347.65
+    },
+    {
+      "name": "G4",
+      "frequency": 391.11
+    },
+    {
+      "name": "A4♭",
+      "frequency": 411.0
+    },
+    {
+      "name": "B4♭",
+      "frequency": 463.54
+    }
+  ],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/jins/lami/el_bortoqal.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/lami/el_bortoqal.mp3",
+      "status": "downloaded",
+      "sha256": "dd7cc91f11afe2f31a561f2430962b67fc2ef73aec3459d28e14114ee3254bb6",
+      "bytes": 598891,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/lami/ahmad_ya_habibi.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/lami/ahmad_ya_habibi.mp3",
+      "status": "downloaded",
+      "sha256": "8aa3cbfa0b0d071d26766b0739e08905cb98e6623bfbf12100acfc6d2b485b10",
+      "bytes": 488369,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/lami/el_najmat.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/lami/el_najmat.mp3",
+      "status": "downloaded",
+      "sha256": "4925691105b50661e104274258967d23b22b28ceb8692b02bbe25ebdf96e3d84",
+      "bytes": 663747,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/lami/gulli_ya_hilu.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/lami/gulli_ya_hilu.mp3",
+      "status": "downloaded",
+      "sha256": "904d9bf11ad6625d10a71a9120b8b364418e38c187be0c7cc352d74244340098",
+      "bytes": 621337,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/lami/qasidat_aqulu.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/lami/qasidat_aqulu.mp3",
+      "status": "downloaded",
+      "sha256": "fb31acd967619f950cce06fd0ea1b90853b51f50018ab070a5096c42128fb678",
+      "bytes": 380424,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/lami.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/jins/lami/lami.mp3",
+      "status": "downloaded",
+      "sha256": "bdd3bdf608ed13517a0c2ba92adf88aa1277e8765a9970baf0c078d3c8fc9746",
+      "bytes": 35525,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/jins/lami.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/jins/lami/lami.png",
+      "status": "downloaded",
+      "sha256": "e45c0ecc647b67f0ac6d394e69f2aa48d87a2b193aef5929b9dee0895556aa0c",
+      "bytes": 7831,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Jins Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Maqam Lami",
+      "url": "https://www.maqamworld.com/en/maqam/lami.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "8c8a67b2aefcdcfb6b5194bc7b2867f849185a77984d1d73e0b8a007abb8fd91",
+  "fetched_at": "2026-11-10T12:10:55.061625Z",
+  "status_code": 200,
+  "html_file": "data/raw/jins/lami.html"
+}

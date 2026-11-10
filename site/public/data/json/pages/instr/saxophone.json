@@ -1,0 +1,97 @@
+{
+  "url": "https://www.maqamworld.com/en/instr/saxophone.php",
+  "path": "/en/instr/saxophone.php",
+  "section": "instr",
+  "slug": "instr/saxophone",
+  "kind": "entry",
+  "title": "The Arabic Saxophone",
+  "subtitle": "A Saxophone used to play Arabic Maqam scales",
+  "description": "The Arabic Saxophone",
+  "lang": "en",
+  "paragraphs": [
+    "The Saxophone is a rare instrument in Arabic music, despite the fact that it can produce good maqam scale intonation. It never went mainstream the way the Arabic Accordion did and was mostly used to add an innovative sound to Arabic orchestral arrangements.",
+    "The principal pioneer of the Arabic saxophone is Samir Surour (Egypt) whose background was in military brass band music. Surour played on quite a few Umm Kulthum songs then went to record a series of solo instrumental albums under the name ‘Ashiq el-Sax (The Sax Lover).",
+    "Explore other Arabized instruments:"
+  ],
+  "text": "The Arabic Saxophone A Saxophone used to play Arabic Maqam scales Instrument Index Arabic Saxophone pioneer Samir Surour (Egypt) The Saxophone is a rare instrument in Arabic music, despite the fact that it can produce good maqam scale intonation. It never went mainstream the way the Arabic Accordion did and was mostly used to add an innovative sound to Arabic orchestral arrangements. The principal pioneer of the Arabic saxophone is Samir Surour (Egypt) whose background was in military brass band music. Surour played on quite a few Umm Kulthum songs then went to record a series of solo instrumental albums under the name ‘Ashiq el-Sax (The Sax Lover). Hawil Tiftikirni (1973) Abdel Halim Hafez's song Hawil Tiftikirni (1973, music by Baligh Hamdi) opens with the Arabic Org, the Electric Guitar, then a Saxophone solo by Samir Surour. Fat el-Ma‘ad (1967) Umm Kulthum's song Fat el-Ma‘ad (1967, music by Baligh Hamdi) includes in its arrangement Faruq Salama on the Arabic Accordion, Abdel Fattah Khayri on the Electric Guitar and Samir Surour on the Saxophone. Explore other Arabized instruments: The Arabic Accordion The Electric Guitar The Arabic Org The Oriental Keyboard The Arabic Piano The Trumpet",
+  "tracks": [],
+  "notes": [],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/instr/saxophone.jpg",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/instr/saxophone/saxophone.jpg",
+      "status": "downloaded",
+      "sha256": "0761122c7c97b62ec96498d93d67dcf2318d5835744925f9b0e452f89a5117df",
+      "bytes": 23437,
+      "content_type": null
+    },
+    {
+      "url": "https://img.youtube.com/vi/n_2qIVjgboM/hqdefault.jpg",
+      "kind": "image",
+      "source": "content",
+      "local_path": null,
+      "status": "skipped_external",
+      "sha256": null,
+      "bytes": null,
+      "content_type": null
+    },
+    {
+      "url": "https://img.youtube.com/vi/tNskrvpodqA/hqdefault.jpg",
+      "kind": "image",
+      "source": "content",
+      "local_path": null,
+      "status": "skipped_external",
+      "sha256": null,
+      "bytes": null,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Maqam",
+      "url": "https://www.maqamworld.com/en/maqam.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Instrument Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Arabic Accordion",
+      "url": "https://www.maqamworld.com/en/instr/accordion.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Electric Guitar",
+      "url": "https://www.maqamworld.com/en/instr/guitar.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Arabic Org",
+      "url": "https://www.maqamworld.com/en/instr/org.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Oriental Keyboard",
+      "url": "https://www.maqamworld.com/en/instr/keyboard.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Arabic Piano",
+      "url": "https://www.maqamworld.com/en/instr/piano.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Trumpet",
+      "url": "https://www.maqamworld.com/en/instr/trumpet.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "757b55df697fe8e630ea053db5698e81ac417a8f4895a65115122e9e60c220aa",
+  "fetched_at": "2026-11-10T12:10:55.194662Z",
+  "status_code": 200,
+  "html_file": "data/raw/instr/saxophone.html"
+}

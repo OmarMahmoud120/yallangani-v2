@@ -1,0 +1,91 @@
+{
+  "url": "https://www.maqamworld.com/en/instr/katim.php",
+  "path": "/en/instr/katim.php",
+  "section": "instr",
+  "slug": "instr/katim",
+  "kind": "entry",
+  "title": "The Katim",
+  "subtitle": "A Blunt Supporting Frame Drum",
+  "description": "The Katim",
+  "lang": "en",
+  "paragraphs": [
+    "The Katim (from the verb \"katama\", to mute or to muffle) is a heavy frame drum with a dull sound. The Katim is usually squeezed between the player's knees and is meant to be played with the hands as opposed to the fingers. Most Katim-s today have a plastic head and are tunable. The Katim's main role is to support other instruments in the rhythm section by accenting the dum and tak basic sounds with much ornamentation.",
+    "Explore other percussion instruments:"
+  ],
+  "text": "The Katim A Blunt Supporting Frame Drum Instrument Index A tunable Katim with a plastic head. © MaqamWorld Pronunciation of Katim The Katim (from the verb \"katama\", to mute or to muffle) is a heavy frame drum with a dull sound. The Katim is usually squeezed between the player's knees and is meant to be played with the hands as opposed to the fingers. Most Katim -s today have a plastic head and are tunable. The Katim 's main role is to support other instruments in the rhythm section by accenting the dum and tak basic sounds with much ornamentation. Zaffa (Wedding Party) An Egyptian Zaffa (wedding party) with a large group of percussionists using a combination of Katim-s, Mazhar -s and Tabla -s, all with synthetic heads. Explore other percussion instruments: The Riqq The Tabla The Tabl Baladi The Daff The Mazhar The Sagat",
+  "tracks": [],
+  "notes": [],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/name/katim.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/instr/katim/katim.mp3",
+      "status": "downloaded",
+      "sha256": "baf3fef9a3f2d6e5de2554f636d95833a1abcfcdf66926df377108e1fe7fc317",
+      "bytes": 15655,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/instr/katim.jpg",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/instr/katim/katim.jpg",
+      "status": "downloaded",
+      "sha256": "05a8202ba98abddb54e48e49410ea8abfcc3e4f32348e3aa4418946ad5256c36",
+      "bytes": 75221,
+      "content_type": null
+    },
+    {
+      "url": "https://img.youtube.com/vi/cU1uHX74qkE/hqdefault.jpg",
+      "kind": "image",
+      "source": "content",
+      "local_path": null,
+      "status": "skipped_external",
+      "sha256": null,
+      "bytes": null,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Instrument Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Mazhar",
+      "url": "https://www.maqamworld.com/en/instr/mazhar.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Tabla",
+      "url": "https://www.maqamworld.com/en/instr/tabla.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Riqq",
+      "url": "https://www.maqamworld.com/en/instr/riqq.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Tabl Baladi",
+      "url": "https://www.maqamworld.com/en/instr/tabl_baladi.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Daff",
+      "url": "https://www.maqamworld.com/en/instr/daff.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Sagat",
+      "url": "https://www.maqamworld.com/en/instr/sagat.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "9a49e28c0d9a2815d210268162538fb243f32c0fd91ac3358b983de5313c2bb0",
+  "fetched_at": "2026-11-10T12:10:55.184567Z",
+  "status_code": 200,
+  "html_file": "data/raw/instr/katim.html"
+}

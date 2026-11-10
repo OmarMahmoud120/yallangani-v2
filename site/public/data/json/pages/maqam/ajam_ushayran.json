@@ -1,0 +1,207 @@
+{
+  "url": "https://www.maqamworld.com/en/maqam/ajam_ushayran.php",
+  "path": "/en/maqam/ajam_ushayran.php",
+  "section": "maqam",
+  "slug": "maqam/ajam_ushayran",
+  "kind": "entry",
+  "title": "Maqam ‘Ajam ‘Ushayran",
+  "subtitle": "A member of the Maqam ‘Ajam Family",
+  "description": "Maqam ‘Ajam ‘Ushayran",
+  "lang": "en",
+  "paragraphs": [
+    "Click the notes and hold using the mouse to hear them play.",
+    "Maqam ‘Ajam ‘Ushayran is an archaic version of Maqam ‘Ajam with a different sayr, and has a completely different tonal emphasis as well. Rather than tonicizing its 5th scale degree (for starting the next jins), it tonicizes its 3rd and 6th scale degrees instead.",
+    "The Maqam ‘Ajam ‘Ushayran scale starts with the root Jins ‘Ajam on the tonic, followed by Jins Kurd on the 3rd degree then Jins Nahawand starting on the 6th degree.",
+    "Explore other maqamat in the Maqam ‘Ajam Family.",
+    "Watch a 1-minute sample Violin Taqsim in Maqam ‘Ajam ‘Ushayran by Sami Abu Shumays."
+  ],
+  "text": "Maqam ‘Ajam ‘Ushayran A member of the Maqam ‘Ajam Family Maqam Index Pronunciation of ‘Ajam ‘Ushayran Click the notes and hold using the mouse to hear them play. Maqam ‘Ajam ‘Ushayran is an archaic version of Maqam ‘Ajam with a different sayr, and has a completely different tonal emphasis as well. Rather than tonicizing its 5 th scale degree (for starting the next jins), it tonicizes its 3 rd and 6 th scale degrees instead. The Maqam ‘Ajam ‘Ushayran scale starts with the root Jins ‘Ajam on the tonic , followed by Jins Kurd on the 3 rd degree then Jins Nahawand starting on the 6 th degree. Explore other maqamat in the Maqam ‘Ajam Family . Watch a 1-minute sample Violin Taqsim in Maqam ‘Ajam ‘Ushayran by Sami Abu Shumays. Muwashah Ayqadha al-Hubbu Fu'adi Hassan al-Haffar The Aleppo Suites Vol.2 Music by Bahjat Hassan Muwashah Da‘i al-Hawa Qad Sah Sabah Fakhri Music by ‘Umar al-Batsh el-Hobbi Fi Albi Amana Fathiyya Ahmad Music by Muhammad al-Qasabgi (Egypt) Muwashah Ma Li ‘Ayni Absarat Sabah Fakhri",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Muwashah Ayqadha al-Hubbu Fu'adi",
+      "artist": "Hassan al-Haffar",
+      "credits": [
+        "The Aleppo Suites Vol.2",
+        "Music by Bahjat Hassan"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/ajam_ushayran/ayqadha_al_hubbu.mp3",
+      "local_path": "data/media/maqam/ajam_ushayran/ayqadha_al_hubbu.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Muwashah Da‘i al-Hawa Qad Sah",
+      "artist": "Sabah Fakhri",
+      "credits": [
+        "Music by ‘Umar al-Batsh"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/ajam_ushayran/da3i_al_hawa_qad_sah.mp3",
+      "local_path": "data/media/maqam/ajam_ushayran/da3i_al_hawa_qad_sah.mp3"
+    },
+    {
+      "index": 3,
+      "title": "el-Hobbi Fi Albi Amana",
+      "artist": "Fathiyya Ahmad",
+      "credits": [
+        "Music by Muhammad al-Qasabgi (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/ajam_ushayran/il_hubbi_fi_albi_amana.mp3",
+      "local_path": "data/media/maqam/ajam_ushayran/il_hubbi_fi_albi_amana.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Muwashah Ma Li ‘Ayni Absarat",
+      "artist": "Sabah Fakhri",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/ajam_ushayran/ma_li_3ayni_absarat.mp3",
+      "local_path": "data/media/maqam/ajam_ushayran/ma_li_3ayni_absarat.mp3"
+    }
+  ],
+  "notes": [
+    {
+      "name": "B4♭",
+      "frequency": 463.54
+    },
+    {
+      "name": "A4",
+      "frequency": 440.0
+    },
+    {
+      "name": "G4",
+      "frequency": 391.11
+    },
+    {
+      "name": "F4",
+      "frequency": 347.65
+    },
+    {
+      "name": "E4♭",
+      "frequency": 308.25
+    },
+    {
+      "name": "D4",
+      "frequency": 293.33
+    },
+    {
+      "name": "C4",
+      "frequency": 260.74
+    },
+    {
+      "name": "B3♭",
+      "frequency": 231.77
+    }
+  ],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/ajam_ushayran/ayqadha_al_hubbu.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/ajam_ushayran/ayqadha_al_hubbu.mp3",
+      "status": "downloaded",
+      "sha256": "37c82eede8588120238c0cd66b8757941f3801381a0c320484a915f28a5ba4dd",
+      "bytes": 1174086,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/ajam_ushayran/da3i_al_hawa_qad_sah.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/ajam_ushayran/da3i_al_hawa_qad_sah.mp3",
+      "status": "downloaded",
+      "sha256": "54d1e3dfbe971c53b26d9ac4acc5fc238c530d9fb9d819e6a9d4a31ed87599e5",
+      "bytes": 1180837,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/ajam_ushayran/il_hubbi_fi_albi_amana.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/ajam_ushayran/il_hubbi_fi_albi_amana.mp3",
+      "status": "downloaded",
+      "sha256": "b32d5df9e196dc09f228043ef065ec7d2d870d368743f4dab6032e9f65969651",
+      "bytes": 1497537,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/ajam_ushayran/ma_li_3ayni_absarat.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/ajam_ushayran/ma_li_3ayni_absarat.mp3",
+      "status": "downloaded",
+      "sha256": "cea52e148155bb3dce60641823cc34746b9bc64ad535474297ead1ee26c24e8d",
+      "bytes": 681964,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/ajam_ushayran.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/maqam/ajam_ushayran/ajam_ushayran.mp3",
+      "status": "downloaded",
+      "sha256": "db7658f1a7ff2eb580e34b0c99abfbfb47ae112dd727fe4000b23e7f3cfd844d",
+      "bytes": 64782,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/maqam/ajam_ushayran.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/maqam/ajam_ushayran/ajam_ushayran.png",
+      "status": "downloaded",
+      "sha256": "c5c5c687d814445c53df19df459dfb2e920b5f99450ca9b534e2eb7946478552",
+      "bytes": 15685,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/cd.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/maqam/ajam_ushayran/cd.png",
+      "status": "downloaded",
+      "sha256": "1f52da76667703a00010a07afefc9d78b6c3ccb8359b906fc6fd6b0cddd0255f",
+      "bytes": 5478,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Maqam ‘Ajam Family",
+      "url": "https://www.maqamworld.com/en/maqam/f_ajam.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Maqam ‘Ajam",
+      "url": "https://www.maqamworld.com/en/maqam/ajam.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins ‘Ajam",
+      "url": "https://www.maqamworld.com/en/jins/ajam.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Kurd",
+      "url": "https://www.maqamworld.com/en/jins/kurd.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Nahawand",
+      "url": "https://www.maqamworld.com/en/jins/nahawand.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Violin Taqsim in Maqam ‘Ajam ‘Ushayran",
+      "url": "https://www.instagram.com/p/B9xSSW8lUss",
+      "kind": "external"
+    }
+  ],
+  "content_hash": "d4936c57b56d9f8ab3a6487410522b7cd9bc36e07671457e74286c61e5d03efa",
+  "fetched_at": "2026-11-10T12:10:54.840465Z",
+  "status_code": 200,
+  "html_file": "data/raw/maqam/ajam_ushayran.html"
+}

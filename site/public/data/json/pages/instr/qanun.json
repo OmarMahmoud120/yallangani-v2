@@ -1,0 +1,143 @@
+{
+  "url": "https://www.maqamworld.com/en/instr/qanun.php",
+  "path": "/en/instr/qanun.php",
+  "section": "instr",
+  "slug": "instr/qanun",
+  "kind": "entry",
+  "title": "The Qanun",
+  "subtitle": "A Plucked Zither",
+  "description": "The Qanun",
+  "lang": "en",
+  "paragraphs": [
+    "The Qanun is a descendent of the old Egyptian harp. It has played an integral part in Arabic music since the 10th century. The word qanun means \"law\" in Arabic, and the word exists in English in the form of \"canon\". This name was probably given to the qanun because it's the instrument that lays down the law of pitch for other instruments and singers.",
+    "The body of the qanun consists of a trapezoid-shaped flat wooden board over which 81 strings are stretched in groups of three, with 24 treble strings consisting of three strings to each note. The instrument is placed flat on the knees of the musician or on a small table. Qanun strings are plucked with two plectra, one plectrum attached to the forefinger of each hand. A long bridge on the right-hand side of the instrument rests on goat (or fish) skin covered windows that carry the resonance to the box. On the left hand side, each course of strings passes over a series of small brass levers that are used to make microtonal changes in pitch.",
+    "Since the qanun only includes 8 notes per octave, the player initially sets the levers to create the scale of the starting maqam. When the player needs to modulate to another maqam, they need to switch some levers back and forth with the left hand while playing with the right hand. Quick modulation can also be achieved by using the fingernail of the left thumb to temporarily raise the tuning of some strings.",
+    "Explore other traditional instruments:"
+  ],
+  "text": "The Qanun A Plucked Zither Instrument Index Syrian Qanun made by Bashir Bij. © MaqamWorld Pronunciation of Qanun The Qanun is a descendent of the old Egyptian harp. It has played an integral part in Arabic music since the 10 th century. The word qanun means \"law\" in Arabic, and the word exists in English in the form of \"canon\". This name was probably given to the qanun because it's the instrument that lays down the law of pitch for other instruments and singers. The body of the qanun consists of a trapezoid-shaped flat wooden board over which 81 strings are stretched in groups of three, with 24 treble strings consisting of three strings to each note. The instrument is placed flat on the knees of the musician or on a small table. Qanun strings are plucked with two plectra, one plectrum attached to the forefinger of each hand. A long bridge on the right-hand side of the instrument rests on goat (or fish) skin covered windows that carry the resonance to the box. On the left hand side, each course of strings passes over a series of small brass levers that are used to make microtonal changes in pitch. Since the qanun only includes 8 notes per octave, the player initially sets the levers to create the scale of the starting maqam . When the player needs to modulate to another maqam , they need to switch some levers back and forth with the left hand while playing with the right hand. Quick modulation can also be achieved by using the fingernail of the left thumb to temporarily raise the tuning of some strings. Muhammad Abdu Saleh Umm Kulthum's qanun player for decades, Muhammad Abdu Saleh (Egypt) in a medley of her well-known songs Muhammad ‘Abdu Saleh Muhammad ‘Abdu Saleh (Egypt) in a Taqsim on the Qanun in Maqam Saba Abdel Fattah Mansi Abdel Fattah Mansi (Egypt) plays Umm Kuklthum's song Ana Fi-ntizarak (1943, music by Zakariya Ahmad) Abdel Halim Nuwayra Abdel Halim Nuwayra (Egypt), the music director of the Arabic Music Ensemble, plays a Taqsim on the Qanun in Maqam Bayati Abraham Salman Abraham Salman (Iraq) in a Taqsim on the Qanun in Maqam Rast from his CD Saltanah (1998) Explore other traditional instruments: The Oud The Nay The Arabic Violin The Buzuq",
+  "tracks": [],
+  "notes": [],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/name/qanun.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/instr/qanun/qanun.mp3",
+      "status": "downloaded",
+      "sha256": "6a598f9b89be69b23069a5067765f05a2495d9ebbeb157980ed89c2418ff822c",
+      "bytes": 16490,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/instr/qanun.jpg",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/instr/qanun/qanun.jpg",
+      "status": "downloaded",
+      "sha256": "185e4881e7bf6683af19485f47bf37f862076051db2c514c3e19d9b13596c28c",
+      "bytes": 120861,
+      "content_type": null
+    },
+    {
+      "url": "https://img.youtube.com/vi/fZPY3or3D-Y/hqdefault.jpg",
+      "kind": "image",
+      "source": "content",
+      "local_path": null,
+      "status": "skipped_external",
+      "sha256": null,
+      "bytes": null,
+      "content_type": null
+    },
+    {
+      "url": "https://img.youtube.com/vi/IUMC6-OHp1I/hqdefault.jpg",
+      "kind": "image",
+      "source": "content",
+      "local_path": null,
+      "status": "skipped_external",
+      "sha256": null,
+      "bytes": null,
+      "content_type": null
+    },
+    {
+      "url": "https://img.youtube.com/vi/QqLcPLu6PXc/hqdefault.jpg",
+      "kind": "image",
+      "source": "content",
+      "local_path": null,
+      "status": "skipped_external",
+      "sha256": null,
+      "bytes": null,
+      "content_type": null
+    },
+    {
+      "url": "https://img.youtube.com/vi/DJnoomttU9Y/hqdefault.jpg",
+      "kind": "image",
+      "source": "content",
+      "local_path": null,
+      "status": "skipped_external",
+      "sha256": null,
+      "bytes": null,
+      "content_type": null
+    },
+    {
+      "url": "https://img.youtube.com/vi/GS9v3r3WDro/hqdefault.jpg",
+      "kind": "image",
+      "source": "content",
+      "local_path": null,
+      "status": "skipped_external",
+      "sha256": null,
+      "bytes": null,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Instrument Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "maqam",
+      "url": "https://www.maqamworld.com/en/maqam.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Saba",
+      "url": "https://www.maqamworld.com/en/maqam/saba.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Bayati",
+      "url": "https://www.maqamworld.com/en/maqam/bayati.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Rast",
+      "url": "https://www.maqamworld.com/en/maqam/rast.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Oud",
+      "url": "https://www.maqamworld.com/en/instr/oud.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Nay",
+      "url": "https://www.maqamworld.com/en/instr/nay.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Arabic Violin",
+      "url": "https://www.maqamworld.com/en/instr/violin.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Buzuq",
+      "url": "https://www.maqamworld.com/en/instr/buzuq.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "708cc9910b9f53667358567b1c4e943104a4164d106343eb2cdbcd0bf24344ff",
+  "fetched_at": "2026-11-10T12:10:55.190769Z",
+  "status_code": 200,
+  "html_file": "data/raw/instr/qanun.html"
+}

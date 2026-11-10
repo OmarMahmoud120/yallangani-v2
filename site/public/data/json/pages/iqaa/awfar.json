@@ -1,0 +1,174 @@
+{
+  "url": "https://www.maqamworld.com/en/iqaa/awfar.php",
+  "path": "/en/iqaa/awfar.php",
+  "section": "iqaa",
+  "slug": "iqaa/awfar",
+  "kind": "entry",
+  "title": "Iqa‘ Awfar Masri 19/4",
+  "subtitle": "Form I",
+  "description": "Iqa‘ Awfar Masri",
+  "lang": "en",
+  "paragraphs": [
+    "Iqa‘ Awfar Masri is a popular iqa‘ in the Muwashah repertoire. Its main two forms are described here."
+  ],
+  "text": "Iqa‘ Awfar Masri 19/4 Iqa‘ Index Pronunciation of Awfar Masri Iqa‘ Awfar Masri is a popular iqa‘ in the Muwashah repertoire. Its main two forms are described here. Form I Muwashah Man Kunta Anta Habibahu Al-Kindi Ensemble The Aleppian Music Room II - Maqam Rast Form II Muwashah Ghuddi Jufunaki (in Maqam Saba ) Ghada Shbeir Muwashahat Muwashah Ya Man Ramani Bil-Siham (in Maqam Nikriz ) Ensemble Dugah Music by ‘Umar al-Batsh Muwashah Ya Na‘isa al-Ajfan (in Maqam Nahawand ) Khaled al-Hafez Music by ‘Umar al-Batsh",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Muwashah Man Kunta Anta Habibahu",
+      "artist": "Al-Kindi Ensemble",
+      "credits": [
+        "The Aleppian Music Room II - Maqam Rast"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/awfar/man_kunta_anta_habibahu.mp3",
+      "local_path": "data/media/iqaa/awfar/man_kunta_anta_habibahu.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Muwashah Ghuddi Jufunaki",
+      "artist": "(in Maqam Saba)",
+      "credits": [
+        "Ghada Shbeir",
+        "Muwashahat"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/awfar/ghuddi_jufunaki.mp3",
+      "local_path": "data/media/iqaa/awfar/ghuddi_jufunaki.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Muwashah Ya Man Ramani Bil-Siham",
+      "artist": "(in Maqam Nikriz)",
+      "credits": [
+        "Ensemble Dugah",
+        "Music by ‘Umar al-Batsh"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/awfar/ya_man_ramani_bil_siham.mp3",
+      "local_path": "data/media/iqaa/awfar/ya_man_ramani_bil_siham.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Muwashah Ya Na‘isa al-Ajfan",
+      "artist": "(in Maqam Nahawand)",
+      "credits": [
+        "Khaled al-Hafez",
+        "Music by ‘Umar al-Batsh"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/awfar/ya_na3isa_al_ajfan.mp3",
+      "local_path": "data/media/iqaa/awfar/ya_na3isa_al_ajfan.mp3"
+    }
+  ],
+  "notes": [],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/awfar/man_kunta_anta_habibahu.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/awfar/man_kunta_anta_habibahu.mp3",
+      "status": "downloaded",
+      "sha256": "e8e851af23b899f5f41a0e9e2d0ec207433f297831754444cd344874eb1f3c7f",
+      "bytes": 819833,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/awfar/ghuddi_jufunaki.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/awfar/ghuddi_jufunaki.mp3",
+      "status": "downloaded",
+      "sha256": "61a77e3ada76c53c73fd8074bd8a7bef8dc2d050b166597310e4f4c3dcd89391",
+      "bytes": 1668360,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/awfar/ya_man_ramani_bil_siham.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/awfar/ya_man_ramani_bil_siham.mp3",
+      "status": "downloaded",
+      "sha256": "b826de783f6a40f066e66eee90973fcd01919a9d9f56518cb6becf90a97e452f",
+      "bytes": 1477925,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/awfar/ya_na3isa_al_ajfan.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/awfar/ya_na3isa_al_ajfan.mp3",
+      "status": "downloaded",
+      "sha256": "8e2bcbafbe722ce3647c4990ac32bda72af0012941ca8d40c33ceeda41fb8feb",
+      "bytes": 1124304,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/awfar_masri.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/iqaa/awfar/awfar_masri.mp3",
+      "status": "downloaded",
+      "sha256": "36da0a165e72c98b96ccc619673cc3964ed2250d2356c032f02fef7d8f8ecd2e",
+      "bytes": 33089,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/iqaa/awfar_f1.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/awfar/awfar_f1.png",
+      "status": "downloaded",
+      "sha256": "43c0c5fc5c601e6d570b95ba961874597810f23c93d00a00d47b38f8a20ecef2",
+      "bytes": 14289,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/cd.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/awfar/cd.png",
+      "status": "downloaded",
+      "sha256": "1f52da76667703a00010a07afefc9d78b6c3ccb8359b906fc6fd6b0cddd0255f",
+      "bytes": 5478,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/iqaa/awfar_f2.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/awfar/awfar_f2.png",
+      "status": "downloaded",
+      "sha256": "a6d35496379aee38edc72bad7bc50f1bd4f63dbd15ef4ed37e2925c6cac0edaf",
+      "bytes": 14026,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Iqa‘ Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Muwashah",
+      "url": "https://www.maqamworld.com/en/form/vocal_comp.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Saba",
+      "url": "https://www.maqamworld.com/en/maqam/saba.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Nikriz",
+      "url": "https://www.maqamworld.com/en/maqam/nikriz.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Nahawand",
+      "url": "https://www.maqamworld.com/en/maqam/nahawand.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "deabae0ef2a7e8ffd35fd5b3893564f1ae3bad70e3ad001ece8317f5353c780d",
+  "fetched_at": "2026-11-10T12:10:55.090999Z",
+  "status_code": 200,
+  "html_file": "data/raw/iqaa/awfar.html"
+}

@@ -1,0 +1,161 @@
+{
+  "url": "https://www.maqamworld.com/en/iqaa/nawari.php",
+  "path": "/en/iqaa/nawari.php",
+  "section": "iqaa",
+  "slug": "iqaa/nawari",
+  "kind": "entry",
+  "title": "Iqa‘ Nawari 4/4",
+  "subtitle": "(also called Katakufti)",
+  "description": "Iqa‘ Nawari",
+  "lang": "en",
+  "paragraphs": [
+    "Iqa‘ Nawari is variation on Iqa‘ Sa‘idi and Baladi primarily used in Levantine folk music and Dabke line dances.",
+    "Iqa‘ Nawari is often called Katakufti by percussionists, although the original Iqa‘ Katakufti has a different signature. The reason for this alternate name is because Iqa‘ Katakufti sounds exactly like Nawari when it is started from the last tak."
+  ],
+  "text": "Iqa‘ Nawari 4/4 (also called Katakufti ) Iqa‘ Index Pronunciation of Nawari Iqa‘ Nawari is variation on Iqa‘ Sa‘idi and Baladi primarily used in Levantine folk music and Dabke line dances. Iqa‘ Nawari is often called Katakufti by percussionists, although the original Iqa‘ Katakufti has a different signature. The reason for this alternate name is because Iqa‘ Katakufti sounds exactly like Nawari when it is started from the last tak . Ya ‘Ein Mulayyitein Samira Tawfiq Dal‘ona (traditional) (performer unknown) Initiation Of Ecstasy El-Funoun Ensemble Zaghareed: Music From The Palestinian Holy Land Iqa‘ Nawari 4/4 Tabla demonstration by Faisal Zedan",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Ya ‘Ein Mulayyitein",
+      "artist": "Samira Tawfiq",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/nawari/ya_3ein_mulayyitein.mp3",
+      "local_path": "data/media/iqaa/nawari/ya_3ein_mulayyitein.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Dal‘ona (traditional)",
+      "artist": "(performer unknown)",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/nawari/dal3ona.mp3",
+      "local_path": "data/media/iqaa/nawari/dal3ona.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Initiation Of Ecstasy",
+      "artist": "El-Funoun Ensemble",
+      "credits": [
+        "Zaghareed: Music From The Palestinian Holy Land"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/nawari/el_funun.mp3",
+      "local_path": "data/media/iqaa/nawari/el_funun.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Iqa‘ Nawari 4/4",
+      "artist": "Tabla demonstration by Faisal Zedan",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/demo/iqaa/tabla/nawari.mp3",
+      "local_path": "data/media/iqaa/nawari/nawari.mp3"
+    }
+  ],
+  "notes": [],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/nawari/ya_3ein_mulayyitein.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/nawari/ya_3ein_mulayyitein.mp3",
+      "status": "downloaded",
+      "sha256": "4760aa7759ddd411b04313cbba90c82169604e34d35af46722c1baa505b4a90b",
+      "bytes": 1170790,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/nawari/dal3ona.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/nawari/dal3ona.mp3",
+      "status": "downloaded",
+      "sha256": "7b871af33e0895930a6d2e522f95e3b8a575e96b34213e7803e01b8e2b413f88",
+      "bytes": 454305,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/nawari/el_funun.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/nawari/el_funun.mp3",
+      "status": "downloaded",
+      "sha256": "1866442d9a1a120c63676d8e70174da971b6dbbdbccdb5d0acbb84235426b295",
+      "bytes": 437850,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/demo/iqaa/tabla/nawari.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/nawari/nawari.mp3",
+      "status": "downloaded",
+      "sha256": "e6a27c613cc1e46d146712348163ffad6d670124ddf0421a0c7b5e3c587e5e1a",
+      "bytes": 782045,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/nawari.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/iqaa/nawari/nawari-74b694cc.mp3",
+      "status": "downloaded",
+      "sha256": "afa46977c235c727bbf7d6f36a5b2d6e60834c12bda81f628dccc7432cd5d0aa",
+      "bytes": 21396,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/iqaa/nawari.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/nawari/nawari.png",
+      "status": "downloaded",
+      "sha256": "c15c4bac1970612025812d11fd9b0c1ce622a6d966e573d3a8c06c61f0e0761b",
+      "bytes": 11899,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/cd.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/nawari/cd.png",
+      "status": "downloaded",
+      "sha256": "1f52da76667703a00010a07afefc9d78b6c3ccb8359b906fc6fd6b0cddd0255f",
+      "bytes": 5478,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/tabla.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/nawari/tabla.png",
+      "status": "downloaded",
+      "sha256": "bc7d7630f1797012041feecf8f1a7bc6d926498a88661ab4f28451d50b6c8f30",
+      "bytes": 11602,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Iqa‘ Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Iqa‘ Sa‘idi",
+      "url": "https://www.maqamworld.com/en/iqaa/saidi.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Baladi",
+      "url": "https://www.maqamworld.com/en/iqaa/baladi.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Iqa‘ Katakufti",
+      "url": "https://www.maqamworld.com/en/iqaa/katakufti.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "330499b1b48653ce4ef2f96321dbd2fc5fbecc0942fd9c25605a1f79be00e2a8",
+  "fetched_at": "2026-11-10T12:10:55.131290Z",
+  "status_code": 200,
+  "html_file": "data/raw/iqaa/nawari.html"
+}

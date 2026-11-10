@@ -1,0 +1,132 @@
+{
+  "url": "https://www.maqamworld.com/en/maqam/suzdalara.php",
+  "path": "/en/maqam/suzdalara.php",
+  "section": "maqam",
+  "slug": "maqam/suzdalara",
+  "kind": "entry",
+  "title": "Maqam Suzdalara",
+  "subtitle": "A member of the Maqam Rast Family",
+  "description": "Maqam Suzdalara",
+  "lang": "en",
+  "paragraphs": [
+    "Click the notes and hold using the mouse to hear them play.",
+    "Maqam Suzdalara is quite archaic and almost non-existent as an independent maqam, although its sayr is obligatory within nearly every performance and song in every branch of Maqam Rast: the Jins Nahawand on the 5th degree of Maqam Rast is a universal transition device from other modulations, signaling the return to the root Jins Rast on the tonic.",
+    "Explore other maqamat in the Maqam Rast Family.",
+    "Watch a 1-minute sample Violin Taqsim in Maqam Suzdalara by Sami Abu Shumays."
+  ],
+  "text": "Maqam Suzdalara A member of the Maqam Rast Family Maqam Index Pronunciation of Suzdalara Click the notes and hold using the mouse to hear them play. Maqam Suzdalara is quite archaic and almost non-existent as an independent maqam, although its sayr is obligatory within nearly every performance and song in every branch of Maqam Rast : the Jins Nahawand on the 5 th degree of Maqam Rast is a universal transition device from other modulations, signaling the return to the root Jins Rast on the tonic . Explore other maqamat in the Maqam Rast Family . Watch a 1-minute sample Violin Taqsim in Maqam Suzdalara by Sami Abu Shumays. Yana Yana (1969) Sabah Music by Baligh Hamdi (Egypt)",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Yana Yana (1969)",
+      "artist": "Sabah",
+      "credits": [
+        "Music by Baligh Hamdi (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/suzdalara/yana_yana.mp3",
+      "local_path": "data/media/maqam/suzdalara/yana_yana.mp3"
+    }
+  ],
+  "notes": [
+    {
+      "name": "C5",
+      "frequency": 521.48
+    },
+    {
+      "name": "B4♭",
+      "frequency": 463.54
+    },
+    {
+      "name": "A4",
+      "frequency": 440.0
+    },
+    {
+      "name": "G4",
+      "frequency": 391.11
+    },
+    {
+      "name": "F4",
+      "frequency": 347.65
+    },
+    {
+      "name": "E4",
+      "frequency": 320.0
+    },
+    {
+      "name": "D4",
+      "frequency": 293.33
+    },
+    {
+      "name": "C4",
+      "frequency": 260.74
+    }
+  ],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/suzdalara/yana_yana.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/suzdalara/yana_yana.mp3",
+      "status": "downloaded",
+      "sha256": "ebf154542b03b6b2a9f94bd7f3dbf39d5a9872d394798d40813129dbc7378520",
+      "bytes": 512080,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/suzdalara.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/maqam/suzdalara/suzdalara.mp3",
+      "status": "downloaded",
+      "sha256": "fffdfcb3674b2c9c97f10cee8686cb8ed1e3e2813c02bcd4ea6204c69f28ac7d",
+      "bytes": 39705,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/maqam/suzdalara.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/maqam/suzdalara/suzdalara.png",
+      "status": "downloaded",
+      "sha256": "3f8fe91be32d18d4e87c5504e5c15a1d5f47d5e8fa702ff6095450f60f68669c",
+      "bytes": 12722,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Maqam Rast Family",
+      "url": "https://www.maqamworld.com/en/maqam/f_rast.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Maqam Rast",
+      "url": "https://www.maqamworld.com/en/maqam/rast.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Nahawand",
+      "url": "https://www.maqamworld.com/en/jins/nahawand.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Rast",
+      "url": "https://www.maqamworld.com/en/jins/rast.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Violin Taqsim in Maqam Suzdalara",
+      "url": "https://www.instagram.com/p/B-DHrrDFOgI",
+      "kind": "external"
+    }
+  ],
+  "content_hash": "74b87aef84389cffc9b927db7a713b7c4390be4258650d8007bb64d07c464277",
+  "fetched_at": "2026-11-10T12:10:54.999598Z",
+  "status_code": 200,
+  "html_file": "data/raw/maqam/suzdalara.html"
+}

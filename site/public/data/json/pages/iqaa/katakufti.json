@@ -1,0 +1,108 @@
+{
+  "url": "https://www.maqamworld.com/en/iqaa/katakufti.php",
+  "path": "/en/iqaa/katakufti.php",
+  "section": "iqaa",
+  "slug": "iqaa/katakufti",
+  "kind": "entry",
+  "title": "Iqa‘ Katakufti 8/8",
+  "subtitle": null,
+  "description": "Iqa‘ Katakufti",
+  "lang": "en",
+  "paragraphs": [
+    "Iqa‘ Katakufti is a rare iqa‘ used in the Muwashah vocal genre.",
+    "An alternate form of this iqa‘ replaces the rest on the 5th beat with a dum, creating 2 consecutive dum-s (similarly to the second form of Iqa‘ Aqsaq).",
+    "The name Katakufti is sometimes used as an alternate name for Iqa‘ Nawari because they sound alike when Iqa‘ Katakufti is played in 4/4 and started from the last beat (the last tak)."
+  ],
+  "text": "Iqa‘ Katakufti 8/8 Iqa‘ Index Pronunciation of Katakufti Iqa‘ Katakufti is a rare iqa‘ used in the Muwashah vocal genre. An alternate form of this iqa‘ replaces the rest on the 5 th beat with a dum , creating 2 consecutive dum -s (similarly to the second form of Iqa‘ Aqsaq ). The name Katakufti is sometimes used as an alternate name for Iqa‘ Nawari because they sound alike when Iqa‘ Katakufti is played in 4/4 and started from the last beat (the last tak ). Muwashah Khadduka al-Naddi Khaled al-Hafez Music by ‘Umar al-Batsh Muwashah Ah Min Nari Jafahum Ensemble Nour al-Charq Music by Sheikh Ali al-Darwish",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Muwashah Khadduka al-Naddi",
+      "artist": "Khaled al-Hafez",
+      "credits": [
+        "Music by ‘Umar al-Batsh"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/katakufti/khadduka_al_naddi.mp3",
+      "local_path": "data/media/iqaa/katakufti/khadduka_al_naddi.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Muwashah Ah Min Nari Jafahum",
+      "artist": "Ensemble Nour al-Charq",
+      "credits": [
+        "Music by Sheikh Ali al-Darwish"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/katakufti/ah_min_nari_jafahum.mp3",
+      "local_path": "data/media/iqaa/katakufti/ah_min_nari_jafahum.mp3"
+    }
+  ],
+  "notes": [],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/katakufti/khadduka_al_naddi.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/katakufti/khadduka_al_naddi.mp3",
+      "status": "downloaded",
+      "sha256": "9f418e81357fb407a4803c96c6ff1d5e6e9f960b3d0f8dee363ea834e61c5bf4",
+      "bytes": 1025562,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/katakufti/ah_min_nari_jafahum.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/katakufti/ah_min_nari_jafahum.mp3",
+      "status": "downloaded",
+      "sha256": "12fa9783ff0531b94a42a2da94656086722704237e1b6c3120a46236aa54e5c9",
+      "bytes": 2090517,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/katakufti.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/iqaa/katakufti/katakufti.mp3",
+      "status": "downloaded",
+      "sha256": "afc66e1da46259822880ba76081d72aff212e8f47f839a878c60b890978db0f0",
+      "bytes": 39705,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/iqaa/katakufti.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/katakufti/katakufti.png",
+      "status": "downloaded",
+      "sha256": "79f794a2ecbc31dafc87209e1b30fc875ccedc2a1c08420001f00d4b29f44523",
+      "bytes": 10189,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Iqa‘ Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Muwashah",
+      "url": "https://www.maqamworld.com/en/form/vocal_comp.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Iqa‘ Aqsaq",
+      "url": "https://www.maqamworld.com/en/iqaa/aqsaq.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Iqa‘ Nawari",
+      "url": "https://www.maqamworld.com/en/iqaa/nawari.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "5794010c8c2f6f53dcf9fda0c1071999e238bce2a3224d4d9622ac5fbcd66d97",
+  "fetched_at": "2026-11-10T12:10:55.114442Z",
+  "status_code": 200,
+  "html_file": "data/raw/iqaa/katakufti.html"
+}

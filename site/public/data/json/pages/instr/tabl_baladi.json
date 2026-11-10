@@ -1,0 +1,112 @@
+{
+  "url": "https://www.maqamworld.com/en/instr/tabl_baladi.php",
+  "path": "/en/instr/tabl_baladi.php",
+  "section": "instr",
+  "slug": "instr/tabl_baladi",
+  "kind": "entry",
+  "title": "The Tabl Baladi",
+  "subtitle": "Large Drum with Skin on Both Sides",
+  "description": "The Tabl Baladi",
+  "lang": "en",
+  "paragraphs": [
+    "The Tabl Baladi is a large drum with wood frame and heavy skin on both sides. It is hung by a belt around the player's shoulder is and played with two sticks: the thick one is for the dum sound played with the dominant hand, and the thin stick is for the tak sound played with the other hand.",
+    "The Tabl Baladi is ideal for outdoor music in a village setting (\"baladi\" means \"from the village\") and can provide the beat for line dances such as the \"Dabke\" alongside equally loud instruments like the Mizmar. The Tabl Baladi does not play very complex or ornamented rhythms and is ideal for heavy 4/4 iqa‘at like Baladi, Sa‘idi and especially Nawari.",
+    "Explore other percussion instruments:"
+  ],
+  "text": "The Tabl Baladi Large Drum with Skin on Both Sides Instrument Index Tabl Baladi with goat skin. © MaqamWorld Pronunciation of Tabl baladi The Tabl Baladi is a large drum with wood frame and heavy skin on both sides. It is hung by a belt around the player's shoulder is and played with two sticks: the thick one is for the dum sound played with the dominant hand, and the thin stick is for the tak sound played with the other hand. The Tabl Baladi is ideal for outdoor music in a village setting (\"baladi\" means \"from the village\") and can provide the beat for line dances such as the \"Dabke\" alongside equally loud instruments like the Mizmar . The Tabl Baladi does not play very complex or ornamented rhythms and is ideal for heavy 4/4 iqa‘at like Baladi , Sa‘idi and especially Nawari . Tabl Baladi with Mizmar Armenian-Lebanese tabl_baladi player Setrak Sarkissian starts the rhythm for singer Samira Tawfiq in her song ‘al-‘Ein Mulayyitein , accompanied by a Riqq and Table Baladi. Recorded on Lebanese Television with violinist Rafik Hobeika leading the orchestra. Explore other percussion instruments: The Riqq The Tabla The Daff The Mazhar The Katim The Sagat",
+  "tracks": [],
+  "notes": [],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/name/tabl_baladi.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/instr/tabl_baladi/tabl_baladi.mp3",
+      "status": "downloaded",
+      "sha256": "6be02d4a9fe0dfea7bda952a3f0864c8a2c5805545cae01c7e8bf6ba5055233a",
+      "bytes": 21369,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/instr/tabl_baladi.jpg",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/instr/tabl_baladi/tabl_baladi.jpg",
+      "status": "downloaded",
+      "sha256": "f73d52e267d6b387981488cfccbec29ef6ef16ab24df2fc447609b1ed9f71a01",
+      "bytes": 47149,
+      "content_type": null
+    },
+    {
+      "url": "https://img.youtube.com/vi/D6Ex5WiW6vc/hqdefault.jpg",
+      "kind": "image",
+      "source": "content",
+      "local_path": null,
+      "status": "skipped_external",
+      "sha256": null,
+      "bytes": null,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Instrument Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "iqa‘at",
+      "url": "https://www.maqamworld.com/en/iqaa.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Baladi",
+      "url": "https://www.maqamworld.com/en/iqaa/baladi.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Sa‘idi",
+      "url": "https://www.maqamworld.com/en/iqaa/saidi.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Nawari",
+      "url": "https://www.maqamworld.com/en/iqaa/nawari.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Riqq",
+      "url": "https://www.maqamworld.com/en/instr/riqq.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Tabla",
+      "url": "https://www.maqamworld.com/en/instr/tabla.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Daff",
+      "url": "https://www.maqamworld.com/en/instr/daff.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Mazhar",
+      "url": "https://www.maqamworld.com/en/instr/mazhar.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Katim",
+      "url": "https://www.maqamworld.com/en/instr/katim.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Sagat",
+      "url": "https://www.maqamworld.com/en/instr/sagat.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "0a9065996a975669e10d94cb32984af338d46cce88b1e4cfcdfc938d1f58b595",
+  "fetched_at": "2026-11-10T12:10:55.197072Z",
+  "status_code": 200,
+  "html_file": "data/raw/instr/tabl_baladi.html"
+}

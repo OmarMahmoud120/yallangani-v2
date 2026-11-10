@@ -1,0 +1,154 @@
+{
+  "url": "https://www.maqamworld.com/en/iqaa/thurayya.php",
+  "path": "/en/iqaa/thurayya.php",
+  "section": "iqaa",
+  "slug": "iqaa/thurayya",
+  "kind": "entry",
+  "title": "Iqa‘ Thurayya 5/8",
+  "subtitle": "(also called Aqsaq Turki)",
+  "description": "Iqa‘ Thurayya (Aqsaq Turki)",
+  "lang": "en",
+  "paragraphs": [
+    "Iqa‘ Thurayya is alternatively called Aqsaq Turki (Turkish Aqsaq). It is a very rare iqa‘ mostly used in the Muwashah vocal genre."
+  ],
+  "text": "Iqa‘ Thurayya 5/8 (also called Aqsaq Turki ) Iqa‘ Index Pronunciation of Thurayya Pronunciation of Aqsaq Turki Iqa‘ Thurayya is alternatively called Aqsaq Turki (Turkish Aqsaq). It is a very rare iqa‘ mostly used in the Muwashah vocal genre. Muwashah Fil-Roud Ana Shuft il-Gamil Sabah Fakhri Music by ‘Umar al-Batsh Muwashah Fattakatu al-Lahdhi Kareem Azab (Palestine) Music by ‘Umar al-Batsh Muwashah Qalat ‘Alama al-Rida Sahar Music by Sheikh Ali al-Darwish Iqa‘ Thurayya 5/8 Tabla demonstration by Faisal Zedan",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Muwashah Fil-Roud Ana Shuft il-Gamil",
+      "artist": "Sabah Fakhri",
+      "credits": [
+        "Music by ‘Umar al-Batsh"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/thurayya/fil_roud_ana.mp3",
+      "local_path": "data/media/iqaa/thurayya/fil_roud_ana.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Muwashah Fattakatu al-Lahdhi",
+      "artist": "Kareem Azab (Palestine)",
+      "credits": [
+        "Music by ‘Umar al-Batsh"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/thurayya/fattakatul-lahdhi.mp3",
+      "local_path": "data/media/iqaa/thurayya/fattakatul-lahdhi.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Muwashah Qalat ‘Alama al-Rida",
+      "artist": "Sahar",
+      "credits": [
+        "Music by Sheikh Ali al-Darwish"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/thurayya/qalat_3alamal_rida.mp3",
+      "local_path": "data/media/iqaa/thurayya/qalat_3alamal_rida.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Iqa‘ Thurayya 5/8",
+      "artist": "Tabla demonstration by Faisal Zedan",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/demo/iqaa/tabla/thurayya.mp3",
+      "local_path": "data/media/iqaa/thurayya/thurayya.mp3"
+    }
+  ],
+  "notes": [],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/thurayya/fil_roud_ana.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/thurayya/fil_roud_ana.mp3",
+      "status": "downloaded",
+      "sha256": "e218718e58e704913710f14d2732b54d9077e4bc0246991c3406cec3b483e856",
+      "bytes": 412607,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/thurayya/fattakatul-lahdhi.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/thurayya/fattakatul-lahdhi.mp3",
+      "status": "downloaded",
+      "sha256": "2009d98f220ed24500db19f2e91d96ef8f997b0513bc994d6fa082e345bc7610",
+      "bytes": 1655957,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/thurayya/qalat_3alamal_rida.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/thurayya/qalat_3alamal_rida.mp3",
+      "status": "downloaded",
+      "sha256": "42f31fc637f9e2175af1c7f1d5993e98d678e38d819f02846549325787802e08",
+      "bytes": 1226969,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/demo/iqaa/tabla/thurayya.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/thurayya/thurayya.mp3",
+      "status": "downloaded",
+      "sha256": "cc81c80791528f278a0ddbc7eb215470db38282db189f3118dfd1f8ee1cc1d13",
+      "bytes": 737324,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/thurayya.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/iqaa/thurayya/thurayya-b4d2b3ae.mp3",
+      "status": "downloaded",
+      "sha256": "26452732135cc241db73dfd44e26da0153eccb5a7baa8c0c6e561c6f3ca43068",
+      "bytes": 34480,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/aqsaq_turki.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/iqaa/thurayya/aqsaq_turki.mp3",
+      "status": "downloaded",
+      "sha256": "635096f263817b531053e0a650a04395a2f4bd743b9edf77786e7b88387948e0",
+      "bytes": 33401,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/iqaa/thurayya.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/thurayya/thurayya.png",
+      "status": "downloaded",
+      "sha256": "5d42c5525f2e953bc9390ffd07b11029a38389d856c7e83adbc09fdbfd65af1f",
+      "bytes": 8444,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/tabla.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/thurayya/tabla.png",
+      "status": "downloaded",
+      "sha256": "bc7d7630f1797012041feecf8f1a7bc6d926498a88661ab4f28451d50b6c8f30",
+      "bytes": 11602,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Iqa‘ Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Muwashah",
+      "url": "https://www.maqamworld.com/en/form/vocal_comp.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "a4d244aa5e3c4e72377764ef84ec8e91c06d71357a75317c2611207aa8cb6ff2",
+  "fetched_at": "2026-11-10T12:10:55.143229Z",
+  "status_code": 200,
+  "html_file": "data/raw/iqaa/thurayya.html"
+}

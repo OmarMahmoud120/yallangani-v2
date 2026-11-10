@@ -1,0 +1,205 @@
+{
+  "url": "https://www.maqamworld.com/en/jins/hijaz.php",
+  "path": "/en/jins/hijaz.php",
+  "section": "jins",
+  "slug": "jins/hijaz",
+  "kind": "entry",
+  "title": "Jins Hijaz",
+  "subtitle": "Root jins of the Maqam Hijaz Family",
+  "description": "Jins Hijaz",
+  "lang": "en",
+  "paragraphs": [
+    "Click the notes and hold using the mouse to hear them play.",
+    "Jins Hijaz is a 4-note jins. It is notated here with its tonic on D and its ghammaz on G. The interval between the 2nd and 3rd degrees is usually played smaller than notated by raising the 2nd a little and lowering the 3rd a little. Jins Hijaz is the first jins in Maqam Hijaz, Maqam Hijazkar, and Maqam Zanjaran."
+  ],
+  "text": "Jins Hijaz Root jins of the Maqam Hijaz Family Jins Index Pronunciation of Hijaz Click the notes and hold using the mouse to hear them play. Jins Hijaz is a 4-note jins . It is notated here with its tonic on D and its ghammaz on G. The interval between the 2 nd and 3 rd degrees is usually played smaller than notated by raising the 2 nd a little and lowering the 3 rd a little. Jins Hijaz is the first jins in Maqam Hijaz , Maqam Hijazkar , and Maqam Zanjaran . Ana Fi-ntizarak (1943) Umm Kulthum Music by Zakariya Ahmad (Egypt) Aghadan Alqak (1971) Umm Kulthum Music by Muhammad Abdel Wahab (Egypt) Bi Karm el-Lulu Fairouz Music by Philemon Wehbe el-Awwila Fil-Gharam(1944) Umm Kulthum Music by Zakariya Ahmad (Egypt) el-Ward Gamil (1946) Umm Kulthum Music by Zakariya Ahmad (Egypt)",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Ana Fi-ntizarak (1943)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Zakariya Ahmad (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/hijaz/ana_fintizarak.mp3",
+      "local_path": "data/media/jins/hijaz/ana_fintizarak.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Aghadan Alqak (1971)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Muhammad Abdel Wahab (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/hijaz/aghadan_alqak.mp3",
+      "local_path": "data/media/jins/hijaz/aghadan_alqak.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Bi Karm el-Lulu",
+      "artist": "Fairouz",
+      "credits": [
+        "Music by Philemon Wehbe"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/hijaz/bi_karm_el_lulu.mp3",
+      "local_path": "data/media/jins/hijaz/bi_karm_el_lulu.mp3"
+    },
+    {
+      "index": 4,
+      "title": "el-Awwila Fil-Gharam(1944)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Zakariya Ahmad (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/hijaz/el_awwila.mp3",
+      "local_path": "data/media/jins/hijaz/el_awwila.mp3"
+    },
+    {
+      "index": 5,
+      "title": "el-Ward Gamil (1946)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Zakariya Ahmad (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/hijaz/el_ward_gamil.mp3",
+      "local_path": "data/media/jins/hijaz/el_ward_gamil.mp3"
+    }
+  ],
+  "notes": [
+    {
+      "name": "B3",
+      "frequency": 243.0
+    },
+    {
+      "name": "C4",
+      "frequency": 260.74
+    },
+    {
+      "name": "D4",
+      "frequency": 293.33
+    },
+    {
+      "name": "E4♭",
+      "frequency": 315.0
+    },
+    {
+      "name": "F4♯",
+      "frequency": 375.0
+    },
+    {
+      "name": "G4",
+      "frequency": 391.11
+    },
+    {
+      "name": "A4",
+      "frequency": 440.0
+    },
+    {
+      "name": "B4♭",
+      "frequency": 463.54
+    }
+  ],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/jins/hijaz/ana_fintizarak.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/hijaz/ana_fintizarak.mp3",
+      "status": "downloaded",
+      "sha256": "05dba4c56949876d8c434b9e758e08359bae012e4e3c3a5fad0f0e9803f369cd",
+      "bytes": 606288,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/hijaz/aghadan_alqak.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/hijaz/aghadan_alqak.mp3",
+      "status": "downloaded",
+      "sha256": "5949935183672c3bf458b3faf1a7d6a9fff7ddb8f877f716988f4f8f98fbfd8e",
+      "bytes": 766716,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/hijaz/bi_karm_el_lulu.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/hijaz/bi_karm_el_lulu.mp3",
+      "status": "downloaded",
+      "sha256": "e140617a7945f338d03d516df394ef7cc1c5087494da65add75c8dfccefd27bf",
+      "bytes": 335146,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/hijaz/el_awwila.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/hijaz/el_awwila.mp3",
+      "status": "downloaded",
+      "sha256": "9aee06647398e09f4d93c192316e4f5afe6af7a8838ec094d4a94fc108104081",
+      "bytes": 891560,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/hijaz/el_ward_gamil.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/hijaz/el_ward_gamil.mp3",
+      "status": "downloaded",
+      "sha256": "eab845b135f293b2be1f5474f20ededd705390274f3b3753330c324e0bbcf86c",
+      "bytes": 149149,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/hijaz.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/jins/hijaz/hijaz.mp3",
+      "status": "downloaded",
+      "sha256": "5fe34dd4ef84862453619e8974a8ff53dfc072b4b2d06ddedbb7748883853ac3",
+      "bytes": 33435,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/jins/hijaz.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/jins/hijaz/hijaz.png",
+      "status": "downloaded",
+      "sha256": "18285ed7ab4aeb333bc04a630f1258fcf2b5a6c54e8ae7a17492add6803bc091",
+      "bytes": 9916,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Maqam Hijaz Family",
+      "url": "https://www.maqamworld.com/en/maqam/f_hijaz.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Maqam Hijaz",
+      "url": "https://www.maqamworld.com/en/maqam/hijaz.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Hijazkar",
+      "url": "https://www.maqamworld.com/en/maqam/hijazkar.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Zanjaran",
+      "url": "https://www.maqamworld.com/en/maqam/zanjaran.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "adb82d259f68215689039ef9816ada87cc151517fd1112690627131ce67c1e09",
+  "fetched_at": "2026-11-10T12:10:55.052310Z",
+  "status_code": 200,
+  "html_file": "data/raw/jins/hijaz.html"
+}

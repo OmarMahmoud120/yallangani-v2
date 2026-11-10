@@ -87,6 +87,15 @@ class MaqamPackValidatorTest {
     }
 
     @Test
+    fun `missing drone audio is rejected`() {
+        val pack = valid.copy(
+            maqams = listOf(hijaz.copy(drone = "drone-c4.mp3"), nahawand),
+        )
+        val errors = MaqamPackValidator.validate(pack) { it != "drone-c4.mp3" }
+        assertEquals(listOf("missing drone audio: drone-c4.mp3"), errors)
+    }
+
+    @Test
     fun `unapproved maqam is rejected`() {
         val pack = valid.copy(maqams = listOf(hijaz.copy(status = "draft"), nahawand))
         val errors = MaqamPackValidator.validate(pack, allAudioPresent)

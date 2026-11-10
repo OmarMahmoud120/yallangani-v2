@@ -1,0 +1,260 @@
+{
+  "url": "https://www.maqamworld.com/en/iqaa/bambi.php",
+  "path": "/en/iqaa/bambi.php",
+  "section": "iqaa",
+  "slug": "iqaa/bambi",
+  "kind": "entry",
+  "title": "Iqa‘ Bambi 8/4",
+  "subtitle": "(also called Bamb)",
+  "description": "Iqa‘ Bambi",
+  "lang": "en",
+  "paragraphs": [
+    "Iqa‘ Bambi is a stretched-out Egyptian 8/4 iqa‘ that beautifully accompanies improvisations and sparse vocal sections. It is customary to start playing Bambi from the 7th beat (the dum before last), thereby emphacizing the 3 consecutive dum-s that start each cycle. An alternate form of Bambi actually starts the measure with the 3 consecutive dum-s."
+  ],
+  "text": "Iqa‘ Bambi 8/4 (also called Bamb ) Iqa‘ Index Pronunciation of Bambi Iqa‘ Bambi is a stretched-out Egyptian 8/4 iqa‘ that beautifully accompanies improvisations and sparse vocal sections. It is customary to start playing Bambi from the 7 th beat (the dum before last), thereby emphacizing the 3 consecutive dum -s that start each cycle. An alternate form of Bambi actually starts the measure with the 3 consecutive dum -s. Taqasim on the Beat Simon Shaheen Turath: Masterworks of the Middle East Mawwal Ya Man Bunudak Harir Muhammad Khayri Gafnuhu ‘Allam al-Ghazal (1933) Vocals and Music by Muhammad Abdel Wahab (Egypt) Iqa‘ Bambi 8/4 - Form I Tabla demonstration by Faisal Zedan (with the last dum replaced with a tak ) Examples of the second form of Iqa‘ Bambi Andah ‘Aleik (1982) Warda Music by Muhammad Abdel Wahab (Egypt) Alf Leila w Leila (1969) Umm Kulthum Music by Baligh Hamdi (Egypt) Asamina Fairouz Music by Philemon Wehbe Layali Lubnan (1954) Instrumental Composition Music by Muhammad Abdel Wahab (Egypt) Iqa‘ Bambi 8/4 - Form II Tabla demonstration by Faisal Zedan",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Taqasim on the Beat",
+      "artist": "Simon Shaheen",
+      "credits": [
+        "Turath: Masterworks of the Middle East"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/bambi_form1/taqsim_oud_shaheen.mp3",
+      "local_path": "data/media/iqaa/bambi/taqsim_oud_shaheen.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Mawwal Ya Man Bunudak Harir",
+      "artist": "Muhammad Khayri",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/bambi_form1/mawwal_khayri.mp3",
+      "local_path": "data/media/iqaa/bambi/mawwal_khayri.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Gafnuhu ‘Allam al-Ghazal (1933)",
+      "artist": "Vocals and Music by Muhammad Abdel Wahab (Egypt)",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/bambi_form1/gafnuhu.mp3",
+      "local_path": "data/media/iqaa/bambi/gafnuhu.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Iqa‘ Bambi 8/4 - Form I",
+      "artist": "Tabla demonstration by Faisal Zedan",
+      "credits": [
+        "(with the last dum replaced with a tak)"
+      ],
+      "audio_url": "https://www.maqamworld.com/demo/iqaa/tabla/bambi_dtd.mp3",
+      "local_path": "data/media/iqaa/bambi/bambi_dtd.mp3"
+    },
+    {
+      "index": 5,
+      "title": "Andah ‘Aleik (1982)",
+      "artist": "Warda",
+      "credits": [
+        "Music by Muhammad Abdel Wahab (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/bambi_form2/andah_3aleik.mp3",
+      "local_path": "data/media/iqaa/bambi/andah_3aleik.mp3"
+    },
+    {
+      "index": 6,
+      "title": "Alf Leila w Leila (1969)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Baligh Hamdi (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/bambi_form2/alf_leila.mp3",
+      "local_path": "data/media/iqaa/bambi/alf_leila.mp3"
+    },
+    {
+      "index": 7,
+      "title": "Asamina",
+      "artist": "Fairouz",
+      "credits": [
+        "Music by Philemon Wehbe"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/bambi_form2/asamina.mp3",
+      "local_path": "data/media/iqaa/bambi/asamina.mp3"
+    },
+    {
+      "index": 8,
+      "title": "Layali Lubnan (1954)",
+      "artist": "Instrumental Composition",
+      "credits": [
+        "Music by Muhammad Abdel Wahab (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/bambi_form2/layali_lubnan.mp3",
+      "local_path": "data/media/iqaa/bambi/layali_lubnan.mp3"
+    },
+    {
+      "index": 9,
+      "title": "Iqa‘ Bambi 8/4 - Form II",
+      "artist": "Tabla demonstration by Faisal Zedan",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/demo/iqaa/tabla/bambi_form2.mp3",
+      "local_path": "data/media/iqaa/bambi/bambi_form2.mp3"
+    }
+  ],
+  "notes": [],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/bambi_form1/taqsim_oud_shaheen.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/bambi/taqsim_oud_shaheen.mp3",
+      "status": "downloaded",
+      "sha256": "59c9d85123a1152fcecfff6b8bd566c5bf7381a5a85bd12bc35e78ed739b67cf",
+      "bytes": 518430,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/bambi_form1/mawwal_khayri.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/bambi/mawwal_khayri.mp3",
+      "status": "downloaded",
+      "sha256": "a25808ac5610e524c7b30b98b9a1db1b8ad20d9d4a2f9b6f8052bdd93745aa06",
+      "bytes": 457016,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/bambi_form1/gafnuhu.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/bambi/gafnuhu.mp3",
+      "status": "downloaded",
+      "sha256": "d2753767798c611fb3982aed6bd93211777d5db1acf1116e00b729de763ca5a4",
+      "bytes": 609242,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/demo/iqaa/tabla/bambi_dtd.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/bambi/bambi_dtd.mp3",
+      "status": "downloaded",
+      "sha256": "899f72a86950d2e41f360f6e369e6a447637aba683305037036396478e0a343c",
+      "bytes": 679645,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/bambi_form2/andah_3aleik.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/bambi/andah_3aleik.mp3",
+      "status": "downloaded",
+      "sha256": "bec842a03585ae431c3d7f7ba2e815e3e4acc3fe9a080805d900153dfbec0d28",
+      "bytes": 731033,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/bambi_form2/alf_leila.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/bambi/alf_leila.mp3",
+      "status": "downloaded",
+      "sha256": "a53f88eb4f036fa0871c98613c077e0522d934fd1d9f9f5ac4a121cafc597c94",
+      "bytes": 383592,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/bambi_form2/asamina.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/bambi/asamina.mp3",
+      "status": "downloaded",
+      "sha256": "6fad3ab567a105106c06fb400834aea7997136992d1cc88eec85008a8c55fb6b",
+      "bytes": 644193,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/bambi_form2/layali_lubnan.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/bambi/layali_lubnan.mp3",
+      "status": "downloaded",
+      "sha256": "69a0a248973b66a2896b9f33b3adff322eb995d595d1d6dd6b82311d390e22a2",
+      "bytes": 536464,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/demo/iqaa/tabla/bambi_form2.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/bambi/bambi_form2.mp3",
+      "status": "downloaded",
+      "sha256": "d6503d3748eaf0f5688a7c88bb7dcf1e05081ef3912129405bb57ab44a20ed7a",
+      "bytes": 615697,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/bambi.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/iqaa/bambi/bambi.mp3",
+      "status": "downloaded",
+      "sha256": "98526dbe07c62ee5f0b55618d240eba0d4627453c80877946ec8f5e3a96bbc5e",
+      "bytes": 27166,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/iqaa/bambi_f1.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/bambi/bambi_f1.png",
+      "status": "downloaded",
+      "sha256": "5f5a9ccad895d855bf1f9dc01110957b95059366834b5963bd8983fe3acfffab",
+      "bytes": 12249,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/cd.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/bambi/cd.png",
+      "status": "downloaded",
+      "sha256": "1f52da76667703a00010a07afefc9d78b6c3ccb8359b906fc6fd6b0cddd0255f",
+      "bytes": 5478,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/tabla.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/bambi/tabla.png",
+      "status": "downloaded",
+      "sha256": "bc7d7630f1797012041feecf8f1a7bc6d926498a88661ab4f28451d50b6c8f30",
+      "bytes": 11602,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/iqaa/bambi_f2.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/bambi/bambi_f2.png",
+      "status": "downloaded",
+      "sha256": "dfe6d296f70817d5670c76fbb2dbed326bfcdaa6455e683c1723f77caf5586f0",
+      "bytes": 11491,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Iqa‘ Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "improvisations",
+      "url": "https://www.maqamworld.com/en/form/improv.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "116ae4d98fe47982d3e87fce8ed2ba214b05ba6d6fd49c8ec293f9d3ea93fa0f",
+  "fetched_at": "2026-11-10T12:10:55.097593Z",
+  "status_code": 200,
+  "html_file": "data/raw/iqaa/bambi.html"
+}

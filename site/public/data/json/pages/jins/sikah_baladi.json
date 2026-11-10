@@ -1,0 +1,189 @@
+{
+  "url": "https://www.maqamworld.com/en/jins/sikah_baladi.php",
+  "path": "/en/jins/sikah_baladi.php",
+  "section": "jins",
+  "slug": "jins/sikah_baladi",
+  "kind": "entry",
+  "title": "Jins Sikah Baladi New",
+  "subtitle": "(undefined size)",
+  "description": "Jins Sikah Baladi",
+  "lang": "en",
+  "paragraphs": [
+    "Click the notes and hold using the mouse to hear them play.",
+    "Jins Sikah Baladi has no ghammaz, and therefore no defined size. Its melody is centered around its tonic, notated here on G. Jins Sikah Baladi is very difficult to accurately notate; instead its intervals and intonation are best learned by ear. Jins Sikah Baladi occurs on the octave of Maqam Sikah Baladi."
+  ],
+  "text": "Jins Sikah Baladi New (undefined size) Jins Index Pronunciation of Sikah Baladi Click the notes and hold using the mouse to hear them play. Jins Sikah Baladi has no ghammaz , and therefore no defined size. Its melody is centered around its tonic, notated here on G. Jins Sikah Baladi is very difficult to accurately notate; instead its intervals and intonation are best learned by ear. Jins Sikah Baladi occurs on the octave of Maqam Sikah Baladi . Qasida Man Mithlukum Hasan al-Haffar Muezzins D'Alep - Chants Religieux De L'Islam Hakam ‘Aleina el-Hawa (1973) Umm Kulthum Music by Baligh Hamdi (Egypt) Tal Intizari (1937) Vocals and Music by Muhammad Abdel Wahab (Egypt) Fantasy Nahawand Instrumental Composition Music by Muhammad Abdel Wahab (Egypt) Qamar 14 Taqsim Oud (from Wasla in Rast) Ibrahim al-Haggar",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Qasida Man Mithlukum",
+      "artist": "Hasan al-Haffar",
+      "credits": [
+        "Muezzins D'Alep - Chants Religieux De L'Islam"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/sikah_baladi/qasida_man_mithlukum.mp3",
+      "local_path": "data/media/jins/sikah_baladi/qasida_man_mithlukum.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Hakam ‘Aleina el-Hawa (1973)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Baligh Hamdi (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/sikah_baladi/hakam_3aleina.mp3",
+      "local_path": "data/media/jins/sikah_baladi/hakam_3aleina.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Tal Intizari (1937)",
+      "artist": "Vocals and Music by Muhammad Abdel Wahab (Egypt)",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/jins/sikah_baladi/tal_intizari.mp3",
+      "local_path": "data/media/jins/sikah_baladi/tal_intizari.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Fantasy Nahawand",
+      "artist": "Instrumental Composition",
+      "credits": [
+        "Music by Muhammad Abdel Wahab (Egypt)",
+        "Qamar 14"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/sikah_baladi/fantasy_nahawand.mp3",
+      "local_path": "data/media/jins/sikah_baladi/fantasy_nahawand.mp3"
+    },
+    {
+      "index": 5,
+      "title": "Taqsim Oud (from Wasla in Rast)",
+      "artist": "Ibrahim al-Haggar",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/jins/sikah_baladi/tqasim_oud_rast.mp3",
+      "local_path": "data/media/jins/sikah_baladi/tqasim_oud_rast.mp3"
+    }
+  ],
+  "notes": [
+    {
+      "name": "E4↓",
+      "frequency": 315.0
+    },
+    {
+      "name": "F4↑",
+      "frequency": 364.0
+    },
+    {
+      "name": "G4",
+      "frequency": 391.11
+    },
+    {
+      "name": "A4↓",
+      "frequency": 425.0
+    },
+    {
+      "name": "B4↑",
+      "frequency": 485.0
+    },
+    {
+      "name": "C5↓",
+      "frequency": 515.0
+    }
+  ],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/jins/sikah_baladi/qasida_man_mithlukum.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/sikah_baladi/qasida_man_mithlukum.mp3",
+      "status": "downloaded",
+      "sha256": "77fc11fda7933fcd2f099c6aebe75c0e7f472d0c852f257fd6fce1ac5acf6343",
+      "bytes": 598267,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/sikah_baladi/hakam_3aleina.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/sikah_baladi/hakam_3aleina.mp3",
+      "status": "downloaded",
+      "sha256": "11e21004b6453062cc940d53d1b869817c012fda5c9141cef0eaecb4eeb4ffe4",
+      "bytes": 585142,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/sikah_baladi/tal_intizari.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/sikah_baladi/tal_intizari.mp3",
+      "status": "downloaded",
+      "sha256": "1ddd8ef94e2d48ea6af2af271ba7fc35442eb404753f3d78c8c0df34c8340ff0",
+      "bytes": 523794,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/sikah_baladi/fantasy_nahawand.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/sikah_baladi/fantasy_nahawand.mp3",
+      "status": "downloaded",
+      "sha256": "678a45b66ab0a27687cd237514b1c6cd3b4352c03b7539c39141742d97a34c7f",
+      "bytes": 349526,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/sikah_baladi/tqasim_oud_rast.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/sikah_baladi/tqasim_oud_rast.mp3",
+      "status": "downloaded",
+      "sha256": "b0ed08182590de831c71bff57b485ee6341de7c26bd3ea81223636bdd341af8c",
+      "bytes": 1029630,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/sikah_baladi.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/jins/sikah_baladi/sikah_baladi.mp3",
+      "status": "downloaded",
+      "sha256": "9fb7ae21273b1398da0e1dd259d608169f7f9a6338a15ba21a194b435ba3e88a",
+      "bytes": 30269,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/jins/sikah_baladi.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/jins/sikah_baladi/sikah_baladi.png",
+      "status": "downloaded",
+      "sha256": "e22fc93ed4011a7c0f73e4a1e9b634dd50b381332e2a75a54785af0be5f37d4c",
+      "bytes": 13333,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/cd.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/jins/sikah_baladi/cd.png",
+      "status": "downloaded",
+      "sha256": "1f52da76667703a00010a07afefc9d78b6c3ccb8359b906fc6fd6b0cddd0255f",
+      "bytes": 5478,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Jins Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Maqam Sikah Baladi",
+      "url": "https://www.maqamworld.com/en/maqam/sikah_baladi.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "c1259fca46e9705f687844cb1518fc13b89bb09ea46a5542acd41a25c6a4b982",
+  "fetched_at": "2026-11-10T12:10:55.084317Z",
+  "status_code": 200,
+  "html_file": "data/raw/jins/sikah_baladi.html"
+}

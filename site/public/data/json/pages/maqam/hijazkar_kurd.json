@@ -1,0 +1,221 @@
+{
+  "url": "https://www.maqamworld.com/en/maqam/hijazkar_kurd.php",
+  "path": "/en/maqam/hijazkar_kurd.php",
+  "section": "maqam",
+  "slug": "maqam/hijazkar_kurd",
+  "kind": "entry",
+  "title": "Maqam Hijazkar Kurd",
+  "subtitle": "A member of the Maqam Kurd Family",
+  "description": "Maqam Hijazkar Kurd",
+  "lang": "en",
+  "paragraphs": [
+    "Click the notes and hold using the mouse to hear them play.",
+    "Maqam Hijazkar Kurd is an archaic version of Maqam Kurd with Jins Hijazkar on the octave. Its scale starts with the root Jins Kurd on the tonic followed by Jins Nahawand on the 4th degree.",
+    "Explore other maqamat in the Maqam Kurd Family.",
+    "Watch a 1-minute sample Violin Taqsim in Maqam Hijazkar Kurd by Sami Abu Shumays."
+  ],
+  "text": "Maqam Hijazkar Kurd A member of the Maqam Kurd Family Maqam Index Pronunciation of Hijazkar Kurd Click the notes and hold using the mouse to hear them play. Maqam Hijazkar Kurd is an archaic version of Maqam Kurd with Jins Hijazkar on the octave. Its scale starts with the root Jins Kurd on the tonic followed by Jins Nahawand on the 4 th degree. Explore other maqamat in the Maqam Kurd Family . Watch a 1-minute sample Violin Taqsim in Maqam Hijazkar Kurd by Sami Abu Shumays. Muwashah Tif Ya Durri Choir of the faculty of Music - Kaslik University (Lebanon) Conductor: Aïda Shalhoub Ziadé Music by Sayyed Darwish/‘Umar al-Batsh Orientalia: Muwashah and Song series Muwashah Hibbi Zurni Ma Tayassar Choir of the faculty of Music - Kaslik University (Lebanon) Conductor: Aïda Shalhoub Ziadé Music by Darwish al-Hariri Orientalia: Muwashah and Song series Muwashah Ya Dhal-Qawam al-Samhari Sabah Fakhri Au Palais Des Congrès (1995) Izzay Tibi‘ni w-Ana Ashterik Saleh Abdel Hayy",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Muwashah Tif Ya Durri",
+      "artist": "Choir of the faculty of Music - Kaslik University (Lebanon)",
+      "credits": [
+        "Conductor: Aïda Shalhoub Ziadé",
+        "Music by Sayyed Darwish/‘Umar al-Batsh",
+        "Orientalia: Muwashah and Song series"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/hijazkar_kurd/tif_ya_durri.mp3",
+      "local_path": "data/media/maqam/hijazkar_kurd/tif_ya_durri.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Muwashah Hibbi Zurni Ma Tayassar",
+      "artist": "Choir of the faculty of Music - Kaslik University (Lebanon)",
+      "credits": [
+        "Conductor: Aïda Shalhoub Ziadé",
+        "Music by Darwish al-Hariri",
+        "Orientalia: Muwashah and Song series"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/hijazkar_kurd/hibbi_zurni.mp3",
+      "local_path": "data/media/maqam/hijazkar_kurd/hibbi_zurni.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Muwashah Ya Dhal-Qawam al-Samhari",
+      "artist": "Sabah Fakhri",
+      "credits": [
+        "Au Palais Des Congrès (1995)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/hijazkar_kurd/ya_dhal_qawam.mp3",
+      "local_path": "data/media/maqam/hijazkar_kurd/ya_dhal_qawam.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Izzay Tibi‘ni w-Ana Ashterik",
+      "artist": "Saleh Abdel Hayy",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/hijazkar_kurd/izzay_tibi3ni.mp3",
+      "local_path": "data/media/maqam/hijazkar_kurd/izzay_tibi3ni.mp3"
+    }
+  ],
+  "notes": [
+    {
+      "name": "E5♮",
+      "frequency": 656.0
+    },
+    {
+      "name": "D5♭",
+      "frequency": 554.0
+    },
+    {
+      "name": "C5",
+      "frequency": 521.48
+    },
+    {
+      "name": "B4♮",
+      "frequency": 493.33
+    },
+    {
+      "name": "B4♭",
+      "frequency": 463.54
+    },
+    {
+      "name": "A4♭",
+      "frequency": 420.0
+    },
+    {
+      "name": "G4",
+      "frequency": 391.11
+    },
+    {
+      "name": "F4",
+      "frequency": 347.65
+    },
+    {
+      "name": "E4♭",
+      "frequency": 308.25
+    },
+    {
+      "name": "D4♭",
+      "frequency": 274.0
+    },
+    {
+      "name": "C4",
+      "frequency": 260.74
+    }
+  ],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/hijazkar_kurd/tif_ya_durri.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/hijazkar_kurd/tif_ya_durri.mp3",
+      "status": "downloaded",
+      "sha256": "8787ebe8c93aecd64381e20af8fee0a66035f21711401ab211143398df192fcb",
+      "bytes": 537995,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/hijazkar_kurd/hibbi_zurni.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/hijazkar_kurd/hibbi_zurni.mp3",
+      "status": "downloaded",
+      "sha256": "37ee9c22a2b2708942ff99a8888f5982ee46fd655a3b0f241e298fd44bf32c8e",
+      "bytes": 1064149,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/hijazkar_kurd/ya_dhal_qawam.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/hijazkar_kurd/ya_dhal_qawam.mp3",
+      "status": "downloaded",
+      "sha256": "a3660679d31222d3e5da3d80bd436d3060428b3a2e5f7a00d4786d02e29259b6",
+      "bytes": 691350,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/hijazkar_kurd/izzay_tibi3ni.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/hijazkar_kurd/izzay_tibi3ni.mp3",
+      "status": "downloaded",
+      "sha256": "6d5e98b9b6015326d2761c536045334ff6cca6a14b09232336c657f5ecd14137",
+      "bytes": 385587,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/hijazkar_kurd.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/maqam/hijazkar_kurd/hijazkar_kurd.mp3",
+      "status": "downloaded",
+      "sha256": "f92c3b474cb801a6dfcbd6828571701d93866373eb264a4b92c9a93af5260c5c",
+      "bytes": 58513,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/maqam/hijazkar_kurd.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/maqam/hijazkar_kurd/hijazkar_kurd.png",
+      "status": "downloaded",
+      "sha256": "c27ee93fbb061012a8f266c249dfe9e8f7e92c9e7e571c0035949b7e2b1007b7",
+      "bytes": 20986,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/cd.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/maqam/hijazkar_kurd/cd.png",
+      "status": "downloaded",
+      "sha256": "1f52da76667703a00010a07afefc9d78b6c3ccb8359b906fc6fd6b0cddd0255f",
+      "bytes": 5478,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Maqam Kurd Family",
+      "url": "https://www.maqamworld.com/en/maqam/f_kurd.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Maqam Kurd",
+      "url": "https://www.maqamworld.com/en/maqam/kurd.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Hijazkar",
+      "url": "https://www.maqamworld.com/en/jins/hijazkar.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Kurd",
+      "url": "https://www.maqamworld.com/en/jins/kurd.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Nahawand",
+      "url": "https://www.maqamworld.com/en/jins/nahawand.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Violin Taqsim in Maqam Hijazkar Kurd",
+      "url": "https://www.instagram.com/p/B-hZRqPFhWG/",
+      "kind": "external"
+    }
+  ],
+  "content_hash": "ac8bf085e2267b02f1950a268e6882fcdefd64ca1ea6f7bf9dd52ccc79b3bb0c",
+  "fetched_at": "2026-11-10T12:10:54.865816Z",
+  "status_code": 200,
+  "html_file": "data/raw/maqam/hijazkar_kurd.html"
+}

@@ -1,0 +1,200 @@
+{
+  "url": "https://www.maqamworld.com/en/iqaa/masmudi_kabir.php",
+  "path": "/en/iqaa/masmudi_kabir.php",
+  "section": "iqaa",
+  "slug": "iqaa/masmudi_kabir",
+  "kind": "entry",
+  "title": "Iqa‘ Masmudi Kabir 8/4",
+  "subtitle": null,
+  "description": "Iqa‘ Masmudi Kabir",
+  "lang": "en",
+  "paragraphs": [
+    "Iqa‘ Masmudi Kabir (or Masmudi, for short) is one of the most popular rhythms in the Tarab repertoire of the twentieth century. The word \"kabir\" means great/large in Arabic, to distinguish it from Masmudi Saghir (small Masmudi, more commonly called Baladi.)"
+  ],
+  "text": "Iqa‘ Masmudi Kabir 8/4 Iqa‘ Index Pronunciation of Masmudi Kabir Iqa‘ Masmudi Kabir (or Masmudi, for short) is one of the most popular rhythms in the Tarab repertoire of the twentieth century. The word \"kabir\" means great/large in Arabic, to distinguish it from Masmudi Saghir (small Masmudi, more commonly called Baladi.) Bint el-Balad (1951) Instrumental Composition Muhammad Abdel Wahab Khayyi Khayyi (1958) Vocals and Music by Muhammad Abdel Wahab (Egypt) Ruba‘iyyat al-Khayam (1950) Umm Kulthum Music by Riyad al-Sunbati Muwashah Ya Fatin al-Ghuzlan Al-Turath Ensemble Music by ‘Umar al-Batsh Muwashah Ya Shadi al-Alhan Sabah Fakhri Music by Sayyed Darwish Muwashah Zarani al-Mahbub Sabah Fakhri Iqa‘ Masmudi Kabir 8/4 Tabla demonstration by Faisal Zedan",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Bint el-Balad (1951)",
+      "artist": "Instrumental Composition",
+      "credits": [
+        "Muhammad Abdel Wahab"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/masmudi_kabir/bint_il_balad.mp3",
+      "local_path": "data/media/iqaa/masmudi_kabir/bint_il_balad.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Khayyi Khayyi (1958)",
+      "artist": "Vocals and Music by Muhammad Abdel Wahab (Egypt)",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/masmudi_kabir/khayyi.mp3",
+      "local_path": "data/media/iqaa/masmudi_kabir/khayyi.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Ruba‘iyyat al-Khayam (1950)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Riyad al-Sunbati"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/masmudi_kabir/ruba3iyyat.mp3",
+      "local_path": "data/media/iqaa/masmudi_kabir/ruba3iyyat.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Muwashah Ya Fatin al-Ghuzlan",
+      "artist": "Al-Turath Ensemble",
+      "credits": [
+        "Music by ‘Umar al-Batsh"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/masmudi_kabir/ya_fatin_al_ghuzlan.mp3",
+      "local_path": "data/media/iqaa/masmudi_kabir/ya_fatin_al_ghuzlan.mp3"
+    },
+    {
+      "index": 5,
+      "title": "Muwashah Ya Shadi al-Alhan",
+      "artist": "Sabah Fakhri",
+      "credits": [
+        "Music by Sayyed Darwish"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/masmudi_kabir/ya_shadil_alhan.mp3",
+      "local_path": "data/media/iqaa/masmudi_kabir/ya_shadil_alhan.mp3"
+    },
+    {
+      "index": 6,
+      "title": "Muwashah Zarani al-Mahbub",
+      "artist": "Sabah Fakhri",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/masmudi_kabir/zarani_al_mahbub.mp3",
+      "local_path": "data/media/iqaa/masmudi_kabir/zarani_al_mahbub.mp3"
+    },
+    {
+      "index": 7,
+      "title": "Iqa‘ Masmudi Kabir 8/4",
+      "artist": "Tabla demonstration by Faisal Zedan",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/demo/iqaa/tabla/masmudi_kabir.mp3",
+      "local_path": "data/media/iqaa/masmudi_kabir/masmudi_kabir.mp3"
+    }
+  ],
+  "notes": [],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/masmudi_kabir/bint_il_balad.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/masmudi_kabir/bint_il_balad.mp3",
+      "status": "downloaded",
+      "sha256": "03bc5bdffcbd39be1242f4e148fb6cd4eccf3d22ecf9feecc5fb06059a8f991e",
+      "bytes": 536466,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/masmudi_kabir/khayyi.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/masmudi_kabir/khayyi.mp3",
+      "status": "downloaded",
+      "sha256": "775f2a99fc62781e6ab364b1b7f36151e10cf93df9d7bfe9b02f7889da720df7",
+      "bytes": 227271,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/masmudi_kabir/ruba3iyyat.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/masmudi_kabir/ruba3iyyat.mp3",
+      "status": "downloaded",
+      "sha256": "5e7d20e6ee999a1d3e871dfcfbd84f32f543446e6f9f9d55209f9be3566ec745",
+      "bytes": 252992,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/masmudi_kabir/ya_fatin_al_ghuzlan.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/masmudi_kabir/ya_fatin_al_ghuzlan.mp3",
+      "status": "downloaded",
+      "sha256": "f5021026f1bbd1a0a6b4b20cfcd96859af17fc44a76d0d8f73de567cdae243bd",
+      "bytes": 594830,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/masmudi_kabir/ya_shadil_alhan.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/masmudi_kabir/ya_shadil_alhan.mp3",
+      "status": "downloaded",
+      "sha256": "918a4edacfb16bfd0d703a6dc444f32567f971fb18def02536e42c424a853d4f",
+      "bytes": 508295,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/masmudi_kabir/zarani_al_mahbub.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/masmudi_kabir/zarani_al_mahbub.mp3",
+      "status": "downloaded",
+      "sha256": "64b384b2685f6aca798f84201f2a8e49ab8eb1c04e1c0c70220acba2d6904827",
+      "bytes": 745281,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/demo/iqaa/tabla/masmudi_kabir.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/masmudi_kabir/masmudi_kabir.mp3",
+      "status": "downloaded",
+      "sha256": "439b46a9a994afcea6c48e78f23b685c3f1e1b8b8e76608d9e6ab2739affc478",
+      "bytes": 886117,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/masmudi_kabir.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/iqaa/masmudi_kabir/masmudi_kabir-2b3b2535.mp3",
+      "status": "downloaded",
+      "sha256": "2b4392d2865e711d1bc92a32e353bd555598d917648d8b87c278b7859e328ebc",
+      "bytes": 55378,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/iqaa/masmudi_kabir.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/masmudi_kabir/masmudi_kabir.png",
+      "status": "downloaded",
+      "sha256": "558aba4cb60f0fbfa05d10946661d95c18c65679fa9b5c22f33d8a575984f027",
+      "bytes": 9655,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/tabla.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/masmudi_kabir/tabla.png",
+      "status": "downloaded",
+      "sha256": "bc7d7630f1797012041feecf8f1a7bc6d926498a88661ab4f28451d50b6c8f30",
+      "bytes": 11602,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Iqa‘ Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Masmudi Saghir",
+      "url": "https://www.maqamworld.com/en/iqaa/baladi.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "a1ce9023a7c74c7f286768e985a0eb237e97007a304779c40a6bf2d86fea74a3",
+  "fetched_at": "2026-11-10T12:10:55.120088Z",
+  "status_code": 200,
+  "html_file": "data/raw/iqaa/masmudi_kabir.html"
+}

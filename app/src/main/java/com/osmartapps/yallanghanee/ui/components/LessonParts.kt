@@ -69,6 +69,19 @@ fun SlowToggle(active: Boolean, onToggle: () -> Unit) {
 }
 
 @Composable
+fun DroneToggle(active: Boolean, onToggle: () -> Unit) {
+    TextButton(onClick = onToggle) {
+        Text(
+            text = stringResource(
+                if (active) R.string.lesson_drone_on else R.string.lesson_drone,
+            ),
+            color = if (active) NightGold else NightTextMuted,
+            style = MaterialTheme.typography.labelLarge,
+        )
+    }
+}
+
+@Composable
 fun FeedbackPanel(
     correct: Boolean,
     answerName: String,

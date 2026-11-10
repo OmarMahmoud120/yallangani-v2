@@ -1,0 +1,106 @@
+{
+  "url": "https://www.maqamworld.com/en/instr/org.php",
+  "path": "/en/instr/org.php",
+  "section": "instr",
+  "slug": "instr/org",
+  "kind": "entry",
+  "title": "The Arabic Org",
+  "subtitle": "1970s Electric Organ fitted with some quartertones",
+  "description": "The Arabic Org",
+  "lang": "en",
+  "paragraphs": [
+    "The Electric Organ (commonly called org in Arabic, from the French \"orgue\") became very popular in Arabic music in the late 1960s through the 1970s. Its pioneer and superstar was Egyptian keyboardist Magdi el-Husseini. The org was altered to play good-enough quartertones (as good as the accordion's) which allowed it to play most maqam scales. The org was used to play a combination of melodic lines and simple chords. Together, the org and the electric guitar created a distinctive sound and mood that marked Arabic music from that decade.",
+    "Explore other Arabized instruments:"
+  ],
+  "text": "The Arabic Org 1970s Electric Organ fitted with some quartertones Instrument Index Org pioneer Magdi el-Husseini (Egypt). The Electric Organ (commonly called org in Arabic, from the French \"orgue\") became very popular in Arabic music in the late 1960s through the 1970s. Its pioneer and superstar was Egyptian keyboardist Magdi el-Husseini. The org was altered to play good-enough quartertones (as good as the accordion's) which allowed it to play most maqam scales. The org was used to play a combination of melodic lines and simple chords. Together, the org and the electric guitar created a distinctive sound and mood that marked Arabic music from that decade. Magdi el-Husseini Abdel Halim Hafez's song Qari'at al-Fingan (1976, music by Muhammad al-Mugi) featuring Egyptian electric organ players Magdi el-Husseini and Hani Mehanna (both part of The Diamond Orchestra). Magdi el-Husseini Interview Interview with Magdi el-Husseini about his experience meeting singer Abdel Halim Hafez and performing in his orchestra. Hani Mehanna Interview Interview with Hani Mehanna about his experience meeting composer Muhammad Abdel Wahab and singer Umm Kulthum and performing the song Leilet Hobb with her orchestra. Explore other Arabized instruments: The Arabic Accordion The Electric Guitar The Oriental Keyboard The Arabic Piano The Saxophone The Trumpet",
+  "tracks": [],
+  "notes": [],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/instr/org.jpg",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/instr/org/org.jpg",
+      "status": "downloaded",
+      "sha256": "0f3f4390df546f910211e89749a70661fedfd02090a373fbd16f20c230b5ed55",
+      "bytes": 27275,
+      "content_type": null
+    },
+    {
+      "url": "https://img.youtube.com/vi/Ptd3R51Qj-s/hqdefault.jpg",
+      "kind": "image",
+      "source": "content",
+      "local_path": null,
+      "status": "skipped_external",
+      "sha256": null,
+      "bytes": null,
+      "content_type": null
+    },
+    {
+      "url": "https://img.youtube.com/vi/dgXdCUH8nxY/hqdefault.jpg",
+      "kind": "image",
+      "source": "content",
+      "local_path": null,
+      "status": "skipped_external",
+      "sha256": null,
+      "bytes": null,
+      "content_type": null
+    },
+    {
+      "url": "https://img.youtube.com/vi/G92v98oBCHA/hqdefault.jpg",
+      "kind": "image",
+      "source": "content",
+      "local_path": null,
+      "status": "skipped_external",
+      "sha256": null,
+      "bytes": null,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Instrument Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "maqam",
+      "url": "https://www.maqamworld.com/en/maqam.php",
+      "kind": "internal"
+    },
+    {
+      "text": "electric guitar",
+      "url": "https://www.maqamworld.com/en/instr/guitar.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Arabic Accordion",
+      "url": "https://www.maqamworld.com/en/instr/accordion.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Oriental Keyboard",
+      "url": "https://www.maqamworld.com/en/instr/keyboard.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Arabic Piano",
+      "url": "https://www.maqamworld.com/en/instr/piano.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Saxophone",
+      "url": "https://www.maqamworld.com/en/instr/saxophone.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Trumpet",
+      "url": "https://www.maqamworld.com/en/instr/trumpet.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "544ebacaa79e78243cdfd5814b9c86006b65b8b22aa0d5361a55d0effa1dde70",
+  "fetched_at": "2026-11-10T12:10:55.180318Z",
+  "status_code": 200,
+  "html_file": "data/raw/instr/org.html"
+}

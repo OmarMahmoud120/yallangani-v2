@@ -1,0 +1,312 @@
+{
+  "url": "https://www.maqamworld.com/en/maqam/rast.php",
+  "path": "/en/maqam/rast.php",
+  "section": "maqam",
+  "slug": "maqam/rast",
+  "kind": "entry",
+  "title": "Maqam Rast",
+  "subtitle": "The principal maqam in the Maqam Rast Family",
+  "description": "Maqam Rast",
+  "lang": "en",
+  "paragraphs": [
+    "Click the notes and hold using the mouse to hear them play.",
+    "Maqam Rast is the main maqam in the Rast Family, and by far one of the most popular and common maqamat in the Arabic repertory. Its scale starts with the root Jins Rast on the tonic, followed on the 5th degree by either Jins Upper Rast (with its tonic up on the 8th degree) or Jins Nahawand.",
+    "Explore other maqamat in the Maqam Rast Family.",
+    "Watch a 1-minute sample Violin Taqsim in Maqam Rast by Sami Abu Shumays."
+  ],
+  "text": "Maqam Rast The principal maqam in the Maqam Rast Family Maqam Index Pronunciation of Rast Click the notes and hold using the mouse to hear them play. Maqam Rast is the main maqam in the Rast Family, and by far one of the most popular and common maqamat in the Arabic repertory. Its scale starts with the root Jins Rast on the tonic , followed on the 5 th degree by either Jins Upper Rast (with its tonic up on the 8 th degree) or Jins Nahawand . Explore other maqamat in the Maqam Rast Family . Watch a 1-minute sample Violin Taqsim in Maqam Rast by Sami Abu Shumays. Muwashah Ya Shadi al-Alhan Sabah Fakhri Music by Sayyed Darwish Muwashah Mala al-Kasat Al-Kindi Ensemble Music by Muhammad ‘Uthman Muwashah Ya ‘Udhayb al-Marshaf Choir of the faculty of Music - Kaslik University (Lebanon) Conductor: Aïda Shalhoub Ziadé Music by Sayyed Darwish Orientalia: Muwashah and Song series Waraqu el-Asfar Shahr Aylul Fairouz Music by Philemon Wehbe Qasida Salabat Su‘ad Muhammad Khayri Layali Rast ‘Abbas al-Bleidi Leh Tilaw‘ini (1938) Umm Kulthum Music by Muhammad al-Qasabgi (Egypt) Dulab Rast Sabah Fakhri Live Au Palais Des Congres Sama‘i Rast George Michel (Egypt) Al-Kindi Ensemble The Aleppian Music Room Vol. 2 (Rast)",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Muwashah Ya Shadi al-Alhan",
+      "artist": "Sabah Fakhri",
+      "credits": [
+        "Music by Sayyed Darwish"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/rast/ya_shadi_al_alhan.mp3",
+      "local_path": "data/media/maqam/rast/ya_shadi_al_alhan.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Muwashah Mala al-Kasat",
+      "artist": "Al-Kindi Ensemble",
+      "credits": [
+        "Music by Muhammad ‘Uthman"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/rast/mala_el_kasat.mp3",
+      "local_path": "data/media/maqam/rast/mala_el_kasat.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Muwashah Ya ‘Udhayb al-Marshaf",
+      "artist": "Choir of the faculty of Music - Kaslik University (Lebanon)",
+      "credits": [
+        "Conductor: Aïda Shalhoub Ziadé",
+        "Music by Sayyed Darwish",
+        "Orientalia: Muwashah and Song series"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/rast/ya_3udhaib.mp3",
+      "local_path": "data/media/maqam/rast/ya_3udhaib.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Waraqu el-Asfar Shahr Aylul",
+      "artist": "Fairouz",
+      "credits": [
+        "Music by Philemon Wehbe"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/rast/waraqu_el_asfar.mp3",
+      "local_path": "data/media/maqam/rast/waraqu_el_asfar.mp3"
+    },
+    {
+      "index": 5,
+      "title": "Qasida Salabat Su‘ad",
+      "artist": "Muhammad Khayri",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/rast/qasidat_salabat_su3adu.mp3",
+      "local_path": "data/media/maqam/rast/qasidat_salabat_su3adu.mp3"
+    },
+    {
+      "index": 6,
+      "title": "Layali Rast",
+      "artist": "‘Abbas al-Bleidi",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/rast/layali_rast_abbas_bleidi.mp3",
+      "local_path": "data/media/maqam/rast/layali_rast_abbas_bleidi.mp3"
+    },
+    {
+      "index": 7,
+      "title": "Leh Tilaw‘ini (1938)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Muhammad al-Qasabgi (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/rast/dulab_leih_tilaw3ini.mp3",
+      "local_path": "data/media/maqam/rast/dulab_leih_tilaw3ini.mp3"
+    },
+    {
+      "index": 8,
+      "title": "Dulab Rast",
+      "artist": "Sabah Fakhri",
+      "credits": [
+        "Live Au Palais Des Congres"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/rast/dulab_rast_fakhri.mp3",
+      "local_path": "data/media/maqam/rast/dulab_rast_fakhri.mp3"
+    },
+    {
+      "index": 9,
+      "title": "Sama‘i Rast George Michel (Egypt)",
+      "artist": "Al-Kindi Ensemble",
+      "credits": [
+        "The Aleppian Music Room Vol. 2 (Rast)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/rast/samai_rast_george_michel.mp3",
+      "local_path": "data/media/maqam/rast/samai_rast_george_michel.mp3"
+    }
+  ],
+  "notes": [
+    {
+      "name": "C4",
+      "frequency": 260.74
+    },
+    {
+      "name": "D4",
+      "frequency": 293.33
+    },
+    {
+      "name": "E4",
+      "frequency": 320.0
+    },
+    {
+      "name": "F4",
+      "frequency": 347.65
+    },
+    {
+      "name": "G4",
+      "frequency": 391.11
+    },
+    {
+      "name": "A4",
+      "frequency": 440.0
+    },
+    {
+      "name": "B4",
+      "frequency": 482.0
+    },
+    {
+      "name": "C5",
+      "frequency": 521.48
+    },
+    {
+      "name": "B4♭",
+      "frequency": 463.54
+    },
+    {
+      "name": "A4",
+      "frequency": 440.0
+    },
+    {
+      "name": "G4",
+      "frequency": 391.11
+    }
+  ],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/rast/ya_shadi_al_alhan.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/rast/ya_shadi_al_alhan.mp3",
+      "status": "downloaded",
+      "sha256": "0eb1500ff67d6a8b613e556d0d0ba00193692f0f8e0c561ae651edac0675de29",
+      "bytes": 1069666,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/rast/mala_el_kasat.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/rast/mala_el_kasat.mp3",
+      "status": "downloaded",
+      "sha256": "59f6bd6cf5d3483a3f725d2e2363500264bd5f9b5f1082bf079dff940b925211",
+      "bytes": 1178987,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/rast/ya_3udhaib.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/rast/ya_3udhaib.mp3",
+      "status": "downloaded",
+      "sha256": "653719c311860856dbbd4a2e25c03a2df37579db5e989a3bf639d6587b0cac10",
+      "bytes": 1314908,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/rast/waraqu_el_asfar.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/rast/waraqu_el_asfar.mp3",
+      "status": "downloaded",
+      "sha256": "9ad7ea83101d12ebf683a0042db0e3ab9f4a3aa8ac16fe3ba01d9e93360b42a2",
+      "bytes": 1374207,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/rast/qasidat_salabat_su3adu.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/rast/qasidat_salabat_su3adu.mp3",
+      "status": "downloaded",
+      "sha256": "d30b9c4bd166190fc5b33476635e3d0559a62b6b7004b3da6adfb686b1b74dbb",
+      "bytes": 914999,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/rast/layali_rast_abbas_bleidi.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/rast/layali_rast_abbas_bleidi.mp3",
+      "status": "downloaded",
+      "sha256": "bc65b2396b63eed66c5ae47e2fcdc431e1b9b267eb196d7a8850a20d18c4a2a2",
+      "bytes": 523522,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/rast/dulab_leih_tilaw3ini.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/rast/dulab_leih_tilaw3ini.mp3",
+      "status": "downloaded",
+      "sha256": "37515d62957063c52f3fd2badce7040a812a03a9cb62aaaf6e8a857e56712fdf",
+      "bytes": 221916,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/rast/dulab_rast_fakhri.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/rast/dulab_rast_fakhri.mp3",
+      "status": "downloaded",
+      "sha256": "7c533b54f613fb5ac08eb0cb614f99b698f9814b88a0add5d90886d979243893",
+      "bytes": 945571,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/rast/samai_rast_george_michel.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/rast/samai_rast_george_michel.mp3",
+      "status": "downloaded",
+      "sha256": "95cdb39065ee9fdb2d52e5008a2505ae33b8a4635999c2bfd44fde037d6a3a01",
+      "bytes": 1386870,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/rast.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/maqam/rast/rast.mp3",
+      "status": "downloaded",
+      "sha256": "fb4bad20a02b404310a164f1221f90aa24039ca496553034ae6c07ffcd5a900e",
+      "bytes": 28211,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/maqam/rast.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/maqam/rast/rast.png",
+      "status": "downloaded",
+      "sha256": "51d3120e7ea1909a6273574dd93376de1e0e21296f56ec9da403ec12a6a1b3c4",
+      "bytes": 16505,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/cd.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/maqam/rast/cd.png",
+      "status": "downloaded",
+      "sha256": "1f52da76667703a00010a07afefc9d78b6c3ccb8359b906fc6fd6b0cddd0255f",
+      "bytes": 5478,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Maqam Rast Family",
+      "url": "https://www.maqamworld.com/en/maqam/f_rast.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Jins Rast",
+      "url": "https://www.maqamworld.com/en/jins/rast.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Upper Rast",
+      "url": "https://www.maqamworld.com/en/jins/upper_rast.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Nahawand",
+      "url": "https://www.maqamworld.com/en/jins/nahawand.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Violin Taqsim in Maqam Rast",
+      "url": "https://www.instagram.com/p/B9wem6UF7IX",
+      "kind": "external"
+    }
+  ],
+  "content_hash": "0fb6422fb4cd0bfa743949b1a55880c5516f8def8ace64f1d95fe998e01e17ef",
+  "fetched_at": "2026-11-10T12:10:54.980483Z",
+  "status_code": 200,
+  "html_file": "data/raw/maqam/rast.html"
+}

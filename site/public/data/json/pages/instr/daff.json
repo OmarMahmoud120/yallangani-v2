@@ -1,0 +1,113 @@
+{
+  "url": "https://www.maqamworld.com/en/instr/daff.php",
+  "path": "/en/instr/daff.php",
+  "section": "instr",
+  "slug": "instr/daff",
+  "kind": "entry",
+  "title": "The Daff",
+  "subtitle": "The Generic Frame Drum",
+  "description": "The Daff",
+  "lang": "en",
+  "paragraphs": [
+    "Daff is a generic word for a frame drum in Arabic, and local varieties may have different names like Mazhar in Syria/Egypt or Bendir in North Africa.",
+    "The daff has a circular wooden frame ranging from 12 inches in diameter for smaller instruments to 24 inches and more on larger (and bassier) instruments. The frame can be about 4 inches deep for small diameters, and 2-3 inches deep for larger diameters. The skin is traditionally goat, deer or another natural skin, and is permanently glued to the frame, while modern daff-s have plastic skin, and are tunable.",
+    "The daff is especially popular in Sufi music (where often it is the only instrument used to accompany singing), and is also use in classical, folk and pop genres to achieve a bigger rhythm section.",
+    "Explore other percussion instruments:"
+  ],
+  "text": "The Daff The Generic Frame Drum Instrument Index Three daff-s with goat and deer skins. © MaqamWorld Pronunciation of Daff Pronunciation of Bendir Daff is a generic word for a frame drum in Arabic, and local varieties may have different names like Mazhar in Syria/Egypt or Bendir in North Africa. The daff has a circular wooden frame ranging from 12 inches in diameter for smaller instruments to 24 inches and more on larger (and bassier) instruments. The frame can be about 4 inches deep for small diameters, and 2-3 inches deep for larger diameters. The skin is traditionally goat, deer or another natural skin, and is permanently glued to the frame, while modern daff -s have plastic skin, and are tunable. The daff is especially popular in Sufi music (where often it is the only instrument used to accompany singing), and is also use in classical, folk and pop genres to achieve a bigger rhythm section. Hassan al-Haffar's Ensemble The daff is used in Aleppan munshid (Islamic cantor) Hassan al-Haffar's ensemble in a concert recorded live in Paris. Duqqu el-Mazahir Farid al-Atrash's wedding song Duqqu el-Mazahir (\"Play the frame drums\", 1952) features a number of frame drums used in a wedding celebration. Explore other percussion instruments: The Riqq The Tabla The Tabl Baladi The Mazhar The Katim The Sagat",
+  "tracks": [],
+  "notes": [],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/name/daff.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/instr/daff/daff.mp3",
+      "status": "downloaded",
+      "sha256": "dd16dbe4b2d520c6889c489555bbdd0aaf5f510344425996c8db295470be1897",
+      "bytes": 15029,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/bendir.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/instr/daff/bendir.mp3",
+      "status": "downloaded",
+      "sha256": "7db2bbe7e2b4ea3ac69656b8f638e55326a9c91f8a6a6012cd4184acd46c5642",
+      "bytes": 20039,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/instr/daff.jpg",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/instr/daff/daff.jpg",
+      "status": "downloaded",
+      "sha256": "a366cbe1949435a238474ef2937a109aeb4863cd7aaa018692cc83b945cd6efc",
+      "bytes": 46437,
+      "content_type": null
+    },
+    {
+      "url": "https://img.youtube.com/vi/FFViUJriwXE/hqdefault.jpg",
+      "kind": "image",
+      "source": "content",
+      "local_path": null,
+      "status": "skipped_external",
+      "sha256": null,
+      "bytes": null,
+      "content_type": null
+    },
+    {
+      "url": "https://img.youtube.com/vi/Ya_3rWXI1is/hqdefault.jpg",
+      "kind": "image",
+      "source": "content",
+      "local_path": null,
+      "status": "skipped_external",
+      "sha256": null,
+      "bytes": null,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Instrument Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "The Riqq",
+      "url": "https://www.maqamworld.com/en/instr/riqq.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Tabla",
+      "url": "https://www.maqamworld.com/en/instr/tabla.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Tabl Baladi",
+      "url": "https://www.maqamworld.com/en/instr/tabl_baladi.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Mazhar",
+      "url": "https://www.maqamworld.com/en/instr/mazhar.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Katim",
+      "url": "https://www.maqamworld.com/en/instr/katim.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Sagat",
+      "url": "https://www.maqamworld.com/en/instr/sagat.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "894a20cc7b08e50c9078a627b1fad536c0dd0c66eaeac82a42219b56b335e8c8",
+  "fetched_at": "2026-11-10T12:10:55.176029Z",
+  "status_code": 200,
+  "html_file": "data/raw/instr/daff.html"
+}

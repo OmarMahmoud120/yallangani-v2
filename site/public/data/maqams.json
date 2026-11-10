@@ -1,0 +1,3537 @@
+{
+  "version": 2,
+  "source": {
+    "name": "MaqamWorld",
+    "url": "https://www.maqamworld.com/",
+    "retrieved": "2026-11-10"
+  },
+  "maqams": [
+    {
+      "id": "rast",
+      "name": "Maqam Rast",
+      "pack": 1,
+      "name_ar": "راست",
+      "color": "#E2A45C",
+      "jins_ar": "جنس راست",
+      "signature_ar": "الدرجة الثالثة محايدة بين الكبير والصغير؛ هذا هو قرار الرست.",
+      "status": "approved",
+      "app_audio": "06-alrast.mp3",
+      "drone": "drone-c4.mp3",
+      "source_url": "https://www.maqamworld.com/en/maqam/rast.php",
+      "notation": "media/maqam/rast/rast.png",
+      "notes": [
+        {
+          "name": "C4",
+          "frequency": 260.74
+        },
+        {
+          "name": "D4",
+          "frequency": 293.33
+        },
+        {
+          "name": "E4",
+          "frequency": 320.0
+        },
+        {
+          "name": "F4",
+          "frequency": 347.65
+        },
+        {
+          "name": "G4",
+          "frequency": 391.11
+        },
+        {
+          "name": "A4",
+          "frequency": 440.0
+        },
+        {
+          "name": "B4",
+          "frequency": 482.0
+        },
+        {
+          "name": "C5",
+          "frequency": 521.48
+        },
+        {
+          "name": "B4♭",
+          "frequency": 463.54
+        },
+        {
+          "name": "A4",
+          "frequency": 440.0
+        },
+        {
+          "name": "G4",
+          "frequency": 391.11
+        }
+      ],
+      "tracks": [
+        {
+          "title": "Muwashah Ya Shadi al-Alhan",
+          "artist": "Sabah Fakhri",
+          "audio": "media/maqam/rast/ya_shadi_al_alhan.mp3",
+          "credits": [
+            "Music by Sayyed Darwish"
+          ]
+        },
+        {
+          "title": "Muwashah Mala al-Kasat",
+          "artist": "Al-Kindi Ensemble",
+          "audio": "media/maqam/rast/mala_el_kasat.mp3",
+          "credits": [
+            "Music by Muhammad ‘Uthman"
+          ]
+        },
+        {
+          "title": "Muwashah Ya ‘Udhayb al-Marshaf",
+          "artist": "Choir of the faculty of Music - Kaslik University (Lebanon)",
+          "audio": "media/maqam/rast/ya_3udhaib.mp3",
+          "credits": [
+            "Conductor: Aïda Shalhoub Ziadé",
+            "Music by Sayyed Darwish",
+            "Orientalia: Muwashah and Song series"
+          ]
+        },
+        {
+          "title": "Waraqu el-Asfar Shahr Aylul",
+          "artist": "Fairouz",
+          "audio": "media/maqam/rast/waraqu_el_asfar.mp3",
+          "credits": [
+            "Music by Philemon Wehbe"
+          ]
+        },
+        {
+          "title": "Qasida Salabat Su‘ad",
+          "artist": "Muhammad Khayri",
+          "audio": "media/maqam/rast/qasidat_salabat_su3adu.mp3"
+        },
+        {
+          "title": "Layali Rast",
+          "artist": "‘Abbas al-Bleidi",
+          "audio": "media/maqam/rast/layali_rast_abbas_bleidi.mp3"
+        },
+        {
+          "title": "Leh Tilaw‘ini (1938)",
+          "artist": "Umm Kulthum",
+          "audio": "media/maqam/rast/dulab_leih_tilaw3ini.mp3",
+          "credits": [
+            "Music by Muhammad al-Qasabgi (Egypt)"
+          ]
+        },
+        {
+          "title": "Dulab Rast",
+          "artist": "Sabah Fakhri",
+          "audio": "media/maqam/rast/dulab_rast_fakhri.mp3",
+          "credits": [
+            "Live Au Palais Des Congres"
+          ]
+        },
+        {
+          "title": "Sama‘i Rast George Michel (Egypt)",
+          "artist": "Al-Kindi Ensemble",
+          "audio": "media/maqam/rast/samai_rast_george_michel.mp3",
+          "credits": [
+            "The Aleppian Music Room Vol. 2 (Rast)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hijaz",
+      "name": "Maqam Hijaz",
+      "pack": 1,
+      "name_ar": "حجاز",
+      "color": "#C97B5A",
+      "jins_ar": "جنس حجاز",
+      "signature_ar": "المسافة الزائدة بين الدرجتين الثانية والثالثة هي توقيع الحجاز.",
+      "status": "approved",
+      "app_audio": "01-alhijaz.mp3",
+      "drone": "drone-c4.mp3",
+      "source_url": "https://www.maqamworld.com/en/maqam/hijaz.php",
+      "notation": "media/maqam/hijaz/hijaz.png",
+      "notes": [
+        {
+          "name": "D4",
+          "frequency": 293.33
+        },
+        {
+          "name": "E4♭",
+          "frequency": 315.0
+        },
+        {
+          "name": "F4♯",
+          "frequency": 375.0
+        },
+        {
+          "name": "G4",
+          "frequency": 391.11
+        },
+        {
+          "name": "A4",
+          "frequency": 440.0
+        },
+        {
+          "name": "B4♭",
+          "frequency": 463.54
+        },
+        {
+          "name": "C5",
+          "frequency": 521.48
+        },
+        {
+          "name": "D5",
+          "frequency": 586.66
+        },
+        {
+          "name": "G4",
+          "frequency": 391.11
+        },
+        {
+          "name": "A4",
+          "frequency": 440.0
+        },
+        {
+          "name": "B4",
+          "frequency": 482.0
+        },
+        {
+          "name": "C5",
+          "frequency": 521.48
+        },
+        {
+          "name": "D5",
+          "frequency": 586.66
+        }
+      ],
+      "tracks": [
+        {
+          "title": "Muwashah Ma-Htiyali",
+          "artist": "Al Turath Ensemble",
+          "audio": "media/maqam/hijaz/mahtiyali.mp3",
+          "credits": [
+            "The Music In Spanish Al Andalus - Hijaz"
+          ]
+        },
+        {
+          "title": "Muwashah Badri Adir",
+          "artist": "Choir of the faculty of Music - Kaslik University (Lebanon)",
+          "audio": "media/maqam/hijaz/badri_ader.mp3",
+          "credits": [
+            "Conductor: Aïda Shalhoub Ziadé",
+            "Orientalia: Muwashah and Song series"
+          ]
+        },
+        {
+          "title": "Mudnaka Gafahu Marqaduhu (1938)",
+          "artist": "Vocals and Music by Muhammad Abdel Wahab (Egypt)",
+          "audio": "media/maqam/hijaz/mudnaka.mp3"
+        },
+        {
+          "title": "Hibbina (1975)",
+          "artist": "Vocals and Music by Farid al-Atrash",
+          "audio": "media/maqam/hijaz/hibbina.mp3"
+        },
+        {
+          "title": "Foug el-Nakhal",
+          "artist": "Munir Bashir and Omar Bashir",
+          "audio": "media/maqam/hijaz/foug_el_nakhal.mp3",
+          "credits": [
+            "(Traditional Iraqi Folklore)"
+          ]
+        },
+        {
+          "title": "Qasida Mawlaya Ajfani",
+          "artist": "Sabah Fakhri",
+          "audio": "media/maqam/hijaz/qasida_mawlaya.mp3",
+          "credits": [
+            "From Fasil Isqi al-‘Itash"
+          ]
+        },
+        {
+          "title": "Qadduka al-Mayyas",
+          "artist": "Sabah Fakhri",
+          "audio": "media/maqam/hijaz/qadduka_al_mayyas.mp3",
+          "credits": [
+            "Nagham al-Ams Vol. 14 Hijaz"
+          ]
+        },
+        {
+          "title": "Sama‘i Hijaz",
+          "artist": "Al-Turath Ensemble",
+          "audio": "media/maqam/hijaz/samai_hijaz.mp3",
+          "credits": [
+            "Music by Muhammad ‘Abdu"
+          ]
+        },
+        {
+          "title": "Dulab and Nay Taqsim Hijaz",
+          "artist": "Sabah Fakhri",
+          "audio": "media/maqam/hijaz/dulab_nay_taqsim.mp3",
+          "credits": [
+            "Nagham al-Ams Vol. 14 Hijaz"
+          ]
+        },
+        {
+          "title": "Dulab Hijaz",
+          "artist": "Sabah Fakhri",
+          "audio": "media/maqam/hijaz/dulab_hijaz_fakhri.mp3",
+          "credits": [
+            "Mawawil and Mouwashahat"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nahawand",
+      "name": "Maqam Nahawand",
+      "pack": 1,
+      "name_ar": "نهاوند",
+      "color": "#C77E9B",
+      "jins_ar": "جنس نهاوند",
+      "signature_ar": "الدرجة الثالثة صغيرة؛ هذا هو المقام الصغير المألوف للأذن.",
+      "status": "approved",
+      "app_audio": "02-alnahawand.mp3",
+      "drone": "drone-c4.mp3",
+      "source_url": "https://www.maqamworld.com/en/maqam/nahawand.php",
+      "notation": "media/maqam/nahawand/nahawand.png",
+      "notes": [
+        {
+          "name": "C4",
+          "frequency": 260.74
+        },
+        {
+          "name": "D4",
+          "frequency": 293.33
+        },
+        {
+          "name": "E4♭",
+          "frequency": 308.25
+        },
+        {
+          "name": "F4",
+          "frequency": 347.65
+        },
+        {
+          "name": "G4",
+          "frequency": 391.11
+        },
+        {
+          "name": "A4♭",
+          "frequency": 423.0
+        },
+        {
+          "name": "B4♮",
+          "frequency": 492.0
+        },
+        {
+          "name": "C5",
+          "frequency": 521.48
+        },
+        {
+          "name": "B4♭",
+          "frequency": 463.54
+        },
+        {
+          "name": "A4♭",
+          "frequency": 420.0
+        },
+        {
+          "name": "G4",
+          "frequency": 391.11
+        }
+      ],
+      "tracks": [
+        {
+          "title": "Balad el-Mahbub (1951)",
+          "artist": "Music by Muhammad Abdel Wahab (Egypt)",
+          "audio": "media/maqam/nahawand/balad_el_mahbub.mp3"
+        },
+        {
+          "title": "Alf Leila w-Leila (1969)",
+          "artist": "Umm Kulthum",
+          "audio": "media/maqam/nahawand/alf_leila_intro.mp3",
+          "credits": [
+            "Music by Baligh Hamdi (Egypt)"
+          ]
+        },
+        {
+          "title": "Dhikrayati (1944)",
+          "artist": "Music by Muhammad al-Qasabgi (Egypt)",
+          "audio": "media/maqam/nahawand/dhikrayati.mp3"
+        },
+        {
+          "title": "Muwashah Hat Isqiniha",
+          "artist": "Hassan al-Haffar",
+          "audio": "media/maqam/nahawand/hati_isqiniha.mp3",
+          "credits": [
+            "Yahya al-Sa‘udi (Palestine)",
+            "The Aleppo Suites"
+          ]
+        },
+        {
+          "title": "Muwashah Ramani Bi Sahmi Hawahu",
+          "artist": "Khaled al-Hafez",
+          "audio": "media/maqam/nahawand/ramani.mp3",
+          "credits": [
+            "Music by Dawud Husni (Egypt)"
+          ]
+        },
+        {
+          "title": "Sama‘i Nahawand",
+          "artist": "Simon Shaheen Ensemble",
+          "audio": "media/maqam/nahawand/samai_masud_jamil.mp3",
+          "credits": [
+            "Music by Mesut Cemil (Turkey)"
+          ]
+        },
+        {
+          "title": "Sama‘i Nahawand",
+          "artist": "Abdel Halim Noueira Ensemble",
+          "audio": "media/maqam/nahawand/samai_safar_ali.mp3",
+          "credits": [
+            "Music by Safar ‘Ali (Egypt)"
+          ]
+        },
+        {
+          "title": "Longa Farahfaza",
+          "artist": "Simon Shaheen Ensemble",
+          "audio": "media/maqam/nahawand/longa_farahfaza.mp3",
+          "credits": [
+            "Music by Riyad al-Sunbati"
+          ]
+        },
+        {
+          "title": "Longa Nahawand",
+          "artist": "Anouar Brahem",
+          "audio": "media/maqam/nahawand/longa_jamilbey.mp3",
+          "credits": [
+            "Music by Tanburi Cemil Bey"
+          ]
+        },
+        {
+          "title": "Longa Nahawand",
+          "artist": "Abdel Halim Noueira Ensemble",
+          "audio": "media/maqam/nahawand/longa_yorgo.mp3",
+          "credits": [
+            "Music by Yorgo Baganos"
+          ]
+        },
+        {
+          "title": "Dulab Nahawand",
+          "artist": "Sheikh Abu el-‘Ila Muhammad",
+          "audio": "media/maqam/nahawand/dulab_aboul_ela.mp3"
+        }
+      ]
+    },
+    {
+      "id": "bayati",
+      "name": "Maqam Bayati",
+      "pack": 2,
+      "source_url": "https://www.maqamworld.com/en/maqam/bayati.php",
+      "notation": "media/maqam/bayati/bayati.png",
+      "notes": [
+        {
+          "name": "D4",
+          "frequency": 293.33
+        },
+        {
+          "name": "E4",
+          "frequency": 320.0
+        },
+        {
+          "name": "F4",
+          "frequency": 345.0
+        },
+        {
+          "name": "G4",
+          "frequency": 391.11
+        },
+        {
+          "name": "A4",
+          "frequency": 440.0
+        },
+        {
+          "name": "B4♭",
+          "frequency": 463.54
+        },
+        {
+          "name": "C5",
+          "frequency": 521.48
+        },
+        {
+          "name": "D5",
+          "frequency": 586.66
+        },
+        {
+          "name": "G4",
+          "frequency": 391.11
+        },
+        {
+          "name": "A4",
+          "frequency": 440.0
+        },
+        {
+          "name": "B4",
+          "frequency": 482.0
+        },
+        {
+          "name": "C5",
+          "frequency": 521.48
+        },
+        {
+          "name": "D5",
+          "frequency": 586.66
+        }
+      ],
+      "tracks": [
+        {
+          "title": "‘Ala Balad el-Mahbub Waddini (1935)",
+          "artist": "Umm Kulthum",
+          "audio": "media/maqam/bayati/3ala_balad_el_mahbub.mp3",
+          "credits": [
+            "Music by Riyad al-Sunbati"
+          ]
+        },
+        {
+          "title": "Akun Sa‘id (1932)",
+          "artist": "Umm Kulthum",
+          "audio": "media/maqam/bayati/akun_sa3id.mp3",
+          "credits": [
+            "Music by Zakariya Ahmad (Egypt)"
+          ]
+        },
+        {
+          "title": "Lamma-nta Nawi (1929)",
+          "artist": "Vocals and Music by Muhammad Abdel Wahab (Egypt)",
+          "audio": "media/maqam/bayati/lamma_enta_nawi.mp3"
+        },
+        {
+          "title": "Mijana and ‘Ataba",
+          "artist": "Wadih Al-Safi",
+          "audio": "media/maqam/bayati/mijana_wa_3ataba.mp3",
+          "credits": [
+            "Music from Lebanese Folklore"
+          ]
+        },
+        {
+          "title": "Muwashah Imlali al-Aqdaha Sirfan",
+          "artist": "Sabah Fakhri (Traditional)",
+          "audio": "media/maqam/bayati/imlali_al_aqdaha.mp3"
+        },
+        {
+          "title": "Nura Nura (1953)",
+          "artist": "Music and Vocals by Farid al-Atrash",
+          "audio": "media/maqam/bayati/nura_nura.mp3"
+        },
+        {
+          "title": "Ya Rayt Minnun (Qanun Taqsim)",
+          "artist": "Fairouz",
+          "audio": "media/maqam/bayati/ya_rayt_minnun_qanun.mp3",
+          "credits": [
+            "Music by Philemon Wehbe"
+          ]
+        },
+        {
+          "title": "Ya Rayt Minnun",
+          "artist": "Fairouz",
+          "audio": "media/maqam/bayati/ya_rayt_minnun.mp3",
+          "credits": [
+            "Music by Philemon Wehbe"
+          ]
+        },
+        {
+          "title": "Sama‘i Bayati Ibrahim al-‘Aryan",
+          "artist": "Farhan Sabbagh (Oud solo)",
+          "audio": "media/maqam/bayati/samai_bayati_3aryan.mp3"
+        },
+        {
+          "title": "Sama‘i Bayati Iskandar Shalfun",
+          "artist": "Ensemble Morkos",
+          "audio": "media/maqam/bayati/samai_bayati_shalfun.mp3"
+        }
+      ]
+    },
+    {
+      "id": "kurd",
+      "name": "Maqam Kurd",
+      "pack": 2,
+      "source_url": "https://www.maqamworld.com/en/maqam/kurd.php",
+      "notation": "media/maqam/kurd/kurd.png",
+      "notes": [
+        {
+          "name": "D4",
+          "frequency": 293.33
+        },
+        {
+          "name": "E4♭",
+          "frequency": 308.25
+        },
+        {
+          "name": "F4",
+          "frequency": 347.65
+        },
+        {
+          "name": "G4",
+          "frequency": 391.11
+        },
+        {
+          "name": "A4",
+          "frequency": 440.0
+        },
+        {
+          "name": "B4♭",
+          "frequency": 463.54
+        },
+        {
+          "name": "C5",
+          "frequency": 521.48
+        },
+        {
+          "name": "D5",
+          "frequency": 586.66
+        }
+      ],
+      "tracks": [
+        {
+          "title": "‘Awwedti ‘Ayni (1958)",
+          "artist": "Umm Kulthum",
+          "audio": "media/maqam/kurd/3awwedti_3eni.mp3",
+          "credits": [
+            "Music by Riyad al-Sunbati"
+          ]
+        },
+        {
+          "title": "Ya Zalimni (1951)",
+          "artist": "Umm Kulthum",
+          "audio": "media/maqam/kurd/ya_zalimni.mp3",
+          "credits": [
+            "Music by Riyad al-Sunbati"
+          ]
+        },
+        {
+          "title": "Dulab Kurd",
+          "artist": "Sabah Fakhri Ensemble",
+          "audio": "media/maqam/kurd/dulab_kurd_fakhri.mp3",
+          "credits": [
+            "Au Palais Des Congrès (1995)"
+          ]
+        },
+        {
+          "title": "Muwashah Yamurru ‘Ujuban",
+          "artist": "Sabah Fakhri",
+          "audio": "media/maqam/kurd/yamurru_3ujuban.mp3",
+          "credits": [
+            "Music by ‘Umar al-Batsh",
+            "Au Palais Des Congrès (1995)"
+          ]
+        },
+        {
+          "title": "Muwashah Ya Bahjet el-Rouh",
+          "artist": "Sabah Fakhri",
+          "audio": "media/maqam/kurd/ya_bahjet_el_rouh.mp3",
+          "credits": [
+            "Music by Sayyed Darwish",
+            "Au Palais Des Congrès (1995)"
+          ]
+        },
+        {
+          "title": "Mashghul ‘Aleik",
+          "artist": "Karem Mahmud",
+          "audio": "media/maqam/kurd/mashghul.mp3",
+          "credits": [
+            "Music by Ahmad Sidqi"
+          ]
+        },
+        {
+          "title": "Sanatein",
+          "artist": "Leila Mourad",
+          "audio": "media/maqam/kurd/sanatein.mp3",
+          "credits": [
+            "Music by Ra'uf Dhihni"
+          ]
+        },
+        {
+          "title": "Sama‘i Kurd",
+          "artist": "Abdu Daghir",
+          "audio": "media/maqam/kurd/samai_kurd_daghir.mp3"
+        },
+        {
+          "title": "Sama‘i Kurd",
+          "artist": "Abraham Salman",
+          "audio": "media/maqam/kurd/samai_kurd_salman.mp3",
+          "credits": [
+            "Saltanah"
+          ]
+        },
+        {
+          "title": "Dawr ‘Ishiqti Ruhak (1930)",
+          "artist": "Music by Muhammad Abdel Wahab (Egypt)",
+          "audio": "media/maqam/kurd/3ichiqti_ruhak.mp3"
+        }
+      ]
+    },
+    {
+      "id": "saba",
+      "name": "Maqam Saba",
+      "pack": 2,
+      "source_url": "https://www.maqamworld.com/en/maqam/saba.php",
+      "notation": "media/maqam/saba/saba.png",
+      "notes": [
+        {
+          "name": "D4",
+          "frequency": 293.33
+        },
+        {
+          "name": "E4",
+          "frequency": 320.0
+        },
+        {
+          "name": "F4",
+          "frequency": 347.65
+        },
+        {
+          "name": "G4♭",
+          "frequency": 368.0
+        },
+        {
+          "name": "A4♮",
+          "frequency": 437.0
+        },
+        {
+          "name": "B4♭",
+          "frequency": 463.54
+        },
+        {
+          "name": "C5",
+          "frequency": 521.48
+        },
+        {
+          "name": "D5♭",
+          "frequency": 548.0
+        },
+        {
+          "name": "D5♮",
+          "frequency": 586.66
+        },
+        {
+          "name": "E5♮",
+          "frequency": 660.0
+        },
+        {
+          "name": "F5",
+          "frequency": 695.31
+        }
+      ],
+      "tracks": [
+        {
+          "title": "Dulab, Taqsim Nay & Layai Saba",
+          "artist": "Sabri al-Mudallal",
+          "audio": "media/maqam/saba/dulab_nay_taqsim_layali.mp3"
+        },
+        {
+          "title": "al-Atlal (1966)",
+          "artist": "Umm Kulthum",
+          "audio": "media/maqam/saba/al_atlal.mp3",
+          "credits": [
+            "Music by Riyad al-Sunbati"
+          ]
+        },
+        {
+          "title": "Huwwa Sahih il-Hawa Ghallab (1960)",
+          "artist": "Umm Kulthum",
+          "audio": "media/maqam/saba/huwwa_sahih.mp3",
+          "credits": [
+            "Music by Zakariya Ahmad (Egypt)"
+          ]
+        },
+        {
+          "title": "Muwashah Ahwa Qamaran",
+          "artist": "Ghada Shbeir",
+          "audio": "media/maqam/saba/ahwa_qamaran.mp3"
+        },
+        {
+          "title": "Muwashah Ghuddi Jufunik",
+          "artist": "Khaled al-Hafez",
+          "audio": "media/maqam/saba/ghuddi_jufunik.mp3"
+        },
+        {
+          "title": "Qadd Ya m-as‘ad el-Sabahiyya",
+          "artist": "Sabah Fakhri",
+          "audio": "media/maqam/saba/ya_mas3adek_sabahiyya.mp3",
+          "credits": [
+            "(Traditional Melody)"
+          ]
+        },
+        {
+          "title": "Tishuf Umuri (1930)",
+          "artist": "Umm Kulthum",
+          "audio": "media/maqam/saba/dulab_teshuf_omuri.mp3",
+          "credits": [
+            "Music by Muhammad al-Qasabgi (Egypt)"
+          ]
+        },
+        {
+          "title": "Sama‘i Saba",
+          "artist": "Music by Youssef Kassab",
+          "audio": "media/maqam/saba/samai_saba_youssef_kassab.mp3"
+        }
+      ]
+    },
+    {
+      "id": "ajam",
+      "name": "Maqam ‘Ajam",
+      "pack": 3,
+      "source_url": "https://www.maqamworld.com/en/maqam/ajam.php",
+      "notation": "media/maqam/ajam/ajam.png",
+      "notes": [
+        {
+          "name": "C4",
+          "frequency": 260.74
+        },
+        {
+          "name": "D4",
+          "frequency": 293.33
+        },
+        {
+          "name": "E4",
+          "frequency": 328.0
+        },
+        {
+          "name": "F4",
+          "frequency": 347.65
+        },
+        {
+          "name": "G4",
+          "frequency": 391.11
+        },
+        {
+          "name": "A4",
+          "frequency": 440.0
+        },
+        {
+          "name": "B4",
+          "frequency": 495.0
+        },
+        {
+          "name": "C5",
+          "frequency": 521.48
+        },
+        {
+          "name": "B4♭",
+          "frequency": 463.54
+        },
+        {
+          "name": "A4",
+          "frequency": 440.0
+        },
+        {
+          "name": "G4",
+          "frequency": 391.11
+        }
+      ],
+      "tracks": [
+        {
+          "title": "Aghadan Alqak (1971)",
+          "artist": "Umm Kulthum",
+          "audio": "media/maqam/ajam/aghadan_alqak.mp3",
+          "credits": [
+            "Music by Muhammad Abdel Wahab (Egypt)"
+          ]
+        },
+        {
+          "title": "el-Bahr Biyidhak",
+          "artist": "Vocals and Music by Sheikh Imam",
+          "audio": "media/maqam/ajam/el_bahri_biyidhak.mp3"
+        },
+        {
+          "title": "Fi Youm Wi Leila (1978)",
+          "artist": "Warda",
+          "audio": "media/maqam/ajam/fi_youm_wi_leila.mp3",
+          "credits": [
+            "Music by Muhammad Abdel Wahab (Egypt)"
+          ]
+        },
+        {
+          "title": "Tal‘a Min Beit Abuha",
+          "artist": "Nazem al-Ghazali",
+          "audio": "media/maqam/ajam/tal3a_min_beit_abuha.mp3",
+          "credits": [
+            "(Iraqi Traditional)"
+          ]
+        },
+        {
+          "title": "Zuruni Kulli Sana Marra",
+          "artist": "Karem Mahmud",
+          "audio": "media/maqam/ajam/zuruni.mp3",
+          "credits": [
+            "Music by Sayyed Darwish"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sikah",
+      "name": "Maqam Sikah",
+      "pack": 3,
+      "source_url": "https://www.maqamworld.com/en/maqam/sikah.php",
+      "notation": "media/maqam/sikah/sikah.png",
+      "notes": [
+        {
+          "name": "E4",
+          "frequency": 322.0
+        },
+        {
+          "name": "F4",
+          "frequency": 347.65
+        },
+        {
+          "name": "G4",
+          "frequency": 391.11
+        },
+        {
+          "name": "A4♮",
+          "frequency": 440.0
+        },
+        {
+          "name": "B4",
+          "frequency": 482.0
+        },
+        {
+          "name": "C5",
+          "frequency": 521.48
+        },
+        {
+          "name": "D5",
+          "frequency": 586.66
+        },
+        {
+          "name": "E5",
+          "frequency": 644.0
+        }
+      ],
+      "tracks": [
+        {
+          "title": "Muwashah Jadaka al-Ghaithu",
+          "artist": "Vocals and Music by Wajdi al-‘Aqili",
+          "audio": "media/maqam/sikah/jadakal_ghaithu.mp3"
+        },
+        {
+          "title": "Inti Fakrani (1938)",
+          "artist": "Umm Kulthum",
+          "audio": "media/maqam/sikah/inti_fakrani.mp3",
+          "credits": [
+            "Music by Muhammad al-Qasabgi (Egypt)"
+          ]
+        },
+        {
+          "title": "el-Ward Gamil (1947)",
+          "artist": "Umm Kulthum",
+          "audio": "media/maqam/sikah/il_ward_gamil.mp3",
+          "credits": [
+            "Music by Zakariya Ahmad (Egypt)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "huzam",
+      "name": "Maqam Huzam",
+      "pack": 3,
+      "source_url": "https://www.maqamworld.com/en/maqam/huzam.php",
+      "notation": "media/maqam/huzam/huzam.png",
+      "notes": [
+        {
+          "name": "E4",
+          "frequency": 322.0
+        },
+        {
+          "name": "F4",
+          "frequency": 347.65
+        },
+        {
+          "name": "G4",
+          "frequency": 391.11
+        },
+        {
+          "name": "A4♭",
+          "frequency": 423.0
+        },
+        {
+          "name": "B4♮",
+          "frequency": 492.0
+        },
+        {
+          "name": "C5",
+          "frequency": 521.48
+        },
+        {
+          "name": "D5",
+          "frequency": 586.66
+        },
+        {
+          "name": "E4",
+          "frequency": 644.0
+        }
+      ],
+      "tracks": [
+        {
+          "title": "Muwashah Ya Ghusna Naqa",
+          "artist": "(Maqam Huzam)",
+          "audio": "media/maqam/huzam/ya_ghusna_naqa.mp3",
+          "credits": [
+            "Firqat al-Musiqa al-Arabiyya, Egypt"
+          ]
+        },
+        {
+          "title": "Muwashah Ayyuha al-Saqi",
+          "artist": "Sabah Fakhri",
+          "audio": "media/maqam/huzam/ayyuha_as_saqi.mp3",
+          "credits": [
+            "Music by Majdi al-‘Aqili",
+            "Nagham Al Ams Vol. 13 Huzam"
+          ]
+        },
+        {
+          "title": "Dawr Emta el-Hawa (1936)",
+          "artist": "Umm Kulthum",
+          "audio": "media/maqam/huzam/dawr_emta_el_hawa.mp3",
+          "credits": [
+            "Music by Zakariya Ahmad (Egypt)"
+          ]
+        },
+        {
+          "title": "Marmar Zamani",
+          "artist": "Fairouz",
+          "audio": "media/maqam/huzam/marmar_zamani.mp3",
+          "credits": [
+            "(Traditional melody)"
+          ]
+        },
+        {
+          "title": "el-Ward Gamil (1947)",
+          "artist": "Umm Kulthum",
+          "audio": "media/maqam/huzam/el_wardi_gamil.mp3",
+          "credits": [
+            "Music by Zakariya Ahmad (Egypt)"
+          ]
+        },
+        {
+          "title": "Muwashah Ya Wahid al-Ghid",
+          "artist": "Fairouz",
+          "audio": "media/maqam/huzam/ya_wahid_al_ghid.mp3",
+          "credits": [
+            "Andalousiyyat"
+          ]
+        },
+        {
+          "title": "Dawr Inta Fahim",
+          "artist": "(Maqam Rahat al-Arwah)",
+          "audio": "media/maqam/huzam/dawr_inta_fahim.mp3",
+          "credits": [
+            "Music and Vocals by Zakariya Ahmad"
+          ]
+        },
+        {
+          "title": "Dulab Rahat al-Arwah",
+          "artist": "Aicha Redouane",
+          "audio": "media/maqam/huzam/dulab_rahat_al_arwah.mp3",
+          "credits": [
+            "Egypte"
+          ]
+        },
+        {
+          "title": "Dulab Rahat al-Arwah",
+          "artist": "Sabah Fakhri",
+          "audio": "media/maqam/huzam/dulab_ayyuhal_saqi.mp3",
+          "credits": [
+            "Live at Beiteddine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ajam_ushayran",
+      "name": "Maqam ‘Ajam ‘Ushayran",
+      "pack": null,
+      "source_url": "https://www.maqamworld.com/en/maqam/ajam_ushayran.php",
+      "notation": "media/maqam/ajam_ushayran/ajam_ushayran.png",
+      "notes": [
+        {
+          "name": "B4♭",
+          "frequency": 463.54
+        },
+        {
+          "name": "A4",
+          "frequency": 440.0
+        },
+        {
+          "name": "G4",
+          "frequency": 391.11
+        },
+        {
+          "name": "F4",
+          "frequency": 347.65
+        },
+        {
+          "name": "E4♭",
+          "frequency": 308.25
+        },
+        {
+          "name": "D4",
+          "frequency": 293.33
+        },
+        {
+          "name": "C4",
+          "frequency": 260.74
+        },
+        {
+          "name": "B3♭",
+          "frequency": 231.77
+        }
+      ],
+      "tracks": [
+        {
+          "title": "Muwashah Ayqadha al-Hubbu Fu'adi",
+          "artist": "Hassan al-Haffar",
+          "audio": "media/maqam/ajam_ushayran/ayqadha_al_hubbu.mp3",
+          "credits": [
+            "The Aleppo Suites Vol.2",
+            "Music by Bahjat Hassan"
+          ]
+        },
+        {
+          "title": "Muwashah Da‘i al-Hawa Qad Sah",
+          "artist": "Sabah Fakhri",
+          "audio": "media/maqam/ajam_ushayran/da3i_al_hawa_qad_sah.mp3",
+          "credits": [
+            "Music by ‘Umar al-Batsh"
+          ]
+        },
+        {
+          "title": "el-Hobbi Fi Albi Amana",
+          "artist": "Fathiyya Ahmad",
+          "audio": "media/maqam/ajam_ushayran/il_hubbi_fi_albi_amana.mp3",
+          "credits": [
+            "Music by Muhammad al-Qasabgi (Egypt)"
+          ]
+        },
+        {
+          "title": "Muwashah Ma Li ‘Ayni Absarat",
+          "artist": "Sabah Fakhri",
+          "audio": "media/maqam/ajam_ushayran/ma_li_3ayni_absarat.mp3"
+        }
+      ]
+    },
+    {
+      "id": "athar_kurd",
+      "name": "Maqam Athar Kurd",
+      "pack": null,
+      "source_url": "https://www.maqamworld.com/en/maqam/athar_kurd.php",
+      "notation": "media/maqam/athar_kurd/athar_kurd.png",
+      "notes": [
+        {
+          "name": "C4",
+          "frequency": 260.74
+        },
+        {
+          "name": "D4♭",
+          "frequency": 274.0
+        },
+        {
+          "name": "E4♭",
+          "frequency": 308.25
+        },
+        {
+          "name": "F4♯",
+          "frequency": 375.0
+        },
+        {
+          "name": "G4",
+          "frequency": 391.11
+        },
+        {
+          "name": "A4♭",
+          "frequency": 423.0
+        },
+        {
+          "name": "B4♮",
+          "frequency": 492.0
+        },
+        {
+          "name": "C5",
+          "frequency": 521.48
+        }
+      ],
+      "tracks": [
+        {
+          "title": "Ya Msafir w Albi Ma‘ak (1950)",
+          "artist": "Leila Murad",
+          "audio": "media/maqam/athar_kurd/raydak.mp3",
+          "credits": [
+            "Music by Ahmad Sidqi"
+          ]
+        },
+        {
+          "title": "el-Hana wel-Widd (1975)",
+          "artist": "Leila Murad",
+          "audio": "media/maqam/athar_kurd/el_hana_wel_widd.mp3",
+          "credits": [
+            "Music by Abdel Mun‘im al-Hariri"
+          ]
+        },
+        {
+          "title": "Ya Fagr Nurak Hall w Ban (c.1952)",
+          "artist": "Vocals by Baligh Hamdi",
+          "audio": "media/maqam/athar_kurd/ya_fagr_nurak.mp3",
+          "credits": [
+            "Music by Yusef Shawqi"
+          ]
+        },
+        {
+          "title": "el-Hobb Kida (1959)",
+          "artist": "Umm Kulthum",
+          "audio": "media/maqam/athar_kurd/el_hobb_kida.mp3",
+          "credits": [
+            "Music by Riyad al-Sunbati"
+          ]
+        },
+        {
+          "title": "Sama‘i Hijazkar Kurd",
+          "artist": "Al-Kindi Ensemble",
+          "audio": "media/maqam/athar_kurd/samai_athar_kurd.mp3",
+          "credits": [
+            "The Whirling Dervishes of Damascus Vol. 2",
+            "Music by Salah al-Mahdi (Tunisia)"
+          ]
+        },
+        {
+          "title": "Taqsim Oud",
+          "artist": "Riyad al-Sunbati",
+          "audio": "media/maqam/athar_kurd/taqsim_oud_sunbati.mp3",
+          "credits": [
+            "Taqaseem Oud"
+          ]
+        },
+        {
+          "title": "Taqsim Oud Athar Kurd",
+          "artist": "Muhammad Qadri Dalal",
+          "audio": "media/maqam/athar_kurd/taqsim_oud_athar_kurd.mp3",
+          "credits": [
+            "Maqamat Insolites"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "awj_iraq",
+      "name": "Maqam Awj ‘Iraq",
+      "pack": null,
+      "source_url": "https://www.maqamworld.com/en/maqam/awj_iraq.php",
+      "notation": "media/maqam/awj_iraq/awj_iraq.png",
+      "notes": [
+        {
+          "name": "D5",
+          "frequency": 586.66
+        },
+        {
+          "name": "C5",
+          "frequency": 521.48
+        },
+        {
+          "name": "B4",
+          "frequency": 482.0
+        },
+        {
+          "name": "A4♯",
+          "frequency": 463.54
+        },
+        {
+          "name": "G4",
+          "frequency": 391.11
+        },
+        {
+          "name": "F4♯",
+          "frequency": 372.0
+        },
+        {
+          "name": "E4♭",
+          "frequency": 312.0
+        },
+        {
+          "name": "D4",
+          "frequency": 293.33
+        },
+        {
+          "name": "C4",
+          "frequency": 260.74
+        },
+        {
+          "name": "B3",
+          "frequency": 241.0
+        }
+      ],
+      "tracks": [
+        {
+          "title": "Muwashah Ya Samiri Da‘a Sabri",
+          "artist": "Muhammad Khayri",
+          "audio": "media/maqam/awj_iraq/ya_samiri_da3a_sabri.mp3"
+        },
+        {
+          "title": "Muwashah Hayya Wa Nadim",
+          "artist": "Samer Nashar",
+          "audio": "media/maqam/awj_iraq/hayya_wa_nadim.mp3"
+        }
+      ]
+    },
+    {
+      "id": "bastanikar",
+      "name": "Maqam Bastanikar",
+      "pack": null,
+      "source_url": "https://www.maqamworld.com/en/maqam/bastanikar.php",
+      "notation": "media/maqam/bastanikar/bastanikar.png",
+      "notes": [
+        {
+          "name": "B3",
+          "frequency": 243.0
+        },
+        {
+          "name": "C4",
+          "frequency": 260.74
+        },
+        {
+          "name": "D4",
+          "frequency": 293.33
+        },
+        {
+          "name": "E4",
+          "frequency": 320.0
+        },
+        {
+          "name": "F4",
+          "frequency": 347.65
+        },
+        {
+          "name": "G4♭",
+          "frequency": 368.0
+        },
+        {
+          "name": "A4♮",
+          "frequency": 437.0
+        },
+        {
+          "name": "B4♭",
+          "frequency": 463.54
+        },
+        {
+          "name": "C5",
+          "frequency": 521.48
+        },
+        {
+          "name": "D5♭",
+          "frequency": 548.0
+        },
+        {
+          "name": "E5♮",
+          "frequency": 660.0
+        },
+        {
+          "name": "F5",
+          "frequency": 695.3
+        }
+      ],
+      "tracks": [
+        {
+          "title": "Zalamu (1957)",
+          "artist": "Abdel Halim Hafez",
+          "audio": "media/maqam/bastanikar/zalamu.mp3",
+          "credits": [
+            "Music by Muhammad Abdel Wahab (Egypt)"
+          ]
+        },
+        {
+          "title": "Ahl el-Hawa (1958)",
+          "artist": "Umm Kulthum",
+          "audio": "media/maqam/bastanikar/ahl_el_hawa.mp3",
+          "credits": [
+            "Music by Zakariya Ahmad (Egypt)"
+          ]
+        },
+        {
+          "title": "Inti Fakrani (1938)",
+          "artist": "Umm Kulthum",
+          "audio": "media/maqam/bastanikar/inti_fakrani.mp3",
+          "credits": [
+            "Music by Muhammad al-Qasabgi (Egypt)"
+          ]
+        },
+        {
+          "title": "Muwashah Anshidi Ya Saba",
+          "artist": "Palestininan National Arabic Orchestra",
+          "audio": "media/maqam/bastanikar/anshidi_ya_saba.mp3",
+          "credits": [
+            "Director Ramzi Abu Radwan",
+            "Music by Yehiya al-Sa‘udi"
+          ]
+        },
+        {
+          "title": "Muwashah Aqbala al-Subhu Yughanni",
+          "artist": "Ensemble Ornina (Syria)",
+          "audio": "media/maqam/bastanikar/aqbal_al_subhu.mp3",
+          "credits": [
+            "Conductor Dr. Muhammad Qadri Dalal",
+            "Music by Bakri al-Kurdi"
+          ]
+        },
+        {
+          "title": "Muwashah Nara al-‘Iqda",
+          "artist": "Ensemble Ornina (Syria)",
+          "audio": "media/maqam/bastanikar/nara_al_3iqda.mp3",
+          "credits": [
+            "Conductor Dr. Muhammad Qadri Dalal"
+          ]
+        },
+        {
+          "title": "Muwashah Nuzhatu al-Arwahi Badri",
+          "artist": "(performer unknown)",
+          "audio": "media/maqam/bastanikar/nuzhatul_arwahi.mp3"
+        },
+        {
+          "title": "Taqsim Oud in Maqam Bastanikar",
+          "artist": "Muhammad Qadri Dalal",
+          "audio": "media/maqam/bastanikar/taqsim_oud_dalal.mp3",
+          "credits": [
+            "Maqamat Insolites"
+          ]
+        },
+        {
+          "title": "Taqsim Oud in Maqam Sikah",
+          "artist": "Riyad al-Sunbati",
+          "audio": "media/maqam/bastanikar/taqsim_oud_sunbati.mp3",
+          "credits": [
+            "Taqaseem Oud"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bayati_shuri",
+      "name": "Maqam Bayati Shuri",
+      "pack": null,
+      "source_url": "https://www.maqamworld.com/en/maqam/bayati_shuri.php",
+      "notation": "media/maqam/bayati_shuri/bayati_shuri.png",
+      "notes": [
+        {
+          "name": "D4",
+          "frequency": 293.33
+        },
+        {
+          "name": "E4",
+          "frequency": 320.0
+        },
+        {
+          "name": "F4",
+          "frequency": 347.65
+        },
+        {
+          "name": "G4",
+          "frequency": 391.11
+        },
+        {
+          "name": "A4♭",
+          "frequency": 423.0
+        },
+        {
+          "name": "B4♮",
+          "frequency": 492.0
+        },
+        {
+          "name": "C5",
+          "frequency": 521.48
+        },
+        {
+          "name": "D5",
+          "frequency": 586.66
+        }
+      ],
+      "tracks": [
+        {
+          "title": "Sama‘i Bayati Shuri",
+          "artist": "Nagham al-Ams Vol. 2 (Bayati Shuri)",
+          "audio": "media/maqam/bayati_shuri/samai_bayati_shuri.mp3"
+        },
+        {
+          "title": "Taqsim Violin in Maqam Bayati Shuri",
+          "artist": "Nagham al-Ams Vol. 2 (Bayati Shuri)",
+          "audio": "media/maqam/bayati_shuri/taqsim_violin.mp3"
+        },
+        {
+          "title": "Muwashah Hibbi Da‘ani Lil-Wisal",
+          "artist": "Sabah Fakhri",
+          "audio": "media/maqam/bayati_shuri/hibbi_da3ani.mp3",
+          "credits": [
+            "Music by Sayyed Darwish",
+            "Nagham al-Ams Vol. 2 (Bayati Shuri)"
+          ]
+        },
+        {
+          "title": "Muwashah Talaffata al-Dhabiyu",
+          "artist": "Sabah Fakhri",
+          "audio": "media/maqam/bayati_shuri/talaffata_al_dhabyu.mp3",
+          "credits": [
+            "Nagham al-Ams Vol. 2 (Bayati Shuri)"
+          ]
+        },
+        {
+          "title": "Dawr Dayya‘ti Mustaqbal Hayati",
+          "artist": "Music and Vocals by Sayyed Darwish",
+          "audio": "media/maqam/bayati_shuri/dayya3ti_mustaqbal_hayati.mp3"
+        },
+        {
+          "title": "Qadd Ah Ya Hilu",
+          "artist": "Nay Barghouti",
+          "audio": "media/maqam/bayati_shuri/qadd_ah_ya_hilu.mp3"
+        },
+        {
+          "title": "Qadd Habibi Ghab",
+          "artist": "Muhammad Khayri",
+          "audio": "media/maqam/bayati_shuri/qadd_habibi_ghab.mp3"
+        },
+        {
+          "title": "Taqsim Qanun in Maqam Bayati Shuri",
+          "artist": "Marie Jubran",
+          "audio": "media/maqam/bayati_shuri/taqsim_qanun.mp3",
+          "credits": [
+            "Wasla in Bayati Shuri"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dalanshin",
+      "name": "Maqam Dalanshin",
+      "pack": null,
+      "source_url": "https://www.maqamworld.com/en/maqam/dalanshin.php",
+      "notation": "media/maqam/dalanshin/dalanshin.png",
+      "notes": [
+        {
+          "name": "E5♮",
+          "frequency": 660.0
+        },
+        {
+          "name": "D5♭",
+          "frequency": 560.0
+        },
+        {
+          "name": "C5",
+          "frequency": 521.48
+        },
+        {
+          "name": "B4",
+          "frequency": 482.0
+        },
+        {
+          "name": "A4",
+          "frequency": 440.0
+        },
+        {
+          "name": "G4",
+          "frequency": 391.11
+        },
+        {
+          "name": "F4",
+          "frequency": 347.65
+        },
+        {
+          "name": "E4",
+          "frequency": 320.0
+        },
+        {
+          "name": "D4♮",
+          "frequency": 293.33
+        },
+        {
+          "name": "C4",
+          "frequency": 260.74
+        }
+      ],
+      "tracks": [
+        {
+          "title": "Qadd Ya Mal il-Sham",
+          "artist": "Sabah Fakhri",
+          "audio": "media/maqam/dalanshin/ya_mal_il_sham.mp3",
+          "credits": [
+            "Music by Ahmad Abu Khalil al-Qabbani"
+          ]
+        },
+        {
+          "title": "Muwashah Mala el-Kasat",
+          "artist": "Muhammad Khayri",
+          "audio": "media/maqam/dalanshin/mala_el_kasat.mp3",
+          "credits": [
+            "Music by Muhammad ‘Uthman"
+          ]
+        },
+        {
+          "title": "Kull Illi Habb Itnasaf (1931)",
+          "artist": "Vocals and Music by Muhammad Abdel Wahab (Egypt)",
+          "audio": "media/maqam/dalanshin/kull_illi_habb_itnasaf.mp3"
+        },
+        {
+          "title": "Dawr ‘Ishna w Shufna",
+          "artist": "Saleh Abdel Hayy",
+          "audio": "media/maqam/dalanshin/3ishna_w_shufna.mp3",
+          "credits": [
+            "Music by Muhammad ‘Uthman"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f_ajam",
+      "name": "Maqam ‘Ajam Family",
+      "pack": null,
+      "source_url": "https://www.maqamworld.com/en/maqam/f_ajam.php",
+      "notation": null,
+      "notes": [],
+      "tracks": []
+    },
+    {
+      "id": "f_bayati",
+      "name": "Maqam Bayati Family",
+      "pack": null,
+      "source_url": "https://www.maqamworld.com/en/maqam/f_bayati.php",
+      "notation": null,
+      "notes": [],
+      "tracks": []
+    },
+    {
+      "id": "f_hijaz",
+      "name": "Maqam Hijaz Family",
+      "pack": null,
+      "source_url": "https://www.maqamworld.com/en/maqam/f_hijaz.php",
+      "notation": null,
+      "notes": [],
+      "tracks": []
+    },
+    {
+      "id": "f_kurd",
+      "name": "Maqam Kurd Family",
+      "pack": null,
+      "source_url": "https://www.maqamworld.com/en/maqam/f_kurd.php",
+      "notation": null,
+      "notes": [],
+      "tracks": []
+    },
+    {
+      "id": "f_nahawand",
+      "name": "Maqam Nahawand Family",
+      "pack": null,
+      "source_url": "https://www.maqamworld.com/en/maqam/f_nahawand.php",
+      "notation": null,
+      "notes": [],
+      "tracks": []
+    },
+    {
+      "id": "f_nikriz",
+      "name": "Maqam Nikriz Family",
+      "pack": null,
+      "source_url": "https://www.maqamworld.com/en/maqam/f_nikriz.php",
+      "notation": null,
+      "notes": [],
+      "tracks": []
+    },
+    {
+      "id": "f_rast",
+      "name": "Maqam Rast Family",
+      "pack": null,
+      "source_url": "https://www.maqamworld.com/en/maqam/f_rast.php",
+      "notation": null,
+      "notes": [],
+      "tracks": []
+    },
+    {
+      "id": "f_sikah",
+      "name": "Maqam Sikah Family",
+      "pack": null,
+      "source_url": "https://www.maqamworld.com/en/maqam/f_sikah.php",
+      "notation": null,
+      "notes": [],
+      "tracks": []
+    },
+    {
+      "id": "hijazkar",
+      "name": "Maqam Hijazkar",
+      "pack": null,
+      "source_url": "https://www.maqamworld.com/en/maqam/hijazkar.php",
+      "notation": "media/maqam/hijazkar/hijazkar.png",
+      "notes": [
+        {
+          "name": "E5♮",
+          "frequency": 656.0
+        },
+        {
+          "name": "D5♭",
+          "frequency": 554.0
+        },
+        {
+          "name": "C5",
+          "frequency": 521.48
+        },
+        {
+          "name": "B4♮",
+          "frequency": 493.33
+        },
+        {
+          "name": "A4♭",
+          "frequency": 420.0
+        },
+        {
+          "name": "G4",
+          "frequency": 391.11
+        },
+        {
+          "name": "F4",
+          "frequency": 347.65
+        },
+        {
+          "name": "E4♮",
+          "frequency": 328.0
+        },
+        {
+          "name": "D4♭",
+          "frequency": 277.0
+        },
+        {
+          "name": "C4",
+          "frequency": 260.74
+        }
+      ],
+      "tracks": [
+        {
+          "title": "Ana Fi-ntizarak (1943)",
+          "artist": "Umm Kulthum",
+          "audio": "media/maqam/hijazkar/ana_fintizarak.mp3",
+          "credits": [
+            "Music by Zakariya Ahmad"
+          ]
+        },
+        {
+          "title": "Dawr Yama-nta Wahishni",
+          "artist": "Abdel Halim Noueira Ensemble",
+          "audio": "media/maqam/hijazkar/yama_inta_wahishni.mp3",
+          "credits": [
+            "Music by Muhammad ‘Uthman"
+          ]
+        },
+        {
+          "title": "Ya Nas Ana Mutti Fi Hubbi",
+          "artist": "Sabah Fakhri",
+          "audio": "media/maqam/hijazkar/ya_nas_ana_mutti.mp3",
+          "credits": [
+            "Music by Sayyed Darwish"
+          ]
+        },
+        {
+          "title": "Muwashah Afdihi Dhabiyan Ibtasam",
+          "artist": "Sabah Fakhri",
+          "audio": "media/maqam/hijazkar/afdihi_dhabyan.mp3",
+          "credits": [
+            "Au Theatre Des Amandiers"
+          ]
+        },
+        {
+          "title": "Muwashah Ya ‘Uyunan Ramiyat",
+          "artist": "Sabri al-Mudallal",
+          "audio": "media/maqam/hijazkar/ya_3uyunan_ramiyat.mp3",
+          "credits": [
+            "Music by ‘Umar al-Batsh"
+          ]
+        },
+        {
+          "title": "Ya Maria",
+          "artist": "Sabah Fakhri",
+          "audio": "media/maqam/hijazkar/ya_maria.mp3",
+          "credits": [
+            "Music by Sayyed Darwish"
+          ]
+        },
+        {
+          "title": "Taqsim Qanun in Maqam Hijaz",
+          "artist": "Sabri al-Mudallal Ensemble",
+          "audio": "media/maqam/hijazkar/taqsim_qanun.mp3",
+          "credits": [
+            "Songs from Aleppo"
+          ]
+        },
+        {
+          "title": "Dulab Hijazkar",
+          "artist": "Sabah Fakhri Ensemble",
+          "audio": "media/maqam/hijazkar/dulab_hijazkar.mp3",
+          "credits": [
+            "Nagham Al-Ams Vol. 04 Hijazkar"
+          ]
+        },
+        {
+          "title": "Muwashah Laha Badru-t-Timm",
+          "artist": "(Maqam Suzidil)",
+          "audio": "media/maqam/hijazkar/laha_badrut_tim.mp3",
+          "credits": [
+            "Firqat al-Musiqa al-Arabiyya",
+            "Music by Mahmud Subh"
+          ]
+        },
+        {
+          "title": "Ba‘attilak Ya Habib el-Rouh",
+          "artist": "(Maqam Shadd ‘Araban)",
+          "audio": "media/maqam/hijazkar/ba3attilak.mp3",
+          "credits": [
+            "Fairouz",
+            "Music by Ziad Rahbani"
+          ]
+        },
+        {
+          "title": "Sama‘i Shadd ‘Araban",
+          "artist": "Omar al-Sarmini Ensemble",
+          "audio": "media/maqam/hijazkar/samai_shadd_araban.mp3",
+          "credits": [
+            "Music by Tanburi Cemil Bey"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hijazkar_kurd",
+      "name": "Maqam Hijazkar Kurd",
+      "pack": null,
+      "source_url": "https://www.maqamworld.com/en/maqam/hijazkar_kurd.php",
+      "notation": "media/maqam/hijazkar_kurd/hijazkar_kurd.png",
+      "notes": [
+        {
+          "name": "E5♮",
+          "frequency": 656.0
+        },
+        {
+          "name": "D5♭",
+          "frequency": 554.0
+        },
+        {
+          "name": "C5",
+          "frequency": 521.48
+        },
+        {
+          "name": "B4♮",
+          "frequency": 493.33
+        },
+        {
+          "name": "B4♭",
+          "frequency": 463.54
+        },
+        {
+          "name": "A4♭",
+          "frequency": 420.0
+        },
+        {
+          "name": "G4",
+          "frequency": 391.11
+        },
+        {
+          "name": "F4",
+          "frequency": 347.65
+        },
+        {
+          "name": "E4♭",
+          "frequency": 308.25
+        },
+        {
+          "name": "D4♭",
+          "frequency": 274.0
+        },
+        {
+          "name": "C4",
+          "frequency": 260.74
+        }
+      ],
+      "tracks": [
+        {
+          "title": "Muwashah Tif Ya Durri",
+          "artist": "Choir of the faculty of Music - Kaslik University (Lebanon)",
+          "audio": "media/maqam/hijazkar_kurd/tif_ya_durri.mp3",
+          "credits": [
+            "Conductor: Aïda Shalhoub Ziadé",
+            "Music by Sayyed Darwish/‘Umar al-Batsh",
+            "Orientalia: Muwashah and Song series"
+          ]
+        },
+        {
+          "title": "Muwashah Hibbi Zurni Ma Tayassar",
+          "artist": "Choir of the faculty of Music - Kaslik University (Lebanon)",
+          "audio": "media/maqam/hijazkar_kurd/hibbi_zurni.mp3",
+          "credits": [
+            "Conductor: Aïda Shalhoub Ziadé",
+            "Music by Darwish al-Hariri",
+            "Orientalia: Muwashah and Song series"
+          ]
+        },
+        {
+          "title": "Muwashah Ya Dhal-Qawam al-Samhari",
+          "artist": "Sabah Fakhri",
+          "audio": "media/maqam/hijazkar_kurd/ya_dhal_qawam.mp3",
+          "credits": [
+            "Au Palais Des Congrès (1995)"
+          ]
+        },
+        {
+          "title": "Izzay Tibi‘ni w-Ana Ashterik",
+          "artist": "Saleh Abdel Hayy",
+          "audio": "media/maqam/hijazkar_kurd/izzay_tibi3ni.mp3"
+        }
+      ]
+    },
+    {
+      "id": "husayni",
+      "name": "Maqam Husayni",
+      "pack": null,
+      "source_url": "https://www.maqamworld.com/en/maqam/husayni.php",
+      "notation": "media/maqam/husayni/husayni.png",
+      "notes": [
+        {
+          "name": "A4",
+          "frequency": 440.0
+        },
+        {
+          "name": "B4",
+          "frequency": 480.0
+        },
+        {
+          "name": "B4♭",
+          "frequency": 463.54
+        },
+        {
+          "name": "C5",
+          "frequency": 521.48
+        },
+        {
+          "name": "D5",
+          "frequency": 586.66
+        },
+        {
+          "name": "G4",
+          "frequency": 391.11
+        },
+        {
+          "name": "F4",
+          "frequency": 347.65
+        },
+        {
+          "name": "E4",
+          "frequency": 320.0
+        },
+        {
+          "name": "D4",
+          "frequency": 293.33
+        }
+      ],
+      "tracks": [
+        {
+          "title": "Muwashah Bil-ladhi Askara",
+          "artist": "Sabah Fakhri",
+          "audio": "media/maqam/husayni/billadhi_askara.mp3",
+          "credits": [
+            "Nagham al-Ams Vol. 12 (Bayati)"
+          ]
+        },
+        {
+          "title": "Muwashah Hal ‘Ala al-Astar",
+          "artist": "Ghada Shbeir",
+          "audio": "media/maqam/husayni/hal_3ala_al_astar.mp3",
+          "credits": [
+            "Al Muwashahat"
+          ]
+        },
+        {
+          "title": "Muwashah Khala al-‘Idhar",
+          "artist": "Khaled al-Hafez",
+          "audio": "media/maqam/husayni/khala_al_3idhar.mp3"
+        },
+        {
+          "title": "Nura Nura (1953)",
+          "artist": "Music and Vocals by Farid al-Atrash",
+          "audio": "media/maqam/husayni/nura_nura.mp3"
+        },
+        {
+          "title": "Sama‘i Bayati Ibrahim al-‘Aryan (Khana 2)",
+          "artist": "Salah ‘Arram Ensemble (Egypt)",
+          "audio": "media/maqam/husayni/samai_bayati_khana2.mp3"
+        }
+      ]
+    },
+    {
+      "id": "iraq",
+      "name": "Maqam ‘Iraq",
+      "pack": null,
+      "source_url": "https://www.maqamworld.com/en/maqam/iraq.php",
+      "notation": "media/maqam/iraq/iraq.png",
+      "notes": [
+        {
+          "name": "B3",
+          "frequency": 241.0
+        },
+        {
+          "name": "C4",
+          "frequency": 260.74
+        },
+        {
+          "name": "D4",
+          "frequency": 293.33
+        },
+        {
+          "name": "E4",
+          "frequency": 320.0
+        },
+        {
+          "name": "F4",
+          "frequency": 347.65
+        },
+        {
+          "name": "G4",
+          "frequency": 391.11
+        },
+        {
+          "name": "A4",
+          "frequency": 440.0
+        },
+        {
+          "name": "B4",
+          "frequency": 482.0
+        }
+      ],
+      "tracks": [
+        {
+          "title": "Jayin ya Arz el-Jabal",
+          "artist": "Wadih al-Safi",
+          "audio": "media/maqam/iraq/jayin_ya_arz_el_jabal.mp3"
+        },
+        {
+          "title": "Muwashah Jalla Man Ansha Jamalak",
+          "artist": "Ensemble Ornina (Syria)",
+          "audio": "media/maqam/iraq/jalla_man_ansha_jamalak.mp3",
+          "credits": [
+            "Conducted by Dr. Muhammad Qadri Dalal"
+          ]
+        },
+        {
+          "title": "Sama‘i ‘Iraq",
+          "artist": "Tunisian Radio Orchestra",
+          "audio": "media/maqam/iraq/samai_iraq_yussuf_basha.mp3",
+          "credits": [
+            "Music by Yusuf Basha"
+          ]
+        },
+        {
+          "title": "el-Hali Ta‘bani Ya Layla",
+          "artist": "Joseph Saqr",
+          "audio": "media/maqam/iraq/el_hali_taabani.mp3",
+          "credits": [
+            "Music by Ziad Rahbani"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jiharkah",
+      "name": "Maqam Jiharkah",
+      "pack": null,
+      "source_url": "https://www.maqamworld.com/en/maqam/jiharkah.php",
+      "notation": "media/maqam/jiharkah/jiharkah.png",
+      "notes": [
+        {
+          "name": "E4",
+          "frequency": 321.33
+        },
+        {
+          "name": "F4",
+          "frequency": 347.65
+        },
+        {
+          "name": "G4",
+          "frequency": 391.11
+        },
+        {
+          "name": "A4♮↓",
+          "frequency": 433.0
+        },
+        {
+          "name": "B4♭↓",
+          "frequency": 454.0
+        },
+        {
+          "name": "C5",
+          "frequency": 521.48
+        },
+        {
+          "name": "D5",
+          "frequency": 586.66
+        },
+        {
+          "name": "E5",
+          "frequency": 642.66
+        },
+        {
+          "name": "F5",
+          "frequency": 695.3
+        }
+      ],
+      "tracks": [
+        {
+          "title": "Muwashah Kallili ya Suhbu",
+          "artist": "Abdel Halim Noueira Ensemble",
+          "audio": "media/maqam/jiharkah/kallili_ya_suhbu.mp3",
+          "credits": [
+            "Music by Muhammad ‘Uthman"
+          ]
+        },
+        {
+          "title": "Dawr Ya Ma'nta Wahishni",
+          "artist": "Sabah Fakhri",
+          "audio": "media/maqam/jiharkah/ya_malik_qalbi.mp3",
+          "credits": [
+            "Music by Muhammad ‘Uthman"
+          ]
+        },
+        {
+          "title": "Dawr ‘Ishna w Shufna",
+          "artist": "Saleh Abdel Hayy",
+          "audio": "media/maqam/jiharkah/3ishna_w_shufna.mp3",
+          "credits": [
+            "Music by Muhammad ‘Uthman"
+          ]
+        },
+        {
+          "title": "Sama‘i Jiharkah",
+          "artist": "Sabah Fakhri Orchestra",
+          "audio": "media/maqam/jiharkah/samai_jiharkah.mp3",
+          "credits": [
+            "Live Au Théatre Des Amandiers"
+          ]
+        },
+        {
+          "title": "Dulab Jiharkah",
+          "artist": "Sabah Fakhri Orchestra",
+          "audio": "media/maqam/jiharkah/dulab_jiharkah.mp3",
+          "credits": [
+            "Live Au Théatre Des Amandiers"
+          ]
+        },
+        {
+          "title": "‘al-Rozana",
+          "artist": "Sabah Fakhri",
+          "audio": "media/maqam/jiharkah/3ar_rozana.mp3",
+          "credits": [
+            "Live Au Théatre Des Amandiers"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kirdan",
+      "name": "Maqam Kirdan",
+      "pack": null,
+      "source_url": "https://www.maqamworld.com/en/maqam/kirdan.php",
+      "notation": "media/maqam/kirdan/kirdan.png",
+      "notes": [
+        {
+          "name": "C5",
+          "frequency": 521.48
+        },
+        {
+          "name": "B4",
+          "frequency": 482.0
+        },
+        {
+          "name": "A4",
+          "frequency": 440.0
+        },
+        {
+          "name": "G4",
+          "frequency": 391.11
+        },
+        {
+          "name": "F4",
+          "frequency": 347.65
+        },
+        {
+          "name": "E4",
+          "frequency": 320.0
+        },
+        {
+          "name": "D4♯",
+          "frequency": 310.0
+        },
+        {
+          "name": "D4♮",
+          "frequency": 293.33
+        },
+        {
+          "name": "C4",
+          "frequency": 260.74
+        }
+      ],
+      "tracks": [
+        {
+          "title": "Muwashah Sihtu Wajdan",
+          "artist": "Choir of the faculty of Music - Kaslik University (Lebanon)",
+          "audio": "media/maqam/kirdan/sihtu_wajdan.mp3",
+          "credits": [
+            "Conductor: Aïda Shalhoub Ziadé",
+            "Music by Sayyed Darwish",
+            "Orientalia: Muwashah and Song series"
+          ]
+        },
+        {
+          "title": "Muwashah Ya Shadi al-Alhan",
+          "artist": "Sabah Fakhri",
+          "audio": "media/maqam/kirdan/ya_shadil_alhan.mp3",
+          "credits": [
+            "Music by Sayyed Darwish"
+          ]
+        },
+        {
+          "title": "Hayrana Leh (1930)",
+          "artist": "Leila Murad",
+          "audio": "media/maqam/kirdan/hayrana_leh.mp3",
+          "credits": [
+            "Music by Dawud Husni (Egypt)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lami",
+      "name": "Maqam Lami",
+      "pack": null,
+      "source_url": "https://www.maqamworld.com/en/maqam/lami.php",
+      "notation": "media/maqam/lami/lami.png",
+      "notes": [
+        {
+          "name": "D4",
+          "frequency": 293.33
+        },
+        {
+          "name": "E4♭",
+          "frequency": 308.25
+        },
+        {
+          "name": "F4",
+          "frequency": 347.65
+        },
+        {
+          "name": "G4",
+          "frequency": 391.11
+        },
+        {
+          "name": "A4♭",
+          "frequency": 420.0
+        },
+        {
+          "name": "B4♭",
+          "frequency": 463.54
+        },
+        {
+          "name": "C5",
+          "frequency": 521.48
+        },
+        {
+          "name": "D5",
+          "frequency": 586.66
+        }
+      ],
+      "tracks": [
+        {
+          "title": "el-Bortoqal (1938)",
+          "artist": "Vocals by Ra'isa ‘Afifi and Muhammad Abdel Wahab",
+          "audio": "media/maqam/lami/el_bortoqal.mp3",
+          "credits": [
+            "Music by Muhammad Abdel Wahab (Egypt)"
+          ]
+        },
+        {
+          "title": "Tislam Idein Elli-shtara (c. 1960)",
+          "artist": "Vocals by Muhammad Abdel Muttalib",
+          "audio": "media/maqam/lami/tislam_idein.mp3",
+          "credits": [
+            "Music by Mahmud Kamel (Egypt)"
+          ]
+        },
+        {
+          "title": "Albi Bi Ulli Kalam (c.1954)",
+          "artist": "Vocals and Music by Muhammad Abdel Wahab (Egypt)",
+          "audio": "media/maqam/lami/albi_bi_ulli_kalam.mp3"
+        },
+        {
+          "title": "Ahmad Ya Habibi",
+          "artist": "Vocals and Music by Sabri al-Mudallal",
+          "audio": "media/maqam/lami/ahmad_ya_habibi.mp3",
+          "credits": [
+            "Songs from Aleppo"
+          ]
+        },
+        {
+          "title": "el-Najmat Saru Yis'alu (1964)",
+          "artist": "Wadih al-Safi",
+          "audio": "media/maqam/lami/al_najmat.mp3",
+          "credits": [
+            "Music by Muhammad Muhsin"
+          ]
+        },
+        {
+          "title": "Gulli Ya Hilu",
+          "artist": "Nazem al-Ghazali",
+          "audio": "media/maqam/lami/gulli_ya_hilu.mp3",
+          "credits": [
+            "(Iraqi Traditional)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mahur",
+      "name": "Maqam Mahur",
+      "pack": null,
+      "source_url": "https://www.maqamworld.com/en/maqam/mahur.php",
+      "notation": "media/maqam/mahur/mahur.png",
+      "notes": [
+        {
+          "name": "C5",
+          "frequency": 521.48
+        },
+        {
+          "name": "B4♮",
+          "frequency": 495.0
+        },
+        {
+          "name": "A4",
+          "frequency": 440.0
+        },
+        {
+          "name": "G4",
+          "frequency": 391.11
+        },
+        {
+          "name": "F4",
+          "frequency": 347.65
+        },
+        {
+          "name": "E4",
+          "frequency": 320.0
+        },
+        {
+          "name": "D4♮",
+          "frequency": 293.33
+        },
+        {
+          "name": "C4",
+          "frequency": 260.74
+        }
+      ],
+      "tracks": [
+        {
+          "title": "Muwashah Hayyar al-Afkar Badri",
+          "artist": "Sheikh Sayyed al-Safti",
+          "audio": "media/maqam/mahur/hayyara_al_afkar.mp3"
+        },
+        {
+          "title": "Muwashah Bi Sifatin Ja‘alatni",
+          "artist": "Charbel Rouhana",
+          "audio": "media/maqam/mahur/bi_sifatin_ja3alatni.mp3"
+        }
+      ]
+    },
+    {
+      "id": "mustaar",
+      "name": "Maqam Musta‘ar",
+      "pack": null,
+      "source_url": "https://www.maqamworld.com/en/maqam/mustaar.php",
+      "notation": "media/maqam/mustaar/mustaar.png",
+      "notes": [
+        {
+          "name": "E4",
+          "frequency": 320.0
+        },
+        {
+          "name": "F4♯",
+          "frequency": 375.0
+        },
+        {
+          "name": "G4",
+          "frequency": 391.11
+        },
+        {
+          "name": "A4♮",
+          "frequency": 440.0
+        },
+        {
+          "name": "B4♭",
+          "frequency": 463.54
+        },
+        {
+          "name": "C5",
+          "frequency": 521.48
+        },
+        {
+          "name": "D5",
+          "frequency": 586.66
+        },
+        {
+          "name": "E5",
+          "frequency": 640.0
+        }
+      ],
+      "tracks": [
+        {
+          "title": "Aktiblak Gawabat",
+          "artist": "Leila Mourad",
+          "audio": "media/maqam/mustaar/aktiblak_gawabat.mp3",
+          "credits": [
+            "Music by Muhammad al-Mugi"
+          ]
+        },
+        {
+          "title": "Haramuha Minni",
+          "artist": "Fathiyya Ahmad",
+          "audio": "media/maqam/mustaar/haramuha_minni.mp3",
+          "credits": [
+            "Music by Muhammad al-Qasabgi (Egypt)"
+          ]
+        },
+        {
+          "title": "Raqq el-Habib (1944)",
+          "artist": "Umm Kulthum",
+          "audio": "media/maqam/mustaar/raqq_el_habib.mp3",
+          "credits": [
+            "Music by Muhammad al-Qasabgi (Egypt)"
+          ]
+        },
+        {
+          "title": "Qasida Ya ‘Adhili La Talumni (1924)",
+          "artist": "Sheikh Abu el-‘Ila Muhammad",
+          "audio": "media/maqam/mustaar/ya_3adhili_la_talumni.mp3"
+        }
+      ]
+    },
+    {
+      "id": "nahawand_murassaa",
+      "name": "Maqam Nahawand Murassa‘",
+      "pack": null,
+      "source_url": "https://www.maqamworld.com/en/maqam/nahawand_murassaa.php",
+      "notation": "media/maqam/nahawand_murassaa/nahawand_murassaa.png",
+      "notes": [
+        {
+          "name": "C4",
+          "frequency": 260.74
+        },
+        {
+          "name": "D4",
+          "frequency": 293.33
+        },
+        {
+          "name": "E4♭",
+          "frequency": 308.25
+        },
+        {
+          "name": "F4",
+          "frequency": 347.65
+        },
+        {
+          "name": "G4♭",
+          "frequency": 368.0
+        },
+        {
+          "name": "A4♮",
+          "frequency": 437.0
+        },
+        {
+          "name": "B4♭",
+          "frequency": 463.54
+        },
+        {
+          "name": "C5",
+          "frequency": 521.48
+        }
+      ],
+      "tracks": [
+        {
+          "title": "Ya Gari (1958)",
+          "artist": "Horeyya Hasan",
+          "audio": "media/maqam/nahawand_murassaa/ya_gari.mp3",
+          "credits": [
+            "Music by Muhammad al-Mugi"
+          ]
+        },
+        {
+          "title": "Khusara (1957)",
+          "artist": "Abdel Halim Hafez",
+          "audio": "media/maqam/nahawand_murassaa/khusara.mp3",
+          "credits": [
+            "Music by Baligh Hamdi (Egypt)"
+          ]
+        },
+        {
+          "title": "Taht il-Shibbak",
+          "artist": "‘Aziz ‘Uthman",
+          "audio": "media/maqam/nahawand_murassaa/taht_il_shibbak.mp3"
+        },
+        {
+          "title": "Sama‘i Nahawand",
+          "artist": "Simon Shaheen",
+          "audio": "media/maqam/nahawand_murassaa/samai_mesut_cemil.mp3",
+          "credits": [
+            "Music by Mesut Cemil"
+          ]
+        },
+        {
+          "title": "Dulab Nahawand",
+          "artist": "Aicha Redouane",
+          "audio": "media/maqam/nahawand_murassaa/dulab_redouane.mp3",
+          "credits": [
+            "Egypte"
+          ]
+        },
+        {
+          "title": "Dulab Nahawand Murassa‘",
+          "artist": "Zikrayat Ensemble",
+          "audio": "media/maqam/nahawand_murassaa/dulab_nahawand_murassa3.mp3",
+          "credits": [
+            "Music by Sami Abu Shumays"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nairuz",
+      "name": "Maqam Nairuz",
+      "pack": null,
+      "source_url": "https://www.maqamworld.com/en/maqam/nairuz.php",
+      "notation": "media/maqam/nairuz/nairuz.png",
+      "notes": [
+        {
+          "name": "C4",
+          "frequency": 260.74
+        },
+        {
+          "name": "D4",
+          "frequency": 293.33
+        },
+        {
+          "name": "E4",
+          "frequency": 320.0
+        },
+        {
+          "name": "F4",
+          "frequency": 347.65
+        },
+        {
+          "name": "G4",
+          "frequency": 391.11
+        },
+        {
+          "name": "A4",
+          "frequency": 426.67
+        },
+        {
+          "name": "B4♭",
+          "frequency": 463.54
+        },
+        {
+          "name": "C5",
+          "frequency": 521.48
+        }
+      ],
+      "tracks": [
+        {
+          "title": "Muwashah Ya Hilalan",
+          "artist": "Firqat al-Musiqa al-Arabiyya (Egypt)",
+          "audio": "media/maqam/nairuz/ya_hilalan.mp3"
+        },
+        {
+          "title": "Muwashah Mubarqa'u al-Jamal",
+          "artist": "Hasan al-Haffar",
+          "audio": "media/maqam/nairuz/mubarqa3ul_jamal.mp3",
+          "credits": [
+            "Music by ‘Umar al-Batsh"
+          ]
+        },
+        {
+          "title": "Dawr Asl il-Gharam (1945)",
+          "artist": "Nour el-Hoda",
+          "audio": "media/maqam/nairuz/asl_il_gharam.mp3",
+          "credits": [
+            "Music by Muhammad ‘Uthman"
+          ]
+        },
+        {
+          "title": "Ghannili Shwayy Shwayy (1945)",
+          "artist": "Umm Kulthum",
+          "audio": "media/maqam/nairuz/ghannili.mp3",
+          "credits": [
+            "Music by Zakariya Ahmad (Egypt)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nawa_athar",
+      "name": "Maqam Nawa Athar",
+      "pack": null,
+      "source_url": "https://www.maqamworld.com/en/maqam/nawa_athar.php",
+      "notation": "media/maqam/nawa_athar/nawa_athar.png",
+      "notes": [
+        {
+          "name": "C4",
+          "frequency": 260.74
+        },
+        {
+          "name": "D4",
+          "frequency": 293.33
+        },
+        {
+          "name": "E4♭",
+          "frequency": 315.0
+        },
+        {
+          "name": "F4♯",
+          "frequency": 375.0
+        },
+        {
+          "name": "G4",
+          "frequency": 391.11
+        },
+        {
+          "name": "A4♭",
+          "frequency": 423.0
+        },
+        {
+          "name": "B4♮",
+          "frequency": 492.0
+        },
+        {
+          "name": "C5",
+          "frequency": 521.48
+        }
+      ],
+      "tracks": [
+        {
+          "title": "Ghulubti Asalih Fi Rouhi (1948)",
+          "artist": "Umm Kulthum",
+          "audio": "media/maqam/nawa_athar/ghulubti_asalih.mp3",
+          "credits": [
+            "Music by Riyad al-Sunbati"
+          ]
+        },
+        {
+          "title": "Gamil Gamal (1952)",
+          "artist": "Vocals and Music by Farid al-Atrash",
+          "audio": "media/maqam/nawa_athar/gamil_gamal.mp3"
+        },
+        {
+          "title": "Fakkaruni (1966)",
+          "artist": "Umm Kulthum",
+          "audio": "media/maqam/nawa_athar/fakkaruni.mp3",
+          "credits": [
+            "Music by Muhammad Abdel Wahab (Egypt)"
+          ]
+        },
+        {
+          "title": "Ruba‘iyyat al-Khayam (1950)",
+          "artist": "Umm Kulthum",
+          "audio": "media/maqam/nawa_athar/ruba3iyyat.mp3",
+          "credits": [
+            "Music by Riyad al-Sunbati"
+          ]
+        },
+        {
+          "title": "Muwashah Adhkuru al-Hibba",
+          "artist": "Abdel Halim Noueira Ensemble",
+          "audio": "media/maqam/nawa_athar/adhkuru_al_hubba.mp3",
+          "credits": [
+            "Music by Dawud Husni (Egypt)"
+          ]
+        },
+        {
+          "title": "Sama‘i Nawa Athar",
+          "artist": "Syrian Ensemble of Homs",
+          "audio": "media/maqam/nawa_athar/samai_nawa_athar.mp3",
+          "credits": [
+            "Music by Jamil ‘Uways (Syria)"
+          ]
+        },
+        {
+          "title": "Dulab Nawa Athar",
+          "artist": "George Abyad",
+          "audio": "media/maqam/nawa_athar/dulab_nawa_athar.mp3",
+          "credits": [
+            "Improvisations Orientales"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nikriz",
+      "name": "Maqam Nikriz",
+      "pack": null,
+      "source_url": "https://www.maqamworld.com/en/maqam/nikriz.php",
+      "notation": "media/maqam/nikriz/nikriz.png",
+      "notes": [
+        {
+          "name": "D5",
+          "frequency": 586.66
+        },
+        {
+          "name": "C5",
+          "frequency": 521.48
+        },
+        {
+          "name": "B4♭",
+          "frequency": 463.54
+        },
+        {
+          "name": "A4♮",
+          "frequency": 440.0
+        },
+        {
+          "name": "G4",
+          "frequency": 391.11
+        },
+        {
+          "name": "F4♯",
+          "frequency": 375.0
+        },
+        {
+          "name": "E4♭",
+          "frequency": 315.0
+        },
+        {
+          "name": "D4",
+          "frequency": 293.33
+        },
+        {
+          "name": "C4",
+          "frequency": 260.74
+        }
+      ],
+      "tracks": [
+        {
+          "title": "Ya Msahharni (1972)",
+          "artist": "Umm Kulthum",
+          "audio": "media/maqam/nikriz/ya_msahharni.mp3",
+          "credits": [
+            "Music by Sayyed Makkawi"
+          ]
+        },
+        {
+          "title": "Ba‘id ‘Annak (1965)",
+          "artist": "Umm Kulthum",
+          "audio": "media/maqam/nikriz/ba3id_3annak.mp3",
+          "credits": [
+            "Music by Baligh Hamdi (Egypt)"
+          ]
+        },
+        {
+          "title": "Dawr il-Alb Yama Intazar (1931)",
+          "artist": "Vocals and Music by Muhammad Abdel Wahab (Egypt)",
+          "audio": "media/maqam/nikriz/il_albi_yama_intazar.mp3"
+        },
+        {
+          "title": "Saga al-Laylu (1939)",
+          "artist": "Vocals and Music by Muhammad Abdel Wahab (Egypt)",
+          "audio": "media/maqam/nikriz/saga_al_laylu.mp3"
+        },
+        {
+          "title": "Muwashah Bayna Qasiyun Wa Rabwa",
+          "artist": "Hassan al-Haffar",
+          "audio": "media/maqam/nikriz/bayna_qasiyun.mp3",
+          "credits": [
+            "Music by ‘Umar al-Batsh"
+          ]
+        },
+        {
+          "title": "Muwashah Zarani Taht al-Ghayahib",
+          "artist": "Muhammad Khayri",
+          "audio": "media/maqam/nikriz/zarani_taht_al_ghayahib.mp3",
+          "credits": [
+            "Music by ‘Umar al-Batsh"
+          ]
+        },
+        {
+          "title": "Dawr Yalli Qawamak Ya‘gibni",
+          "artist": "Karem Mahmoud",
+          "audio": "media/maqam/nikriz/yalli_awamak_yi3gibni.mp3",
+          "credits": [
+            "Music by Sayyed Darwish"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "saba_zamzam",
+      "name": "Maqam Saba Zamzam",
+      "pack": null,
+      "source_url": "https://www.maqamworld.com/en/maqam/saba_zamzam.php",
+      "notation": "media/maqam/saba_zamzam/saba_zamzam.png",
+      "notes": [
+        {
+          "name": "D4",
+          "frequency": 293.33
+        },
+        {
+          "name": "E4♭",
+          "frequency": 308.25
+        },
+        {
+          "name": "F4",
+          "frequency": 347.65
+        },
+        {
+          "name": "G4♭",
+          "frequency": 368.0
+        },
+        {
+          "name": "A4♮",
+          "frequency": 437.0
+        },
+        {
+          "name": "B4♭",
+          "frequency": 463.54
+        },
+        {
+          "name": "C5",
+          "frequency": 521.48
+        },
+        {
+          "name": "D5♭",
+          "frequency": 548.0
+        },
+        {
+          "name": "D5♮",
+          "frequency": 586.66
+        },
+        {
+          "name": "E5♮",
+          "frequency": 660.0
+        },
+        {
+          "name": "F5",
+          "frequency": 695.31
+        }
+      ],
+      "tracks": [
+        {
+          "title": "Sawwah (1966)",
+          "artist": "Abdel Halim Hafez",
+          "audio": "media/maqam/saba_zamzam/sawwah.mp3",
+          "credits": [
+            "Music by Baligh Hamdi (Egypt)"
+          ]
+        },
+        {
+          "title": "Amal Hayati (1965)",
+          "artist": "Umm Kulthum",
+          "audio": "media/maqam/saba_zamzam/amal_hayati.mp3",
+          "credits": [
+            "Music by Muhammad Abdel Wahab (Egypt)"
+          ]
+        },
+        {
+          "title": "‘Ala Hisb Widad Galbi (1963)",
+          "artist": "Abdel Halim Hafez",
+          "audio": "media/maqam/saba_zamzam/3ala_hesb_widad.mp3",
+          "credits": [
+            "Music by Baligh Hamdi (Egypt)"
+          ]
+        },
+        {
+          "title": "Ya Bint el-Sultan",
+          "artist": "Ahmad ‘Adaweyah",
+          "audio": "media/maqam/saba_zamzam/ya_bint_el_sultan.mp3",
+          "credits": [
+            "Music by Hassan Abu al-Su‘ud"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shawq_afza",
+      "name": "Maqam Shawq Afza",
+      "pack": null,
+      "source_url": "https://www.maqamworld.com/en/maqam/shawq_afza.php",
+      "notation": "media/maqam/shawq_afza/shawq_afza.png",
+      "notes": [
+        {
+          "name": "C4",
+          "frequency": 260.74
+        },
+        {
+          "name": "D4",
+          "frequency": 293.33
+        },
+        {
+          "name": "E4",
+          "frequency": 328.0
+        },
+        {
+          "name": "F4",
+          "frequency": 347.65
+        },
+        {
+          "name": "G4",
+          "frequency": 391.11
+        },
+        {
+          "name": "A4♭",
+          "frequency": 423.0
+        },
+        {
+          "name": "B4♮",
+          "frequency": 492.0
+        },
+        {
+          "name": "C5",
+          "frequency": 521.48
+        }
+      ],
+      "tracks": [
+        {
+          "title": "Lissa Fakir (1960)",
+          "artist": "Umm Kulthum",
+          "audio": "media/maqam/shawq_afza/lissa_fakir.mp3",
+          "credits": [
+            "Music by Riyad al-Sunbati"
+          ]
+        },
+        {
+          "title": "‘Ala Allah T‘ud (1970)",
+          "artist": "Wadih al-Safi",
+          "audio": "media/maqam/shawq_afza/3alallah_t3ud.mp3",
+          "credits": [
+            "Music by Farid al-Atrash"
+          ]
+        },
+        {
+          "title": "Longa ‘Ajam",
+          "artist": "Music by Abdu Daghir",
+          "audio": "media/maqam/shawq_afza/longa_ajam.mp3",
+          "credits": [
+            "Malik al-Taqasim"
+          ]
+        },
+        {
+          "title": "Iswarit el-‘Arus (1989)",
+          "artist": "Fairouz",
+          "audio": "media/maqam/shawq_afza/zahrit_el_janub.mp3",
+          "credits": [
+            "Music by Philemon Wehbe"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sikah_baladi",
+      "name": "Maqam Sikah Baladi",
+      "pack": null,
+      "source_url": "https://www.maqamworld.com/en/maqam/sikah_baladi.php",
+      "notation": "media/maqam/sikah_baladi/sikah_baladi.png",
+      "notes": [
+        {
+          "name": "C5↓",
+          "frequency": null
+        },
+        {
+          "name": "B4↑",
+          "frequency": null
+        },
+        {
+          "name": "A4↓",
+          "frequency": null
+        },
+        {
+          "name": "G4",
+          "frequency": null
+        },
+        {
+          "name": "F4↑",
+          "frequency": null
+        },
+        {
+          "name": "E4↓",
+          "frequency": null
+        },
+        {
+          "name": "D4",
+          "frequency": null
+        },
+        {
+          "name": "C4♯",
+          "frequency": null
+        },
+        {
+          "name": "C4↓",
+          "frequency": null
+        },
+        {
+          "name": "B3↑",
+          "frequency": null
+        },
+        {
+          "name": "A3↓",
+          "frequency": null
+        },
+        {
+          "name": "G3",
+          "frequency": null
+        }
+      ],
+      "tracks": [
+        {
+          "title": "Sahirtu Minhu al-Layali (1935)",
+          "artist": "Vocals and Music by Muhammad Abdel Wahab (Egypt)",
+          "audio": "media/maqam/sikah_baladi/sahirtu.mp3"
+        },
+        {
+          "title": "Kulli Da Kan Leh (1954)",
+          "artist": "Vocals and Music by Muhammad Abdel Wahab (Egypt)",
+          "audio": "media/maqam/sikah_baladi/kulli_da_kan_leh.mp3"
+        },
+        {
+          "title": "el-Habib el-Majhul(1972)",
+          "artist": "Vocals and Music by Muhammad Abdel Wahab (Egypt)",
+          "audio": "media/maqam/sikah_baladi/el_habib_el_maghul.mp3"
+        },
+        {
+          "title": "al-Karnak (1941)",
+          "artist": "Vocals and Music by Muhammad Abdel Wahab (Egypt)",
+          "audio": "media/maqam/sikah_baladi/al_karnak.mp3"
+        },
+        {
+          "title": "Shams el-Asil (1958)",
+          "artist": "Umm Kulthum",
+          "audio": "media/maqam/sikah_baladi/shams_el_asil.mp3",
+          "credits": [
+            "Music by Riyad al-Sunbati"
+          ]
+        },
+        {
+          "title": "el-Hobb Kida (1959)",
+          "artist": "Umm Kulthum",
+          "audio": "media/maqam/sikah_baladi/el_hobb_kida.mp3",
+          "credits": [
+            "Music by Riyad al-Sunbati"
+          ]
+        },
+        {
+          "title": "Yalli Kan Yishgik Anini (1949)",
+          "artist": "Umm Kulthum",
+          "audio": "media/maqam/sikah_baladi/yalli_kan_yishgik_anini.mp3",
+          "credits": [
+            "Music by Riyad al-Sunbati"
+          ]
+        },
+        {
+          "title": "Aruh Li Min (1958)",
+          "artist": "Umm Kulthum",
+          "audio": "media/maqam/sikah_baladi/aruh_li_min.mp3",
+          "credits": [
+            "Music by Riyad al-Sunbati"
+          ]
+        },
+        {
+          "title": "Taqsim Buzuq",
+          "artist": "Matar Muhammad (Lebanon)",
+          "audio": "media/maqam/sikah_baladi/taqsim_buzuq_matar.mp3"
+        },
+        {
+          "title": "Taqsim Qanun",
+          "artist": "Abraham Salman (Iraq)",
+          "audio": "media/maqam/sikah_baladi/taqsim_qanun_salman_.mp3",
+          "credits": [
+            "Saltanah"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "suzdalara",
+      "name": "Maqam Suzdalara",
+      "pack": null,
+      "source_url": "https://www.maqamworld.com/en/maqam/suzdalara.php",
+      "notation": "media/maqam/suzdalara/suzdalara.png",
+      "notes": [
+        {
+          "name": "C5",
+          "frequency": 521.48
+        },
+        {
+          "name": "B4♭",
+          "frequency": 463.54
+        },
+        {
+          "name": "A4",
+          "frequency": 440.0
+        },
+        {
+          "name": "G4",
+          "frequency": 391.11
+        },
+        {
+          "name": "F4",
+          "frequency": 347.65
+        },
+        {
+          "name": "E4",
+          "frequency": 320.0
+        },
+        {
+          "name": "D4",
+          "frequency": 293.33
+        },
+        {
+          "name": "C4",
+          "frequency": 260.74
+        }
+      ],
+      "tracks": [
+        {
+          "title": "Yana Yana (1969)",
+          "artist": "Sabah",
+          "audio": "media/maqam/suzdalara/yana_yana.mp3",
+          "credits": [
+            "Music by Baligh Hamdi (Egypt)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "suznak",
+      "name": "Maqam Suznak",
+      "pack": null,
+      "source_url": "https://www.maqamworld.com/en/maqam/suznak.php",
+      "notation": "media/maqam/suznak/suznak.png",
+      "notes": [
+        {
+          "name": "C4",
+          "frequency": 260.74
+        },
+        {
+          "name": "D4",
+          "frequency": 293.33
+        },
+        {
+          "name": "E4",
+          "frequency": 320.0
+        },
+        {
+          "name": "F4",
+          "frequency": 347.65
+        },
+        {
+          "name": "G4",
+          "frequency": 391.11
+        },
+        {
+          "name": "A4♭",
+          "frequency": 423.0
+        },
+        {
+          "name": "B4♮",
+          "frequency": 492.0
+        },
+        {
+          "name": "C5",
+          "frequency": 521.48
+        }
+      ],
+      "tracks": [
+        {
+          "title": "Qadd Malik Ya Hilwa",
+          "artist": "Muhammad Khayri",
+          "audio": "media/maqam/suznak/qadd_malik_ya_hilwa.mp3"
+        },
+        {
+          "title": "Dawr Asl il-Gharam",
+          "artist": "Nour el-Hoda",
+          "audio": "media/maqam/suznak/dawr_asl_el_gharam.mp3",
+          "credits": [
+            "Music by Muhammad ‘Uthman"
+          ]
+        },
+        {
+          "title": "Ghannili Shwayy Shwayy (1945)",
+          "artist": "Umm Kulthum",
+          "audio": "media/maqam/suznak/ghannili_verse3.mp3",
+          "credits": [
+            "Music by Zakariya Ahmad (Egypt)"
+          ]
+        },
+        {
+          "title": "Tahmila Suznak",
+          "artist": "Simon Shaheen",
+          "audio": "media/maqam/suznak/tahmila_suznak.mp3",
+          "credits": [
+            "Turath - Masterworks of the Middle East"
+          ]
+        },
+        {
+          "title": "Taqsim Qanun in Maqam Suznak",
+          "artist": "Abraham Salman",
+          "audio": "media/maqam/suznak/taqsim_qanun_salman.mp3",
+          "credits": [
+            "Saltanah"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ushaq_masri",
+      "name": "Maqam ‘Ushaq Masri",
+      "pack": null,
+      "source_url": "https://www.maqamworld.com/en/maqam/ushaq_masri.php",
+      "notation": "media/maqam/ushaq_masri/ushaq_masri.png",
+      "notes": [
+        {
+          "name": "D4",
+          "frequency": 293.33
+        },
+        {
+          "name": "E4",
+          "frequency": 330.0
+        },
+        {
+          "name": "F4",
+          "frequency": 347.65
+        },
+        {
+          "name": "G4",
+          "frequency": 391.11
+        },
+        {
+          "name": "A4",
+          "frequency": 440.0
+        },
+        {
+          "name": "B4",
+          "frequency": 480.0
+        },
+        {
+          "name": "C5",
+          "frequency": 521.48
+        },
+        {
+          "name": "D5",
+          "frequency": 586.66
+        }
+      ],
+      "tracks": [
+        {
+          "title": "Dawr Ahibb Ashufak (1930)",
+          "artist": "Vocals and Music by Muhammad Abdel Wahab (Egypt)",
+          "audio": "media/maqam/ushaq_masri/dawr_ahibb_ashufak.mp3"
+        },
+        {
+          "title": "Ba‘d el-Khisam",
+          "artist": "Sheikh Abu el-‘Ila Muhammad",
+          "audio": "media/maqam/ushaq_masri/ba3d_el_khisam.mp3"
+        },
+        {
+          "title": "Layali Nahawand",
+          "artist": "Sheikh Abu el-‘Ila Muhammad",
+          "audio": "media/maqam/ushaq_masri/layali_nahawand.mp3"
+        }
+      ]
+    },
+    {
+      "id": "zanjaran",
+      "name": "Maqam Zanjaran",
+      "pack": null,
+      "source_url": "https://www.maqamworld.com/en/maqam/zanjaran.php",
+      "notation": "media/maqam/zanjaran/zanjaran.png",
+      "notes": [
+        {
+          "name": "C5",
+          "frequency": 521.48
+        },
+        {
+          "name": "B4♭",
+          "frequency": 463.54
+        },
+        {
+          "name": "A4♮",
+          "frequency": 440.0
+        },
+        {
+          "name": "G4",
+          "frequency": 391.11
+        },
+        {
+          "name": "F4",
+          "frequency": 347.65
+        },
+        {
+          "name": "E4♮",
+          "frequency": 328.0
+        },
+        {
+          "name": "D4♭",
+          "frequency": 277.0
+        },
+        {
+          "name": "C4",
+          "frequency": 260.74
+        }
+      ],
+      "tracks": [
+        {
+          "title": "Ya Halawit el-Dunya (c.1950)",
+          "artist": "Sayyed Makkawi",
+          "audio": "media/maqam/zanjaran/ya_halawet_el_dunya.mp3",
+          "credits": [
+            "Music by Zakariya Ahmad"
+          ]
+        },
+        {
+          "title": "Muwashah Aya Daraha Bil-Hazn",
+          "artist": "Hassan al-Haffar",
+          "audio": "media/maqam/zanjaran/aya_daraha.mp3",
+          "credits": [
+            "Music by Majdi al-‘Aqili"
+          ]
+        },
+        {
+          "title": "Mawwal Amana Ya Leil (1931)",
+          "artist": "Vocals and Music by Muhammad Abdel Wahab (Egypt)",
+          "audio": "media/maqam/zanjaran/mawwal_amana_ya_leil.mp3"
+        },
+        {
+          "title": "Dawr Huwwa Dah Yikhallas (1931)",
+          "artist": "Umm Kulthum",
+          "audio": "media/maqam/zanjaran/huwwa-dah-yikhallas.mp3",
+          "credits": [
+            "Music by Zakariya Ahmad"
+          ]
+        },
+        {
+          "title": "Fi Shar‘i Min",
+          "artist": "Vocals and Music by Sayyed Darwish",
+          "audio": "media/maqam/zanjaran/fi-shar3i-min.mp3"
+        },
+        {
+          "title": "Layali Zanjaran",
+          "artist": "Ahmad Khabbari",
+          "audio": "media/maqam/zanjaran/layali_zanjaran.mp3",
+          "credits": [
+            "Al-Turath Ensemble",
+            "The Music In Spanish Al-Andalus - Hijaz"
+          ]
+        },
+        {
+          "title": "Semiramis (Taqsim Oud Zanjaran)",
+          "artist": "‘Amer ‘Ammuri",
+          "audio": "media/maqam/zanjaran/taqsim_oud.mp3",
+          "credits": [
+            "Takasim Oud"
+          ]
+        },
+        {
+          "title": "Taqsim Qanun Zanjaran",
+          "artist": "Abraham Salman",
+          "audio": "media/maqam/zanjaran/taqsim_qanun.mp3",
+          "credits": [
+            "Saltanah"
+          ]
+        },
+        {
+          "title": "Taqsim Buzuq Zanjaran",
+          "artist": "Muhammad Abdel Karim",
+          "audio": "media/maqam/zanjaran/taqsim_buzuq.mp3"
+        }
+      ]
+    }
+  ],
+  "notice": "حزمة تطوير: العبارات الثلاث الأولى ألحان مُصنَّعة داخل المشروع (CC0) وتُستبدل بحزمة المقامات المرخّصة قبل النشر.",
+  "onboarding": {
+    "steps": [
+      {
+        "id": "high_low",
+        "prompt_ar": "أي النغمتين أعلى؟",
+        "audio": "on-01-high-low.mp3",
+        "options": [
+          {
+            "id": "first",
+            "label_ar": "الأولى"
+          },
+          {
+            "id": "second",
+            "label_ar": "الثانية"
+          }
+        ],
+        "answer": "second",
+        "explanation_ar": "الثانية أعلى بخمس درجات تقريبًا؛ الأذن تقيس الارتفاع بسرعة."
+      },
+      {
+        "id": "up_down",
+        "prompt_ar": "أي المقطعين يبدأ صاعدًا؟",
+        "audio": "on-02-up-down.mp3",
+        "options": [
+          {
+            "id": "first",
+            "label_ar": "الأولى"
+          },
+          {
+            "id": "second",
+            "label_ar": "الثانية"
+          }
+        ],
+        "answer": "first",
+        "explanation_ar": "الصعود يبني التوقع نحو الأعلى، والهبوط يعيدك إلى القرار."
+      },
+      {
+        "id": "same_different",
+        "prompt_ar": "هل النغمتان متطابقتان؟",
+        "audio": "on-03-same-different.mp3",
+        "options": [
+          {
+            "id": "same",
+            "label_ar": "متطابقتان"
+          },
+          {
+            "id": "different",
+            "label_ar": "مختلفتان"
+          }
+        ],
+        "answer": "different",
+        "explanation_ar": "الثانية أعلى قليلًا؛ حتى الفرق الصغير له اسم."
+      },
+      {
+        "id": "long_short",
+        "prompt_ar": "أي النغمتين أطول؟",
+        "audio": "on-04-long-short.mp3",
+        "options": [
+          {
+            "id": "first",
+            "label_ar": "الأولى"
+          },
+          {
+            "id": "second",
+            "label_ar": "الثانية"
+          }
+        ],
+        "answer": "first",
+        "explanation_ar": "المدة جزء من شخصية النغمة، لا الارتفاع وحده."
+      },
+      {
+        "id": "home_note",
+        "prompt_ar": "أي المقطعين ينتهي على نغمة البيت؟",
+        "audio": "on-05-home-note.mp3",
+        "options": [
+          {
+            "id": "first",
+            "label_ar": "الأولى"
+          },
+          {
+            "id": "second",
+            "label_ar": "الثانية"
+          }
+        ],
+        "answer": "second",
+        "explanation_ar": "ما قبل النهاية يبني التوقع، والنهاية تستقر على البيت فوق الدرون."
+      }
+    ],
+    "first_win": {
+      "prompt_ar": "أي مقام تسمع؟",
+      "audio": "01-alhijaz.mp3",
+      "maqam_ids": [
+        "hijaz",
+        "nahawand"
+      ],
+      "answer": "hijaz",
+      "explanation_ar": "المسافة الزائدة بين الدرجتين الثانية والثالثة هي توقيع الحجاز."
+    }
+  },
+  "lessons": [
+    {
+      "id": "hijaz_nahawand",
+      "title_ar": "حجاز أم نهاوند؟",
+      "maqam_ids": [
+        "hijaz",
+        "nahawand"
+      ],
+      "items": [
+        {
+          "id": "hn_1",
+          "answer": "hijaz"
+        },
+        {
+          "id": "hn_2",
+          "answer": "nahawand"
+        },
+        {
+          "id": "hn_3",
+          "answer": "hijaz"
+        },
+        {
+          "id": "hn_4",
+          "answer": "nahawand"
+        }
+      ]
+    },
+    {
+      "id": "rast_hijaz",
+      "title_ar": "راست أم حجاز؟",
+      "maqam_ids": [
+        "rast",
+        "hijaz"
+      ],
+      "items": [
+        {
+          "id": "rh_1",
+          "answer": "rast"
+        },
+        {
+          "id": "rh_2",
+          "answer": "hijaz"
+        },
+        {
+          "id": "rh_3",
+          "answer": "rast"
+        },
+        {
+          "id": "rh_4",
+          "answer": "hijaz"
+        }
+      ]
+    },
+    {
+      "id": "rast_nahawand",
+      "title_ar": "راست أم نهاوند؟",
+      "maqam_ids": [
+        "rast",
+        "nahawand"
+      ],
+      "items": [
+        {
+          "id": "rn_1",
+          "answer": "nahawand"
+        },
+        {
+          "id": "rn_2",
+          "answer": "rast"
+        },
+        {
+          "id": "rn_3",
+          "answer": "nahawand"
+        },
+        {
+          "id": "rn_4",
+          "answer": "rast"
+        }
+      ]
+    }
+  ]
+}

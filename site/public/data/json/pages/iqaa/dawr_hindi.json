@@ -1,0 +1,177 @@
+{
+  "url": "https://www.maqamworld.com/en/iqaa/dawr_hindi.php",
+  "path": "/en/iqaa/dawr_hindi.php",
+  "section": "iqaa",
+  "slug": "iqaa/dawr_hindi",
+  "kind": "entry",
+  "title": "Iqa‘ Dawr Hindi 7/8",
+  "subtitle": null,
+  "description": "Iqa‘ Dawr Hindi",
+  "lang": "en",
+  "paragraphs": [
+    "Iqa‘ Dawr Hindi is a very popular iqa‘ for the Muwashah vocal composed genre."
+  ],
+  "text": "Iqa‘ Dawr Hindi 7/8 Iqa‘ Index Pronunciation of Dawr Hindi Iqa‘ Dawr Hindi is a very popular iqa‘ for the Muwashah vocal composed genre. Muwashah Sihtu Wajdan Choir of the faculty of Music - Kaslik University (Lebanon) Conductor: Aïda Shalhoub Ziadé Music by Sayyed Darwish Orientalia: Muwashah and Song series Muwashah Jadaka al-Ghaythu Sabah Fakhri Music by Majdi al-‘Aqili Beiteddine Festival Vol I Muwashah Jalla Man Qad Sawwarak Sheikh Hamza Shakkur Ensemble Al Kindi Muwashah Arji‘i Ya Alfa Layla (1966) Fairouz Music by the Rahbani Brothers Iqa‘ Dawr Hindi 7/8 Tabla demonstration by Faisal Zedan",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Muwashah Sihtu Wajdan",
+      "artist": "Choir of the faculty of Music - Kaslik University (Lebanon)",
+      "credits": [
+        "Conductor: Aïda Shalhoub Ziadé",
+        "Music by Sayyed Darwish",
+        "Orientalia: Muwashah and Song series"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/dawr_hindi/sihtu_wajdan.mp3",
+      "local_path": "data/media/iqaa/dawr_hindi/sihtu_wajdan.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Muwashah Jadaka al-Ghaythu",
+      "artist": "Sabah Fakhri",
+      "credits": [
+        "Music by Majdi al-‘Aqili",
+        "Beiteddine Festival Vol I"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/dawr_hindi/jadaka_al_ghaythu.mp3",
+      "local_path": "data/media/iqaa/dawr_hindi/jadaka_al_ghaythu.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Muwashah Jalla Man Qad Sawwarak",
+      "artist": "Sheikh Hamza Shakkur",
+      "credits": [
+        "Ensemble Al Kindi"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/dawr_hindi/jalla_man.mp3",
+      "local_path": "data/media/iqaa/dawr_hindi/jalla_man.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Muwashah Arji‘i Ya Alfa Layla (1966)",
+      "artist": "Fairouz",
+      "credits": [
+        "Music by the Rahbani Brothers"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/dawr_hindi/arji3i-ya-alfa-leila.mp3",
+      "local_path": "data/media/iqaa/dawr_hindi/arji3i-ya-alfa-leila.mp3"
+    },
+    {
+      "index": 5,
+      "title": "Iqa‘ Dawr Hindi 7/8",
+      "artist": "Tabla demonstration by Faisal Zedan",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/demo/iqaa/tabla/dawr_hindi.mp3",
+      "local_path": "data/media/iqaa/dawr_hindi/dawr_hindi.mp3"
+    }
+  ],
+  "notes": [],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/dawr_hindi/sihtu_wajdan.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/dawr_hindi/sihtu_wajdan.mp3",
+      "status": "downloaded",
+      "sha256": "7cfd8a534711362b086f4f75cef4f05b79d8afc0ff44591b5596529e27535b0b",
+      "bytes": 922135,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/dawr_hindi/jadaka_al_ghaythu.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/dawr_hindi/jadaka_al_ghaythu.mp3",
+      "status": "downloaded",
+      "sha256": "c644a0bb52f65564edd4c6168622c5848e9a5a4f6d12cb8094d4faafc06f8000",
+      "bytes": 1132354,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/dawr_hindi/jalla_man.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/dawr_hindi/jalla_man.mp3",
+      "status": "downloaded",
+      "sha256": "3686506790e9e967a6af63f11ac8bc7219f9106ca6e682a6f03fec164353a0ca",
+      "bytes": 868146,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/dawr_hindi/arji3i-ya-alfa-leila.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/dawr_hindi/arji3i-ya-alfa-leila.mp3",
+      "status": "downloaded",
+      "sha256": "a28e70c45698ba5dd237d272719a5168672d1439ddb0bce13f7a9659e64b6764",
+      "bytes": 1415011,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/demo/iqaa/tabla/dawr_hindi.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/dawr_hindi/dawr_hindi.mp3",
+      "status": "downloaded",
+      "sha256": "05b5bfb66872496d946a9b4436953cd33fde309c8f860a8293f17fbc44ff87ca",
+      "bytes": 812556,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/dawr_hindi.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/iqaa/dawr_hindi/dawr_hindi-b0b8e6be.mp3",
+      "status": "downloaded",
+      "sha256": "3db9227588634599c8793933a9e7e795016238435c886e59df1aad2830453082",
+      "bytes": 40750,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/iqaa/dawr_hindi.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/dawr_hindi/dawr_hindi.png",
+      "status": "downloaded",
+      "sha256": "1ea618809769ee0c0e6e68683ae7e586efcfca36c19487951101e166dab855b3",
+      "bytes": 11218,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/cd.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/dawr_hindi/cd.png",
+      "status": "downloaded",
+      "sha256": "1f52da76667703a00010a07afefc9d78b6c3ccb8359b906fc6fd6b0cddd0255f",
+      "bytes": 5478,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/tabla.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/dawr_hindi/tabla.png",
+      "status": "downloaded",
+      "sha256": "bc7d7630f1797012041feecf8f1a7bc6d926498a88661ab4f28451d50b6c8f30",
+      "bytes": 11602,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Iqa‘ Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Muwashah",
+      "url": "https://www.maqamworld.com/en/form/vocal_comp.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "6d78a054fa2aee85dee2ba8c3fe3f0b5aa5193c8d2e1b7070ceb8bb4816f6694",
+  "fetched_at": "2026-11-10T12:10:55.101900Z",
+  "status_code": 200,
+  "html_file": "data/raw/iqaa/dawr_hindi.html"
+}

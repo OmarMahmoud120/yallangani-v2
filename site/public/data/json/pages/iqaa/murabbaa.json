@@ -1,0 +1,230 @@
+{
+  "url": "https://www.maqamworld.com/en/iqaa/murabbaa.php",
+  "path": "/en/iqaa/murabbaa.php",
+  "section": "iqaa",
+  "slug": "iqaa/murabbaa",
+  "kind": "entry",
+  "title": "Iqa‘ Murabba‘ 13/4",
+  "subtitle": null,
+  "description": "Iqa‘ Murabba‘",
+  "lang": "en",
+  "paragraphs": [
+    "Iqa‘ Murabba‘ is mostly confined to the Muwashah repertoire. Unrelated to its time signature, the word murabba‘ in Arabic means squared or based on the number 4."
+  ],
+  "text": "Iqa‘ Murabba‘ 13/4 Iqa‘ Index Pronunciation of Murabba‘ Iqa‘ Murabba‘ is mostly confined to the Muwashah repertoire. Unrelated to its time signature, the word murabba‘ in Arabic means squared or based on the number 4. Muwashah Hayyar al-Afkar Abdel Halim Noueira Ensemble Music by Muhammad ‘Uthman Muwashah Hibbi Malik al-Milah Abdel Halim Noueira Ensemble Muwashah Isqini al-Rah Abdel Halim Noueira Ensemble Music by Muhammad ‘Uthman Muwashah Jalla Man Qad Ansha Jamalak Omar al-Sarmini and al-Kindi Ensemble Muwashah Qum Bina Ya Nur ‘Ayni Abdel Halim Noueira Ensemble Muwashah Ramani Bi Sahmi Hawahu Hasan al-Haffar Music by Dawud Husni (Egypt) Muwashah Ya ‘Udhayb al-Marshaf Choir of the faculty of Music - Kaslik University (Lebanon) Conductor: Aïda Shalhoub Ziadé Music by Sayyed Darwish Orientalia: Muwashah and Song series Iqa‘ Murabba‘ 13/4 Tabla demonstration by Faisal Zedan",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Muwashah Hayyar al-Afkar",
+      "artist": "Abdel Halim Noueira Ensemble",
+      "credits": [
+        "Music by Muhammad ‘Uthman"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/murabbaa/hayyara_al_afkar.mp3",
+      "local_path": "data/media/iqaa/murabbaa/hayyara_al_afkar.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Muwashah Hibbi Malik al-Milah",
+      "artist": "Abdel Halim Noueira Ensemble",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/murabbaa/hibbi_malik.mp3",
+      "local_path": "data/media/iqaa/murabbaa/hibbi_malik.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Muwashah Isqini al-Rah",
+      "artist": "Abdel Halim Noueira Ensemble",
+      "credits": [
+        "Music by Muhammad ‘Uthman"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/murabbaa/isqini_al_rah.mp3",
+      "local_path": "data/media/iqaa/murabbaa/isqini_al_rah.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Muwashah Jalla Man Qad Ansha Jamalak",
+      "artist": "Omar al-Sarmini and al-Kindi Ensemble",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/murabbaa/jalla_man_qad.mp3",
+      "local_path": "data/media/iqaa/murabbaa/jalla_man_qad.mp3"
+    },
+    {
+      "index": 5,
+      "title": "Muwashah Qum Bina Ya Nur ‘Ayni",
+      "artist": "Abdel Halim Noueira Ensemble",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/murabbaa/qum_bina.mp3",
+      "local_path": "data/media/iqaa/murabbaa/qum_bina.mp3"
+    },
+    {
+      "index": 6,
+      "title": "Muwashah Ramani Bi Sahmi Hawahu",
+      "artist": "Hasan al-Haffar",
+      "credits": [
+        "Music by Dawud Husni (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/murabbaa/ramani_bi_sahmi.mp3",
+      "local_path": "data/media/iqaa/murabbaa/ramani_bi_sahmi.mp3"
+    },
+    {
+      "index": 7,
+      "title": "Muwashah Ya ‘Udhayb al-Marshaf",
+      "artist": "Choir of the faculty of Music - Kaslik University (Lebanon)",
+      "credits": [
+        "Conductor: Aïda Shalhoub Ziadé",
+        "Music by Sayyed Darwish",
+        "Orientalia: Muwashah and Song series"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/murabbaa/ya_3udhayb.mp3",
+      "local_path": "data/media/iqaa/murabbaa/ya_3udhayb.mp3"
+    },
+    {
+      "index": 8,
+      "title": "Iqa‘ Murabba‘ 13/4",
+      "artist": "Tabla demonstration by Faisal Zedan",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/demo/iqaa/tabla/murabbaa.mp3",
+      "local_path": "data/media/iqaa/murabbaa/murabbaa.mp3"
+    }
+  ],
+  "notes": [],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/murabbaa/hayyara_al_afkar.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/murabbaa/hayyara_al_afkar.mp3",
+      "status": "downloaded",
+      "sha256": "3132187789ca80dc4e49bb9d8cb1282a50c613149ef7d7cd71eb1e286cf6e1ea",
+      "bytes": 876112,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/murabbaa/hibbi_malik.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/murabbaa/hibbi_malik.mp3",
+      "status": "downloaded",
+      "sha256": "5ef848544e04ae91377bd2c4ed39ac75cebcf78800677205a14f4de7da285286",
+      "bytes": 1141132,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/murabbaa/isqini_al_rah.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/murabbaa/isqini_al_rah.mp3",
+      "status": "downloaded",
+      "sha256": "2fdd3ffe1c41d22e805e5d26b019da6c3de296c3d4b3f3b30d9ed26c57a372f7",
+      "bytes": 1007350,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/murabbaa/jalla_man_qad.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/murabbaa/jalla_man_qad.mp3",
+      "status": "downloaded",
+      "sha256": "87b12b497033ca3be9b96018ce53cf3a27991db2b954015fc674d6315e373806",
+      "bytes": 1089278,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/murabbaa/qum_bina.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/murabbaa/qum_bina.mp3",
+      "status": "downloaded",
+      "sha256": "f9fb9217dfc35b97db053cdcd9874da81c9a18aaaf23fa6613dfa4034cd8fd89",
+      "bytes": 1012820,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/murabbaa/ramani_bi_sahmi.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/murabbaa/ramani_bi_sahmi.mp3",
+      "status": "downloaded",
+      "sha256": "ba4c45b08d2afea9e9da3c6bdd5ae7ce91b4accf260433a316266c50ad041b9b",
+      "bytes": 820685,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/murabbaa/ya_3udhayb.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/murabbaa/ya_3udhayb.mp3",
+      "status": "downloaded",
+      "sha256": "c15b8c9edc0a12d456056c922cdddcdee2713551e39c4f714668d933d7bd1fc9",
+      "bytes": 923745,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/demo/iqaa/tabla/murabbaa.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/murabbaa/murabbaa.mp3",
+      "status": "downloaded",
+      "sha256": "8871d408d0514ff54cc8aee7817e654c13ed5e85818b7af6bd60fdb4ac486630",
+      "bytes": 791658,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/murabbaa.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/iqaa/murabbaa/murabbaa-7b46108b.mp3",
+      "status": "downloaded",
+      "sha256": "93bf3d149453f724ceecf7e368e66a585b5a45accb18c5625c290a8e97b68bde",
+      "bytes": 34480,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/iqaa/murabbaa.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/murabbaa/murabbaa.png",
+      "status": "downloaded",
+      "sha256": "12735407783634c86567392a785a8fd766956b5e01ee27722e0639543e7987dc",
+      "bytes": 14518,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/cd.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/murabbaa/cd.png",
+      "status": "downloaded",
+      "sha256": "1f52da76667703a00010a07afefc9d78b6c3ccb8359b906fc6fd6b0cddd0255f",
+      "bytes": 5478,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/tabla.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/murabbaa/tabla.png",
+      "status": "downloaded",
+      "sha256": "bc7d7630f1797012041feecf8f1a7bc6d926498a88661ab4f28451d50b6c8f30",
+      "bytes": 11602,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Iqa‘ Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Muwashah",
+      "url": "https://www.maqamworld.com/en/form/vocal_comp.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "b32ef274a051d1912c160cbe05d7ef355d66e06bb3401ae38b1cb3776c5e3d5b",
+  "fetched_at": "2026-11-10T12:10:55.126764Z",
+  "status_code": 200,
+  "html_file": "data/raw/iqaa/murabbaa.html"
+}

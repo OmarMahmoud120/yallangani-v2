@@ -1,0 +1,235 @@
+{
+  "url": "https://www.maqamworld.com/en/jins/nahawand.php",
+  "path": "/en/jins/nahawand.php",
+  "section": "jins",
+  "slug": "jins/nahawand",
+  "kind": "entry",
+  "title": "Jins Nahawand",
+  "subtitle": "Root jins of the Maqam Nahawand Family",
+  "description": "Jins Nahawand",
+  "lang": "en",
+  "paragraphs": [
+    "Click the notes and hold using the mouse to hear them play.",
+    "Jins Nahawand is a 5-note jins. It is notated here with its tonic on C and its ghammaz on G. Jins Nahawand is the first jins in Maqam Nahawand."
+  ],
+  "text": "Jins Nahawand Root jins of the Maqam Nahawand Family Jins Index Pronunciation of Nahawand Click the notes and hold using the mouse to hear them play. Jins Nahawand is a 5-note jins . It is notated here with its tonic on C and its ghammaz on G. Jins Nahawand is the first jins in Maqam Nahawand . Alf Leila w Leila (1969) Umm Kulthum Music by Baligh Hamdi (Egypt) Balad el-Mahbub Instrumental Composition Music by Muhammad Abdel Wahab (Egypt) Darit el-Ayyam (1970) Umm Kulthum Music by Muhammad Abdel Wahab (Egypt) Dawr Ahibb Ashufak Kulli Youm (1930) Vocals and Music by Muhammad Abdel Wahab (Egypt) Gaddidti Hubbak Leh (1952) Umm Kulthum Music by Riyad al-Sunbati Ya Dunya Ya Gharami (1938) Vocals and Music by Muhammad Abdel Wahab (Egypt) Ya Habibi Kullama Habba al-Hawa (2000) Fairouz Music by Rahbani Brothers",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Alf Leila w Leila (1969)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Baligh Hamdi (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/nahawand/alf_leila_w_leila.mp3",
+      "local_path": "data/media/jins/nahawand/alf_leila_w_leila.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Balad el-Mahbub",
+      "artist": "Instrumental Composition",
+      "credits": [
+        "Music by Muhammad Abdel Wahab (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/nahawand/balad_el_mahbub.mp3",
+      "local_path": "data/media/jins/nahawand/balad_el_mahbub.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Darit el-Ayyam (1970)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Muhammad Abdel Wahab (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/nahawand/darit_el_ayyam.mp3",
+      "local_path": "data/media/jins/nahawand/darit_el_ayyam.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Dawr Ahibb Ashufak Kulli Youm (1930)",
+      "artist": "Vocals and Music by Muhammad Abdel Wahab (Egypt)",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/jins/nahawand/dawr_ahibb_ashufak.mp3",
+      "local_path": "data/media/jins/nahawand/dawr_ahibb_ashufak.mp3"
+    },
+    {
+      "index": 5,
+      "title": "Gaddidti Hubbak Leh (1952)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Riyad al-Sunbati"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/nahawand/gaddidti_hubbak.mp3",
+      "local_path": "data/media/jins/nahawand/gaddidti_hubbak.mp3"
+    },
+    {
+      "index": 6,
+      "title": "Ya Dunya Ya Gharami (1938)",
+      "artist": "Vocals and Music by Muhammad Abdel Wahab (Egypt)",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/jins/nahawand/ya_dunya_ya_gharami.mp3",
+      "local_path": "data/media/jins/nahawand/ya_dunya_ya_gharami.mp3"
+    },
+    {
+      "index": 7,
+      "title": "Ya Habibi Kullama Habba al-Hawa (2000)",
+      "artist": "Fairouz",
+      "credits": [
+        "Music by Rahbani Brothers"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/nahawand/ya_habibi_kullama.mp3",
+      "local_path": "data/media/jins/nahawand/ya_habibi_kullama.mp3"
+    }
+  ],
+  "notes": [
+    {
+      "name": "A3♭",
+      "frequency": 209.0
+    },
+    {
+      "name": "A3♮",
+      "frequency": 220.0
+    },
+    {
+      "name": "B3♮",
+      "frequency": 247.5
+    },
+    {
+      "name": "C4",
+      "frequency": 260.74
+    },
+    {
+      "name": "D4",
+      "frequency": 293.33
+    },
+    {
+      "name": "E4♭",
+      "frequency": 308.25
+    },
+    {
+      "name": "F4",
+      "frequency": 347.65
+    },
+    {
+      "name": "G4",
+      "frequency": 391.11
+    },
+    {
+      "name": "A4♭",
+      "frequency": 411.0
+    }
+  ],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/jins/nahawand/alf_leila_w_leila.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/nahawand/alf_leila_w_leila.mp3",
+      "status": "downloaded",
+      "sha256": "c5a8be9628c7111679c76410b3b99b0eb367409f532e30d1167d3d04006fe2d5",
+      "bytes": 602178,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/nahawand/balad_el_mahbub.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/nahawand/balad_el_mahbub.mp3",
+      "status": "downloaded",
+      "sha256": "49ee010ac896fc32fea017cb228f81395af2ee64a9a3f20bf79d065fba1aad00",
+      "bytes": 1042935,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/nahawand/darit_el_ayyam.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/nahawand/darit_el_ayyam.mp3",
+      "status": "downloaded",
+      "sha256": "ad20740233228ec7f9e57e02d7901f5abd2e7acd7f865991f72b8de74e6633b7",
+      "bytes": 1135513,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/nahawand/dawr_ahibb_ashufak.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/nahawand/dawr_ahibb_ashufak.mp3",
+      "status": "downloaded",
+      "sha256": "fd6f3ce68d1e3aa9a6cb5ced82f7fdcb4ea804e6c5ffdbf61ca8526458c3cea4",
+      "bytes": 720958,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/nahawand/gaddidti_hubbak.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/nahawand/gaddidti_hubbak.mp3",
+      "status": "downloaded",
+      "sha256": "ed3c8187ee853a28887f34fe6384a1f12e1b763cc7edb0b17ce38e401db96626",
+      "bytes": 848451,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/nahawand/ya_dunya_ya_gharami.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/nahawand/ya_dunya_ya_gharami.mp3",
+      "status": "downloaded",
+      "sha256": "82be755276f709315a86ea55c910505098dc281dd732aaad15c615953349432d",
+      "bytes": 798004,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/nahawand/ya_habibi_kullama.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/nahawand/ya_habibi_kullama.mp3",
+      "status": "downloaded",
+      "sha256": "066fc8565167222c987cec18cd3965abdee126bd14592f1f50e6653a862c4800",
+      "bytes": 327557,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/nahawand.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/jins/nahawand/nahawand.mp3",
+      "status": "downloaded",
+      "sha256": "11cab129f2a587476ad41071b91fdd9831501a64dd8105aa57c7ffba5c61f722",
+      "bytes": 37615,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/jins/nahawand.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/jins/nahawand/nahawand.png",
+      "status": "downloaded",
+      "sha256": "7624c85fd08b9152eb77de368563b87d3570c0c045e91dcb2ce23e041117bca8",
+      "bytes": 10590,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Maqam Nahawand Family",
+      "url": "https://www.maqamworld.com/en/maqam/f_nahawand.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Maqam Nahawand",
+      "url": "https://www.maqamworld.com/en/maqam/nahawand.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "ddc65a4cfb8251ee20ce118170a55b9b9bf7f167c35fb535976342858b1e991b",
+  "fetched_at": "2026-11-10T12:10:55.069959Z",
+  "status_code": 200,
+  "html_file": "data/raw/jins/nahawand.html"
+}

@@ -1,0 +1,315 @@
+{
+  "url": "https://www.maqamworld.com/en/maqam/kurd.php",
+  "path": "/en/maqam/kurd.php",
+  "section": "maqam",
+  "slug": "maqam/kurd",
+  "kind": "entry",
+  "title": "Maqam Kurd",
+  "subtitle": "The principal maqam in the Maqam Kurd Family",
+  "description": "Maqam Kurd",
+  "lang": "en",
+  "paragraphs": [
+    "Click the notes and hold using the mouse to hear them play.",
+    "Maqam Kurd is the main maqam in the Kurd Family. Its scale starts with the root Jins Kurd on the tonic, followed by Jins Nahawand on the 4th degree.",
+    "Explore other maqamat in the Maqam Kurd Family.",
+    "Watch a 1-minute sample Violin Taqsim in Maqam Kurd by Sami Abu Shumays."
+  ],
+  "text": "Maqam Kurd The principal maqam in the Maqam Kurd Family Maqam Index Pronunciation of Kurd Click the notes and hold using the mouse to hear them play. Maqam Kurd is the main maqam in the Kurd Family. Its scale starts with the root Jins Kurd on the tonic , followed by Jins Nahawand on the 4 th degree. Explore other maqamat in the Maqam Kurd Family . Watch a 1-minute sample Violin Taqsim in Maqam Kurd by Sami Abu Shumays. ‘Awwedti ‘Ayni (1958) Umm Kulthum Music by Riyad al-Sunbati Ya Zalimni (1951) Umm Kulthum Music by Riyad al-Sunbati Dulab Kurd Sabah Fakhri Ensemble Au Palais Des Congrès (1995) Muwashah Yamurru ‘Ujuban Sabah Fakhri Music by ‘Umar al-Batsh Au Palais Des Congrès (1995) Muwashah Ya Bahjet el-Rouh Sabah Fakhri Music by Sayyed Darwish Au Palais Des Congrès (1995) Mashghul ‘Aleik Karem Mahmud Music by Ahmad Sidqi Sanatein Leila Mourad Music by Ra'uf Dhihni Sama‘i Kurd Abdu Daghir Sama‘i Kurd Abraham Salman Saltanah Dawr ‘Ishiqti Ruhak (1930) Music by Muhammad Abdel Wahab (Egypt)",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "‘Awwedti ‘Ayni (1958)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Riyad al-Sunbati"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/kurd/3awwedti_3eni.mp3",
+      "local_path": "data/media/maqam/kurd/3awwedti_3eni.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Ya Zalimni (1951)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Riyad al-Sunbati"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/kurd/ya_zalimni.mp3",
+      "local_path": "data/media/maqam/kurd/ya_zalimni.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Dulab Kurd",
+      "artist": "Sabah Fakhri Ensemble",
+      "credits": [
+        "Au Palais Des Congrès (1995)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/kurd/dulab_kurd_fakhri.mp3",
+      "local_path": "data/media/maqam/kurd/dulab_kurd_fakhri.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Muwashah Yamurru ‘Ujuban",
+      "artist": "Sabah Fakhri",
+      "credits": [
+        "Music by ‘Umar al-Batsh",
+        "Au Palais Des Congrès (1995)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/kurd/yamurru_3ujuban.mp3",
+      "local_path": "data/media/maqam/kurd/yamurru_3ujuban.mp3"
+    },
+    {
+      "index": 5,
+      "title": "Muwashah Ya Bahjet el-Rouh",
+      "artist": "Sabah Fakhri",
+      "credits": [
+        "Music by Sayyed Darwish",
+        "Au Palais Des Congrès (1995)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/kurd/ya_bahjet_el_rouh.mp3",
+      "local_path": "data/media/maqam/kurd/ya_bahjet_el_rouh.mp3"
+    },
+    {
+      "index": 6,
+      "title": "Mashghul ‘Aleik",
+      "artist": "Karem Mahmud",
+      "credits": [
+        "Music by Ahmad Sidqi"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/kurd/mashghul.mp3",
+      "local_path": "data/media/maqam/kurd/mashghul.mp3"
+    },
+    {
+      "index": 7,
+      "title": "Sanatein",
+      "artist": "Leila Mourad",
+      "credits": [
+        "Music by Ra'uf Dhihni"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/kurd/sanatein.mp3",
+      "local_path": "data/media/maqam/kurd/sanatein.mp3"
+    },
+    {
+      "index": 8,
+      "title": "Sama‘i Kurd",
+      "artist": "Abdu Daghir",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/kurd/samai_kurd_daghir.mp3",
+      "local_path": "data/media/maqam/kurd/samai_kurd_daghir.mp3"
+    },
+    {
+      "index": 9,
+      "title": "Sama‘i Kurd",
+      "artist": "Abraham Salman",
+      "credits": [
+        "Saltanah"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/kurd/samai_kurd_salman.mp3",
+      "local_path": "data/media/maqam/kurd/samai_kurd_salman.mp3"
+    },
+    {
+      "index": 10,
+      "title": "Dawr ‘Ishiqti Ruhak (1930)",
+      "artist": "Music by Muhammad Abdel Wahab (Egypt)",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/kurd/3ichiqti_ruhak.mp3",
+      "local_path": "data/media/maqam/kurd/3ichiqti_ruhak.mp3"
+    }
+  ],
+  "notes": [
+    {
+      "name": "D4",
+      "frequency": 293.33
+    },
+    {
+      "name": "E4♭",
+      "frequency": 308.25
+    },
+    {
+      "name": "F4",
+      "frequency": 347.65
+    },
+    {
+      "name": "G4",
+      "frequency": 391.11
+    },
+    {
+      "name": "A4",
+      "frequency": 440.0
+    },
+    {
+      "name": "B4♭",
+      "frequency": 463.54
+    },
+    {
+      "name": "C5",
+      "frequency": 521.48
+    },
+    {
+      "name": "D5",
+      "frequency": 586.66
+    }
+  ],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/kurd/3awwedti_3eni.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/kurd/3awwedti_3eni.mp3",
+      "status": "downloaded",
+      "sha256": "4e37df9d932359fa8bb73633bd09707c9bcc0583d285bbc6a4a5617e9a3e0acd",
+      "bytes": 707531,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/kurd/ya_zalimni.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/kurd/ya_zalimni.mp3",
+      "status": "downloaded",
+      "sha256": "7ea7c4e016eaa5f3032443a8ec34eb524dd7f76b3d13c1f0b4b7339182260170",
+      "bytes": 660670,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/kurd/dulab_kurd_fakhri.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/kurd/dulab_kurd_fakhri.mp3",
+      "status": "downloaded",
+      "sha256": "906294edaea7807237a02896e4891404c8ccb22c1166bd977e63a287161c7eb0",
+      "bytes": 460810,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/kurd/yamurru_3ujuban.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/kurd/yamurru_3ujuban.mp3",
+      "status": "downloaded",
+      "sha256": "e2d46e0d0e7cfedfec17b485171b8cbe0a62739e38dca85da5883644e88116d1",
+      "bytes": 759684,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/kurd/ya_bahjet_el_rouh.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/kurd/ya_bahjet_el_rouh.mp3",
+      "status": "downloaded",
+      "sha256": "1bf68903de312cc32c256de69b40f12efd24810728fc0d0165ea28c72d6c5f43",
+      "bytes": 643086,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/kurd/mashghul.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/kurd/mashghul.mp3",
+      "status": "downloaded",
+      "sha256": "3c60d5829d064a1351b1ee201459fb43688a6902f27e726778b73bad81330e8f",
+      "bytes": 940850,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/kurd/sanatein.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/kurd/sanatein.mp3",
+      "status": "downloaded",
+      "sha256": "1c96d4b3dceb39d6136a25a26bfcba156630d2900081ef0ec48da28d103afe7c",
+      "bytes": 1294109,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/kurd/samai_kurd_daghir.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/kurd/samai_kurd_daghir.mp3",
+      "status": "downloaded",
+      "sha256": "462c6498f97901d95c658fd72fe63753b3c1dcd6251b46a75ba4c01b60a78a6d",
+      "bytes": 1057897,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/kurd/samai_kurd_salman.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/kurd/samai_kurd_salman.mp3",
+      "status": "downloaded",
+      "sha256": "5b290c989ebee68e8e587960af336421ad349ce4098a82454c4bd0313c248e16",
+      "bytes": 903298,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/kurd/3ichiqti_ruhak.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/kurd/3ichiqti_ruhak.mp3",
+      "status": "downloaded",
+      "sha256": "1c240d706bf9c4d8fccb9eecb835bf62e23d873316f587bbd03f7b40c1e80899",
+      "bytes": 255163,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/kurd.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/maqam/kurd/kurd.mp3",
+      "status": "downloaded",
+      "sha256": "b8e69abc44c9d47ba1fce3aaf392f921160861863c6011831e9bc8cb219777a4",
+      "bytes": 22986,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/maqam/kurd.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/maqam/kurd/kurd.png",
+      "status": "downloaded",
+      "sha256": "7aeb1b498f9a4230f8ebaf01dc2814dbb644ef7c634f32f4a651ca962797b952",
+      "bytes": 12427,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/cd.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/maqam/kurd/cd.png",
+      "status": "downloaded",
+      "sha256": "1f52da76667703a00010a07afefc9d78b6c3ccb8359b906fc6fd6b0cddd0255f",
+      "bytes": 5478,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Maqam Kurd Family",
+      "url": "https://www.maqamworld.com/en/maqam/f_kurd.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Jins Kurd",
+      "url": "https://www.maqamworld.com/en/jins/kurd.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Nahawand",
+      "url": "https://www.maqamworld.com/en/jins/nahawand.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Violin Taqsim in Maqam Kurd",
+      "url": "https://www.instagram.com/p/B97a01GFQzt",
+      "kind": "external"
+    }
+  ],
+  "content_hash": "019db10c7086c1438d56067c1bce591f0878b4f6dc96bc0b26e6cd68746377c0",
+  "fetched_at": "2026-11-10T12:10:54.916286Z",
+  "status_code": 200,
+  "html_file": "data/raw/maqam/kurd.html"
+}

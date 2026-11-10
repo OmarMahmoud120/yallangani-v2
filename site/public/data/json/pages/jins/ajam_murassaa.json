@@ -1,0 +1,306 @@
+{
+  "url": "https://www.maqamworld.com/en/jins/ajam_murassaa.php",
+  "path": "/en/jins/ajam_murassaa.php",
+  "section": "jins",
+  "slug": "jins/ajam_murassaa",
+  "kind": "entry",
+  "title": "Jins ‘Ajam Murassa‘ New",
+  "subtitle": "A variation of Jins ‘Ajam with a raised 4th",
+  "description": "Jins ‘Ajam Murassa‘",
+  "lang": "en",
+  "paragraphs": [
+    "Click the notes and hold using the mouse to hear them play.",
+    "Jins ‘Ajam Murassa‘ is a 5-note jins. It is notated here with its tonic on F and its ghammaz on C. Jins ‘Ajam Murassa‘ is not part of any maqam scale and usually occurs as a modulation from Jins ‘Ajam."
+  ],
+  "text": "Jins ‘Ajam Murassa‘ New A variation of Jins ‘Ajam with a raised 4 th Jins Index Pronunciation of ‘Ajam Murassa‘ Click the notes and hold using the mouse to hear them play. Jins ‘Ajam Murassa‘ is a 5-note jins. It is notated here with its tonic on F and its ghammaz on C. Jins ‘Ajam Murassa‘ is not part of any maqam scale and usually occurs as a modulation from Jins ‘Ajam . Muwshah Kallili Ya Suhbu Sabah Fakhri Music by Muhammad ‘Uthman ‘Ala Shatti Bahr el-Hawa Karem Mahmud Music by Mahmud al-Sherif Bein Shattein we Mayya Muhammad Qandil Mawwal Ya Ma‘shar al-Nas Muhammad Khayri Qasida ‘Umri Fi Hubbihi Inqada Muhammad Khayri Taqsim Qanun in Maqam 'Ajam Abdu Daghir Al-Gibali Nibtidi Mnein el-Hikaya (1975) Abdel Halim Hafez Music by Muhammad Abdel Wahab (Egypt) Qari'at al-Fingan (1976) Abdel Halim Hafez Music by Muhammad al-Mugi Dawr Sabbahti Min ‘Ishqi Abki Abdel Hayy Hilmi Oud Taqsim Muhammad Qadri Dalal Layali Zaman Instrumental composition by ‘Abdu Dagher Recorded with his ensemble at the Cairo Opera House.",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Muwshah Kallili Ya Suhbu",
+      "artist": "Sabah Fakhri",
+      "credits": [
+        "Music by Muhammad ‘Uthman"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/ajam_murassaa/kallili.mp3",
+      "local_path": "data/media/jins/ajam_murassaa/kallili.mp3"
+    },
+    {
+      "index": 2,
+      "title": "‘Ala Shatti Bahr el-Hawa",
+      "artist": "Karem Mahmud",
+      "credits": [
+        "Music by Mahmud al-Sherif"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/ajam_murassaa/3ala_shatt_bahr_el_hawa.mp3",
+      "local_path": "data/media/jins/ajam_murassaa/3ala_shatt_bahr_el_hawa.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Bein Shattein we Mayya",
+      "artist": "Muhammad Qandil",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/jins/ajam_murassaa/bein_shattein_w_mayya.mp3",
+      "local_path": "data/media/jins/ajam_murassaa/bein_shattein_w_mayya.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Mawwal Ya Ma‘shar al-Nas",
+      "artist": "Muhammad Khayri",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/jins/ajam_murassaa/ya_ma3shar_al_nas.mp3",
+      "local_path": "data/media/jins/ajam_murassaa/ya_ma3shar_al_nas.mp3"
+    },
+    {
+      "index": 5,
+      "title": "Qasida ‘Umri Fi Hubbihi Inqada",
+      "artist": "Muhammad Khayri",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/jins/ajam_murassaa/3umri_fi_hubbihi.mp3",
+      "local_path": "data/media/jins/ajam_murassaa/3umri_fi_hubbihi.mp3"
+    },
+    {
+      "index": 6,
+      "title": "Taqsim Qanun in Maqam 'Ajam",
+      "artist": "Abdu Daghir",
+      "credits": [
+        "Al-Gibali"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/ajam_murassaa/abdu_daghir_qanun.mp3",
+      "local_path": "data/media/jins/ajam_murassaa/abdu_daghir_qanun.mp3"
+    },
+    {
+      "index": 7,
+      "title": "Nibtidi Mnein el-Hikaya (1975)",
+      "artist": "Abdel Halim Hafez",
+      "credits": [
+        "Music by Muhammad Abdel Wahab (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/ajam_murassaa/nibtidi_mnein_el_hikaya.mp3",
+      "local_path": "data/media/jins/ajam_murassaa/nibtidi_mnein_el_hikaya.mp3"
+    },
+    {
+      "index": 8,
+      "title": "Qari'at al-Fingan (1976)",
+      "artist": "Abdel Halim Hafez",
+      "credits": [
+        "Music by Muhammad al-Mugi"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/ajam_murassaa/qariat_al_fingan.mp3",
+      "local_path": "data/media/jins/ajam_murassaa/qariat_al_fingan.mp3"
+    },
+    {
+      "index": 9,
+      "title": "Dawr Sabbahti Min ‘Ishqi Abki",
+      "artist": "Abdel Hayy Hilmi",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/jins/ajam_murassaa/sabbahti_min_3ishqak_abki.mp3",
+      "local_path": "data/media/jins/ajam_murassaa/sabbahti_min_3ishqak_abki.mp3"
+    },
+    {
+      "index": 10,
+      "title": "Oud Taqsim",
+      "artist": "Muhammad Qadri Dalal",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/jins/ajam_murassaa/m_qadri_dalal_oud.mp3",
+      "local_path": "data/media/jins/ajam_murassaa/m_qadri_dalal_oud.mp3"
+    },
+    {
+      "index": 11,
+      "title": "Layali Zaman",
+      "artist": "Instrumental composition by ‘Abdu Dagher",
+      "credits": [
+        "Recorded with his ensemble at the Cairo Opera House."
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/ajam_murassaa/layali_zaman.mp3",
+      "local_path": "data/media/jins/ajam_murassaa/layali_zaman.mp3"
+    }
+  ],
+  "notes": [
+    {
+      "name": "E4",
+      "frequency": 330.0
+    },
+    {
+      "name": "F4",
+      "frequency": 347.65
+    },
+    {
+      "name": "G4",
+      "frequency": 391.11
+    },
+    {
+      "name": "A4",
+      "frequency": 440.0
+    },
+    {
+      "name": "B4♮",
+      "frequency": 495.0
+    },
+    {
+      "name": "C5",
+      "frequency": 521.5
+    },
+    {
+      "name": "D5",
+      "frequency": 586.66
+    }
+  ],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/jins/ajam_murassaa/kallili.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/ajam_murassaa/kallili.mp3",
+      "status": "downloaded",
+      "sha256": "96940e8f0d5bb6107d4e092485a1e5488a930e633774c7e3fbac7e2831e5daf0",
+      "bytes": 668779,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/ajam_murassaa/3ala_shatt_bahr_el_hawa.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/ajam_murassaa/3ala_shatt_bahr_el_hawa.mp3",
+      "status": "downloaded",
+      "sha256": "8a698521bf9b08e3a84c4d48285351fb7c2ee3494f6c304c8246fb75e3571834",
+      "bytes": 449749,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/ajam_murassaa/bein_shattein_w_mayya.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/ajam_murassaa/bein_shattein_w_mayya.mp3",
+      "status": "downloaded",
+      "sha256": "62fafdbda7805707073c819aadfedab9504465e70663aa66ebf5d0e2f7945268",
+      "bytes": 488383,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/ajam_murassaa/ya_ma3shar_al_nas.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/ajam_murassaa/ya_ma3shar_al_nas.mp3",
+      "status": "downloaded",
+      "sha256": "7b5d74fbf5f0f3db7619f0ac98a5de360dc736fddb0310eb94f0c5e1903f4090",
+      "bytes": 389208,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/ajam_murassaa/3umri_fi_hubbihi.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/ajam_murassaa/3umri_fi_hubbihi.mp3",
+      "status": "downloaded",
+      "sha256": "74a2528d63ec240c1023e98b46bc08f2aec685f0ef911c0103e0f0e2c1086560",
+      "bytes": 322098,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/ajam_murassaa/abdu_daghir_qanun.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/ajam_murassaa/abdu_daghir_qanun.mp3",
+      "status": "downloaded",
+      "sha256": "326dbd50012220063c9dd164905af253f9a5098e4cd12a8f54c070e967f289e2",
+      "bytes": 441538,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/ajam_murassaa/nibtidi_mnein_el_hikaya.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/ajam_murassaa/nibtidi_mnein_el_hikaya.mp3",
+      "status": "downloaded",
+      "sha256": "bccf48180708edd1d65ac5d334a3574e324aba43ef56276df6147c5abcaf13fe",
+      "bytes": 619443,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/ajam_murassaa/qariat_al_fingan.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/ajam_murassaa/qariat_al_fingan.mp3",
+      "status": "downloaded",
+      "sha256": "93b6c0afd2d0c82c8dae4429ce90f6c524a5def72d871b451df48d873a56bf9c",
+      "bytes": 965006,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/ajam_murassaa/sabbahti_min_3ishqak_abki.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/ajam_murassaa/sabbahti_min_3ishqak_abki.mp3",
+      "status": "downloaded",
+      "sha256": "f3a940b66b140903ad547ecb7c81b4873cb1843837277894c177c9b14b5a52a5",
+      "bytes": 837643,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/ajam_murassaa/m_qadri_dalal_oud.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/ajam_murassaa/m_qadri_dalal_oud.mp3",
+      "status": "downloaded",
+      "sha256": "25155576e8e0db8d36cdf363662942e0a6e4cd8222cafead5bad9d40624b0055",
+      "bytes": 870185,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/ajam_murassaa/layali_zaman.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/ajam_murassaa/layali_zaman.mp3",
+      "status": "downloaded",
+      "sha256": "f9898825c11232cd55bfb9e8c458ead102ad716bdd2ebf1508a5cf1568a99182",
+      "bytes": 129821,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/ajam_murassaa.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/jins/ajam_murassaa/ajam_murassaa.mp3",
+      "status": "downloaded",
+      "sha256": "cc0adc888b998a8f7c2119f40b6fdcf3b72c9b781424f430ed0b5c647c4aaf81",
+      "bytes": 44929,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/jins/ajam_murassaa.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/jins/ajam_murassaa/ajam_murassaa.png",
+      "status": "downloaded",
+      "sha256": "b199870be5f7f4a921036c6b0a74f50cb6591ddfc0731bc1c0a9c2d5c7858989",
+      "bytes": 7819,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/cd.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/jins/ajam_murassaa/cd.png",
+      "status": "downloaded",
+      "sha256": "1f52da76667703a00010a07afefc9d78b6c3ccb8359b906fc6fd6b0cddd0255f",
+      "bytes": 5478,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Jins ‘Ajam",
+      "url": "https://www.maqamworld.com/en/jins/ajam.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Index",
+      "url": "#",
+      "kind": "anchor"
+    }
+  ],
+  "content_hash": "05cf00bd22593a1c22d31a8db5efa320321007160b2c622be80a36534f8ba9eb",
+  "fetched_at": "2026-11-10T12:10:55.047647Z",
+  "status_code": 200,
+  "html_file": "data/raw/jins/ajam_murassaa.html"
+}

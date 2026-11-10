@@ -1,0 +1,226 @@
+{
+  "url": "https://www.maqamworld.com/en/jins/saba.php",
+  "path": "/en/jins/saba.php",
+  "section": "jins",
+  "slug": "jins/saba",
+  "kind": "entry",
+  "title": "Jins Saba",
+  "subtitle": "(ambiguous size)",
+  "description": "Jins Saba",
+  "lang": "en",
+  "paragraphs": [
+    "Click the notes and hold using the mouse to hear them play.",
+    "Jins Saba has an ambiguous size. It is notated here with its tonic on D and two ghammaz possibilities: the 3rd degree (notated on F) or the 6th degree (notated on B♭). Jins Saba is the first jins in Maqam Saba."
+  ],
+  "text": "Jins Saba (ambiguous size) Jins Index Pronunciation of Saba Click the notes and hold using the mouse to hear them play. Jins Saba has an ambiguous size. It is notated here with its tonic on D and two ghammaz possibilities: the 3 rd degree (notated on F) or the 6 th degree (notated on B♭). Jins Saba is the first jins in Maqam Saba . Huwwa Sahih el-Hawa Ghallab (1960) Umm Kulthum Music by Zakariya Ahmad (Egypt) Aghadan Alqaka (1971) Umm Kulthum Music by Muhammad Abdel Wahab (Egypt) Ansak Da Kalam (1961) Umm Kulthum Music by Baligh Hamdi (Egypt) Dulab in Maqam Saba Sabri al-Mudallal Layali Saba Sabri al-Mudallal Lissa Fakir (1960) Umm Kulthum Music by Riyad al-Sunbati Tiri Ya Tiyyara Fairouz Music by Philemon Wehbe",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Huwwa Sahih el-Hawa Ghallab (1960)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Zakariya Ahmad (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/saba/huwwa_sahih.mp3",
+      "local_path": "data/media/jins/saba/huwwa_sahih.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Aghadan Alqaka (1971)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Muhammad Abdel Wahab (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/saba/aghadan_alqak.mp3",
+      "local_path": "data/media/jins/saba/aghadan_alqak.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Ansak Da Kalam (1961)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Baligh Hamdi (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/saba/ansak.mp3",
+      "local_path": "data/media/jins/saba/ansak.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Dulab in Maqam Saba",
+      "artist": "Sabri al-Mudallal",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/jins/saba/dulab_saba.mp3",
+      "local_path": "data/media/jins/saba/dulab_saba.mp3"
+    },
+    {
+      "index": 5,
+      "title": "Layali Saba",
+      "artist": "Sabri al-Mudallal",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/jins/saba/layali_saba.mp3",
+      "local_path": "data/media/jins/saba/layali_saba.mp3"
+    },
+    {
+      "index": 6,
+      "title": "Lissa Fakir (1960)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Riyad al-Sunbati"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/saba/lissa_fakir.mp3",
+      "local_path": "data/media/jins/saba/lissa_fakir.mp3"
+    },
+    {
+      "index": 7,
+      "title": "Tiri Ya Tiyyara",
+      "artist": "Fairouz",
+      "credits": [
+        "Music by Philemon Wehbe"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/saba/tiri_ya_tiyyara.mp3",
+      "local_path": "data/media/jins/saba/tiri_ya_tiyyara.mp3"
+    }
+  ],
+  "notes": [
+    {
+      "name": "B3",
+      "frequency": 243.0
+    },
+    {
+      "name": "C4",
+      "frequency": 260.74
+    },
+    {
+      "name": "D4",
+      "frequency": 293.33
+    },
+    {
+      "name": "E4",
+      "frequency": 320.0
+    },
+    {
+      "name": "F4",
+      "frequency": 347.65
+    },
+    {
+      "name": "G4♭",
+      "frequency": 368.0
+    },
+    {
+      "name": "A4♮",
+      "frequency": 437.0
+    },
+    {
+      "name": "B4♭",
+      "frequency": 463.54
+    }
+  ],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/jins/saba/huwwa_sahih.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/saba/huwwa_sahih.mp3",
+      "status": "downloaded",
+      "sha256": "8b48539059dedbd32a67d6001e1fbe95be6295222b6104c1962721b2545c1a43",
+      "bytes": 789881,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/saba/aghadan_alqak.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/saba/aghadan_alqak.mp3",
+      "status": "downloaded",
+      "sha256": "be15e500e722ce9e4d10f66df7d99d52806d3b517c95d8a09d422019cafa1169",
+      "bytes": 748818,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/saba/ansak.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/saba/ansak.mp3",
+      "status": "downloaded",
+      "sha256": "ad4419eab925ca77b7f72361424f442ba4365b3e6ef368ba03aa7fd9f99ac678",
+      "bytes": 506086,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/saba/dulab_saba.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/saba/dulab_saba.mp3",
+      "status": "downloaded",
+      "sha256": "e379ff4047bbc6187936ffba6107ad895c4ad85f10f73f88b83c43c47c9871ba",
+      "bytes": 568068,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/saba/layali_saba.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/saba/layali_saba.mp3",
+      "status": "downloaded",
+      "sha256": "2f1e3713f6c770a7489d69cf806738068fbb710ece3a4b7402035d178ef9b4a6",
+      "bytes": 1129407,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/saba/lissa_fakir.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/saba/lissa_fakir.mp3",
+      "status": "downloaded",
+      "sha256": "a8cd04922290a06c0d519c446a5f65807c68bf61061340e9274705bc4a1cce12",
+      "bytes": 1140320,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/saba/tiri_ya_tiyyara.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/saba/tiri_ya_tiyyara.mp3",
+      "status": "downloaded",
+      "sha256": "adda6307d4ddcefebe079a8dfab6bc8adb2801420b1cb7817b68e2f3640739e4",
+      "bytes": 480487,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/saba.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/jins/saba/saba.mp3",
+      "status": "downloaded",
+      "sha256": "dd269a0a19aa7deea054eaf941b219bfdc0922e68f40b2f446a0f9096efa8fe8",
+      "bytes": 27166,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/jins/saba.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/jins/saba/saba.png",
+      "status": "downloaded",
+      "sha256": "1584723459d75b9a568080a7dabb32448ef73dc2c4df7ef136783ed0a5c8a6bc",
+      "bytes": 11264,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Jins Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Maqam Saba",
+      "url": "https://www.maqamworld.com/en/maqam/saba.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "8e81467108bded827f32c7f3235d5b3d0f7df8e33d324fd3b7e9660aa72c2179",
+  "fetched_at": "2026-11-10T12:10:55.076438Z",
+  "status_code": 200,
+  "html_file": "data/raw/jins/saba.html"
+}

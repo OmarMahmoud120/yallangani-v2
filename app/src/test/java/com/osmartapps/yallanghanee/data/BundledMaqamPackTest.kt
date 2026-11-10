@@ -35,6 +35,10 @@ class BundledMaqamPackTest {
             val audio = assetFile("src/main/assets/content/audio/${maqam.audio}")
             assertTrue("missing audio ${maqam.audio}", audio.isFile)
             assertTrue("empty audio ${maqam.audio}", audio.length() > 0)
+            val droneName = requireNotNull(maqam.drone) { "missing drone for ${maqam.id}" }
+            val drone = assetFile("src/main/assets/content/audio/$droneName")
+            assertTrue("missing drone $droneName", drone.isFile)
+            assertTrue("empty drone $droneName", drone.length() > 0)
         }
     }
 

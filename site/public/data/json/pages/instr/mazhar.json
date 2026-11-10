@@ -1,0 +1,96 @@
+{
+  "url": "https://www.maqamworld.com/en/instr/mazhar.php",
+  "path": "/en/instr/mazhar.php",
+  "section": "instr",
+  "slug": "instr/mazhar",
+  "kind": "entry",
+  "title": "The Egyptian Mazhar",
+  "subtitle": "A Heavy and Deep Frame Drum with Cymbals",
+  "description": "The Egyptian Mazhar",
+  "lang": "en",
+  "paragraphs": [
+    "The Egyptian Mazhar is a very heavy frame drum with large cymbals. It is designed for heavy pounding in a loud and diverse rhythm section, such as the one used in a Zaffa (wedding procession), where Iqa‘ Zaffa is featured.",
+    "Explore other percussion instruments:"
+  ],
+  "text": "The Egyptian Mazhar A Heavy and Deep Frame Drum with Cymbals Instrument Index A tunable Egyptian Mazhar with a plastic head. © MaqamWorld Pronunciation of Mazhar The Egyptian Mazhar is a very heavy frame drum with large cymbals. It is designed for heavy pounding in a loud and diverse rhythm section, such as the one used in a Zaffa (wedding procession), where Iqa‘ Zaffa is featured. Zaffa (Wedding party) An Egyptian Zaffa (wedding party) with a large group of percussionists using a combination of Egyptian Mazhar-s, Katim -s and Tabla -s, all with synthetic heads. Explore other percussion instruments: The Riqq The Tabla The Tabl Baladi The Daff The Katim The Sagat",
+  "tracks": [],
+  "notes": [],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/name/mazhar.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/instr/mazhar/mazhar.mp3",
+      "status": "downloaded",
+      "sha256": "9e0d1a057b01d5d60e5eafb59dc7f206247d52573183b21ff2710bdb9b4edccf",
+      "bytes": 18683,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/instr/egy_mazhar.jpg",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/instr/mazhar/egy_mazhar.jpg",
+      "status": "downloaded",
+      "sha256": "7a38e84f6910c730a201ae03b61d9b7cf292488ee98680db21cd29a4df6345cb",
+      "bytes": 20207,
+      "content_type": null
+    },
+    {
+      "url": "https://img.youtube.com/vi/RGcnL3QG6DE/hqdefault.jpg",
+      "kind": "image",
+      "source": "content",
+      "local_path": null,
+      "status": "skipped_external",
+      "sha256": null,
+      "bytes": null,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Instrument Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Iqa‘ Zaffa",
+      "url": "https://www.maqamworld.com/en/iqaa/zaffa.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Katim",
+      "url": "https://www.maqamworld.com/en/instr/katim.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Tabla",
+      "url": "https://www.maqamworld.com/en/instr/tabla.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Riqq",
+      "url": "https://www.maqamworld.com/en/instr/riqq.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Tabl Baladi",
+      "url": "https://www.maqamworld.com/en/instr/tabl_baladi.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Daff",
+      "url": "https://www.maqamworld.com/en/instr/daff.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Sagat",
+      "url": "https://www.maqamworld.com/en/instr/sagat.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "f09741ae0a4e98c5f06d337ffd33381c5237da3af27e3597504703aa9fcfb823",
+  "fetched_at": "2026-11-10T12:10:55.177086Z",
+  "status_code": 200,
+  "html_file": "data/raw/instr/mazhar.html"
+}

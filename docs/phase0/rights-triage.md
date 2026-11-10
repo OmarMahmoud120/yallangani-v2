@@ -5,6 +5,11 @@
 **Status:** Stage A complete (decisions below). Stage B open (commission + advisor paperwork).
 **Companion documents:** `docs/phase0/content-acquisition-plan.md` §4, `docs/CONTENT_LICENSES.md`
 
+> **Site-only note (2026-11-10):** The owner reports approval to publish the MaqamWorld crawl on
+> the public website under `site/public/data/`. That exception covers the site only; the app/APK rules in
+> §3 and §6 are unchanged, and the written approval still needs to be filed. See
+> `docs/CONTENT_LICENSES.md`, "Site data".
+
 ---
 
 ## 1. Scope

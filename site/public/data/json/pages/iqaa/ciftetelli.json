@@ -1,0 +1,331 @@
+{
+  "url": "https://www.maqamworld.com/en/iqaa/ciftetelli.php",
+  "path": "/en/iqaa/ciftetelli.php",
+  "section": "iqaa",
+  "slug": "iqaa/ciftetelli",
+  "kind": "entry",
+  "title": "Iqa‘ Ciftetelli 8/4",
+  "subtitle": "(can also be played in 4/4)",
+  "description": "Iqa‘ Ciftetelli",
+  "lang": "en",
+  "paragraphs": [
+    "Iqa‘ Ciftetelli (pronounced \"shaftatalli\" in Arabic) is a Turkish usul that became popular in Arabic music. It is rarely used for composed melodies; instead, its primary use is to support improvisations (both vocal and instrumental).",
+    "Ciftetelli is usually slow paced and stretched out over two 4/4 measures (see notation), and can share the same tempo and pace as Masmudi Kabir. Alternatively, it can be performed faster and lighter, in which case it can be notated in 4/4 and becomes very similar to Wahda w-Nuss (plus or minus some ornamentation)."
+  ],
+  "text": "Iqa‘ Ciftetelli 8/4 (can also be played in 4/4) Iqa‘ Index Pronunciation of Ciftetelli Iqa‘ Ciftetelli (pronounced \"shaftatalli\" in Arabic) is a Turkish usul that became popular in Arabic music. It is rarely used for composed melodies; instead, its primary use is to support improvisations (both vocal and instrumental). Ciftetelli is usually slow paced and stretched out over two 4/4 measures (see notation), and can share the same tempo and pace as Masmudi Kabir . Alternatively, it can be performed faster and lighter, in which case it can be notated in 4/4 and becomes very similar to Wahda w-Nuss (plus or minus some ornamentation). Ishta'tillak (1962) Vocals and Music by Farid al-Atrash Qasida Ja'at Mu‘adhibati Fatima Serhan The Queen of Balady Layali Rast (from ‘Addini ya M‘addawi) ‘Abbas al-Bleidi Mawwal Khullin Sagani Kasat al-Sabr Muhammad Khayri Ya Dala‘ Dalla‘ (1974) Sabah Music by Farid al-Atrash Qasida ‘Ayni Li Ghayri Jamalikum Al-Turath Ensemble Iqa‘ Ciftetelli 8/4 Tabla demonstration by Faisal Zedan Examples of the faster form of Iqa‘ Ciftetelli that can be notated in 4/4 Bint el-Balad (1951) Instrumental Composition Muhammad Abdel Wahab Mawwal Ya Man Bunudak Harir Muhammad Khayri Nura Nura (1953) Vocals and Music by Farid al-Atrash Taqsim Nay Bayati Muhammad Khayri Tuta (1942) Instrumental Composition (from the movie Ahlam el-Shabab ) Music by Farid al-Atrash Ya Dara Duri Fina Fairouz Music by Philemon Wehbe",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Ishta'tillak (1962)",
+      "artist": "Vocals and Music by Farid al-Atrash",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/ciftetelli_8_4/ishta2tillak.mp3",
+      "local_path": "data/media/iqaa/ciftetelli/ishta2tillak.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Qasida Ja'at Mu‘adhibati",
+      "artist": "Fatima Serhan",
+      "credits": [
+        "The Queen of Balady"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/ciftetelli_8_4/jaat_mu3adhibati.mp3",
+      "local_path": "data/media/iqaa/ciftetelli/jaat_mu3adhibati.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Layali Rast (from ‘Addini ya M‘addawi)",
+      "artist": "‘Abbas al-Bleidi",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/ciftetelli_8_4/layali_3abbas_blaydi.mp3",
+      "local_path": "data/media/iqaa/ciftetelli/layali_3abbas_blaydi.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Mawwal Khullin Sagani Kasat al-Sabr",
+      "artist": "Muhammad Khayri",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/ciftetelli_8_4/mawwal_khayri.mp3",
+      "local_path": "data/media/iqaa/ciftetelli/mawwal_khayri.mp3"
+    },
+    {
+      "index": 5,
+      "title": "Ya Dala‘ Dalla‘ (1974)",
+      "artist": "Sabah",
+      "credits": [
+        "Music by Farid al-Atrash"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/ciftetelli_8_4/ya_dala3.mp3",
+      "local_path": "data/media/iqaa/ciftetelli/ya_dala3.mp3"
+    },
+    {
+      "index": 6,
+      "title": "Qasida ‘Ayni Li Ghayri Jamalikum",
+      "artist": "Al-Turath Ensemble",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/ciftetelli_8_4/qasida_3ayni.mp3",
+      "local_path": "data/media/iqaa/ciftetelli/qasida_3ayni.mp3"
+    },
+    {
+      "index": 7,
+      "title": "Iqa‘ Ciftetelli 8/4",
+      "artist": "Tabla demonstration by Faisal Zedan",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/demo/iqaa/tabla/ciftetelli.mp3",
+      "local_path": "data/media/iqaa/ciftetelli/ciftetelli.mp3"
+    },
+    {
+      "index": 8,
+      "title": "Bint el-Balad (1951)",
+      "artist": "Instrumental Composition",
+      "credits": [
+        "Muhammad Abdel Wahab"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/ciftetelli_4_4/bint_il_balad.mp3",
+      "local_path": "data/media/iqaa/ciftetelli/bint_il_balad.mp3"
+    },
+    {
+      "index": 9,
+      "title": "Mawwal Ya Man Bunudak Harir",
+      "artist": "Muhammad Khayri",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/ciftetelli_4_4/mawwal_khayri.mp3",
+      "local_path": "data/media/iqaa/ciftetelli/mawwal_khayri-3a3ef0a6.mp3"
+    },
+    {
+      "index": 10,
+      "title": "Nura Nura (1953)",
+      "artist": "Vocals and Music by Farid al-Atrash",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/ciftetelli_4_4/nura.mp3",
+      "local_path": "data/media/iqaa/ciftetelli/nura.mp3"
+    },
+    {
+      "index": 11,
+      "title": "Taqsim Nay Bayati",
+      "artist": "Muhammad Khayri",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/ciftetelli_4_4/taqsim_nay.mp3",
+      "local_path": "data/media/iqaa/ciftetelli/taqsim_nay.mp3"
+    },
+    {
+      "index": 12,
+      "title": "Tuta (1942)",
+      "artist": "Instrumental Composition (from the movie Ahlam el-Shabab)",
+      "credits": [
+        "Music by Farid al-Atrash"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/ciftetelli_4_4/tuta.mp3",
+      "local_path": "data/media/iqaa/ciftetelli/tuta.mp3"
+    },
+    {
+      "index": 13,
+      "title": "Ya Dara Duri Fina",
+      "artist": "Fairouz",
+      "credits": [
+        "Music by Philemon Wehbe"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/ciftetelli_4_4/ya_dara_duri.mp3",
+      "local_path": "data/media/iqaa/ciftetelli/ya_dara_duri.mp3"
+    }
+  ],
+  "notes": [],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/ciftetelli_8_4/ishta2tillak.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/ciftetelli/ishta2tillak.mp3",
+      "status": "downloaded",
+      "sha256": "cb55bc593a53701f096eb6bdd8a6e80032e7239c7631da39ac2abd395935f4a0",
+      "bytes": 659909,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/ciftetelli_8_4/jaat_mu3adhibati.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/ciftetelli/jaat_mu3adhibati.mp3",
+      "status": "downloaded",
+      "sha256": "721e862e1f7efe1d3b49b867f1c03ef00525e07cf29724907d9d2e1e43637b37",
+      "bytes": 490824,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/ciftetelli_8_4/layali_3abbas_blaydi.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/ciftetelli/layali_3abbas_blaydi.mp3",
+      "status": "downloaded",
+      "sha256": "b057ea72c6c554cf2198191983430a881cad9fefb59caaabf2083ac27da39038",
+      "bytes": 531701,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/ciftetelli_8_4/mawwal_khayri.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/ciftetelli/mawwal_khayri.mp3",
+      "status": "downloaded",
+      "sha256": "83f637da90a5524307bd662b6c2ffea2c96532237c41d397c91e8add808ebee5",
+      "bytes": 808239,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/ciftetelli_8_4/ya_dala3.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/ciftetelli/ya_dala3.mp3",
+      "status": "downloaded",
+      "sha256": "9cb483bc773ba319c2cd4280a232fa77f4aea856a05a7b12a5fc94a806aee6d2",
+      "bytes": 645447,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/ciftetelli_8_4/qasida_3ayni.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/ciftetelli/qasida_3ayni.mp3",
+      "status": "downloaded",
+      "sha256": "abfd487a8a8b7046da0436869aa7552a963052b4fa4546edec1209c4548c2af8",
+      "bytes": 765699,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/demo/iqaa/tabla/ciftetelli.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/ciftetelli/ciftetelli.mp3",
+      "status": "downloaded",
+      "sha256": "fc88c2c9d5d6273959d90d9ab6212cda135dc30f5da2268b3aa7223dda071806",
+      "bytes": 784971,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/ciftetelli_4_4/bint_il_balad.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/ciftetelli/bint_il_balad.mp3",
+      "status": "downloaded",
+      "sha256": "adc82d1200e18566fbb2db1f067af0b7ddb9bf7f2ee28e9634e056d06e64f9c1",
+      "bytes": 389985,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/ciftetelli_4_4/mawwal_khayri.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/ciftetelli/mawwal_khayri-3a3ef0a6.mp3",
+      "status": "downloaded",
+      "sha256": "b9dfd5ea6246622ffb2bbec9f7f4e3e4e6298ddc3b7d075fd7edfc27b5391fbb",
+      "bytes": 275816,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/ciftetelli_4_4/nura.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/ciftetelli/nura.mp3",
+      "status": "downloaded",
+      "sha256": "c821525361a4cefb45be6b4582aaa94512e08664d38131dfb91088c1cb29a96c",
+      "bytes": 1450547,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/ciftetelli_4_4/taqsim_nay.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/ciftetelli/taqsim_nay.mp3",
+      "status": "downloaded",
+      "sha256": "f7b010e5102ad62676d33653b0c383a47b0c8e755ec6f8a07e03fb511c580049",
+      "bytes": 706153,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/ciftetelli_4_4/tuta.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/ciftetelli/tuta.mp3",
+      "status": "downloaded",
+      "sha256": "535632e52c98af2522770c32a107ae7fac601071d0dfc10d64f3a5a5ccf7e2b3",
+      "bytes": 1896193,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/ciftetelli_4_4/ya_dara_duri.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/ciftetelli/ya_dara_duri.mp3",
+      "status": "downloaded",
+      "sha256": "7ab28d2a3bae228cff32c42b7b93e620c42c6f210b8d7c4d4792430e3b013486",
+      "bytes": 1166350,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/ciftetelli.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/iqaa/ciftetelli/ciftetelli-89bfd03a.mp3",
+      "status": "downloaded",
+      "sha256": "120a575d8666b69555bb0375428ce07b0e0ea4d572ec15b2b9388216cceb8dfc",
+      "bytes": 39705,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/iqaa/ciftetelli.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/ciftetelli/ciftetelli.png",
+      "status": "downloaded",
+      "sha256": "cfbee37a20e0711f90b3a1982c80c5a14ae79b48df6f95522275c3231df2385e",
+      "bytes": 12624,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/cd.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/ciftetelli/cd.png",
+      "status": "downloaded",
+      "sha256": "1f52da76667703a00010a07afefc9d78b6c3ccb8359b906fc6fd6b0cddd0255f",
+      "bytes": 5478,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/tabla.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/ciftetelli/tabla.png",
+      "status": "downloaded",
+      "sha256": "bc7d7630f1797012041feecf8f1a7bc6d926498a88661ab4f28451d50b6c8f30",
+      "bytes": 11602,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Iqa‘ Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "improvisations",
+      "url": "https://www.maqamworld.com/en/form/improv.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Masmudi Kabir",
+      "url": "https://www.maqamworld.com/en/iqaa/masmudi_kabir.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Wahda w-Nuss",
+      "url": "https://www.maqamworld.com/en/iqaa/wahda_w_nuss.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "5fda13b02c8535b79b0ed619102ae1849eb7c49314e3d927b0e4ed52ed1a9918",
+  "fetched_at": "2026-11-10T12:10:55.099657Z",
+  "status_code": 200,
+  "html_file": "data/raw/iqaa/ciftetelli.html"
+}

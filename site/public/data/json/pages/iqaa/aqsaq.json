@@ -1,0 +1,306 @@
+{
+  "url": "https://www.maqamworld.com/en/iqaa/aqsaq.php",
+  "path": "/en/iqaa/aqsaq.php",
+  "section": "iqaa",
+  "slug": "iqaa/aqsaq",
+  "kind": "entry",
+  "title": "Iqa‘ Aqsaq 9/8",
+  "subtitle": "The second form of Iqa‘ Aqsaq",
+  "description": "Iqa‘ Aqsaq",
+  "lang": "en",
+  "paragraphs": [
+    "Iqa‘ Aqsaq is very popular in the Muwashah vocal genre. It is 1 beat short of Iqa‘ Sama‘i Thaqil but sometimes it can be played immediately before or after a piece in that iqa‘ without interruption, during a Wasla.",
+    "An alternate form of Aqsaq replaces the rest on the 6the beat with another dum, thereby creating a sequence of 2 consecutive dum-s that evokes Iqa‘ Sama‘i Thaqil."
+  ],
+  "text": "Iqa‘ Aqsaq 9/8 Iqa‘ Index Pronunciation of Aqsaq Iqa‘ Aqsaq is very popular in the Muwashah vocal genre. It is 1 beat short of Iqa‘ Sama‘i Thaqil but sometimes it can be played immediately before or after a piece in that iqa‘ without interruption, during a Wasla. Muwashah Ma-htiyali Louis Hage & Aida Chalhoub Mouwashah - Chants Arabo-andalous Muwashah Ana Min Wajdi Ana Aicha Redouane Egypte Muwashah Jalla Man Bil Husni Sawwar Abdel Halim Noueira Ensemble Music by Kamel al-Khula‘i Muwashah el-Sama‘ wel-Rah Ibrahim el-Haggar Music by Dawud Husni Bashraf Bulbul al-Afrah Ensemble Morkos Iqa‘ Aqsaq 9/8 - Form I Tabla demonstration by Faisal Zedan The second form of Iqa‘ Aqsaq An alternate form of Aqsaq replaces the rest on the 6 the beat with another dum , thereby creating a sequence of 2 consecutive dum -s that evokes Iqa‘ Sama‘i Thaqil . Muwashah Ma-htiyali Al-Turath Ensemble The Music In Spanish Al Andalus - Hijaz Muwashah Ayyuha al-Saqi Sabah Fakhri Beiteddine Festival Vol. 1 Music by Majdi al-‘Aqili Muwashah ‘Adhibuni Ensemble Al-Kindi The Aleppian Music Room Vol. 1 - Hijazkar Kurd & Saba Music by ‘Umar al-Batsh Muwashah Bi Abi Bahi al-Jamal Muhammad Khayri (Syria) Iqa‘ Aqsaq 9/8 - Form II Tabla demonstration by Faisal Zedan",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Muwashah Ma-htiyali",
+      "artist": "Louis Hage & Aida Chalhoub",
+      "credits": [
+        "Mouwashah - Chants Arabo-andalous"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/aqsaq_form1/ma_htiyali.mp3",
+      "local_path": "data/media/iqaa/aqsaq/ma_htiyali.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Muwashah Ana Min Wajdi Ana",
+      "artist": "Aicha Redouane",
+      "credits": [
+        "Egypte"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/aqsaq_form1/ana_min_wajdi.mp3",
+      "local_path": "data/media/iqaa/aqsaq/ana_min_wajdi.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Muwashah Jalla Man Bil Husni Sawwar",
+      "artist": "Abdel Halim Noueira Ensemble",
+      "credits": [
+        "Music by Kamel al-Khula‘i"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/aqsaq_form1/jalla_man_bil_husni.mp3",
+      "local_path": "data/media/iqaa/aqsaq/jalla_man_bil_husni.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Muwashah el-Sama‘ wel-Rah",
+      "artist": "Ibrahim el-Haggar",
+      "credits": [
+        "Music by Dawud Husni"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/aqsaq_form1/el_sama3_wel_rah.mp3",
+      "local_path": "data/media/iqaa/aqsaq/el_sama3_wel_rah.mp3"
+    },
+    {
+      "index": 5,
+      "title": "Bashraf Bulbul al-Afrah",
+      "artist": "Ensemble Morkos",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/aqsaq_form1/bashraf_bulbul_al_afrah.mp3",
+      "local_path": "data/media/iqaa/aqsaq/bashraf_bulbul_al_afrah.mp3"
+    },
+    {
+      "index": 6,
+      "title": "Iqa‘ Aqsaq 9/8 - Form I",
+      "artist": "Tabla demonstration by Faisal Zedan",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/demo/iqaa/tabla/aqsaq_form1.mp3",
+      "local_path": "data/media/iqaa/aqsaq/aqsaq_form1.mp3"
+    },
+    {
+      "index": 7,
+      "title": "Muwashah Ma-htiyali",
+      "artist": "Al-Turath Ensemble",
+      "credits": [
+        "The Music In Spanish Al Andalus - Hijaz"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/aqsaq_form2/ma_htiyali.mp3",
+      "local_path": "data/media/iqaa/aqsaq/ma_htiyali-a86c553a.mp3"
+    },
+    {
+      "index": 8,
+      "title": "Muwashah Ayyuha al-Saqi",
+      "artist": "Sabah Fakhri",
+      "credits": [
+        "Beiteddine Festival Vol. 1",
+        "Music by Majdi al-‘Aqili"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/aqsaq_form2/ayyuha_al_saqi.mp3",
+      "local_path": "data/media/iqaa/aqsaq/ayyuha_al_saqi.mp3"
+    },
+    {
+      "index": 9,
+      "title": "Muwashah ‘Adhibuni",
+      "artist": "Ensemble Al-Kindi",
+      "credits": [
+        "The Aleppian Music Room Vol. 1 - Hijazkar Kurd & Saba",
+        "Music by ‘Umar al-Batsh"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/aqsaq_form2/azzibuni.mp3",
+      "local_path": "data/media/iqaa/aqsaq/azzibuni.mp3"
+    },
+    {
+      "index": 10,
+      "title": "Muwashah Bi Abi Bahi al-Jamal",
+      "artist": "Muhammad Khayri (Syria)",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/aqsaq_form2/bi_abi_bahil_jamal.mp3",
+      "local_path": "data/media/iqaa/aqsaq/bi_abi_bahil_jamal.mp3"
+    },
+    {
+      "index": 11,
+      "title": "Iqa‘ Aqsaq 9/8 - Form II",
+      "artist": "Tabla demonstration by Faisal Zedan",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/demo/iqaa/tabla/aqsaq_form2.mp3",
+      "local_path": "data/media/iqaa/aqsaq/aqsaq_form2.mp3"
+    }
+  ],
+  "notes": [],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/aqsaq_form1/ma_htiyali.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/aqsaq/ma_htiyali.mp3",
+      "status": "downloaded",
+      "sha256": "6e17e085c99aa6bd245f5bc9bf5702ca71165553b105c244d26856d54080034a",
+      "bytes": 1078720,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/aqsaq_form1/ana_min_wajdi.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/aqsaq/ana_min_wajdi.mp3",
+      "status": "downloaded",
+      "sha256": "a0c6a70b062d2d77734f18ac2d347369a9a1fffdf3d0e6c92c840be697e4c02a",
+      "bytes": 605166,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/aqsaq_form1/jalla_man_bil_husni.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/aqsaq/jalla_man_bil_husni.mp3",
+      "status": "downloaded",
+      "sha256": "a46d762a60029529188ac5ed35a6d797ca5b17efcde7d8f32b628b7d621685fb",
+      "bytes": 940405,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/aqsaq_form1/el_sama3_wel_rah.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/aqsaq/el_sama3_wel_rah.mp3",
+      "status": "downloaded",
+      "sha256": "403a26247620463b3a572f1e8838841e5575d9b13ef87a6bc6fa77b0e8665d35",
+      "bytes": 520604,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/aqsaq_form1/bashraf_bulbul_al_afrah.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/aqsaq/bashraf_bulbul_al_afrah.mp3",
+      "status": "downloaded",
+      "sha256": "6b589635a7284c233395af2096bfb42cdd64be93193c75d4f5474df1259c7004",
+      "bytes": 689570,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/demo/iqaa/tabla/aqsaq_form1.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/aqsaq/aqsaq_form1.mp3",
+      "status": "downloaded",
+      "sha256": "affdd488dc995fcbeae919481c2bb1301669f25d7710560e262b3fc8c8f2bf06",
+      "bytes": 779119,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/aqsaq_form2/ma_htiyali.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/aqsaq/ma_htiyali-a86c553a.mp3",
+      "status": "downloaded",
+      "sha256": "fc4f80e5511b28cc5dff8635e4262a5cb6836b7484435773571b8b1cc3c40222",
+      "bytes": 1310629,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/aqsaq_form2/ayyuha_al_saqi.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/aqsaq/ayyuha_al_saqi.mp3",
+      "status": "downloaded",
+      "sha256": "6d5be84afd29016aad27b573345d6b64c295e2e9e02cd239c34ff6fb22e043b0",
+      "bytes": 716782,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/aqsaq_form2/azzibuni.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/aqsaq/azzibuni.mp3",
+      "status": "downloaded",
+      "sha256": "15aae9530226ba10347e068cd40cc31738dd0b798ffa232ec6d1b3038f45a064",
+      "bytes": 707262,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/aqsaq_form2/bi_abi_bahil_jamal.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/aqsaq/bi_abi_bahil_jamal.mp3",
+      "status": "downloaded",
+      "sha256": "21adeb7ea29679b1eac5571413c094b09bdf058bd1129e745d4bf7449b24213a",
+      "bytes": 2324214,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/demo/iqaa/tabla/aqsaq_form2.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/aqsaq/aqsaq_form2.mp3",
+      "status": "downloaded",
+      "sha256": "9bdfae8e23af4583e283d8d3bd5e18665e2d6975118ff6983da57572654a226b",
+      "bytes": 797928,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/aqsaq.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/iqaa/aqsaq/aqsaq.mp3",
+      "status": "downloaded",
+      "sha256": "a93fa7349807f8921f5ffb79808febb071995a6e94927190713994eae83613f1",
+      "bytes": 35525,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/iqaa/aqsaq_f1.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/aqsaq/aqsaq_f1.png",
+      "status": "downloaded",
+      "sha256": "a49c422edaa840957be550eee3213e37cec2a55c7b2c618613f7dd71455a5ece",
+      "bytes": 12858,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/cd.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/aqsaq/cd.png",
+      "status": "downloaded",
+      "sha256": "1f52da76667703a00010a07afefc9d78b6c3ccb8359b906fc6fd6b0cddd0255f",
+      "bytes": 5478,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/tabla.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/aqsaq/tabla.png",
+      "status": "downloaded",
+      "sha256": "bc7d7630f1797012041feecf8f1a7bc6d926498a88661ab4f28451d50b6c8f30",
+      "bytes": 11602,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/iqaa/aqsaq_f2.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/aqsaq/aqsaq_f2.png",
+      "status": "downloaded",
+      "sha256": "2ddb172a0d75da7c1fac062a6898ade8f17336ba88194e3366a1b2505469b7ec",
+      "bytes": 12357,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Iqa‘ Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Muwashah",
+      "url": "https://www.maqamworld.com/en/form/vocal_comp.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Iqa‘ Sama‘i Thaqil",
+      "url": "https://www.maqamworld.com/en/iqaa/samai_thaqil.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "e6a1dc5ba6c1af05669a67d2118ca8b2516b6209590b58b55ac4b21af218dc38",
+  "fetched_at": "2026-11-10T12:10:55.089188Z",
+  "status_code": 200,
+  "html_file": "data/raw/iqaa/aqsaq.html"
+}

@@ -54,6 +54,9 @@ is the safer and only complete path.
 4. **Scope:** core gameplay + offline content, plus AdMob interstitial every 5 solved rounds and an
    opt-in rewarded ad for a hint.
 5. **Agent setup:** `AGENTS.md` plus cross-agent rule files (`CLAUDE.md`, `.cursor/rules`).
+6. **Content delivery (2026-11-10):** the public site is the runtime content source. The app ships a
+   bundled pack for offline use, then adopts a newer `pack.json` from the site when its
+   `content_version` differs. See `docs/phase0/remote-pack.md`.
 
 Defaults chosen where the owner did not specify (all changeable before Play upload):
 
@@ -89,7 +92,8 @@ Defaults chosen where the owner did not specify (all changeable before Play uplo
 
 ### 4.2 Non-functional requirements
 
-- Gameplay, content, and progress work fully offline; only ad requests need network.
+- Gameplay, content, and progress work fully offline from the bundled or last-known-good pack;
+  network is only used to refresh content and to request ads.
 - No analytics or tracking beyond what the AdMob SDK collects; no accounts.
 - Arabic/RTL by default; usable at 320 dp width.
 - Cold start to Home < 1.5 s on a mid-range device.
@@ -100,8 +104,9 @@ Defaults chosen where the owner did not specify (all changeable before Play uplo
 ### 4.3 Explicitly out of scope for V1
 
 Coins, extra hint types (skip/remove), daily reward wheel, banner ads, remove-ads IAP, Play Games
-leaderboards, cloud save, push notifications, remote content updates, accounts, social sharing,
-analytics, crash reporting. (Interstitial + rewarded hint are now in scope; see §7 Phase 4.)
+leaderboards, cloud save, push notifications, accounts, social sharing, analytics, crash reporting.
+(Interstitial + rewarded hint are now in scope; see §7 Phase 4. Remote content updates are in scope;
+see §3 item 6 and `docs/phase0/remote-pack.md`.)
 
 ---
 
@@ -210,12 +215,21 @@ assets/content/levels.json
   (`admob.appId`, `admob.interstitialUnitId`, `admob.rewardedUnitId`) and are never committed.
 - `local.properties` and keystores are gitignored; signing keys are backed up offline.
 
-### 6.5 Current implementation status
+### 6.5 Remote content delivery
+
+The site publishes `data/pack.json`, generated from `site/public/data/maqams.json` by
+`tools/sync_app_pack.py`. The app keeps a bundled pack as the offline baseline, adopts a newer pack
+when `content_version` differs, and verifies clip digests before use. Full design, limits, and test
+plan: `docs/phase0/remote-pack.md`.
+
+### 6.6 Current implementation status
 
 | Area | Status |
 | --- | --- |
 | Gradle/Compose scaffold | Done |
-| Content pack + 10 synthesized tracks | Done |
+| Content pack (3 Pack 1 phrases) | Done |
+| Site catalog + generated app pack | Done |
+| Runtime pack updates from the site | Pending (§6.5) |
 | Game engine, Arabic normalization, tests | Done |
 | Home + game + win overlay | Done |
 | Progress persistence (solved IDs), rounds counter, reset dialog | Done |

@@ -1,0 +1,150 @@
+{
+  "url": "https://www.maqamworld.com/en/iqaa/baladi.php",
+  "path": "/en/iqaa/baladi.php",
+  "section": "iqaa",
+  "slug": "iqaa/baladi",
+  "kind": "entry",
+  "title": "Iqa‘ Baladi 4/4",
+  "subtitle": "(also called Masmudi Saghir)",
+  "description": "Iqa‘ Baladi (Masmudi Saghir)",
+  "lang": "en",
+  "paragraphs": [
+    "Iqa‘ Baladi is a very common iqa‘ in the Near Eastern Arabic vocal repertoire. It is also called Masmudi Saghir, \"saghir\" meaning little in Arabic, to distinguish it from Masmudi Kabir, which spans two 4/4 measures instead of one. Baladi modulates frequently to Maqsum and back, as well as to Malfuf (using 2 measures of Malfuf to 1 measure of Baladi)."
+  ],
+  "text": "Iqa‘ Baladi 4/4 (also called Masmudi Saghir ) Iqa‘ Index Pronunciation of Baladi Iqa‘ Baladi is a very common iqa‘ in the Near Eastern Arabic vocal repertoire. It is also called Masmudi Saghir , \"saghir\" meaning little in Arabic, to distinguish it from Masmudi Kabir , which spans two 4/4 measures instead of one. Baladi modulates frequently to Maqsum and back, as well as to Malfuf (using 2 measures of Malfuf to 1 measure of Baladi). ‘Aziza (1955) Instrumental Composition Music by Muhammad Abdel Wahab (from the movie ‘Aziza, 1955) Talumuni Wa Lam Tarthu Li Hali Hassan al-Haffar Qadd Malik Ya Hilwa Muhammad Khayri Iqa‘ Baladi 4/4 Tabla demonstration by Faisal Zedan",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "‘Aziza (1955)",
+      "artist": "Instrumental Composition",
+      "credits": [
+        "Music by Muhammad Abdel Wahab (from the movie ‘Aziza, 1955)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/baladi/aziza.mp3",
+      "local_path": "data/media/iqaa/baladi/aziza.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Talumuni Wa Lam Tarthu Li Hali",
+      "artist": "Hassan al-Haffar",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/baladi/halummu.mp3",
+      "local_path": "data/media/iqaa/baladi/halummu.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Qadd Malik Ya Hilwa",
+      "artist": "Muhammad Khayri",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/baladi/malik_ya_hilwa.mp3",
+      "local_path": "data/media/iqaa/baladi/malik_ya_hilwa.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Iqa‘ Baladi 4/4",
+      "artist": "Tabla demonstration by Faisal Zedan",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/demo/iqaa/tabla/baladi.mp3",
+      "local_path": "data/media/iqaa/baladi/baladi.mp3"
+    }
+  ],
+  "notes": [],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/baladi/aziza.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/baladi/aziza.mp3",
+      "status": "downloaded",
+      "sha256": "6afccfe94a43cba7e9102c3f9bb5d8c483fb3727006a0bcd72f65f08ed2ce557",
+      "bytes": 482099,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/baladi/halummu.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/baladi/halummu.mp3",
+      "status": "downloaded",
+      "sha256": "01af9f3269090539035d0abada0b643ef7c07987b5d185caf1bd576c8a333c1c",
+      "bytes": 593133,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/baladi/malik_ya_hilwa.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/baladi/malik_ya_hilwa.mp3",
+      "status": "downloaded",
+      "sha256": "0a2e86a739c2416992f34fd1aba040f24c2e552fddf50d9ba36ab75eb40d93da",
+      "bytes": 439475,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/demo/iqaa/tabla/baladi.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/baladi/baladi.mp3",
+      "status": "downloaded",
+      "sha256": "d7c4087f454f4dd71087a6472b1281696129264dd830ddbda4163098fba319d8",
+      "bytes": 814228,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/baladi.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/iqaa/baladi/baladi-220d8689.mp3",
+      "status": "downloaded",
+      "sha256": "a6b84a4cee1864172d513ce5c86cb83cdefa181c4e122789045154a140ee238b",
+      "bytes": 29256,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/iqaa/baladi.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/baladi/baladi.png",
+      "status": "downloaded",
+      "sha256": "184e51231935460af2d208ef5193d016449522adf812b4d1a72a334f4210f288",
+      "bytes": 12000,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/tabla.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/baladi/tabla.png",
+      "status": "downloaded",
+      "sha256": "bc7d7630f1797012041feecf8f1a7bc6d926498a88661ab4f28451d50b6c8f30",
+      "bytes": 11602,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Iqa‘ Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Masmudi Kabir",
+      "url": "https://www.maqamworld.com/en/iqaa/masmudi_kabir.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqsum",
+      "url": "https://www.maqamworld.com/en/iqaa/maqsum.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Malfuf",
+      "url": "https://www.maqamworld.com/en/iqaa/malfuf.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "dd3fe26c4d7fc0427a4c9a6260bab7fb0e097e1ff0bdc3fb86dbb0b8ee951a1d",
+  "fetched_at": "2026-11-10T12:10:55.095978Z",
+  "status_code": 200,
+  "html_file": "data/raw/iqaa/baladi.html"
+}

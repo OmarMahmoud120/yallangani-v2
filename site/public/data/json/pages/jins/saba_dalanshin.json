@@ -1,0 +1,227 @@
+{
+  "url": "https://www.maqamworld.com/en/jins/saba_dalanshin.php",
+  "path": "/en/jins/saba_dalanshin.php",
+  "section": "jins",
+  "slug": "jins/saba_dalanshin",
+  "kind": "entry",
+  "title": "Jins Saba Dalanshin New",
+  "subtitle": "A special version of Jins Saba with its tonic on the 3rd degree",
+  "description": "Jins Saba Dalanshin",
+  "lang": "en",
+  "paragraphs": [
+    "Click the notes and hold using the mouse to hear them play.",
+    "Jins Saba Dalanshin is a special case of Jins Saba which has no ghammaz, and therefore no defined size. Its melody is centered around its tonic, notated here on C. The intervals above the tonic are more or less identical to Jins Hijaz. The note that is 2 degrees below the tonic (in this case A) is a secondary tonic.",
+    "Jins Saba Dalanshin occurs on the octave of Maqam Rast, which in this case becomes known as Maqam Dalanshin. It also occurs on the 5th degree of Maqam Shawq Afza."
+  ],
+  "text": "Jins Saba Dalanshin New A special version of Jins Saba with its tonic on the 3 rd degree Jins Index Pronunciation of Saba Dalanshin Click the notes and hold using the mouse to hear them play. Jins Saba Dalanshin is a special case of Jins Saba which has no ghammaz , and therefore no defined size. Its melody is centered around its tonic, notated here on C. The intervals above the tonic are more or less identical to Jins Hijaz . The note that is 2 degrees below the tonic (in this case A) is a secondary tonic. Jins Saba Dalanshin occurs on the octave of Maqam Rast , which in this case becomes known as Maqam Dalanshin . It also occurs on the 5 th degree of Maqam Shawq Afza . Ya Mal el-Sham Sabah Fakhri Music by Ahmad Abu Khalil al-Qabbani Qasida Ya Jirat al-Sha‘b al-Yamani Hasan al-Haffar Muwashah Mala al-Kasat (khana) Sabah Fakhri Music by Muhammad ‘Uthman Qanun Taqsim (from Layali Rast) ‘Abbas al-Bleidi Ya Halawit el-Dunya Sayyed Makkawi Music by Zakariya Ahmad (Egypt) Iswaret el-‘Arus (1989) Fairouz Music by Philemon Wehbe",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Ya Mal el-Sham",
+      "artist": "Sabah Fakhri",
+      "credits": [
+        "Music by Ahmad Abu Khalil al-Qabbani"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/saba_dalanshin/ya_mal_el_sham.mp3",
+      "local_path": "data/media/jins/saba_dalanshin/ya_mal_el_sham.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Qasida Ya Jirat al-Sha‘b al-Yamani",
+      "artist": "Hasan al-Haffar",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/jins/saba_dalanshin/ja_jirat_al_sha3b_al_yamani.mp3",
+      "local_path": "data/media/jins/saba_dalanshin/ja_jirat_al_sha3b_al_yamani.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Muwashah Mala al-Kasat (khana)",
+      "artist": "Sabah Fakhri",
+      "credits": [
+        "Music by Muhammad ‘Uthman"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/saba_dalanshin/mala_el_kasat_khana.mp3",
+      "local_path": "data/media/jins/saba_dalanshin/mala_el_kasat_khana.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Qanun Taqsim (from Layali Rast)",
+      "artist": "‘Abbas al-Bleidi",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/jins/saba_dalanshin/qanun_tqasim_rast.mp3",
+      "local_path": "data/media/jins/saba_dalanshin/qanun_tqasim_rast.mp3"
+    },
+    {
+      "index": 5,
+      "title": "Ya Halawit el-Dunya",
+      "artist": "Sayyed Makkawi",
+      "credits": [
+        "Music by Zakariya Ahmad (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/saba_dalanshin/ya_halawit_el_dunya.mp3",
+      "local_path": "data/media/jins/saba_dalanshin/ya_halawit_el_dunya.mp3"
+    },
+    {
+      "index": 6,
+      "title": "Iswaret el-‘Arus (1989)",
+      "artist": "Fairouz",
+      "credits": [
+        "Music by Philemon Wehbe"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/saba_dalanshin/zahrit_el_janub.mp3",
+      "local_path": "data/media/jins/saba_dalanshin/zahrit_el_janub.mp3"
+    }
+  ],
+  "notes": [
+    {
+      "name": "G4",
+      "frequency": 391.11
+    },
+    {
+      "name": "G4♯",
+      "frequency": 415.0
+    },
+    {
+      "name": "A4",
+      "frequency": 440.0
+    },
+    {
+      "name": "B4",
+      "frequency": 477.0
+    },
+    {
+      "name": "C5",
+      "frequency": 521.48
+    },
+    {
+      "name": "D5♭",
+      "frequency": 560.0
+    },
+    {
+      "name": "E5♮",
+      "frequency": 660.0
+    },
+    {
+      "name": "F5",
+      "frequency": 695.3
+    }
+  ],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/jins/saba_dalanshin/ya_mal_el_sham.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/saba_dalanshin/ya_mal_el_sham.mp3",
+      "status": "downloaded",
+      "sha256": "04e34147184549c8218583c05735aaa0ad41194a76c98544636d3d8d1ab06356",
+      "bytes": 370276,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/saba_dalanshin/ja_jirat_al_sha3b_al_yamani.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/saba_dalanshin/ja_jirat_al_sha3b_al_yamani.mp3",
+      "status": "downloaded",
+      "sha256": "8f7c365027ea2400888e2d1361256026bfe2638c838678c183b45f59ca00a687",
+      "bytes": 661052,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/saba_dalanshin/mala_el_kasat_khana.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/saba_dalanshin/mala_el_kasat_khana.mp3",
+      "status": "downloaded",
+      "sha256": "e021bc0e7fc37688ec40e75b47dd1b2b9f6a389a3f977c1cd738e96a04d27792",
+      "bytes": 307701,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/saba_dalanshin/qanun_tqasim_rast.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/saba_dalanshin/qanun_tqasim_rast.mp3",
+      "status": "downloaded",
+      "sha256": "a277678a75749343491898f54dbbcefeab8f4ee8655f975220846e47548172b8",
+      "bytes": 501621,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/saba_dalanshin/ya_halawit_el_dunya.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/saba_dalanshin/ya_halawit_el_dunya.mp3",
+      "status": "downloaded",
+      "sha256": "c8c8489bca21ce668fb7a839b1c1cbc2f9dc7784248a54fab2edb315aa8ffb55",
+      "bytes": 348279,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/saba_dalanshin/zahrit_el_janub.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/saba_dalanshin/zahrit_el_janub.mp3",
+      "status": "downloaded",
+      "sha256": "2bc1dc92f5aa129eb92942dbcbfe7a08fbdbbdcecebf08c3956ba4581684f8e9",
+      "bytes": 500242,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/saba_dalanshin.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/jins/saba_dalanshin/saba_dalanshin.mp3",
+      "status": "downloaded",
+      "sha256": "4df84f5bb8e00056ac2a09e2b5f03935a3e83920f5de02c49a0a15ba9cd3f668",
+      "bytes": 57468,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/jins/saba_dalanshin.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/jins/saba_dalanshin/saba_dalanshin.png",
+      "status": "downloaded",
+      "sha256": "2d095ea4c1c7e15cff946a20cfb9f191d56e33d34b26a377369bc2ad8853756c",
+      "bytes": 10509,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Jins Saba",
+      "url": "https://www.maqamworld.com/en/jins/saba.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Jins Hijaz",
+      "url": "https://www.maqamworld.com/en/jins/hijaz.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Rast",
+      "url": "https://www.maqamworld.com/en/maqam/rast.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Dalanshin",
+      "url": "https://www.maqamworld.com/en/maqam/dalanshin.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Shawq Afza",
+      "url": "https://www.maqamworld.com/en/maqam/shawq_afza.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "d56f523284f9ded89081719fec603c832a4f00bf31ce70cc3bd48ba5bb64c21f",
+  "fetched_at": "2026-11-10T12:10:55.077928Z",
+  "status_code": 200,
+  "html_file": "data/raw/jins/saba_dalanshin.html"
+}

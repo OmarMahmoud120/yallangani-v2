@@ -1,0 +1,226 @@
+{
+  "url": "https://www.maqamworld.com/en/jins/nikriz.php",
+  "path": "/en/jins/nikriz.php",
+  "section": "jins",
+  "slug": "jins/nikriz",
+  "kind": "entry",
+  "title": "Jins Nikriz",
+  "subtitle": "Root jins of the Maqam Nikriz Family",
+  "description": "Jins Nikriz",
+  "lang": "en",
+  "paragraphs": [
+    "Click the notes and hold using the mouse to hear them play.",
+    "Jins Nikriz is a 5-note jins. It is notated here with its tonic on C and its ghammaz on G. Jins Nikriz is the first jins in Maqam Nikriz and Maqam Nawa Athar."
+  ],
+  "text": "Jins Nikriz Root jins of the Maqam Nikriz Family Jins Index Pronunciation of Nikriz Click the notes and hold using the mouse to hear them play. Jins Nikriz is a 5-note jins . It is notated here with its tonic on C and its ghammaz on G. Jins Nikriz is the first jins in Maqam Nikriz and Maqam Nawa Athar . Muwashah Bayna Qasiyun Wa Rabwa Syrian National Orchestra Music by ‘Umar al-Batsh ‘Awwidti ‘Eini (1957) Umm Kulthum Music by Riyad al-Sunbati Hawwil Ya Ghannam Najah Salam Music by Eliya al-Matni Ba‘id ‘Annak (1965) Umm Kulthum Music by Baligh Hamdi (Egypt) Fi Youm We Leila (1978) Warda Music by Muhammad Abdel Wahab (Egypt) Qasida Lamma Anakhu Sabah Fakhri",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Muwashah Bayna Qasiyun Wa Rabwa",
+      "artist": "Syrian National Orchestra",
+      "credits": [
+        "Music by ‘Umar al-Batsh"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/nikriz/bayna_qasiyun_wa_rabwa.mp3",
+      "local_path": "data/media/jins/nikriz/bayna_qasiyun_wa_rabwa.mp3"
+    },
+    {
+      "index": 2,
+      "title": "‘Awwidti ‘Eini (1957)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Riyad al-Sunbati"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/nikriz/3awwidti_3eini.mp3",
+      "local_path": "data/media/jins/nikriz/3awwidti_3eini.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Hawwil Ya Ghannam",
+      "artist": "Najah Salam",
+      "credits": [
+        "Music by Eliya al-Matni"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/nikriz/hawwil_ya_ghannam.mp3",
+      "local_path": "data/media/jins/nikriz/hawwil_ya_ghannam.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Ba‘id ‘Annak (1965)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Baligh Hamdi (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/nikriz/ba3id_annak.mp3",
+      "local_path": "data/media/jins/nikriz/ba3id_annak.mp3"
+    },
+    {
+      "index": 5,
+      "title": "Fi Youm We Leila (1978)",
+      "artist": "Warda",
+      "credits": [
+        "Music by Muhammad Abdel Wahab (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/nikriz/fi_youm_we_leila.mp3",
+      "local_path": "data/media/jins/nikriz/fi_youm_we_leila.mp3"
+    },
+    {
+      "index": 6,
+      "title": "Qasida Lamma Anakhu",
+      "artist": "Sabah Fakhri",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/jins/nikriz/lamma_anakhu.mp3",
+      "local_path": "data/media/jins/nikriz/lamma_anakhu.mp3"
+    }
+  ],
+  "notes": [
+    {
+      "name": "A3♭",
+      "frequency": 209.0
+    },
+    {
+      "name": "B3♮",
+      "frequency": 247.5
+    },
+    {
+      "name": "C4",
+      "frequency": 260.74
+    },
+    {
+      "name": "D4",
+      "frequency": 293.33
+    },
+    {
+      "name": "E4♭",
+      "frequency": 315.0
+    },
+    {
+      "name": "F4♯",
+      "frequency": 375.0
+    },
+    {
+      "name": "G4",
+      "frequency": 391.11
+    },
+    {
+      "name": "A4♭",
+      "frequency": 414.0
+    },
+    {
+      "name": "A4♮",
+      "frequency": 440.0
+    },
+    {
+      "name": "B4♭",
+      "frequency": 463.54
+    }
+  ],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/jins/nikriz/bayna_qasiyun_wa_rabwa.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/nikriz/bayna_qasiyun_wa_rabwa.mp3",
+      "status": "downloaded",
+      "sha256": "c74ce7646f22a461800a6d2a68315469850cc5f6d97b6d44621179c5b4039b8d",
+      "bytes": 468115,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/nikriz/3awwidti_3eini.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/nikriz/3awwidti_3eini.mp3",
+      "status": "downloaded",
+      "sha256": "685107b78510eefe63107274cbb0725784bd82213c49d0c9c37f640eae49ac41",
+      "bytes": 283740,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/nikriz/hawwil_ya_ghannam.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/nikriz/hawwil_ya_ghannam.mp3",
+      "status": "downloaded",
+      "sha256": "63900367d7376d72acf4f74575f4ea23cae780b526db343a3dc2852a9d6b5238",
+      "bytes": 732589,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/nikriz/ba3id_annak.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/nikriz/ba3id_annak.mp3",
+      "status": "downloaded",
+      "sha256": "1a5f80fd055ffb315fb70e4921cf00d88c160c6e2722d803b64847c26fd55549",
+      "bytes": 389910,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/nikriz/fi_youm_we_leila.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/nikriz/fi_youm_we_leila.mp3",
+      "status": "downloaded",
+      "sha256": "9cb50f748a41f8a100e826123c06f1fe4260f94b7a5901faeba81d6daac9cde5",
+      "bytes": 913779,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/nikriz/lamma_anakhu.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/nikriz/lamma_anakhu.mp3",
+      "status": "downloaded",
+      "sha256": "4c9d9afd30153c4286555cd44a539a521da872d7138491d92697f28712f63602",
+      "bytes": 382861,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/nikriz.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/jins/nikriz/nikriz.mp3",
+      "status": "downloaded",
+      "sha256": "c49763159b7611b0938e4606ee534af9bc4105b6ccf473c673da9326ccf05e29",
+      "bytes": 36570,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/jins/nikriz.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/jins/nikriz/nikriz.png",
+      "status": "downloaded",
+      "sha256": "710437d264143079997550689273b1981aec6c1f7f2952c4c92ba2f866c47b90",
+      "bytes": 12182,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Maqam Nikriz Family",
+      "url": "https://www.maqamworld.com/en/maqam/f_nikriz.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Maqam Nikriz",
+      "url": "https://www.maqamworld.com/en/maqam/nikriz.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Nawa Athar",
+      "url": "https://www.maqamworld.com/en/maqam/nawa_athar.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "f066bfcb0e0b10bc069749a9630c77c170d6cb41eae2e1878a749381362b1d95",
+  "fetched_at": "2026-11-10T12:10:55.073391Z",
+  "status_code": 200,
+  "html_file": "data/raw/jins/nikriz.html"
+}

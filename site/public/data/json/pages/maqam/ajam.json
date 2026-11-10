@@ -1,0 +1,216 @@
+{
+  "url": "https://www.maqamworld.com/en/maqam/ajam.php",
+  "path": "/en/maqam/ajam.php",
+  "section": "maqam",
+  "slug": "maqam/ajam",
+  "kind": "entry",
+  "title": "Maqam ‘Ajam",
+  "subtitle": "The principal maqam in the Maqam ‘Ajam Family",
+  "description": "Maqam ‘Ajam",
+  "lang": "en",
+  "paragraphs": [
+    "Click the notes and hold using the mouse to hear them play.",
+    "Maqam ‘Ajam (also known as Egyptian ‘Ajam) is The principal maqam in the Maqam ‘Ajam Family, and starts with the root Jins ‘Ajam on the tonic, followed by either Jins Upper ‘Ajam on the 5th degree (with its tonic up on the 8th degree) or Jins Nahawand on the 5th degree.",
+    "Explore other maqamat in the Maqam ‘Ajam Family."
+  ],
+  "text": "Maqam ‘Ajam The principal maqam in the Maqam ‘Ajam Family Maqam Index Pronunciation of ‘Ajam Click the notes and hold using the mouse to hear them play. Maqam ‘Ajam (also known as Egyptian ‘Ajam) is The principal maqam in the Maqam ‘Ajam Family , and starts with the root Jins ‘Ajam on the tonic , followed by either Jins Upper ‘Ajam on the 5 th degree (with its tonic up on the 8 th degree) or Jins Nahawand on the 5 th degree. Explore other maqamat in the Maqam ‘Ajam Family . Aghadan Alqak (1971) Umm Kulthum Music by Muhammad Abdel Wahab (Egypt) el-Bahr Biyidhak Vocals and Music by Sheikh Imam Fi Youm Wi Leila (1978) Warda Music by Muhammad Abdel Wahab (Egypt) Tal‘a Min Beit Abuha Nazem al-Ghazali (Iraqi Traditional) Zuruni Kulli Sana Marra Karem Mahmud Music by Sayyed Darwish",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Aghadan Alqak (1971)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Muhammad Abdel Wahab (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/ajam/aghadan_alqak.mp3",
+      "local_path": "data/media/maqam/ajam/aghadan_alqak.mp3"
+    },
+    {
+      "index": 2,
+      "title": "el-Bahr Biyidhak",
+      "artist": "Vocals and Music by Sheikh Imam",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/ajam/el_bahri_biyidhak.mp3",
+      "local_path": "data/media/maqam/ajam/el_bahri_biyidhak.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Fi Youm Wi Leila (1978)",
+      "artist": "Warda",
+      "credits": [
+        "Music by Muhammad Abdel Wahab (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/ajam/fi_youm_wi_leila.mp3",
+      "local_path": "data/media/maqam/ajam/fi_youm_wi_leila.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Tal‘a Min Beit Abuha",
+      "artist": "Nazem al-Ghazali",
+      "credits": [
+        "(Iraqi Traditional)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/ajam/tal3a_min_beit_abuha.mp3",
+      "local_path": "data/media/maqam/ajam/tal3a_min_beit_abuha.mp3"
+    },
+    {
+      "index": 5,
+      "title": "Zuruni Kulli Sana Marra",
+      "artist": "Karem Mahmud",
+      "credits": [
+        "Music by Sayyed Darwish"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/ajam/zuruni.mp3",
+      "local_path": "data/media/maqam/ajam/zuruni.mp3"
+    }
+  ],
+  "notes": [
+    {
+      "name": "C4",
+      "frequency": 260.74
+    },
+    {
+      "name": "D4",
+      "frequency": 293.33
+    },
+    {
+      "name": "E4",
+      "frequency": 328.0
+    },
+    {
+      "name": "F4",
+      "frequency": 347.65
+    },
+    {
+      "name": "G4",
+      "frequency": 391.11
+    },
+    {
+      "name": "A4",
+      "frequency": 440.0
+    },
+    {
+      "name": "B4",
+      "frequency": 495.0
+    },
+    {
+      "name": "C5",
+      "frequency": 521.48
+    },
+    {
+      "name": "B4♭",
+      "frequency": 463.54
+    },
+    {
+      "name": "A4",
+      "frequency": 440.0
+    },
+    {
+      "name": "G4",
+      "frequency": 391.11
+    }
+  ],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/ajam/aghadan_alqak.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/ajam/aghadan_alqak.mp3",
+      "status": "downloaded",
+      "sha256": "1d14fdc6549ff01602e850cacd5e6fe46cb5b14c2f7c4b8e81f9813218b9a621",
+      "bytes": 645604,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/ajam/el_bahri_biyidhak.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/ajam/el_bahri_biyidhak.mp3",
+      "status": "downloaded",
+      "sha256": "7e8a39746729ddf09a4ebd5be68a0ea33713449e7e95ae88581d65b9a433e576",
+      "bytes": 647720,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/ajam/fi_youm_wi_leila.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/ajam/fi_youm_wi_leila.mp3",
+      "status": "downloaded",
+      "sha256": "64e1c79404649193747bbde2ead5816034f3127f164b52c3c08bf20e2b25b0d4",
+      "bytes": 923608,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/ajam/tal3a_min_beit_abuha.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/ajam/tal3a_min_beit_abuha.mp3",
+      "status": "downloaded",
+      "sha256": "8746d21f4f2ec95ede7d16aca64b7b515fc2862009e673b75db2f3f1f324ed9b",
+      "bytes": 705708,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/ajam/zuruni.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/ajam/zuruni.mp3",
+      "status": "downloaded",
+      "sha256": "e9a9ee3d8a3ed7f741a2b7777045b3c2a386629f0765a0984994ca4eb083925d",
+      "bytes": 327223,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/ajam.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/maqam/ajam/ajam.mp3",
+      "status": "downloaded",
+      "sha256": "69e77909a0453cc86a1032c790433e5b4c0d9db85978fca371b2783ea7e52962",
+      "bytes": 28211,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/maqam/ajam.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/maqam/ajam/ajam.png",
+      "status": "downloaded",
+      "sha256": "dfb726aeda0c4a4688ef9ef8920d5f8a89dd5f72487e079fe0dbde318f54f17d",
+      "bytes": 16185,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Maqam ‘Ajam Family",
+      "url": "https://www.maqamworld.com/en/maqam/f_ajam.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Jins ‘Ajam",
+      "url": "https://www.maqamworld.com/en/jins/ajam.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Upper ‘Ajam",
+      "url": "https://www.maqamworld.com/en/jins/upper_ajam.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Nahawand",
+      "url": "https://www.maqamworld.com/en/jins/nahawand.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "eab4b96ac73975c235d62a5f9445f24f2a0a211f80c5c208624cfe4acc966c71",
+  "fetched_at": "2026-11-10T12:10:54.838520Z",
+  "status_code": 200,
+  "html_file": "data/raw/maqam/ajam.html"
+}

@@ -1,0 +1,276 @@
+{
+  "url": "https://www.maqamworld.com/en/maqam/saba.php",
+  "path": "/en/maqam/saba.php",
+  "section": "maqam",
+  "slug": "maqam/saba",
+  "kind": "entry",
+  "title": "Maqam Saba",
+  "subtitle": "(not part of a maqam family)",
+  "description": "Maqam Saba",
+  "lang": "en",
+  "paragraphs": [
+    "Click the notes and hold using the mouse to hear them play.",
+    "Maqam Saba is a very popular and common maqam in the Arabic repertory. Its scale starts with Jins Saba on the tonic, overlapped by Jins Hijaz on the 3rd degree, followed by either Jins ‘Ajam or Jins Nikriz on the 6th degree.",
+    "Maqam Saba is not part of a maqam family.",
+    "Watch a 1-minute sample Violin Taqsim in Maqam Saba by Sami Abu Shumays."
+  ],
+  "text": "Maqam Saba (not part of a maqam family) Maqam Index Pronunciation of Saba Click the notes and hold using the mouse to hear them play. Maqam Saba is a very popular and common maqam in the Arabic repertory. Its scale starts with Jins Saba on the tonic , overlapped by Jins Hijaz on the 3 rd degree, followed by either Jins ‘Ajam or Jins Nikriz on the 6 th degree. Maqam Saba is not part of a maqam family. Watch a 1-minute sample Violin Taqsim in Maqam Saba by Sami Abu Shumays. Dulab, Taqsim Nay & Layai Saba Sabri al-Mudallal al-Atlal (1966) Umm Kulthum Music by Riyad al-Sunbati Huwwa Sahih il-Hawa Ghallab (1960) Umm Kulthum Music by Zakariya Ahmad (Egypt) Muwashah Ahwa Qamaran Ghada Shbeir Muwashah Ghuddi Jufunik Khaled al-Hafez Qadd Ya m-as‘ad el-Sabahiyya Sabah Fakhri (Traditional Melody) Tishuf Umuri (1930) Umm Kulthum Music by Muhammad al-Qasabgi (Egypt) Sama‘i Saba Music by Youssef Kassab",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Dulab, Taqsim Nay & Layai Saba",
+      "artist": "Sabri al-Mudallal",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/saba/dulab_nay_taqsim_layali.mp3",
+      "local_path": "data/media/maqam/saba/dulab_nay_taqsim_layali.mp3"
+    },
+    {
+      "index": 2,
+      "title": "al-Atlal (1966)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Riyad al-Sunbati"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/saba/al_atlal.mp3",
+      "local_path": "data/media/maqam/saba/al_atlal.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Huwwa Sahih il-Hawa Ghallab (1960)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Zakariya Ahmad (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/saba/huwwa_sahih.mp3",
+      "local_path": "data/media/maqam/saba/huwwa_sahih.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Muwashah Ahwa Qamaran",
+      "artist": "Ghada Shbeir",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/saba/ahwa_qamaran.mp3",
+      "local_path": "data/media/maqam/saba/ahwa_qamaran.mp3"
+    },
+    {
+      "index": 5,
+      "title": "Muwashah Ghuddi Jufunik",
+      "artist": "Khaled al-Hafez",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/saba/ghuddi_jufunik.mp3",
+      "local_path": "data/media/maqam/saba/ghuddi_jufunik.mp3"
+    },
+    {
+      "index": 6,
+      "title": "Qadd Ya m-as‘ad el-Sabahiyya",
+      "artist": "Sabah Fakhri",
+      "credits": [
+        "(Traditional Melody)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/saba/ya_mas3adek_sabahiyya.mp3",
+      "local_path": "data/media/maqam/saba/ya_mas3adek_sabahiyya.mp3"
+    },
+    {
+      "index": 7,
+      "title": "Tishuf Umuri (1930)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Muhammad al-Qasabgi (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/saba/dulab_teshuf_omuri.mp3",
+      "local_path": "data/media/maqam/saba/dulab_teshuf_omuri.mp3"
+    },
+    {
+      "index": 8,
+      "title": "Sama‘i Saba",
+      "artist": "Music by Youssef Kassab",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/saba/samai_saba_youssef_kassab.mp3",
+      "local_path": "data/media/maqam/saba/samai_saba_youssef_kassab.mp3"
+    }
+  ],
+  "notes": [
+    {
+      "name": "D4",
+      "frequency": 293.33
+    },
+    {
+      "name": "E4",
+      "frequency": 320.0
+    },
+    {
+      "name": "F4",
+      "frequency": 347.65
+    },
+    {
+      "name": "G4♭",
+      "frequency": 368.0
+    },
+    {
+      "name": "A4♮",
+      "frequency": 437.0
+    },
+    {
+      "name": "B4♭",
+      "frequency": 463.54
+    },
+    {
+      "name": "C5",
+      "frequency": 521.48
+    },
+    {
+      "name": "D5♭",
+      "frequency": 548.0
+    },
+    {
+      "name": "D5♮",
+      "frequency": 586.66
+    },
+    {
+      "name": "E5♮",
+      "frequency": 660.0
+    },
+    {
+      "name": "F5",
+      "frequency": 695.31
+    }
+  ],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/saba/dulab_nay_taqsim_layali.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/saba/dulab_nay_taqsim_layali.mp3",
+      "status": "downloaded",
+      "sha256": "d0c5447354670b0d50251d10ce65d338a68ea9a8c2fdcb6822b2744064dc2825",
+      "bytes": 1831978,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/saba/al_atlal.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/saba/al_atlal.mp3",
+      "status": "downloaded",
+      "sha256": "69c9115ed3c38d5dc862451785adbbe34c0d43fd7e9628211c10107d513746b0",
+      "bytes": 601272,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/saba/huwwa_sahih.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/saba/huwwa_sahih.mp3",
+      "status": "downloaded",
+      "sha256": "59113fb861ad30a8a5619120d17df8db7942d739493e44347e02c8fa0cb7e47b",
+      "bytes": 901923,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/saba/ahwa_qamaran.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/saba/ahwa_qamaran.mp3",
+      "status": "downloaded",
+      "sha256": "541e55608dd4df61250898a19dbd2898781c12f0ada7744c19a6d6ab874f11f4",
+      "bytes": 1259173,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/saba/ghuddi_jufunik.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/saba/ghuddi_jufunik.mp3",
+      "status": "downloaded",
+      "sha256": "291f59e0d4b65f22f5661ed2a5f5500d188b8638edce3cae0013b94e29593582",
+      "bytes": 713268,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/saba/ya_mas3adek_sabahiyya.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/saba/ya_mas3adek_sabahiyya.mp3",
+      "status": "downloaded",
+      "sha256": "2e48cb3e806e396782529747e2fc2263b83cf789860f7b3d110a2fc6b8e03e2c",
+      "bytes": 1549165,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/saba/dulab_teshuf_omuri.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/saba/dulab_teshuf_omuri.mp3",
+      "status": "downloaded",
+      "sha256": "7257876696b6e3e6f49bfd6b2be3e84c787f2c985128c269a3f6b036682397e6",
+      "bytes": 403003,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/saba/samai_saba_youssef_kassab.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/saba/samai_saba_youssef_kassab.mp3",
+      "status": "downloaded",
+      "sha256": "440b6f37b0541bda4f6889c32c6a913955a1650e5d8e0a7cbd2d8096b76902da",
+      "bytes": 906151,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/saba.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/maqam/saba/saba.mp3",
+      "status": "downloaded",
+      "sha256": "dd269a0a19aa7deea054eaf941b219bfdc0922e68f40b2f446a0f9096efa8fe8",
+      "bytes": 27166,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/maqam/saba.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/maqam/saba/saba.png",
+      "status": "downloaded",
+      "sha256": "65c5051e6f53dce1519eb600130aac1f11faf75f48fc79d7d9665ecd9c60d23e",
+      "bytes": 19695,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Maqam Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Jins Saba",
+      "url": "https://www.maqamworld.com/en/jins/saba.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Hijaz",
+      "url": "https://www.maqamworld.com/en/jins/hijaz.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins ‘Ajam",
+      "url": "https://www.maqamworld.com/en/jins/ajam.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Nikriz",
+      "url": "https://www.maqamworld.com/en/jins/nikriz.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Violin Taqsim in Maqam Saba",
+      "url": "https://www.instagram.com/p/B9ztWCGFTvF",
+      "kind": "external"
+    }
+  ],
+  "content_hash": "a661a7fbbe413c69c6130bd00a1fa7cfd53612c655e6c8b61df7f932ba0579f8",
+  "fetched_at": "2026-11-10T12:10:54.986504Z",
+  "status_code": 200,
+  "html_file": "data/raw/maqam/saba.html"
+}

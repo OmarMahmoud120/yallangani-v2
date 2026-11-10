@@ -55,6 +55,12 @@ teaching feedback, slow playback, and A/B comparison. The approved UX contract a
 
 # One test class
 ./gradlew :app:testDebugUnitTest --tests "com.osmartapps.yallanghanee.game.RecognitionEngineTest"
+
+# Rebuild the site catalog from the crawl database (carries authored fields over)
+python3 tools/build_site_game_data.py
+
+# Regenerate the app pack from the canonical site JSON
+python3 tools/sync_app_pack.py
 ```
 
 ### Device testing with the Android CLI
@@ -132,8 +138,12 @@ can coexist with the legacy Play install on a physical phone. Release builds kee
 | `YallaApplication.kt` | Process init; initializes MobileAds (retained but unused by the lesson flow). |
 | `model/MaqamContent.kt` | `MaqamPack` / `Maqam` / `RecognitionLesson` / `RecognitionItem` models. |
 | `game/RecognitionEngine.kt` | Pure Kotlin recognition session: shuffle options, answer, next, skip. No Android imports. |
-| `game/RecognitionViewModel.kt` | Loads pack/progress, exposes UI state, marks completed lessons. |
-| `data/MaqamRepository.kt` | Reads `assets/content/maqams.json` and validates audio assets. |
+| `game/RecognitionViewModel.kt` | Loads pack/progress, exposes UI state, marks completed lessons, triggers pack refresh on home. |
+| `data/MaqamRepository.kt` | Bundled pack load, cached baseline selection, remote refresh delegation. |
+| `data/PackUpdater.kt` | Version check, digest-verified clip downloads, validation, cache write, prune. |
+| `data/PackCache.kt` | Atomic cache of `pack.json` and clips under `filesDir/pack`. |
+| `data/RemotePackSource.kt` | HTTPS-only, no-redirect, size-capped pack fetch. |
+| `data/PackClips.kt` | Referenced clip names, safe-name check, SHA-256 helpers. |
 | `data/MaqamPackValidator.kt` | Content rules used by the app and unit tests. |
 | `data/ProgressStore.kt` | DataStore-backed completed-lesson set. |
 | `data/SettingsStore.kt` | DataStore-backed motion preference. |
@@ -151,8 +161,8 @@ can coexist with the legacy Play install on a physical phone. Release builds kee
 ## Non-negotiable rules
 
 1. **The content pack is the only source of maqams and lessons.** Never hardcode names, signatures,
-   explanations, or audio file names in Kotlin. Add content to `maqams.json` and audio to
-   `assets/content/audio/`.
+   explanations, or audio file names in Kotlin. Edit `site/public/data/maqams.json`, run
+   `python3 tools/sync_app_pack.py` to write the app pack, and add audio to `assets/content/audio/`.
 2. **Keep the recognition engine pure.** `RecognitionEngine` must stay free of Android imports (ads
    included) so it can be unit tested without Robolectric.
 3. **Every audio file must be licensed and documented** in `docs/CONTENT_LICENSES.md`. Do not ship
@@ -165,14 +175,18 @@ can coexist with the legacy Play install on a physical phone. Release builds kee
    (`gradle/libs.versions.toml`) as the single source of versions.
 7. **No secrets in the repo.** `local.properties`, Gradle property overrides, keystores, and
    signing files stay out of git. Test ad IDs are the only ad IDs allowed in source.
-8. **Offline gameplay is sacred.** Content, audio, lessons, and progress work with no network.
+8. **Offline gameplay is sacred.** The bundled pack is the floor: content, audio, lessons, and
+   progress work with no network. Remote refresh is optional and must fail silently back to the
+   bundled or cached pack.
 9. **No ads in the learning loop.** No interstitials, rewarded hints, banners, or app-open ads
    during onboarding, lessons, feedback, results, or playback. `AdsController` must remain
    unreferenced by `ui/` and `game/`. Changing this is a product decision.
 10. **Feedback must teach.** After every answer show the correct maqam and its signature
     explanation; never return a bare score.
 11. **No legacy infrastructure.** Do not reintroduce the osmartapps.com API, `audio.zip`,
-    OneSignal, Firebase, Google Play Games, or anjlab billing.
+    OneSignal, Firebase SDKs/services inside the app, Google Play Games, or anjlab billing. The
+    static Firebase Hosting site is only the content origin for `pack.json` and `app-audio/`; the
+    app uses plain HTTPS and ships no Firebase dependency.
 
 ## Definition of done
 
@@ -190,11 +204,16 @@ A change is done only when:
 
 ## Content pack format
 
-`app/src/main/assets/content/maqams.json`:
+`site/public/data/maqams.json` is canonical: it carries the site catalog (all maqams and their
+tracks) plus the authored Arabic fields, onboarding, and lessons. The app copy at
+`app/src/main/assets/content/maqams.json` is generated from its approved Pack 1 maqams by
+`tools/sync_app_pack.py`; never edit the app copy by hand.
+
+App pack shape (`app/src/main/assets/content/maqams.json`):
 
 ```json
 {
-  "version": 1,
+  "version": 2,
   "notice": "development pack notice",
   "maqams": [
     {

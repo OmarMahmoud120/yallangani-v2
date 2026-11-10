@@ -1,0 +1,193 @@
+{
+  "url": "https://www.maqamworld.com/en/jins/upper_ajam.php",
+  "path": "/en/jins/upper_ajam.php",
+  "section": "jins",
+  "slug": "jins/upper_ajam",
+  "kind": "entry",
+  "title": "Jins Upper ‘Ajam New",
+  "subtitle": "A 4-note version of Jins Ajam with the tonic on top",
+  "description": "Jins Upper ‘Ajam",
+  "lang": "en",
+  "paragraphs": [
+    "Click the notes and hold using the mouse to hear them play.",
+    "Jins Upper ‘Ajam is a 4-note version of Jins ‘Ajam, with the unusual feature (shared by Jins Upper Rast) that its tonic is the last degree in the scale instead of the first. It is notated here with its ghammaz on G and its tonic on C. Jins Upper ‘Ajam is the second jins in Maqam ‘Ajam and also occurs on the 3rd degree of Maqam Bayati."
+  ],
+  "text": "Jins Upper ‘Ajam New A 4-note version of Jins Ajam with the tonic on top Jins Index Pronunciation of ‘Ajam Click the notes and hold using the mouse to hear them play. Jins Upper ‘Ajam is a 4-note version of Jins ‘Ajam , with the unusual feature (shared by Jins Upper Rast ) that its tonic is the last degree in the scale instead of the first. It is notated here with its ghammaz on G and its tonic on C. Jins Upper ‘Ajam is the second jins in Maqam ‘Ajam and also occurs on the 3 rd degree of Maqam Bayati . Zayy el-Hawa (1970) Abdel Halim Hafez Music by Baligh Hamdi (Egypt) Lissa Fakir (1960) Umm Kulthum Music by Riyad al-Sunbati Huwwa Sahih el-Hawa Ghallab (1960) Umm Kulthum Music by Zakariya Ahmad (Egypt) Mawwal Min Youm Furgak Sabah Fakhri Sharraft Ya Nixon Baba (1974) Vocals and Music by Sheikh Imam",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Zayy el-Hawa (1970)",
+      "artist": "Abdel Halim Hafez",
+      "credits": [
+        "Music by Baligh Hamdi (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/upper_ajam/zayy_el_hawa.mp3",
+      "local_path": "data/media/jins/upper_ajam/zayy_el_hawa.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Lissa Fakir (1960)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Riyad al-Sunbati"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/upper_ajam/lissa_fakir.mp3",
+      "local_path": "data/media/jins/upper_ajam/lissa_fakir.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Huwwa Sahih el-Hawa Ghallab (1960)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Zakariya Ahmad (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/upper_ajam/huwwa_sahih.mp3",
+      "local_path": "data/media/jins/upper_ajam/huwwa_sahih.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Mawwal Min Youm Furgak",
+      "artist": "Sabah Fakhri",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/jins/upper_ajam/min_youm_furgak.mp3",
+      "local_path": "data/media/jins/upper_ajam/min_youm_furgak.mp3"
+    },
+    {
+      "index": 5,
+      "title": "Sharraft Ya Nixon Baba (1974)",
+      "artist": "Vocals and Music by Sheikh Imam",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/jins/upper_ajam/nixon.mp3",
+      "local_path": "data/media/jins/upper_ajam/nixon.mp3"
+    }
+  ],
+  "notes": [
+    {
+      "name": "F4♮",
+      "frequency": 347.65
+    },
+    {
+      "name": "G4",
+      "frequency": 391.11
+    },
+    {
+      "name": "A4",
+      "frequency": 440.0
+    },
+    {
+      "name": "B4",
+      "frequency": 495.0
+    },
+    {
+      "name": "C5",
+      "frequency": 521.48
+    },
+    {
+      "name": "D5",
+      "frequency": 586.66
+    }
+  ],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/jins/upper_ajam/zayy_el_hawa.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/upper_ajam/zayy_el_hawa.mp3",
+      "status": "downloaded",
+      "sha256": "ccf3facc277136f4da4a785c7ce887a56ad832d3aa48501432f7e8b9afb1438a",
+      "bytes": 608931,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/upper_ajam/lissa_fakir.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/upper_ajam/lissa_fakir.mp3",
+      "status": "downloaded",
+      "sha256": "f07fd3c3562bef32ba48f5511fc6c90be1fc16e48b7390eb666edc4b2cd32768",
+      "bytes": 926350,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/upper_ajam/huwwa_sahih.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/upper_ajam/huwwa_sahih.mp3",
+      "status": "downloaded",
+      "sha256": "d2df8ee5f85d15e41755f81b257fedc4ee42c56b10d8fa3d38859e4ec46f8d55",
+      "bytes": 1378031,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/upper_ajam/min_youm_furgak.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/upper_ajam/min_youm_furgak.mp3",
+      "status": "downloaded",
+      "sha256": "ad783da7da3f284ae2a9c40689b098d7015ff40ecac414f8602b0f046660efde",
+      "bytes": 346584,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/upper_ajam/nixon.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/upper_ajam/nixon.mp3",
+      "status": "downloaded",
+      "sha256": "8afd2b6be373062c0fd89d0d94e264d5369a6e4ac471297ab7be2c80d67f8f25",
+      "bytes": 625996,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/ajam.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/jins/upper_ajam/ajam.mp3",
+      "status": "downloaded",
+      "sha256": "69e77909a0453cc86a1032c790433e5b4c0d9db85978fca371b2783ea7e52962",
+      "bytes": 28211,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/jins/upper_ajam.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/jins/upper_ajam/upper_ajam.png",
+      "status": "downloaded",
+      "sha256": "3fb9dfc02ad928ee632196474d047f2bd683e96b2696f9609918c9d66cf83416",
+      "bytes": 7145,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Jins Ajam",
+      "url": "https://www.maqamworld.com/en/jins/ajam.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Jins Upper Rast",
+      "url": "https://www.maqamworld.com/en/jins/upper_rast.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam ‘Ajam",
+      "url": "https://www.maqamworld.com/en/maqam/ajam.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Bayati",
+      "url": "https://www.maqamworld.com/en/maqam/bayati.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "3777aa75022fe9f2d06cc7a9568c5eda554c760438ff125a07d2b4c9b29777d2",
+  "fetched_at": "2026-11-10T12:10:55.085770Z",
+  "status_code": 200,
+  "html_file": "data/raw/jins/upper_ajam.html"
+}

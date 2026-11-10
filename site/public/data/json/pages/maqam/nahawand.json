@@ -1,0 +1,360 @@
+{
+  "url": "https://www.maqamworld.com/en/maqam/nahawand.php",
+  "path": "/en/maqam/nahawand.php",
+  "section": "maqam",
+  "slug": "maqam/nahawand",
+  "kind": "entry",
+  "title": "Maqam Nahawand",
+  "subtitle": "The principal maqam in the Maqam Nahawand Family",
+  "description": "Maqam Nahawand",
+  "lang": "en",
+  "paragraphs": [
+    "Click the notes and hold using the mouse to hear them play.",
+    "Maqam Nahawand is the main maqam in the Nahawand Family. Its scale starts with the root Jins Nahawand on the tonic, followed by either Jins Hijaz or Jins Kurd on the 5th degree.",
+    "Maqam Farahfaza is Maqam Nahawand transposed to a tonic of G.",
+    "Explore other maqamat in the Maqam Nahawand Family.",
+    "Watch a 1-minute sample Violin Taqsim in Maqam Nahawand by Sami Abu Shumays."
+  ],
+  "text": "Maqam Nahawand The principal maqam in the Maqam Nahawand Family Maqam Index Pronunciation of Nahawand Pronunciation of Farahfaza Click the notes and hold using the mouse to hear them play. Maqam Nahawand is the main maqam in the Nahawand Family. Its scale starts with the root Jins Nahawand on the tonic , followed by either Jins Hijaz or Jins Kurd on the 5 th degree. Maqam Farahfaza is Maqam Nahawand transposed to a tonic of G. Explore other maqamat in the Maqam Nahawand Family . Watch a 1-minute sample Violin Taqsim in Maqam Nahawand by Sami Abu Shumays. Balad el-Mahbub (1951) Music by Muhammad Abdel Wahab (Egypt) Alf Leila w-Leila (1969) Umm Kulthum Music by Baligh Hamdi (Egypt) Dhikrayati (1944) Music by Muhammad al-Qasabgi (Egypt) Muwashah Hat Isqiniha Hassan al-Haffar Yahya al-Sa‘udi (Palestine) The Aleppo Suites Muwashah Ramani Bi Sahmi Hawahu Khaled al-Hafez Music by Dawud Husni (Egypt) Sama‘i Nahawand Simon Shaheen Ensemble Music by Mesut Cemil (Turkey) Sama‘i Nahawand Abdel Halim Noueira Ensemble Music by Safar ‘Ali (Egypt) Longa Farahfaza Simon Shaheen Ensemble Music by Riyad al-Sunbati Longa Nahawand Anouar Brahem Music by Tanburi Cemil Bey Longa Nahawand Abdel Halim Noueira Ensemble Music by Yorgo Baganos Dulab Nahawand Sheikh Abu el-‘Ila Muhammad",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Balad el-Mahbub (1951)",
+      "artist": "Music by Muhammad Abdel Wahab (Egypt)",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/nahawand/balad_el_mahbub.mp3",
+      "local_path": "data/media/maqam/nahawand/balad_el_mahbub.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Alf Leila w-Leila (1969)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Baligh Hamdi (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/nahawand/alf_leila_intro.mp3",
+      "local_path": "data/media/maqam/nahawand/alf_leila_intro.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Dhikrayati (1944)",
+      "artist": "Music by Muhammad al-Qasabgi (Egypt)",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/nahawand/dhikrayati.mp3",
+      "local_path": "data/media/maqam/nahawand/dhikrayati.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Muwashah Hat Isqiniha",
+      "artist": "Hassan al-Haffar",
+      "credits": [
+        "Yahya al-Sa‘udi (Palestine)",
+        "The Aleppo Suites"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/nahawand/hati_isqiniha.mp3",
+      "local_path": "data/media/maqam/nahawand/hati_isqiniha.mp3"
+    },
+    {
+      "index": 5,
+      "title": "Muwashah Ramani Bi Sahmi Hawahu",
+      "artist": "Khaled al-Hafez",
+      "credits": [
+        "Music by Dawud Husni (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/nahawand/ramani.mp3",
+      "local_path": "data/media/maqam/nahawand/ramani.mp3"
+    },
+    {
+      "index": 6,
+      "title": "Sama‘i Nahawand",
+      "artist": "Simon Shaheen Ensemble",
+      "credits": [
+        "Music by Mesut Cemil (Turkey)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/nahawand/samai_masud_jamil.mp3",
+      "local_path": "data/media/maqam/nahawand/samai_masud_jamil.mp3"
+    },
+    {
+      "index": 7,
+      "title": "Sama‘i Nahawand",
+      "artist": "Abdel Halim Noueira Ensemble",
+      "credits": [
+        "Music by Safar ‘Ali (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/nahawand/samai_safar_ali.mp3",
+      "local_path": "data/media/maqam/nahawand/samai_safar_ali.mp3"
+    },
+    {
+      "index": 8,
+      "title": "Longa Farahfaza",
+      "artist": "Simon Shaheen Ensemble",
+      "credits": [
+        "Music by Riyad al-Sunbati"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/nahawand/longa_farahfaza.mp3",
+      "local_path": "data/media/maqam/nahawand/longa_farahfaza.mp3"
+    },
+    {
+      "index": 9,
+      "title": "Longa Nahawand",
+      "artist": "Anouar Brahem",
+      "credits": [
+        "Music by Tanburi Cemil Bey"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/nahawand/longa_jamilbey.mp3",
+      "local_path": "data/media/maqam/nahawand/longa_jamilbey.mp3"
+    },
+    {
+      "index": 10,
+      "title": "Longa Nahawand",
+      "artist": "Abdel Halim Noueira Ensemble",
+      "credits": [
+        "Music by Yorgo Baganos"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/nahawand/longa_yorgo.mp3",
+      "local_path": "data/media/maqam/nahawand/longa_yorgo.mp3"
+    },
+    {
+      "index": 11,
+      "title": "Dulab Nahawand",
+      "artist": "Sheikh Abu el-‘Ila Muhammad",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/nahawand/dulab_aboul_ela.mp3",
+      "local_path": "data/media/maqam/nahawand/dulab_aboul_ela.mp3"
+    }
+  ],
+  "notes": [
+    {
+      "name": "C4",
+      "frequency": 260.74
+    },
+    {
+      "name": "D4",
+      "frequency": 293.33
+    },
+    {
+      "name": "E4♭",
+      "frequency": 308.25
+    },
+    {
+      "name": "F4",
+      "frequency": 347.65
+    },
+    {
+      "name": "G4",
+      "frequency": 391.11
+    },
+    {
+      "name": "A4♭",
+      "frequency": 423.0
+    },
+    {
+      "name": "B4♮",
+      "frequency": 492.0
+    },
+    {
+      "name": "C5",
+      "frequency": 521.48
+    },
+    {
+      "name": "B4♭",
+      "frequency": 463.54
+    },
+    {
+      "name": "A4♭",
+      "frequency": 420.0
+    },
+    {
+      "name": "G4",
+      "frequency": 391.11
+    }
+  ],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/nahawand/balad_el_mahbub.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/nahawand/balad_el_mahbub.mp3",
+      "status": "downloaded",
+      "sha256": "38be5c0fa696ed85cbc2a327ca87009ec446101f581a54689135aac441c04513",
+      "bytes": 1146650,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/nahawand/alf_leila_intro.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/nahawand/alf_leila_intro.mp3",
+      "status": "downloaded",
+      "sha256": "e99d56d60b5710108586d44363b0444f29931c57ba7a59f57aae0dc7d0f88c3a",
+      "bytes": 1344767,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/nahawand/dhikrayati.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/nahawand/dhikrayati.mp3",
+      "status": "downloaded",
+      "sha256": "485efa7077ae208d763f966ce34fda6617eff6ca24eb4f174d7c2843a449f0f1",
+      "bytes": 1195603,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/nahawand/hati_isqiniha.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/nahawand/hati_isqiniha.mp3",
+      "status": "downloaded",
+      "sha256": "25dfb4f6861b8cd9e5b04058a96fab7074bbf37ba61cea7ff5107ff89c164534",
+      "bytes": 963340,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/nahawand/ramani.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/nahawand/ramani.mp3",
+      "status": "downloaded",
+      "sha256": "3b7938e0942e861714a99df1f7c5684c0a4b7d01108c80f0454716cad51d3982",
+      "bytes": 904605,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/nahawand/samai_masud_jamil.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/nahawand/samai_masud_jamil.mp3",
+      "status": "downloaded",
+      "sha256": "ecf7ce5619ee78161be2067a5a24ca484dd437f2bd371a633dc6597cb406d48e",
+      "bytes": 1184639,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/nahawand/samai_safar_ali.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/nahawand/samai_safar_ali.mp3",
+      "status": "downloaded",
+      "sha256": "f0be079adbd966f60bc1d9fc5064f047d806e29e47a78a17462eb7be10b1916b",
+      "bytes": 785847,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/nahawand/longa_farahfaza.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/nahawand/longa_farahfaza.mp3",
+      "status": "downloaded",
+      "sha256": "b615a8c458a740d96f67d090729684d0d55894f2d94778840081638791c3cdbb",
+      "bytes": 815736,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/nahawand/longa_jamilbey.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/nahawand/longa_jamilbey.mp3",
+      "status": "downloaded",
+      "sha256": "65eea6094c3d186309b5e22b9887a356e2a2ebecd7fb629cd5b4845d0e7c99ac",
+      "bytes": 1111762,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/nahawand/longa_yorgo.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/nahawand/longa_yorgo.mp3",
+      "status": "downloaded",
+      "sha256": "94973e6ea3fa588e13ee6b34401c68595404fa26e18faa55e6426c143e40e08a",
+      "bytes": 702258,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/nahawand/dulab_aboul_ela.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/nahawand/dulab_aboul_ela.mp3",
+      "status": "downloaded",
+      "sha256": "ed88a169881dd64ea1426e565dd72fbddb31a0794443a519392232ed60eb0442",
+      "bytes": 287002,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/nahawand.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/maqam/nahawand/nahawand.mp3",
+      "status": "downloaded",
+      "sha256": "11cab129f2a587476ad41071b91fdd9831501a64dd8105aa57c7ffba5c61f722",
+      "bytes": 37615,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/farahfaza.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/maqam/nahawand/farahfaza.mp3",
+      "status": "downloaded",
+      "sha256": "f28e4de1ca628c9b1998147f1c610c7027609d548df3870891a7227ab36b26a7",
+      "bytes": 16251,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/maqam/nahawand.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/maqam/nahawand/nahawand.png",
+      "status": "downloaded",
+      "sha256": "1cbb72f824ef0dbae183cd97b44f9b30c6f05ef852979dda46ffe8a26d3fdfdf",
+      "bytes": 16394,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/cd.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/maqam/nahawand/cd.png",
+      "status": "downloaded",
+      "sha256": "1f52da76667703a00010a07afefc9d78b6c3ccb8359b906fc6fd6b0cddd0255f",
+      "bytes": 5478,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Maqam Nahawand Family",
+      "url": "https://www.maqamworld.com/en/maqam/f_nahawand.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Jins Nahawand",
+      "url": "https://www.maqamworld.com/en/jins/nahawand.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Hijaz",
+      "url": "https://www.maqamworld.com/en/jins/hijaz.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Kurd",
+      "url": "https://www.maqamworld.com/en/jins/kurd.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Violin Taqsim in Maqam Nahawand",
+      "url": "https://www.instagram.com/p/B-7YjkUlldl/",
+      "kind": "external"
+    }
+  ],
+  "content_hash": "e516e714278f0de37d2a0f0508e32d81b775bbe5611bffadb19f0f427fc76dfe",
+  "fetched_at": "2026-11-10T12:10:54.855679Z",
+  "status_code": 200,
+  "html_file": "data/raw/maqam/nahawand.html"
+}

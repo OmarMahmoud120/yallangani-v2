@@ -1,0 +1,215 @@
+{
+  "url": "https://www.maqamworld.com/en/maqam/husayni.php",
+  "path": "/en/maqam/husayni.php",
+  "section": "maqam",
+  "slug": "maqam/husayni",
+  "kind": "entry",
+  "title": "Maqam Husayni",
+  "subtitle": "A member of the Maqam Bayati Family",
+  "description": "Maqam Husayni",
+  "lang": "en",
+  "paragraphs": [
+    "Click the notes and hold using the mouse to hear them play.",
+    "Maqam Husayni is not very common as an independent maqam in the Arabic tradition, though its sayr (emphasizing the 5th scale degree as a note of tension resolving down to the 4th degree) is obligatory within Maqam Bayati. In the folk music of the wider region, this is actually the most common variant of Bayati, with its scale starting with the root Jins Bayati on the tonic.",
+    "Explore other maqamat in the Maqam Bayati Family.",
+    "Watch a 1-minute sample Violin Taqsim in Maqam Husayni by Sami Abu Shumays."
+  ],
+  "text": "Maqam Husayni A member of the Maqam Bayati Family Maqam Index Pronunciation of Husayni Click the notes and hold using the mouse to hear them play. Maqam Husayni is not very common as an independent maqam in the Arabic tradition, though its sayr (emphasizing the 5 th scale degree as a note of tension resolving down to the 4 th degree) is obligatory within Maqam Bayati . In the folk music of the wider region, this is actually the most common variant of Bayati, with its scale starting with the root Jins Bayati on the tonic . Explore other maqamat in the Maqam Bayati Family . Watch a 1-minute sample Violin Taqsim in Maqam Husayni by Sami Abu Shumays. Muwashah Bil-ladhi Askara Sabah Fakhri Nagham al-Ams Vol. 12 (Bayati) Muwashah Hal ‘Ala al-Astar Ghada Shbeir Al Muwashahat Muwashah Khala al-‘Idhar Khaled al-Hafez Nura Nura (1953) Music and Vocals by Farid al-Atrash Sama‘i Bayati Ibrahim al-‘Aryan (Khana 2) Salah ‘Arram Ensemble (Egypt)",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Muwashah Bil-ladhi Askara",
+      "artist": "Sabah Fakhri",
+      "credits": [
+        "Nagham al-Ams Vol. 12 (Bayati)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/husayni/billadhi_askara.mp3",
+      "local_path": "data/media/maqam/husayni/billadhi_askara.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Muwashah Hal ‘Ala al-Astar",
+      "artist": "Ghada Shbeir",
+      "credits": [
+        "Al Muwashahat"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/husayni/hal_3ala_al_astar.mp3",
+      "local_path": "data/media/maqam/husayni/hal_3ala_al_astar.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Muwashah Khala al-‘Idhar",
+      "artist": "Khaled al-Hafez",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/husayni/khala_al_3idhar.mp3",
+      "local_path": "data/media/maqam/husayni/khala_al_3idhar.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Nura Nura (1953)",
+      "artist": "Music and Vocals by Farid al-Atrash",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/husayni/nura_nura.mp3",
+      "local_path": "data/media/maqam/husayni/nura_nura.mp3"
+    },
+    {
+      "index": 5,
+      "title": "Sama‘i Bayati Ibrahim al-‘Aryan (Khana 2)",
+      "artist": "Salah ‘Arram Ensemble (Egypt)",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/husayni/samai_bayati_khana2.mp3",
+      "local_path": "data/media/maqam/husayni/samai_bayati_khana2.mp3"
+    }
+  ],
+  "notes": [
+    {
+      "name": "A4",
+      "frequency": 440.0
+    },
+    {
+      "name": "B4",
+      "frequency": 480.0
+    },
+    {
+      "name": "B4♭",
+      "frequency": 463.54
+    },
+    {
+      "name": "C5",
+      "frequency": 521.48
+    },
+    {
+      "name": "D5",
+      "frequency": 586.66
+    },
+    {
+      "name": "G4",
+      "frequency": 391.11
+    },
+    {
+      "name": "F4",
+      "frequency": 347.65
+    },
+    {
+      "name": "E4",
+      "frequency": 320.0
+    },
+    {
+      "name": "D4",
+      "frequency": 293.33
+    }
+  ],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/husayni/billadhi_askara.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/husayni/billadhi_askara.mp3",
+      "status": "downloaded",
+      "sha256": "d6ec122584c8a1eb8812b5e1862401c2a16c03ad1258f7fba17e44af1b34d7d1",
+      "bytes": 756347,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/husayni/hal_3ala_al_astar.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/husayni/hal_3ala_al_astar.mp3",
+      "status": "downloaded",
+      "sha256": "622347aef396b90f207eee263900cf46c86b7a1a448e3f96d4faef0e1e43cb25",
+      "bytes": 1138469,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/husayni/khala_al_3idhar.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/husayni/khala_al_3idhar.mp3",
+      "status": "downloaded",
+      "sha256": "1cdf6056df70a1c87dd9020d39219ba9ba9620dc2fd30347bc2e4e52d685075e",
+      "bytes": 1698788,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/husayni/nura_nura.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/husayni/nura_nura.mp3",
+      "status": "downloaded",
+      "sha256": "b9d7ef15738c9715712d70a3706cf402659b02995e3d476e90fc8e97860c7592",
+      "bytes": 1522036,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/husayni/samai_bayati_khana2.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/husayni/samai_bayati_khana2.mp3",
+      "status": "downloaded",
+      "sha256": "5fe10324459913d2d973a7cc1fcd3a4a59d67bff03a288afc0e0b32ef5831fe6",
+      "bytes": 341668,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/husayni.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/maqam/husayni/husayni.mp3",
+      "status": "downloaded",
+      "sha256": "090b84d28453e16e380520dc54ed5601c2f206c48fe0f7ba49dfdb0c832298e0",
+      "bytes": 36570,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/maqam/husayni.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/maqam/husayni/husayni.png",
+      "status": "downloaded",
+      "sha256": "4ce39b139374a2f740185f4e0ebe442bd2237dcd93b2a825fda3370113de7f95",
+      "bytes": 14748,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/cd.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/maqam/husayni/cd.png",
+      "status": "downloaded",
+      "sha256": "1f52da76667703a00010a07afefc9d78b6c3ccb8359b906fc6fd6b0cddd0255f",
+      "bytes": 5478,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Maqam Bayati Family",
+      "url": "https://www.maqamworld.com/en/maqam/f_bayati.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Maqam Bayati",
+      "url": "https://www.maqamworld.com/en/maqam/bayati.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Bayati",
+      "url": "https://www.maqamworld.com/en/jins/bayati.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Violin Taqsim in Maqam Husayni",
+      "url": "https://www.instagram.com/p/B_AyMxglo4a/",
+      "kind": "external"
+    }
+  ],
+  "content_hash": "60433cfa6f23a793d54cbd419f3de61d6db6034f2df2c88073c820865b286534",
+  "fetched_at": "2026-11-10T12:10:54.889709Z",
+  "status_code": 200,
+  "html_file": "data/raw/maqam/husayni.html"
+}

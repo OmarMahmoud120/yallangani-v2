@@ -1,0 +1,293 @@
+{
+  "url": "https://www.maqamworld.com/en/jins/hijaz_murassaa.php",
+  "path": "/en/jins/hijaz_murassaa.php",
+  "section": "jins",
+  "slug": "jins/hijaz_murassaa",
+  "kind": "entry",
+  "title": "Jins Hijaz Murassa‘ New",
+  "subtitle": "A variation of Jins Hijaz with a lowered 5th",
+  "description": "Jins Hijaz Murassa‘",
+  "lang": "en",
+  "paragraphs": [
+    "Click the notes and hold using the mouse to hear them play.",
+    "Jins Hijaz Murassa‘ is a 4-note jins. It is notated here with its tonic on D and its ghammaz on G. Jins Hijaz Murassa‘ is not part of any maqam scale and usually occurs as a modulation from Jins Hijaz, most in Maqam Hijazkar."
+  ],
+  "text": "Jins Hijaz Murassa‘ New A variation of Jins Hijaz with a lowered 5 th Jins Index Pronunciation of Hijaz Murassa‘ Click the notes and hold using the mouse to hear them play. Jins Hijaz Murassa‘ is a 4-note jins . It is notated here with its tonic on D and its ghammaz on G. Jins Hijaz Murassa‘ is not part of any maqam scale and usually occurs as a modulation from Jins Hijaz , most in Maqam Hijazkar . Ana Fi-ntizarak (1943) Umm Kulthum Music by Zakariya Ahmad (Egypt) Dawr el-Hobb Ma Hush Bis-Sahl Sabah Fakhri Music by Dawud Husni (Egypt) Muwashah Badru Timmin (Oud Taqsim) Ghada Shbeir Music by Sheikh Mursi al-Hariri Muwashah Badru Timmin Haza Husnan Vocals and Music by Sheikh Mursi al-Hariri Muwashah Laha Badru-t-Tim Vocals by Sheikh Mahmud Subh Muwashah Mala al-Kasat (khana) Sabah Fakhri Music by Muhammad ‘Uthman Qadduka al-Mayyas Muhammad Khayri Muwashah Zarani al-Mahbub Salatin Al-Tarab Zahr El-Laymoun (1997) Sonia M'Barek Tawchih © 1997 Mawwal in Maqam Isba‘ayn Sonia M'Barek Tawchih © 1997",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Ana Fi-ntizarak (1943)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Zakariya Ahmad (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/hijaz_murassaa/ana_fintizarak.mp3",
+      "local_path": "data/media/jins/hijaz_murassaa/ana_fintizarak.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Dawr el-Hobb Ma Hush Bis-Sahl",
+      "artist": "Sabah Fakhri",
+      "credits": [
+        "Music by Dawud Husni (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/hijaz_murassaa/el-hobb-mahush-bis-sahl.mp3",
+      "local_path": "data/media/jins/hijaz_murassaa/el-hobb-mahush-bis-sahl.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Muwashah Badru Timmin (Oud Taqsim)",
+      "artist": "Ghada Shbeir",
+      "credits": [
+        "Music by Sheikh Mursi al-Hariri"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/hijaz_murassaa/badru_timmin_oud.mp3",
+      "local_path": "data/media/jins/hijaz_murassaa/badru_timmin_oud.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Muwashah Badru Timmin Haza Husnan",
+      "artist": "Vocals and Music by Sheikh Mursi al-Hariri",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/jins/hijaz_murassaa/badru_timmin.mp3",
+      "local_path": "data/media/jins/hijaz_murassaa/badru_timmin.mp3"
+    },
+    {
+      "index": 5,
+      "title": "Muwashah Laha Badru-t-Tim",
+      "artist": "Vocals by Sheikh Mahmud Subh",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/jins/hijaz_murassaa/laha_badrut_timm.mp3",
+      "local_path": "data/media/jins/hijaz_murassaa/laha_badrut_timm.mp3"
+    },
+    {
+      "index": 6,
+      "title": "Muwashah Mala al-Kasat (khana)",
+      "artist": "Sabah Fakhri",
+      "credits": [
+        "Music by Muhammad ‘Uthman"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/hijaz_murassaa/mala_el_kasat_khana.mp3",
+      "local_path": "data/media/jins/hijaz_murassaa/mala_el_kasat_khana.mp3"
+    },
+    {
+      "index": 7,
+      "title": "Qadduka al-Mayyas",
+      "artist": "Muhammad Khayri",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/jins/hijaz_murassaa/qadduka_al_mayyas.mp3",
+      "local_path": "data/media/jins/hijaz_murassaa/qadduka_al_mayyas.mp3"
+    },
+    {
+      "index": 8,
+      "title": "Muwashah Zarani al-Mahbub",
+      "artist": "Salatin Al-Tarab",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/jins/hijaz_murassaa/zarani_al_mahbub.mp3",
+      "local_path": "data/media/jins/hijaz_murassaa/zarani_al_mahbub.mp3"
+    },
+    {
+      "index": 9,
+      "title": "Zahr El-Laymoun (1997)",
+      "artist": "Sonia M'Barek",
+      "credits": [
+        "Tawchih © 1997"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/hijaz_murassaa/zahr_el_laymun.mp3",
+      "local_path": "data/media/jins/hijaz_murassaa/zahr_el_laymun.mp3"
+    },
+    {
+      "index": 10,
+      "title": "Mawwal in Maqam Isba‘ayn",
+      "artist": "Sonia M'Barek",
+      "credits": [
+        "Tawchih © 1997"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/hijaz_murassaa/maqam_isba3ain.mp3",
+      "local_path": "data/media/jins/hijaz_murassaa/maqam_isba3ain.mp3"
+    }
+  ],
+  "notes": [
+    {
+      "name": "C4",
+      "frequency": 260.74
+    },
+    {
+      "name": "C4♯",
+      "frequency": 281.24
+    },
+    {
+      "name": "D4",
+      "frequency": 293.33
+    },
+    {
+      "name": "E4♭",
+      "frequency": 315.0
+    },
+    {
+      "name": "F4♯",
+      "frequency": 375.0
+    },
+    {
+      "name": "G4",
+      "frequency": 391.11
+    },
+    {
+      "name": "A4♭",
+      "frequency": 422.0
+    }
+  ],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/jins/hijaz_murassaa/ana_fintizarak.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/hijaz_murassaa/ana_fintizarak.mp3",
+      "status": "downloaded",
+      "sha256": "480d3f625913e3d5c817a85373e49f8f330644da6eb28f7ce55ad40e7c72588e",
+      "bytes": 474119,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/hijaz_murassaa/el-hobb-mahush-bis-sahl.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/hijaz_murassaa/el-hobb-mahush-bis-sahl.mp3",
+      "status": "downloaded",
+      "sha256": "0e72986f14bb3ec31a6203982a0b4dc08e9e3f525afd5290e7a9392fe481386d",
+      "bytes": 572402,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/hijaz_murassaa/badru_timmin_oud.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/hijaz_murassaa/badru_timmin_oud.mp3",
+      "status": "downloaded",
+      "sha256": "5c9b0df2e9fe3750ce89a0f61d9b0ada085d63fb91902cdbf08c1dc4283c0709",
+      "bytes": 750461,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/hijaz_murassaa/badru_timmin.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/hijaz_murassaa/badru_timmin.mp3",
+      "status": "downloaded",
+      "sha256": "1312d092fe333399a0f7e57e134834aa9b48ffc9ca98d1cfddfa7945d8d075ad",
+      "bytes": 457353,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/hijaz_murassaa/laha_badrut_timm.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/hijaz_murassaa/laha_badrut_timm.mp3",
+      "status": "downloaded",
+      "sha256": "abfa0e8c1a8f333e08eb5ef592729c25da1b101b1fa73dac0e0a62b073aee620",
+      "bytes": 510943,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/hijaz_murassaa/mala_el_kasat_khana.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/hijaz_murassaa/mala_el_kasat_khana.mp3",
+      "status": "downloaded",
+      "sha256": "a565058993ac8ed9df1eca819cf5d73066fe150f73490a48d7542df822db1bbf",
+      "bytes": 321527,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/hijaz_murassaa/qadduka_al_mayyas.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/hijaz_murassaa/qadduka_al_mayyas.mp3",
+      "status": "downloaded",
+      "sha256": "6fa70f07255cad2bfe28ff021fb519b3866674e6de3d705bdf5ca9e3f5f95ed0",
+      "bytes": 353595,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/hijaz_murassaa/zarani_al_mahbub.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/hijaz_murassaa/zarani_al_mahbub.mp3",
+      "status": "downloaded",
+      "sha256": "8677d5bb198b9d18c0447ad2eeb7fea2f36803b5e49bd07ea55b036485c4e9b2",
+      "bytes": 924656,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/hijaz_murassaa/zahr_el_laymun.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/hijaz_murassaa/zahr_el_laymun.mp3",
+      "status": "downloaded",
+      "sha256": "9d85439a74ec0fe9b84469386c43722116c8f3ac34e44bbde479fa17e77c0474",
+      "bytes": 559798,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/hijaz_murassaa/maqam_isba3ain.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/hijaz_murassaa/maqam_isba3ain.mp3",
+      "status": "downloaded",
+      "sha256": "c9c3acaf38d46f1b9a0fcc5fc847710e591a561fa9682da313ab18462947e417",
+      "bytes": 513488,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/hijaz_murassaa.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/jins/hijaz_murassaa/hijaz_murassaa.mp3",
+      "status": "downloaded",
+      "sha256": "3fbcd8a7c97c6ff26178aef3e8e56364e444ddc7ded1aced9f50b0802207e617",
+      "bytes": 57468,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/jins/hijaz_murassaa.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/jins/hijaz_murassaa/hijaz_murassaa.png",
+      "status": "downloaded",
+      "sha256": "3d06ad209ee8746ccad69f5716578c64bb0a2318a2f9ac3a441274354657538e",
+      "bytes": 9747,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/cd.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/jins/hijaz_murassaa/cd.png",
+      "status": "downloaded",
+      "sha256": "1f52da76667703a00010a07afefc9d78b6c3ccb8359b906fc6fd6b0cddd0255f",
+      "bytes": 5478,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Jins Hijaz",
+      "url": "https://www.maqamworld.com/en/jins/hijaz.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Maqam Hijazkar",
+      "url": "https://www.maqamworld.com/en/maqam/hijazkar.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "22043a0ac8568170919b613e2bb06ec09fbfd6d93ba74252e18bf669587ead57",
+  "fetched_at": "2026-11-10T12:10:55.053914Z",
+  "status_code": 200,
+  "html_file": "data/raw/jins/hijaz_murassaa.html"
+}

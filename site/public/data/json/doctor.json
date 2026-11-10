@@ -1,0 +1,39 @@
+{
+  "checked_at": "2026-11-10T12:11:24.770703+00:00",
+  "stats": {
+    "pages": 139,
+    "tracks": 614,
+    "notes": 504,
+    "media": 1105,
+    "media_downloaded": 997,
+    "links": 864,
+    "by_section": {
+      "book": 1,
+      "form": 5,
+      "home": 1,
+      "instr": 20,
+      "iqaa": 43,
+      "jins": 25,
+      "maqam": 44
+    },
+    "by_media_kind": {
+      "audio": 775,
+      "image": 330
+    },
+    "last_run": {
+      "id": 11,
+      "command": "media",
+      "started_at": "2026-11-10T12:10:55.214638+00:00",
+      "finished_at": "2026-11-10T12:10:56.221318+00:00",
+      "pages": 139,
+      "tracks": 0,
+      "media_downloaded": 997,
+      "media_failed": 0,
+      "errors_json": "[]"
+    }
+  },
+  "problems": [],
+  "live_checked": 20,
+  "changed_pages": [],
+  "selector_failures": []
+}

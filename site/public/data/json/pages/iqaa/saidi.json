@@ -1,0 +1,205 @@
+{
+  "url": "https://www.maqamworld.com/en/iqaa/saidi.php",
+  "path": "/en/iqaa/saidi.php",
+  "section": "iqaa",
+  "slug": "iqaa/saidi",
+  "kind": "entry",
+  "title": "Iqa‘ Sa‘idi 4/4",
+  "subtitle": "(also spelled Saidi)",
+  "description": "Iqa‘ Sa‘idi",
+  "lang": "en",
+  "paragraphs": [
+    "Iqa‘ Sa‘idi is a lively and quintessentially Egyptian iqa‘ from the Sa‘id region. It modulates back and forth with other lively 4/4 iqa‘at like Maqsum and Baladi."
+  ],
+  "text": "Iqa‘ Sa‘idi 4/4 (also spelled Saidi) Iqa‘ Index Pronunciation of Sa‘idi Iqa‘ Sa‘idi is a lively and quintessentially Egyptian iqa‘ from the Sa‘id region. It modulates back and forth with other lively 4/4 iqa‘at like Maqsum and Baladi . Sawwah (1966) Abdel Halim Hafez Music by Baligh Hamdi (Egypt) Zayy el-Hawa (1970) Abdel Halim Hafez Music by Baligh Hamdi (Egypt) ‘Ala Hisb Widad Galbi (1953) Hossam Ramzi Music by Baligh Hamdi (Egypt) Bahibbak Saddaqni Warda Music by Sayyed Makkawi Habba Fouq We Habba Taht Vocals and Music by Ahmad Adaweya Adik Ti'ul Makhadtesh Vocals and Music by Ahmad Adaweya Iqa‘ Sa‘idi 4/4 Tabla demonstration by Faisal Zedan",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Sawwah (1966)",
+      "artist": "Abdel Halim Hafez",
+      "credits": [
+        "Music by Baligh Hamdi (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/saidi/sawwah.mp3",
+      "local_path": "data/media/iqaa/saidi/sawwah.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Zayy el-Hawa (1970)",
+      "artist": "Abdel Halim Hafez",
+      "credits": [
+        "Music by Baligh Hamdi (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/saidi/zayy_el_hawa.mp3",
+      "local_path": "data/media/iqaa/saidi/zayy_el_hawa.mp3"
+    },
+    {
+      "index": 3,
+      "title": "‘Ala Hisb Widad Galbi (1953)",
+      "artist": "Hossam Ramzi",
+      "credits": [
+        "Music by Baligh Hamdi (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/saidi/3ala_hisb_widad.mp3",
+      "local_path": "data/media/iqaa/saidi/3ala_hisb_widad.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Bahibbak Saddaqni",
+      "artist": "Warda",
+      "credits": [
+        "Music by Sayyed Makkawi"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/saidi/bahibbak_saddaqni.mp3",
+      "local_path": "data/media/iqaa/saidi/bahibbak_saddaqni.mp3"
+    },
+    {
+      "index": 5,
+      "title": "Habba Fouq We Habba Taht",
+      "artist": "Vocals and Music by Ahmad Adaweya",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/saidi/habba_fouq.mp3",
+      "local_path": "data/media/iqaa/saidi/habba_fouq.mp3"
+    },
+    {
+      "index": 6,
+      "title": "Adik Ti'ul Makhadtesh",
+      "artist": "Vocals and Music by Ahmad Adaweya",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/saidi/ma_khadtesh.mp3",
+      "local_path": "data/media/iqaa/saidi/ma_khadtesh.mp3"
+    },
+    {
+      "index": 7,
+      "title": "Iqa‘ Sa‘idi 4/4",
+      "artist": "Tabla demonstration by Faisal Zedan",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/demo/iqaa/tabla/saidi.mp3",
+      "local_path": "data/media/iqaa/saidi/saidi.mp3"
+    }
+  ],
+  "notes": [],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/saidi/sawwah.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/saidi/sawwah.mp3",
+      "status": "downloaded",
+      "sha256": "529282deb2276bc548e081dc4ee6a3f6bf16bdf8da5cbb5ecb2bd601b6c9a800",
+      "bytes": 772430,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/saidi/zayy_el_hawa.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/saidi/zayy_el_hawa.mp3",
+      "status": "downloaded",
+      "sha256": "4dbf176def45e0602bd2a87006cadb8b2f3c09f09de87ec013fbbcbf0db30ff0",
+      "bytes": 578752,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/saidi/3ala_hisb_widad.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/saidi/3ala_hisb_widad.mp3",
+      "status": "downloaded",
+      "sha256": "3ca95f9e462b97af806f72907a53562e4531188ec2560c2f5146f8f55a172ada",
+      "bytes": 937087,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/saidi/bahibbak_saddaqni.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/saidi/bahibbak_saddaqni.mp3",
+      "status": "downloaded",
+      "sha256": "de7164c8f855b30e8545e15803fb740065c20157448d3756370cebe5268fecdf",
+      "bytes": 995166,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/saidi/habba_fouq.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/saidi/habba_fouq.mp3",
+      "status": "downloaded",
+      "sha256": "299d1fc3127a81a0a86fe306af21ae82f3b9a723cd37a7f51d8aa7ce5b35c6e3",
+      "bytes": 514054,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/saidi/ma_khadtesh.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/saidi/ma_khadtesh.mp3",
+      "status": "downloaded",
+      "sha256": "6ca5efae870a4ddfee117bc10cecddb814723f9cbdce499d2b1db52edf359dac",
+      "bytes": 459177,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/demo/iqaa/tabla/saidi.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/saidi/saidi.mp3",
+      "status": "downloaded",
+      "sha256": "29b8b1ca4836183f100e8d76675c690227c9bfb6fc76164a974083ee39d7cf25",
+      "bytes": 805869,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/saidi.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/iqaa/saidi/saidi-048bc7b0.mp3",
+      "status": "downloaded",
+      "sha256": "b22aac834e89cd86fc103772c4b352e909abcfda1c60a6b2a0a70c63565d10ad",
+      "bytes": 36570,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/iqaa/saidi.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/saidi/saidi.png",
+      "status": "downloaded",
+      "sha256": "bf27a0ebb8189a93a84de7f8277ae9829e0001a89a21f31f3706c40a4480082a",
+      "bytes": 11688,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/tabla.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/saidi/tabla.png",
+      "status": "downloaded",
+      "sha256": "bc7d7630f1797012041feecf8f1a7bc6d926498a88661ab4f28451d50b6c8f30",
+      "bytes": 11602,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Iqa‘ Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Maqsum",
+      "url": "https://www.maqamworld.com/en/iqaa/maqsum.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Baladi",
+      "url": "https://www.maqamworld.com/en/iqaa/baladi.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "b05b3362c4585ca01ca172899e79ea432c8ea80302149c3e0f35abfadb45873f",
+  "fetched_at": "2026-11-10T12:10:55.134351Z",
+  "status_code": 200,
+  "html_file": "data/raw/iqaa/saidi.html"
+}

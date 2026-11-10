@@ -1,0 +1,184 @@
+{
+  "url": "https://www.maqamworld.com/en/jins/jiharkah.php",
+  "path": "/en/jins/jiharkah.php",
+  "section": "jins",
+  "slug": "jins/jiharkah",
+  "kind": "entry",
+  "title": "Jins Jiharkah",
+  "subtitle": "A 5-note jins",
+  "description": "Jins Jiharkah",
+  "lang": "en",
+  "paragraphs": [
+    "Click the notes and hold using the mouse to hear them play.",
+    "Jins Jiharkah is a 5-note jins. It is notated here with its tonic on F and its ghammaz on C. The 3rd and 4th degrees are usually played lower than notated. Jins Jiharkah is the first jins in Maqam Jiharkah."
+  ],
+  "text": "Jins Jiharkah A 5-note jins Jins Index Pronunciation of Jiharkah Click the notes and hold using the mouse to hear them play. Jins Jiharkah is a 5-note jins . It is notated here with its tonic on F and its ghammaz on C. The 3 rd and 4 th degrees are usually played lower than notated. Jins Jiharkah is the first jins in Maqam Jiharkah . Muwashah Anta Sultan al-Milah Sabah Fakhri ‘Awwidti ‘Eini (1957) Umm Kulthum Music by Riyad al-Sunbati Shams el-Asil (1958) Umm Kulthum Music by Riyad al-Sunbati Taqsim Oud in Maqam Rast Ibrahim al-Haggar Wasla in Maqam Rast Ya Mal il-Sham Sabah Fakhri Music by Ahmad Abu Khalil al-Qabbani",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Muwashah Anta Sultan al-Milah",
+      "artist": "Sabah Fakhri",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/jins/jiharkah/sultan_al_milah.mp3",
+      "local_path": "data/media/jins/jiharkah/sultan_al_milah.mp3"
+    },
+    {
+      "index": 2,
+      "title": "‘Awwidti ‘Eini (1957)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Riyad al-Sunbati"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/jiharkah/3awwidti_3eini.mp3",
+      "local_path": "data/media/jins/jiharkah/3awwidti_3eini.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Shams el-Asil (1958)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Riyad al-Sunbati"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/jiharkah/shams_il_asil.mp3",
+      "local_path": "data/media/jins/jiharkah/shams_il_asil.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Taqsim Oud in Maqam Rast",
+      "artist": "Ibrahim al-Haggar",
+      "credits": [
+        "Wasla in Maqam Rast"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/jiharkah/taqsim_oud_rast.mp3",
+      "local_path": "data/media/jins/jiharkah/taqsim_oud_rast.mp3"
+    },
+    {
+      "index": 5,
+      "title": "Ya Mal il-Sham",
+      "artist": "Sabah Fakhri",
+      "credits": [
+        "Music by Ahmad Abu Khalil al-Qabbani"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/jiharkah/ya_mal_el_sham.mp3",
+      "local_path": "data/media/jins/jiharkah/ya_mal_el_sham.mp3"
+    }
+  ],
+  "notes": [
+    {
+      "name": "D4",
+      "frequency": 293.33
+    },
+    {
+      "name": "E4",
+      "frequency": 321.33
+    },
+    {
+      "name": "F4",
+      "frequency": 347.65
+    },
+    {
+      "name": "G4",
+      "frequency": 391.11
+    },
+    {
+      "name": "A4♮↓",
+      "frequency": 433.0
+    },
+    {
+      "name": "B4♭↓",
+      "frequency": 454.0
+    },
+    {
+      "name": "C5",
+      "frequency": 521.48
+    }
+  ],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/jins/jiharkah/sultan_al_milah.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/jiharkah/sultan_al_milah.mp3",
+      "status": "downloaded",
+      "sha256": "af2d241fa0a3bb6a3fa8a823e8bd3d932b901a11b11f15a851d57f4cc1f76d04",
+      "bytes": 715146,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/jiharkah/3awwidti_3eini.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/jiharkah/3awwidti_3eini.mp3",
+      "status": "downloaded",
+      "sha256": "b37be57a5aa011bd0ca5cc334edadfbac241003b84f15d0f4d81555426f07041",
+      "bytes": 198202,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/jiharkah/shams_il_asil.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/jiharkah/shams_il_asil.mp3",
+      "status": "downloaded",
+      "sha256": "13765d7f06aa8004864fae4386ed4060dbf1b991f1fc6c4026996e4c907f9bb8",
+      "bytes": 1082272,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/jiharkah/taqsim_oud_rast.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/jiharkah/taqsim_oud_rast.mp3",
+      "status": "downloaded",
+      "sha256": "8369dedd56402469fd4fab1d3ab8c192751137ff150dfb3b7fcee7d5178a772e",
+      "bytes": 261588,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/jiharkah/ya_mal_el_sham.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/jiharkah/ya_mal_el_sham.mp3",
+      "status": "downloaded",
+      "sha256": "feb890ece53fd8eb8416c6d29b5b3c594f14350fd235abd82abaa08d44327932",
+      "bytes": 679418,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/jiharkah.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/jins/jiharkah/jiharkah.mp3",
+      "status": "downloaded",
+      "sha256": "458a87f2ba8f9075ac8d54995be93a7146981b692b17affd596e38906d3919d0",
+      "bytes": 38660,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/jins/jiharkah.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/jins/jiharkah/jiharkah.png",
+      "status": "downloaded",
+      "sha256": "850d5194c07ebec9919ec5add9134b63e187eac15c68ae93552483eac2dc25aa",
+      "bytes": 10195,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Jins Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Maqam Jiharkah",
+      "url": "https://www.maqamworld.com/en/maqam/jiharkah.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "991c1eccd30421e8ae4e3420fdc326fdd70e0fc4d6ef8ac529b0140c162b0f89",
+  "fetched_at": "2026-11-10T12:10:55.057958Z",
+  "status_code": 200,
+  "html_file": "data/raw/jins/jiharkah.html"
+}

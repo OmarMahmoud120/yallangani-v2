@@ -20,6 +20,7 @@ class RecognitionEngineTest {
         jinsAr = "جنس حجاز",
         signatureAr = "توقيع الحجاز",
         audio = "01-alhijaz.mp3",
+        drone = "drone-c4.mp3",
     )
     private val nahawand = Maqam(
         id = "nahawand",
@@ -28,6 +29,7 @@ class RecognitionEngineTest {
         jinsAr = "جنس نهاوند",
         signatureAr = "توقيع النهاوند",
         audio = "02-alnahawand.mp3",
+        drone = "drone-c4.mp3",
     )
     private val lesson = RecognitionLesson(
         id = "hijaz_nahawand",
@@ -74,6 +76,22 @@ class RecognitionEngineTest {
         val question = started().question
         assertEquals("content/audio/01-alhijaz.mp3", question.audio)
         assertTrue(question.contrastAudio.startsWith("content/audio/"))
+    }
+
+    @Test
+    fun `drone path resolves inside the content audio directory`() {
+        assertEquals("content/audio/drone-c4.mp3", started().question.droneAudio)
+    }
+
+    @Test
+    fun `maqam without a drone exposes no drone path`() {
+        val pack = pack.copy(maqams = listOf(hijaz.copy(drone = null), nahawand))
+        val session = RecognitionEngine.start(
+            pack.lessons.single().copy(items = listOf(RecognitionItem(id = "1", answer = "hijaz"))),
+            pack,
+            Random(1),
+        )
+        assertEquals(null, session.question.droneAudio)
     }
 
     @Test

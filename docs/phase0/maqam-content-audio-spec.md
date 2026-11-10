@@ -3,7 +3,7 @@
 **Phase:** 0 — Discovery  
 **Status:** Draft for maqam advisor sign-off  
 **Date:** 2026-11-10  
-**Tasks:** #2, #10, #11, #18
+**Tasks:** #2, #3, #11, #18
 
 ---
 
@@ -105,10 +105,15 @@ Reference: A4 = 440 Hz for UI and tuning tools. Relative cents are canonical; ab
 |---|---|---|---|
 | Rast (C4) | 0, 200, 350, 500, 700, 900, 1050, 1200 | C, D, E½♭, F, G, A, B½♭, C | Neutral third and seventh |
 | Bayati (D4) | 0, 150, 300, 500, 700, 800, 1000, 1200 | D, E½♭, F, G, A, B♭, C, D | Neutral second; upper Nahawand on G |
-| Hijaz (D4) | 0, 100, 400, 500, 700, 800, 1000, 1200 | D, E♭, F♯, G, A, B♭, C, D | Augmented second between degrees 2–3 |
+| Hijaz (C4) | 0, 100, 400, 500, 700, 800, 1000, 1200 | C, D♭, E, F, G, A♭, B♭, C | Augmented second between degrees 2–3; equal tonic with Rast and Nahawand for A/B |
 | Saba (D4) | 0, 150, 300, 400, 700, 800, 1000, 1200 | D, E½♭, F, G♭, A, B♭, C, D | Diminished fourth; upper jins TBC |
 | Kurd (D4) | 0, 100, 300, 500, 700, 800, 1000, 1200 | D, E♭, F, G, A, B♭, C, D | Minor second; upper Nahawand on G |
-| Nahawand (C4) | 0, 200, 300, 500, 700, 800, 1000, 1200 | C, D, E♭, F, G, A♭, B♭, C | Familiar minor; upper Nahawand on G |
+| Nahawand (C4) | 0, 200, 300, 500, 700, 800, 1000, 1200 | C, D, E♭, F, G, A♭, B♭, C | Familiar minor; upper jins is **Kurd on G** (G–A♭–B♭–C). Farahfaza is a separate entry: Nahawand transposed to G |
+
+**Pack 1 authority:** the signed version of this table lives in
+`docs/phase0/pack1-tuning-worksheet.md`. That worksheet settles the Rast, Hijaz, and Nahawand
+rows, the signature/register plan, and the drone interval. This section stays the nine-maqam
+proposal; if they disagree for Pack 1, the worksheet wins.
 | Ajam (C4) | 0, 200, 400, 500, 700, 900, 1100, 1200 | C, D, E, F, G, A, B, C | Major third; upper Ajam on G |
 | Sikah (E½♭4) | 0, 150, 350, 550, 650, 850, 1050, 1200 | E½♭, F, G, A, B♭, C, D, E½♭ | **Provisional**; confirm upper jins and exact cents |
 | Huzam (E½♭4) | **TBD** | E½♭, F, G, A, B♭, C♯, D, E½♭ (candidate) | **Do not produce until advisor defines the scale** |
@@ -133,14 +138,17 @@ Per maqam, produce:
 | Scale with light ornament | 1 | Realistic listening |
 | Lower-jins phrase | 3 | Teach the characteristic jins |
 | Upper-jins phrase | 3 | Teach the maqam’s upper color |
-| Signature phrase | 3 | The “fingerprint” for recognition |
+| Signature phrase | 3 | The “fingerprint”; cover ≥2 registers |
 | Cadence (qafla) | 2 | Teach phrase endings |
 | Drone (tonic + fifth) | 1 | Practice bed; loopable |
-| Slow signature phrase (0.75×) | 3 | Scaffold and practice |
-| **Total per maqam** | **18** | |
+| **Total per maqam** | **15** | |
 
-**Core nine:** ~162 assets.  
-**Starter pack (3 maqams):** ~54 assets.
+**Core nine:** 135 assets.  
+**Starter pack (3 maqams):** 45 masters + 5 onboarding drills = **50 assets**; the first win reuses
+the Hijaz signature.
+
+Slow variants are produced at runtime (`0.75×`, pitch-preserved), not as files. If the advisor
+rejects runtime slow after listening, add 3 slow signatures per maqam (9 total) and re-run QA.
 
 ### Starter pack recommendation
 
@@ -170,7 +178,12 @@ This supersedes the earlier “Rast, Bayati, Hijaz” plan; Task #11 is updated 
 - Low: tonic around C3–D3.
 - Middle: tonic around C4.
 - High: tonic around C5.
-- Every signature phrase must exist in at least two registers for generalization.
+- The signature group must cover at least two registers for generalization.
+
+Pack 1 implements this as a **signature group**: one matched mid-register signature per maqam (the
+A/B contrast core) plus one low and one high signature, so the group covers three registers. A/B is
+guaranteed only on the matched core; alternate-register items are recognition-only. See
+`docs/phase0/pack1-tuning-worksheet.md` §5.
 
 ### Tempo and length
 
@@ -332,7 +345,7 @@ Every asset has a `rights_id` pointing to a signed release. No asset ships witho
 - [ ] Onsets are trimmed and consistent.
 - [ ] Loudness is consistent at −16 LUFS.
 - [ ] Noise floor < −60 dBFS; no clipping.
-- [ ] Every phrase exists in at least two registers.
+- [ ] The signature group covers at least two registers.
 - [ ] Slow versions are exactly 0.75× and pitch-preserved.
 - [ ] Metadata validates against the schema.
 - [ ] Rights file exists for every asset.
@@ -376,7 +389,7 @@ Every asset has a `rights_id` pointing to a signed release. No asset ships witho
 
 The three-maqam starter pack is accepted when:
 
-1. Rast, Hijaz, and Nahawand are fully produced (≈54 assets).
+1. Rast, Hijaz, and Nahawand are fully produced (45 masters + 5 onboarding drills = 50 assets).
 2. The advisor signs off theory, cards, and audio.
 3. Rights files are complete.
 4. The pack is ≤25 MB and plays offline.

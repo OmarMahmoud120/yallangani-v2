@@ -12,8 +12,10 @@ here. Rights basis: `docs/phase0/rights-triage.md` §3 (classes 1–2 Green, 3�
 | `aliases.csv` | Alternate names, shared detail pages, near-name traps, transliteration variants |
 | `terminology_ar.csv` | Arabic glossary candidates; definitions are drafts for advisor approval |
 
-Raw page snapshots are deliberately **not** kept in this repository. The source log below records
-what was consulted and when. If an audit needs a private archive, store it outside the repo.
+Raw page snapshots and downloaded media are **not** part of this facts-only folder. On 2026-11-10
+the owner added a crawl under `site/public/data/` for the public website, with owner-reported approval
+(`docs/CONTENT_LICENSES.md`). The app still uses none of it. The source log below records what was
+consulted and when.
 
 ---
 
@@ -67,11 +69,10 @@ App IDs match `maqamColor()` in `ui/theme/Theme.kt`, so a lesson can ship withou
 `app_color_hex` in the CSV duplicates those values for authoring convenience; the theme remains the
 runtime source of truth.
 
-The seven legacy synth files use an `al-` prefix (`03-alkurd.mp3`, `04-alsaba.mp3`,
-`05-albayati.mp3`, `07-alsika.mp3`, `08-alajam.mp3`, `09-alhuzam.mp3`, `10-albanjkah.mp3`). They map
-to `kurd`, `saba`, `bayati`, `sikah`, `ajam`, `huzam`, and a Banjkah entry that is **not** in the
-core nine. Per plan §13.9 these files are unreferenced and must be removed or excluded before
-release; do not treat the filenames as app IDs.
+The seven legacy synth files used an `al-` prefix (`03-alkurd.mp3`, `04-alsaba.mp3`,
+`05-albayati.mp3`, `07-alsika.mp3`, `08-alajam.mp3`, `09-alhuzam.mp3`, `10-albanjkah.mp3`). They
+mapped to `kurd`, `saba`, `bayati`, `sikah`, `ajam`, `huzam`, and a Banjkah entry that is **not** in
+the core nine. They were removed from the APK on 2026-11-10; only Pack 1 phrases remain bundled.
 
 ---
 

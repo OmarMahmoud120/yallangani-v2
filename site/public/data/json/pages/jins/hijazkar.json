@@ -1,0 +1,232 @@
+{
+  "url": "https://www.maqamworld.com/en/jins/hijazkar.php",
+  "path": "/en/jins/hijazkar.php",
+  "section": "jins",
+  "slug": "jins/hijazkar",
+  "kind": "entry",
+  "title": "Jins Hijazkar New",
+  "subtitle": "(undefined size)",
+  "description": "Jins Hijazkar",
+  "lang": "en",
+  "paragraphs": [
+    "Click the notes and hold using the mouse to hear them play.",
+    "Jins Hijazkar has no ghammaz, and therefore no defined size. Its melody is centered around its tonic, notated here on C. Jins Hijazkar occurs on the octave of Maqam Hijazkar."
+  ],
+  "text": "Jins Hijazkar New (undefined size) Jins Index Pronunciation of Hijazkar Click the notes and hold using the mouse to hear them play. Jins Hijazkar has no ghammaz , and therefore no defined size. Its melody is centered around its tonic, notated here on C. Jins Hijazkar occurs on the octave of Maqam Hijazkar . Ya Halawit el-Dunya Sayyed Makkawi Music by Zakariya Ahmad (Egypt) Muwashah Badru Timmin Haza Husnan Ghada Shbeir Al Muwashahat Muwashah Hibbi Zurni My Tayassar Karem Mahmud Music by Darwish al-Hariri Muwashah Ramani Bi Sahmi Hawahu Sabah Fakhri Music by Daoud Husni Dawr Ya Ma-nta Wahishni Sabah Fakhri Music by Muhammad ‘Uthman Dawr Ya Nas Ana Mutt Fi Hubbi Ghada Shbeir Music by Sayyed Darwish Zahr El-Laymoun (1997) Sonia M'Barek Tawchih",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Ya Halawit el-Dunya",
+      "artist": "Sayyed Makkawi",
+      "credits": [
+        "Music by Zakariya Ahmad (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/hijazkar/ya_halawit_el_dunya.mp3",
+      "local_path": "data/media/jins/hijazkar/ya_halawit_el_dunya.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Muwashah Badru Timmin Haza Husnan",
+      "artist": "Ghada Shbeir",
+      "credits": [
+        "Al Muwashahat"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/hijazkar/badru_timmin.mp3",
+      "local_path": "data/media/jins/hijazkar/badru_timmin.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Muwashah Hibbi Zurni My Tayassar",
+      "artist": "Karem Mahmud",
+      "credits": [
+        "Music by Darwish al-Hariri"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/hijazkar/hibbi_zurni_ma_tayassar.mp3",
+      "local_path": "data/media/jins/hijazkar/hibbi_zurni_ma_tayassar.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Muwashah Ramani Bi Sahmi Hawahu",
+      "artist": "Sabah Fakhri",
+      "credits": [
+        "Music by Daoud Husni"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/hijazkar/ramani_bi_sahmi.mp3",
+      "local_path": "data/media/jins/hijazkar/ramani_bi_sahmi.mp3"
+    },
+    {
+      "index": 5,
+      "title": "Dawr Ya Ma-nta Wahishni",
+      "artist": "Sabah Fakhri",
+      "credits": [
+        "Music by Muhammad ‘Uthman"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/hijazkar/ya_manta_wahishni.mp3",
+      "local_path": "data/media/jins/hijazkar/ya_manta_wahishni.mp3"
+    },
+    {
+      "index": 6,
+      "title": "Dawr Ya Nas Ana Mutt Fi Hubbi",
+      "artist": "Ghada Shbeir",
+      "credits": [
+        "Music by Sayyed Darwish"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/hijazkar/ya_nas_ana_mutti.mp3",
+      "local_path": "data/media/jins/hijazkar/ya_nas_ana_mutti.mp3"
+    },
+    {
+      "index": 7,
+      "title": "Zahr El-Laymoun (1997)",
+      "artist": "Sonia M'Barek",
+      "credits": [
+        "Tawchih"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/hijazkar/zahr_el_laymun.mp3",
+      "local_path": "data/media/jins/hijazkar/zahr_el_laymun.mp3"
+    }
+  ],
+  "notes": [
+    {
+      "name": "A4♭",
+      "frequency": 420.0
+    },
+    {
+      "name": "B4♮",
+      "frequency": 493.33
+    },
+    {
+      "name": "C5",
+      "frequency": 521.48
+    },
+    {
+      "name": "D5♭",
+      "frequency": 554.0
+    },
+    {
+      "name": "E5♮",
+      "frequency": 656.0
+    },
+    {
+      "name": "F5",
+      "frequency": 695.3
+    }
+  ],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/jins/hijazkar/ya_halawit_el_dunya.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/hijazkar/ya_halawit_el_dunya.mp3",
+      "status": "downloaded",
+      "sha256": "98b74f3899e94a0ece3447773d899608a10cc23609f7e0751a97c23f3a07587e",
+      "bytes": 993558,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/hijazkar/badru_timmin.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/hijazkar/badru_timmin.mp3",
+      "status": "downloaded",
+      "sha256": "774847286c6f51bcaa66f3f7e81b6bc846fab5ba9d766d655ba9096bfee3a307",
+      "bytes": 637616,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/hijazkar/hibbi_zurni_ma_tayassar.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/hijazkar/hibbi_zurni_ma_tayassar.mp3",
+      "status": "downloaded",
+      "sha256": "9096309213f0284d11edf56c4d5e6a9da52cca56094ad3e80f0599f6ea7e27c9",
+      "bytes": 345695,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/hijazkar/ramani_bi_sahmi.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/hijazkar/ramani_bi_sahmi.mp3",
+      "status": "downloaded",
+      "sha256": "f3e3ee7ad94784cd17b7c65c772c2d2056e554bdbdeaf0797c2bb6348cae6f77",
+      "bytes": 369666,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/hijazkar/ya_manta_wahishni.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/hijazkar/ya_manta_wahishni.mp3",
+      "status": "downloaded",
+      "sha256": "ea53d13fc0291059fb209ac27057fb9f4280d7d1d9d770e5aef22f15e055b968",
+      "bytes": 349520,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/hijazkar/ya_nas_ana_mutti.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/hijazkar/ya_nas_ana_mutti.mp3",
+      "status": "downloaded",
+      "sha256": "892e497303294d18415a8915c7a9a84fb26893640aa0b82d9e6d5eecc93f2072",
+      "bytes": 352408,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/hijazkar/zahr_el_laymun.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/hijazkar/zahr_el_laymun.mp3",
+      "status": "downloaded",
+      "sha256": "4ee0075d28f0dd2177fe942d23165564ca77ded23ef2a859b90e7f92bd0506b4",
+      "bytes": 314278,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/hijazkar.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/jins/hijazkar/hijazkar.mp3",
+      "status": "downloaded",
+      "sha256": "52d5633e4cf30152eaa659037db7537b33c246cfd447d9bbc33f373d05c21d28",
+      "bytes": 42840,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/jins/hijazkar.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/jins/hijazkar/hijazkar.png",
+      "status": "downloaded",
+      "sha256": "a106161bd3b1447e146c013a74d7ae24cad4b8f38ff26ab0c4e57b887a3659dd",
+      "bytes": 9088,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/cd.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/jins/hijazkar/cd.png",
+      "status": "downloaded",
+      "sha256": "1f52da76667703a00010a07afefc9d78b6c3ccb8359b906fc6fd6b0cddd0255f",
+      "bytes": 5478,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Jins Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Maqam Hijazkar",
+      "url": "https://www.maqamworld.com/en/maqam/hijazkar.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "246a3349ad70dd6a44791fb0a6c7af8e7e8ba9b4aeeb83a122d67fe3e6b87a3d",
+  "fetched_at": "2026-11-10T12:10:55.055774Z",
+  "status_code": 200,
+  "html_file": "data/raw/jins/hijazkar.html"
+}

@@ -1,0 +1,137 @@
+{
+  "url": "https://www.maqamworld.com/en/maqam/mahur.php",
+  "path": "/en/maqam/mahur.php",
+  "section": "maqam",
+  "slug": "maqam/mahur",
+  "kind": "entry",
+  "title": "Maqam Mahur",
+  "subtitle": "A member of the Maqam Rast Family",
+  "description": "Maqam Mahur",
+  "lang": "en",
+  "paragraphs": [
+    "Click the notes and hold using the mouse to hear them play.",
+    "Maqam Mahur starts with the root Jins Rast on the tonic, followed by Jins Upper ‘Ajam on the 5th degree (with its tonic up on the 8th degree).",
+    "Explore other maqamat in the Maqam Rast Family."
+  ],
+  "text": "Maqam Mahur A member of the Maqam Rast Family Maqam Index Pronunciation of Mahur Click the notes and hold using the mouse to hear them play. Maqam Mahur starts with the root Jins Rast on the tonic , followed by Jins Upper ‘Ajam on the 5 th degree (with its tonic up on the 8 th degree). Explore other maqamat in the Maqam Rast Family . Muwashah Hayyar al-Afkar Badri Sheikh Sayyed al-Safti Muwashah Bi Sifatin Ja‘alatni Charbel Rouhana",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Muwashah Hayyar al-Afkar Badri",
+      "artist": "Sheikh Sayyed al-Safti",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/mahur/hayyara_al_afkar.mp3",
+      "local_path": "data/media/maqam/mahur/hayyara_al_afkar.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Muwashah Bi Sifatin Ja‘alatni",
+      "artist": "Charbel Rouhana",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/mahur/bi_sifatin_ja3alatni.mp3",
+      "local_path": "data/media/maqam/mahur/bi_sifatin_ja3alatni.mp3"
+    }
+  ],
+  "notes": [
+    {
+      "name": "C5",
+      "frequency": 521.48
+    },
+    {
+      "name": "B4♮",
+      "frequency": 495.0
+    },
+    {
+      "name": "A4",
+      "frequency": 440.0
+    },
+    {
+      "name": "G4",
+      "frequency": 391.11
+    },
+    {
+      "name": "F4",
+      "frequency": 347.65
+    },
+    {
+      "name": "E4",
+      "frequency": 320.0
+    },
+    {
+      "name": "D4♮",
+      "frequency": 293.33
+    },
+    {
+      "name": "C4",
+      "frequency": 260.74
+    }
+  ],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/mahur/hayyara_al_afkar.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/mahur/hayyara_al_afkar.mp3",
+      "status": "downloaded",
+      "sha256": "8d4ab02a745e15261487357fbddfb8f6b71a6c0ce0b167385b19015c00448a99",
+      "bytes": 1125271,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/mahur/bi_sifatin_ja3alatni.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/mahur/bi_sifatin_ja3alatni.mp3",
+      "status": "downloaded",
+      "sha256": "8baf1a592e363189468df115aaf8d5f44d36ed291a4049973edbdc6a4b1d370c",
+      "bytes": 963471,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/mahur.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/maqam/mahur/mahur.mp3",
+      "status": "downloaded",
+      "sha256": "b077b90881be9d4e39fec7f8608b35e41aa5d78c89f4833f8cb8162a6e0194ff",
+      "bytes": 39705,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/maqam/mahur.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/maqam/mahur/mahur.png",
+      "status": "downloaded",
+      "sha256": "e62f3ca5ae040ad49218ad190d02257753bb0964ace063b6c9bcc5fe71cbc3de",
+      "bytes": 13416,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Maqam Rast Family",
+      "url": "https://www.maqamworld.com/en/maqam/f_rast.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Jins Rast",
+      "url": "https://www.maqamworld.com/en/jins/rast.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Upper ‘Ajam",
+      "url": "https://www.maqamworld.com/en/jins/upper_ajam.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "c77df5c38bf778db1e1c924394df979b92fe93479a563795c9c6b2a14a34e676",
+  "fetched_at": "2026-11-10T12:10:54.922294Z",
+  "status_code": 200,
+  "html_file": "data/raw/maqam/mahur.html"
+}

@@ -1,0 +1,96 @@
+{
+  "url": "https://www.maqamworld.com/en/maqam/f_bayati.php",
+  "path": "/en/maqam/f_bayati.php",
+  "section": "maqam",
+  "slug": "maqam/f_bayati",
+  "kind": "family",
+  "title": "Maqam Bayati Family",
+  "subtitle": "Maqamat that start with Jins Bayati",
+  "description": "Maqam Bayati Family",
+  "lang": "en",
+  "paragraphs": [
+    "Maqam Bayati Family is made of maqamat that start with Jins Bayati.",
+    "Other maqam families:"
+  ],
+  "text": "Maqam Bayati Family Maqamat that start with Jins Bayati Maqam Index Pronunciation of Bayati Maqam Bayati Family is made of maqamat that start with Jins Bayati . Maqam Bayati Maqam Bayati Shuri Maqam Husayni Maqam Muhayyar Other maqam families: Maqam ‘Ajam Family Maqam Hijaz Family Maqam Kurd Family Maqam Nahawand Family Maqam Nikriz Family Maqam Rast Family Maqam Sikah Family",
+  "tracks": [],
+  "notes": [],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/name/bayati.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/maqam/f_bayati/bayati.mp3",
+      "status": "downloaded",
+      "sha256": "3d3ac53389143ef06d38026b6e6af462f4a7a3f39f71e555ea3a0735cfac11c7",
+      "bytes": 35525,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Jins Bayati",
+      "url": "https://www.maqamworld.com/en/jins/bayati.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Maqam Bayati",
+      "url": "https://www.maqamworld.com/en/maqam/bayati.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Bayati Shuri",
+      "url": "https://www.maqamworld.com/en/maqam/bayati_shuri.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Husayni",
+      "url": "https://www.maqamworld.com/en/maqam/husayni.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam ‘Ajam Family",
+      "url": "https://www.maqamworld.com/en/maqam/f_ajam.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Hijaz Family",
+      "url": "https://www.maqamworld.com/en/maqam/f_hijaz.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Kurd Family",
+      "url": "https://www.maqamworld.com/en/maqam/f_kurd.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Nahawand Family",
+      "url": "https://www.maqamworld.com/en/maqam/f_nahawand.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Nikriz Family",
+      "url": "https://www.maqamworld.com/en/maqam/f_nikriz.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Rast Family",
+      "url": "https://www.maqamworld.com/en/maqam/f_rast.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Sikah Family",
+      "url": "https://www.maqamworld.com/en/maqam/f_sikah.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "9abdcd9510584cbb014f097e0cec0ee751c998334f80931daa20443569ffcdc3",
+  "fetched_at": "2026-11-10T12:10:55.012701Z",
+  "status_code": 200,
+  "html_file": "data/raw/maqam/f_bayati.html"
+}

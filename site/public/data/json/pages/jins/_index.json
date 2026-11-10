@@ -1,0 +1,169 @@
+{
+  "url": "https://www.maqamworld.com/en/jins.php",
+  "path": "/en/jins.php",
+  "section": "jins",
+  "slug": "jins/_index",
+  "kind": "index",
+  "title": "The Jins",
+  "subtitle": "A scale fragment of 3, 4, or 5 notes that a Maqam is built from",
+  "description": "Arabic Music Maqam Jins",
+  "lang": "en",
+  "paragraphs": [
+    "The Jins (plural Ajnas) is a maqam scale fragment of 3, 4 or 5 notes. The jins is the basic melodic unit in Arabic music, as a maqam is really a pathway among many ajnas. Each jins is defined by its intervals, which don’t change when it is transposed and give it its distinct and recognizable character.",
+    "The tonic of a jins is the note of principal melodic emphasis, the note that the melody returns to for resolution. This is usually the first note in the jins scale. The leading tone is the note immediately below the tonic of a jins. The ghammaz is the most important note of melodic emphasis (besides the tonic), as well as the most common starting point of a new jins (changing to a new jins or maqam is called modulation).",
+    "The size of a jins is the number of notes between the tonic and the ghammaz. These notes are called the jins’ basic scale (or simply scale). Outside the basic scale (on either side) are notes that are part and parcel of the jins’ melodic vocabulary. These notes are called the jins baggage. The basic scale plus the jins baggage make up the jins’ extended scale.",
+    "Each jins shows the basic scale notated using large notes, with the tonic and ghammaz as whole notes. The jins baggage notes are shown in smaller size, and sometimes a jins includes multiple options for some notes in the jins baggage.",
+    "You can start exploring ajnas using the Jins Index (sorted alphabetically) or using the table below (grouped by size):"
+  ],
+  "text": "The Jins A scale fragment of 3, 4, or 5 notes that a Maqam is built from Jins Index Pronunciation of Jins/Ajnas The Jins (plural Ajnas) is a maqam scale fragment of 3, 4 or 5 notes. The jins is the basic melodic unit in Arabic music, as a maqam is really a pathway among many ajnas. Each jins is defined by its intervals, which don’t change when it is transposed and give it its distinct and recognizable character. The tonic of a jins is the note of principal melodic emphasis, the note that the melody returns to for resolution. This is usually the first note in the jins scale. The leading tone is the note immediately below the tonic of a jins . The ghammaz is the most important note of melodic emphasis (besides the tonic), as well as the most common starting point of a new jins (changing to a new jins or maqam is called modulation). The size of a jins is the number of notes between the tonic and the ghammaz . These notes are called the jins ’ basic scale (or simply scale). Outside the basic scale (on either side) are notes that are part and parcel of the jins ’ melodic vocabulary. These notes are called the jins baggage. The basic scale plus the jins baggage make up the jins ’ extended scale . Each jins shows the basic scale notated using large notes, with the tonic and ghammaz as whole notes. The jins baggage notes are shown in smaller size, and sometimes a jins includes multiple options for some notes in the jins baggage. You can start exploring ajnas using the Jins Index (sorted alphabetically) or using the table below (grouped by size): 3-note Jins Musta‘ar Jins Sikah 4-note Jins Bayati Jins Hijaz Jins Hijaz Murassa‘ Jins Kurd Jins Lami Jins Upper ‘Ajam Jins Upper Rast 5-note Jins ‘Ajam Jins ‘Ajam Murassa‘ Jins Athar Kurd Jins Jiharkah Jins Nahawand Jins Nikriz Jins Rast Jins Sazkar (undefined size) Jins Hijazkar Jins Mukhalif Sharqi Jins Nahawand Murassa‘ Jins Saba Jins Saba Dalanshin Jins Saba Zamzam Jins Sikah Baladi",
+  "tracks": [],
+  "notes": [],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/name/jins.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/jins/_index/jins.mp3",
+      "status": "downloaded",
+      "sha256": "b448113b0149d6ffccf031667d6c8552fc4f00f6f41f12e3eec4cd51a66ed180",
+      "bytes": 70007,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Jins Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "maqam",
+      "url": "https://www.maqamworld.com/en/maqam.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Musta‘ar",
+      "url": "https://www.maqamworld.com/en/jins/mustaar.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Sikah",
+      "url": "https://www.maqamworld.com/en/jins/sikah.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Bayati",
+      "url": "https://www.maqamworld.com/en/jins/bayati.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Hijaz",
+      "url": "https://www.maqamworld.com/en/jins/hijaz.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Hijaz Murassa‘",
+      "url": "https://www.maqamworld.com/en/jins/hijaz_murassaa.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Kurd",
+      "url": "https://www.maqamworld.com/en/jins/kurd.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Lami",
+      "url": "https://www.maqamworld.com/en/jins/lami.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Upper ‘Ajam",
+      "url": "https://www.maqamworld.com/en/jins/upper_ajam.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Upper Rast",
+      "url": "https://www.maqamworld.com/en/jins/upper_rast.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins ‘Ajam",
+      "url": "https://www.maqamworld.com/en/jins/ajam.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins ‘Ajam Murassa‘",
+      "url": "https://www.maqamworld.com/en/jins/ajam_murassaa.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Athar Kurd",
+      "url": "https://www.maqamworld.com/en/jins/athar_kurd.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Jiharkah",
+      "url": "https://www.maqamworld.com/en/jins/jiharkah.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Nahawand",
+      "url": "https://www.maqamworld.com/en/jins/nahawand.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Nikriz",
+      "url": "https://www.maqamworld.com/en/jins/nikriz.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Rast",
+      "url": "https://www.maqamworld.com/en/jins/rast.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Sazkar",
+      "url": "https://www.maqamworld.com/en/jins/sazkar.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Hijazkar",
+      "url": "https://www.maqamworld.com/en/jins/hijazkar.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Mukhalif Sharqi",
+      "url": "https://www.maqamworld.com/en/jins/mukhalif_sharqi.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Nahawand Murassa‘",
+      "url": "https://www.maqamworld.com/en/jins/nahawand_murassaa.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Saba",
+      "url": "https://www.maqamworld.com/en/jins/saba.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Saba Dalanshin",
+      "url": "https://www.maqamworld.com/en/jins/saba_dalanshin.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Saba Zamzam",
+      "url": "https://www.maqamworld.com/en/jins/saba_zamzam.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Sikah Baladi",
+      "url": "https://www.maqamworld.com/en/jins/sikah_baladi.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "bd14ee305206d03c13cff34655fa94bf7fd35925d0e1f1fb11d3a44f5bac694b",
+  "fetched_at": "2026-11-10T12:10:54.828594Z",
+  "status_code": 200,
+  "html_file": "data/raw/jins/_index.html"
+}

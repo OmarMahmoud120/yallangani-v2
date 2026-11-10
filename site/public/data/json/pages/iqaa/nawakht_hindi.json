@@ -1,0 +1,114 @@
+{
+  "url": "https://www.maqamworld.com/en/iqaa/nawakht_hindi.php",
+  "path": "/en/iqaa/nawakht_hindi.php",
+  "section": "iqaa",
+  "slug": "iqaa/nawakht_hindi",
+  "kind": "entry",
+  "title": "Iqa‘ Nawakht Hindi 16/4",
+  "subtitle": null,
+  "description": "Iqa‘ Nawakht Hindi",
+  "lang": "en",
+  "paragraphs": [
+    "Iqa‘ Nawakht Hindi is mostly confined to the Muwashah repertoire."
+  ],
+  "text": "Iqa‘ Nawakht Hindi 16/4 Iqa‘ Index Pronunciation of Nawakht Hindi Iqa‘ Nawakht Hindi is mostly confined to the Muwashah repertoire. Muwashah Ya ‘Uyunan Ramiyat Sabri al-Mudallal Music by ‘Umar al-Batsh Muwashah Ya Hamam al-Ayk Ensemble al-Bahaa, Aleppo Music by Sayyed Darwish Muwashah Ya Mukhjil al-Aqmar Tunisian Radio Orchestra and Choir",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Muwashah Ya ‘Uyunan Ramiyat",
+      "artist": "Sabri al-Mudallal",
+      "credits": [
+        "Music by ‘Umar al-Batsh"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/nawakht_hindi/ya_3uyunan_ramiyat.mp3",
+      "local_path": "data/media/iqaa/nawakht_hindi/ya_3uyunan_ramiyat.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Muwashah Ya Hamam al-Ayk",
+      "artist": "Ensemble al-Bahaa, Aleppo",
+      "credits": [
+        "Music by Sayyed Darwish"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/nawakht_hindi/ya_hamam_al_ayk.mp3",
+      "local_path": "data/media/iqaa/nawakht_hindi/ya_hamam_al_ayk.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Muwashah Ya Mukhjil al-Aqmar",
+      "artist": "Tunisian Radio Orchestra and Choir",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/nawakht_hindi/ya_mukhjil_al_aqmar.mp3",
+      "local_path": "data/media/iqaa/nawakht_hindi/ya_mukhjil_al_aqmar.mp3"
+    }
+  ],
+  "notes": [],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/nawakht_hindi/ya_3uyunan_ramiyat.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/nawakht_hindi/ya_3uyunan_ramiyat.mp3",
+      "status": "downloaded",
+      "sha256": "429b40bda1c31c84a416e49315dfff96a5cca611b1954cfbba4199e07d253a8e",
+      "bytes": 618565,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/nawakht_hindi/ya_hamam_al_ayk.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/nawakht_hindi/ya_hamam_al_ayk.mp3",
+      "status": "downloaded",
+      "sha256": "7cfa8c7f4fd2c31b11420fdb5cc92bd9d4b32db9ec15e0dfc8b3a695b4cc21c9",
+      "bytes": 1334298,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/nawakht_hindi/ya_mukhjil_al_aqmar.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/nawakht_hindi/ya_mukhjil_al_aqmar.mp3",
+      "status": "downloaded",
+      "sha256": "4db7414924787255dc400d87334356568dc95dec90d6d31febea70aeed070ced",
+      "bytes": 1989739,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/nawakht_hindi.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/iqaa/nawakht_hindi/nawakht_hindi.mp3",
+      "status": "downloaded",
+      "sha256": "fbdff9f0bd6e526bca9627683f6287c339f4cf48840f0e9315ff424ac8d3bd7f",
+      "bytes": 18876,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/iqaa/nawakht_hindi.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/nawakht_hindi/nawakht_hindi.png",
+      "status": "downloaded",
+      "sha256": "332f5f763da81b2fab87092eb5530698e542e25008f2c7280b2ff1979684f23c",
+      "bytes": 14503,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Iqa‘ Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Muwashah",
+      "url": "https://www.maqamworld.com/en/form/vocal_comp.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "6074ecbe2f57a07805294bb52b596ff68f1e6724517d5ce99b61dd2e28843c59",
+  "fetched_at": "2026-11-10T12:10:55.129927Z",
+  "status_code": 200,
+  "html_file": "data/raw/iqaa/nawakht_hindi.html"
+}

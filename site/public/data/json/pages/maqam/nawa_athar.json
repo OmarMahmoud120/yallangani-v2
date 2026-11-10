@@ -1,0 +1,255 @@
+{
+  "url": "https://www.maqamworld.com/en/maqam/nawa_athar.php",
+  "path": "/en/maqam/nawa_athar.php",
+  "section": "maqam",
+  "slug": "maqam/nawa_athar",
+  "kind": "entry",
+  "title": "Maqam Nawa Athar",
+  "subtitle": "A member of the Maqam Nikriz Family",
+  "description": "Maqam Nawa Athar",
+  "lang": "en",
+  "paragraphs": [
+    "Click the notes and hold using the mouse to hear them play.",
+    "Maqam Nawa Athar is another popular maqam in the Nikriz Family. Its scale starts with the root Jins Nikriz on the tonic, followed by Jins Hijazkar centered on the 5th degree.",
+    "Explore other maqamat in the Maqam Nikriz Family.",
+    "Watch a 1-minute sample Violin Taqsim in Maqam Nawa Athar by Sami Abu Shumays."
+  ],
+  "text": "Maqam Nawa Athar A member of the Maqam Nikriz Family Maqam Index Pronunciation of Nawa Athar Click the notes and hold using the mouse to hear them play. Maqam Nawa Athar is another popular maqam in the Nikriz Family. Its scale starts with the root Jins Nikriz on the tonic , followed by Jins Hijazkar centered on the 5 th degree. Explore other maqamat in the Maqam Nikriz Family . Watch a 1-minute sample Violin Taqsim in Maqam Nawa Athar by Sami Abu Shumays. Ghulubti Asalih Fi Rouhi (1948) Umm Kulthum Music by Riyad al-Sunbati Gamil Gamal (1952) Vocals and Music by Farid al-Atrash Fakkaruni (1966) Umm Kulthum Music by Muhammad Abdel Wahab (Egypt) Ruba‘iyyat al-Khayam (1950) Umm Kulthum Music by Riyad al-Sunbati Muwashah Adhkuru al-Hibba Abdel Halim Noueira Ensemble Music by Dawud Husni (Egypt) Sama‘i Nawa Athar Syrian Ensemble of Homs Music by Jamil ‘Uways (Syria) Dulab Nawa Athar George Abyad Improvisations Orientales",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Ghulubti Asalih Fi Rouhi (1948)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Riyad al-Sunbati"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/nawa_athar/ghulubti_asalih.mp3",
+      "local_path": "data/media/maqam/nawa_athar/ghulubti_asalih.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Gamil Gamal (1952)",
+      "artist": "Vocals and Music by Farid al-Atrash",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/nawa_athar/gamil_gamal.mp3",
+      "local_path": "data/media/maqam/nawa_athar/gamil_gamal.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Fakkaruni (1966)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Muhammad Abdel Wahab (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/nawa_athar/fakkaruni.mp3",
+      "local_path": "data/media/maqam/nawa_athar/fakkaruni.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Ruba‘iyyat al-Khayam (1950)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Riyad al-Sunbati"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/nawa_athar/ruba3iyyat.mp3",
+      "local_path": "data/media/maqam/nawa_athar/ruba3iyyat.mp3"
+    },
+    {
+      "index": 5,
+      "title": "Muwashah Adhkuru al-Hibba",
+      "artist": "Abdel Halim Noueira Ensemble",
+      "credits": [
+        "Music by Dawud Husni (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/nawa_athar/adhkuru_al_hubba.mp3",
+      "local_path": "data/media/maqam/nawa_athar/adhkuru_al_hubba.mp3"
+    },
+    {
+      "index": 6,
+      "title": "Sama‘i Nawa Athar",
+      "artist": "Syrian Ensemble of Homs",
+      "credits": [
+        "Music by Jamil ‘Uways (Syria)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/nawa_athar/samai_nawa_athar.mp3",
+      "local_path": "data/media/maqam/nawa_athar/samai_nawa_athar.mp3"
+    },
+    {
+      "index": 7,
+      "title": "Dulab Nawa Athar",
+      "artist": "George Abyad",
+      "credits": [
+        "Improvisations Orientales"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/nawa_athar/dulab_nawa_athar.mp3",
+      "local_path": "data/media/maqam/nawa_athar/dulab_nawa_athar.mp3"
+    }
+  ],
+  "notes": [
+    {
+      "name": "C4",
+      "frequency": 260.74
+    },
+    {
+      "name": "D4",
+      "frequency": 293.33
+    },
+    {
+      "name": "E4♭",
+      "frequency": 315.0
+    },
+    {
+      "name": "F4♯",
+      "frequency": 375.0
+    },
+    {
+      "name": "G4",
+      "frequency": 391.11
+    },
+    {
+      "name": "A4♭",
+      "frequency": 423.0
+    },
+    {
+      "name": "B4♮",
+      "frequency": 492.0
+    },
+    {
+      "name": "C5",
+      "frequency": 521.48
+    }
+  ],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/nawa_athar/ghulubti_asalih.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/nawa_athar/ghulubti_asalih.mp3",
+      "status": "downloaded",
+      "sha256": "f64addcaf4f8cbe0d87eb6f5177dc8400a16b2b35edac288ef0c116de4e7fcaa",
+      "bytes": 1740717,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/nawa_athar/gamil_gamal.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/nawa_athar/gamil_gamal.mp3",
+      "status": "downloaded",
+      "sha256": "49baa051175319a6ca34ca331b0520d39e4d76e26ebc26870c360e31e987e4aa",
+      "bytes": 583967,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/nawa_athar/fakkaruni.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/nawa_athar/fakkaruni.mp3",
+      "status": "downloaded",
+      "sha256": "8ce9be8fde57d37e9a85194298092cb0863dd3a70ab884192d7b7bf00da9094b",
+      "bytes": 986999,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/nawa_athar/ruba3iyyat.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/nawa_athar/ruba3iyyat.mp3",
+      "status": "downloaded",
+      "sha256": "2b60f29b52b7bf7f254d5270153315cb5990ec6dd9b38f363f94880bab57cc2f",
+      "bytes": 662265,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/nawa_athar/adhkuru_al_hubba.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/nawa_athar/adhkuru_al_hubba.mp3",
+      "status": "downloaded",
+      "sha256": "4297729ab0e750d32e3a4d2a1d2a4f083f9bddf04453b5f94b67a40a8a8e6476",
+      "bytes": 561092,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/nawa_athar/samai_nawa_athar.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/nawa_athar/samai_nawa_athar.mp3",
+      "status": "downloaded",
+      "sha256": "8d00625def503ce3fb0065fc27c80d92c93e76c267ca76b5c6a01421a9daf35e",
+      "bytes": 567174,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/nawa_athar/dulab_nawa_athar.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/nawa_athar/dulab_nawa_athar.mp3",
+      "status": "downloaded",
+      "sha256": "dd28e27471896f4b413b875b6f64e711c894b42b2fac97d1f388545640bd1bd7",
+      "bytes": 336282,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/nawa_athar.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/maqam/nawa_athar/nawa_athar.mp3",
+      "status": "downloaded",
+      "sha256": "bb09eaf792d1c569a14238c5fa278fd05afe32ddc41f2115517237a1f9020ce7",
+      "bytes": 40750,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/maqam/nawa_athar.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/maqam/nawa_athar/nawa_athar.png",
+      "status": "downloaded",
+      "sha256": "51f039f94c06c2870804899de0a4b30c063950e776c5032c6f3d4bbf5688c62c",
+      "bytes": 14248,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/cd.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/maqam/nawa_athar/cd.png",
+      "status": "downloaded",
+      "sha256": "1f52da76667703a00010a07afefc9d78b6c3ccb8359b906fc6fd6b0cddd0255f",
+      "bytes": 5478,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Maqam Nikriz Family",
+      "url": "https://www.maqamworld.com/en/maqam/f_nikriz.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Jins Nikriz",
+      "url": "https://www.maqamworld.com/en/jins/nikriz.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Hijazkar",
+      "url": "https://www.maqamworld.com/en/jins/hijazkar.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Violin Taqsim in Maqam Nawa Athar",
+      "url": "https://www.instagram.com/p/B-u-dTMFQHE",
+      "kind": "external"
+    }
+  ],
+  "content_hash": "1315f9067155fa283e2c1603252a19325f00dfef6b7ac279da5f9ee28db45201",
+  "fetched_at": "2026-11-10T12:10:54.959735Z",
+  "status_code": 200,
+  "html_file": "data/raw/maqam/nawa_athar.html"
+}

@@ -42,6 +42,7 @@ import com.osmartapps.yallanghanee.audio.AudioPlayer
 import com.osmartapps.yallanghanee.game.RecognitionSession
 import com.osmartapps.yallanghanee.ui.components.AnswerCard
 import com.osmartapps.yallanghanee.ui.components.AudioErrorPanel
+import com.osmartapps.yallanghanee.ui.components.DroneToggle
 import com.osmartapps.yallanghanee.ui.components.ExitLessonDialog
 import com.osmartapps.yallanghanee.ui.components.FeedbackPanel
 import com.osmartapps.yallanghanee.ui.components.ListenOrb
@@ -58,6 +59,7 @@ import com.osmartapps.yallanghanee.ui.theme.maqamColor
 import kotlinx.coroutines.delay
 
 private const val SLOW_SPEED = 0.75f
+private const val DRONE_VOLUME = 0.32f
 
 @Composable
 fun LessonScreen(
@@ -72,6 +74,7 @@ fun LessonScreen(
     var playing by remember { mutableStateOf(false) }
     var progress by remember { mutableStateOf(0f) }
     var slow by rememberSaveable { mutableStateOf(false) }
+    var droneOn by rememberSaveable { mutableStateOf(false) }
     var comparing by remember { mutableStateOf(false) }
     var audioError by remember { mutableStateOf(false) }
     var showExitDialog by remember { mutableStateOf(false) }
@@ -80,8 +83,8 @@ fun LessonScreen(
     val question = session.question
     val speed = if (slow) SLOW_SPEED else 1f
 
-    fun stopPlayback() {
-        player.stop()
+    fun stopPhrasePlayback() {
+        player.stopPhrase()
         playing = false
         progress = 0f
         comparing = false
@@ -150,6 +153,19 @@ fun LessonScreen(
         if (playing && !player.isPlaying) playing = false
     }
 
+    LaunchedEffect(droneOn, question.droneAudio) {
+        if (!droneOn) {
+            player.stopDrone()
+            return@LaunchedEffect
+        }
+        val path = question.droneAudio
+        if (path == null) {
+            droneOn = false
+            return@LaunchedEffect
+        }
+        player.startDrone(path, DRONE_VOLUME) { droneOn = false }
+    }
+
     DisposableEffect(player) {
         onDispose { player.release() }
     }
@@ -188,7 +204,7 @@ fun LessonScreen(
                     active = slow,
                     onToggle = {
                         slow = !slow
-                        stopPlayback()
+                        stopPhrasePlayback()
                     },
                 )
             }
@@ -217,7 +233,7 @@ fun LessonScreen(
                     enabled = true,
                     diameter = if (compact) 104.dp else 132.dp,
                     onClick = {
-                        if (playing) stopPlayback() else playPhrase()
+                        if (playing) stopPhrasePlayback() else playPhrase()
                     },
                 )
             }
@@ -238,8 +254,12 @@ fun LessonScreen(
             }
             Row(
                 modifier = Modifier.fillMaxWidth(),
-                horizontalArrangement = Arrangement.Center,
+                horizontalArrangement = Arrangement.spacedBy(8.dp, Alignment.CenterHorizontally),
+                verticalAlignment = Alignment.CenterVertically,
             ) {
+                if (question.droneAudio != null) {
+                    DroneToggle(active = droneOn, onToggle = { droneOn = !droneOn })
+                }
                 TextButton(onClick = { playComparison() }) {
                     Text(
                         text = stringResource(R.string.lesson_compare),

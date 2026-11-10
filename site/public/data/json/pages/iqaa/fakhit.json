@@ -1,0 +1,154 @@
+{
+  "url": "https://www.maqamworld.com/en/iqaa/fakhit.php",
+  "path": "/en/iqaa/fakhit.php",
+  "section": "iqaa",
+  "slug": "iqaa/fakhit",
+  "kind": "entry",
+  "title": "Iqa‘ Fakhit 20/4",
+  "subtitle": null,
+  "description": "Iqa‘ Fakhit",
+  "lang": "en",
+  "paragraphs": [
+    "Iqa‘ Fakhit is a relatively long iqa‘ that spans 5 measures of 4/4, resulting in a 20/4 time signature. This iqa‘ is rare outside the Muwashah genre."
+  ],
+  "text": "Iqa‘ Fakhit 20/4 Iqa‘ Index Pronunciation of Fakhit Iqa‘ Fakhit is a relatively long iqa‘ that spans 5 measures of 4/4, resulting in a 20/4 time signature. This iqa‘ is rare outside the Muwashah genre. Muwashah Bi Sifatin Ja‘alatni Al-Kindi Ensemble The Aleppian Music Room II - Maqam Rast Muwashah Idha Da‘ana al-Siba Khaled al-Hafez Music by ‘Umar al-Batsh Muwashah Zarani Taht al-Ghayahib Firqat Usama Bin Zayd Music by ‘Umar al-Batsh Iqa‘ Fakhit 20/4 Tabla demonstration by Faisal Zedan",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Muwashah Bi Sifatin Ja‘alatni",
+      "artist": "Al-Kindi Ensemble",
+      "credits": [
+        "The Aleppian Music Room II - Maqam Rast"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/fakhit/bi_sifatin_ja3alatni.mp3",
+      "local_path": "data/media/iqaa/fakhit/bi_sifatin_ja3alatni.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Muwashah Idha Da‘ana al-Siba",
+      "artist": "Khaled al-Hafez",
+      "credits": [
+        "Music by ‘Umar al-Batsh"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/fakhit/idha_da3ana_as_siba.mp3",
+      "local_path": "data/media/iqaa/fakhit/idha_da3ana_as_siba.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Muwashah Zarani Taht al-Ghayahib",
+      "artist": "Firqat Usama Bin Zayd",
+      "credits": [
+        "Music by ‘Umar al-Batsh"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/fakhit/zarani_tahtal_ghayahib.mp3",
+      "local_path": "data/media/iqaa/fakhit/zarani_tahtal_ghayahib.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Iqa‘ Fakhit 20/4",
+      "artist": "Tabla demonstration by Faisal Zedan",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/demo/iqaa/tabla/fakhit.mp3",
+      "local_path": "data/media/iqaa/fakhit/fakhit.mp3"
+    }
+  ],
+  "notes": [],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/fakhit/bi_sifatin_ja3alatni.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/fakhit/bi_sifatin_ja3alatni.mp3",
+      "status": "downloaded",
+      "sha256": "a9612e484965c97e6e05a84efbda5a0730ba4d33439c356eb05a46c6224a8d5f",
+      "bytes": 813334,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/fakhit/idha_da3ana_as_siba.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/fakhit/idha_da3ana_as_siba.mp3",
+      "status": "downloaded",
+      "sha256": "0bb7f7b83ff2ed7990b2302e6d2a739da060e375a9cf1daf3bb8a0c8bfa57de7",
+      "bytes": 768498,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/fakhit/zarani_tahtal_ghayahib.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/fakhit/zarani_tahtal_ghayahib.mp3",
+      "status": "downloaded",
+      "sha256": "48418bfa910d4ef1d172c9b9f6880e0c42678d463b596547fa7fba0c963ebdaa",
+      "bytes": 2533339,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/demo/iqaa/tabla/fakhit.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/fakhit/fakhit.mp3",
+      "status": "downloaded",
+      "sha256": "2df65544559b62a736b49d37b6d44fabd711a9e4a6dae4ad0b3aecf9d8f9caff",
+      "bytes": 914956,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/fakhit.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/iqaa/fakhit/fakhit-4a049382.mp3",
+      "status": "downloaded",
+      "sha256": "bdfc580a3b6e75be11cd7b2df3c2a82b83848b57c3473e513718f960e75ebf51",
+      "bytes": 34480,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/iqaa/fakhit.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/fakhit/fakhit.png",
+      "status": "downloaded",
+      "sha256": "211c55d4df058f3cbbcbe6316c5834fd01fd14a56ce7319e72db423ab978d9de",
+      "bytes": 15432,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/cd.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/fakhit/cd.png",
+      "status": "downloaded",
+      "sha256": "1f52da76667703a00010a07afefc9d78b6c3ccb8359b906fc6fd6b0cddd0255f",
+      "bytes": 5478,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/tabla.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/fakhit/tabla.png",
+      "status": "downloaded",
+      "sha256": "bc7d7630f1797012041feecf8f1a7bc6d926498a88661ab4f28451d50b6c8f30",
+      "bytes": 11602,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Iqa‘ Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Muwashah",
+      "url": "https://www.maqamworld.com/en/form/vocal_comp.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "ace5222c33b76c9f3807356d0b61d4cc1c4399bccd898e22f4e48a5838a1ce91",
+  "fetched_at": "2026-11-10T12:10:55.105176Z",
+  "status_code": 200,
+  "html_file": "data/raw/iqaa/fakhit.html"
+}

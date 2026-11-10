@@ -1,0 +1,154 @@
+{
+  "url": "https://www.maqamworld.com/en/iqaa/mukhammas.php",
+  "path": "/en/iqaa/mukhammas.php",
+  "section": "iqaa",
+  "slug": "iqaa/mukhammas",
+  "kind": "entry",
+  "title": "Iqa‘ Mukhammas 16/4",
+  "subtitle": null,
+  "description": "Iqa‘ Mukhammas",
+  "lang": "en",
+  "paragraphs": [
+    "Iqa‘ Mukhammas is mostly confined to the Muwashah repertoire. Unrelated to its time signature, the word \"mukhammas\" in Arabic means based on the number 5."
+  ],
+  "text": "Iqa‘ Mukhammas 16/4 Iqa‘ Index Pronunciation of Mukhammas Iqa‘ Mukhammas is mostly confined to the Muwashah repertoire. Unrelated to its time signature, the word \"mukhammas\" in Arabic means based on the number 5. Muwashah Badri Adir Kas al-Tila Choir of the faculty of Music - Kaslik University (Lebanon) Conductor: Aïda Shalhoub Ziadé Music by Muhammad ‘Uthman Orientalia: Muwashah and Song series Muwashah Hadhihi al-Manazil Sabah Fakhri and his ensemble Music by ‘Umar al-Batsh Muwashah Wajhak Mushriq Abdel Halim Noueira Ensemble Iqa‘ Mukhammas 16/4 Tabla demonstration by Faisal Zedan",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Muwashah Badri Adir Kas al-Tila",
+      "artist": "Choir of the faculty of Music - Kaslik University (Lebanon)",
+      "credits": [
+        "Conductor: Aïda Shalhoub Ziadé",
+        "Music by Muhammad ‘Uthman",
+        "Orientalia: Muwashah and Song series"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/mukhammas/badri_adir.mp3",
+      "local_path": "data/media/iqaa/mukhammas/badri_adir.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Muwashah Hadhihi al-Manazil",
+      "artist": "Sabah Fakhri and his ensemble",
+      "credits": [
+        "Music by ‘Umar al-Batsh"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/mukhammas/hadhi_al-manazel.mp3",
+      "local_path": "data/media/iqaa/mukhammas/hadhi_al-manazel.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Muwashah Wajhak Mushriq",
+      "artist": "Abdel Halim Noueira Ensemble",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/mukhammas/wajhak_mushriq.mp3",
+      "local_path": "data/media/iqaa/mukhammas/wajhak_mushriq.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Iqa‘ Mukhammas 16/4",
+      "artist": "Tabla demonstration by Faisal Zedan",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/demo/iqaa/tabla/mukhammas.mp3",
+      "local_path": "data/media/iqaa/mukhammas/mukhammas.mp3"
+    }
+  ],
+  "notes": [],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/mukhammas/badri_adir.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/mukhammas/badri_adir.mp3",
+      "status": "downloaded",
+      "sha256": "cee5b6a31f741417dec359c3998f06294f94819da962ee3682d5849163b21659",
+      "bytes": 670484,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/mukhammas/hadhi_al-manazel.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/mukhammas/hadhi_al-manazel.mp3",
+      "status": "downloaded",
+      "sha256": "a486791b0810211e1a2ab7ceb83109e9d925aec518bf54fc78af7143188cd0ec",
+      "bytes": 655795,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/mukhammas/wajhak_mushriq.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/mukhammas/wajhak_mushriq.mp3",
+      "status": "downloaded",
+      "sha256": "083de20a75aa9473ddb8d2f7d05c0c3f1b90d727ee976ba54df28c613fc87c95",
+      "bytes": 943822,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/demo/iqaa/tabla/mukhammas.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/mukhammas/mukhammas.mp3",
+      "status": "downloaded",
+      "sha256": "a1df548b9533efc403feb490b38fcd36cd37f7750d9ccaf05dbf20bf589a8059",
+      "bytes": 913284,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/mukhammas.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/iqaa/mukhammas/mukhammas-d157dfcb.mp3",
+      "status": "downloaded",
+      "sha256": "6a626aefe7ef8b364c79c7380cae0c88c42ec2ada2c79199011076e837a63c5a",
+      "bytes": 42840,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/iqaa/mukhammas.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/mukhammas/mukhammas.png",
+      "status": "downloaded",
+      "sha256": "3c620795f1ee5dd5044053fa70de7bd6cb7a8bce9a0c9b990f584623f2d6b308",
+      "bytes": 16871,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/cd.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/mukhammas/cd.png",
+      "status": "downloaded",
+      "sha256": "1f52da76667703a00010a07afefc9d78b6c3ccb8359b906fc6fd6b0cddd0255f",
+      "bytes": 5478,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/tabla.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/mukhammas/tabla.png",
+      "status": "downloaded",
+      "sha256": "bc7d7630f1797012041feecf8f1a7bc6d926498a88661ab4f28451d50b6c8f30",
+      "bytes": 11602,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Iqa‘ Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Muwashah",
+      "url": "https://www.maqamworld.com/en/form/vocal_comp.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "54a31f636cc9ffaa6ac9310e75a1d3d3d882c614633f95cb0f1ee8d0b9f34a66",
+  "fetched_at": "2026-11-10T12:10:55.125257Z",
+  "status_code": 200,
+  "html_file": "data/raw/iqaa/mukhammas.html"
+}

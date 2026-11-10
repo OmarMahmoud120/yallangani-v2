@@ -1,0 +1,186 @@
+{
+  "url": "https://www.maqamworld.com/en/iqaa/mudawwar.php",
+  "path": "/en/iqaa/mudawwar.php",
+  "section": "iqaa",
+  "slug": "iqaa/mudawwar",
+  "kind": "entry",
+  "title": "Iqa‘ Mudawwar Masri 12/4",
+  "subtitle": "Iqa‘ Mudawwar Masri 12/4",
+  "description": "Iqa‘ Mudawwar",
+  "lang": "en",
+  "paragraphs": [
+    "Iqa‘ Mudawwar is a popular iqa‘ in the Muwashah repertoire. The word \"mudawwar\" in Arabic means round/circular.",
+    "Many forms of Iqa‘ Mudawwar are in use, among which Mudawwar Masri (Egyptian) in 12/4 and Mudawwar Shami (Damascene/pan-Syrian) in 10/4."
+  ],
+  "text": "Iqa‘ Mudawwar Masri 12/4 Iqa‘ Mudawwar Shami 10/4 Iqa‘ Index Pronunciation of Mudawwar Iqa‘ Mudawwar is a popular iqa‘ in the Muwashah repertoire. The word \"mudawwar\" in Arabic means round/circular. Many forms of Iqa‘ Mudawwar are in use, among which Mudawwar Masri (Egyptian) in 12/4 and Mudawwar Shami (Damascene/pan-Syrian) in 10/4. Iqa‘ Mudawwar Masri 12/4 Muwashah Adhkuru al-Hibba Abdel Halim Noueira Ensemble Music by Dawud Husni (Egypt) Muwashah Fika Kullu Ma Ara Hasan Composed in Maqam Bayati Abdel Halim Noueira Ensemble Iqa‘ Mudawwar Masri 12/4 Tabla demonstration by Faisal Zedan Iqa‘ Mudawwar Shami 10/4 Muwashah Fika Kullu Ma Ara Hasan Composed in Maqam Hijaz Omar al-Sarmini Al-Kindi Ensemble Muwashah Fika Kullu Ma Ara Hasan Composed in Maqam Hijaz Sabah Fakhri",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Muwashah Adhkuru al-Hibba",
+      "artist": "Abdel Halim Noueira Ensemble",
+      "credits": [
+        "Music by Dawud Husni (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/mudawwar_12_4/adhkuru_al_hubba.mp3",
+      "local_path": "data/media/iqaa/mudawwar/adhkuru_al_hubba.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Muwashah Fika Kullu Ma Ara Hasan",
+      "artist": "Composed in Maqam Bayati",
+      "credits": [
+        "Abdel Halim Noueira Ensemble"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/mudawwar_12_4/fika_kullu_bayati.mp3",
+      "local_path": "data/media/iqaa/mudawwar/fika_kullu_bayati.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Iqa‘ Mudawwar Masri 12/4",
+      "artist": "Tabla demonstration by Faisal Zedan",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/demo/iqaa/tabla/mudawwar_masri.mp3",
+      "local_path": "data/media/iqaa/mudawwar/mudawwar_masri.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Muwashah Fika Kullu Ma Ara Hasan",
+      "artist": "Composed in Maqam Hijaz",
+      "credits": [
+        "Omar al-Sarmini",
+        "Al-Kindi Ensemble"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/mudawwar_10_4/fika_kullu_hijaz_sarmini.mp3",
+      "local_path": "data/media/iqaa/mudawwar/fika_kullu_hijaz_sarmini.mp3"
+    },
+    {
+      "index": 5,
+      "title": "Muwashah Fika Kullu Ma Ara Hasan",
+      "artist": "Composed in Maqam Hijaz",
+      "credits": [
+        "Sabah Fakhri"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/mudawwar_10_4/fika_kullu_hijaz_sabah.mp3",
+      "local_path": "data/media/iqaa/mudawwar/fika_kullu_hijaz_sabah.mp3"
+    }
+  ],
+  "notes": [],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/mudawwar_12_4/adhkuru_al_hubba.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/mudawwar/adhkuru_al_hubba.mp3",
+      "status": "downloaded",
+      "sha256": "248f582fc5ee6355c649b1b14ceaf35782bbd5a04fb0282cc9317d73bf491914",
+      "bytes": 816799,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/mudawwar_12_4/fika_kullu_bayati.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/mudawwar/fika_kullu_bayati.mp3",
+      "status": "downloaded",
+      "sha256": "f4475e34115135d4cb9e3b018559b33e524bd3131ae46e35ae0e0bfb9f2636aa",
+      "bytes": 653348,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/demo/iqaa/tabla/mudawwar_masri.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/mudawwar/mudawwar_masri.mp3",
+      "status": "downloaded",
+      "sha256": "b1d725275c0fc0d7ddcc1b12afe08646d5cfcfcd957fe613fff0648bf7d1f3d9",
+      "bytes": 539343,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/mudawwar_10_4/fika_kullu_hijaz_sarmini.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/mudawwar/fika_kullu_hijaz_sarmini.mp3",
+      "status": "downloaded",
+      "sha256": "0aee3975cf5e9038e2293e91cb4d1ecb2edce27df6a30772e1433d9cb5dbd985",
+      "bytes": 1869124,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/mudawwar_10_4/fika_kullu_hijaz_sabah.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/mudawwar/fika_kullu_hijaz_sabah.mp3",
+      "status": "downloaded",
+      "sha256": "0a57b5ccfac7bc4c0a47e4027a60c319c7c2b258b23e21f00bb98b069257ecaf",
+      "bytes": 1500425,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/mudawwar.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/iqaa/mudawwar/mudawwar.mp3",
+      "status": "downloaded",
+      "sha256": "6bf24b130dd778c5714794b100c4f6de209485d9c690577df91c57755a4155f0",
+      "bytes": 31346,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/iqaa/mudawwar_masri.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/mudawwar/mudawwar_masri.png",
+      "status": "downloaded",
+      "sha256": "8910a34a80c68d3c38901be18713f697ffae9a06a54dd44be25bd12d983394f3",
+      "bytes": 15261,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/tabla.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/mudawwar/tabla.png",
+      "status": "downloaded",
+      "sha256": "bc7d7630f1797012041feecf8f1a7bc6d926498a88661ab4f28451d50b6c8f30",
+      "bytes": 11602,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/iqaa/mudawwar_shami.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/mudawwar/mudawwar_shami.png",
+      "status": "downloaded",
+      "sha256": "ce5c39b59505cb6ee3824c25285fb57fccffa38e85fc5ab2a73dea4700302853",
+      "bytes": 11887,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Iqa‘ Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Muwashah",
+      "url": "https://www.maqamworld.com/en/form/vocal_comp.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Bayati",
+      "url": "https://www.maqamworld.com/en/maqam/bayati.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Hijaz",
+      "url": "https://www.maqamworld.com/en/maqam/hijaz.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "8286970d3c857314cb9657a09f4cffe356a1ef06b7e1b2874456ddec9e088ab9",
+  "fetched_at": "2026-11-10T12:10:55.121471Z",
+  "status_code": 200,
+  "html_file": "data/raw/iqaa/mudawwar.html"
+}

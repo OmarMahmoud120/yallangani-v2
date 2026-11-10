@@ -1,0 +1,133 @@
+{
+  "url": "https://www.maqamworld.com/en/iqaa/ayyub.php",
+  "path": "/en/iqaa/ayyub.php",
+  "section": "iqaa",
+  "slug": "iqaa/ayyub",
+  "kind": "entry",
+  "title": "Iqa‘ Ayyub 2/4",
+  "subtitle": "(also called Zar)",
+  "description": "Iqa‘ Ayyub",
+  "lang": "en",
+  "paragraphs": [
+    "Iqa‘ Ayyub (also spelled Ayoub) is primarily used in Sufi music as well as in some folk music and Raqs Sharqi (Belly Dance). Ayyub is sometimes called Zar in Egypt, after a folk healing ceremony led by women who play hand-held percussion instruments. Ayyub’s feel is rapid, short and cyclical."
+  ],
+  "text": "Iqa‘ Ayyub 2/4 (also called Zar ) Iqa‘ Index Pronunciation of Ayyub Iqa‘ Ayyub (also spelled Ayoub) is primarily used in Sufi music as well as in some folk music and Raqs Sharqi (Belly Dance). Ayyub is sometimes called Zar in Egypt, after a folk healing ceremony led by women who play hand-held percussion instruments. Ayyub’s feel is rapid, short and cyclical. Muwashah Atani Zamani Noureddine Khourshid Et Les Derviches De Damas Muwashah Ya Man Nasha Rima Khcheich and Salim Sahhab Orchestra Tajallat Wa-njalat Laylan Sheikh Hamza Shakkur and Ensemble Al Kindi Iqa‘ Ayyub 2/4 Tabla demonstration by Faisal Zedan",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Muwashah Atani Zamani",
+      "artist": "Noureddine Khourshid Et Les Derviches De Damas",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/ayyub/atani_zamani.mp3",
+      "local_path": "data/media/iqaa/ayyub/atani_zamani.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Muwashah Ya Man Nasha",
+      "artist": "Rima Khcheich and Salim Sahhab Orchestra",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/ayyub/ya_man_nasha.mp3",
+      "local_path": "data/media/iqaa/ayyub/ya_man_nasha.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Tajallat Wa-njalat Laylan",
+      "artist": "Sheikh Hamza Shakkur and Ensemble Al Kindi",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/ayyub/tajallat.mp3",
+      "local_path": "data/media/iqaa/ayyub/tajallat.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Iqa‘ Ayyub 2/4",
+      "artist": "Tabla demonstration by Faisal Zedan",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/demo/iqaa/tabla/ayyub.mp3",
+      "local_path": "data/media/iqaa/ayyub/ayyub.mp3"
+    }
+  ],
+  "notes": [],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/ayyub/atani_zamani.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/ayyub/atani_zamani.mp3",
+      "status": "downloaded",
+      "sha256": "8f55d7258ce63086bfc5e815518ba8a3aa1f9fdae746270aab2390be0a82ca46",
+      "bytes": 452147,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/ayyub/ya_man_nasha.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/ayyub/ya_man_nasha.mp3",
+      "status": "downloaded",
+      "sha256": "4cc748b5ebede2a3d1a11693c14013c739f992a9c938a73f5d402da291eac39b",
+      "bytes": 754354,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/ayyub/tajallat.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/ayyub/tajallat.mp3",
+      "status": "downloaded",
+      "sha256": "c11d14afa4cdfec1dc156c63c4a860b96d465de86e730741b0781bbffaa7a323",
+      "bytes": 656660,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/demo/iqaa/tabla/ayyub.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/ayyub/ayyub.mp3",
+      "status": "downloaded",
+      "sha256": "a81c0f2f0de0526265b7055bf6e33347238b5cbaab171d39a0239b47c541a993",
+      "bytes": 737324,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/ayyub.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/iqaa/ayyub/ayyub-cb3601f2.mp3",
+      "status": "downloaded",
+      "sha256": "bb80d2b2b24b2e56c2c595f8803ac040baad6ce135c55adc4590b427892fb59a",
+      "bytes": 28211,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/iqaa/ayyub.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/ayyub/ayyub.png",
+      "status": "downloaded",
+      "sha256": "12df7025413be8271766490f2f28a4118e2152a66d9ba0c6a0e80fd09af63922",
+      "bytes": 7467,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/tabla.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/ayyub/tabla.png",
+      "status": "downloaded",
+      "sha256": "bc7d7630f1797012041feecf8f1a7bc6d926498a88661ab4f28451d50b6c8f30",
+      "bytes": 11602,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Iqa‘ Index",
+      "url": "#",
+      "kind": "anchor"
+    }
+  ],
+  "content_hash": "4897764398941e27ec2ab3144e0407c82f09c0a901a27727a927ed55c8d6b1fc",
+  "fetched_at": "2026-11-10T12:10:55.094648Z",
+  "status_code": 200,
+  "html_file": "data/raw/iqaa/ayyub.html"
+}

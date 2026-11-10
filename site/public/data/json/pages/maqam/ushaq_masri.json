@@ -1,0 +1,166 @@
+{
+  "url": "https://www.maqamworld.com/en/maqam/ushaq_masri.php",
+  "path": "/en/maqam/ushaq_masri.php",
+  "section": "maqam",
+  "slug": "maqam/ushaq_masri",
+  "kind": "entry",
+  "title": "Maqam ‘Ushaq Masri",
+  "subtitle": "A member of the Maqam Nahawand Family",
+  "description": "Maqam ‘Ushaq Masri",
+  "lang": "en",
+  "paragraphs": [
+    "Click the notes and hold using the mouse to hear them play.",
+    "Maqam ‘Ushaq Masri is a variation of Maqam Nahawand with Jins Bayati on the 5th degree, above the root Jins Nahawand on the 1st degree.",
+    "Explore other maqamat in the Maqam Nahawand Family.",
+    "Watch a 1-minute sample Violin Taqsim in Maqam ‘Ushaq Masri by Sami Abu Shumays."
+  ],
+  "text": "Maqam ‘Ushaq Masri A member of the Maqam Nahawand Family Maqam Index Pronunciation of ‘Ushaq Masri Click the notes and hold using the mouse to hear them play. Maqam ‘Ushaq Masri is a variation of Maqam Nahawand with Jins Bayati on the 5 th degree, above the root Jins Nahawand on the 1 st degree. Explore other maqamat in the Maqam Nahawand Family . Watch a 1-minute sample Violin Taqsim in Maqam ‘Ushaq Masri by Sami Abu Shumays. Dawr Ahibb Ashufak (1930) Vocals and Music by Muhammad Abdel Wahab (Egypt) Ba‘d el-Khisam Sheikh Abu el-‘Ila Muhammad Layali Nahawand Sheikh Abu el-‘Ila Muhammad",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Dawr Ahibb Ashufak (1930)",
+      "artist": "Vocals and Music by Muhammad Abdel Wahab (Egypt)",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/ushaq_masri/dawr_ahibb_ashufak.mp3",
+      "local_path": "data/media/maqam/ushaq_masri/dawr_ahibb_ashufak.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Ba‘d el-Khisam",
+      "artist": "Sheikh Abu el-‘Ila Muhammad",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/ushaq_masri/ba3d_el_khisam.mp3",
+      "local_path": "data/media/maqam/ushaq_masri/ba3d_el_khisam.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Layali Nahawand",
+      "artist": "Sheikh Abu el-‘Ila Muhammad",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/ushaq_masri/layali_nahawand.mp3",
+      "local_path": "data/media/maqam/ushaq_masri/layali_nahawand.mp3"
+    }
+  ],
+  "notes": [
+    {
+      "name": "D4",
+      "frequency": 293.33
+    },
+    {
+      "name": "E4",
+      "frequency": 330.0
+    },
+    {
+      "name": "F4",
+      "frequency": 347.65
+    },
+    {
+      "name": "G4",
+      "frequency": 391.11
+    },
+    {
+      "name": "A4",
+      "frequency": 440.0
+    },
+    {
+      "name": "B4",
+      "frequency": 480.0
+    },
+    {
+      "name": "C5",
+      "frequency": 521.48
+    },
+    {
+      "name": "D5",
+      "frequency": 586.66
+    }
+  ],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/ushaq_masri/dawr_ahibb_ashufak.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/ushaq_masri/dawr_ahibb_ashufak.mp3",
+      "status": "downloaded",
+      "sha256": "8f726d39e053967d34e779fa31b85b9bdb02d892730af6d75b0f797211093939",
+      "bytes": 706018,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/ushaq_masri/ba3d_el_khisam.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/ushaq_masri/ba3d_el_khisam.mp3",
+      "status": "downloaded",
+      "sha256": "bbfb1c7473952adf1ac207601b6f37fbcc089be43d9fd081ab4f25d8fd27ef1b",
+      "bytes": 491924,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/ushaq_masri/layali_nahawand.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/ushaq_masri/layali_nahawand.mp3",
+      "status": "downloaded",
+      "sha256": "321010b685b582679ed91fda4de3f267a737cd6619f743535285324e2936db89",
+      "bytes": 1080901,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/ushaq_masri.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/maqam/ushaq_masri/ushaq_masri.mp3",
+      "status": "downloaded",
+      "sha256": "7898df5aead02f9d49a0369e6780d6decfc58b89370ffa000ac192fe627ab4a6",
+      "bytes": 52244,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/maqam/ushaq_masri.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/maqam/ushaq_masri/ushaq_masri.png",
+      "status": "downloaded",
+      "sha256": "3ee538ca1e695b73a8dd467a06e8106d48a1fb4f0a27abf62360191409c1d80a",
+      "bytes": 13003,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Maqam Nahawand Family",
+      "url": "https://www.maqamworld.com/en/maqam/f_nahawand.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Maqam Nahawand",
+      "url": "https://www.maqamworld.com/en/maqam/nahawand.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Bayati",
+      "url": "https://www.maqamworld.com/en/jins/bayati.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Nahawand",
+      "url": "https://www.maqamworld.com/en/jins/nahawand.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Violin Taqsim in Maqam ‘Ushaq Masri",
+      "url": "https://www.instagram.com/p/B-aESLYlTvk",
+      "kind": "external"
+    }
+  ],
+  "content_hash": "2e01edc0c7f4346730e450965b704fd0318a96dfac5cae1bb5c2ec0c2fcf6ef0",
+  "fetched_at": "2026-11-10T12:10:55.008715Z",
+  "status_code": 200,
+  "html_file": "data/raw/maqam/ushaq_masri.html"
+}

@@ -22,24 +22,24 @@ class RecognitionFlowTest {
 
     @Test
     fun opensALessonAndShowsTwoAnswers() {
-        skipOnboardingIfShown()
-        waitForText(context.getString(R.string.home_intro_title))
-
-        val startLabels = listOf(
-            R.string.home_start,
-            R.string.home_continue,
-            R.string.results_retry,
-        ).map(context::getString)
-        val label = startLabels.first {
-            compose.onAllNodesWithText(it).fetchSemanticsNodes().isNotEmpty()
-        }
-        compose.onAllNodesWithText(label).onFirst().performClick()
+        openFirstLesson()
 
         waitForText(context.getString(R.string.lesson_prompt))
         val answers = compose
             .onAllNodes(hasContentDescription("خيار", substring = true))
             .fetchSemanticsNodes()
         assertTrue("expected two answer cards, found ${answers.size}", answers.size == 2)
+    }
+
+    @Test
+    fun lessonTogglesTheDroneBed() {
+        openFirstLesson()
+        waitForText(context.getString(R.string.lesson_prompt))
+
+        val off = context.getString(R.string.lesson_drone)
+        val on = context.getString(R.string.lesson_drone_on)
+        compose.onAllNodesWithText(off).onFirst().performClick()
+        waitForText(on)
     }
 
     @Test
@@ -58,6 +58,21 @@ class RecognitionFlowTest {
             .onFirst()
             .performClick()
         waitForText(context.getString(R.string.home_intro_title))
+    }
+
+    private fun openFirstLesson() {
+        skipOnboardingIfShown()
+        waitForText(context.getString(R.string.home_intro_title))
+
+        val startLabels = listOf(
+            R.string.home_start,
+            R.string.home_continue,
+            R.string.results_retry,
+        ).map(context::getString)
+        val label = startLabels.first {
+            compose.onAllNodesWithText(it).fetchSemanticsNodes().isNotEmpty()
+        }
+        compose.onAllNodesWithText(label).onFirst().performClick()
     }
 
     private fun skipOnboardingIfShown() {

@@ -1,0 +1,224 @@
+{
+  "url": "https://www.maqamworld.com/en/maqam/lami.php",
+  "path": "/en/maqam/lami.php",
+  "section": "maqam",
+  "slug": "maqam/lami",
+  "kind": "entry",
+  "title": "Maqam Lami",
+  "subtitle": "(not part of a maqam family)",
+  "description": "Maqam Lami",
+  "lang": "en",
+  "paragraphs": [
+    "Click the notes and hold using the mouse to hear them play.",
+    "Maqam Lami is a rare maqam in the Middle East and was borrowed from the Iraqi repertoire. Its scale starts with Jins Lami on the tonic, followed by Jins Kurd on the 4th degree.",
+    "Maqam Lami is not part of a maqam family."
+  ],
+  "text": "Maqam Lami (not part of a maqam family) Maqam Index Pronunciation of Lami Click the notes and hold using the mouse to hear them play. Maqam Lami is a rare maqam in the Middle East and was borrowed from the Iraqi repertoire. Its scale starts with Jins Lami on the tonic , followed by Jins Kurd on the 4 th degree. Maqam Lami is not part of a maqam family. el-Bortoqal (1938) Vocals by Ra'isa ‘Afifi and Muhammad Abdel Wahab Music by Muhammad Abdel Wahab (Egypt) Tislam Idein Elli-shtara (c. 1960) Vocals by Muhammad Abdel Muttalib Music by Mahmud Kamel (Egypt) Albi Bi Ulli Kalam (c.1954) Vocals and Music by Muhammad Abdel Wahab (Egypt) Ahmad Ya Habibi Vocals and Music by Sabri al-Mudallal Songs from Aleppo el-Najmat Saru Yis'alu (1964) Wadih al-Safi Music by Muhammad Muhsin Gulli Ya Hilu Nazem al-Ghazali (Iraqi Traditional)",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "el-Bortoqal (1938)",
+      "artist": "Vocals by Ra'isa ‘Afifi and Muhammad Abdel Wahab",
+      "credits": [
+        "Music by Muhammad Abdel Wahab (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/lami/el_bortoqal.mp3",
+      "local_path": "data/media/maqam/lami/el_bortoqal.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Tislam Idein Elli-shtara (c. 1960)",
+      "artist": "Vocals by Muhammad Abdel Muttalib",
+      "credits": [
+        "Music by Mahmud Kamel (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/lami/tislam_idein.mp3",
+      "local_path": "data/media/maqam/lami/tislam_idein.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Albi Bi Ulli Kalam (c.1954)",
+      "artist": "Vocals and Music by Muhammad Abdel Wahab (Egypt)",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/lami/albi_bi_ulli_kalam.mp3",
+      "local_path": "data/media/maqam/lami/albi_bi_ulli_kalam.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Ahmad Ya Habibi",
+      "artist": "Vocals and Music by Sabri al-Mudallal",
+      "credits": [
+        "Songs from Aleppo"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/lami/ahmad_ya_habibi.mp3",
+      "local_path": "data/media/maqam/lami/ahmad_ya_habibi.mp3"
+    },
+    {
+      "index": 5,
+      "title": "el-Najmat Saru Yis'alu (1964)",
+      "artist": "Wadih al-Safi",
+      "credits": [
+        "Music by Muhammad Muhsin"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/lami/al_najmat.mp3",
+      "local_path": "data/media/maqam/lami/al_najmat.mp3"
+    },
+    {
+      "index": 6,
+      "title": "Gulli Ya Hilu",
+      "artist": "Nazem al-Ghazali",
+      "credits": [
+        "(Iraqi Traditional)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/lami/gulli_ya_hilu.mp3",
+      "local_path": "data/media/maqam/lami/gulli_ya_hilu.mp3"
+    }
+  ],
+  "notes": [
+    {
+      "name": "D4",
+      "frequency": 293.33
+    },
+    {
+      "name": "E4♭",
+      "frequency": 308.25
+    },
+    {
+      "name": "F4",
+      "frequency": 347.65
+    },
+    {
+      "name": "G4",
+      "frequency": 391.11
+    },
+    {
+      "name": "A4♭",
+      "frequency": 420.0
+    },
+    {
+      "name": "B4♭",
+      "frequency": 463.54
+    },
+    {
+      "name": "C5",
+      "frequency": 521.48
+    },
+    {
+      "name": "D5",
+      "frequency": 586.66
+    }
+  ],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/lami/el_bortoqal.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/lami/el_bortoqal.mp3",
+      "status": "downloaded",
+      "sha256": "35f37396c048408f225988349a02e0e89a557973138434b0b26e8c6a58c56db4",
+      "bytes": 717683,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/lami/tislam_idein.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/lami/tislam_idein.mp3",
+      "status": "downloaded",
+      "sha256": "409f01f275ce692e8c9c6d705cdfcf5bce31558cabf2e76c278a6889723c9faa",
+      "bytes": 402265,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/lami/albi_bi_ulli_kalam.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/lami/albi_bi_ulli_kalam.mp3",
+      "status": "downloaded",
+      "sha256": "cdb25ce18cb2d658c4d8008941926dbcb2c52620adae0f0dce59cf8c7149c94c",
+      "bytes": 823467,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/lami/ahmad_ya_habibi.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/lami/ahmad_ya_habibi.mp3",
+      "status": "downloaded",
+      "sha256": "018f3ac258943ecc72f9f67b78e3d731a49736a2ab4577e80235d483148aa139",
+      "bytes": 801052,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/lami/al_najmat.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/lami/al_najmat.mp3",
+      "status": "downloaded",
+      "sha256": "2471a96d137f08bd915135308a67a80672737f414ea4fdea0e21d96c73a58223",
+      "bytes": 1001428,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/lami/gulli_ya_hilu.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/lami/gulli_ya_hilu.mp3",
+      "status": "downloaded",
+      "sha256": "b6c7a16938272e8dddfdf0bc3f7937431f20807e99d31f27423666f0ee582818",
+      "bytes": 960644,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/lami.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/maqam/lami/lami.mp3",
+      "status": "downloaded",
+      "sha256": "bdd3bdf608ed13517a0c2ba92adf88aa1277e8765a9970baf0c078d3c8fc9746",
+      "bytes": 35525,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/maqam/lami.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/maqam/lami/lami.png",
+      "status": "downloaded",
+      "sha256": "58266292389b128229795ea29739fb513b80bb513fd41653bf3fd476a571e651",
+      "bytes": 11966,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/cd.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/maqam/lami/cd.png",
+      "status": "downloaded",
+      "sha256": "1f52da76667703a00010a07afefc9d78b6c3ccb8359b906fc6fd6b0cddd0255f",
+      "bytes": 5478,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Maqam Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Jins Lami",
+      "url": "https://www.maqamworld.com/en/jins/lami.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Kurd",
+      "url": "https://www.maqamworld.com/en/jins/kurd.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "e30f6a9741def785500b8061625082aae5e260ba4df4fca25f290c58077b49e0",
+  "fetched_at": "2026-11-10T12:10:54.918916Z",
+  "status_code": 200,
+  "html_file": "data/raw/maqam/lami.html"
+}

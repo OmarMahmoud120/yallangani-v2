@@ -1,0 +1,205 @@
+{
+  "url": "https://www.maqamworld.com/en/iqaa/maqsum.php",
+  "path": "/en/iqaa/maqsum.php",
+  "section": "iqaa",
+  "slug": "iqaa/maqsum",
+  "kind": "entry",
+  "title": "Iqa‘ Maqsum 4/4",
+  "subtitle": null,
+  "description": "Iqa‘ Maqsum",
+  "lang": "en",
+  "paragraphs": [
+    "Iqa‘ Maqsum is by far the most widely used iqa‘ in Arabic music. It modulates to other 4/4 iqa‘at like Baladi and Wahda."
+  ],
+  "text": "Iqa‘ Maqsum 4/4 Iqa‘ Index Pronunciation of Maqsum Iqa‘ Maqsum is by far the most widely used iqa‘ in Arabic music. It modulates to other 4/4 iqa‘at like Baladi and Wahda . il-Alb Yi‘shaq Kulli Gamil (1961) Umm Kulthum Music by Riyad al-Sunbati Darit el-Ayyam (1970) Umm Kulthum Music by Muhammad Abdel Wahab (Egypt) Qari'at al-Fingan (1976) Abdel Halim Hafez Music by Muhammad al-Mugi Waraqu al-Asfar Fairouz Music by Philemon Wehbe Ya Libnan Dakhl Trabak Sabah Ana Bahibb el-Gedid Vocals and Music by Ahmad Adaweya Iqa‘ Maqsum 4/4 Tabla demonstration by Faisal Zedan",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "il-Alb Yi‘shaq Kulli Gamil (1961)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Riyad al-Sunbati"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/maqsum/il_albi_yi3shaq.mp3",
+      "local_path": "data/media/iqaa/maqsum/il_albi_yi3shaq.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Darit el-Ayyam (1970)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Muhammad Abdel Wahab (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/maqsum/darit_il_ayyam.mp3",
+      "local_path": "data/media/iqaa/maqsum/darit_il_ayyam.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Qari'at al-Fingan (1976)",
+      "artist": "Abdel Halim Hafez",
+      "credits": [
+        "Music by Muhammad al-Mugi"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/maqsum/qariat_al_fingan.mp3",
+      "local_path": "data/media/iqaa/maqsum/qariat_al_fingan.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Waraqu al-Asfar",
+      "artist": "Fairouz",
+      "credits": [
+        "Music by Philemon Wehbe"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/maqsum/waraqu_al_asfar.mp3",
+      "local_path": "data/media/iqaa/maqsum/waraqu_al_asfar.mp3"
+    },
+    {
+      "index": 5,
+      "title": "Ya Libnan Dakhl Trabak",
+      "artist": "Sabah",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/maqsum/ya_libnan.mp3",
+      "local_path": "data/media/iqaa/maqsum/ya_libnan.mp3"
+    },
+    {
+      "index": 6,
+      "title": "Ana Bahibb el-Gedid",
+      "artist": "Vocals and Music by Ahmad Adaweya",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/maqsum/bahibb_el_gedid.mp3",
+      "local_path": "data/media/iqaa/maqsum/bahibb_el_gedid.mp3"
+    },
+    {
+      "index": 7,
+      "title": "Iqa‘ Maqsum 4/4",
+      "artist": "Tabla demonstration by Faisal Zedan",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/demo/iqaa/tabla/maqsum.mp3",
+      "local_path": "data/media/iqaa/maqsum/maqsum.mp3"
+    }
+  ],
+  "notes": [],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/maqsum/il_albi_yi3shaq.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/maqsum/il_albi_yi3shaq.mp3",
+      "status": "downloaded",
+      "sha256": "362e0449bba5c3776c1f34c7ad54e88a2f9900e65d51fed9c725a04f5b1c0315",
+      "bytes": 237232,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/maqsum/darit_il_ayyam.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/maqsum/darit_il_ayyam.mp3",
+      "status": "downloaded",
+      "sha256": "83c8d5220df2eab1225e1573053b94647f31a27d90b704dd8091a87fa35a5ca1",
+      "bytes": 251618,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/maqsum/qariat_al_fingan.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/maqsum/qariat_al_fingan.mp3",
+      "status": "downloaded",
+      "sha256": "74a7232ddedfcd917ae0dabfeab3f29c363b09ea641f2f30520fb142de5707da",
+      "bytes": 714383,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/maqsum/waraqu_al_asfar.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/maqsum/waraqu_al_asfar.mp3",
+      "status": "downloaded",
+      "sha256": "93f0170271c96e634cc9be3eb4159c936d8b331e3ec51ee91c94cdb7e0a79986",
+      "bytes": 1857705,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/maqsum/ya_libnan.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/maqsum/ya_libnan.mp3",
+      "status": "downloaded",
+      "sha256": "db14c2ff38eee089cbbe1481bfbac66700ce9876c4b1db62f46c9c73de1a656e",
+      "bytes": 1075628,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/maqsum/bahibb_el_gedid.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/maqsum/bahibb_el_gedid.mp3",
+      "status": "downloaded",
+      "sha256": "24dbfb3442d067da6758863e4e9daf80763c3df90a140209436a9a91bec0f175",
+      "bytes": 436149,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/demo/iqaa/tabla/maqsum.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/maqsum/maqsum.mp3",
+      "status": "downloaded",
+      "sha256": "1afb4329c9496e4639e43f3c0cbceabe1ba1a0583e16d6c693f0260463d0ec57",
+      "bytes": 801271,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/maqsum.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/iqaa/maqsum/maqsum-b7f14a51.mp3",
+      "status": "downloaded",
+      "sha256": "a8e699a879592abff92b372da75b7021e45dd2d1a719388c0174226a7a583014",
+      "bytes": 32391,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/iqaa/maqsum.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/maqsum/maqsum.png",
+      "status": "downloaded",
+      "sha256": "071151d8e743a2080c839cb5b0d641bc09b8e232176a4f2ee1b42f8bf752ecde",
+      "bytes": 11800,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/tabla.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/maqsum/tabla.png",
+      "status": "downloaded",
+      "sha256": "bc7d7630f1797012041feecf8f1a7bc6d926498a88661ab4f28451d50b6c8f30",
+      "bytes": 11602,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Iqa‘ Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Baladi",
+      "url": "https://www.maqamworld.com/en/iqaa/baladi.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Wahda",
+      "url": "https://www.maqamworld.com/en/iqaa/wahda.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "d7769776ab1176e53cb5d7e4fe42b0506786c87f61dda83b8160a84ff6b48401",
+  "fetched_at": "2026-11-10T12:10:55.118452Z",
+  "status_code": 200,
+  "html_file": "data/raw/iqaa/maqsum.html"
+}

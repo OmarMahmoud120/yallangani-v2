@@ -1,0 +1,101 @@
+{
+  "url": "https://www.maqamworld.com/en/instr/guitar.php",
+  "path": "/en/instr/guitar.php",
+  "section": "instr",
+  "slug": "instr/guitar",
+  "kind": "entry",
+  "title": "The Electric Guitar",
+  "subtitle": "Plays melody and simple chords",
+  "description": "The Electric Guitar",
+  "lang": "en",
+  "paragraphs": [
+    "The Electric Guitar was first used in Arabic music in the late 1960s in Egypt, and its pioneer was Omar Khorshid. Some Arabic electric guitars were fitted with extra frets (in the manner of the Buzuq) in order to play some of the Arabic Maqam scales with quartertones. But mostly the electric guitar was used without any alteration or effects, and acquired its Arabness from its ornamentation style. The electric guitar was used to play a combination of melodic lines and simple chords (e.g. major and minor).",
+    "Explore other Arabized instruments:"
+  ],
+  "text": "The Electric Guitar Plays melody and simple chords Instrument Index Omar Khorshid, the pioneer of Electric Guitar in Egypt The Electric Guitar was first used in Arabic music in the late 1960s in Egypt, and its pioneer was Omar Khorshid. Some Arabic electric guitars were fitted with extra frets (in the manner of the Buzuq ) in order to play some of the Arabic Maqam scales with quartertones. But mostly the electric guitar was used without any alteration or effects, and acquired its Arabness from its ornamentation style. The electric guitar was used to play a combination of melodic lines and simple chords (e.g. major and minor). Omar Khorshid Arabic Electric Guitar pioneer Omar Khorshid plays Umm Kukthum's song Aghadan Alqaka (1971, music by Muhammad Abdel Wahab). Omar Khorshid Interview Interview with Omar Khorshid about his experience playing the Electric Guitar with Umm Kulthum's Orchestra Explore other Arabized instruments: The Arabic Accordion The Arabic Org The Oriental Keyboard The Arabic Piano The Saxophone The Trumpet",
+  "tracks": [],
+  "notes": [],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/instr/guitar.jpg",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/instr/guitar/guitar.jpg",
+      "status": "downloaded",
+      "sha256": "bd308e4847e3d29f85051ae0287b031b99eb165680f47c88560836124e86cfc9",
+      "bytes": 18685,
+      "content_type": null
+    },
+    {
+      "url": "https://img.youtube.com/vi/b9s1GvFSa68/hqdefault.jpg",
+      "kind": "image",
+      "source": "content",
+      "local_path": null,
+      "status": "skipped_external",
+      "sha256": null,
+      "bytes": null,
+      "content_type": null
+    },
+    {
+      "url": "https://img.youtube.com/vi/dyCtzKJ9SCY/hqdefault.jpg",
+      "kind": "image",
+      "source": "content",
+      "local_path": null,
+      "status": "skipped_external",
+      "sha256": null,
+      "bytes": null,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Instrument Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Buzuq",
+      "url": "https://www.maqamworld.com/en/instr/buzuq.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam",
+      "url": "https://www.maqamworld.com/en/maqam.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Arabic Accordion",
+      "url": "https://www.maqamworld.com/en/instr/accordion.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Arabic Org",
+      "url": "https://www.maqamworld.com/en/instr/org.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Oriental Keyboard",
+      "url": "https://www.maqamworld.com/en/instr/keyboard.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Arabic Piano",
+      "url": "https://www.maqamworld.com/en/instr/piano.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Saxophone",
+      "url": "https://www.maqamworld.com/en/instr/saxophone.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Trumpet",
+      "url": "https://www.maqamworld.com/en/instr/trumpet.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "ba14928bb8a300be8b3641e63218acb99199726325ac091b8043ab3a1c336852",
+  "fetched_at": "2026-11-10T12:10:55.178421Z",
+  "status_code": 200,
+  "html_file": "data/raw/instr/guitar.html"
+}

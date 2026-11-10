@@ -1,0 +1,102 @@
+{
+  "url": "https://www.maqamworld.com/en/instr/sagat.php",
+  "path": "/en/instr/sagat.php",
+  "section": "instr",
+  "slug": "instr/sagat",
+  "kind": "entry",
+  "title": "The Sagat",
+  "subtitle": "Brass Finger Cymbals",
+  "description": "The Sagat",
+  "lang": "en",
+  "paragraphs": [
+    "Sagat (called Sajat outside Egypt) are brass finger cymbals around 1½ to 2 inches in diameter (larger cymbals of up to twice that diameter exist and are called Tura). They are worn on the thumb and the 3rd finger of each hand using stretchy bands. Sagat are sometimes called by their Turkish name \"zills\".",
+    "Sagat are very popular among Raqs Sharqi professionals (belly dancers) as they beautifully accent and add color to other perussion instruments in the rhythm section. For this reason, countless YouTube videos exist on finger cymbal technique and performance.",
+    "Explore other percussion instruments:"
+  ],
+  "text": "The Sagat Brass Finger Cymbals Instrument Index A pair of brass sagat. © MaqamWorld. Pronunciation of Sagat (Sajat) Pronunciation of Tura Sagat (called Sajat outside Egypt) are brass finger cymbals around 1½ to 2 inches in diameter (larger cymbals of up to twice that diameter exist and are called Tura ). They are worn on the thumb and the 3 rd finger of each hand using stretchy bands. Sagat are sometimes called by their Turkish name \"zills\". Sagat are very popular among Raqs Sharqi professionals (belly dancers) as they beautifully accent and add color to other perussion instruments in the rhythm section. For this reason, countless YouTube videos exist on finger cymbal technique and performance. Karim Nagi Percussionist Karim Nagi (Egypt/USA) plays a Sagat solo Explore other percussion instruments: The Riqq The Tabla The Tabl Baladi The Daff The Mazhar The Katim",
+  "tracks": [],
+  "notes": [],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/name/sagat.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/instr/sagat/sagat.mp3",
+      "status": "downloaded",
+      "sha256": "8664e63dd03181dc7d481e97310d61dcedcb18cd868056a2401d6793f7334f3f",
+      "bytes": 53546,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/tura.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/instr/sagat/tura.mp3",
+      "status": "downloaded",
+      "sha256": "a1d427683b4c50be384468134ff1afad96d6bb07531bdab218d05c51ce9ee3c4",
+      "bytes": 10119,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/instr/sagat.jpg",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/instr/sagat/sagat.jpg",
+      "status": "downloaded",
+      "sha256": "4bbc8b3b476b3fd5369c9683d25fb224c81f12e1739c72fd7249a0926acbd877",
+      "bytes": 23290,
+      "content_type": null
+    },
+    {
+      "url": "https://img.youtube.com/vi/UpG__9CAiVE/hqdefault.jpg",
+      "kind": "image",
+      "source": "content",
+      "local_path": null,
+      "status": "skipped_external",
+      "sha256": null,
+      "bytes": null,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Instrument Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "The Riqq",
+      "url": "https://www.maqamworld.com/en/instr/riqq.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Tabla",
+      "url": "https://www.maqamworld.com/en/instr/tabla.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Tabl Baladi",
+      "url": "https://www.maqamworld.com/en/instr/tabl_baladi.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Daff",
+      "url": "https://www.maqamworld.com/en/instr/daff.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Mazhar",
+      "url": "https://www.maqamworld.com/en/instr/mazhar.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Katim",
+      "url": "https://www.maqamworld.com/en/instr/katim.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "8fc14adaa452e7dd5c869fb7536cebdb6c751ab1571898df6968dff175ba8106",
+  "fetched_at": "2026-11-10T12:10:55.193643Z",
+  "status_code": 200,
+  "html_file": "data/raw/instr/sagat.html"
+}

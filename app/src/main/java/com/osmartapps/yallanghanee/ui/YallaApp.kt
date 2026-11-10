@@ -4,6 +4,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.saveable.rememberSaveable
@@ -87,17 +88,20 @@ fun YallaApp() {
                     onExit = viewModel::closeLesson,
                 )
 
-                else -> HomeScreen(
-                    pack = pack,
-                    completedLessons = state.completedLessons,
-                    onStartLesson = viewModel::startLesson,
-                    onOpenSettings = { showSettings = true },
-                    onOpenGallery = if (BuildConfig.DEBUG) {
-                        { showGallery = true }
-                    } else {
-                        null
-                    },
-                )
+                else -> {
+                    LaunchedEffect(Unit) { viewModel.onHomeVisible() }
+                    HomeScreen(
+                        pack = pack,
+                        completedLessons = state.completedLessons,
+                        onStartLesson = viewModel::startLesson,
+                        onOpenSettings = { showSettings = true },
+                        onOpenGallery = if (BuildConfig.DEBUG) {
+                            { showGallery = true }
+                        } else {
+                            null
+                        },
+                    )
+                }
             }
         }
     }

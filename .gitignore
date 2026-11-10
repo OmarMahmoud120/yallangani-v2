@@ -10,3 +10,4 @@ build/
 *.jks
 *.keystore
 app/src/main/assets/content/audio/*.wav
+__pycache__/

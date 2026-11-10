@@ -1,0 +1,236 @@
+{
+  "url": "https://www.maqamworld.com/en/iqaa/yuruk_semai.php",
+  "path": "/en/iqaa/yuruk_semai.php",
+  "section": "iqaa",
+  "slug": "iqaa/yuruk_semai",
+  "kind": "entry",
+  "title": "Iqa‘ Yuruk Semai 6/8",
+  "subtitle": null,
+  "description": "Iqa‘ Yuruk Semai",
+  "lang": "en",
+  "paragraphs": [
+    "Iqa‘ Yuruk Semai is originally a Turkish usul. It is very popular in the Muwashah genre, and is alternatively called Yugrug. When it accelerates, it may modulate to Iqa‘ Sama‘i Darij in 3/4 or Iqa‘ Sama‘i Saraband in 3/8."
+  ],
+  "text": "Iqa‘ Yuruk Semai 6/8 Iqa‘ Index Pronunciation of Yuruk Semai Iqa‘ Yuruk Semai is originally a Turkish usul. It is very popular in the Muwashah genre, and is alternatively called Yugrug . When it accelerates, it may modulate to Iqa‘ Sama‘i Darij in 3/4 or Iqa‘ Sama‘i Saraband in 3/8. Muwashah Ahwa al-Ghazal al-Rabrabi Al-Kindi Ensemble Muwashah ‘Unq al-Malih al-Ghali Sabri al-Mudallal Muwashah Bil-Ladhi Askara Louis Hage and Aida Chalhoub Muwashah Ila Kam Dha al-Tamadi Ensemble Morkos Cèdre Muwashah Qad Hala Shurb al-Mudam Al-Turath Ensemble Muwashah Qum Ya Nadim Sabah Fakhri Music by ‘Umar al-Batsh Muwashah Ya Bahjet el-Rouh Sabah Fakhri Music by Sayyed Darwish Iqa‘ Yuruk Semai 6/8 Tabla demonstration by Faisal Zedan",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Muwashah Ahwa al-Ghazal al-Rabrabi",
+      "artist": "Al-Kindi Ensemble",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/yuruk_semai/ahwa_al_ghazal.mp3",
+      "local_path": "data/media/iqaa/yuruk_semai/ahwa_al_ghazal.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Muwashah ‘Unq al-Malih al-Ghali",
+      "artist": "Sabri al-Mudallal",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/yuruk_semai/3unq_al_malih.mp3",
+      "local_path": "data/media/iqaa/yuruk_semai/3unq_al_malih.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Muwashah Bil-Ladhi Askara",
+      "artist": "Louis Hage and Aida Chalhoub",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/yuruk_semai/billadhi_askara.mp3",
+      "local_path": "data/media/iqaa/yuruk_semai/billadhi_askara.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Muwashah Ila Kam Dha al-Tamadi",
+      "artist": "Ensemble Morkos",
+      "credits": [
+        "Cèdre"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/yuruk_semai/ila_kam_dha_al_tamadi.mp3",
+      "local_path": "data/media/iqaa/yuruk_semai/ila_kam_dha_al_tamadi.mp3"
+    },
+    {
+      "index": 5,
+      "title": "Muwashah Qad Hala Shurb al-Mudam",
+      "artist": "Al-Turath Ensemble",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/yuruk_semai/qad_hala_shurb_al_mudam.mp3",
+      "local_path": "data/media/iqaa/yuruk_semai/qad_hala_shurb_al_mudam.mp3"
+    },
+    {
+      "index": 6,
+      "title": "Muwashah Qum Ya Nadim",
+      "artist": "Sabah Fakhri",
+      "credits": [
+        "Music by ‘Umar al-Batsh"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/yuruk_semai/qum_ya_nadim.mp3",
+      "local_path": "data/media/iqaa/yuruk_semai/qum_ya_nadim.mp3"
+    },
+    {
+      "index": 7,
+      "title": "Muwashah Ya Bahjet el-Rouh",
+      "artist": "Sabah Fakhri",
+      "credits": [
+        "Music by Sayyed Darwish"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/yuruk_semai/ya_bahjit_el_rouh.mp3",
+      "local_path": "data/media/iqaa/yuruk_semai/ya_bahjit_el_rouh.mp3"
+    },
+    {
+      "index": 8,
+      "title": "Iqa‘ Yuruk Semai 6/8",
+      "artist": "Tabla demonstration by Faisal Zedan",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/demo/iqaa/tabla/yuruk_semai.mp3",
+      "local_path": "data/media/iqaa/yuruk_semai/yuruk_semai.mp3"
+    }
+  ],
+  "notes": [],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/yuruk_semai/ahwa_al_ghazal.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/yuruk_semai/ahwa_al_ghazal.mp3",
+      "status": "downloaded",
+      "sha256": "7e2974a1bad09e7815c2b036ec2dd8add32e6b9cac3ce5407330de06831d9673",
+      "bytes": 975202,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/yuruk_semai/3unq_al_malih.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/yuruk_semai/3unq_al_malih.mp3",
+      "status": "downloaded",
+      "sha256": "89633e936c098dee8b0ab120b17cae18a635614c553a90aedf89d1bd20b8c273",
+      "bytes": 752937,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/yuruk_semai/billadhi_askara.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/yuruk_semai/billadhi_askara.mp3",
+      "status": "downloaded",
+      "sha256": "010f6826575cb43d17d02914339a34e126ff0ad137017c1b4f933683f3902efb",
+      "bytes": 936705,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/yuruk_semai/ila_kam_dha_al_tamadi.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/yuruk_semai/ila_kam_dha_al_tamadi.mp3",
+      "status": "downloaded",
+      "sha256": "7860d3c23042f1c7501ff407db8adcf8497cf9df38c86a8d71514ba4b8717c96",
+      "bytes": 965141,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/yuruk_semai/qad_hala_shurb_al_mudam.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/yuruk_semai/qad_hala_shurb_al_mudam.mp3",
+      "status": "downloaded",
+      "sha256": "667a953b84165d22ffbd27e7c7e1e8633188f948463b668ec8d14f0be778c2d4",
+      "bytes": 553888,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/yuruk_semai/qum_ya_nadim.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/yuruk_semai/qum_ya_nadim.mp3",
+      "status": "downloaded",
+      "sha256": "6d2a2ca89ef814d48085015d421058cf7bd308706c4fafc763fa26c38c34658a",
+      "bytes": 818420,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/yuruk_semai/ya_bahjit_el_rouh.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/yuruk_semai/ya_bahjit_el_rouh.mp3",
+      "status": "downloaded",
+      "sha256": "1bb56eb6adb8c7725a075dede5cd06644d7c25076ebf8912abb302f9604f2b4b",
+      "bytes": 619466,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/demo/iqaa/tabla/yuruk_semai.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/yuruk_semai/yuruk_semai.mp3",
+      "status": "downloaded",
+      "sha256": "f5f291a8dce1e71226880dbb42c234c52e22e3aa9e1e879419ec2d7c2c5aec4e",
+      "bytes": 737324,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/yuruk_semai.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/iqaa/yuruk_semai/yuruk_semai-9bb052aa.mp3",
+      "status": "downloaded",
+      "sha256": "ec0c8e286a95c01f6389a2a517174fdef392e71a378d7bb42f656fbce2949611",
+      "bytes": 45974,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/iqaa/yuruk_semai.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/yuruk_semai/yuruk_semai.png",
+      "status": "downloaded",
+      "sha256": "7dfffe491e042adf6e00e3b8938d099e979f8f7167f7588929494b7336460d0f",
+      "bytes": 10081,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/cd.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/yuruk_semai/cd.png",
+      "status": "downloaded",
+      "sha256": "1f52da76667703a00010a07afefc9d78b6c3ccb8359b906fc6fd6b0cddd0255f",
+      "bytes": 5478,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/tabla.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/yuruk_semai/tabla.png",
+      "status": "downloaded",
+      "sha256": "bc7d7630f1797012041feecf8f1a7bc6d926498a88661ab4f28451d50b6c8f30",
+      "bytes": 11602,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Iqa‘ Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Muwashah",
+      "url": "https://www.maqamworld.com/en/form/vocal_comp.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Iqa‘ Sama‘i Darij",
+      "url": "https://www.maqamworld.com/en/iqaa/samai_darij.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Iqa‘ Sama‘i Saraband",
+      "url": "https://www.maqamworld.com/en/iqaa/samai_saraband.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "fcf401bef3ede4921dff5013847e7fff682e493cd87afe97b78e49aecde06f08",
+  "fetched_at": "2026-11-10T12:10:55.156810Z",
+  "status_code": 200,
+  "html_file": "data/raw/iqaa/yuruk_semai.html"
+}

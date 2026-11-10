@@ -6,7 +6,9 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
+import com.osmartapps.yallanghanee.data.HttpRemotePackSource
 import com.osmartapps.yallanghanee.data.MaqamRepository
+import com.osmartapps.yallanghanee.data.PackCache
 import com.osmartapps.yallanghanee.data.ProgressStore
 import com.osmartapps.yallanghanee.data.SettingsStore
 import com.osmartapps.yallanghanee.model.MaqamPack
@@ -19,6 +21,7 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
+import java.io.File
 import kotlin.random.Random
 
 data class LessonResult(
@@ -59,6 +62,8 @@ class RecognitionViewModel(
     private val _state = MutableStateFlow(RecognitionUiState())
     val state: StateFlow<RecognitionUiState> = _state.asStateFlow()
 
+    private var lastCheckAt = 0L
+
     init {
         load()
         viewModelScope.launch {
@@ -84,6 +89,11 @@ class RecognitionViewModel(
     }
 
     fun retry() = load()
+
+    fun onHomeVisible() {
+        if (System.currentTimeMillis() - lastCheckAt < CHECK_INTERVAL_MS) return
+        refresh()
+    }
 
     fun onboardingNext() {
         val steps = _state.value.pack?.onboarding?.steps ?: return
@@ -175,22 +185,41 @@ class RecognitionViewModel(
         viewModelScope.launch {
             _state.update { it.copy(loading = true, error = null) }
             runCatching {
-                val pack = withContext(Dispatchers.IO) { repository.load() }
+                val pack = withContext(Dispatchers.IO) { repository.loadBaseline() }
                 _state.update { it.copy(loading = false, pack = pack) }
             }.onFailure { error ->
                 _state.update {
                     it.copy(loading = false, error = error.message ?: "load failed")
                 }
             }
+            refresh()
+        }
+    }
+
+    private fun refresh() {
+        lastCheckAt = System.currentTimeMillis()
+        val current = _state.value.pack ?: return
+        viewModelScope.launch {
+            val updated = runCatching {
+                withContext(Dispatchers.IO) { repository.refresh(current) }
+            }.getOrNull() ?: return@launch
+            _state.update { it.copy(pack = updated) }
         }
     }
 
     companion object {
+        private const val CHECK_INTERVAL_MS = 6 * 60 * 60 * 1000L
+        private const val PACK_BASE_URL = "https://yallanganee-73906702.web.app"
+
         fun factory(context: Context): ViewModelProvider.Factory = viewModelFactory {
             initializer {
                 val appContext = context.applicationContext
                 RecognitionViewModel(
-                    MaqamRepository(appContext.assets),
+                    MaqamRepository(
+                        assets = appContext.assets,
+                        cache = PackCache(File(appContext.filesDir, "pack")),
+                        remote = HttpRemotePackSource(PACK_BASE_URL),
+                    ),
                     ProgressStore(appContext),
                     SettingsStore(appContext),
                 )

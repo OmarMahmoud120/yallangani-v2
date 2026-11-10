@@ -1,0 +1,297 @@
+{
+  "url": "https://www.maqamworld.com/en/maqam/zanjaran.php",
+  "path": "/en/maqam/zanjaran.php",
+  "section": "maqam",
+  "slug": "maqam/zanjaran",
+  "kind": "entry",
+  "title": "Maqam Zanjaran",
+  "subtitle": "A member of the Maqam Hijaz Family",
+  "description": "Maqam Zanjaran",
+  "lang": "en",
+  "paragraphs": [
+    "Click the notes and hold using the mouse to hear them play.",
+    "Maqam Zanjaran is a variant of Maqam Hijaz with Jins ‘Ajam as the second jins (on the 4th degree) and the root Jins Hijaz on the tonic.",
+    "Explore other maqamat in the Maqam Hijaz Family.",
+    "Watch a 1-minute sample Violin Taqsim in Maqam Zanjaran by Sami Abu Shumays."
+  ],
+  "text": "Maqam Zanjaran A member of the Maqam Hijaz Family Maqam Index Pronunciation of Zanjaran Click the notes and hold using the mouse to hear them play. Maqam Zanjaran is a variant of Maqam Hijaz with Jins ‘Ajam as the second jins (on the 4 th degree) and the root Jins Hijaz on the tonic . Explore other maqamat in the Maqam Hijaz Family . Watch a 1-minute sample Violin Taqsim in Maqam Zanjaran by Sami Abu Shumays. Ya Halawit el-Dunya (c.1950) Sayyed Makkawi Music by Zakariya Ahmad Muwashah Aya Daraha Bil-Hazn Hassan al-Haffar Music by Majdi al-‘Aqili Mawwal Amana Ya Leil (1931) Vocals and Music by Muhammad Abdel Wahab (Egypt) Dawr Huwwa Dah Yikhallas (1931) Umm Kulthum Music by Zakariya Ahmad Fi Shar‘i Min Vocals and Music by Sayyed Darwish Layali Zanjaran Ahmad Khabbari Al-Turath Ensemble The Music In Spanish Al-Andalus - Hijaz Semiramis (Taqsim Oud Zanjaran) ‘Amer ‘Ammuri Takasim Oud Taqsim Qanun Zanjaran Abraham Salman Saltanah Taqsim Buzuq Zanjaran Muhammad Abdel Karim",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Ya Halawit el-Dunya (c.1950)",
+      "artist": "Sayyed Makkawi",
+      "credits": [
+        "Music by Zakariya Ahmad"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/zanjaran/ya_halawet_el_dunya.mp3",
+      "local_path": "data/media/maqam/zanjaran/ya_halawet_el_dunya.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Muwashah Aya Daraha Bil-Hazn",
+      "artist": "Hassan al-Haffar",
+      "credits": [
+        "Music by Majdi al-‘Aqili"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/zanjaran/aya_daraha.mp3",
+      "local_path": "data/media/maqam/zanjaran/aya_daraha.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Mawwal Amana Ya Leil (1931)",
+      "artist": "Vocals and Music by Muhammad Abdel Wahab (Egypt)",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/zanjaran/mawwal_amana_ya_leil.mp3",
+      "local_path": "data/media/maqam/zanjaran/mawwal_amana_ya_leil.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Dawr Huwwa Dah Yikhallas (1931)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Zakariya Ahmad"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/zanjaran/huwwa-dah-yikhallas.mp3",
+      "local_path": "data/media/maqam/zanjaran/huwwa-dah-yikhallas.mp3"
+    },
+    {
+      "index": 5,
+      "title": "Fi Shar‘i Min",
+      "artist": "Vocals and Music by Sayyed Darwish",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/zanjaran/fi-shar3i-min.mp3",
+      "local_path": "data/media/maqam/zanjaran/fi-shar3i-min.mp3"
+    },
+    {
+      "index": 6,
+      "title": "Layali Zanjaran",
+      "artist": "Ahmad Khabbari",
+      "credits": [
+        "Al-Turath Ensemble",
+        "The Music In Spanish Al-Andalus - Hijaz"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/zanjaran/layali_zanjaran.mp3",
+      "local_path": "data/media/maqam/zanjaran/layali_zanjaran.mp3"
+    },
+    {
+      "index": 7,
+      "title": "Semiramis (Taqsim Oud Zanjaran)",
+      "artist": "‘Amer ‘Ammuri",
+      "credits": [
+        "Takasim Oud"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/zanjaran/taqsim_oud.mp3",
+      "local_path": "data/media/maqam/zanjaran/taqsim_oud.mp3"
+    },
+    {
+      "index": 8,
+      "title": "Taqsim Qanun Zanjaran",
+      "artist": "Abraham Salman",
+      "credits": [
+        "Saltanah"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/zanjaran/taqsim_qanun.mp3",
+      "local_path": "data/media/maqam/zanjaran/taqsim_qanun.mp3"
+    },
+    {
+      "index": 9,
+      "title": "Taqsim Buzuq Zanjaran",
+      "artist": "Muhammad Abdel Karim",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/zanjaran/taqsim_buzuq.mp3",
+      "local_path": "data/media/maqam/zanjaran/taqsim_buzuq.mp3"
+    }
+  ],
+  "notes": [
+    {
+      "name": "C5",
+      "frequency": 521.48
+    },
+    {
+      "name": "B4♭",
+      "frequency": 463.54
+    },
+    {
+      "name": "A4♮",
+      "frequency": 440.0
+    },
+    {
+      "name": "G4",
+      "frequency": 391.11
+    },
+    {
+      "name": "F4",
+      "frequency": 347.65
+    },
+    {
+      "name": "E4♮",
+      "frequency": 328.0
+    },
+    {
+      "name": "D4♭",
+      "frequency": 277.0
+    },
+    {
+      "name": "C4",
+      "frequency": 260.74
+    }
+  ],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/zanjaran/ya_halawet_el_dunya.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/zanjaran/ya_halawet_el_dunya.mp3",
+      "status": "downloaded",
+      "sha256": "84a397281473c12880f5ab49e7d6af7a97953cfb1fa1bb738e552c827ab62b4a",
+      "bytes": 598186,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/zanjaran/aya_daraha.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/zanjaran/aya_daraha.mp3",
+      "status": "downloaded",
+      "sha256": "0f6aaec6d1b36c6214d32211c4c06f9d6a88174da0e2881bc4deedfe7bcbcdaa",
+      "bytes": 520863,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/zanjaran/mawwal_amana_ya_leil.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/zanjaran/mawwal_amana_ya_leil.mp3",
+      "status": "downloaded",
+      "sha256": "f095522a80209e61fa1d19560906a2992f7744a4f3fe61be9d1106a8d33c56fd",
+      "bytes": 872691,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/zanjaran/huwwa-dah-yikhallas.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/zanjaran/huwwa-dah-yikhallas.mp3",
+      "status": "downloaded",
+      "sha256": "d94fc266b19a0339a84abefa2e1096128321f2fd109d45066f6153f66f70ff98",
+      "bytes": 1220155,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/zanjaran/fi-shar3i-min.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/zanjaran/fi-shar3i-min.mp3",
+      "status": "downloaded",
+      "sha256": "839c1402a1a0ac9569b91a1144294aa17786c794f1c325058793bcd8afa42e5c",
+      "bytes": 783556,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/zanjaran/layali_zanjaran.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/zanjaran/layali_zanjaran.mp3",
+      "status": "downloaded",
+      "sha256": "c77f9989d0293a68e6b866d8395ae9ae07cc16c61b54047d9111cf8f25afd852",
+      "bytes": 1079439,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/zanjaran/taqsim_oud.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/zanjaran/taqsim_oud.mp3",
+      "status": "downloaded",
+      "sha256": "179bb74e43028e89ff63bcf5788fa079146c648ebdc8b339a12ae92ef847f15f",
+      "bytes": 1174220,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/zanjaran/taqsim_qanun.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/zanjaran/taqsim_qanun.mp3",
+      "status": "downloaded",
+      "sha256": "26b0e350dfd6ecfa4c6a04eebb3226a1098b348efd71cdb65ab6831ff84f728c",
+      "bytes": 467322,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/zanjaran/taqsim_buzuq.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/zanjaran/taqsim_buzuq.mp3",
+      "status": "downloaded",
+      "sha256": "69b0b2caec58b88dfa3e627a9a031549add5e9b6bc850b4ff697d3fa8f7561c0",
+      "bytes": 842772,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/zanjaran.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/maqam/zanjaran/zanjaran.mp3",
+      "status": "downloaded",
+      "sha256": "130ab804cebf743878df8a90701164918204dc8fc5c47cd467bc93cc905c58ce",
+      "bytes": 41795,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/maqam/zanjaran.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/maqam/zanjaran/zanjaran.png",
+      "status": "downloaded",
+      "sha256": "26b77f85388c061034772bdaa3ccf0d2e52979814dafd9e0e5558cb22899039f",
+      "bytes": 12632,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/cd.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/maqam/zanjaran/cd.png",
+      "status": "downloaded",
+      "sha256": "1f52da76667703a00010a07afefc9d78b6c3ccb8359b906fc6fd6b0cddd0255f",
+      "bytes": 5478,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Maqam Hijaz Family",
+      "url": "https://www.maqamworld.com/en/maqam/f_hijaz.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Maqam Hijaz",
+      "url": "https://www.maqamworld.com/en/maqam/hijaz.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins ‘Ajam",
+      "url": "https://www.maqamworld.com/en/jins/ajam.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Hijaz",
+      "url": "https://www.maqamworld.com/en/jins/hijaz.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Violin Taqsim in Maqam Zanjaran",
+      "url": "https://www.instagram.com/p/B92Ui8FFDx6",
+      "kind": "external"
+    }
+  ],
+  "content_hash": "ffcd933999ea1157c778e84eac08aa1d9b8d31513bacc31c3587caa8539ea945",
+  "fetched_at": "2026-11-10T12:10:55.010310Z",
+  "status_code": 200,
+  "html_file": "data/raw/maqam/zanjaran.html"
+}

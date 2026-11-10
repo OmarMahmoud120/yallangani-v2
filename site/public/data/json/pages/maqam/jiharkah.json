@@ -1,0 +1,236 @@
+{
+  "url": "https://www.maqamworld.com/en/maqam/jiharkah.php",
+  "path": "/en/maqam/jiharkah.php",
+  "section": "maqam",
+  "slug": "maqam/jiharkah",
+  "kind": "entry",
+  "title": "Maqam Jiharkah",
+  "subtitle": "(not part of a maqam family)",
+  "description": "Maqam Jiharkah",
+  "lang": "en",
+  "paragraphs": [
+    "Click the notes and hold using the mouse to hear them play.",
+    "Maqam Jiharkah is a somewhat rare maqam that starts with Jins Jiharkah on the tonic, then Jins Upper Rast on the 5th degree (with its tonic up on the 8th degree).",
+    "Maqam Jiharkah is not part of a maqam family.",
+    "Watch a 1-minute sample Violin Taqsim in Maqam Jiharkah by Sami Abu Shumays."
+  ],
+  "text": "Maqam Jiharkah (not part of a maqam family) Maqam Index Pronunciation of Jiharkah Click the notes and hold using the mouse to hear them play. Maqam Jiharkah is a somewhat rare maqam that starts with Jins Jiharkah on the tonic , then Jins Upper Rast on the 5 th degree (with its tonic up on the 8 th degree). Maqam Jiharkah is not part of a maqam family. Watch a 1-minute sample Violin Taqsim in Maqam Jiharkah by Sami Abu Shumays. Muwashah Kallili ya Suhbu Abdel Halim Noueira Ensemble Music by Muhammad ‘Uthman Dawr Ya Ma'nta Wahishni Sabah Fakhri Music by Muhammad ‘Uthman Dawr ‘Ishna w Shufna Saleh Abdel Hayy Music by Muhammad ‘Uthman Sama‘i Jiharkah Sabah Fakhri Orchestra Live Au Théatre Des Amandiers Dulab Jiharkah Sabah Fakhri Orchestra Live Au Théatre Des Amandiers ‘al-Rozana Sabah Fakhri Live Au Théatre Des Amandiers",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Muwashah Kallili ya Suhbu",
+      "artist": "Abdel Halim Noueira Ensemble",
+      "credits": [
+        "Music by Muhammad ‘Uthman"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/jiharkah/kallili_ya_suhbu.mp3",
+      "local_path": "data/media/maqam/jiharkah/kallili_ya_suhbu.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Dawr Ya Ma'nta Wahishni",
+      "artist": "Sabah Fakhri",
+      "credits": [
+        "Music by Muhammad ‘Uthman"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/jiharkah/ya_malik_qalbi.mp3",
+      "local_path": "data/media/maqam/jiharkah/ya_malik_qalbi.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Dawr ‘Ishna w Shufna",
+      "artist": "Saleh Abdel Hayy",
+      "credits": [
+        "Music by Muhammad ‘Uthman"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/jiharkah/3ishna_w_shufna.mp3",
+      "local_path": "data/media/maqam/jiharkah/3ishna_w_shufna.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Sama‘i Jiharkah",
+      "artist": "Sabah Fakhri Orchestra",
+      "credits": [
+        "Live Au Théatre Des Amandiers"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/jiharkah/samai_jiharkah.mp3",
+      "local_path": "data/media/maqam/jiharkah/samai_jiharkah.mp3"
+    },
+    {
+      "index": 5,
+      "title": "Dulab Jiharkah",
+      "artist": "Sabah Fakhri Orchestra",
+      "credits": [
+        "Live Au Théatre Des Amandiers"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/jiharkah/dulab_jiharkah.mp3",
+      "local_path": "data/media/maqam/jiharkah/dulab_jiharkah.mp3"
+    },
+    {
+      "index": 6,
+      "title": "‘al-Rozana",
+      "artist": "Sabah Fakhri",
+      "credits": [
+        "Live Au Théatre Des Amandiers"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/jiharkah/3ar_rozana.mp3",
+      "local_path": "data/media/maqam/jiharkah/3ar_rozana.mp3"
+    }
+  ],
+  "notes": [
+    {
+      "name": "E4",
+      "frequency": 321.33
+    },
+    {
+      "name": "F4",
+      "frequency": 347.65
+    },
+    {
+      "name": "G4",
+      "frequency": 391.11
+    },
+    {
+      "name": "A4♮↓",
+      "frequency": 433.0
+    },
+    {
+      "name": "B4♭↓",
+      "frequency": 454.0
+    },
+    {
+      "name": "C5",
+      "frequency": 521.48
+    },
+    {
+      "name": "D5",
+      "frequency": 586.66
+    },
+    {
+      "name": "E5",
+      "frequency": 642.66
+    },
+    {
+      "name": "F5",
+      "frequency": 695.3
+    }
+  ],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/jiharkah/kallili_ya_suhbu.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/jiharkah/kallili_ya_suhbu.mp3",
+      "status": "downloaded",
+      "sha256": "8ced8f04615d6b3109a74b2e7b27596a7dbeb983d5714bf9fd64bbdf390750c5",
+      "bytes": 682302,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/jiharkah/ya_malik_qalbi.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/jiharkah/ya_malik_qalbi.mp3",
+      "status": "downloaded",
+      "sha256": "f61f682217f1a7fa293b8579c3f7130d2fe6a626baefac867c1b9a4cd655152c",
+      "bytes": 1738358,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/jiharkah/3ishna_w_shufna.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/jiharkah/3ishna_w_shufna.mp3",
+      "status": "downloaded",
+      "sha256": "1cfd829b605e1a7629f0fb6de3113c8f0cb07dd1055a556b667cfb5898b80bcb",
+      "bytes": 1492240,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/jiharkah/samai_jiharkah.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/jiharkah/samai_jiharkah.mp3",
+      "status": "downloaded",
+      "sha256": "2e20bf251d50f57cbe8fc2b65094713125005ce3fdfd922f7f0ffac1ab1d9f3a",
+      "bytes": 759100,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/jiharkah/dulab_jiharkah.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/jiharkah/dulab_jiharkah.mp3",
+      "status": "downloaded",
+      "sha256": "00bbd82f805d27f4022e7450c9975bbede30982919f08e8d861e5839e096488a",
+      "bytes": 699218,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/jiharkah/3ar_rozana.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/jiharkah/3ar_rozana.mp3",
+      "status": "downloaded",
+      "sha256": "468a46c3afd9383e145210dff8ab12773ccd8be1e63f6c03c3c275f3bc228af2",
+      "bytes": 786227,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/jiharkah.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/maqam/jiharkah/jiharkah.mp3",
+      "status": "downloaded",
+      "sha256": "458a87f2ba8f9075ac8d54995be93a7146981b692b17affd596e38906d3919d0",
+      "bytes": 38660,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/maqam/jiharkah.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/maqam/jiharkah/jiharkah.png",
+      "status": "downloaded",
+      "sha256": "3824f462625d88d4eed5f81aa4470100c319a63f18c52b54a35edc09f808cd89",
+      "bytes": 16078,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/cd.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/maqam/jiharkah/cd.png",
+      "status": "downloaded",
+      "sha256": "1f52da76667703a00010a07afefc9d78b6c3ccb8359b906fc6fd6b0cddd0255f",
+      "bytes": 5478,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Maqam Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Jins Jiharkah",
+      "url": "https://www.maqamworld.com/en/jins/jiharkah.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Upper Rast",
+      "url": "https://www.maqamworld.com/en/jins/upper_rast.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Violin Taqsim in Maqam Jiharkah",
+      "url": "https://www.instagram.com/p/B-IJ05Ml4yF",
+      "kind": "external"
+    }
+  ],
+  "content_hash": "3d140ea3aa6a9867a3e05f651b23882f8ca61f5bfa7e63ed6d6bcfd35fd88796",
+  "fetched_at": "2026-11-10T12:10:54.904815Z",
+  "status_code": 200,
+  "html_file": "data/raw/maqam/jiharkah.html"
+}

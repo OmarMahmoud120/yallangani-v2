@@ -1,0 +1,146 @@
+{
+  "url": "https://www.maqamworld.com/en/jins/sikah.php",
+  "path": "/en/jins/sikah.php",
+  "section": "jins",
+  "slug": "jins/sikah",
+  "kind": "entry",
+  "title": "Jins Sikah",
+  "subtitle": "Root jins of the Maqam Sikah Family",
+  "description": "Jins Sikah",
+  "lang": "en",
+  "paragraphs": [
+    "Click the notes and hold using the mouse to hear them play.",
+    "Jins Sikah is a 3-note jins. It is notated here with its tonic on E and its ghammaz on G. Jins Sikah is the first jins in Maqam Sikah, Maqam Huzam, Maqam ‘Iraq, and Maqam Bastanikar."
+  ],
+  "text": "Jins Sikah Root jins of the Maqam Sikah Family Jins Index Pronunciation of Sikah Click the notes and hold using the mouse to hear them play. Jins Sikah is a 3-note jins. It is notated here with its tonic on E and its ghammaz on G. Jins Sikah is the first jins in Maqam Sikah , Maqam Huzam , Maqam ‘Iraq , and Maqam Bastanikar . il-Ward Gamil (1946) Umm Kulthum Music by Zakariya Ahmad (Egypt) Hayhat Yabu al-Zuluf Sabah (Lebanese Folklore)",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "il-Ward Gamil (1946)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Zakariya Ahmad (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/sikah/el_ward_gamil.mp3",
+      "local_path": "data/media/jins/sikah/el_ward_gamil.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Hayhat Yabu al-Zuluf",
+      "artist": "Sabah",
+      "credits": [
+        "(Lebanese Folklore)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/sikah/abuz_zulof.mp3",
+      "local_path": "data/media/jins/sikah/abuz_zulof.mp3"
+    }
+  ],
+  "notes": [
+    {
+      "name": "C4",
+      "frequency": 260.74
+    },
+    {
+      "name": "D4♮",
+      "frequency": 293.33
+    },
+    {
+      "name": "D4♯",
+      "frequency": 310.0
+    },
+    {
+      "name": "E4",
+      "frequency": 320.0
+    },
+    {
+      "name": "F4",
+      "frequency": 347.65
+    },
+    {
+      "name": "G4",
+      "frequency": 391.11
+    },
+    {
+      "name": "A4♭",
+      "frequency": 422.0
+    }
+  ],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/jins/sikah/el_ward_gamil.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/sikah/el_ward_gamil.mp3",
+      "status": "downloaded",
+      "sha256": "3c790dd5e4c3a9bce4b4dbaf941bbb47f6265d25976f77ce53b6ec5178edf148",
+      "bytes": 341619,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/sikah/abuz_zulof.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/sikah/abuz_zulof.mp3",
+      "status": "downloaded",
+      "sha256": "a4db7588c25767c190555c63906c45cc209173f418c59448e1166dd25dfdab0c",
+      "bytes": 1013377,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/sikah.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/jins/sikah/sikah.mp3",
+      "status": "downloaded",
+      "sha256": "b32f219cbe71a209741ba828aeb3df84098113b18865db37a34e1b2cb87f0e3a",
+      "bytes": 26121,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/jins/sikah.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/jins/sikah/sikah.png",
+      "status": "downloaded",
+      "sha256": "14605d7f4236cb25e4a5db069f4a056728412a772208dbe04c4a7bad2fcd97da",
+      "bytes": 9448,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Maqam Sikah Family",
+      "url": "https://www.maqamworld.com/en/maqam/f_sikah.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Maqam Sikah",
+      "url": "https://www.maqamworld.com/en/maqam/sikah.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Huzam",
+      "url": "https://www.maqamworld.com/en/maqam/huzam.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam ‘Iraq",
+      "url": "https://www.maqamworld.com/en/maqam/iraq.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Bastanikar",
+      "url": "https://www.maqamworld.com/en/maqam/bastanikar.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "42b504eb5179d03526eca8e364ec663746a8f139ebe3a488cc5f353dced94cee",
+  "fetched_at": "2026-11-10T12:10:55.082838Z",
+  "status_code": 200,
+  "html_file": "data/raw/jins/sikah.html"
+}

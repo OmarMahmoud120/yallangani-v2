@@ -1,0 +1,203 @@
+{
+  "url": "https://www.maqamworld.com/en/iqaa/fox.php",
+  "path": "/en/iqaa/fox.php",
+  "section": "iqaa",
+  "slug": "iqaa/fox",
+  "kind": "entry",
+  "title": "Iqa‘ Fox 2/4",
+  "subtitle": "Examples of the slower form of Iqa‘ Fox that can be notated in 4/4",
+  "description": "Iqa‘ Fox",
+  "lang": "en",
+  "paragraphs": [
+    "Iqa‘ Fox (probably derived from \"Foxtrot\") is a simple 2/4 iqa‘ that is usually played without too much ornamentation over instrumental sections. This, and the fact it is often played at very fast tempos, gives it a swift and urgent feel. It is the main iqa‘ used in the Turkish/Eastern European Longa Ottoman instrumental form. Fox can readily modulate to Malfuf and back. A very slow version of Fox (see the last 2 examples) could be notated as 4/4."
+  ],
+  "text": "Iqa‘ Fox 2/4 Iqa‘ Index Pronunciation of Fox Iqa‘ Fox (probably derived from \"Foxtrot\") is a simple 2/4 iqa‘ that is usually played without too much ornamentation over instrumental sections. This, and the fact it is often played at very fast tempos, gives it a swift and urgent feel. It is the main iqa‘ used in the Turkish/Eastern European Longa Ottoman instrumental form. Fox can readily modulate to Malfuf and back. A very slow version of Fox (see the last 2 examples) could be notated as 4/4. Longa Farahfaza (Instrumental) Salim Sahhab Orchestra Music by Riyad al-Sunbati Ghulubt Asalih Fi Ruhi (1946) Umm Kulthum Music by Riyad al-Sunbati Al-Fann (1945) Vocals and Music by Muhammad Abdel Wahab (Egypt) Tuta (1942) Instrumental Composition (from the movie Ahlam el-Shabab ) Music by Farid al-Atrash Examples of the slower form of Iqa‘ Fox that can be notated in 4/4 Ya Dunya Ya Gharami (1938) Vocals and Music by Muhammad Abdel Wahab (Egypt) Kulli Da Kan Leh (1954) Vocals and Music by Muhammad Abdel Wahab (Egypt) Iqa‘ Fox 2/4 Tabla demonstration by Faisal Zedan",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Longa Farahfaza (Instrumental)",
+      "artist": "Salim Sahhab Orchestra",
+      "credits": [
+        "Music by Riyad al-Sunbati"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/fox/longa_farahfaza.mp3",
+      "local_path": "data/media/iqaa/fox/longa_farahfaza.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Ghulubt Asalih Fi Ruhi (1946)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Riyad al-Sunbati"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/fox/ghulubt_asalih.mp3",
+      "local_path": "data/media/iqaa/fox/ghulubt_asalih.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Al-Fann (1945)",
+      "artist": "Vocals and Music by Muhammad Abdel Wahab (Egypt)",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/fox/al_fann.mp3",
+      "local_path": "data/media/iqaa/fox/al_fann.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Tuta (1942)",
+      "artist": "Instrumental Composition (from the movie Ahlam el-Shabab)",
+      "credits": [
+        "Music by Farid al-Atrash"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/fox/tuta.mp3",
+      "local_path": "data/media/iqaa/fox/tuta.mp3"
+    },
+    {
+      "index": 5,
+      "title": "Ya Dunya Ya Gharami (1938)",
+      "artist": "Vocals and Music by Muhammad Abdel Wahab (Egypt)",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/fox/ya_duniya.mp3",
+      "local_path": "data/media/iqaa/fox/ya_duniya.mp3"
+    },
+    {
+      "index": 6,
+      "title": "Kulli Da Kan Leh (1954)",
+      "artist": "Vocals and Music by Muhammad Abdel Wahab (Egypt)",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/fox/kulli_da_kan_leh.mp3",
+      "local_path": "data/media/iqaa/fox/kulli_da_kan_leh.mp3"
+    },
+    {
+      "index": 7,
+      "title": "Iqa‘ Fox 2/4",
+      "artist": "Tabla demonstration by Faisal Zedan",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/demo/iqaa/tabla/fox.mp3",
+      "local_path": "data/media/iqaa/fox/fox.mp3"
+    }
+  ],
+  "notes": [],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/fox/longa_farahfaza.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/fox/longa_farahfaza.mp3",
+      "status": "downloaded",
+      "sha256": "8fa47c0296ee965db47ce022a87bfefcf1996f52adc31add92c7f36ebef644d8",
+      "bytes": 487077,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/fox/ghulubt_asalih.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/fox/ghulubt_asalih.mp3",
+      "status": "downloaded",
+      "sha256": "6bfd1dc01b89c0337f30f33f31cf2b52eb5a915471a29168d9799e0f97472b4a",
+      "bytes": 484768,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/fox/al_fann.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/fox/al_fann.mp3",
+      "status": "downloaded",
+      "sha256": "beb80f2c4723ad3a9024cc46133b8adb2de051b31fa8a044a10adb7d65b48b33",
+      "bytes": 214155,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/fox/tuta.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/fox/tuta.mp3",
+      "status": "downloaded",
+      "sha256": "69dbb1653176ac9d7bd3111594694fbe4a83befc8130d8c4595e5c7d32953ce6",
+      "bytes": 577904,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/fox/ya_duniya.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/fox/ya_duniya.mp3",
+      "status": "downloaded",
+      "sha256": "f4ba22978c6e9a65a87d8f8b8afef71b2fd82de728896d3e9292022780c8aba1",
+      "bytes": 493163,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/fox/kulli_da_kan_leh.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/fox/kulli_da_kan_leh.mp3",
+      "status": "downloaded",
+      "sha256": "9cf910514a3a3ef8e13018125b8ab9fe48b22204aa8ee5ba0966b511f319cd4d",
+      "bytes": 654619,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/demo/iqaa/tabla/fox.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/fox/fox.mp3",
+      "status": "downloaded",
+      "sha256": "1e6f2569c8d08f4e91b904c8edd9357321f17cc1df66403d53411d17acadf675",
+      "bytes": 505356,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/fox.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/iqaa/fox/fox-3c5131d9.mp3",
+      "status": "downloaded",
+      "sha256": "1244adf794fc4b1e4058b7161933bdd7ef36f21ef8f8bb97151fc15a03824596",
+      "bytes": 31346,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/iqaa/fox.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/fox/fox.png",
+      "status": "downloaded",
+      "sha256": "3debf1748e4be4ce70358dcb99696dfae2c22f636c8c0be9e11e1325d15c5515",
+      "bytes": 7651,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/tabla.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/fox/tabla.png",
+      "status": "downloaded",
+      "sha256": "bc7d7630f1797012041feecf8f1a7bc6d926498a88661ab4f28451d50b6c8f30",
+      "bytes": 11602,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Iqa‘ Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Longa",
+      "url": "https://www.maqamworld.com/en/form/ottoman.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Malfuf",
+      "url": "https://www.maqamworld.com/en/iqaa/malfuf.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "b2ae4575ec10439573883b6c71e3204f17e8c5cfc98ea5935b211c41aaec4c4b",
+  "fetched_at": "2026-11-10T12:10:55.108604Z",
+  "status_code": 200,
+  "html_file": "data/raw/iqaa/fox.html"
+}

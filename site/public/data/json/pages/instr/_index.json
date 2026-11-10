@@ -1,0 +1,219 @@
+{
+  "url": "https://www.maqamworld.com/en/instr.php",
+  "path": "/en/instr.php",
+  "section": "instr",
+  "slug": "instr/_index",
+  "kind": "index",
+  "title": "Arabic Musical Instruments",
+  "subtitle": "Traditional, Arabized and Percussion Instruments",
+  "description": "Arabic Musical Instruments",
+  "lang": "en",
+  "paragraphs": [
+    "The traditional Arabic ensemble or takht consists of four main melodic instruments: the oud, the nay, the qanun, and the violin, and one main percussion instrument: the riqq. Sometimes the riqq is supplemented/substituted with the tabla or the daff (frame drum), and the melodic instruments are supplemented with the buzuq.",
+    "Stylistically, melodic instruments are divided into two families: sahb (pulling or stretching), and naqr (plucking or hammering). The violin and the nay fall under sahb, the oud and the qanun fall under naqr. The two families are meant to complement each other in order to create a richer and more complete sound.",
+    "Arabized instruments are non-Arabic instruments that came in to the Arabic music ensemble in the 20th century and became part of the Arabic music sound of that period. Most of these instruments were pioneered in Egypt, where musicians developed new ornamentation styles and playing techniques that made these instruments sound \"Arabic\". Some Arabized instruments were altered to play additional notes and deliver a close enough version of the correct Arabic maqam intonation. Others were used as 12-tone equal-tempered instruments without any alteration.",
+    "These include the piano, the electric piano, the electric organ, the Oriental keyboard, the accordion, the electric guitar, and the electric (fretted) bass. Some of these instruments can be altered to produce quartertones. Drum sets and electronic percussion are are also commonly used with contemporary Arabic pop/dance music.",
+    "The flute, saxophone, clarinet, and trumpet are not equal-tempered instruments and allow greater control over pitch than the above. They are used to various extents in Arabic music, especially in modern Arabic Jazz fusion styles.",
+    "The violin, viola, cello and upright bass are very widely used in Arabic music, especially in large ensembles like Umm Kulthum's Orchestra and the Diamond Orchestra in Egypt. Being all fretless, these instruments can be comfortably used to perform the Arabic Maqam scales.",
+    "The Oud",
+    "The Qanun",
+    "The Nay",
+    "The Arabic Violin",
+    "The Buzuq",
+    "The Arabic Accordion",
+    "The Electric Guitar",
+    "The Arabic Org",
+    "The Oriental Keyboard",
+    "The Arabic Piano",
+    "The Saxophone",
+    "The Trumpet",
+    "The Riqq",
+    "The Tabla",
+    "The Tabl Baladi",
+    "The Daff",
+    "The Mazhar",
+    "The Katim",
+    "The Sagat"
+  ],
+  "text": "Arabic Musical Instruments Traditional, Arabized and Percussion Instruments Instrument Index Pronunciation of Takht Pronunciation of Sahb Pronunciation of Naqr The traditional Arabic ensemble or takht consists of four main melodic instruments: the oud , the nay , the qanun , and the violin , and one main percussion instrument: the riqq . Sometimes the riqq is supplemented/substituted with the tabla or the daff (frame drum), and the melodic instruments are supplemented with the buzuq . Stylistically, melodic instruments are divided into two families: sahb (pulling or stretching), and naqr (plucking or hammering). The violin and the nay fall under sahb , the oud and the qanun fall under naqr . The two families are meant to complement each other in order to create a richer and more complete sound. Arabized instruments are non-Arabic instruments that came in to the Arabic music ensemble in the 20 th century and became part of the Arabic music sound of that period. Most of these instruments were pioneered in Egypt, where musicians developed new ornamentation styles and playing techniques that made these instruments sound \"Arabic\". Some Arabized instruments were altered to play additional notes and deliver a close enough version of the correct Arabic maqam intonation. Others were used as 12-tone equal-tempered instruments without any alteration. These include the piano , the electric piano , the electric organ , the Oriental keyboard , the accordion , the electric guitar , and the electric (fretted) bass. Some of these instruments can be altered to produce quartertones. Drum sets and electronic percussion are are also commonly used with contemporary Arabic pop/dance music. The flute, saxophone , clarinet, and trumpet are not equal-tempered instruments and allow greater control over pitch than the above. They are used to various extents in Arabic music, especially in modern Arabic Jazz fusion styles. The violin , viola, cello and upright bass are very widely used in Arabic music, especially in large ensembles like Umm Kulthum's Orchestra and the Diamond Orchestra in Egypt. Being all fretless, these instruments can be comfortably used to perform the Arabic Maqam scales. Traditional Instruments The Oud The Qanun The Nay The Arabic Violin The Buzuq Arabized Instruments The Arabic Accordion The Electric Guitar The Arabic Org The Oriental Keyboard The Arabic Piano The Saxophone The Trumpet Percussion Instruments The Riqq The Tabla The Tabl Baladi The Daff The Mazhar The Katim The Sagat",
+  "tracks": [],
+  "notes": [],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/name/takht.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/instr/_index/takht.mp3",
+      "status": "downloaded",
+      "sha256": "d5034172681733efb38cbf253bd91c36ec58a41f7ded8edf8fe7748898d137b4",
+      "bytes": 17015,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/sahb.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/instr/_index/sahb.mp3",
+      "status": "downloaded",
+      "sha256": "894516136eb4662db580ffc7c1f611dbc6de1eece7ee9d29c041d1856adfd54c",
+      "bytes": 16910,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/naqr.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/instr/_index/naqr.mp3",
+      "status": "downloaded",
+      "sha256": "6e65fd1435e13fb505edf54b780bb4f97d6fb999df03468e4ec0f22d391d81a6",
+      "bytes": 15240,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/rosette_khalaf.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/instr/_index/rosette_khalaf.png",
+      "status": "downloaded",
+      "sha256": "385ff1f8c0051b9706e48360587cea6ba261aa742da8e78065728ba43e32ecf1",
+      "bytes": 94227,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/nahat_girgi.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/instr/_index/nahat_girgi.png",
+      "status": "downloaded",
+      "sha256": "7a4ae8c912f78317814c07632e331ee12080c2d8e2d29233f0fbee13cfd6a627",
+      "bytes": 89926,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/vergara.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/instr/_index/vergara.png",
+      "status": "downloaded",
+      "sha256": "41e8eca11fba59fd4bd47e496dbf44eee8c2c460b2dc7232937e5bb54e385db1",
+      "bytes": 99810,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Instrument Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "oud",
+      "url": "https://www.maqamworld.com/en/instr/oud.php",
+      "kind": "internal"
+    },
+    {
+      "text": "nay",
+      "url": "https://www.maqamworld.com/en/instr/nay.php",
+      "kind": "internal"
+    },
+    {
+      "text": "qanun",
+      "url": "https://www.maqamworld.com/en/instr/qanun.php",
+      "kind": "internal"
+    },
+    {
+      "text": "violin",
+      "url": "https://www.maqamworld.com/en/instr/violin.php",
+      "kind": "internal"
+    },
+    {
+      "text": "riqq",
+      "url": "https://www.maqamworld.com/en/instr/riqq.php",
+      "kind": "internal"
+    },
+    {
+      "text": "tabla",
+      "url": "https://www.maqamworld.com/en/instr/tabla.php",
+      "kind": "internal"
+    },
+    {
+      "text": "daff",
+      "url": "https://www.maqamworld.com/en/instr/daff.php",
+      "kind": "internal"
+    },
+    {
+      "text": "buzuq",
+      "url": "https://www.maqamworld.com/en/instr/buzuq.php",
+      "kind": "internal"
+    },
+    {
+      "text": "maqam",
+      "url": "https://www.maqamworld.com/maqam.php",
+      "kind": "internal"
+    },
+    {
+      "text": "piano",
+      "url": "https://www.maqamworld.com/en/instr/piano.php",
+      "kind": "internal"
+    },
+    {
+      "text": "electric organ",
+      "url": "https://www.maqamworld.com/en/instr/org.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Oriental keyboard",
+      "url": "https://www.maqamworld.com/en/instr/keyboard.php",
+      "kind": "internal"
+    },
+    {
+      "text": "accordion",
+      "url": "https://www.maqamworld.com/en/instr/accordion.php",
+      "kind": "internal"
+    },
+    {
+      "text": "electric guitar",
+      "url": "https://www.maqamworld.com/en/instr/guitar.php",
+      "kind": "internal"
+    },
+    {
+      "text": "saxophone",
+      "url": "https://www.maqamworld.com/en/instr/saxophone.php",
+      "kind": "internal"
+    },
+    {
+      "text": "trumpet",
+      "url": "https://www.maqamworld.com/en/instr/trumpet.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam",
+      "url": "https://www.maqamworld.com/en/maqam.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Tabl Baladi",
+      "url": "https://www.maqamworld.com/en/instr/tabl_baladi.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Mazhar",
+      "url": "https://www.maqamworld.com/en/instr/mazhar.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Katim",
+      "url": "https://www.maqamworld.com/en/instr/katim.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Sagat",
+      "url": "https://www.maqamworld.com/en/instr/sagat.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "f2d00623c3f039abd4c1fd77a6c7206608b22d904f1dfaf8a65746934c59a485",
+  "fetched_at": "2026-11-10T12:10:54.834968Z",
+  "status_code": 200,
+  "html_file": "data/raw/instr/_index.html"
+}

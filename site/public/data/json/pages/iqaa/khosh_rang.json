@@ -1,0 +1,154 @@
+{
+  "url": "https://www.maqamworld.com/en/iqaa/khosh_rang.php",
+  "path": "/en/iqaa/khosh_rang.php",
+  "section": "iqaa",
+  "slug": "iqaa/khosh_rang",
+  "kind": "entry",
+  "title": "Iqa‘ Khosh Rang 17/8",
+  "subtitle": "(also spelled Khush Rank)",
+  "description": "Iqa‘ Khosh Rang",
+  "lang": "en",
+  "paragraphs": [
+    "Iqa‘ Khosh Rang (also spelled Khush Rank) is a very rare iqa‘ that is only used in one known Muwashah and a few rare modern compositions."
+  ],
+  "text": "Iqa‘ Khosh Rang 17/8 (also spelled Khush Rank) Iqa‘ Index Pronunciation of Khosh Rang Iqa‘ Khosh Rang (also spelled Khush Rank) is a very rare iqa‘ that is only used in one known Muwashah and a few rare modern compositions. Muwashah Salla Fina al-Lahdha Hindiyya Ensemble Al-Kindi Les Croisades Sous Le Regard De l'Orient - Hijaz Muwashah Salla Fina al-Lahdha Hindiyya Sabah Fakhri Nagham Al Ams Vol 08 - Hijaz Khush-Rank (Oud and Riqq) Tarek Abdallah, Adel Shams El-Din Wasla (Suites musicales égyptiennes) Iqa‘ Khosh Rang 17/8 Tabla demonstration by Faisal Zedan",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Muwashah Salla Fina al-Lahdha Hindiyya",
+      "artist": "Ensemble Al-Kindi",
+      "credits": [
+        "Les Croisades Sous Le Regard De l'Orient - Hijaz"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/khosh_rang/salla_fina_kindi.mp3",
+      "local_path": "data/media/iqaa/khosh_rang/salla_fina_kindi.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Muwashah Salla Fina al-Lahdha Hindiyya",
+      "artist": "Sabah Fakhri",
+      "credits": [
+        "Nagham Al Ams Vol 08 - Hijaz"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/khosh_rang/salla_fina_fakhri.mp3",
+      "local_path": "data/media/iqaa/khosh_rang/salla_fina_fakhri.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Khush-Rank (Oud and Riqq)",
+      "artist": "Tarek Abdallah, Adel Shams El-Din",
+      "credits": [
+        "Wasla (Suites musicales égyptiennes)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/khosh_rang/tareq_abdallah.mp3",
+      "local_path": "data/media/iqaa/khosh_rang/tareq_abdallah.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Iqa‘ Khosh Rang 17/8",
+      "artist": "Tabla demonstration by Faisal Zedan",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/demo/iqaa/tabla/khosh_rang.mp3",
+      "local_path": "data/media/iqaa/khosh_rang/khosh_rang.mp3"
+    }
+  ],
+  "notes": [],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/khosh_rang/salla_fina_kindi.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/khosh_rang/salla_fina_kindi.mp3",
+      "status": "downloaded",
+      "sha256": "413f0b85f575b8e67e8c25c9dcc0ffabbc50585f51385c159a83c5b6115a2457",
+      "bytes": 879385,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/khosh_rang/salla_fina_fakhri.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/khosh_rang/salla_fina_fakhri.mp3",
+      "status": "downloaded",
+      "sha256": "8bc59fc39f47a848fafd7dc582f6507a06ad825d2dca36ac2773e738511fb67d",
+      "bytes": 945513,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/khosh_rang/tareq_abdallah.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/khosh_rang/tareq_abdallah.mp3",
+      "status": "downloaded",
+      "sha256": "6a119058522143f850e1b47fd1768c0c5668bf5b76706f16979fffd5856723ef",
+      "bytes": 1695516,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/demo/iqaa/tabla/khosh_rang.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/khosh_rang/khosh_rang.mp3",
+      "status": "downloaded",
+      "sha256": "e29de54f82ed4306e0a7c8dfb877f835425bb54d012e52e4b2ab7f5df145d135",
+      "bytes": 570077,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/khosh_rang.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/iqaa/khosh_rang/khosh_rang-ec5e1c78.mp3",
+      "status": "downloaded",
+      "sha256": "b924d537d8a5e9613e785aaad179aa89e19a014ea06e37fe316be298ec9972fd",
+      "bytes": 39705,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/iqaa/khosh_rang.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/khosh_rang/khosh_rang.png",
+      "status": "downloaded",
+      "sha256": "4a37e093ce39715fe9939e9b09b96224255f023a1f63ab9d1a21af960dc2c4d9",
+      "bytes": 18231,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/cd.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/khosh_rang/cd.png",
+      "status": "downloaded",
+      "sha256": "1f52da76667703a00010a07afefc9d78b6c3ccb8359b906fc6fd6b0cddd0255f",
+      "bytes": 5478,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/tabla.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/khosh_rang/tabla.png",
+      "status": "downloaded",
+      "sha256": "bc7d7630f1797012041feecf8f1a7bc6d926498a88661ab4f28451d50b6c8f30",
+      "bytes": 11602,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Iqa‘ Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Muwashah",
+      "url": "https://www.maqamworld.com/en/form/vocal_comp.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "f0750582236c6a3d28bae7baf6be32648e4a63c6832500f19b0ea8b70e5dd18a",
+  "fetched_at": "2026-11-10T12:10:55.115559Z",
+  "status_code": 200,
+  "html_file": "data/raw/iqaa/khosh_rang.html"
+}

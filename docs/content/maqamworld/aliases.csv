@@ -1,7 +1,7 @@
 surface,script,relation,canonical_app_id,page_slug,evidence_url,note,status
 Rahat al-Arwah,latin,alternate_name,huzam,huzam,https://www.maqamworld.com/en/maqam/huzam.php,Shares the Huzam detail page; the page title pairs both names. Safe to treat as the same entry.,confirmed
 راحة الارواح,arabic,alternate_name,huzam,huzam,https://www.maqamworld.com/ar/maqam/huzam.php,Arabic spelling as printed on the page (no hamza on the alif).,confirmed
-Farahfaza,latin,distinct_maqam,nahawand,nahawand,https://www.maqamworld.com/en/maqam/nahawand.php,Separate maqam entry that shares the Nahawand detail page. Do not merge into nahawand; it needs its own tuning and phrases if ever added.,confirmed
+Farahfaza,latin,distinct_maqam,nahawand,nahawand,https://www.maqamworld.com/en/maqam/nahawand.php,Separate maqam entry that shares the Nahawand detail page; the site defines it as Nahawand transposed to a G tonic with the same scale structure. Do not merge into nahawand.,confirmed
 Muhayyar,latin,distinct_maqam,bayati,bayati,https://www.maqamworld.com/en/maqam/bayati.php,Separate entry sharing the Bayati page. Do not merge.,confirmed
 Sazkar,latin,distinct_maqam,-,kirdan,https://www.maqamworld.com/en/maqam/kirdan.php,Separate entry sharing the Kirdan page. Kirdan is not in the core nine.,confirmed
 Shadd Araban,latin,distinct_maqam,-,hijazkar,https://www.maqamworld.com/en/maqam/hijazkar.php,Separate entry sharing the Hijazkar page. Not an alias of hijaz.,confirmed

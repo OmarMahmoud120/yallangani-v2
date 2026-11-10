@@ -1,0 +1,188 @@
+{
+  "url": "https://www.maqamworld.com/en/iqaa/muhajjar.php",
+  "path": "/en/iqaa/muhajjar.php",
+  "section": "iqaa",
+  "slug": "iqaa/muhajjar",
+  "kind": "entry",
+  "title": "Iqa‘ Muhajjar 14/4",
+  "subtitle": null,
+  "description": "Iqa‘ Muhajjar",
+  "lang": "en",
+  "paragraphs": [
+    "Iqa‘ Muhajjar is a very popular iqa‘ in the Muwashah repertoire. It is immediately recognizable by the 3 consecutive dum-s that open the measure. The word \"muhajjar\" in Arabic means made of/turned into stone."
+  ],
+  "text": "Iqa‘ Muhajjar 14/4 Iqa‘ Index Pronunciation of Muhajjar Iqa‘ Muhajjar is a very popular iqa‘ in the Muwashah repertoire. It is immediately recognizable by the 3 consecutive dum -s that open the measure. The word \"muhajjar\" in Arabic means made of/turned into stone. Muwashah Badat Min al-Khidri Ensemble Al-Kindi Muwashah Hajarni Habibi Al-Turath Ensemble Muwashah Hal ‘Ala al-Astar Ensemble Morkos Muwashah Munyati ‘Azza Istibari Choir of the faculty of Music - Kaslik University (Lebanon) Conductor: Aïda Shalhoub Ziadé Music by Sayyed Darwish Orientalia: Muwashah and Song series Muwashah Ya Tura Ba‘da al-Bi‘adi Ensemble Al-Kindi Iqa‘ Muhajjar 14/4 Tabla demonstration by Faisal Zedan",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Muwashah Badat Min al-Khidri",
+      "artist": "Ensemble Al-Kindi",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/muhajjar/badat_min_al_khidri.mp3",
+      "local_path": "data/media/iqaa/muhajjar/badat_min_al_khidri.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Muwashah Hajarni Habibi",
+      "artist": "Al-Turath Ensemble",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/muhajjar/hajarni_habibi.mp3",
+      "local_path": "data/media/iqaa/muhajjar/hajarni_habibi.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Muwashah Hal ‘Ala al-Astar",
+      "artist": "Ensemble Morkos",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/muhajjar/hal_3ala_al_astar.mp3",
+      "local_path": "data/media/iqaa/muhajjar/hal_3ala_al_astar.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Muwashah Munyati ‘Azza Istibari",
+      "artist": "Choir of the faculty of Music - Kaslik University (Lebanon)",
+      "credits": [
+        "Conductor: Aïda Shalhoub Ziadé",
+        "Music by Sayyed Darwish",
+        "Orientalia: Muwashah and Song series"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/muhajjar/munyati.mp3",
+      "local_path": "data/media/iqaa/muhajjar/munyati.mp3"
+    },
+    {
+      "index": 5,
+      "title": "Muwashah Ya Tura Ba‘da al-Bi‘adi",
+      "artist": "Ensemble Al-Kindi",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/muhajjar/ya_tura_ba3da.mp3",
+      "local_path": "data/media/iqaa/muhajjar/ya_tura_ba3da.mp3"
+    },
+    {
+      "index": 6,
+      "title": "Iqa‘ Muhajjar 14/4",
+      "artist": "Tabla demonstration by Faisal Zedan",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/demo/iqaa/tabla/muhajjar.mp3",
+      "local_path": "data/media/iqaa/muhajjar/muhajjar.mp3"
+    }
+  ],
+  "notes": [],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/muhajjar/badat_min_al_khidri.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/muhajjar/badat_min_al_khidri.mp3",
+      "status": "downloaded",
+      "sha256": "e2bf4a5dacb9a92066e9ec043589c7ade742a10a7cab716e0cef16de99fde184",
+      "bytes": 945564,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/muhajjar/hajarni_habibi.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/muhajjar/hajarni_habibi.mp3",
+      "status": "downloaded",
+      "sha256": "ff59585256ff5fb2c2bf114c3f01270da51724e7e090694524f15fb541d03417",
+      "bytes": 645393,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/muhajjar/hal_3ala_al_astar.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/muhajjar/hal_3ala_al_astar.mp3",
+      "status": "downloaded",
+      "sha256": "631f7e569260d5de3cb07b1a78a41444f5e7a59e24c1693b0446ee1af1a376bb",
+      "bytes": 851828,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/muhajjar/munyati.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/muhajjar/munyati.mp3",
+      "status": "downloaded",
+      "sha256": "b1a8832832ac6fcfeabe76260c0a9db164830b066fb0baf7a14b15e83a4bf4b8",
+      "bytes": 817201,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/muhajjar/ya_tura_ba3da.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/muhajjar/ya_tura_ba3da.mp3",
+      "status": "downloaded",
+      "sha256": "bf7e8ccd8b9cf1f51193005f61027939c63cd1e6eccf4ef016eec0e01d993ee8",
+      "bytes": 740720,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/demo/iqaa/tabla/muhajjar.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/muhajjar/muhajjar.mp3",
+      "status": "downloaded",
+      "sha256": "9cac697c56229cadafda7f7b2b778c8dde592a68da8c58d11ca296a58d7c152b",
+      "bytes": 744011,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/muhajjar.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/iqaa/muhajjar/muhajjar-e46c8ed9.mp3",
+      "status": "downloaded",
+      "sha256": "4dd8dae29aa7e9c7e577ed00d01831da020eaf05ef44341ae68f393bd26c4664",
+      "bytes": 36570,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/iqaa/muhajjar.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/muhajjar/muhajjar.png",
+      "status": "downloaded",
+      "sha256": "6cecc64922205a6687a67a48e2dcf23f24d16c23d1d310923c4c85327a0bafa8",
+      "bytes": 16046,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/cd.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/muhajjar/cd.png",
+      "status": "downloaded",
+      "sha256": "1f52da76667703a00010a07afefc9d78b6c3ccb8359b906fc6fd6b0cddd0255f",
+      "bytes": 5478,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/tabla.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/muhajjar/tabla.png",
+      "status": "downloaded",
+      "sha256": "bc7d7630f1797012041feecf8f1a7bc6d926498a88661ab4f28451d50b6c8f30",
+      "bytes": 11602,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Iqa‘ Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Muwashah",
+      "url": "https://www.maqamworld.com/en/form/vocal_comp.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "3f0fcab959d198edaa770e0af351e3b043ae045e6320bed0ee13c2d74c5b5473",
+  "fetched_at": "2026-11-10T12:10:55.123685Z",
+  "status_code": 200,
+  "html_file": "data/raw/iqaa/muhajjar.html"
+}

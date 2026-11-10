@@ -1,0 +1,212 @@
+{
+  "url": "https://www.maqamworld.com/en/iqaa/nawakht.php",
+  "path": "/en/iqaa/nawakht.php",
+  "section": "iqaa",
+  "slug": "iqaa/nawakht",
+  "kind": "entry",
+  "title": "Iqa‘ Nawakht 7/4",
+  "subtitle": null,
+  "description": "Iqa‘ Nawakht",
+  "lang": "en",
+  "paragraphs": [
+    "Iqa‘ Nawakht is a very popular iqa‘ in the Muwashah repertoire, and tends to be played at mellow speed."
+  ],
+  "text": "Iqa‘ Nawakht 7/4 Iqa‘ Index Pronunciation of Nawakht Iqa‘ Nawakht is a very popular iqa‘ in the Muwashah repertoire, and tends to be played at mellow speed. Muwashah Ya Hilalan Abdel Halim Noueira Ensemble Muwashah Badru Timmin Haza Husnan Abdel Halim Noueira Ensemble Muwashah Qultu Lamma Ghaba ‘Anni Hasan al-Haffar Music by ‘Umar al-Batsh Muwashah Hati Ya Habibi Abdel Halim Noueira Ensemble Muwashah Ijma‘u bil-Qurbi Shamli Sabah Fakhri Muwashah Jalla Man Qad Sagha Badran Ensemble Morkos Muwashah Khala al-‘Idhar Vocals and Music by ‘Umar al-Batsh Iqa‘ Nawakht 7/4 Tabla demonstration by Faisal Zedan",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Muwashah Ya Hilalan",
+      "artist": "Abdel Halim Noueira Ensemble",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/nawakht/ya_hilalan.mp3",
+      "local_path": "data/media/iqaa/nawakht/ya_hilalan.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Muwashah Badru Timmin Haza Husnan",
+      "artist": "Abdel Halim Noueira Ensemble",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/nawakht/badru_timmin.mp3",
+      "local_path": "data/media/iqaa/nawakht/badru_timmin.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Muwashah Qultu Lamma Ghaba ‘Anni",
+      "artist": "Hasan al-Haffar",
+      "credits": [
+        "Music by ‘Umar al-Batsh"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/nawakht/qultu_lamma.mp3",
+      "local_path": "data/media/iqaa/nawakht/qultu_lamma.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Muwashah Hati Ya Habibi",
+      "artist": "Abdel Halim Noueira Ensemble",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/nawakht/hati_ya_habibi.mp3",
+      "local_path": "data/media/iqaa/nawakht/hati_ya_habibi.mp3"
+    },
+    {
+      "index": 5,
+      "title": "Muwashah Ijma‘u bil-Qurbi Shamli",
+      "artist": "Sabah Fakhri",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/nawakht/ijma3u_bil_qurbi.mp3",
+      "local_path": "data/media/iqaa/nawakht/ijma3u_bil_qurbi.mp3"
+    },
+    {
+      "index": 6,
+      "title": "Muwashah Jalla Man Qad Sagha Badran",
+      "artist": "Ensemble Morkos",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/nawakht/jalla_man_qad_sagha.mp3",
+      "local_path": "data/media/iqaa/nawakht/jalla_man_qad_sagha.mp3"
+    },
+    {
+      "index": 7,
+      "title": "Muwashah Khala al-‘Idhar",
+      "artist": "Vocals and Music by ‘Umar al-Batsh",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/nawakht/khala_al_idhar.mp3",
+      "local_path": "data/media/iqaa/nawakht/khala_al_idhar.mp3"
+    },
+    {
+      "index": 8,
+      "title": "Iqa‘ Nawakht 7/4",
+      "artist": "Tabla demonstration by Faisal Zedan",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/demo/iqaa/tabla/nawakht.mp3",
+      "local_path": "data/media/iqaa/nawakht/nawakht.mp3"
+    }
+  ],
+  "notes": [],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/nawakht/ya_hilalan.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/nawakht/ya_hilalan.mp3",
+      "status": "downloaded",
+      "sha256": "a4bffaae24eaf8f6fdcc6c2004355be98e42b69b6011131f1dcd0f9db6ca7910",
+      "bytes": 817173,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/nawakht/badru_timmin.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/nawakht/badru_timmin.mp3",
+      "status": "downloaded",
+      "sha256": "f67151013e884d52fd2cb7062f44607670c6f1d3a910ead4625dcefaf9396d85",
+      "bytes": 723593,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/nawakht/qultu_lamma.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/nawakht/qultu_lamma.mp3",
+      "status": "downloaded",
+      "sha256": "6c0cab07a74be4836b57edf1cabbc971290b579507823bae845040b34001f0a3",
+      "bytes": 2147680,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/nawakht/hati_ya_habibi.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/nawakht/hati_ya_habibi.mp3",
+      "status": "downloaded",
+      "sha256": "cf04076917981380f78088c08d7ee1b537ae7407e14ccc13816f23c48e1bb12f",
+      "bytes": 739463,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/nawakht/ijma3u_bil_qurbi.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/nawakht/ijma3u_bil_qurbi.mp3",
+      "status": "downloaded",
+      "sha256": "3e5e1e3b511e88781e57736c462de8de8a47bb5e694ca095d2fea2c48314bd4a",
+      "bytes": 1121432,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/nawakht/jalla_man_qad_sagha.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/nawakht/jalla_man_qad_sagha.mp3",
+      "status": "downloaded",
+      "sha256": "00f30f64e9f0d01d0e01bec456587541823a4cd23e742c11e37b73e81adf8037",
+      "bytes": 876487,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/nawakht/khala_al_idhar.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/nawakht/khala_al_idhar.mp3",
+      "status": "downloaded",
+      "sha256": "2e2b7838342cdb21740fb23cade184ee74020a39fb59d8b5d2f0d88232902000",
+      "bytes": 825988,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/demo/iqaa/tabla/nawakht.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/nawakht/nawakht.mp3",
+      "status": "downloaded",
+      "sha256": "76e66039787c70574cd51ed151bb9f07a85fb0c0a8a2f17f824479d77c0a40ed",
+      "bytes": 842649,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/nawakht.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/iqaa/nawakht/nawakht-e994509b.mp3",
+      "status": "downloaded",
+      "sha256": "b25a4ae44050b8aa623a2bedc506d63a34a6476b38e7d7760973507fac791af8",
+      "bytes": 35525,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/iqaa/nawakht.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/nawakht/nawakht.png",
+      "status": "downloaded",
+      "sha256": "566b452b6aa321d170377fd9a2843c741383ea72b91c872274b340746bdcdd7b",
+      "bytes": 10408,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/tabla.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/nawakht/tabla.png",
+      "status": "downloaded",
+      "sha256": "bc7d7630f1797012041feecf8f1a7bc6d926498a88661ab4f28451d50b6c8f30",
+      "bytes": 11602,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Iqa‘ Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Muwashah",
+      "url": "https://www.maqamworld.com/en/form/vocal_comp.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "9fce001ac4c7ac316ab2fcaa26e4a333f0d65d74dfff8e2740ce89f74d7ebb11",
+  "fetched_at": "2026-11-10T12:10:55.128494Z",
+  "status_code": 200,
+  "html_file": "data/raw/iqaa/nawakht.html"
+}

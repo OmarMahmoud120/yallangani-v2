@@ -1,0 +1,123 @@
+{
+  "url": "https://www.maqamworld.com/en/instr/piano.php",
+  "path": "/en/instr/piano.php",
+  "section": "instr",
+  "slug": "instr/piano",
+  "kind": "entry",
+  "title": "The Arabic Piano",
+  "subtitle": "A piano that plays Maqamat without harmony",
+  "description": "The Arabic Piano",
+  "lang": "en",
+  "paragraphs": [
+    "Although the piano was included in Arabic music since the early 20th century, it was used as a Western instrument to add a classical color to Arabic compositions (e.g. in \"al-Siba wal-Gamal\" by Muhammad Abdel Wahab, 1939). By Arabic Piano, however, we refer to a piano that's played melodically (without harmony) within the Arabic maqam framework.",
+    "The earliest Arabic piano pioneer was the Lebanese Wadih Sabra who played a piano endowed with additional notes (quartertones) during the Cairo Arabic Music Congress of 1932. Later, Lebanese Abdallah Chahine also altered a piano to play quartertones and recorded an album called \"al-Nagham al-Khalid\" with taqasim in the most common maqamat.",
+    "Toward the end of the 20th century, Lebanese musician and playwright Ziad Rahbani recorded many songs and instrumental compositions using an acoustic or electric piano (a Fender Rhodes) to play either maqam melodic lines, or harmony within a Jazz-fusion genre.",
+    "Explore other Arabized instruments:"
+  ],
+  "text": "The Arabic Piano A piano that plays Maqamat without harmony Instrument Index Lebanese pianist Ziad Rahbani, from a concert poster in the 1980s Although the piano was included in Arabic music since the early 20 th century, it was used as a Western instrument to add a classical color to Arabic compositions (e.g. in \"al-Siba wal-Gamal\" by Muhammad Abdel Wahab, 1939). By Arabic Piano, however, we refer to a piano that's played melodically (without harmony) within the Arabic maqam framework. The earliest Arabic piano pioneer was the Lebanese Wadih Sabra who played a piano endowed with additional notes (quartertones) during the Cairo Arabic Music Congress of 1932. Later, Lebanese Abdallah Chahine also altered a piano to play quartertones and recorded an album called \"al-Nagham al-Khalid\" with taqasim in the most common maqamat . Toward the end of the 20 th century, Lebanese musician and playwright Ziad Rahbani recorded many songs and instrumental compositions using an acoustic or electric piano (a Fender Rhodes) to play either maqam melodic lines, or harmony within a Jazz-fusion genre. Abdallah Chahine Lebanese pianist Abdallah Chahine playing a Piano Taqsim in Maqam Saba followed by the song Batit ‘Uyuni from his album \"Angham Min al-Sharq\". Ziad Rahbani Lebanese pianist Ziad Rahbani plays Arabic piano on his song Shu Hal-Iyyam from his CD Ana Mush Kafer , 1985. W'Qamh Ziad Rahbani's instrumental composition W'Qamh in Maqam Hijaz uses the Arabic piano in a Jazz fusion arrangement. From Fairouz's CD Mish Kayin Hayk Tkun , 1987. Explore other Arabized instruments: The Arabic Accordion The Electric Guitar The Arabic Org The Oriental Keyboard The Saxophone The Trumpet",
+  "tracks": [],
+  "notes": [],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/instr/piano.jpg",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/instr/piano/piano.jpg",
+      "status": "downloaded",
+      "sha256": "2c748989de319e307eb427bf6565b49bf67e5f900761d43d7519cca149315c2a",
+      "bytes": 30253,
+      "content_type": null
+    },
+    {
+      "url": "https://img.youtube.com/vi/3v9u-h4Vr5A/hqdefault.jpg",
+      "kind": "image",
+      "source": "content",
+      "local_path": null,
+      "status": "skipped_external",
+      "sha256": null,
+      "bytes": null,
+      "content_type": null
+    },
+    {
+      "url": "https://img.youtube.com/vi/rbzYUIPPk90/hqdefault.jpg",
+      "kind": "image",
+      "source": "content",
+      "local_path": null,
+      "status": "skipped_external",
+      "sha256": null,
+      "bytes": null,
+      "content_type": null
+    },
+    {
+      "url": "https://img.youtube.com/vi/BGsD1eZ-PVQ/hqdefault.jpg",
+      "kind": "image",
+      "source": "content",
+      "local_path": null,
+      "status": "skipped_external",
+      "sha256": null,
+      "bytes": null,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Maqamat",
+      "url": "https://www.maqamworld.com/en/maqam.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Instrument Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "taqasim",
+      "url": "https://www.maqamworld.com/en/form/improv.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Saba",
+      "url": "https://www.maqamworld.com/en/maqam/saba.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Hijaz",
+      "url": "https://www.maqamworld.com/en/maqam/hijaz.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Arabic Accordion",
+      "url": "https://www.maqamworld.com/en/instr/accordion.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Electric Guitar",
+      "url": "https://www.maqamworld.com/en/instr/guitar.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Arabic Org",
+      "url": "https://www.maqamworld.com/en/instr/org.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Oriental Keyboard",
+      "url": "https://www.maqamworld.com/en/instr/keyboard.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Saxophone",
+      "url": "https://www.maqamworld.com/en/instr/saxophone.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Trumpet",
+      "url": "https://www.maqamworld.com/en/instr/trumpet.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "951da12f51e3147770800e1e0aec25d6242aec1fec109709becec82e7cf0121b",
+  "fetched_at": "2026-11-10T12:10:55.189430Z",
+  "status_code": 200,
+  "html_file": "data/raw/instr/piano.html"
+}

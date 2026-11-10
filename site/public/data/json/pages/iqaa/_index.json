@@ -1,0 +1,253 @@
+{
+  "url": "https://www.maqamworld.com/en/iqaa.php",
+  "path": "/en/iqaa.php",
+  "section": "iqaa",
+  "slug": "iqaa/_index",
+  "kind": "index",
+  "title": "Arabic Rhythmic Cycles",
+  "subtitle": "The Iqa‘",
+  "description": "Arabic Music Rhythms Iqa‘ Iqa",
+  "lang": "en",
+  "paragraphs": [
+    "Arabic music is composed over rhythmic cycles called iqa‘at (singular iqa‘), which are patterns of beats that repeat every measure. A composition can switch back and forth between many different iqa‘at. Each iqa‘ is defined using a prototypal measure and the two basic sounds: dum (bassy and sustained) and tak (dry and sharp).",
+    "The notated iqa‘ is meant to be a skeleton or a prototype for how to perform it. In practice, percussionists ornament an iqa‘ (flesh it out) with additional beats: dum-s, tak-s and whatever other sounds the instrument is able to produce. That ornamentation depends a lot on the genre of Arabic music, the desired arrangement aesthetic, the instrument itself, the size of the rhythm section, and on the percussionist’s personal style.",
+    "Arabic iqa‘at come is many different time signatures, which can be even as well as odd. The smaller time signatures (2/4, 3/4, 4/4, 6/4 and 8/4) are mostly used in folk music, the tarab genre of the mid-twentieth century and contemporary popular music. Longer iqa‘at (7/8, 9/8, 10/8 all the way to 32/4) are mostly used in the traditional Muwashahat vocal genre.",
+    "You can start exploring a sample of Arabic iqa‘at using the Iqa‘ Index (sorted alphabetically) or using the table below (sorted by number of beats per measure):"
+  ],
+  "text": "Arabic Rhythmic Cycles The Iqa‘ Iqa‘ Index Pronunciation of Iqa‘/Iqa‘at Arabic music is composed over rhythmic cycles called iqa‘at (singular iqa‘ ), which are patterns of beats that repeat every measure. A composition can switch back and forth between many different iqa‘at. Each iqa‘ is defined using a prototypal measure and the two basic sounds: dum (bassy and sustained) and tak (dry and sharp). The notated iqa‘ is meant to be a skeleton or a prototype for how to perform it. In practice, percussionists ornament an iqa‘ (flesh it out) with additional beats: dum -s, tak -s and whatever other sounds the instrument is able to produce. That ornamentation depends a lot on the genre of Arabic music, the desired arrangement aesthetic, the instrument itself, the size of the rhythm section, and on the percussionist’s personal style. Arabic iqa‘at come is many different time signatures, which can be even as well as odd. The smaller time signatures (2/4, 3/4, 4/4, 6/4 and 8/4) are mostly used in folk music, the tarab genre of the mid-twentieth century and contemporary popular music. Longer iqa‘at (7/8, 9/8, 10/8 all the way to 32/4) are mostly used in the traditional Muwashahat vocal genre. You can start exploring a sample of Arabic iqa‘at using the Iqa‘ Index (sorted alphabetically) or using the table below (sorted by number of beats per measure): Ayyub 2/4 Malfuf 2/4 Fox 2/4 Karachi 2/4 Fallahi 2/4 Wahda Saghira 2/4 Sama`i Darij 3/4 Sama`i Saraband 3/8 Maqsum 4/4 Baladi 4/4 Sa‘idi 4/4 Wahda 4/4 Wahda w-Nuss 4/4 Rumba 4/4 Zaffa 4/4 Hacha` 4/4 Nawari 4/4 Thurayya 5/8 Sudasi 6/4 Yuruk Semai 6/8 Dawr Hindi 7/8 Nawakht 7/4 Masmudi Kabir 8/4 Ciftetelli 8/4 Wahda Kabira 8/4 Bambi 8/4 Katakufti 8/8 Aqsaq 9/8 Mudawwar Shami 10/4 Jurjina 10/8 Sama‘i Thaqil 10/8 `Awis 11/8 Mudawwar Masri 12/4 Dharafat 13/8 Murabba‘ 13/4 Muhajjar 14/4 Nawakht Hindi 16/4 Mukhammas 16/4 Khosh Rang 17/8 Awfar Masri 19/4 Fakhit 20/4 Sittatu ‘Ashar Masri 32/4 Warshan ‘Arabi 32/4",
+  "tracks": [],
+  "notes": [],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/name/iqaa.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/iqaa/_index/iqaa.mp3",
+      "status": "downloaded",
+      "sha256": "726f334053243de84385a17e7a82cf3dea81e39d24c42857a8065d1ab164a0b3",
+      "bytes": 91950,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Iqa‘ Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Ayyub 2/4",
+      "url": "https://www.maqamworld.com/en/iqaa/ayyub.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Malfuf 2/4",
+      "url": "https://www.maqamworld.com/en/iqaa/malfuf.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Fox 2/4",
+      "url": "https://www.maqamworld.com/en/iqaa/fox.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Karachi 2/4",
+      "url": "https://www.maqamworld.com/en/iqaa/karachi.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Fallahi 2/4",
+      "url": "https://www.maqamworld.com/en/iqaa/fallahi.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Wahda Saghira 2/4",
+      "url": "https://www.maqamworld.com/en/iqaa/wahda_saghira.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Sama`i Darij 3/4",
+      "url": "https://www.maqamworld.com/en/iqaa/samai_darij.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Sama`i Saraband 3/8",
+      "url": "https://www.maqamworld.com/en/iqaa/samai_saraband.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqsum 4/4",
+      "url": "https://www.maqamworld.com/en/iqaa/maqsum.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Baladi 4/4",
+      "url": "https://www.maqamworld.com/en/iqaa/baladi.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Sa‘idi 4/4",
+      "url": "https://www.maqamworld.com/en/iqaa/saidi.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Wahda 4/4",
+      "url": "https://www.maqamworld.com/en/iqaa/wahda.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Wahda w-Nuss 4/4",
+      "url": "https://www.maqamworld.com/en/iqaa/wahda_w_nuss.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Rumba 4/4",
+      "url": "https://www.maqamworld.com/en/iqaa/rumba.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Zaffa 4/4",
+      "url": "https://www.maqamworld.com/en/iqaa/zaffa.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Hacha` 4/4",
+      "url": "https://www.maqamworld.com/en/iqaa/hachaa.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Nawari 4/4",
+      "url": "https://www.maqamworld.com/en/iqaa/nawari.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Thurayya 5/8",
+      "url": "https://www.maqamworld.com/en/iqaa/thurayya.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Sudasi 6/4",
+      "url": "https://www.maqamworld.com/en/iqaa/sudasi.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Yuruk Semai 6/8",
+      "url": "https://www.maqamworld.com/en/iqaa/yuruk_semai.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Dawr Hindi 7/8",
+      "url": "https://www.maqamworld.com/en/iqaa/dawr_hindi.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Nawakht 7/4",
+      "url": "https://www.maqamworld.com/en/iqaa/nawakht.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Masmudi Kabir 8/4",
+      "url": "https://www.maqamworld.com/en/iqaa/masmudi_kabir.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Ciftetelli 8/4",
+      "url": "https://www.maqamworld.com/en/iqaa/ciftetelli.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Wahda Kabira 8/4",
+      "url": "https://www.maqamworld.com/en/iqaa/wahda_kabira.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Bambi 8/4",
+      "url": "https://www.maqamworld.com/en/iqaa/bambi.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Katakufti 8/8",
+      "url": "https://www.maqamworld.com/en/iqaa/katakufti.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Aqsaq 9/8",
+      "url": "https://www.maqamworld.com/en/iqaa/aqsaq.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Mudawwar Shami 10/4",
+      "url": "https://www.maqamworld.com/en/iqaa/mudawwar.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jurjina 10/8",
+      "url": "https://www.maqamworld.com/en/iqaa/jurjina.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Sama‘i Thaqil 10/8",
+      "url": "https://www.maqamworld.com/en/iqaa/samai_thaqil.php",
+      "kind": "internal"
+    },
+    {
+      "text": "`Awis 11/8",
+      "url": "https://www.maqamworld.com/en/iqaa/awis.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Dharafat 13/8",
+      "url": "https://www.maqamworld.com/en/iqaa/dharafat.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Murabba‘ 13/4",
+      "url": "https://www.maqamworld.com/en/iqaa/murabbaa.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Muhajjar 14/4",
+      "url": "https://www.maqamworld.com/en/iqaa/muhajjar.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Nawakht Hindi 16/4",
+      "url": "https://www.maqamworld.com/en/iqaa/nawakht_hindi.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Mukhammas 16/4",
+      "url": "https://www.maqamworld.com/en/iqaa/mukhammas.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Khosh Rang 17/8",
+      "url": "https://www.maqamworld.com/en/iqaa/khosh_rang.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Awfar Masri 19/4",
+      "url": "https://www.maqamworld.com/en/iqaa/awfar.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Fakhit 20/4",
+      "url": "https://www.maqamworld.com/en/iqaa/fakhit.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Sittatu ‘Ashar Masri 32/4",
+      "url": "https://www.maqamworld.com/en/iqaa/sittatu_ashar.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Warshan ‘Arabi 32/4",
+      "url": "https://www.maqamworld.com/en/iqaa/warshan_arabi.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "05b9cfe29e64c5c6abd7c6ac50eac2c716f7e4842654faa7816ff441bd8fabae",
+  "fetched_at": "2026-11-10T12:10:54.830782Z",
+  "status_code": 200,
+  "html_file": "data/raw/iqaa/_index.html"
+}

@@ -1,0 +1,159 @@
+{
+  "url": "https://www.maqamworld.com/en/iqaa/wahda.php",
+  "path": "/en/iqaa/wahda.php",
+  "section": "iqaa",
+  "slug": "iqaa/wahda",
+  "kind": "entry",
+  "title": "Iqa‘ Wahda 4/4",
+  "subtitle": null,
+  "description": "Iqa‘ Wahda",
+  "lang": "en",
+  "paragraphs": [
+    "Iqa‘ Wahda is the principal iqa‘ used in vocal phrases in the Tarab genre of the twentieth century. \"Wahda\" is Arabic for one, referring to the single dum per measure, which leaves a lot of room for the singer to ornament and gives them some control over speed."
+  ],
+  "text": "Iqa‘ Wahda 4/4 Iqa‘ Index Pronunciation of Wahda Iqa‘ Wahda is the principal iqa‘ used in vocal phrases in the Tarab genre of the twentieth century. \"Wahda\" is Arabic for one, referring to the single dum per measure, which leaves a lot of room for the singer to ornament and gives them some control over speed. Ba‘id ‘Annak (1965) Umm Kulthum Music by Baligh Hamdi (Egypt) Darit el-Ayyam (1970) Umm Kulthum Music by Muhammad Abdel Wahab (Egypt) Qari’at al-Fingan (1976) Abdel Halim Hafez Music by Muhammad al-Mugi Qasida Salu Qalbi (1946) Umm Kulthum Music by Riyad al-Sunbati Iqa‘ Wahda 4/4 Tabla demonstration by Faisal Zedan",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Ba‘id ‘Annak (1965)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Baligh Hamdi (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/wahda/ba3id_3annak.mp3",
+      "local_path": "data/media/iqaa/wahda/ba3id_3annak.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Darit el-Ayyam (1970)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Muhammad Abdel Wahab (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/wahda/darit_il_ayyam.mp3",
+      "local_path": "data/media/iqaa/wahda/darit_il_ayyam.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Qari’at al-Fingan (1976)",
+      "artist": "Abdel Halim Hafez",
+      "credits": [
+        "Music by Muhammad al-Mugi"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/wahda/qariat_al_fingan.mp3",
+      "local_path": "data/media/iqaa/wahda/qariat_al_fingan.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Qasida Salu Qalbi (1946)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Riyad al-Sunbati"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/wahda/salu_qalbi.mp3",
+      "local_path": "data/media/iqaa/wahda/salu_qalbi.mp3"
+    },
+    {
+      "index": 5,
+      "title": "Iqa‘ Wahda 4/4",
+      "artist": "Tabla demonstration by Faisal Zedan",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/demo/iqaa/tabla/wahda.mp3",
+      "local_path": "data/media/iqaa/wahda/wahda.mp3"
+    }
+  ],
+  "notes": [],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/wahda/ba3id_3annak.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/wahda/ba3id_3annak.mp3",
+      "status": "downloaded",
+      "sha256": "1587a6b92e8f893a7dab5508196bcb57fd701a9bc11bb1a856ad9de3a7e51a25",
+      "bytes": 497017,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/wahda/darit_il_ayyam.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/wahda/darit_il_ayyam.mp3",
+      "status": "downloaded",
+      "sha256": "0cb5db99f8f7b62304c7c70f7d704e12f5e8f7fd93ac9c307668df8b74f06701",
+      "bytes": 424425,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/wahda/qariat_al_fingan.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/wahda/qariat_al_fingan.mp3",
+      "status": "downloaded",
+      "sha256": "c9d133742d01e3e3baa576cc9eea9cb66854d2315487b30ab3f9239d4f368461",
+      "bytes": 648946,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/wahda/salu_qalbi.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/wahda/salu_qalbi.mp3",
+      "status": "downloaded",
+      "sha256": "1913f6d54702be6f03c83d8973b6b920de6aade137ae2b3d4fcd3aaa6ac9d867",
+      "bytes": 600022,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/demo/iqaa/tabla/wahda.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/wahda/wahda.mp3",
+      "status": "downloaded",
+      "sha256": "a88cb46a41f8f3c36adbdaec1830c4b0c4189bc071cf22b77c3bf29b1518f246",
+      "bytes": 770760,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/wahda.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/iqaa/wahda/wahda-43bb32f5.mp3",
+      "status": "downloaded",
+      "sha256": "e33b20c2adc37b420b9fc3a92adebaac881c6f0bed23f20ddabd6562e285ef8a",
+      "bytes": 28211,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/iqaa/wahda.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/wahda/wahda.png",
+      "status": "downloaded",
+      "sha256": "ea6971b01a4b951bb91a49bb8e372d359e1553db4cfdfa0e2f401b5495ad592e",
+      "bytes": 10713,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/tabla.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/wahda/tabla.png",
+      "status": "downloaded",
+      "sha256": "bc7d7630f1797012041feecf8f1a7bc6d926498a88661ab4f28451d50b6c8f30",
+      "bytes": 11602,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Iqa‘ Index",
+      "url": "#",
+      "kind": "anchor"
+    }
+  ],
+  "content_hash": "58e2341bd41baa52e51c185e7b48c03cce5ddf33c265ed473dfa37e745457a6b",
+  "fetched_at": "2026-11-10T12:10:55.144355Z",
+  "status_code": 200,
+  "html_file": "data/raw/iqaa/wahda.html"
+}

@@ -1,0 +1,116 @@
+{
+  "url": "https://www.maqamworld.com/en/maqam/f_rast.php",
+  "path": "/en/maqam/f_rast.php",
+  "section": "maqam",
+  "slug": "maqam/f_rast",
+  "kind": "family",
+  "title": "Maqam Rast Family",
+  "subtitle": "Maqamat that start with Jins Rast",
+  "description": "Maqam Rast Family",
+  "lang": "en",
+  "paragraphs": [
+    "Maqam Rast Family is made of maqamat that start with Jins Rast.",
+    "Other maqam families:"
+  ],
+  "text": "Maqam Rast Family Maqamat that start with Jins Rast Maqam Index Pronunciation of Rast Maqam Rast Family is made of maqamat that start with Jins Rast . Maqam Rast Maqam Kirdan Maqam Sazkar Maqam Suznak Maqam Nairuz Maqam Yakah Maqam Dalanshin Maqam Suzdalara Maqam Mahur Other maqam families: Maqam ‘Ajam Family Maqam Bayati Family Maqam Hijaz Family Maqam Kurd Family Maqam Nahawand Family Maqam Nikriz Family Maqam Sikah Family",
+  "tracks": [],
+  "notes": [],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/name/rast.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/maqam/f_rast/rast.mp3",
+      "status": "downloaded",
+      "sha256": "fb4bad20a02b404310a164f1221f90aa24039ca496553034ae6c07ffcd5a900e",
+      "bytes": 28211,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Jins Rast",
+      "url": "https://www.maqamworld.com/en/jins/rast.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Maqam Rast",
+      "url": "https://www.maqamworld.com/en/maqam/rast.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Kirdan",
+      "url": "https://www.maqamworld.com/en/maqam/kirdan.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Suznak",
+      "url": "https://www.maqamworld.com/en/maqam/suznak.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Nairuz",
+      "url": "https://www.maqamworld.com/en/maqam/nairuz.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Dalanshin",
+      "url": "https://www.maqamworld.com/en/maqam/dalanshin.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Suzdalara",
+      "url": "https://www.maqamworld.com/en/maqam/suzdalara.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Mahur",
+      "url": "https://www.maqamworld.com/en/maqam/mahur.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam ‘Ajam Family",
+      "url": "https://www.maqamworld.com/en/maqam/f_ajam.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Bayati Family",
+      "url": "https://www.maqamworld.com/en/maqam/f_bayati.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Hijaz Family",
+      "url": "https://www.maqamworld.com/en/maqam/f_hijaz.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Kurd Family",
+      "url": "https://www.maqamworld.com/en/maqam/f_kurd.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Nahawand Family",
+      "url": "https://www.maqamworld.com/en/maqam/f_nahawand.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Nikriz Family",
+      "url": "https://www.maqamworld.com/en/maqam/f_nikriz.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Sikah Family",
+      "url": "https://www.maqamworld.com/en/maqam/f_sikah.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "b9aa075d9de33930dd0dcbb3263471615dd6eddfbfc2e0e5ecab4f78e01a8a9c",
+  "fetched_at": "2026-11-10T12:10:55.036847Z",
+  "status_code": 200,
+  "html_file": "data/raw/maqam/f_rast.html"
+}

@@ -1,0 +1,240 @@
+{
+  "url": "https://www.maqamworld.com/en/maqam/nahawand_murassaa.php",
+  "path": "/en/maqam/nahawand_murassaa.php",
+  "section": "maqam",
+  "slug": "maqam/nahawand_murassaa",
+  "kind": "entry",
+  "title": "Maqam Nahawand Murassa‘",
+  "subtitle": "A member of the Maqam Nahawand Family",
+  "description": "Maqam Maqam Nahawand Murassa‘",
+  "lang": "en",
+  "paragraphs": [
+    "Click the notes and hold using the mouse to hear them play.",
+    "Maqam Nahawand Murassa‘ is is basically Maqam Nahawand with a lowered 5th scale degree. Its scale starts with Jins Nahawand Murassa‘ on the tonic, overlapped by Jins Hijaz on the 4th degree.",
+    "Explore other maqamat in the Maqam Nahawand Family.",
+    "Watch a 1-minute sample Violin Taqsim in Maqam Nahawand Murassa‘ by Sami Abu Shumays."
+  ],
+  "text": "Maqam Nahawand Murassa‘ A member of the Maqam Nahawand Family Maqam Index Pronunciation of Nahawand Murassa‘ Click the notes and hold using the mouse to hear them play. Maqam Nahawand Murassa‘ is is basically Maqam Nahawand with a lowered 5 th scale degree. Its scale starts with Jins Nahawand Murassa‘ on the tonic , overlapped by Jins Hijaz on the 4 th degree. Explore other maqamat in the Maqam Nahawand Family . Watch a 1-minute sample Violin Taqsim in Maqam Nahawand Murassa‘ by Sami Abu Shumays. Ya Gari (1958) Horeyya Hasan Music by Muhammad al-Mugi Khusara (1957) Abdel Halim Hafez Music by Baligh Hamdi (Egypt) Taht il-Shibbak ‘Aziz ‘Uthman Sama‘i Nahawand Simon Shaheen Music by Mesut Cemil Dulab Nahawand Aicha Redouane Egypte Dulab Nahawand Murassa‘ Zikrayat Ensemble Music by Sami Abu Shumays",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Ya Gari (1958)",
+      "artist": "Horeyya Hasan",
+      "credits": [
+        "Music by Muhammad al-Mugi"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/nahawand_murassaa/ya_gari.mp3",
+      "local_path": "data/media/maqam/nahawand_murassaa/ya_gari.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Khusara (1957)",
+      "artist": "Abdel Halim Hafez",
+      "credits": [
+        "Music by Baligh Hamdi (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/nahawand_murassaa/khusara.mp3",
+      "local_path": "data/media/maqam/nahawand_murassaa/khusara.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Taht il-Shibbak",
+      "artist": "‘Aziz ‘Uthman",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/nahawand_murassaa/taht_il_shibbak.mp3",
+      "local_path": "data/media/maqam/nahawand_murassaa/taht_il_shibbak.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Sama‘i Nahawand",
+      "artist": "Simon Shaheen",
+      "credits": [
+        "Music by Mesut Cemil"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/nahawand_murassaa/samai_mesut_cemil.mp3",
+      "local_path": "data/media/maqam/nahawand_murassaa/samai_mesut_cemil.mp3"
+    },
+    {
+      "index": 5,
+      "title": "Dulab Nahawand",
+      "artist": "Aicha Redouane",
+      "credits": [
+        "Egypte"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/nahawand_murassaa/dulab_redouane.mp3",
+      "local_path": "data/media/maqam/nahawand_murassaa/dulab_redouane.mp3"
+    },
+    {
+      "index": 6,
+      "title": "Dulab Nahawand Murassa‘",
+      "artist": "Zikrayat Ensemble",
+      "credits": [
+        "Music by Sami Abu Shumays"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/nahawand_murassaa/dulab_nahawand_murassa3.mp3",
+      "local_path": "data/media/maqam/nahawand_murassaa/dulab_nahawand_murassa3.mp3"
+    }
+  ],
+  "notes": [
+    {
+      "name": "C4",
+      "frequency": 260.74
+    },
+    {
+      "name": "D4",
+      "frequency": 293.33
+    },
+    {
+      "name": "E4♭",
+      "frequency": 308.25
+    },
+    {
+      "name": "F4",
+      "frequency": 347.65
+    },
+    {
+      "name": "G4♭",
+      "frequency": 368.0
+    },
+    {
+      "name": "A4♮",
+      "frequency": 437.0
+    },
+    {
+      "name": "B4♭",
+      "frequency": 463.54
+    },
+    {
+      "name": "C5",
+      "frequency": 521.48
+    }
+  ],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/nahawand_murassaa/ya_gari.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/nahawand_murassaa/ya_gari.mp3",
+      "status": "downloaded",
+      "sha256": "57452e6dbcfcdaba44dc19fb2a768972133ba82e89b00aa7bdf2d4f246dd0e98",
+      "bytes": 377892,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/nahawand_murassaa/khusara.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/nahawand_murassaa/khusara.mp3",
+      "status": "downloaded",
+      "sha256": "8b53591434ed3e6252a0d34f3b9380612f5e78995508fe8bb9093f381e353327",
+      "bytes": 1013009,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/nahawand_murassaa/taht_il_shibbak.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/nahawand_murassaa/taht_il_shibbak.mp3",
+      "status": "downloaded",
+      "sha256": "5aa437c29344b3ae74d182fd3e2209d0a45e8f5c6fdee9ce55a8b12cb6785423",
+      "bytes": 454122,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/nahawand_murassaa/samai_mesut_cemil.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/nahawand_murassaa/samai_mesut_cemil.mp3",
+      "status": "downloaded",
+      "sha256": "f68b4de47e3cfb3811b2871111dae051a77b072f1065fc1173119ff679387913",
+      "bytes": 99910,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/nahawand_murassaa/dulab_redouane.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/nahawand_murassaa/dulab_redouane.mp3",
+      "status": "downloaded",
+      "sha256": "1d7186ca04e4c3de7f2833c80ce77ec5a0b839c21ce0a0b8f341c0ece194bf64",
+      "bytes": 589854,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/nahawand_murassaa/dulab_nahawand_murassa3.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/nahawand_murassaa/dulab_nahawand_murassa3.mp3",
+      "status": "downloaded",
+      "sha256": "a1caec9ab94d77f6542b7c91449c6c8b46d8dc0beae795a34f70e88bb00d6bcf",
+      "bytes": 1399344,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/nahawand_murassaa.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/maqam/nahawand_murassaa/nahawand_murassaa.mp3",
+      "status": "downloaded",
+      "sha256": "afe9c0d4977a724f3643a8ae727fe05c16c02cdf847488f36b4d7676dbb58feb",
+      "bytes": 74186,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/maqam/nahawand_murassaa.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/maqam/nahawand_murassaa/nahawand_murassaa.png",
+      "status": "downloaded",
+      "sha256": "e0a713a3f032b7f70625737f69556281519f7a33ff4361b18c05a9de40ef7a1c",
+      "bytes": 15513,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/cd.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/maqam/nahawand_murassaa/cd.png",
+      "status": "downloaded",
+      "sha256": "1f52da76667703a00010a07afefc9d78b6c3ccb8359b906fc6fd6b0cddd0255f",
+      "bytes": 5478,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Maqam Nahawand Family",
+      "url": "https://www.maqamworld.com/en/maqam/f_nahawand.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Maqam Nahawand",
+      "url": "https://www.maqamworld.com/en/maqam/nahawand.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Nahawand Murassa‘",
+      "url": "https://www.maqamworld.com/en/jins/nahawand_murassaa.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Hijaz",
+      "url": "https://www.maqamworld.com/en/jins/hijaz.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Violin Taqsim in Maqam Nahawand Murassa‘",
+      "url": "https://www.instagram.com/p/B-PvkvAFH5u",
+      "kind": "external"
+    }
+  ],
+  "content_hash": "12b2bac96af448d2fe8804a11b318ebd8b782cc6b9e81e11f8f5739dd27d6bab",
+  "fetched_at": "2026-11-10T12:10:54.953838Z",
+  "status_code": 200,
+  "html_file": "data/raw/maqam/nahawand_murassaa.html"
+}

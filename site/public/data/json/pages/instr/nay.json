@@ -1,0 +1,117 @@
+{
+  "url": "https://www.maqamworld.com/en/instr/nay.php",
+  "path": "/en/instr/nay.php",
+  "section": "instr",
+  "slug": "instr/nay",
+  "kind": "entry",
+  "title": "The Nay",
+  "subtitle": "An end-blown Flute",
+  "description": "The Nay",
+  "lang": "en",
+  "paragraphs": [
+    "The Nay (Farsi for \"reed\") is an open-ended, obliquely end blown flute made of cane. They nay was known in the Near East since antiquity. It is nine-jointed, and usually has 6 holes in the front for the fingers to play and 1 hole underneath for the thumb. It is played with the pads of the fingers. Nays come in different lengths, each one being tuned to a specific pitch and named after the note produced with the 1st fingerhole open (D4 for the most commonly used nay; Lowest note: C4).",
+    "Although very simple, the nay is one of the most difficult Arabic instruments to play. A fine player can produce a large variety of liquid sounds and ornaments; it is an extremely soulful instrument. Its poetical timbre makes it especially suitable for melancholy effects expressing both joy and yearning. It is the only wind instrument used in Arab art music, widely appreciated for its warm, breathy sound and its subtle tonal and dynamic inflections.",
+    "Explore other traditional instruments:"
+  ],
+  "text": "The Nay An end-blown Flute Instrument Index A set of 7 Lebanese nayat made by Atif Wehbi. © MaqamWorld Pronunciation of Nay The Nay (Farsi for \"reed\") is an open-ended, obliquely end blown flute made of cane. They nay was known in the Near East since antiquity. It is nine-jointed, and usually has 6 holes in the front for the fingers to play and 1 hole underneath for the thumb. It is played with the pads of the fingers. Nays come in different lengths, each one being tuned to a specific pitch and named after the note produced with the 1st fingerhole open (D4 for the most commonly used nay; Lowest note: C4). Although very simple, the nay is one of the most difficult Arabic instruments to play. A fine player can produce a large variety of liquid sounds and ornaments; it is an extremely soulful instrument. Its poetical timbre makes it especially suitable for melancholy effects expressing both joy and yearning. It is the only wind instrument used in Arab art music, widely appreciated for its warm, breathy sound and its subtle tonal and dynamic inflections. Sayyed Salem Sayyed Salem (Egypt), a longtime member of the Umm Kulthum Orchestra (Egypt) in a Nay solo during her song Ba‘id ‘Annak (1965, music by Baligh Hamdi) Mahmud ‘Effat Veteran nay player and teacher, Mahmud ‘Effat (Egypt), a longtime member of the Diamond Orchestra in a Taqsim on the Nay in Maqam Saba Reda Bdeir Reda Bdeir (Egypt) playing the song Kulli Da Kan Leh (1954, music by Muhammad Abdel Wahab) Michael Ibrahim Michael Ibrahim (Syria), director of the National Arab Orchestra (USA) in a Taqsim on the Nay in Maqam Saba during a live performance by the NAO Explore other traditional instruments: The Oud The Qanun The Arabic Violin The Buzuq",
+  "tracks": [],
+  "notes": [],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/name/nay.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/instr/nay/nay.mp3",
+      "status": "downloaded",
+      "sha256": "79ddf05a89b3b4f812158450c00a12551cec265cf63ddcf3107835679c21f897",
+      "bytes": 14404,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/instr/nay.jpg",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/instr/nay/nay.jpg",
+      "status": "downloaded",
+      "sha256": "04ea04863951ad10edd7d17beba33dd9ad4fc4604c38b58a7588df5c82053494",
+      "bytes": 40506,
+      "content_type": null
+    },
+    {
+      "url": "https://img.youtube.com/vi/JhOs_1SodTA/hqdefault.jpg",
+      "kind": "image",
+      "source": "content",
+      "local_path": null,
+      "status": "skipped_external",
+      "sha256": null,
+      "bytes": null,
+      "content_type": null
+    },
+    {
+      "url": "https://img.youtube.com/vi/D2oBZADKIS4/hqdefault.jpg",
+      "kind": "image",
+      "source": "content",
+      "local_path": null,
+      "status": "skipped_external",
+      "sha256": null,
+      "bytes": null,
+      "content_type": null
+    },
+    {
+      "url": "https://img.youtube.com/vi/5OflJML1yF8/hqdefault.jpg",
+      "kind": "image",
+      "source": "content",
+      "local_path": null,
+      "status": "skipped_external",
+      "sha256": null,
+      "bytes": null,
+      "content_type": null
+    },
+    {
+      "url": "https://img.youtube.com/vi/CozVcLFpOeM/hqdefault.jpg",
+      "kind": "image",
+      "source": "content",
+      "local_path": null,
+      "status": "skipped_external",
+      "sha256": null,
+      "bytes": null,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Instrument Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Maqam Saba",
+      "url": "https://www.maqamworld.com/en/maqam/saba.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Oud",
+      "url": "https://www.maqamworld.com/en/instr/oud.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Qanun",
+      "url": "https://www.maqamworld.com/en/instr/qanun.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Arabic Violin",
+      "url": "https://www.maqamworld.com/en/instr/violin.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Buzuq",
+      "url": "https://www.maqamworld.com/en/instr/buzuq.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "875469010c9c2dd7b9f35f9d96850e160f54327f7bd047074e0400fe461ad3b3",
+  "fetched_at": "2026-11-10T12:10:55.185648Z",
+  "status_code": 200,
+  "html_file": "data/raw/instr/nay.html"
+}

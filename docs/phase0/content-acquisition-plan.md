@@ -704,8 +704,9 @@ Assumes rights triage and studio booking start immediately; full legal clearance
 3. **Inventory:** fill the 9 core rows; add aliases; note the 8 listed maqams without detail pages.
 4. **Playback contract:** locked at 5 items, DroneToggle, 15 masters/maqam, commissioned audio.
    Confirm the matched A/B contrast design and hand the DroneToggle spec to engineering.
-5. **Advisor kickoff:** approve the 3-maqam tuning table, 15-master inventory, phrase list, and
-   contrast core.
+5. **Advisor kickoff:** packet ready in `docs/phase0/pack1-tuning-worksheet.md` (v1.0, 2026-11-10).
+   Send §10 outreach; signature in §9 unblocks recording. Approve the 3-maqam tuning table,
+   15-master inventory, phrase list, and contrast core.
 6. **Audio:** send the brief; book two to three studio days for 45 maqam masters, 3 drones, and
    5 onboarding drills.
 7. **Copy:** draft ship-required onboarding and lesson copy; defer Library cards.
@@ -789,12 +790,14 @@ high_low,أي النغمتين أعلى؟,onboarding/on-01-high-low.m4a,"الأ�
 
 ## Appendix D — Proposed tuning table for the launch three
 
-Starting values from the content spec; the advisor must confirm or replace them before recording.
+**Superseded for Pack 1 by `docs/phase0/pack1-tuning-worksheet.md` v1.0 (2026-11-10).** That
+worksheet adds the jins arithmetic, the signature/register plan, and the advisor sign-off block.
+Values below are kept as the one-line summary; the worksheet wins if they differ.
 
 | Maqam (tonic) | Degree cents (1–8) | Lower jins | Upper jins | Note |
 | --- | --- | --- | --- | --- |
-| Rast (C4) | 0, 200, 350, 500, 700, 900, 1050, 1200 | Rast | TBC by advisor | Neutral third and seventh |
-| Hijaz (D4) | 0, 100, 400, 500, 700, 800, 1000, 1200 | Hijaz | Nahawand (spec example) | Augmented second between degrees 2–3 |
-| Nahawand (C4) | 0, 200, 300, 500, 700, 800, 1000, 1200 | Nahawand | TBC by advisor | Familiar minor; upper jins unresolved |
+| Rast (C4) | 0, 200, 350, 500, 700, 900, 1050, 1200 | Rast | Rast on the 5th | Neutral third and seventh; the site's Nahawand label has no cell in this scale |
+| Hijaz (C4) | 0, 100, 400, 500, 700, 800, 1000, 1200 | Hijaz | Nahawand on the 4th | Augmented second between degrees 2–3; equal C4 tonic with the other two for A/B |
+| Nahawand (C4) | 0, 200, 300, 500, 700, 800, 1000, 1200 | Nahawand | Kurd on the 5th | Familiar minor; Farahfaza is Nahawand on a G tonic, a separate entry |
 
 Sikah and Huzam remain out of Pack 1 until the advisor resolves their tuning and upper ajnas.

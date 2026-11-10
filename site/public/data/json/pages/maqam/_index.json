@@ -1,0 +1,115 @@
+{
+  "url": "https://www.maqamworld.com/en/maqam.php",
+  "path": "/en/maqam.php",
+  "section": "maqam",
+  "slug": "maqam/_index",
+  "kind": "index",
+  "title": "The Arabic Maqam",
+  "subtitle": "A system of scales, habitual melodic phrases, modulation possibilities, ornamentation norms, and aesthetic conventions",
+  "description": "Arabic Music Maqam Jins",
+  "lang": "en",
+  "paragraphs": [
+    "The Arabic Maqam (plural Maqamat) is a system of scales, habitual melodic phrases, modulation possibilities, ornamentation techniques and aesthetic conventions that together form a rich melodic framework and artistic tradition. The maqam's melodic course (in both composed or improvised music) within that framework is called sayr in Arabic.",
+    "Each maqam scale can be built by chaining together two (or in some cases, three) scale fragments or building blocks called a jins (pl. ajnas). The maqam gets its intervals, melodic behavior and overall mood from these constituent ajnas. The first jins always starts the maqam scale with its tonic at the 1st degree, and the second jins starts at the ghammaz (modulation point) of the first jins (usually its last note). If a third jins is used, its tonic coincides with the second jins’ ghammaz, and so on. The note immediately below the tonic is called the leading tone.",
+    "Traditionally, each maqam is based on a scale. The first note in the scale is called the tonic. Maqam scales are usually made of 7 notes that repeat at the octave, although a few maqam scales may extend beyond 8 notes. In addition, a few maqam scales do not achieve octave equivalence at the 8th note.",
+    "According to tradition, maqamat are classified into families based on sharing the same first (root) jins. The root jins plays the largest role in defining the maqam’s character. The most common maqam in the branch usually shares its name with the root jins. Remaining maqamat in the same family are called branch maqamat, and are based on the use of a different second (upper) jins.",
+    "You can start exploring maqamat by family, or one at a time, by using the Maqam Index.",
+    "A few Maqamat do not share their first jins with any others and are therefore not part of a family. These are:"
+  ],
+  "text": "The Arabic Maqam A system of scales, habitual melodic phrases, modulation possibilities, ornamentation norms, and aesthetic conventions Maqam Index Pronunciation of Maqam/Maqamat The Arabic Maqam (plural Maqamat) is a system of scales, habitual melodic phrases, modulation possibilities, ornamentation techniques and aesthetic conventions that together form a rich melodic framework and artistic tradition. The maqam 's melodic course (in both composed or improvised music) within that framework is called sayr in Arabic. Each maqam scale can be built by chaining together two (or in some cases, three) scale fragments or building blocks called a jins (pl. ajnas) . The maqam gets its intervals, melodic behavior and overall mood from these constituent ajnas . The first jins always starts the maqam scale with its tonic at the 1 st degree, and the second jins starts at the ghammaz (modulation point) of the first jins (usually its last note). If a third jins is used, its tonic coincides with the second jins ’ ghammaz , and so on. The note immediately below the tonic is called the leading tone . Traditionally, each maqam is based on a scale. The first note in the scale is called the tonic . Maqam scales are usually made of 7 notes that repeat at the octave, although a few maqam scales may extend beyond 8 notes. In addition, a few maqam scales do not achieve octave equivalence at the 8 th note. According to tradition, maqamat are classified into families based on sharing the same first (root) jins . The root jins plays the largest role in defining the maqam ’s character. The most common maqam in the branch usually shares its name with the root jins . Remaining maqamat in the same family are called branch maqamat , and are based on the use of a different second (upper) jins . You can start exploring maqamat by family, or one at a time, by using the Maqam Index. Maqam ‘Ajam Family Maqam Bayati Family Maqam Hijaz Family Maqam Kurd Family Maqam Nahawand Family Maqam Nikriz Family Maqam Rast Family Maqam Sikah Family A few Maqamat do not share their first jins with any others and are therefore not part of a family. These are: Maqam Jiharkah Maqam Lami Maqam Saba Maqam Saba Zamzam Maqam Sikah Baladi",
+  "tracks": [],
+  "notes": [],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/name/maqam.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/maqam/_index/maqam.mp3",
+      "status": "downloaded",
+      "sha256": "62be89e437a54a997242a4fefd6745ff43d893373525666080de80fa16fe6259",
+      "bytes": 88815,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Maqam Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "jins (pl. ajnas)",
+      "url": "https://www.maqamworld.com/en/jins.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam ‘Ajam Family",
+      "url": "https://www.maqamworld.com/en/maqam/f_ajam.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Bayati Family",
+      "url": "https://www.maqamworld.com/en/maqam/f_bayati.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Hijaz Family",
+      "url": "https://www.maqamworld.com/en/maqam/f_hijaz.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Kurd Family",
+      "url": "https://www.maqamworld.com/en/maqam/f_kurd.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Nahawand Family",
+      "url": "https://www.maqamworld.com/en/maqam/f_nahawand.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Nikriz Family",
+      "url": "https://www.maqamworld.com/en/maqam/f_nikriz.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Rast Family",
+      "url": "https://www.maqamworld.com/en/maqam/f_rast.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Sikah Family",
+      "url": "https://www.maqamworld.com/en/maqam/f_sikah.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Jiharkah",
+      "url": "https://www.maqamworld.com/en/maqam/jiharkah.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Lami",
+      "url": "https://www.maqamworld.com/en/maqam/lami.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Saba",
+      "url": "https://www.maqamworld.com/en/maqam/saba.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Saba Zamzam",
+      "url": "https://www.maqamworld.com/en/maqam/saba_zamzam.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Sikah Baladi",
+      "url": "https://www.maqamworld.com/en/maqam/sikah_baladi.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "afa4ba81e98cd60e0a2198b3a706ed722e34c2d2904a607ab4c5b59e820576a7",
+  "fetched_at": "2026-11-10T12:10:54.826706Z",
+  "status_code": 200,
+  "html_file": "data/raw/maqam/_index.html"
+}

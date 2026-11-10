@@ -25,27 +25,14 @@ OUT_DIR = ROOT / "app" / "src" / "main" / "assets" / "content" / "audio"
 MAQAMAT = {
     "alhijaz": [0, 1, 4, 5, 7, 8, 11],
     "alnahawand": [0, 2, 3, 5, 7, 8, 10],
-    "alkurd": [0, 1, 3, 5, 7, 8, 10],
-    "alsaba": [0, 1, 3, 4, 6, 8, 10],
-    "albayati": [0, 1, 3, 5, 7, 8, 10],
     "alrast": [0, 2, 4, 5, 7, 9, 11],
-    "alsika": [0, 1, 4, 5, 7, 8, 10],
-    "alajam": [0, 2, 4, 5, 7, 9, 11],
-    "alhuzam": [0, 1, 3, 4, 6, 8, 10],
-    "albanjkah": [0, 2, 3, 6, 7, 9, 11],
 }
 
+# Only Pack 1 phrases are bundled. The third column keeps the original key lift.
 TRACKS = [
     ("01-alhijaz", "alhijaz", 1),
     ("02-alnahawand", "alnahawand", 2),
-    ("03-alkurd", "alkurd", 3),
-    ("04-alsaba", "alsaba", 4),
-    ("05-albayati", "albayati", 5),
     ("06-alrast", "alrast", 6),
-    ("07-alsika", "alsika", 7),
-    ("08-alajam", "alajam", 8),
-    ("09-alhuzam", "alhuzam", 9),
-    ("10-albanjkah", "albanjkah", 10),
 ]
 
 
@@ -122,8 +109,8 @@ def write_wav(path: Path, samples: list[float]) -> None:
 def main() -> None:
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     with tempfile.TemporaryDirectory() as tmp:
-        for track_index, (name, maqam, _level) in enumerate(TRACKS, start=1):
-            samples = make_melody(track_index, MAQAMAT[maqam])
+        for name, maqam, level in TRACKS:
+            samples = make_melody(level, MAQAMAT[maqam])
             wav_path = Path(tmp) / f"{name}.wav"
             write_wav(wav_path, samples)
             mp3_path = OUT_DIR / f"{name}.mp3"

@@ -1,0 +1,227 @@
+{
+  "url": "https://www.maqamworld.com/en/jins/kurd.php",
+  "path": "/en/jins/kurd.php",
+  "section": "jins",
+  "slug": "jins/kurd",
+  "kind": "entry",
+  "title": "Jins Kurd",
+  "subtitle": "Root jins of the Maqam Kurd Family",
+  "description": "Jins Kurd",
+  "lang": "en",
+  "paragraphs": [
+    "Click the notes and hold using the mouse to hear them play.",
+    "Jins Kurd is a 4-note jins. It is notated here with its tonic on D and its ghammaz on G. Jins Kurd is the first jins in Maqam Kurd."
+  ],
+  "text": "Jins Kurd Root jins of the Maqam Kurd Family Jins Index Pronunciation of Kurd Click the notes and hold using the mouse to hear them play. Jins Kurd is a 4-note jins . It is notated here with its tonic on D and its ghammaz on G. Jins Kurd is the first jins in Maqam Kurd . ‘Awwidti ‘Eini (1957) Umm Kulthum Music by Riyad al-Sunbati Hayyarti Albi Ma‘ak (1961) Umm Kulthum Music by Riyad al-Sunbati Muwashah Hibbi Zurni Ma Tayassar Karem Mahmud Music by Darwish al-Hariri Inta ‘Omri (1964) Umm Kulthum Music by Muhammad Abdel Wahab (Egypt) Mashghul ‘Aleik Vocals and Music by Karem Mahmoud Muwashah Ya Bahjet el-Rouh Sabah Fakhri Ya Zalimni (1951) Umm Kulthum Music by Riyad al-Sunbati",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "‘Awwidti ‘Eini (1957)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Riyad al-Sunbati"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/kurd/3awwidti_3eini.mp3",
+      "local_path": "data/media/jins/kurd/3awwidti_3eini.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Hayyarti Albi Ma‘ak (1961)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Riyad al-Sunbati"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/kurd/hayyarti_albi_intro.mp3",
+      "local_path": "data/media/jins/kurd/hayyarti_albi_intro.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Muwashah Hibbi Zurni Ma Tayassar",
+      "artist": "Karem Mahmud",
+      "credits": [
+        "Music by Darwish al-Hariri"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/kurd/hibbi_zurni.mp3",
+      "local_path": "data/media/jins/kurd/hibbi_zurni.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Inta ‘Omri (1964)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Muhammad Abdel Wahab (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/kurd/inta_omri.mp3",
+      "local_path": "data/media/jins/kurd/inta_omri.mp3"
+    },
+    {
+      "index": 5,
+      "title": "Mashghul ‘Aleik",
+      "artist": "Vocals and Music by Karem Mahmoud",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/jins/kurd/mshghoul.mp3",
+      "local_path": "data/media/jins/kurd/mshghoul.mp3"
+    },
+    {
+      "index": 6,
+      "title": "Muwashah Ya Bahjet el-Rouh",
+      "artist": "Sabah Fakhri",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/jins/kurd/ya_bahjet_el_rouh.mp3",
+      "local_path": "data/media/jins/kurd/ya_bahjet_el_rouh.mp3"
+    },
+    {
+      "index": 7,
+      "title": "Ya Zalimni (1951)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Riyad al-Sunbati"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/kurd/ya_zalimni.mp3",
+      "local_path": "data/media/jins/kurd/ya_zalimni.mp3"
+    }
+  ],
+  "notes": [
+    {
+      "name": "C4",
+      "frequency": 260.74
+    },
+    {
+      "name": "D4",
+      "frequency": 293.33
+    },
+    {
+      "name": "E4♭",
+      "frequency": 308.25
+    },
+    {
+      "name": "F4♮",
+      "frequency": 347.65
+    },
+    {
+      "name": "G4",
+      "frequency": 391.11
+    },
+    {
+      "name": "A4",
+      "frequency": 440.0
+    },
+    {
+      "name": "B4♭",
+      "frequency": 463.54
+    }
+  ],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/jins/kurd/3awwidti_3eini.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/kurd/3awwidti_3eini.mp3",
+      "status": "downloaded",
+      "sha256": "aebf8cf37746344bd5de7d718937ff4c2ec65d703557a7f7f4f2b43a2817a17d",
+      "bytes": 1134645,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/kurd/hayyarti_albi_intro.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/kurd/hayyarti_albi_intro.mp3",
+      "status": "downloaded",
+      "sha256": "75c1f0ddba8a30885c323f55341e12f62f7f6f9b9b00c87798cd26c16f2ffa63",
+      "bytes": 739250,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/kurd/hibbi_zurni.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/kurd/hibbi_zurni.mp3",
+      "status": "downloaded",
+      "sha256": "e5f74ee9f328235b8c77f01a78c0247621777a9915527f9d8bd7ee005e78645d",
+      "bytes": 362028,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/kurd/inta_omri.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/kurd/inta_omri.mp3",
+      "status": "downloaded",
+      "sha256": "02aa254d9430cc418f6a83bd403e537b3bea1e20557a2a84a3ab76d9a4f449d2",
+      "bytes": 1304722,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/kurd/mshghoul.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/kurd/mshghoul.mp3",
+      "status": "downloaded",
+      "sha256": "c5c72278e0010b66c8c4f4ac0ff99d5d7f88eb6598f744eeb1e0e8b5b53228e5",
+      "bytes": 855162,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/kurd/ya_bahjet_el_rouh.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/kurd/ya_bahjet_el_rouh.mp3",
+      "status": "downloaded",
+      "sha256": "f1e200cdb5cd4d1b261a80cb72a1e6c8bb3e1e9243c31f993bd50006868dd05e",
+      "bytes": 578384,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/kurd/ya_zalimni.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/kurd/ya_zalimni.mp3",
+      "status": "downloaded",
+      "sha256": "e5826932e338f318aa26654fd3c99461ed4835e7b1e20f921e6afbc7eb33da36",
+      "bytes": 847651,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/kurd.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/jins/kurd/kurd.mp3",
+      "status": "downloaded",
+      "sha256": "b8e69abc44c9d47ba1fce3aaf392f921160861863c6011831e9bc8cb219777a4",
+      "bytes": 22986,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/jins/kurd.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/jins/kurd/kurd.png",
+      "status": "downloaded",
+      "sha256": "60494d0de8b852a5bcf8480fd2c90d7bab277dcd641db17691bbded705d2bc9a",
+      "bytes": 7985,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Maqam Kurd Family",
+      "url": "https://www.maqamworld.com/en/maqam/f_kurd.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Maqam Kurd",
+      "url": "https://www.maqamworld.com/en/maqam/kurd.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "816968c81a3acb4205e16ddd2021b2e1fda1932933d46853f07376976e0220c0",
+  "fetched_at": "2026-11-10T12:10:55.059893Z",
+  "status_code": 200,
+  "html_file": "data/raw/jins/kurd.html"
+}

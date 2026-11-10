@@ -1,0 +1,200 @@
+{
+  "url": "https://www.maqamworld.com/en/maqam/mustaar.php",
+  "path": "/en/maqam/mustaar.php",
+  "section": "maqam",
+  "slug": "maqam/mustaar",
+  "kind": "entry",
+  "title": "Maqam Musta‘ar",
+  "subtitle": "A member of the Maqam Sikah Family",
+  "description": "Maqam Musta‘ar",
+  "lang": "en",
+  "paragraphs": [
+    "Click the notes and hold using the mouse to hear them play.",
+    "Maqam Musta‘ar is extremely rare as an independent maqam, but more common as a jins, or as a partial sayr within Maqam Huzam and Maqam Sikah. Its scale starts with Jins Musta‘ar on the tonic, followed by Jins Nahawand on the 3rd degree, and Jins Rast on the 6th degree.",
+    "Explore other maqamat in the Maqam Sikah Family.",
+    "Watch a 1-minute sample Violin Taqsim in Maqam Musta‘ar by Sami Abu Shumays."
+  ],
+  "text": "Maqam Musta‘ar A member of the Maqam Sikah Family Maqam Index Pronunciation of Musta‘ar Click the notes and hold using the mouse to hear them play. Maqam Musta‘ar is extremely rare as an independent maqam, but more common as a jins, or as a partial sayr within Maqam Huzam and Maqam Sikah . Its scale starts with Jins Musta‘ar on the tonic , followed by Jins Nahawand on the 3 rd degree, and Jins Rast on the 6 th degree. Explore other maqamat in the Maqam Sikah Family . Watch a 1-minute sample Violin Taqsim in Maqam Musta‘ar by Sami Abu Shumays. Aktiblak Gawabat Leila Mourad Music by Muhammad al-Mugi Haramuha Minni Fathiyya Ahmad Music by Muhammad al-Qasabgi (Egypt) Raqq el-Habib (1944) Umm Kulthum Music by Muhammad al-Qasabgi (Egypt) Qasida Ya ‘Adhili La Talumni (1924) Sheikh Abu el-‘Ila Muhammad",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Aktiblak Gawabat",
+      "artist": "Leila Mourad",
+      "credits": [
+        "Music by Muhammad al-Mugi"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/mustaar/aktiblak_gawabat.mp3",
+      "local_path": "data/media/maqam/mustaar/aktiblak_gawabat.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Haramuha Minni",
+      "artist": "Fathiyya Ahmad",
+      "credits": [
+        "Music by Muhammad al-Qasabgi (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/mustaar/haramuha_minni.mp3",
+      "local_path": "data/media/maqam/mustaar/haramuha_minni.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Raqq el-Habib (1944)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Muhammad al-Qasabgi (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/mustaar/raqq_el_habib.mp3",
+      "local_path": "data/media/maqam/mustaar/raqq_el_habib.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Qasida Ya ‘Adhili La Talumni (1924)",
+      "artist": "Sheikh Abu el-‘Ila Muhammad",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/mustaar/ya_3adhili_la_talumni.mp3",
+      "local_path": "data/media/maqam/mustaar/ya_3adhili_la_talumni.mp3"
+    }
+  ],
+  "notes": [
+    {
+      "name": "E4",
+      "frequency": 320.0
+    },
+    {
+      "name": "F4♯",
+      "frequency": 375.0
+    },
+    {
+      "name": "G4",
+      "frequency": 391.11
+    },
+    {
+      "name": "A4♮",
+      "frequency": 440.0
+    },
+    {
+      "name": "B4♭",
+      "frequency": 463.54
+    },
+    {
+      "name": "C5",
+      "frequency": 521.48
+    },
+    {
+      "name": "D5",
+      "frequency": 586.66
+    },
+    {
+      "name": "E5",
+      "frequency": 640.0
+    }
+  ],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/mustaar/aktiblak_gawabat.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/mustaar/aktiblak_gawabat.mp3",
+      "status": "downloaded",
+      "sha256": "c2900bd60cedfd2ea5fcedbf87255b22f79dfaa167c03167a26d51037eef687e",
+      "bytes": 695141,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/mustaar/haramuha_minni.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/mustaar/haramuha_minni.mp3",
+      "status": "downloaded",
+      "sha256": "f565dc35ba233851499c963d23b856b1eda74031e17e751dd9880f986b7c24f9",
+      "bytes": 1091383,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/mustaar/raqq_el_habib.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/mustaar/raqq_el_habib.mp3",
+      "status": "downloaded",
+      "sha256": "8d3fb0e0dc8aed8ac3b5a038331722550019c065c513823846a7df3363030f99",
+      "bytes": 898211,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/mustaar/ya_3adhili_la_talumni.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/mustaar/ya_3adhili_la_talumni.mp3",
+      "status": "downloaded",
+      "sha256": "a5cb8136910436692c6d4dafaa90583c310ed33b41bb7d2c5b8714bd514a6426",
+      "bytes": 929656,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/mustaar.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/maqam/mustaar/mustaar.mp3",
+      "status": "downloaded",
+      "sha256": "f7447e1f03f2ecb387e404d25a55dc7549d3509f50555045e811142f2d346a8f",
+      "bytes": 36570,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/maqam/mustaar.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/maqam/mustaar/mustaar.png",
+      "status": "downloaded",
+      "sha256": "60d24d3687455ce0baee688ea22821a4d1241259270bc8d14cf1ff13675b2444",
+      "bytes": 16294,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Maqam Sikah Family",
+      "url": "https://www.maqamworld.com/en/maqam/f_sikah.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Maqam Huzam",
+      "url": "https://www.maqamworld.com/en/maqam/huzam.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Sikah",
+      "url": "https://www.maqamworld.com/en/maqam/sikah.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Musta‘ar",
+      "url": "https://www.maqamworld.com/en/jins/mustaar.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Nahawand",
+      "url": "https://www.maqamworld.com/en/jins/nahawand.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Rast",
+      "url": "https://www.maqamworld.com/en/jins/rast.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Violin Taqsim in Maqam Musta‘ar",
+      "url": "https://www.instagram.com/p/B-4xCFQlknL",
+      "kind": "external"
+    }
+  ],
+  "content_hash": "35b07e5d94586bc75741cfdbc05b9b1aa012f99a9cd4a5036c1a18b4aa7ae26e",
+  "fetched_at": "2026-11-10T12:10:54.951704Z",
+  "status_code": 200,
+  "html_file": "data/raw/maqam/mustaar.html"
+}

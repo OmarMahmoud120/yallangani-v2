@@ -1,0 +1,154 @@
+{
+  "url": "https://www.maqamworld.com/en/instr/oud.php",
+  "path": "/en/instr/oud.php",
+  "section": "instr",
+  "slug": "instr/oud",
+  "kind": "entry",
+  "title": "The Oud (‘Ud)",
+  "subtitle": "A Fretless Lute",
+  "description": "The Oud",
+  "lang": "en",
+  "paragraphs": [
+    "The Oud (also spelled ‘Ud) is one of the most popular instruments in Arabic music. Its name means \"a thin strip of wood\" in Arabic, and this refers to the strips of wood used in making its pear-shaped body. The neck of the oud is short in comparison to its body and has no frets. This allows the oud to achieve excellent intonation and makes it ideal for performing the Arabic maqamat.",
+    "The oud usually has 5 pairs of strings tuned in unison and a single bass string, although some ouds have one extra pair. The most common tuning (low to high) is C, F, A, D, G, C, which makes all intervals (except F to A) perfect fourths. Strings were historically made of animal gut, and were plucked with a plectrum known as risha (Arabic for feather). Modern strings are made of steel wound over nylon, and modern risha-s are made of plastic, tortoise shell, animal horn or even bamboo.",
+    "The oud has a warm timbre and a wide tonal range (about 3 octaves), and can convey the melody and rhythm equally well because it is percussive. This makes is perfectly suited to accompany a singer. It is also the composers' favorite instrument for writing a new melody. Oud taqasim are also very popular in live concerts as well as recordings.",
+    "The Arabic oud is broadly the same instrument that exists in many other countries in the region (e.g. Turkey, Greece, Iran) with minor differences in dimensions, style and timbre. The European \"lute\" is a descendant of the oud, from which it takes its name (al-oud).",
+    "Explore other traditional instruments:"
+  ],
+  "text": "The Oud (‘Ud) A Fretless Lute Instrument Index Syrian oud made by Nahat Brothers (right) and Iraqi oud made by Muhammad Fadil (left). © 2018 MaqamWorld Pronunciation of Oud The Oud (also spelled ‘Ud) is one of the most popular instruments in Arabic music. Its name means \"a thin strip of wood\" in Arabic, and this refers to the strips of wood used in making its pear-shaped body. The neck of the oud is short in comparison to its body and has no frets. This allows the oud to achieve excellent intonation and makes it ideal for performing the Arabic maqamat . The oud usually has 5 pairs of strings tuned in unison and a single bass string, although some ouds have one extra pair. The most common tuning (low to high) is C, F, A, D, G, C, which makes all intervals (except F to A) perfect fourths. Strings were historically made of animal gut, and were plucked with a plectrum known as risha (Arabic for feather). Modern strings are made of steel wound over nylon, and modern risha -s are made of plastic, tortoise shell, animal horn or even bamboo. The oud has a warm timbre and a wide tonal range (about 3 octaves), and can convey the melody and rhythm equally well because it is percussive. This makes is perfectly suited to accompany a singer. It is also the composers' favorite instrument for writing a new melody. Oud taqasim are also very popular in live concerts as well as recordings. The Arabic oud is broadly the same instrument that exists in many other countries in the region (e.g. Turkey, Greece, Iran) with minor differences in dimensions, style and timbre. The European \"lute\" is a descendant of the oud, from which it takes its name (al-oud). Muhammad al-Qasabgi Egyptian oud virtuoso and composer Muhammad al-Qasabgi playing some Taqasim in Maqam Rast . (Recorded at the Arabic Music Conservatory, Cairo, 1955) Farid al-Atrash Syrian oud virtuoso Farid al-Atrash (also known as the \"King of Oud\") playing a very famous Oud Taqsim in Maqam Bayati preceding his composition \"al-Rabi‘\" (1949) Simon Shaheen Palestinian oud player Simon Shaheen plays an in Maqam Hijaz , recorded at the Metropolitan Museum in New York, 1987 George Michel Egyptian oud player George Michel playing an Oud Taqsim in Maqam Nahawand ‘Amer ‘Ammouri Syrian oud player ‘Amer ‘Ammouri playing an Oud Taqsim in Maqam Bayati , as part of Sabah Fakhri's orchestra (recorded at the Cairo Opera House) Explore other traditional instruments: The Nay The Qanun The Arabic Violin The Buzuq",
+  "tracks": [],
+  "notes": [],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/name/oud.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/instr/oud/oud.mp3",
+      "status": "downloaded",
+      "sha256": "4a1d707a57523e01facdf6fbff4066cb84600ec25ed341a6804d9b76d1877dbb",
+      "bytes": 15082,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/instr/oud.jpg",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/instr/oud/oud.jpg",
+      "status": "downloaded",
+      "sha256": "46209cde3761975d5e771449c860be5667ca86e4ccd74417df1c54f9558f3e11",
+      "bytes": 269738,
+      "content_type": null
+    },
+    {
+      "url": "https://img.youtube.com/vi/dDrVYyoMi-4/hqdefault.jpg",
+      "kind": "image",
+      "source": "content",
+      "local_path": null,
+      "status": "skipped_external",
+      "sha256": null,
+      "bytes": null,
+      "content_type": null
+    },
+    {
+      "url": "https://img.youtube.com/vi/zGoY5QYLnYs/hqdefault.jpg",
+      "kind": "image",
+      "source": "content",
+      "local_path": null,
+      "status": "skipped_external",
+      "sha256": null,
+      "bytes": null,
+      "content_type": null
+    },
+    {
+      "url": "https://img.youtube.com/vi/OCmheJ929fo/hqdefault.jpg",
+      "kind": "image",
+      "source": "content",
+      "local_path": null,
+      "status": "skipped_external",
+      "sha256": null,
+      "bytes": null,
+      "content_type": null
+    },
+    {
+      "url": "https://img.youtube.com/vi/Jf3WeItCpXA/hqdefault.jpg",
+      "kind": "image",
+      "source": "content",
+      "local_path": null,
+      "status": "skipped_external",
+      "sha256": null,
+      "bytes": null,
+      "content_type": null
+    },
+    {
+      "url": "https://img.youtube.com/vi/7iB4JFYArFg/hqdefault.jpg",
+      "kind": "image",
+      "source": "content",
+      "local_path": null,
+      "status": "skipped_external",
+      "sha256": null,
+      "bytes": null,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Instrument Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "maqamat",
+      "url": "https://www.maqamworld.com/en/maqam.php",
+      "kind": "internal"
+    },
+    {
+      "text": "taqasim",
+      "url": "https://www.maqamworld.com/en/form/improv.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Rast",
+      "url": "https://www.maqamworld.com/en/maqam/rast.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Bayati",
+      "url": "https://www.maqamworld.com/en/maqam/bayati.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Hijaz",
+      "url": "https://www.maqamworld.com/en/maqam/hijaz.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Nahawand",
+      "url": "https://www.maqamworld.com/en/maqam/nahawand.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Nay",
+      "url": "https://www.maqamworld.com/en/instr/nay.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Qanun",
+      "url": "https://www.maqamworld.com/en/instr/qanun.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Arabic Violin",
+      "url": "https://www.maqamworld.com/en/instr/violin.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Buzuq",
+      "url": "https://www.maqamworld.com/en/instr/buzuq.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "629d695d279682b07a78984d4ffb0c6bfbde4fa31a20edef7e650837375f15d7",
+  "fetched_at": "2026-11-10T12:10:55.188274Z",
+  "status_code": 200,
+  "html_file": "data/raw/instr/oud.html"
+}

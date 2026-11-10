@@ -1,0 +1,162 @@
+{
+  "url": "https://www.maqamworld.com/en/maqam/awj_iraq.php",
+  "path": "/en/maqam/awj_iraq.php",
+  "section": "maqam",
+  "slug": "maqam/awj_iraq",
+  "kind": "entry",
+  "title": "Maqam Awj ‘Iraq",
+  "subtitle": "A member of the Maqam Sikah Family",
+  "description": "Maqam Awj ‘Iraq",
+  "lang": "en",
+  "paragraphs": [
+    "Click the notes and hold using the mouse to hear them play.",
+    "Maqam Awj ‘Iraq is a version of Maqam Rahat al-Arwah/Maqam Huzam and Maqam ‘Iraq whose sayr starts at the octave tonic and descends to the tonic – though it shares most of the same ajnas as Maqam Huzam.",
+    "The Maqam Awj ‘Iraq scale starts with the root Jins Sikah on the tonic, then Jins Hijaz on the 3rd degree followed by another Jins Sikah on the 8th degree.",
+    "Explore other maqamat in the Maqam Sikah Family.",
+    "Watch a 1-minute sample Violin Taqsim in Maqam Awj ‘Iraq by Sami Abu Shumays."
+  ],
+  "text": "Maqam Awj ‘Iraq A member of the Maqam Sikah Family Maqam Index Pronunciation of Awj ‘Iraq Click the notes and hold using the mouse to hear them play. Maqam Awj ‘Iraq is a version of Maqam Rahat al-Arwah/Maqam Huzam and Maqam ‘Iraq whose sayr starts at the octave tonic and descends to the tonic – though it shares most of the same ajnas as Maqam Huzam . The Maqam Awj ‘Iraq scale starts with the root Jins Sikah on the tonic , then Jins Hijaz on the 3 rd degree followed by another Jins Sikah on the 8 th degree. Explore other maqamat in the Maqam Sikah Family . Watch a 1-minute sample Violin Taqsim in Maqam Awj ‘Iraq by Sami Abu Shumays. Muwashah Ya Samiri Da‘a Sabri Muhammad Khayri Muwashah Hayya Wa Nadim Samer Nashar",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Muwashah Ya Samiri Da‘a Sabri",
+      "artist": "Muhammad Khayri",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/awj_iraq/ya_samiri_da3a_sabri.mp3",
+      "local_path": "data/media/maqam/awj_iraq/ya_samiri_da3a_sabri.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Muwashah Hayya Wa Nadim",
+      "artist": "Samer Nashar",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/awj_iraq/hayya_wa_nadim.mp3",
+      "local_path": "data/media/maqam/awj_iraq/hayya_wa_nadim.mp3"
+    }
+  ],
+  "notes": [
+    {
+      "name": "D5",
+      "frequency": 586.66
+    },
+    {
+      "name": "C5",
+      "frequency": 521.48
+    },
+    {
+      "name": "B4",
+      "frequency": 482.0
+    },
+    {
+      "name": "A4♯",
+      "frequency": 463.54
+    },
+    {
+      "name": "G4",
+      "frequency": 391.11
+    },
+    {
+      "name": "F4♯",
+      "frequency": 372.0
+    },
+    {
+      "name": "E4♭",
+      "frequency": 312.0
+    },
+    {
+      "name": "D4",
+      "frequency": 293.33
+    },
+    {
+      "name": "C4",
+      "frequency": 260.74
+    },
+    {
+      "name": "B3",
+      "frequency": 241.0
+    }
+  ],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/awj_iraq/ya_samiri_da3a_sabri.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/awj_iraq/ya_samiri_da3a_sabri.mp3",
+      "status": "downloaded",
+      "sha256": "c4291bdc348656a7781634c3378f9eb22eabc0e0e487084b7823184136081f3a",
+      "bytes": 1502888,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/awj_iraq/hayya_wa_nadim.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/awj_iraq/hayya_wa_nadim.mp3",
+      "status": "downloaded",
+      "sha256": "4705c336f0e1a1f458a326ef736489ba7a149b7ff48b44d7f4daf34da0f1675d",
+      "bytes": 724111,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/awj_iraq.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/maqam/awj_iraq/awj_iraq.mp3",
+      "status": "downloaded",
+      "sha256": "c4393b929b600cdfdc9778922ee40b0a38bb4fc5c5f14c1d3e91e8c6f08d8e0a",
+      "bytes": 51199,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/maqam/awj_iraq.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/maqam/awj_iraq/awj_iraq.png",
+      "status": "downloaded",
+      "sha256": "1418095d2077ebb243a4259305506cad437c0a74c2ed0f0eadf0a4ca4fa3b8de",
+      "bytes": 16940,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Maqam Sikah Family",
+      "url": "https://www.maqamworld.com/en/maqam/f_sikah.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Maqam Rahat al-Arwah/Maqam Huzam",
+      "url": "https://www.maqamworld.com/en/maqam/huzam.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam ‘Iraq",
+      "url": "https://www.maqamworld.com/en/maqam/iraq.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Sikah",
+      "url": "https://www.maqamworld.com/en/jins/sikah.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Hijaz",
+      "url": "https://www.maqamworld.com/en/jins/hijaz.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Violin Taqsim in Maqam Awj ‘Iraq",
+      "url": "https://www.instagram.com/p/B-9wixJlwfl/",
+      "kind": "external"
+    }
+  ],
+  "content_hash": "78583691380ca9a66fc469f1e23f3d7a136a389b2b7e97343b071d715c5693f9",
+  "fetched_at": "2026-11-10T12:10:54.844786Z",
+  "status_code": 200,
+  "html_file": "data/raw/maqam/awj_iraq.html"
+}

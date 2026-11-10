@@ -1,0 +1,152 @@
+{
+  "url": "https://www.maqamworld.com/en/iqaa/sittatu_ashar.php",
+  "path": "/en/iqaa/sittatu_ashar.php",
+  "section": "iqaa",
+  "slug": "iqaa/sittatu_ashar",
+  "kind": "entry",
+  "title": "Iqa‘ Sittatu ‘Ashar Masri 32/4",
+  "subtitle": null,
+  "description": "Iqa‘ Sittatu ‘Ashar Masri",
+  "lang": "en",
+  "paragraphs": [
+    "Iqa‘ Sittatu ‘Ashar Masri (\"sittatu ‘ashar\" means sixteen, \"masri\" means Egyptian) is a rare iqa‘ mostly used in the Muwashah vocal genre. It spans 8 measures of 4/4, bringing its time signature to 32/4."
+  ],
+  "text": "Iqa‘ Sittatu ‘Ashar Masri 32/4 Iqa‘ Index Pronunciation of Sittatu ‘Ashar Masri Iqa‘ Sittatu ‘Ashar Masri (\"sittatu ‘ashar\" means sixteen, \"masri\" means Egyptian) is a rare iqa‘ mostly used in the Muwashah vocal genre. It spans 8 measures of 4/4, bringing its time signature to 32/4. Muwashah Badat Min al-Khidri (khana) Ensemble Al-Kindi Les Croisades Sous Le Regard De l'Orient Part I - Maqam Bayati Muwashah Badat Min al-Khidri (khana) Ghada Shbeir Muwashahat Muwashah Badat Min al-Khidri (khana) Louis Hage and Aida Chalhoub Iqa‘ Sittatu ‘Ashar Masri 32/4 Tabla demonstration by Faisal Zedan",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Muwashah Badat Min al-Khidri (khana)",
+      "artist": "Ensemble Al-Kindi",
+      "credits": [
+        "Les Croisades Sous Le Regard De l'Orient Part I - Maqam Bayati"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/sittatu_ashar/badat_alkindi.mp3",
+      "local_path": "data/media/iqaa/sittatu_ashar/badat_alkindi.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Muwashah Badat Min al-Khidri (khana)",
+      "artist": "Ghada Shbeir",
+      "credits": [
+        "Muwashahat"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/sittatu_ashar/badat_ghada.mp3",
+      "local_path": "data/media/iqaa/sittatu_ashar/badat_ghada.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Muwashah Badat Min al-Khidri (khana)",
+      "artist": "Louis Hage and Aida Chalhoub",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/sittatu_ashar/badat_kaslik.mp3",
+      "local_path": "data/media/iqaa/sittatu_ashar/badat_kaslik.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Iqa‘ Sittatu ‘Ashar Masri 32/4",
+      "artist": "Tabla demonstration by Faisal Zedan",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/demo/iqaa/tabla/sittatu_ashar_masari.mp3",
+      "local_path": "data/media/iqaa/sittatu_ashar/sittatu_ashar_masari.mp3"
+    }
+  ],
+  "notes": [],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/sittatu_ashar/badat_alkindi.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/sittatu_ashar/badat_alkindi.mp3",
+      "status": "downloaded",
+      "sha256": "2f158ae47efd527d1d1a86c1f7ea0955945b04a5710d71fdc3c451d82ded3395",
+      "bytes": 1179938,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/sittatu_ashar/badat_ghada.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/sittatu_ashar/badat_ghada.mp3",
+      "status": "downloaded",
+      "sha256": "25900bc412dec883bf9f9cadc5a19b31523625a625b2eb7bd524277d459dbee1",
+      "bytes": 712728,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/sittatu_ashar/badat_kaslik.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/sittatu_ashar/badat_kaslik.mp3",
+      "status": "downloaded",
+      "sha256": "8f16096b54960e721086399a5607078a21e2bea3641079723d9c35f312195386",
+      "bytes": 786278,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/demo/iqaa/tabla/sittatu_ashar_masari.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/sittatu_ashar/sittatu_ashar_masari.mp3",
+      "status": "downloaded",
+      "sha256": "3b1c6c05ffb30f9159ac77b26fdeea0f93e61f937ab0f9f7163a2a463bfd7e62",
+      "bytes": 1216723,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/sittatu_ashar.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/iqaa/sittatu_ashar/sittatu_ashar.mp3",
+      "status": "downloaded",
+      "sha256": "f68b81d6a8be278cda5cabf6b88c23914d520f9d47d69c2cb0698c80e62b9b26",
+      "bytes": 63737,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/iqaa/sittatu_ashar.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/sittatu_ashar/sittatu_ashar.png",
+      "status": "downloaded",
+      "sha256": "3ea2de3b4d454e348e7c02b83f29fd9ca76de28d51fb53889cdb5123749d51c8",
+      "bytes": 30127,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/cd.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/sittatu_ashar/cd.png",
+      "status": "downloaded",
+      "sha256": "1f52da76667703a00010a07afefc9d78b6c3ccb8359b906fc6fd6b0cddd0255f",
+      "bytes": 5478,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/tabla.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/sittatu_ashar/tabla.png",
+      "status": "downloaded",
+      "sha256": "bc7d7630f1797012041feecf8f1a7bc6d926498a88661ab4f28451d50b6c8f30",
+      "bytes": 11602,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Iqa‘ Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Muwashah",
+      "url": "https://www.maqamworld.com/en/form/vocal_comp.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "c3a20a690a4af7a198e0aab8fedcc257e8ca3723474b9f39689a48806501e100",
+  "fetched_at": "2026-11-10T12:10:55.140224Z",
+  "status_code": 200,
+  "html_file": "data/raw/iqaa/sittatu_ashar.html"
+}

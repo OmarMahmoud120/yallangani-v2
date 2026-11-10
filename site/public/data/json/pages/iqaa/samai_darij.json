@@ -1,0 +1,140 @@
+{
+  "url": "https://www.maqamworld.com/en/iqaa/samai_darij.php",
+  "path": "/en/iqaa/samai_darij.php",
+  "section": "iqaa",
+  "slug": "iqaa/samai_darij",
+  "kind": "entry",
+  "title": "Iqa‘ Sama‘i Darij 3/4",
+  "subtitle": null,
+  "description": "Iqa‘ Sama‘i Darij",
+  "lang": "en",
+  "paragraphs": [
+    "Iqa‘ Sama‘i Darij (also called Darij, for short) is a general 3/4 iqa‘ used both in vocal and instrumental genre. Iqa‘ Sama‘i Darij is also the principal iqa‘ used in the Darij instrumental composed form."
+  ],
+  "text": "Iqa‘ Sama‘i Darij 3/4 Iqa‘ Index Pronunciation of Sama‘i Darij Iqa‘ Sama‘i Darij (also called Darij, for short) is a general 3/4 iqa‘ used both in vocal and instrumental genre. Iqa‘ Sama‘i Darij is also the principal iqa‘ used in the Darij instrumental composed form. Muwashah Kallili Ya Suhbu Abdel Halim Noueira Ensemble Music by Muhammad ‘Uthman Muwashah Ya Ghusna Naqa Sabah Fakhri Muwashah Ya Man La`ibat Bihi Shamulu Al-Turath Ensemble Iqa‘ Sama‘i Darij 3/4 Tabla demonstration by Faisal Zedan",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Muwashah Kallili Ya Suhbu",
+      "artist": "Abdel Halim Noueira Ensemble",
+      "credits": [
+        "Music by Muhammad ‘Uthman"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/samai_darij/kallili_ya_suhbu.mp3",
+      "local_path": "data/media/iqaa/samai_darij/kallili_ya_suhbu.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Muwashah Ya Ghusna Naqa",
+      "artist": "Sabah Fakhri",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/samai_darij/ya_ghusna_naqa.mp3",
+      "local_path": "data/media/iqaa/samai_darij/ya_ghusna_naqa.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Muwashah Ya Man La`ibat Bihi Shamulu",
+      "artist": "Al-Turath Ensemble",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/samai_darij/ya_man_la3ibat.mp3",
+      "local_path": "data/media/iqaa/samai_darij/ya_man_la3ibat.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Iqa‘ Sama‘i Darij 3/4",
+      "artist": "Tabla demonstration by Faisal Zedan",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/demo/iqaa/tabla/samai_darij.mp3",
+      "local_path": "data/media/iqaa/samai_darij/samai_darij.mp3"
+    }
+  ],
+  "notes": [],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/samai_darij/kallili_ya_suhbu.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/samai_darij/kallili_ya_suhbu.mp3",
+      "status": "downloaded",
+      "sha256": "62f4681619d1148b1468816dfc00a8eaa22086bdb55b34df070ccff323db0b1a",
+      "bytes": 843955,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/samai_darij/ya_ghusna_naqa.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/samai_darij/ya_ghusna_naqa.mp3",
+      "status": "downloaded",
+      "sha256": "eaab3a42a9eaa8e50e55649dd691d28145c7396cb60e4a6a3814e37eca10f721",
+      "bytes": 708427,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/samai_darij/ya_man_la3ibat.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/samai_darij/ya_man_la3ibat.mp3",
+      "status": "downloaded",
+      "sha256": "912bcf0f778d2b24d27e4934f1e22092ea4a23e7203fe8fe590172d16929d81b",
+      "bytes": 810972,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/demo/iqaa/tabla/samai_darij.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/samai_darij/samai_darij.mp3",
+      "status": "downloaded",
+      "sha256": "52f5873674e867a1b636a9f848d0e6549ee6a001989523e8fae27df3f509a6d2",
+      "bytes": 703469,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/samai_darij.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/iqaa/samai_darij/samai_darij-14991af2.mp3",
+      "status": "downloaded",
+      "sha256": "7d93983c773131a4d85e1d1828292882ea6113bb5e1035c48bc7f2f55c8a1ad3",
+      "bytes": 56423,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/iqaa/samai_darij.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/samai_darij/samai_darij.png",
+      "status": "downloaded",
+      "sha256": "088dd9b290515092d07e9f7c49bebf4e9679306287cd2dbf2defe1143ed667ad",
+      "bytes": 6472,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/tabla.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/samai_darij/tabla.png",
+      "status": "downloaded",
+      "sha256": "bc7d7630f1797012041feecf8f1a7bc6d926498a88661ab4f28451d50b6c8f30",
+      "bytes": 11602,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Iqa‘ Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Darij",
+      "url": "https://www.maqamworld.com/en/form/instr_comp.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "f706917bc1cc885d882fc872830e834303ea951fe9164430061f5a3db9936a76",
+  "fetched_at": "2026-11-10T12:10:55.135732Z",
+  "status_code": 200,
+  "html_file": "data/raw/iqaa/samai_darij.html"
+}

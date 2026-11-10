@@ -1,0 +1,189 @@
+{
+  "url": "https://www.maqamworld.com/en/jins/saba_zamzam.php",
+  "path": "/en/jins/saba_zamzam.php",
+  "section": "jins",
+  "slug": "jins/saba_zamzam",
+  "kind": "entry",
+  "title": "Jins Saba Zamzam",
+  "subtitle": "(ambiguous size)",
+  "description": "Jins Saba Zamzam",
+  "lang": "en",
+  "paragraphs": [
+    "Click the notes and hold using the mouse to hear them play.",
+    "Jins Saba Zamzam (like Jins Saba) has an ambiguous size. It is notated here with its tonic on D and two ghammaz possibilities: the 3rd degree (notated on F) or the 6th degree (notated on B♭). Jins Saba Zamzam is the first jins in Maqam Saba Zamzam."
+  ],
+  "text": "Jins Saba Zamzam (ambiguous size) Jins Index Pronunciation of Saba Zamzam Click the notes and hold using the mouse to hear them play. Jins Saba Zamzam (like Jins Saba ) has an ambiguous size. It is notated here with its tonic on D and two ghammaz possibilities: the 3 rd degree (notated on F) or the 6 th degree (notated on B♭). Jins Saba Zamzam is the first jins in Maqam Saba Zamzam . ‘Ala Hisb Widad Albi (1953) Abdel Halim Hafez Music by Baligh Hamdi (Egypt) Gana el-Hawa (1969) Abdel Halim Hafez Music by Baligh Hamdi (Egypt) Zayy el-Hawa (1970) Abdel Halim Hafez Music by Baligh Hamdi (Egypt) Nibtidi Mnein el-Hikaya (1975) Abdel Halim Hafez Music by Muhammad Abdel Wahab (Egypt) Ya Bint el-Sultan Vocals by Ahmed Adaweya",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "‘Ala Hisb Widad Albi (1953)",
+      "artist": "Abdel Halim Hafez",
+      "credits": [
+        "Music by Baligh Hamdi (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/saba_zamzam/3ala_hesb_widad.mp3",
+      "local_path": "data/media/jins/saba_zamzam/3ala_hesb_widad.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Gana el-Hawa (1969)",
+      "artist": "Abdel Halim Hafez",
+      "credits": [
+        "Music by Baligh Hamdi (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/saba_zamzam/gana.mp3",
+      "local_path": "data/media/jins/saba_zamzam/gana.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Zayy el-Hawa (1970)",
+      "artist": "Abdel Halim Hafez",
+      "credits": [
+        "Music by Baligh Hamdi (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/saba_zamzam/zayy_el_hawa.mp3",
+      "local_path": "data/media/jins/saba_zamzam/zayy_el_hawa.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Nibtidi Mnein el-Hikaya (1975)",
+      "artist": "Abdel Halim Hafez",
+      "credits": [
+        "Music by Muhammad Abdel Wahab (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/saba_zamzam/nibtidi.mp3",
+      "local_path": "data/media/jins/saba_zamzam/nibtidi.mp3"
+    },
+    {
+      "index": 5,
+      "title": "Ya Bint el-Sultan",
+      "artist": "Vocals by Ahmed Adaweya",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/jins/saba_zamzam/ya_bint_el_sultan.mp3",
+      "local_path": "data/media/jins/saba_zamzam/ya_bint_el_sultan.mp3"
+    }
+  ],
+  "notes": [
+    {
+      "name": "C4",
+      "frequency": 260.74
+    },
+    {
+      "name": "D4",
+      "frequency": 293.33
+    },
+    {
+      "name": "E4♭",
+      "frequency": 308.25
+    },
+    {
+      "name": "F4",
+      "frequency": 347.65
+    },
+    {
+      "name": "G4♭",
+      "frequency": 368.0
+    },
+    {
+      "name": "A4♮",
+      "frequency": 437.0
+    },
+    {
+      "name": "B4♭",
+      "frequency": 463.54
+    }
+  ],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/jins/saba_zamzam/3ala_hesb_widad.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/saba_zamzam/3ala_hesb_widad.mp3",
+      "status": "downloaded",
+      "sha256": "2c277d7227cc38b2f5eea9e1b8f841e890087e8e9e7420d4e900ed52bbc60223",
+      "bytes": 134139,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/saba_zamzam/gana.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/saba_zamzam/gana.mp3",
+      "status": "downloaded",
+      "sha256": "f66a7fc6c88cb46e7a36acd7ffc0ba692db81337f8585f45e54cb06690199af8",
+      "bytes": 246418,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/saba_zamzam/zayy_el_hawa.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/saba_zamzam/zayy_el_hawa.mp3",
+      "status": "downloaded",
+      "sha256": "e5245965a36961fd2fb15599ebde8a78ddd5d37d390d8ee9a15b6b5b679c250a",
+      "bytes": 133835,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/saba_zamzam/nibtidi.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/saba_zamzam/nibtidi.mp3",
+      "status": "downloaded",
+      "sha256": "490678ddbfaa17dc272991e95070a1b26483318ea1dd8a807b7443b305d3b74d",
+      "bytes": 785707,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/saba_zamzam/ya_bint_el_sultan.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/saba_zamzam/ya_bint_el_sultan.mp3",
+      "status": "downloaded",
+      "sha256": "949befd28243c8615471e9db73c8664fedb35b307a27a5079996a14289f8c157",
+      "bytes": 826663,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/saba_zamzam.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/jins/saba_zamzam/saba_zamzam.mp3",
+      "status": "downloaded",
+      "sha256": "519426ccb61b8b55cf01c1edd668e3dc7d32780ba0bfec66525e03b89f24fbf3",
+      "bytes": 47019,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/jins/saba_zamzam.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/jins/saba_zamzam/saba_zamzam.png",
+      "status": "downloaded",
+      "sha256": "a578efd58dbd3ad4f946486d536df3d174357df72c55f1d66e5ba8b642598050",
+      "bytes": 10194,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Jins Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Jins Saba",
+      "url": "https://www.maqamworld.com/en/jins/saba.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Saba Zamzam",
+      "url": "https://www.maqamworld.com/en/maqam/saba_zamzam.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "588777bca267cf0410b44c341f026fbfcb34f69142167ee2799a468c6c4aca99",
+  "fetched_at": "2026-11-10T12:10:55.080317Z",
+  "status_code": 200,
+  "html_file": "data/raw/jins/saba_zamzam.html"
+}

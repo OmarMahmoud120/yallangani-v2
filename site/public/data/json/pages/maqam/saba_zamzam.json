@@ -1,0 +1,204 @@
+{
+  "url": "https://www.maqamworld.com/en/maqam/saba_zamzam.php",
+  "path": "/en/maqam/saba_zamzam.php",
+  "section": "maqam",
+  "slug": "maqam/saba_zamzam",
+  "kind": "entry",
+  "title": "Maqam Saba Zamzam",
+  "subtitle": "(not part of a maqam family)",
+  "description": "Maqam Saba Zamzam",
+  "lang": "en",
+  "paragraphs": [
+    "Click the notes and hold using the mouse to hear them play.",
+    "Maqam Saba Zamzam is a rare maqam in the Arabic repertory. Its scale starts with Jins Saba Zamzam on the tonic, overlapped by Jins Hijaz on the 3rd degree, followed by either Jins ‘Ajam or Jins Nikriz on the 6th degree.",
+    "Maqam Saba Zamzam is not part of a maqam family.",
+    "Watch a 1-minute sample Violin Taqsim in Maqam Saba Zamzam by Sami Abu Shumays."
+  ],
+  "text": "Maqam Saba Zamzam (not part of a maqam family) Maqam Index Pronunciation of Saba Zamzam Click the notes and hold using the mouse to hear them play. Maqam Saba Zamzam is a rare maqam in the Arabic repertory. Its scale starts with Jins Saba Zamzam on the tonic , overlapped by Jins Hijaz on the 3 rd degree, followed by either Jins ‘Ajam or Jins Nikriz on the 6 th degree. Maqam Saba Zamzam is not part of a maqam family. Watch a 1-minute sample Violin Taqsim in Maqam Saba Zamzam by Sami Abu Shumays. Sawwah (1966) Abdel Halim Hafez Music by Baligh Hamdi (Egypt) Amal Hayati (1965) Umm Kulthum Music by Muhammad Abdel Wahab (Egypt) ‘Ala Hisb Widad Galbi (1963) Abdel Halim Hafez Music by Baligh Hamdi (Egypt) Ya Bint el-Sultan Ahmad ‘Adaweyah Music by Hassan Abu al-Su‘ud",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Sawwah (1966)",
+      "artist": "Abdel Halim Hafez",
+      "credits": [
+        "Music by Baligh Hamdi (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/saba_zamzam/sawwah.mp3",
+      "local_path": "data/media/maqam/saba_zamzam/sawwah.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Amal Hayati (1965)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Muhammad Abdel Wahab (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/saba_zamzam/amal_hayati.mp3",
+      "local_path": "data/media/maqam/saba_zamzam/amal_hayati.mp3"
+    },
+    {
+      "index": 3,
+      "title": "‘Ala Hisb Widad Galbi (1963)",
+      "artist": "Abdel Halim Hafez",
+      "credits": [
+        "Music by Baligh Hamdi (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/saba_zamzam/3ala_hesb_widad.mp3",
+      "local_path": "data/media/maqam/saba_zamzam/3ala_hesb_widad.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Ya Bint el-Sultan",
+      "artist": "Ahmad ‘Adaweyah",
+      "credits": [
+        "Music by Hassan Abu al-Su‘ud"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/saba_zamzam/ya_bint_el_sultan.mp3",
+      "local_path": "data/media/maqam/saba_zamzam/ya_bint_el_sultan.mp3"
+    }
+  ],
+  "notes": [
+    {
+      "name": "D4",
+      "frequency": 293.33
+    },
+    {
+      "name": "E4♭",
+      "frequency": 308.25
+    },
+    {
+      "name": "F4",
+      "frequency": 347.65
+    },
+    {
+      "name": "G4♭",
+      "frequency": 368.0
+    },
+    {
+      "name": "A4♮",
+      "frequency": 437.0
+    },
+    {
+      "name": "B4♭",
+      "frequency": 463.54
+    },
+    {
+      "name": "C5",
+      "frequency": 521.48
+    },
+    {
+      "name": "D5♭",
+      "frequency": 548.0
+    },
+    {
+      "name": "D5♮",
+      "frequency": 586.66
+    },
+    {
+      "name": "E5♮",
+      "frequency": 660.0
+    },
+    {
+      "name": "F5",
+      "frequency": 695.31
+    }
+  ],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/saba_zamzam/sawwah.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/saba_zamzam/sawwah.mp3",
+      "status": "downloaded",
+      "sha256": "52f9f357d0b24b22cc8f184b25d603fe47d4e094b3581607dead5ef6e7f8c5a7",
+      "bytes": 254470,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/saba_zamzam/amal_hayati.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/saba_zamzam/amal_hayati.mp3",
+      "status": "downloaded",
+      "sha256": "7cb4171d6011c76d9f1594fbf69a8878c20ab8f82df09cd00cc47561ac354537",
+      "bytes": 615886,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/saba_zamzam/3ala_hesb_widad.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/saba_zamzam/3ala_hesb_widad.mp3",
+      "status": "downloaded",
+      "sha256": "3f5ca4af26e0a710c35d0dfe49ad70965c9fc30c1c0ca4d05c46b80355b8dc9c",
+      "bytes": 378351,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/saba_zamzam/ya_bint_el_sultan.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/saba_zamzam/ya_bint_el_sultan.mp3",
+      "status": "downloaded",
+      "sha256": "46f71d946e318d697851a1ae481bc2d14fad16b577821c94ecc00fb69b73f789",
+      "bytes": 826663,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/saba_zamzam.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/maqam/saba_zamzam/saba_zamzam.mp3",
+      "status": "downloaded",
+      "sha256": "519426ccb61b8b55cf01c1edd668e3dc7d32780ba0bfec66525e03b89f24fbf3",
+      "bytes": 47019,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/maqam/saba_zamzam.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/maqam/saba_zamzam/saba_zamzam.png",
+      "status": "downloaded",
+      "sha256": "6765578567eeaf24985b641934d6bf6ba67c5c85bed6acd5aa29ba3ce8b5b1d1",
+      "bytes": 21037,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Maqam Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Jins Saba Zamzam",
+      "url": "https://www.maqamworld.com/en/jins/saba_zamzam.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Hijaz",
+      "url": "https://www.maqamworld.com/en/jins/hijaz.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins ‘Ajam",
+      "url": "https://www.maqamworld.com/en/jins/ajam.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Nikriz",
+      "url": "https://www.maqamworld.com/en/jins/nikriz.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Violin Taqsim in Maqam Saba Zamzam",
+      "url": "https://www.instagram.com/p/B-2KCzgFLq1",
+      "kind": "external"
+    }
+  ],
+  "content_hash": "ab3742b03571f33d1edd489b4c8e0700cc16943c38897ef8f9e83c71e98f5f9c",
+  "fetched_at": "2026-11-10T12:10:54.990052Z",
+  "status_code": 200,
+  "html_file": "data/raw/maqam/saba_zamzam.html"
+}

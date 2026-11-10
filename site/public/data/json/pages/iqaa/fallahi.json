@@ -1,0 +1,142 @@
+{
+  "url": "https://www.maqamworld.com/en/iqaa/fallahi.php",
+  "path": "/en/iqaa/fallahi.php",
+  "section": "iqaa",
+  "slug": "iqaa/fallahi",
+  "kind": "entry",
+  "title": "Iqa‘ Fallahi 2/4",
+  "subtitle": null,
+  "description": "Iqa‘ Fallahi",
+  "lang": "en",
+  "paragraphs": [
+    "Iqa‘ Fallahi is a fast-paced Egyptian iqa‘ suitable for folk music. Although it might resemble Maqsum played at double speed, it has a very different feel as Fallahi flows very smoothly without a big contrast (in accents) between dum and tak beats."
+  ],
+  "text": "Iqa‘ Fallahi 2/4 Iqa‘ Index Pronunciation of Fallahi Iqa‘ Fallahi is a fast-paced Egyptian iqa‘ suitable for folk music. Although it might resemble Maqsum played at double speed, it has a very different feel as Fallahi flows very smoothly without a big contrast (in accents) between dum and tak beats. il-Benti Beida Vocals and Music by Metqal Qannawi Hizz Ya Hubb Vocals by Ahmad Adaweya Music by Hassan Abu el-Su‘ud Salametha Ummu Hasan Vocals by Ahmad Adaweya Music by Faruq Salamah Iqa‘ Fallahi 2/4 Tabla demonstration by Faisal Zedan",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "il-Benti Beida",
+      "artist": "Vocals and Music by Metqal Qannawi",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/fallahi/el_binti_beida.mp3",
+      "local_path": "data/media/iqaa/fallahi/el_binti_beida.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Hizz Ya Hubb",
+      "artist": "Vocals by Ahmad Adaweya",
+      "credits": [
+        "Music by Hassan Abu el-Su‘ud"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/fallahi/ahom_ahom.mp3",
+      "local_path": "data/media/iqaa/fallahi/ahom_ahom.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Salametha Ummu Hasan",
+      "artist": "Vocals by Ahmad Adaweya",
+      "credits": [
+        "Music by Faruq Salamah"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/fallahi/salametha.mp3",
+      "local_path": "data/media/iqaa/fallahi/salametha.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Iqa‘ Fallahi 2/4",
+      "artist": "Tabla demonstration by Faisal Zedan",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/demo/iqaa/tabla/fallahi.mp3",
+      "local_path": "data/media/iqaa/fallahi/fallahi.mp3"
+    }
+  ],
+  "notes": [],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/fallahi/el_binti_beida.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/fallahi/el_binti_beida.mp3",
+      "status": "downloaded",
+      "sha256": "70307dd9ddd26c1fcc1f597f3ba6c856ab66ff35aa39b51282deee8620f0c1be",
+      "bytes": 512772,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/fallahi/ahom_ahom.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/fallahi/ahom_ahom.mp3",
+      "status": "downloaded",
+      "sha256": "f92b96a90db0f55ff1ee46e939232bebaec11fac1996967e0986e09d64fbbee7",
+      "bytes": 595839,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/fallahi/salametha.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/fallahi/salametha.mp3",
+      "status": "downloaded",
+      "sha256": "4d525ab20354b971b67ba6dd5461b3fb5c85a23d20ac24714345f6fcd3f4d131",
+      "bytes": 705397,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/demo/iqaa/tabla/fallahi.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/fallahi/fallahi.mp3",
+      "status": "downloaded",
+      "sha256": "3b8c92c7040a9a80e98d8d23fb878b28a4a6673bb53432d0f03ee08bf7f10eee",
+      "bytes": 637849,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/fallahi.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/iqaa/fallahi/fallahi-7c239695.mp3",
+      "status": "downloaded",
+      "sha256": "d418aaed420cdd01d0736d010ddd17294e24cd0fd0af928402327e0022489a1d",
+      "bytes": 38660,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/iqaa/fallahi.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/fallahi/fallahi.png",
+      "status": "downloaded",
+      "sha256": "47fea0f12c57dbd5bd8d2f3c2684e0e29088f866d47e48bd04e5705d3eab2465",
+      "bytes": 10674,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/tabla.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/fallahi/tabla.png",
+      "status": "downloaded",
+      "sha256": "bc7d7630f1797012041feecf8f1a7bc6d926498a88661ab4f28451d50b6c8f30",
+      "bytes": 11602,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Iqa‘ Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Maqsum",
+      "url": "https://www.maqamworld.com/en/iqaa/maqsum.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "88fa45ba766067641806242c0e2487deadfc2acc3a9c12b91da295bf2a16c6ab",
+  "fetched_at": "2026-11-10T12:10:55.106942Z",
+  "status_code": 200,
+  "html_file": "data/raw/iqaa/fallahi.html"
+}

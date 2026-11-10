@@ -1,0 +1,204 @@
+{
+  "url": "https://www.maqamworld.com/en/maqam/dalanshin.php",
+  "path": "/en/maqam/dalanshin.php",
+  "section": "maqam",
+  "slug": "maqam/dalanshin",
+  "kind": "entry",
+  "title": "Maqam Dalanshin",
+  "subtitle": "A member of the Maqam Rast Family",
+  "description": "Maqam Dalanshin",
+  "lang": "en",
+  "paragraphs": [
+    "Click the notes and hold using the mouse to hear them play.",
+    "Maqam Dalanshin starts with Jins Saba Dalanshin on the octave of Maqam Rast then transitions back to the Maqam Rast scale with Jins Upper Rast on the 5th degree (with its tonic up on the 8th degree), and Jins Rast on the tonic.",
+    "There are not too many songs in this maqam, instead it is more frequently used as a modulation from Maqam Rast.",
+    "Explore other maqamat in the Maqam Rast Family.",
+    "Watch a 1-minute sample Violin Taqsim in Maqam Dalanshin by Sami Abu Shumays."
+  ],
+  "text": "Maqam Dalanshin A member of the Maqam Rast Family Maqam Index Pronunciation of Dalanshin Click the notes and hold using the mouse to hear them play. Maqam Dalanshin starts with Jins Saba Dalanshin on the octave of Maqam Rast then transitions back to the Maqam Rast scale with Jins Upper Rast on the 5 th degree (with its tonic up on the 8 th degree), and Jins Rast on the tonic . There are not too many songs in this maqam, instead it is more frequently used as a modulation from Maqam Rast . Explore other maqamat in the Maqam Rast Family . Watch a 1-minute sample Violin Taqsim in Maqam Dalanshin by Sami Abu Shumays. Qadd Ya Mal il-Sham Sabah Fakhri Music by Ahmad Abu Khalil al-Qabbani Muwashah Mala el-Kasat Muhammad Khayri Music by Muhammad ‘Uthman Kull Illi Habb Itnasaf (1931) Vocals and Music by Muhammad Abdel Wahab (Egypt) Dawr ‘Ishna w Shufna Saleh Abdel Hayy Music by Muhammad ‘Uthman",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Qadd Ya Mal il-Sham",
+      "artist": "Sabah Fakhri",
+      "credits": [
+        "Music by Ahmad Abu Khalil al-Qabbani"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/dalanshin/ya_mal_il_sham.mp3",
+      "local_path": "data/media/maqam/dalanshin/ya_mal_il_sham.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Muwashah Mala el-Kasat",
+      "artist": "Muhammad Khayri",
+      "credits": [
+        "Music by Muhammad ‘Uthman"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/dalanshin/mala_el_kasat.mp3",
+      "local_path": "data/media/maqam/dalanshin/mala_el_kasat.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Kull Illi Habb Itnasaf (1931)",
+      "artist": "Vocals and Music by Muhammad Abdel Wahab (Egypt)",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/dalanshin/kull_illi_habb_itnasaf.mp3",
+      "local_path": "data/media/maqam/dalanshin/kull_illi_habb_itnasaf.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Dawr ‘Ishna w Shufna",
+      "artist": "Saleh Abdel Hayy",
+      "credits": [
+        "Music by Muhammad ‘Uthman"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/dalanshin/3ishna_w_shufna.mp3",
+      "local_path": "data/media/maqam/dalanshin/3ishna_w_shufna.mp3"
+    }
+  ],
+  "notes": [
+    {
+      "name": "E5♮",
+      "frequency": 660.0
+    },
+    {
+      "name": "D5♭",
+      "frequency": 560.0
+    },
+    {
+      "name": "C5",
+      "frequency": 521.48
+    },
+    {
+      "name": "B4",
+      "frequency": 482.0
+    },
+    {
+      "name": "A4",
+      "frequency": 440.0
+    },
+    {
+      "name": "G4",
+      "frequency": 391.11
+    },
+    {
+      "name": "F4",
+      "frequency": 347.65
+    },
+    {
+      "name": "E4",
+      "frequency": 320.0
+    },
+    {
+      "name": "D4♮",
+      "frequency": 293.33
+    },
+    {
+      "name": "C4",
+      "frequency": 260.74
+    }
+  ],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/dalanshin/ya_mal_il_sham.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/dalanshin/ya_mal_il_sham.mp3",
+      "status": "downloaded",
+      "sha256": "521c2e47d163462343b0b081f47a45b71b3bd9d422620e142c4ccad109df0f93",
+      "bytes": 718241,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/dalanshin/mala_el_kasat.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/dalanshin/mala_el_kasat.mp3",
+      "status": "downloaded",
+      "sha256": "ff7fad5073aff0319070a5543124135152723d8c7565e1e9a3e3be8709bfd0f1",
+      "bytes": 1094290,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/dalanshin/kull_illi_habb_itnasaf.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/dalanshin/kull_illi_habb_itnasaf.mp3",
+      "status": "downloaded",
+      "sha256": "3f4554e5e820995390356219d02297790d88d0f349aca3fe45956a903bca4f68",
+      "bytes": 668317,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/dalanshin/3ishna_w_shufna.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/dalanshin/3ishna_w_shufna.mp3",
+      "status": "downloaded",
+      "sha256": "c367fba165f43308e2f4141737067283bc9e51e56cf1eef934cb74d90e9356d0",
+      "bytes": 848008,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/dalanshin.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/maqam/dalanshin/dalanshin.mp3",
+      "status": "downloaded",
+      "sha256": "0271855273a8c5a5200edcc6756cf997cb25f1228708df5102d904d2c4486985",
+      "bytes": 24420,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/maqam/dalanshin.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/maqam/dalanshin/dalanshin.png",
+      "status": "downloaded",
+      "sha256": "0d51ecbb3616150a4427fad358e8e455ab1c92f71bfea108b3036578b84d2d44",
+      "bytes": 19171,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Maqam Rast Family",
+      "url": "https://www.maqamworld.com/en/maqam/f_rast.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Jins Saba Dalanshin",
+      "url": "https://www.maqamworld.com/en/jins/saba_dalanshin.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Rast",
+      "url": "https://www.maqamworld.com/en/maqam/rast.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Upper Rast",
+      "url": "https://www.maqamworld.com/en/jins/upper_rast.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Rast",
+      "url": "https://www.maqamworld.com/en/jins/rast.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Violin Taqsim in Maqam Dalanshin",
+      "url": "https://www.instagram.com/p/B-F24Hvl_Pl",
+      "kind": "external"
+    }
+  ],
+  "content_hash": "33f37b8b787ad3a1c053f2a7259ba37cfa08fa61924a9cb5448d6cd22b692a4f",
+  "fetched_at": "2026-11-10T12:10:54.853745Z",
+  "status_code": 200,
+  "html_file": "data/raw/maqam/dalanshin.html"
+}

@@ -1,0 +1,214 @@
+{
+  "url": "https://www.maqamworld.com/en/iqaa/karachi.php",
+  "path": "/en/iqaa/karachi.php",
+  "section": "iqaa",
+  "slug": "iqaa/karachi",
+  "kind": "entry",
+  "title": "Iqa‘ Karachi 2/4",
+  "subtitle": null,
+  "description": "Iqa‘ Karachi",
+  "lang": "en",
+  "paragraphs": [
+    "Iqa‘ Karachi is a member of the 2/4 iqa‘at family that has a lazy feel and can be played at relatively slow tempos. Although it modulates often to and from Malfuf, Karachi does not share its rapid and urgent feel."
+  ],
+  "text": "Iqa‘ Karachi 2/4 Iqa‘ Index Pronunciation of Karachi Iqa‘ Karachi is a member of the 2/4 iqa‘at family that has a lazy feel and can be played at relatively slow tempos. Although it modulates often to and from Malfuf , Karachi does not share its rapid and urgent feel. Qadd Dhatul-Jamal Ukhtul-Hilal Al-Turath Ensemble Hermana de la Luna - Rast Siret il-Hubb (1964) Umm Kulthum Music by Baligh Hamdi (Egypt) Fakkaruni (1966) Umm Kulthum Music by Muhammad Abdel Wahab (Egypt) Ba‘id ‘Annak (1965) Umm Kulthum Music by Baligh Hamdi (Egypt) Amal Hayati(1965) Umm Kulthum Music by Muhammad Abdel Wahab (Egypt) Darit il-Ayyam (1970) Umm Kulthum Music by Muhammad Abdel Wahab (Egypt) Iqa‘ Karachi 2/4 Tabla demonstration by Faisal Zedan",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Qadd Dhatul-Jamal Ukhtul-Hilal",
+      "artist": "Al-Turath Ensemble",
+      "credits": [
+        "Hermana de la Luna - Rast"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/karachi/dhatul_jamal.mp3",
+      "local_path": "data/media/iqaa/karachi/dhatul_jamal.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Siret il-Hubb (1964)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Baligh Hamdi (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/karachi/siret_il_hub.mp3",
+      "local_path": "data/media/iqaa/karachi/siret_il_hub.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Fakkaruni (1966)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Muhammad Abdel Wahab (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/karachi/fakkaruni.mp3",
+      "local_path": "data/media/iqaa/karachi/fakkaruni.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Ba‘id ‘Annak (1965)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Baligh Hamdi (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/karachi/ba3id_3annak.mp3",
+      "local_path": "data/media/iqaa/karachi/ba3id_3annak.mp3"
+    },
+    {
+      "index": 5,
+      "title": "Amal Hayati(1965)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Muhammad Abdel Wahab (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/karachi/amal_hayati.mp3",
+      "local_path": "data/media/iqaa/karachi/amal_hayati.mp3"
+    },
+    {
+      "index": 6,
+      "title": "Darit il-Ayyam (1970)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Muhammad Abdel Wahab (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/karachi/darit_il_ayyam.mp3",
+      "local_path": "data/media/iqaa/karachi/darit_il_ayyam.mp3"
+    },
+    {
+      "index": 7,
+      "title": "Iqa‘ Karachi 2/4",
+      "artist": "Tabla demonstration by Faisal Zedan",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/demo/iqaa/tabla/karachi.mp3",
+      "local_path": "data/media/iqaa/karachi/karachi.mp3"
+    }
+  ],
+  "notes": [],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/karachi/dhatul_jamal.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/karachi/dhatul_jamal.mp3",
+      "status": "downloaded",
+      "sha256": "42d3b32d699980806fad5102734bb5c42e1c727966afe4d573adb8f5b453e8d5",
+      "bytes": 223243,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/karachi/siret_il_hub.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/karachi/siret_il_hub.mp3",
+      "status": "downloaded",
+      "sha256": "a78a1c171e34a6f1a21d0549d8ec5fd965b481cbf1e1288a14473d8a1769944d",
+      "bytes": 863907,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/karachi/fakkaruni.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/karachi/fakkaruni.mp3",
+      "status": "downloaded",
+      "sha256": "8eb8b00f4ecaafa2af4027638dc32ae9160f5222b408a3012ebec6a4b1ebab33",
+      "bytes": 546872,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/karachi/ba3id_3annak.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/karachi/ba3id_3annak.mp3",
+      "status": "downloaded",
+      "sha256": "f4f736394b4ac8e461046be884da61fdefa0839a5e2b6348f25667bc68573b86",
+      "bytes": 1435583,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/karachi/amal_hayati.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/karachi/amal_hayati.mp3",
+      "status": "downloaded",
+      "sha256": "cd5003b04c606ecfb74b5fd41292501fdf65b424b0cfcda01f691e40a3b6b7b0",
+      "bytes": 251578,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/karachi/darit_il_ayyam.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/karachi/darit_il_ayyam.mp3",
+      "status": "downloaded",
+      "sha256": "7dff194e3b784ea8f307aa2f43d94fde1a05ca59d48ffd66e5da962e60efd653",
+      "bytes": 457731,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/demo/iqaa/tabla/karachi.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/karachi/karachi.mp3",
+      "status": "downloaded",
+      "sha256": "bc05d2ea9ec3bb9415c5ecc340fff5f5749da2816f96bed1d98a7fcfbc80ede9",
+      "bytes": 770760,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/karachi.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/iqaa/karachi/karachi-a837b9b3.mp3",
+      "status": "downloaded",
+      "sha256": "9d73159b12d88b6a0ec772b0dadda1d5c37a137f3092083df956cfdf840c85d6",
+      "bytes": 30301,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/iqaa/karachi.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/karachi/karachi.png",
+      "status": "downloaded",
+      "sha256": "046e6978d6cb99e7db2f2fa9ea3844a33579b8eafccb43cf4273f78aa2d9a7e3",
+      "bytes": 7676,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/cd.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/karachi/cd.png",
+      "status": "downloaded",
+      "sha256": "1f52da76667703a00010a07afefc9d78b6c3ccb8359b906fc6fd6b0cddd0255f",
+      "bytes": 5478,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/tabla.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/karachi/tabla.png",
+      "status": "downloaded",
+      "sha256": "bc7d7630f1797012041feecf8f1a7bc6d926498a88661ab4f28451d50b6c8f30",
+      "bytes": 11602,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Iqa‘ Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Malfuf",
+      "url": "https://www.maqamworld.com/en/iqaa/malfuf.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "434a458ed82116e16ccceb08addee66081e30308194d9133fa639bfaf73bc599",
+  "fetched_at": "2026-11-10T12:10:55.113231Z",
+  "status_code": 200,
+  "html_file": "data/raw/iqaa/karachi.html"
+}

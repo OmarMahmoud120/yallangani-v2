@@ -1,0 +1,113 @@
+{
+  "url": "https://www.maqamworld.com/en/instr/tabla.php",
+  "path": "/en/instr/tabla.php",
+  "section": "instr",
+  "slug": "instr/tabla",
+  "kind": "entry",
+  "title": "The Tabla",
+  "subtitle": "Also called Dirbakki or Darbuka",
+  "description": "The Tabla",
+  "lang": "en",
+  "paragraphs": [
+    "The Tabla (also called \"Dirbakki\" in Levantine dialects or \"Darbuka\" in Western countries) is a goblet shaped drum with skin fixed on one side.",
+    "Traditional tabla-s are made of clay and have fish or goat skin glued on and held tightly with a system of woven threads. Modern tabla-s have an aluminum body with a replaceable and tunable plastic (Mylar) head.",
+    "The tabla is a very popular instrument in folk and pop music, and is especially popular in the Belly Dance genre. It is used to a certain extent in more classical genres.",
+    "Explore other percussion instruments:"
+  ],
+  "text": "The Tabla Also called Dirbakki or Darbuka Instrument Index Aluminum-body tabla with plastic head from Gawharet El-Fan, Egypt. © MaqamWorld Pronunciation of Tabla Pronunciation of Dirbakki The Tabla (also called \"Dirbakki\" in Levantine dialects or \"Darbuka\" in Western countries) is a goblet shaped drum with skin fixed on one side. Traditional tabla -s are made of clay and have fish or goat skin glued on and held tightly with a system of woven threads. Modern tabla -s have an aluminum body with a replaceable and tunable plastic (Mylar) head. The tabla is a very popular instrument in folk and pop music, and is especially popular in the Belly Dance genre. It is used to a certain extent in more classical genres. Hossam Ramzi Egyptian veteran Tabla player Hossam Ramzi talks about the instrument in an interview at Analogue to Digital Music Expo, 2013 Sa‘id al-Artist Egyptian tabla master and teacher Sa‘id al-Artist with his percussion ensemble. Explore other percussion instruments: The Riqq The Tabl Baladi The Daff The Mazhar The Katim The Sagat",
+  "tracks": [],
+  "notes": [],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/name/tabla.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/instr/tabla/tabla.mp3",
+      "status": "downloaded",
+      "sha256": "794c95fe8325127115c962be7352cc81bad7a66dcf80741e703603f39b366024",
+      "bytes": 12707,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/dirbakki.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/instr/tabla/dirbakki.mp3",
+      "status": "downloaded",
+      "sha256": "9b710b04de6470a547ed7beb7acf2bbf7179a09bc9595778aa95c8d620f68264",
+      "bytes": 13719,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/instr/tabla.jpg",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/instr/tabla/tabla.jpg",
+      "status": "downloaded",
+      "sha256": "85786be71b5e5603ebdcdac587938b975328fae80d7bad7fef37ca688842ee8c",
+      "bytes": 53929,
+      "content_type": null
+    },
+    {
+      "url": "https://img.youtube.com/vi/dpSa2SEnFh8/hqdefault.jpg",
+      "kind": "image",
+      "source": "content",
+      "local_path": null,
+      "status": "skipped_external",
+      "sha256": null,
+      "bytes": null,
+      "content_type": null
+    },
+    {
+      "url": "https://img.youtube.com/vi/KmnkOfE6G58/hqdefault.jpg",
+      "kind": "image",
+      "source": "content",
+      "local_path": null,
+      "status": "skipped_external",
+      "sha256": null,
+      "bytes": null,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Instrument Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "The Riqq",
+      "url": "https://www.maqamworld.com/en/instr/riqq.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Tabl Baladi",
+      "url": "https://www.maqamworld.com/en/instr/tabl_baladi.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Daff",
+      "url": "https://www.maqamworld.com/en/instr/daff.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Mazhar",
+      "url": "https://www.maqamworld.com/en/instr/mazhar.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Katim",
+      "url": "https://www.maqamworld.com/en/instr/katim.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Sagat",
+      "url": "https://www.maqamworld.com/en/instr/sagat.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "a5f00219d0ba1d786da0c86d3bb571a0ff4d692f789dcbbcef2973744ec13c7a",
+  "fetched_at": "2026-11-10T12:10:55.195959Z",
+  "status_code": 200,
+  "html_file": "data/raw/instr/tabla.html"
+}

@@ -1,0 +1,301 @@
+{
+  "url": "https://www.maqamworld.com/en/iqaa/hachaa.php",
+  "path": "/en/iqaa/hachaa.php",
+  "section": "iqaa",
+  "slug": "iqaa/hachaa",
+  "kind": "entry",
+  "title": "Iqa‘ Hacha‘ 4/4",
+  "subtitle": "(also in 2/4 and 6/4)",
+  "description": "Iqa‘ Hacha‘",
+  "lang": "en",
+  "paragraphs": [
+    "Iqa‘ Hacha‘ in 4/4 is very popular in Sufi music, especially in pieces that only use percussion instruments. Although the 4/4 version is by far the most prevalent, it is an adaptation of a more folkloric iqa‘ by the same name in 2/4. A rare adaptation is the 6/4 version used by composer Baligh Hamdi in Umm Kulthum's \"Alf Leila w Leila\"."
+  ],
+  "text": "Iqa‘ Hacha‘ 4/4 (also in 2/4 and 6/4) Iqa‘ Index Pronunciation of Hacha‘ Iqa‘ Hacha‘ in 4/4 is very popular in Sufi music, especially in pieces that only use percussion instruments. Although the 4/4 version is by far the most prevalent, it is an adaptation of a more folkloric iqa‘ by the same name in 2/4. A rare adaptation is the 6/4 version used by composer Baligh Hamdi in Umm Kulthum's \"Alf Leila w Leila\". Bi-Hamdika Ya Ilahi Sheikh Hamza Shakkur & Ensemble Al Kindi Whirling Dervishes of Damascus Vol. 1 Subhana Sheikh Habboush & Ensemble Al Kindi Transe Soufie d'Aleppe Vol.2 il-Albi Yi‘shaq Kulli Gamil (1961) Umm Kulthum Music by Riyad al-Sunbati Qari'at al-Fingan (1976) Abdel Halim Hafez Music by Muhammad al-Mugi Qasida Qul Lil-Maliha Sabah Fakhri Tala‘a al-Badru ‘Alayna Hassan al-Haffar Iqa‘ Hacha‘ 4/4 Tabla demonstration by Faisal Zedan Examples of the 2/4 form of Iqa‘ Hacha‘ ‘Al-Maya Diyab Mashhur (Syrian Folk Song) Iqa‘ Hacha‘ 2/4 Tabla demonstration by Faisal Zedan Examples of the 6/4 form of Iqa‘ Hacha‘ Alf Leila w leila (1969) Umm Kulthum Music by Baligh Hamdi (Egypt) Iqa‘ Hacha‘ 6/4 Tabla demonstration by Faisal Zedan",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Bi-Hamdika Ya Ilahi",
+      "artist": "Sheikh Hamza Shakkur & Ensemble Al Kindi",
+      "credits": [
+        "Whirling Dervishes of Damascus Vol. 1"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/hachaa_4_4/hamza_shakkur.mp3",
+      "local_path": "data/media/iqaa/hachaa/hamza_shakkur.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Subhana",
+      "artist": "Sheikh Habboush & Ensemble Al Kindi",
+      "credits": [
+        "Transe Soufie d'Aleppe Vol.2"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/hachaa_4_4/habbush_sub7ana.mp3",
+      "local_path": "data/media/iqaa/hachaa/habbush_sub7ana.mp3"
+    },
+    {
+      "index": 3,
+      "title": "il-Albi Yi‘shaq Kulli Gamil (1961)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Riyad al-Sunbati"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/hachaa_4_4/il_alb_yi3shaq.mp3",
+      "local_path": "data/media/iqaa/hachaa/il_alb_yi3shaq.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Qari'at al-Fingan (1976)",
+      "artist": "Abdel Halim Hafez",
+      "credits": [
+        "Music by Muhammad al-Mugi"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/hachaa_4_4/qariat_al_fingan.mp3",
+      "local_path": "data/media/iqaa/hachaa/qariat_al_fingan.mp3"
+    },
+    {
+      "index": 5,
+      "title": "Qasida Qul Lil-Maliha",
+      "artist": "Sabah Fakhri",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/hachaa_4_4/qul_lil_maliha_fakhri.mp3",
+      "local_path": "data/media/iqaa/hachaa/qul_lil_maliha_fakhri.mp3"
+    },
+    {
+      "index": 6,
+      "title": "Tala‘a al-Badru ‘Alayna",
+      "artist": "Hassan al-Haffar",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/hachaa_4_4/tala3a_al_badru.mp3",
+      "local_path": "data/media/iqaa/hachaa/tala3a_al_badru.mp3"
+    },
+    {
+      "index": 7,
+      "title": "Iqa‘ Hacha‘ 4/4",
+      "artist": "Tabla demonstration by Faisal Zedan",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/demo/iqaa/tabla/hachaa_4_4.mp3",
+      "local_path": "data/media/iqaa/hachaa/hachaa_4_4.mp3"
+    },
+    {
+      "index": 8,
+      "title": "‘Al-Maya",
+      "artist": "Diyab Mashhur",
+      "credits": [
+        "(Syrian Folk Song)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/hachaa_2_4/3al_maya.mp3",
+      "local_path": "data/media/iqaa/hachaa/3al_maya.mp3"
+    },
+    {
+      "index": 9,
+      "title": "Iqa‘ Hacha‘ 2/4",
+      "artist": "Tabla demonstration by Faisal Zedan",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/demo/iqaa/tabla/hachaa_2_4.mp3",
+      "local_path": "data/media/iqaa/hachaa/hachaa_2_4.mp3"
+    },
+    {
+      "index": 10,
+      "title": "Alf Leila w leila (1969)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Baligh Hamdi (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/hachaa_6_4/alf_leila.mp3",
+      "local_path": "data/media/iqaa/hachaa/alf_leila.mp3"
+    },
+    {
+      "index": 11,
+      "title": "Iqa‘ Hacha‘ 6/4",
+      "artist": "Tabla demonstration by Faisal Zedan",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/demo/iqaa/tabla/hachaa_6_4.mp3",
+      "local_path": "data/media/iqaa/hachaa/hachaa_6_4.mp3"
+    }
+  ],
+  "notes": [],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/hachaa_4_4/hamza_shakkur.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/hachaa/hamza_shakkur.mp3",
+      "status": "downloaded",
+      "sha256": "3c35cd602b63e11aa37c3e25482eac4e25e324e531c2b6f6480460b4910d46c9",
+      "bytes": 1111984,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/hachaa_4_4/habbush_sub7ana.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/hachaa/habbush_sub7ana.mp3",
+      "status": "downloaded",
+      "sha256": "52e8ddee0b1f3fca5d0b324b386b4d034344b78077b7309a99fe16e4a990d101",
+      "bytes": 1038469,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/hachaa_4_4/il_alb_yi3shaq.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/hachaa/il_alb_yi3shaq.mp3",
+      "status": "downloaded",
+      "sha256": "e845fc3eb35ec8e0ce62e2fd8a313762dffa89629da90f1c5a1e9d61c2a7c328",
+      "bytes": 224070,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/hachaa_4_4/qariat_al_fingan.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/hachaa/qariat_al_fingan.mp3",
+      "status": "downloaded",
+      "sha256": "3fc7f1fe32cd4bfe30d4eb035dfeb0498b518e22deefd10f710df860e00a708e",
+      "bytes": 433136,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/hachaa_4_4/qul_lil_maliha_fakhri.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/hachaa/qul_lil_maliha_fakhri.mp3",
+      "status": "downloaded",
+      "sha256": "c330c095d8ad20bbe613414c69fd9abb34bd2d8ec19441750d40f7d9426a52ca",
+      "bytes": 405122,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/hachaa_4_4/tala3a_al_badru.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/hachaa/tala3a_al_badru.mp3",
+      "status": "downloaded",
+      "sha256": "217a1c413a731ee8b94d6aa5b28257933f501e8712c7e45a499f4c17be532080",
+      "bytes": 727125,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/demo/iqaa/tabla/hachaa_4_4.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/hachaa/hachaa_4_4.mp3",
+      "status": "downloaded",
+      "sha256": "a5b164f65540b3e014b78d9cc522aedad2268ec6d00770fa786c06b9471d861a",
+      "bytes": 759475,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/hachaa_2_4/3al_maya.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/hachaa/3al_maya.mp3",
+      "status": "downloaded",
+      "sha256": "5363da0a5770ddd963fd86813638ea9d9b9bd74a63c0d547178bb61404b9fa13",
+      "bytes": 510903,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/demo/iqaa/tabla/hachaa_2_4.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/hachaa/hachaa_2_4.mp3",
+      "status": "downloaded",
+      "sha256": "582d94d7bfe09d5b10632171e2f7caf9b934e739312c3a88845aab2ac467eec6",
+      "bytes": 509954,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/hachaa_6_4/alf_leila.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/hachaa/alf_leila.mp3",
+      "status": "downloaded",
+      "sha256": "70192b70b60e0aea8b14d9d6b7d383941fd619b36cbe83927c6a7631a485c4b9",
+      "bytes": 592937,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/demo/iqaa/tabla/hachaa_6_4.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/hachaa/hachaa_6_4.mp3",
+      "status": "downloaded",
+      "sha256": "1dff18434043e898621575853cd515cb785a6dc133b0e2bffc54413e9a35f8b9",
+      "bytes": 756550,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/hachaa.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/iqaa/hachaa/hachaa.mp3",
+      "status": "downloaded",
+      "sha256": "c12acdb6782eed4fbb208a57f77ba677ce6fc68bde635dfe2fffbfe520cb75a1",
+      "bytes": 26121,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/iqaa/hachaa_4_4.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/hachaa/hachaa_4_4.png",
+      "status": "downloaded",
+      "sha256": "a627eb3b9399133a05bc12ce0b8d1333c5825842e8c5e79bb964e2e3f28762b4",
+      "bytes": 10775,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/cd.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/hachaa/cd.png",
+      "status": "downloaded",
+      "sha256": "1f52da76667703a00010a07afefc9d78b6c3ccb8359b906fc6fd6b0cddd0255f",
+      "bytes": 5478,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/tabla.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/hachaa/tabla.png",
+      "status": "downloaded",
+      "sha256": "bc7d7630f1797012041feecf8f1a7bc6d926498a88661ab4f28451d50b6c8f30",
+      "bytes": 11602,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/iqaa/hachaa_2_4.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/hachaa/hachaa_2_4.png",
+      "status": "downloaded",
+      "sha256": "d381eb17a0d1711dda415a42128dfb9ba6155454a4862da0ebf8007bc6332701",
+      "bytes": 6887,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/iqaa/hachaa_6_4.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/hachaa/hachaa_6_4.png",
+      "status": "downloaded",
+      "sha256": "588079c943eb13e711ea00f98b1e897ed1b3b3c5df4f6ebc1565bbd1f8bb9bde",
+      "bytes": 13514,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Iqa‘ Index",
+      "url": "#",
+      "kind": "anchor"
+    }
+  ],
+  "content_hash": "b8fe9d02d189ada6d89cfdb15d623fa81e496e99f258a326d7829c9b5351da2b",
+  "fetched_at": "2026-11-10T12:10:55.110224Z",
+  "status_code": 200,
+  "html_file": "data/raw/iqaa/hachaa.html"
+}

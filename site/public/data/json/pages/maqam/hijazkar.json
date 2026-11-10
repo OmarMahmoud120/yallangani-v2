@@ -1,0 +1,388 @@
+{
+  "url": "https://www.maqamworld.com/en/maqam/hijazkar.php",
+  "path": "/en/maqam/hijazkar.php",
+  "section": "maqam",
+  "slug": "maqam/hijazkar",
+  "kind": "entry",
+  "title": "Maqam Hijazkar",
+  "subtitle": "A member of the Maqam Hijaz Family",
+  "description": "Maqam Hijazkar",
+  "lang": "en",
+  "paragraphs": [
+    "Click the notes and hold using the mouse to hear them play.",
+    "Maqam Hijazkar is the most common variant of Maqam Hijaz. Its scale starts with the root Jins Hijaz on the tonic, followed by Jins Nikriz on the 4th degree then Jins Hijazkar on the octave.",
+    "For historic reasons, 3 of this maqam's transpositions have different names (and used to have a different sayr a long time ago):",
+    "Explore other maqamat in the Maqam Hijaz Family.",
+    "Watch a 1-minute sample Violin Taqsim in Maqam Hijazkar by Sami Abu Shumays."
+  ],
+  "text": "Maqam Hijazkar Maqam Shadd ‘Araban Maqam Suzidil Maqam Shahnaz A member of the Maqam Hijaz Family Maqam Index Pronunciation of Hijazkar Pronunciation of Shadd ‘Araban Pronunciation of Shahnaz Pronunciation of Suzidil Click the notes and hold using the mouse to hear them play. Maqam Hijazkar is the most common variant of Maqam Hijaz . Its scale starts with the root Jins Hijaz on the tonic , followed by Jins Nikriz on the 4 th degree then Jins Hijazkar on the octave. For historic reasons, 3 of this maqam's transpositions have different names (and used to have a different sayr a long time ago): Maqam Shadd ‘Araban (Hijazkar on low G) Maqam Suzidil (Hijazkar on low A) Maqam Shahnaz (Hijazkar on D) Explore other maqamat in the Maqam Hijaz Family . Watch a 1-minute sample Violin Taqsim in Maqam Hijazkar by Sami Abu Shumays. Ana Fi-ntizarak (1943) Umm Kulthum Music by Zakariya Ahmad Dawr Yama-nta Wahishni Abdel Halim Noueira Ensemble Music by Muhammad ‘Uthman Ya Nas Ana Mutti Fi Hubbi Sabah Fakhri Music by Sayyed Darwish Muwashah Afdihi Dhabiyan Ibtasam Sabah Fakhri Au Theatre Des Amandiers Muwashah Ya ‘Uyunan Ramiyat Sabri al-Mudallal Music by ‘Umar al-Batsh Ya Maria Sabah Fakhri Music by Sayyed Darwish Taqsim Qanun in Maqam Hijaz Sabri al-Mudallal Ensemble Songs from Aleppo Dulab Hijazkar Sabah Fakhri Ensemble Nagham Al-Ams Vol. 04 Hijazkar Muwashah Laha Badru-t-Timm (Maqam Suzidil) Firqat al-Musiqa al-Arabiyya Music by Mahmud Subh Ba‘attilak Ya Habib el-Rouh (Maqam Shadd ‘Araban) Fairouz Music by Ziad Rahbani Sama‘i Shadd ‘Araban Omar al-Sarmini Ensemble Music by Tanburi Cemil Bey",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Ana Fi-ntizarak (1943)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Zakariya Ahmad"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/hijazkar/ana_fintizarak.mp3",
+      "local_path": "data/media/maqam/hijazkar/ana_fintizarak.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Dawr Yama-nta Wahishni",
+      "artist": "Abdel Halim Noueira Ensemble",
+      "credits": [
+        "Music by Muhammad ‘Uthman"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/hijazkar/yama_inta_wahishni.mp3",
+      "local_path": "data/media/maqam/hijazkar/yama_inta_wahishni.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Ya Nas Ana Mutti Fi Hubbi",
+      "artist": "Sabah Fakhri",
+      "credits": [
+        "Music by Sayyed Darwish"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/hijazkar/ya_nas_ana_mutti.mp3",
+      "local_path": "data/media/maqam/hijazkar/ya_nas_ana_mutti.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Muwashah Afdihi Dhabiyan Ibtasam",
+      "artist": "Sabah Fakhri",
+      "credits": [
+        "Au Theatre Des Amandiers"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/hijazkar/afdihi_dhabyan.mp3",
+      "local_path": "data/media/maqam/hijazkar/afdihi_dhabyan.mp3"
+    },
+    {
+      "index": 5,
+      "title": "Muwashah Ya ‘Uyunan Ramiyat",
+      "artist": "Sabri al-Mudallal",
+      "credits": [
+        "Music by ‘Umar al-Batsh"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/hijazkar/ya_3uyunan_ramiyat.mp3",
+      "local_path": "data/media/maqam/hijazkar/ya_3uyunan_ramiyat.mp3"
+    },
+    {
+      "index": 6,
+      "title": "Ya Maria",
+      "artist": "Sabah Fakhri",
+      "credits": [
+        "Music by Sayyed Darwish"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/hijazkar/ya_maria.mp3",
+      "local_path": "data/media/maqam/hijazkar/ya_maria.mp3"
+    },
+    {
+      "index": 7,
+      "title": "Taqsim Qanun in Maqam Hijaz",
+      "artist": "Sabri al-Mudallal Ensemble",
+      "credits": [
+        "Songs from Aleppo"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/hijazkar/taqsim_qanun.mp3",
+      "local_path": "data/media/maqam/hijazkar/taqsim_qanun.mp3"
+    },
+    {
+      "index": 8,
+      "title": "Dulab Hijazkar",
+      "artist": "Sabah Fakhri Ensemble",
+      "credits": [
+        "Nagham Al-Ams Vol. 04 Hijazkar"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/hijazkar/dulab_hijazkar.mp3",
+      "local_path": "data/media/maqam/hijazkar/dulab_hijazkar.mp3"
+    },
+    {
+      "index": 9,
+      "title": "Muwashah Laha Badru-t-Timm",
+      "artist": "(Maqam Suzidil)",
+      "credits": [
+        "Firqat al-Musiqa al-Arabiyya",
+        "Music by Mahmud Subh"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/suzidil/laha_badrut_tim.mp3",
+      "local_path": "data/media/maqam/hijazkar/laha_badrut_tim.mp3"
+    },
+    {
+      "index": 10,
+      "title": "Ba‘attilak Ya Habib el-Rouh",
+      "artist": "(Maqam Shadd ‘Araban)",
+      "credits": [
+        "Fairouz",
+        "Music by Ziad Rahbani"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/shadd_araban/ba3attilak.mp3",
+      "local_path": "data/media/maqam/hijazkar/ba3attilak.mp3"
+    },
+    {
+      "index": 11,
+      "title": "Sama‘i Shadd ‘Araban",
+      "artist": "Omar al-Sarmini Ensemble",
+      "credits": [
+        "Music by Tanburi Cemil Bey"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/shadd_araban/samai_shadd_araban.mp3",
+      "local_path": "data/media/maqam/hijazkar/samai_shadd_araban.mp3"
+    }
+  ],
+  "notes": [
+    {
+      "name": "E5♮",
+      "frequency": 656.0
+    },
+    {
+      "name": "D5♭",
+      "frequency": 554.0
+    },
+    {
+      "name": "C5",
+      "frequency": 521.48
+    },
+    {
+      "name": "B4♮",
+      "frequency": 493.33
+    },
+    {
+      "name": "A4♭",
+      "frequency": 420.0
+    },
+    {
+      "name": "G4",
+      "frequency": 391.11
+    },
+    {
+      "name": "F4",
+      "frequency": 347.65
+    },
+    {
+      "name": "E4♮",
+      "frequency": 328.0
+    },
+    {
+      "name": "D4♭",
+      "frequency": 277.0
+    },
+    {
+      "name": "C4",
+      "frequency": 260.74
+    }
+  ],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/hijazkar/ana_fintizarak.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/hijazkar/ana_fintizarak.mp3",
+      "status": "downloaded",
+      "sha256": "4122dccaccae4466806e657026229c5c9c0d5992a32edd3f9bc5173d63c4cc5a",
+      "bytes": 700114,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/hijazkar/yama_inta_wahishni.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/hijazkar/yama_inta_wahishni.mp3",
+      "status": "downloaded",
+      "sha256": "14b7b78b7a8780ba2cd09186c49f31ed0318337b62330df91fe2167193896617",
+      "bytes": 1137242,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/hijazkar/ya_nas_ana_mutti.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/hijazkar/ya_nas_ana_mutti.mp3",
+      "status": "downloaded",
+      "sha256": "a2e9ed0753b68edb3117fa08bc0850ccbbed9037035f7cd6055ab40d33bdcfa9",
+      "bytes": 877899,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/hijazkar/afdihi_dhabyan.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/hijazkar/afdihi_dhabyan.mp3",
+      "status": "downloaded",
+      "sha256": "cbfb18f5b55586c4f31063159c1e05a48a479894d5f824fcf57a337cc310fe3a",
+      "bytes": 656249,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/hijazkar/ya_3uyunan_ramiyat.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/hijazkar/ya_3uyunan_ramiyat.mp3",
+      "status": "downloaded",
+      "sha256": "429b40bda1c31c84a416e49315dfff96a5cca611b1954cfbba4199e07d253a8e",
+      "bytes": 618565,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/hijazkar/ya_maria.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/hijazkar/ya_maria.mp3",
+      "status": "downloaded",
+      "sha256": "73305abed52c83a240e3af1da1df95cefb0143dc1a258684da7ed10550be62a0",
+      "bytes": 562904,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/hijazkar/taqsim_qanun.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/hijazkar/taqsim_qanun.mp3",
+      "status": "downloaded",
+      "sha256": "796ec600f81e4560e65217d6cb2d7c42ca78705d11cd3c70960b7c592cf637ea",
+      "bytes": 840206,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/hijazkar/dulab_hijazkar.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/hijazkar/dulab_hijazkar.mp3",
+      "status": "downloaded",
+      "sha256": "3a3721b0c5603cb54e2b0d88928e14bf3d50ddc23d3428bf4ce9063dcd71a86f",
+      "bytes": 782575,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/suzidil/laha_badrut_tim.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/hijazkar/laha_badrut_tim.mp3",
+      "status": "downloaded",
+      "sha256": "e7c9ba7dfac24180eb24e677c4c74187d368e56feae5ddc50eb274ac77fb3b42",
+      "bytes": 959817,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/shadd_araban/ba3attilak.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/hijazkar/ba3attilak.mp3",
+      "status": "downloaded",
+      "sha256": "41582f4ad9b9023ca5952038530691d560ec44ae3e0da9fa88e52d98349ae6a9",
+      "bytes": 767041,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/shadd_araban/samai_shadd_araban.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/hijazkar/samai_shadd_araban.mp3",
+      "status": "downloaded",
+      "sha256": "8a052ef1f2fbeada6b4db7e60488547388d2c77e9c3c2077de821e9b742f3a73",
+      "bytes": 1256074,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/hijazkar.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/maqam/hijazkar/hijazkar.mp3",
+      "status": "downloaded",
+      "sha256": "52d5633e4cf30152eaa659037db7537b33c246cfd447d9bbc33f373d05c21d28",
+      "bytes": 42840,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/shadd_araban.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/maqam/hijazkar/shadd_araban.mp3",
+      "status": "downloaded",
+      "sha256": "252494f99befbf900cf103502f27fc7323d029123d9993c412d2c53dc1d22f6a",
+      "bytes": 28704,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/shahnaz.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/maqam/hijazkar/shahnaz.mp3",
+      "status": "downloaded",
+      "sha256": "1f44696517c249b0cf1c56d07006689538264490b453477005a483d3e8737ef0",
+      "bytes": 24007,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/suzidil.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/maqam/hijazkar/suzidil.mp3",
+      "status": "downloaded",
+      "sha256": "f70ede3ad0199cd82ea39656d6ec6e73f96aec567b025e6040d0233076c39944",
+      "bytes": 23066,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/maqam/hijazkar.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/maqam/hijazkar/hijazkar.png",
+      "status": "downloaded",
+      "sha256": "d13513aa037813ceee55cdc98768835a1eebe54d350e97a4c0b8ddd40f51aef4",
+      "bytes": 17401,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/cd.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/maqam/hijazkar/cd.png",
+      "status": "downloaded",
+      "sha256": "1f52da76667703a00010a07afefc9d78b6c3ccb8359b906fc6fd6b0cddd0255f",
+      "bytes": 5478,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Maqam Hijaz Family",
+      "url": "https://www.maqamworld.com/en/maqam/f_hijaz.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Maqam Hijaz",
+      "url": "https://www.maqamworld.com/en/maqam/hijaz.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Hijaz",
+      "url": "https://www.maqamworld.com/en/jins/hijaz.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Nikriz",
+      "url": "https://www.maqamworld.com/en/jins/nikriz.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Hijazkar",
+      "url": "https://www.maqamworld.com/en/jins/hijazkar.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Violin Taqsim in Maqam Hijazkar",
+      "url": "https://www.instagram.com/p/B-KjdyqFVPI",
+      "kind": "external"
+    }
+  ],
+  "content_hash": "b5407e10a427b2fe6d9d45fecb820d0644f5cf7a5eab455c6ce8dbb4909437a3",
+  "fetched_at": "2026-11-10T12:10:54.862532Z",
+  "status_code": 200,
+  "html_file": "data/raw/maqam/hijazkar.html"
+}

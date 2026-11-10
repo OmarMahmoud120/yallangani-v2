@@ -1,0 +1,276 @@
+{
+  "url": "https://www.maqamworld.com/en/jins/upper_rast.php",
+  "path": "/en/jins/upper_rast.php",
+  "section": "jins",
+  "slug": "jins/upper_rast",
+  "kind": "entry",
+  "title": "Jins Upper Rast New",
+  "subtitle": "A 4-note version of Jins Rast with the tonic on top",
+  "description": "Jins Upper Rast",
+  "lang": "en",
+  "paragraphs": [
+    "Click the notes and hold using the mouse to hear them play.",
+    "Jins Upper Rast is a 4-note version of Jins Rast, with the unusual feature (shared by Jins Upper ‘Ajam) that its tonic is the last degree in the scale instead of the first. It is notated here with its ghammaz on G and its tonic on C. Jins Upper Rast is the second jins in Maqam Rast and also occurs on the 5th degree of Maqam Jiharkah."
+  ],
+  "text": "Jins Upper Rast New A 4-note version of Jins Rast with the tonic on top Jins Index Pronunciation of Rast Click the notes and hold using the mouse to hear them play. Jins Upper Rast is a 4-note version of Jins Rast , with the unusual feature (shared by Jins Upper ‘Ajam ) that its tonic is the last degree in the scale instead of the first. It is notated here with its ghammaz on G and its tonic on C. Jins Upper Rast is the second jins in Maqam Rast and also occurs on the 5 th degree of Maqam Jiharkah . Muwashah Ya Shadi al-Alhan Sabah Fakhri Music by Sayyed Darwish Muwashah Atani Zamani Sabah Fakhri Music by Muhammad ‘Uthman Muwashah Dhabiyun Min al-Turki Ahmad Shukri Unknown composer Aruh Li Min (1958) Umm Kulthum Music by Riyad al-Sunbati El-Awwila Fil-Gharam (1944) Umm Kulthum Music by Zakariya Ahmad (Egypt) Hann el-Hadid (1974) Joseph Saqr Music by Ziad Rahbani From the musical Nazl el-Surur Asamina Fairouz Music by Philemon Wehbe Hayrana Leh (1930) Leila Murad Music by Dawud Husni (Egypt) Min ‘Azzibak (1931) Vocals and Music by Muhammad Abdel Wahab (Egypt)",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Muwashah Ya Shadi al-Alhan",
+      "artist": "Sabah Fakhri",
+      "credits": [
+        "Music by Sayyed Darwish"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/upper_rast/ya_shadi_al_alhan.mp3",
+      "local_path": "data/media/jins/upper_rast/ya_shadi_al_alhan.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Muwashah Atani Zamani",
+      "artist": "Sabah Fakhri",
+      "credits": [
+        "Music by Muhammad ‘Uthman"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/upper_rast/atani_zamani.mp3",
+      "local_path": "data/media/jins/upper_rast/atani_zamani.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Muwashah Dhabiyun Min al-Turki",
+      "artist": "Ahmad Shukri",
+      "credits": [
+        "Unknown composer"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/upper_rast/dhabiyun-min-al-turki.mp3",
+      "local_path": "data/media/jins/upper_rast/dhabiyun-min-al-turki.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Aruh Li Min (1958)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Riyad al-Sunbati"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/upper_rast/aruh_li_min.mp3",
+      "local_path": "data/media/jins/upper_rast/aruh_li_min.mp3"
+    },
+    {
+      "index": 5,
+      "title": "El-Awwila Fil-Gharam (1944)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Zakariya Ahmad (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/upper_rast/el-awwila-fil-gharam.mp3",
+      "local_path": "data/media/jins/upper_rast/el-awwila-fil-gharam.mp3"
+    },
+    {
+      "index": 6,
+      "title": "Hann el-Hadid (1974)",
+      "artist": "Joseph Saqr",
+      "credits": [
+        "Music by Ziad Rahbani",
+        "From the musical Nazl el-Surur"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/upper_rast/hann_el_hadid.mp3",
+      "local_path": "data/media/jins/upper_rast/hann_el_hadid.mp3"
+    },
+    {
+      "index": 7,
+      "title": "Asamina",
+      "artist": "Fairouz",
+      "credits": [
+        "Music by Philemon Wehbe"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/upper_rast/asamina.mp3",
+      "local_path": "data/media/jins/upper_rast/asamina.mp3"
+    },
+    {
+      "index": 8,
+      "title": "Hayrana Leh (1930)",
+      "artist": "Leila Murad",
+      "credits": [
+        "Music by Dawud Husni (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/upper_rast/hayrana_leh.mp3",
+      "local_path": "data/media/jins/upper_rast/hayrana_leh.mp3"
+    },
+    {
+      "index": 9,
+      "title": "Min ‘Azzibak (1931)",
+      "artist": "Vocals and Music by Muhammad Abdel Wahab (Egypt)",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/jins/upper_rast/min_3azzibak.mp3",
+      "local_path": "data/media/jins/upper_rast/min_3azzibak.mp3"
+    }
+  ],
+  "notes": [
+    {
+      "name": "F4♮",
+      "frequency": 347.65
+    },
+    {
+      "name": "G4",
+      "frequency": 391.11
+    },
+    {
+      "name": "A4",
+      "frequency": 440.0
+    },
+    {
+      "name": "B4",
+      "frequency": 482.0
+    },
+    {
+      "name": "C5",
+      "frequency": 521.48
+    },
+    {
+      "name": "D5",
+      "frequency": 586.66
+    }
+  ],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/jins/upper_rast/ya_shadi_al_alhan.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/upper_rast/ya_shadi_al_alhan.mp3",
+      "status": "downloaded",
+      "sha256": "926052373d03723923544abd491d42ded34aa0e76c2db73c5d33f801ed273ef8",
+      "bytes": 114359,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/upper_rast/atani_zamani.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/upper_rast/atani_zamani.mp3",
+      "status": "downloaded",
+      "sha256": "79a8c5c02aa91b80ea2c5b211b78f2df2d079db437123417c28cffb30b3f6a24",
+      "bytes": 112861,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/upper_rast/dhabiyun-min-al-turki.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/upper_rast/dhabiyun-min-al-turki.mp3",
+      "status": "downloaded",
+      "sha256": "e2f93f8be5a6459d8cc0ca38d09390221441c02e60b152570fd717d8714da7d8",
+      "bytes": 516825,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/upper_rast/aruh_li_min.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/upper_rast/aruh_li_min.mp3",
+      "status": "downloaded",
+      "sha256": "f833f054191b73c67aa9ca27924ef77f908503f79cbbd32796cd1e9ed27c5614",
+      "bytes": 929663,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/upper_rast/el-awwila-fil-gharam.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/upper_rast/el-awwila-fil-gharam.mp3",
+      "status": "downloaded",
+      "sha256": "53e30cf89de35a9a54dcf6d7ed23149765900eb247271a1197573d1696b8e5c9",
+      "bytes": 570998,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/upper_rast/hann_el_hadid.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/upper_rast/hann_el_hadid.mp3",
+      "status": "downloaded",
+      "sha256": "9f35690cc3341792c59038dd699bf81aa3d28225e55dcc0627f58a7995f4be75",
+      "bytes": 632810,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/upper_rast/asamina.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/upper_rast/asamina.mp3",
+      "status": "downloaded",
+      "sha256": "249329dbedd2d07d1b706fcd24316e6754e7d155b075f67fceb3f7ec3dd6beae",
+      "bytes": 475436,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/upper_rast/hayrana_leh.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/upper_rast/hayrana_leh.mp3",
+      "status": "downloaded",
+      "sha256": "b8c43089d78dbf3f5eb840f6a422436ab3cd970c667666fa1a81d8a247773554",
+      "bytes": 245433,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/upper_rast/min_3azzibak.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/upper_rast/min_3azzibak.mp3",
+      "status": "downloaded",
+      "sha256": "c0f7f7ccfce8f14708e0586544cdca69fb221a0af0a21f4b3b32934365ef91ba",
+      "bytes": 88821,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/rast.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/jins/upper_rast/rast.mp3",
+      "status": "downloaded",
+      "sha256": "fb4bad20a02b404310a164f1221f90aa24039ca496553034ae6c07ffcd5a900e",
+      "bytes": 28211,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/jins/upper_rast.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/jins/upper_rast/upper_rast.png",
+      "status": "downloaded",
+      "sha256": "b42b8fff808a93f58a425f1868a903661fcb5678ec9457756dbac44de66c7cbf",
+      "bytes": 8124,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Jins Rast",
+      "url": "https://www.maqamworld.com/en/jins/rast.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Jins Upper ‘Ajam",
+      "url": "https://www.maqamworld.com/en/jins/upper_ajam.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Rast",
+      "url": "https://www.maqamworld.com/en/maqam/rast.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Jiharkah",
+      "url": "https://www.maqamworld.com/en/maqam/jiharkah.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "4b58481e7c21827773d62d45fa58ba7b3e8d5b2dd660847f9c61f8fa3e9610ac",
+  "fetched_at": "2026-11-10T12:10:55.087249Z",
+  "status_code": 200,
+  "html_file": "data/raw/jins/upper_rast.html"
+}

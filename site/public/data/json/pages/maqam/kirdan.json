@@ -1,0 +1,204 @@
+{
+  "url": "https://www.maqamworld.com/en/maqam/kirdan.php",
+  "path": "/en/maqam/kirdan.php",
+  "section": "maqam",
+  "slug": "maqam/kirdan",
+  "kind": "entry",
+  "title": "Maqam Kirdan",
+  "subtitle": "A member of the Maqam Rast Family",
+  "description": "Maqam Kirdan/Maqam Sazkar",
+  "lang": "en",
+  "paragraphs": [
+    "Click the notes and hold using the mouse to hear them play.",
+    "Maqam Kirdan is a version of Maqam Rast whose sayr starts on the octave and eventually descends to the tonic. Its scale starts at the bottom with the root Jins Rast on the tonic, followed by Jins Upper Rast on the 5th degree (with its tonic up on the 8th degree).",
+    "Maqam Sazkar is nearly identical to Maqam Kirdan, except for the prominence of the raised 2nd degree that occurs in some melodic passages, which results in Jins Sazkar on the tonic.",
+    "Explore other maqamat in the Maqam Rast Family.",
+    "Watch a 1-minute sample Violin Taqsim in Maqam Kirdan/Sazkar by Sami Abu Shumays."
+  ],
+  "text": "Maqam Kirdan Maqam Sazkar A member of the Maqam Rast Family Maqam Index Pronunciation of Kirdan Pronunciation of Sazkar Click the notes and hold using the mouse to hear them play. Maqam Kirdan is a version of Maqam Rast whose sayr starts on the octave and eventually descends to the tonic. Its scale starts at the bottom with the root Jins Rast on the tonic, followed by Jins Upper Rast on the 5 th degree (with its tonic up on the 8 th degree). Maqam Sazkar is nearly identical to Maqam Kirdan, except for the prominence of the raised 2 nd degree that occurs in some melodic passages, which results in Jins Sazkar on the tonic. Explore other maqamat in the Maqam Rast Family . Watch a 1-minute sample Violin Taqsim in Maqam Kirdan/Sazkar by Sami Abu Shumays. Muwashah Sihtu Wajdan Choir of the faculty of Music - Kaslik University (Lebanon) Conductor: Aïda Shalhoub Ziadé Music by Sayyed Darwish Orientalia: Muwashah and Song series Muwashah Ya Shadi al-Alhan Sabah Fakhri Music by Sayyed Darwish Hayrana Leh (1930) Leila Murad Music by Dawud Husni (Egypt)",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Muwashah Sihtu Wajdan",
+      "artist": "Choir of the faculty of Music - Kaslik University (Lebanon)",
+      "credits": [
+        "Conductor: Aïda Shalhoub Ziadé",
+        "Music by Sayyed Darwish",
+        "Orientalia: Muwashah and Song series"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/kirdan/sihtu_wajdan.mp3",
+      "local_path": "data/media/maqam/kirdan/sihtu_wajdan.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Muwashah Ya Shadi al-Alhan",
+      "artist": "Sabah Fakhri",
+      "credits": [
+        "Music by Sayyed Darwish"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/kirdan/ya_shadil_alhan.mp3",
+      "local_path": "data/media/maqam/kirdan/ya_shadil_alhan.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Hayrana Leh (1930)",
+      "artist": "Leila Murad",
+      "credits": [
+        "Music by Dawud Husni (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/kirdan/hayrana_leh.mp3",
+      "local_path": "data/media/maqam/kirdan/hayrana_leh.mp3"
+    }
+  ],
+  "notes": [
+    {
+      "name": "C5",
+      "frequency": 521.48
+    },
+    {
+      "name": "B4",
+      "frequency": 482.0
+    },
+    {
+      "name": "A4",
+      "frequency": 440.0
+    },
+    {
+      "name": "G4",
+      "frequency": 391.11
+    },
+    {
+      "name": "F4",
+      "frequency": 347.65
+    },
+    {
+      "name": "E4",
+      "frequency": 320.0
+    },
+    {
+      "name": "D4♯",
+      "frequency": 310.0
+    },
+    {
+      "name": "D4♮",
+      "frequency": 293.33
+    },
+    {
+      "name": "C4",
+      "frequency": 260.74
+    }
+  ],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/kirdan/sihtu_wajdan.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/kirdan/sihtu_wajdan.mp3",
+      "status": "downloaded",
+      "sha256": "3a65362f49250094825d5bea1f043a7929f7d5c7482de5e9fd5f8574897e0a86",
+      "bytes": 556071,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/kirdan/ya_shadil_alhan.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/kirdan/ya_shadil_alhan.mp3",
+      "status": "downloaded",
+      "sha256": "05d20ac65487d61689121c6714610ddd2baae5e2970f4dfca34d8a3da523fa4d",
+      "bytes": 594780,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/kirdan/hayrana_leh.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/kirdan/hayrana_leh.mp3",
+      "status": "downloaded",
+      "sha256": "e40ae2833d5bfff07dfe4fad805fbdabaaaf8e85269eb8d4a59143411d570ffb",
+      "bytes": 536503,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/kirdan.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/maqam/kirdan/kirdan.mp3",
+      "status": "downloaded",
+      "sha256": "fa7ccf7da19b13aa0b2a4fdf97a9102034977ffef20aacc244de886ff6905f17",
+      "bytes": 33435,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/sazkar.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/maqam/kirdan/sazkar.mp3",
+      "status": "downloaded",
+      "sha256": "80054c5aa58b3bfb737a295ec58e5a782e6c831d2e2312056b68a295c491cd51",
+      "bytes": 44929,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/maqam/kirdan.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/maqam/kirdan/kirdan.png",
+      "status": "downloaded",
+      "sha256": "dbacc08443f0261e5d26ffc9447d7ce51809f1ecdf7f4fd8fc3c9bdebd0a4886",
+      "bytes": 17474,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/cd.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/maqam/kirdan/cd.png",
+      "status": "downloaded",
+      "sha256": "1f52da76667703a00010a07afefc9d78b6c3ccb8359b906fc6fd6b0cddd0255f",
+      "bytes": 5478,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Maqam Rast Family",
+      "url": "https://www.maqamworld.com/en/maqam/f_rast.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Maqam Rast",
+      "url": "https://www.maqamworld.com/en/maqam/rast.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Rast",
+      "url": "https://www.maqamworld.com/en/jins/rast.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Upper Rast",
+      "url": "https://www.maqamworld.com/en/jins/upper_rast.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Sazkar",
+      "url": "https://www.maqamworld.com/en/jins/sazkar.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Violin Taqsim in Maqam Kirdan/Sazkar",
+      "url": "https://www.instagram.com/p/B_DQh3VlHEb/",
+      "kind": "external"
+    }
+  ],
+  "content_hash": "0fe73bb27b07aef6ee27618f346038c3f7e56a061b75c018fc9851eb635e29e4",
+  "fetched_at": "2026-11-10T12:10:54.909432Z",
+  "status_code": 200,
+  "html_file": "data/raw/maqam/kirdan.html"
+}

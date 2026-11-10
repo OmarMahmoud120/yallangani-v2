@@ -1,0 +1,163 @@
+{
+  "url": "https://www.maqamworld.com/en/instr/violin.php",
+  "path": "/en/instr/violin.php",
+  "section": "instr",
+  "slug": "instr/violin",
+  "kind": "entry",
+  "title": "The Arabic Violin",
+  "subtitle": "Kamanja or Kaman in Arabic",
+  "description": "The Arabic Violin",
+  "lang": "en",
+  "paragraphs": [
+    "The violin (called kamanja or kaman in Arabic) was incorporated into the Arabic ensemble toward the end of the 19th century and replaced indigenous varieties of fiddles like the kamanja, rababa, and jowza. While the argument can be made that the violin is the most obvious example of an Arabized instrument, it has long been naturalized, and has acquired its own tuning, playing technique and ornamentation style. The Arabic violin's sound is as esential to Arabic music as that of the oud and the qanun.",
+    "Although various tunings are used, the traditional Arab tuning is in fourths and fifths (G3, D4, G4, D5.) As a fretless instrument, the violin can produce all shades of intonation of the Arabic maqam system.",
+    "The Arabic violin's playing style is highly ornate, with slides, trills, wide vibrato, and double stops, often using an open string as a drone. The Arabic violin's timbre ranges from rich and warm, similar to the sound of the Western violin, to nasal and penetrating.",
+    "Explore other traditional instruments:"
+  ],
+  "text": "The Arabic Violin Kamanja or Kaman in Arabic Instrument Index © 2018 MaqamWorld Pronunciation of Kamanja The violin (called kamanja or kaman in Arabic) was incorporated into the Arabic ensemble toward the end of the 19 th century and replaced indigenous varieties of fiddles like the kamanja , rababa , and jowza . While the argument can be made that the violin is the most obvious example of an Arabized instrument, it has long been naturalized, and has acquired its own tuning, playing technique and ornamentation style. The Arabic violin's sound is as esential to Arabic music as that of the oud and the qanun . Although various tunings are used, the traditional Arab tuning is in fourths and fifths (G3, D4, G4, D5.) As a fretless instrument, the violin can produce all shades of intonation of the Arabic maqam system. The Arabic violin's playing style is highly ornate, with slides, trills, wide vibrato, and double stops, often using an open string as a drone. The Arabic violin's timbre ranges from rich and warm, similar to the sound of the Western violin, to nasal and penetrating. Sami al-Shawwa One of the early 20 th century Arabic violin pioneers, Syrian violinist Sami al-Shawwa (also known as the Prince of Violin) playing a Violin Taqsim in Maqam Hijazkar Ahmad al-Hifnawi Egyptian violinist Ahmad al-Hifnawi (who played first violin in the Umm Kulthum orchestra) playing the traditional instrumental composition Tahmila Rast (Suznak) , which includes a lot of improvisations. The ensemble also features George Michel on Oud, Mahmud ‘Effat on Nay and Hassan Anwar on Riqq Abbud Abdel ‘Al Palestinian-Lebanese violinist Abbud Abdel ‘Al playing a Violin Taqsim in Maqam Bayati over Iqa‘ Sama‘i Thaqil (recorded on Lebanese Television) ‘Abdu Daghir Egyptian violinist ‘Abdu Daghir and his ensemble playing his instrumental composition Sama‘i Maqam Kurd , including violin and qanun solos Simon Shaheen Palestinian violinist Simon Shaheen playing a Violin Taqsim in Maqam Rast over Iqa‘ Rumba , ending with the second half of Riyad al-Sunbati's instrumental composition Longa Farahfaza Explore other traditional instruments: The Oud The Nay The Qanun The Buzuq",
+  "tracks": [],
+  "notes": [],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/name/kamanja.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/instr/violin/kamanja.mp3",
+      "status": "downloaded",
+      "sha256": "c0dcaeadb7c6222ed6364419d95fd9d7106ea6cf2c368f56ce5c09045fc797e6",
+      "bytes": 17849,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/instr/violin.jpg",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/instr/violin/violin.jpg",
+      "status": "downloaded",
+      "sha256": "ba00354360351ae4fc5c0f5975877ce782239409ec40c56bd7a412b5e94dc666",
+      "bytes": 53099,
+      "content_type": null
+    },
+    {
+      "url": "https://img.youtube.com/vi/_ZWvLygSqkY/hqdefault.jpg",
+      "kind": "image",
+      "source": "content",
+      "local_path": null,
+      "status": "skipped_external",
+      "sha256": null,
+      "bytes": null,
+      "content_type": null
+    },
+    {
+      "url": "https://img.youtube.com/vi/bIUyrjpePhs/hqdefault.jpg",
+      "kind": "image",
+      "source": "content",
+      "local_path": null,
+      "status": "skipped_external",
+      "sha256": null,
+      "bytes": null,
+      "content_type": null
+    },
+    {
+      "url": "https://img.youtube.com/vi/-Atnx8aRrIg/hqdefault.jpg",
+      "kind": "image",
+      "source": "content",
+      "local_path": null,
+      "status": "skipped_external",
+      "sha256": null,
+      "bytes": null,
+      "content_type": null
+    },
+    {
+      "url": "https://img.youtube.com/vi/IQkQoZcC0jk/hqdefault.jpg",
+      "kind": "image",
+      "source": "content",
+      "local_path": null,
+      "status": "skipped_external",
+      "sha256": null,
+      "bytes": null,
+      "content_type": null
+    },
+    {
+      "url": "https://img.youtube.com/vi/2jVRlAbqscg/hqdefault.jpg",
+      "kind": "image",
+      "source": "content",
+      "local_path": null,
+      "status": "skipped_external",
+      "sha256": null,
+      "bytes": null,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Instrument Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "oud",
+      "url": "https://www.maqamworld.com/en/instr/oud.php",
+      "kind": "internal"
+    },
+    {
+      "text": "qanun",
+      "url": "https://www.maqamworld.com/en/instr/qanun.php",
+      "kind": "internal"
+    },
+    {
+      "text": "maqam",
+      "url": "https://www.maqamworld.com/en/maqam.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Hijazkar",
+      "url": "https://www.maqamworld.com/en/maqam/hijazkar.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Bayati",
+      "url": "https://www.maqamworld.com/en/maqam/bayati.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Iqa‘ Sama‘i Thaqil",
+      "url": "https://www.maqamworld.com/en/iqaa/samai.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Kurd",
+      "url": "https://www.maqamworld.com/en/maqam/kurd.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Rast",
+      "url": "https://www.maqamworld.com/en/maqam/rast.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Iqa‘ Rumba",
+      "url": "https://www.maqamworld.com/en/iqaa/rumba.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Farahfaza",
+      "url": "https://www.maqamworld.com/en/maqam/nahawand.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Nay",
+      "url": "https://www.maqamworld.com/en/instr/nay.php",
+      "kind": "internal"
+    },
+    {
+      "text": "The Buzuq",
+      "url": "https://www.maqamworld.com/en/instr/buzuq.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "042eea42c0da4600deb78df2e3699c62ca7d741db5cfd64378467a7a69475636",
+  "fetched_at": "2026-11-10T12:10:55.199770Z",
+  "status_code": 200,
+  "html_file": "data/raw/instr/violin.html"
+}

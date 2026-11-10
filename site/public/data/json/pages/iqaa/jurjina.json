@@ -1,0 +1,153 @@
+{
+  "url": "https://www.maqamworld.com/en/iqaa/jurjina.php",
+  "path": "/en/iqaa/jurjina.php",
+  "section": "iqaa",
+  "slug": "iqaa/jurjina",
+  "kind": "entry",
+  "title": "Iqa‘ Jurjina 10/8",
+  "subtitle": null,
+  "description": "Iqa‘ Jurjina",
+  "lang": "en",
+  "paragraphs": [
+    "Iqa‘ Jurjina is a widely used iqa‘ in Iraq and Iran, as well as in the Turkish and the Kurdish repertoires, both in the folk and classical genres. While it is infrequently used in the Near Eastern repertoire, it is sometimes used in Tunisian Malouf compositions."
+  ],
+  "text": "Iqa‘ Jurjina 10/8 Iqa‘ Index Pronunciation of Jurjina Iqa‘ Jurjina is a widely used iqa‘ in Iraq and Iran, as well as in the Turkish and the Kurdish repertoires, both in the folk and classical genres. While it is infrequently used in the Near Eastern repertoire, it is sometimes used in Tunisian Malouf compositions. Ya Umm il-'Uyun il-Sud Nazem al-Ghazali Music by Nazem Na‘im Muwashah Ya Hulu al-Lama Lutfi Bushnaq Muwashah Adir Rahati Tunisian Malouf Muwashah Ma Kuntu Adri Tunisian Malouf Iqa‘ Jurjina 10/8 Tabla demonstration by Faisal Zedan",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Ya Umm il-'Uyun il-Sud",
+      "artist": "Nazem al-Ghazali",
+      "credits": [
+        "Music by Nazem Na‘im"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/jurjina/yammul_3uyun.mp3",
+      "local_path": "data/media/iqaa/jurjina/yammul_3uyun.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Muwashah Ya Hulu al-Lama",
+      "artist": "Lutfi Bushnaq",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/jurjina/ya_hulu_al_lama.mp3",
+      "local_path": "data/media/iqaa/jurjina/ya_hulu_al_lama.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Muwashah Adir Rahati",
+      "artist": "Tunisian Malouf",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/jurjina/maluf_adir_rahati.mp3",
+      "local_path": "data/media/iqaa/jurjina/maluf_adir_rahati.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Muwashah Ma Kuntu Adri",
+      "artist": "Tunisian Malouf",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/jurjina/maluf_ma_kuntu_adri.mp3",
+      "local_path": "data/media/iqaa/jurjina/maluf_ma_kuntu_adri.mp3"
+    },
+    {
+      "index": 5,
+      "title": "Iqa‘ Jurjina 10/8",
+      "artist": "Tabla demonstration by Faisal Zedan",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/demo/iqaa/tabla/jurjina.mp3",
+      "local_path": "data/media/iqaa/jurjina/jurjina.mp3"
+    }
+  ],
+  "notes": [],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/jurjina/yammul_3uyun.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/jurjina/yammul_3uyun.mp3",
+      "status": "downloaded",
+      "sha256": "c0e5e6dc5853b0bcab67eeb0907fa2ed707e0118df0a7a1f25f335243e4d0fe7",
+      "bytes": 1489675,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/jurjina/ya_hulu_al_lama.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/jurjina/ya_hulu_al_lama.mp3",
+      "status": "downloaded",
+      "sha256": "f0b2588703bca6014da5c1a8f5993b2935c0b6d04ef49b78df80260ece23df3c",
+      "bytes": 561470,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/jurjina/maluf_adir_rahati.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/jurjina/maluf_adir_rahati.mp3",
+      "status": "downloaded",
+      "sha256": "d0e23a27da0f22695360a316af4af32a638968722a5185f602e5a4eedf1bba7e",
+      "bytes": 932081,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/jurjina/maluf_ma_kuntu_adri.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/jurjina/maluf_ma_kuntu_adri.mp3",
+      "status": "downloaded",
+      "sha256": "c544ca963cdbdfc7544ad594e1c5e318def91cab9b9bb1aa2738d252400d4dd6",
+      "bytes": 1320710,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/demo/iqaa/tabla/jurjina.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/jurjina/jurjina.mp3",
+      "status": "downloaded",
+      "sha256": "a193919497464f2347d7089b2567fdf540dd79ee14e449ff957f92828c60f01b",
+      "bytes": 779119,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/jurjina.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/iqaa/jurjina/jurjina-78ae8cf5.mp3",
+      "status": "downloaded",
+      "sha256": "855818911f77bf4a88172facaebe8f6a96f3dbd6d472fe5b2b2565ddb80bc3b8",
+      "bytes": 35525,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/iqaa/jurjina.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/jurjina/jurjina.png",
+      "status": "downloaded",
+      "sha256": "7e02e80c618f3ba934f4bace87a8122567bd080b4c283b0206008e1902ddba33",
+      "bytes": 14043,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/tabla.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/jurjina/tabla.png",
+      "status": "downloaded",
+      "sha256": "bc7d7630f1797012041feecf8f1a7bc6d926498a88661ab4f28451d50b6c8f30",
+      "bytes": 11602,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Iqa‘ Index",
+      "url": "#",
+      "kind": "anchor"
+    }
+  ],
+  "content_hash": "193656f7bca3180027ba73ea26bb2da898f35f762035bce0aa438bc0b10b2f26",
+  "fetched_at": "2026-11-10T12:10:55.111744Z",
+  "status_code": 200,
+  "html_file": "data/raw/iqaa/jurjina.html"
+}

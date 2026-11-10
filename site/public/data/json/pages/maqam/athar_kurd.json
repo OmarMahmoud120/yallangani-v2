@@ -1,0 +1,269 @@
+{
+  "url": "https://www.maqamworld.com/en/maqam/athar_kurd.php",
+  "path": "/en/maqam/athar_kurd.php",
+  "section": "maqam",
+  "slug": "maqam/athar_kurd",
+  "kind": "entry",
+  "title": "Maqam Athar Kurd",
+  "subtitle": "A member of the Maqam Nikriz Family",
+  "description": "Maqam Athar Kurd",
+  "lang": "en",
+  "paragraphs": [
+    "Click the notes and hold using the mouse to hear them play.",
+    "Maqam Athar Kurd is a very rare maqam that seems to be a 20th century development. Its scale starts with Athar Kurd on the tonic followed by Jins Hijazkar centered around the 5th degree.",
+    "The Maqam Athar Kurd scale is a hybrid between Maqam Nawa Athar and Maqam Kurd, hence the name.",
+    "Explore other maqamat in the Maqam Nikriz Family.",
+    "Watch a 1-minute sample Violin Taqsim in Maqam Athar Kurd by Sami Abu Shumays."
+  ],
+  "text": "Maqam Athar Kurd A member of the Maqam Nikriz Family Maqam Index Pronunciation of Athar Kurd Click the notes and hold using the mouse to hear them play. Maqam Athar Kurd is a very rare maqam that seems to be a 20 th century development. Its scale starts with Athar Kurd on the tonic followed by Jins Hijazkar centered around the 5 th degree. The Maqam Athar Kurd scale is a hybrid between Maqam Nawa Athar and Maqam Kurd , hence the name. Explore other maqamat in the Maqam Nikriz Family . Watch a 1-minute sample Violin Taqsim in Maqam Athar Kurd by Sami Abu Shumays. Ya Msafir w Albi Ma‘ak (1950) Leila Murad Music by Ahmad Sidqi el-Hana wel-Widd (1975) Leila Murad Music by Abdel Mun‘im al-Hariri Ya Fagr Nurak Hall w Ban (c.1952) Vocals by Baligh Hamdi Music by Yusef Shawqi el-Hobb Kida (1959) Umm Kulthum Music by Riyad al-Sunbati Sama‘i Hijazkar Kurd Al-Kindi Ensemble The Whirling Dervishes of Damascus Vol. 2 Music by Salah al-Mahdi (Tunisia) Taqsim Oud Riyad al-Sunbati Taqaseem Oud Taqsim Oud Athar Kurd Muhammad Qadri Dalal Maqamat Insolites",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Ya Msafir w Albi Ma‘ak (1950)",
+      "artist": "Leila Murad",
+      "credits": [
+        "Music by Ahmad Sidqi"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/athar_kurd/raydak.mp3",
+      "local_path": "data/media/maqam/athar_kurd/raydak.mp3"
+    },
+    {
+      "index": 2,
+      "title": "el-Hana wel-Widd (1975)",
+      "artist": "Leila Murad",
+      "credits": [
+        "Music by Abdel Mun‘im al-Hariri"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/athar_kurd/el_hana_wel_widd.mp3",
+      "local_path": "data/media/maqam/athar_kurd/el_hana_wel_widd.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Ya Fagr Nurak Hall w Ban (c.1952)",
+      "artist": "Vocals by Baligh Hamdi",
+      "credits": [
+        "Music by Yusef Shawqi"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/athar_kurd/ya_fagr_nurak.mp3",
+      "local_path": "data/media/maqam/athar_kurd/ya_fagr_nurak.mp3"
+    },
+    {
+      "index": 4,
+      "title": "el-Hobb Kida (1959)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Riyad al-Sunbati"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/athar_kurd/el_hobb_kida.mp3",
+      "local_path": "data/media/maqam/athar_kurd/el_hobb_kida.mp3"
+    },
+    {
+      "index": 5,
+      "title": "Sama‘i Hijazkar Kurd",
+      "artist": "Al-Kindi Ensemble",
+      "credits": [
+        "The Whirling Dervishes of Damascus Vol. 2",
+        "Music by Salah al-Mahdi (Tunisia)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/athar_kurd/samai_athar_kurd.mp3",
+      "local_path": "data/media/maqam/athar_kurd/samai_athar_kurd.mp3"
+    },
+    {
+      "index": 6,
+      "title": "Taqsim Oud",
+      "artist": "Riyad al-Sunbati",
+      "credits": [
+        "Taqaseem Oud"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/athar_kurd/taqsim_oud_sunbati.mp3",
+      "local_path": "data/media/maqam/athar_kurd/taqsim_oud_sunbati.mp3"
+    },
+    {
+      "index": 7,
+      "title": "Taqsim Oud Athar Kurd",
+      "artist": "Muhammad Qadri Dalal",
+      "credits": [
+        "Maqamat Insolites"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/athar_kurd/taqsim_oud_athar_kurd.mp3",
+      "local_path": "data/media/maqam/athar_kurd/taqsim_oud_athar_kurd.mp3"
+    }
+  ],
+  "notes": [
+    {
+      "name": "C4",
+      "frequency": 260.74
+    },
+    {
+      "name": "D4♭",
+      "frequency": 274.0
+    },
+    {
+      "name": "E4♭",
+      "frequency": 308.25
+    },
+    {
+      "name": "F4♯",
+      "frequency": 375.0
+    },
+    {
+      "name": "G4",
+      "frequency": 391.11
+    },
+    {
+      "name": "A4♭",
+      "frequency": 423.0
+    },
+    {
+      "name": "B4♮",
+      "frequency": 492.0
+    },
+    {
+      "name": "C5",
+      "frequency": 521.48
+    }
+  ],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/athar_kurd/raydak.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/athar_kurd/raydak.mp3",
+      "status": "downloaded",
+      "sha256": "8017a4dff4aaad4b722b3b48b61bd3f26fe268df3cd4463d6dc7a8350e9c60d4",
+      "bytes": 737885,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/athar_kurd/el_hana_wel_widd.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/athar_kurd/el_hana_wel_widd.mp3",
+      "status": "downloaded",
+      "sha256": "6bdccf5c56c1a74a28f126c1e320fd42bf4fda6f58a6f5263c5c0560a0aa1503",
+      "bytes": 826490,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/athar_kurd/ya_fagr_nurak.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/athar_kurd/ya_fagr_nurak.mp3",
+      "status": "downloaded",
+      "sha256": "f0f928c0c597777eb27b5d10c5539e1cac91375d9049e5cb3217e56f9df39bc6",
+      "bytes": 839234,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/athar_kurd/el_hobb_kida.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/athar_kurd/el_hobb_kida.mp3",
+      "status": "downloaded",
+      "sha256": "c30679aac79921002b6031c55e5d5fcd0c72acee0b578b8c4cefc0534048a631",
+      "bytes": 620181,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/athar_kurd/samai_athar_kurd.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/athar_kurd/samai_athar_kurd.mp3",
+      "status": "downloaded",
+      "sha256": "68957667be5d0cfb84218eb975b8262a6e3fd71162d89c93a65e905a64fb6cc4",
+      "bytes": 400081,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/athar_kurd/taqsim_oud_sunbati.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/athar_kurd/taqsim_oud_sunbati.mp3",
+      "status": "downloaded",
+      "sha256": "f2a8835601b3f238c259bf858f4456401b3480be211b7170942f601e523b1672",
+      "bytes": 477470,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/athar_kurd/taqsim_oud_athar_kurd.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/athar_kurd/taqsim_oud_athar_kurd.mp3",
+      "status": "downloaded",
+      "sha256": "d2ccd7d94d83dcbdc836e2cf921cb241e94858bfe5d79d1de75362d705dac0c6",
+      "bytes": 810084,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/athar_kurd.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/maqam/athar_kurd/athar_kurd.mp3",
+      "status": "downloaded",
+      "sha256": "b48cc6b6fc1d5a802ad3a0aef2de6683ac7b78539e0e3b26c65be67a2dbc1656",
+      "bytes": 44929,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/maqam/athar_kurd.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/maqam/athar_kurd/athar_kurd.png",
+      "status": "downloaded",
+      "sha256": "bcc94f79b849bf4d6726c380a2141ee6c62547f228b75e072d825915430ad1a0",
+      "bytes": 15165,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/cd.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/maqam/athar_kurd/cd.png",
+      "status": "downloaded",
+      "sha256": "1f52da76667703a00010a07afefc9d78b6c3ccb8359b906fc6fd6b0cddd0255f",
+      "bytes": 5478,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Maqam Nikriz Family",
+      "url": "https://www.maqamworld.com/en/maqam/f_nikriz.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Athar Kurd",
+      "url": "https://www.maqamworld.com/en/jins/athar_kurd.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Hijazkar",
+      "url": "https://www.maqamworld.com/en/jins/hijazkar.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Nawa Athar",
+      "url": "https://www.maqamworld.com/en/maqam/nawa_athar.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Kurd",
+      "url": "https://www.maqamworld.com/en/maqam/kurd.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Violin Taqsim in Maqam Athar Kurd",
+      "url": "https://www.instagram.com/p/B-Ag4PLFM7t",
+      "kind": "external"
+    }
+  ],
+  "content_hash": "8ebe37c754ab019b92615740cba80b7b0126d3c3c5912a40d5c413fc0686a07f",
+  "fetched_at": "2026-11-10T12:10:54.842778Z",
+  "status_code": 200,
+  "html_file": "data/raw/maqam/athar_kurd.html"
+}

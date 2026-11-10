@@ -1,0 +1,178 @@
+{
+  "url": "https://www.maqamworld.com/en/iqaa/awis.php",
+  "path": "/en/iqaa/awis.php",
+  "section": "iqaa",
+  "slug": "iqaa/awis",
+  "kind": "entry",
+  "title": "Iqa‘ ‘Awis 11/8",
+  "subtitle": null,
+  "description": "Iqa‘ ‘Awis",
+  "lang": "en",
+  "paragraphs": [
+    "Iqa‘ ‘Awis is mostly used with the Muwashah genre. Some ‘Awis pieces start from the 3rd beat (the first tak), like for example \"Muwashah Munyati Man Rumtu Qurbuhu\". Meanwhile \"Muwashah Hibbi Da‘ani Lil-Wisal\" starts the melody on the 11th beat (the last tak)."
+  ],
+  "text": "Iqa‘ ‘Awis 11/8 Iqa‘ Index Pronunciation of ‘Awis Iqa‘ ‘Awis is mostly used with the Muwashah genre. Some ‘Awis pieces start from the 3 rd beat (the first tak ), like for example \"Muwashah Munyati Man Rumtu Qurbuhu\". Meanwhile \"Muwashah Hibbi Da‘ani Lil-Wisal\" starts the melody on the 11 th beat (the last tak ). Muwashah Hibbi Da‘ani Lil-Wisal Sabah Fakhri Music by Sayyed Darwish Nagham Al-Ams Vol.2 - Bayati Shuri Muwashah Munyati Man Rumtu Qurbuh Sabah Fakhri Music by ‘Umar al-Batsh Nagham Al-Ams Vol.9 - Rast Muwashah Munyati Sidu-l-Milah (performed in 11/4) The munshid Mahmud Fares Music by ‘Umar al-Batsh Muwashah Ukhfi el-Hawa (2019) Firqat al-Turath al-Musiqi al-Arabi (Lebanon) Music by Dr. Hayaf Yassine Poem by 'Umar Ibn al-Fared Iqa‘ ‘Awis 11/8 Tabla demonstration by Faisal Zedan",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Muwashah Hibbi Da‘ani Lil-Wisal",
+      "artist": "Sabah Fakhri",
+      "credits": [
+        "Music by Sayyed Darwish",
+        "Nagham Al-Ams Vol.2 - Bayati Shuri"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/awis/hibbi_da3ani1.mp3",
+      "local_path": "data/media/iqaa/awis/hibbi_da3ani1.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Muwashah Munyati Man Rumtu Qurbuh",
+      "artist": "Sabah Fakhri",
+      "credits": [
+        "Music by ‘Umar al-Batsh",
+        "Nagham Al-Ams Vol.9 - Rast"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/awis/munyati_man_rumtu.mp3",
+      "local_path": "data/media/iqaa/awis/munyati_man_rumtu.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Muwashah Munyati Sidu-l-Milah",
+      "artist": "(performed in 11/4)",
+      "credits": [
+        "The munshid Mahmud Fares",
+        "Music by ‘Umar al-Batsh"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/awis/munyati_sidul_milah.mp3",
+      "local_path": "data/media/iqaa/awis/munyati_sidul_milah.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Muwashah Ukhfi el-Hawa (2019)",
+      "artist": "Firqat al-Turath al-Musiqi al-Arabi (Lebanon)",
+      "credits": [
+        "Music by Dr. Hayaf Yassine",
+        "Poem by 'Umar Ibn al-Fared"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/iqaa/awis/ukhfi_el_hawa.mp3",
+      "local_path": "data/media/iqaa/awis/ukhfi_el_hawa.mp3"
+    },
+    {
+      "index": 5,
+      "title": "Iqa‘ ‘Awis 11/8",
+      "artist": "Tabla demonstration by Faisal Zedan",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/demo/iqaa/tabla/awis.mp3",
+      "local_path": "data/media/iqaa/awis/awis.mp3"
+    }
+  ],
+  "notes": [],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/awis/hibbi_da3ani1.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/awis/hibbi_da3ani1.mp3",
+      "status": "downloaded",
+      "sha256": "a6338e86c5454a94370f573cb506b983c0c9e4c72fa78157319548f8ddabbb35",
+      "bytes": 808266,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/awis/munyati_man_rumtu.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/awis/munyati_man_rumtu.mp3",
+      "status": "downloaded",
+      "sha256": "38d2c0d88dc1a8a51b03cd5f71c297da1b08bc692952f05808bc19a799b39b80",
+      "bytes": 898530,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/awis/munyati_sidul_milah.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/awis/munyati_sidul_milah.mp3",
+      "status": "downloaded",
+      "sha256": "5609c7729bc6e020400de93afe688a9e2e7649911865bbbfc7da30fda74b0612",
+      "bytes": 2032120,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/iqaa/awis/ukhfi_el_hawa.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/awis/ukhfi_el_hawa.mp3",
+      "status": "downloaded",
+      "sha256": "964503ae5eb5ec6839a71ade44623ac18b8678e7305e14bd58fc304e60bfd0fd",
+      "bytes": 1631483,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/demo/iqaa/tabla/awis.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/iqaa/awis/awis.mp3",
+      "status": "downloaded",
+      "sha256": "c510d97b35b4b60ef345a63f5b61ed47e19a9c0b5a933f96940302282a65cc24",
+      "bytes": 782045,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/awis.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/iqaa/awis/awis-8871021a.mp3",
+      "status": "downloaded",
+      "sha256": "1450f77517864cf1feb690d02c499c3b99ad328cc9171ef1c7bf8a27afacf726",
+      "bytes": 35525,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/iqaa/awis.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/awis/awis.png",
+      "status": "downloaded",
+      "sha256": "ef3c154910e036418f6f56bdeae8caf6e0a00e0280ff1ec948de085bf1ab23a7",
+      "bytes": 14148,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/cd.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/awis/cd.png",
+      "status": "downloaded",
+      "sha256": "1f52da76667703a00010a07afefc9d78b6c3ccb8359b906fc6fd6b0cddd0255f",
+      "bytes": 5478,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/tabla.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/iqaa/awis/tabla.png",
+      "status": "downloaded",
+      "sha256": "bc7d7630f1797012041feecf8f1a7bc6d926498a88661ab4f28451d50b6c8f30",
+      "bytes": 11602,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Iqa‘ Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Muwashah",
+      "url": "https://www.maqamworld.com/en/form/vocal_comp.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "4f17707185e2b06c6e92d3b18c0c2ac2faced2f796e1a576b73b08b8a4aeb6dc",
+  "fetched_at": "2026-11-10T12:10:55.093263Z",
+  "status_code": 200,
+  "html_file": "data/raw/iqaa/awis.html"
+}

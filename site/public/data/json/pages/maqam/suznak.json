@@ -1,0 +1,220 @@
+{
+  "url": "https://www.maqamworld.com/en/maqam/suznak.php",
+  "path": "/en/maqam/suznak.php",
+  "section": "maqam",
+  "slug": "maqam/suznak",
+  "kind": "entry",
+  "title": "Maqam Suznak",
+  "subtitle": "A member of the Maqam Rast Family",
+  "description": "Maqam Suznak",
+  "lang": "en",
+  "paragraphs": [
+    "Click the notes and hold using the mouse to hear them play.",
+    "Maqam Suznak is the most popular modulation of Maqam Rast, where the modulation to Jins Hijaz on the 5th scale degree is practically obligatory in any taqsim or mawwal starting on the root Jins Rast.",
+    "Explore other maqamat in the Maqam Rast Family.",
+    "Watch a 1-minute sample Violin Taqsim in Maqam Suznak by Sami Abu Shumays."
+  ],
+  "text": "Maqam Suznak A member of the Maqam Rast Family Maqam Index Pronunciation of Suznak Click the notes and hold using the mouse to hear them play. Maqam Suznak is the most popular modulation of Maqam Rast , where the modulation to Jins Hijaz on the 5 th scale degree is practically obligatory in any taqsim or mawwal starting on the root Jins Rast . Explore other maqamat in the Maqam Rast Family . Watch a 1-minute sample Violin Taqsim in Maqam Suznak by Sami Abu Shumays. Qadd Malik Ya Hilwa Muhammad Khayri Dawr Asl il-Gharam Nour el-Hoda Music by Muhammad ‘Uthman Ghannili Shwayy Shwayy (1945) Umm Kulthum Music by Zakariya Ahmad (Egypt) Tahmila Suznak Simon Shaheen Turath - Masterworks of the Middle East Taqsim Qanun in Maqam Suznak Abraham Salman Saltanah",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Qadd Malik Ya Hilwa",
+      "artist": "Muhammad Khayri",
+      "credits": [],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/suznak/qadd_malik_ya_hilwa.mp3",
+      "local_path": "data/media/maqam/suznak/qadd_malik_ya_hilwa.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Dawr Asl il-Gharam",
+      "artist": "Nour el-Hoda",
+      "credits": [
+        "Music by Muhammad ‘Uthman"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/suznak/dawr_asl_el_gharam.mp3",
+      "local_path": "data/media/maqam/suznak/dawr_asl_el_gharam.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Ghannili Shwayy Shwayy (1945)",
+      "artist": "Umm Kulthum",
+      "credits": [
+        "Music by Zakariya Ahmad (Egypt)"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/suznak/ghannili_verse3.mp3",
+      "local_path": "data/media/maqam/suznak/ghannili_verse3.mp3"
+    },
+    {
+      "index": 4,
+      "title": "Tahmila Suznak",
+      "artist": "Simon Shaheen",
+      "credits": [
+        "Turath - Masterworks of the Middle East"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/suznak/tahmila_suznak.mp3",
+      "local_path": "data/media/maqam/suznak/tahmila_suznak.mp3"
+    },
+    {
+      "index": 5,
+      "title": "Taqsim Qanun in Maqam Suznak",
+      "artist": "Abraham Salman",
+      "credits": [
+        "Saltanah"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/maqam/suznak/taqsim_qanun_salman.mp3",
+      "local_path": "data/media/maqam/suznak/taqsim_qanun_salman.mp3"
+    }
+  ],
+  "notes": [
+    {
+      "name": "C4",
+      "frequency": 260.74
+    },
+    {
+      "name": "D4",
+      "frequency": 293.33
+    },
+    {
+      "name": "E4",
+      "frequency": 320.0
+    },
+    {
+      "name": "F4",
+      "frequency": 347.65
+    },
+    {
+      "name": "G4",
+      "frequency": 391.11
+    },
+    {
+      "name": "A4♭",
+      "frequency": 423.0
+    },
+    {
+      "name": "B4♮",
+      "frequency": 492.0
+    },
+    {
+      "name": "C5",
+      "frequency": 521.48
+    }
+  ],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/suznak/qadd_malik_ya_hilwa.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/suznak/qadd_malik_ya_hilwa.mp3",
+      "status": "downloaded",
+      "sha256": "2a0ed7bcdd5653128e41cc642ca4aaebfc7846a530640aa0a6b41998d016367e",
+      "bytes": 782317,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/suznak/dawr_asl_el_gharam.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/suznak/dawr_asl_el_gharam.mp3",
+      "status": "downloaded",
+      "sha256": "860bc519b56cb081ec4df07c05c3c49a13592ddf9ea94b1608d4edff85b6f2d2",
+      "bytes": 880978,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/suznak/ghannili_verse3.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/suznak/ghannili_verse3.mp3",
+      "status": "downloaded",
+      "sha256": "a894c137983bc218602176d50d0ec7b64a4a760a54b9909d496e65fa3fb028f7",
+      "bytes": 1279616,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/suznak/tahmila_suznak.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/suznak/tahmila_suznak.mp3",
+      "status": "downloaded",
+      "sha256": "b7c3f4d4255612b827151a568b7e436d61954fff68dec67549d7b0e246c34a03",
+      "bytes": 1021719,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/maqam/suznak/taqsim_qanun_salman.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/maqam/suznak/taqsim_qanun_salman.mp3",
+      "status": "downloaded",
+      "sha256": "9abcd699914ae0217624328b2fdb7318a31e8d416ce0375f8cc4478e172d865a",
+      "bytes": 521817,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/suznak.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/maqam/suznak/suznak.mp3",
+      "status": "downloaded",
+      "sha256": "7caa958b9daf4a4cc16632b79e0524992783a6204435843233397af70d7a8526",
+      "bytes": 40750,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/maqam/suznak.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/maqam/suznak/suznak.png",
+      "status": "downloaded",
+      "sha256": "713cd78015e28b5c32c8f2a52e8b083a455f8261d2e64b43a9dddf45cafee12b",
+      "bytes": 12270,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/img/cd.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/maqam/suznak/cd.png",
+      "status": "downloaded",
+      "sha256": "1f52da76667703a00010a07afefc9d78b6c3ccb8359b906fc6fd6b0cddd0255f",
+      "bytes": 5478,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Maqam Rast Family",
+      "url": "https://www.maqamworld.com/en/maqam/f_rast.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Maqam Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Maqam Rast",
+      "url": "https://www.maqamworld.com/en/maqam/rast.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Hijaz",
+      "url": "https://www.maqamworld.com/en/jins/hjaz.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Rast",
+      "url": "https://www.maqamworld.com/en/maqam/jns/rast.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Violin Taqsim in Maqam Suznak",
+      "url": "https://www.instagram.com/p/B-UjmDDlZKq",
+      "kind": "external"
+    }
+  ],
+  "content_hash": "55edfe1a1b32126fe0605d789e2773de48c99a90bab8868aff1bcab66fc8e424",
+  "fetched_at": "2026-11-10T12:10:55.006704Z",
+  "status_code": 200,
+  "html_file": "data/raw/maqam/suznak.html"
+}

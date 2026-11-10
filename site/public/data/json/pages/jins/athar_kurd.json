@@ -1,0 +1,160 @@
+{
+  "url": "https://www.maqamworld.com/en/jins/athar_kurd.php",
+  "path": "/en/jins/athar_kurd.php",
+  "section": "jins",
+  "slug": "jins/athar_kurd",
+  "kind": "entry",
+  "title": "Jins Athar Kurd",
+  "subtitle": "A combination of Jins Kurd and Jins Nikriz",
+  "description": "Jins Athar Kurd",
+  "lang": "en",
+  "paragraphs": [
+    "Click the notes and hold using the mouse to hear them play.",
+    "Jins Athar Kurd is a 5-note jins. It is notated here with its tonic on C and its ghammaz on G. Jins Athar Kurd is the first jins in Maqam Athar Kurd."
+  ],
+  "text": "Jins Athar Kurd A combination of Jins Kurd and Jins Nikriz Jins Index Pronunciation of Athar Kurd Click the notes and hold using the mouse to hear them play. Jins Athar Kurd is a 5-note jins . It is notated here with its tonic on C and its ghammaz on G. Jins Athar Kurd is the first jins in Maqam Athar Kurd . Habibaha (1965) Abdel Halim Hafez Music by Muhammad al-Mugi Raydak (1950) Leila Murad Music by Ahmad Sidqi Ya Fagr Nurak Halli We Ban (c.1952) Baligh Hamdi Music by Yussef Shawqi",
+  "tracks": [
+    {
+      "index": 1,
+      "title": "Habibaha (1965)",
+      "artist": "Abdel Halim Hafez",
+      "credits": [
+        "Music by Muhammad al-Mugi"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/athar_kurd/habibaha.mp3",
+      "local_path": "data/media/jins/athar_kurd/habibaha.mp3"
+    },
+    {
+      "index": 2,
+      "title": "Raydak (1950)",
+      "artist": "Leila Murad",
+      "credits": [
+        "Music by Ahmad Sidqi"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/athar_kurd/raydak.mp3",
+      "local_path": "data/media/jins/athar_kurd/raydak.mp3"
+    },
+    {
+      "index": 3,
+      "title": "Ya Fagr Nurak Halli We Ban (c.1952)",
+      "artist": "Baligh Hamdi",
+      "credits": [
+        "Music by Yussef Shawqi"
+      ],
+      "audio_url": "https://www.maqamworld.com/audio/jins/athar_kurd/ya_fagr_nurak.mp3",
+      "local_path": "data/media/jins/athar_kurd/ya_fagr_nurak.mp3"
+    }
+  ],
+  "notes": [
+    {
+      "name": "A3♭",
+      "frequency": 211.0
+    },
+    {
+      "name": "B3♮",
+      "frequency": 247.5
+    },
+    {
+      "name": "C4",
+      "frequency": 260.74
+    },
+    {
+      "name": "D4♭",
+      "frequency": 274.0
+    },
+    {
+      "name": "E4♭",
+      "frequency": 309.0
+    },
+    {
+      "name": "F4♯",
+      "frequency": 375.0
+    },
+    {
+      "name": "G4",
+      "frequency": 391.11
+    },
+    {
+      "name": "A4♭",
+      "frequency": 423.0
+    }
+  ],
+  "media": [
+    {
+      "url": "https://www.maqamworld.com/audio/jins/athar_kurd/habibaha.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/athar_kurd/habibaha.mp3",
+      "status": "downloaded",
+      "sha256": "482d836f34dc9281ce25802b4a0c2d8195745f0a4447a1d6d93630c8c7867c06",
+      "bytes": 644579,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/athar_kurd/raydak.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/athar_kurd/raydak.mp3",
+      "status": "downloaded",
+      "sha256": "8017a4dff4aaad4b722b3b48b61bd3f26fe268df3cd4463d6dc7a8350e9c60d4",
+      "bytes": 737885,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/jins/athar_kurd/ya_fagr_nurak.mp3",
+      "kind": "audio",
+      "source": "track",
+      "local_path": "data/media/jins/athar_kurd/ya_fagr_nurak.mp3",
+      "status": "downloaded",
+      "sha256": "0e892795694cd7d37060c3120a9d428bed823b19d59f992bf5969a0d6a608cbb",
+      "bytes": 393987,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/audio/name/athar_kurd.mp3",
+      "kind": "audio",
+      "source": "pronunciation",
+      "local_path": "data/media/jins/athar_kurd/athar_kurd.mp3",
+      "status": "downloaded",
+      "sha256": "b48cc6b6fc1d5a802ad3a0aef2de6683ac7b78539e0e3b26c65be67a2dbc1656",
+      "bytes": 44929,
+      "content_type": null
+    },
+    {
+      "url": "https://www.maqamworld.com/note/jins/athar_kurd.png",
+      "kind": "image",
+      "source": "content",
+      "local_path": "data/media/jins/athar_kurd/athar_kurd.png",
+      "status": "downloaded",
+      "sha256": "2c6c2d6cf919546cd671867dd2b87401838f827cc024775cb31800eb18336e2b",
+      "bytes": 11019,
+      "content_type": null
+    }
+  ],
+  "links": [
+    {
+      "text": "Jins Kurd",
+      "url": "https://www.maqamworld.com/en/jins/kurd.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Nikriz",
+      "url": "https://www.maqamworld.com/en/jins/nikriz.php",
+      "kind": "internal"
+    },
+    {
+      "text": "Jins Index",
+      "url": "#",
+      "kind": "anchor"
+    },
+    {
+      "text": "Maqam Athar Kurd",
+      "url": "https://www.maqamworld.com/en/maqam/athar_kurd.php",
+      "kind": "internal"
+    }
+  ],
+  "content_hash": "011037269d6d5a823979ec1ed9324ca513f79e985d340732cda68117aed37397",
+  "fetched_at": "2026-11-10T12:10:55.049380Z",
+  "status_code": 200,
+  "html_file": "data/raw/jins/athar_kurd.html"
+}
