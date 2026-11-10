@@ -4,6 +4,7 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -19,12 +20,14 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.LiveRegionMode
 import androidx.compose.ui.semantics.liveRegion
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.unit.dp
 import com.osmartapps.yallanghanee.R
+import com.osmartapps.yallanghanee.model.Track
 import com.osmartapps.yallanghanee.ui.theme.NightBg
 import com.osmartapps.yallanghanee.ui.theme.NightError
 import com.osmartapps.yallanghanee.ui.theme.NightGold
@@ -87,6 +90,9 @@ fun FeedbackPanel(
     answerName: String,
     explanation: String,
     accent: Color,
+    track: Track? = null,
+    notationUrl: String? = null,
+    sourceUrl: String? = null,
 ) {
     val tone = if (correct) NightSuccess else NightError
     Column(
@@ -118,11 +124,43 @@ fun FeedbackPanel(
             color = NightText,
             style = MaterialTheme.typography.bodyMedium,
         )
+        NotationImage(
+            url = notationUrl,
+            contentDescription = stringResource(R.string.lesson_notation_cd, answerName),
+            modifier = Modifier.padding(top = 4.dp),
+        )
+        if (track != null) {
+            Text(
+                text = stringResource(R.string.lesson_track, track.title, track.artist),
+                color = NightTextMuted,
+                style = MaterialTheme.typography.labelMedium,
+            )
+            track.credits.forEach { credit ->
+                Text(
+                    text = stringResource(R.string.lesson_credits, credit),
+                    color = NightTextMuted.copy(alpha = 0.85f),
+                    style = MaterialTheme.typography.labelSmall,
+                )
+            }
+        }
+        if (sourceUrl != null) {
+            val uriHandler = LocalUriHandler.current
+            TextButton(
+                onClick = { runCatching { uriHandler.openUri(sourceUrl) } },
+                contentPadding = PaddingValues(0.dp),
+            ) {
+                Text(
+                    text = stringResource(R.string.lesson_source),
+                    color = NightGold,
+                    style = MaterialTheme.typography.labelMedium,
+                )
+            }
+        }
     }
 }
 
 @Composable
-fun AudioErrorPanel(onRetry: () -> Unit, onSkip: () -> Unit) {
+fun AudioErrorPanel(message: String? = null, onRetry: () -> Unit, onSkip: () -> Unit) {
     Column(
         modifier = Modifier
             .fillMaxWidth()
@@ -133,7 +171,7 @@ fun AudioErrorPanel(onRetry: () -> Unit, onSkip: () -> Unit) {
         verticalArrangement = Arrangement.spacedBy(10.dp),
     ) {
         Text(
-            text = stringResource(R.string.lesson_audio_error),
+            text = message ?: stringResource(R.string.lesson_audio_error),
             color = NightText,
             style = MaterialTheme.typography.titleSmall,
         )

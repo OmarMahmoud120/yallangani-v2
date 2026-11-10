@@ -40,6 +40,23 @@
   --font-display: "Aref Ruqaa", "IBM Plex Sans Arabic", serif;
 }
 
+html[lang="en"] {
+  --font-display: "IBM Plex Sans Arabic", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+html[lang="en"] body {
+  line-height: 1.7;
+}
+
+html[lang="en"] .hero h1 {
+  font-size: clamp(42px, 6vw, 68px);
+  letter-spacing: -0.01em;
+}
+
+html[lang="en"] .step::before {
+  content: counter(step, decimal);
+}
+
 *,
 *::before,
 *::after {
@@ -212,6 +229,33 @@ img {
 
 .site-header .btn {
   margin-inline-start: 0;
+}
+
+/* Language switch */
+
+.lang-switch {
+  display: inline-flex;
+  gap: 4px;
+  padding: 4px;
+  border: 1px solid rgba(217, 169, 79, 0.35);
+  border-radius: 999px;
+  font-size: 13px;
+}
+
+.lang-switch a {
+  padding: 4px 12px;
+  border-radius: 999px;
+  color: var(--muted);
+}
+
+.lang-switch a:hover {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.lang-switch a[aria-current="true"] {
+  background: rgba(217, 169, 79, 0.16);
+  color: var(--text);
 }
 
 /* Buttons */

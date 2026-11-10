@@ -33,13 +33,20 @@ import androidx.compose.runtime.setValue
 import androidx.compose.runtime.withFrameNanos
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.unit.dp
 import com.osmartapps.yallanghanee.R
 import com.osmartapps.yallanghanee.audio.AudioPlayer
+import com.osmartapps.yallanghanee.audio.hasNetwork
+import com.osmartapps.yallanghanee.audio.isRemoteSource
+import com.osmartapps.yallanghanee.game.RecognitionEngine
 import com.osmartapps.yallanghanee.game.RecognitionSession
+import com.osmartapps.yallanghanee.model.name
 import com.osmartapps.yallanghanee.ui.components.AnswerCard
 import com.osmartapps.yallanghanee.ui.components.AudioErrorPanel
 import com.osmartapps.yallanghanee.ui.components.DroneToggle
@@ -68,64 +75,125 @@ fun LessonScreen(
     onNext: () -> Unit,
     onSkip: () -> Unit,
     onExit: () -> Unit,
+    onHint: () -> Unit = {},
+    hintUnavailable: Boolean = false,
 ) {
     val context = LocalContext.current
+    val language = LocalAppLanguage.current
     val player = remember(context) { AudioPlayer(context) }
     var playing by remember { mutableStateOf(false) }
+    var loading by remember { mutableStateOf(false) }
     var progress by remember { mutableStateOf(0f) }
     var slow by rememberSaveable { mutableStateOf(false) }
     var droneOn by rememberSaveable { mutableStateOf(false) }
     var comparing by remember { mutableStateOf(false) }
     var audioError by remember { mutableStateOf(false) }
+    var offline by remember { mutableStateOf(false) }
     var showExitDialog by remember { mutableStateOf(false) }
     val scrollState = rememberScrollState()
 
     val question = session.question
     val speed = if (slow) SLOW_SPEED else 1f
+    val hintDescription = stringResource(R.string.lesson_hint_cd)
 
     fun stopPhrasePlayback() {
         player.stopPhrase()
         playing = false
+        loading = false
         progress = 0f
         comparing = false
     }
 
     fun playPhrase() {
+        val source = question.audio
+        if (source == null) {
+            playing = false
+            loading = false
+            audioError = true
+            offline = false
+            return
+        }
+        if (isRemoteSource(source) && !hasNetwork(context)) {
+            stopPhrasePlayback()
+            offline = true
+            audioError = true
+            return
+        }
         audioError = false
+        offline = false
         comparing = false
         progress = 0f
+        loading = true
         player.play(
-            assetPath = question.audio,
+            source = source,
             speed = speed,
+            onStarted = {
+                loading = false
+                playing = true
+            },
             onFinished = {
                 playing = false
+                loading = false
                 progress = 1f
             },
             onInterrupted = {
                 playing = false
+                loading = false
                 progress = 0f
             },
             onError = {
                 playing = false
+                loading = false
                 audioError = true
+                offline = isRemoteSource(source) && !hasNetwork(context)
             },
         )
-        playing = player.isPlaying
     }
 
     fun playComparison() {
+        val answerSource = question.audio
+        val contrastSource = question.contrastAudio
+        if (answerSource == null || contrastSource == null) {
+            audioError = true
+            return
+        }
+        val remote = isRemoteSource(answerSource) || isRemoteSource(contrastSource)
+        if (remote && !hasNetwork(context)) {
+            stopPhrasePlayback()
+            offline = true
+            audioError = true
+            return
+        }
         audioError = false
-        playing = false
+        offline = false
         progress = 0f
         comparing = true
+        loading = true
         player.playSequence(
-            assetPaths = listOf(question.audio, question.contrastAudio),
+            sources = listOf(answerSource, contrastSource),
             speed = speed,
-            onFinished = { comparing = false },
-            onInterrupted = { comparing = false },
+            onStarted = {
+                loading = false
+                playing = true
+            },
+            onFinished = {
+                comparing = false
+                playing = false
+                loading = false
+                progress = 0f
+            },
+            onInterrupted = {
+                comparing = false
+                playing = false
+                loading = false
+                progress = 0f
+            },
             onError = {
                 comparing = false
+                playing = false
+                loading = false
                 audioError = true
+                offline = remote && !hasNetwork(context)
             },
         )
     }
@@ -137,20 +205,20 @@ fun LessonScreen(
 
     LaunchedEffect(session.answered) {
         if (session.answered) {
+            stopPhrasePlayback()
             withFrameNanos { }
             scrollState.animateScrollTo(scrollState.maxValue)
         }
     }
 
     LaunchedEffect(playing, session.index) {
-        while (playing && player.isPlaying) {
+        while (playing) {
             val duration = player.durationMs()
             if (duration > 0) {
                 progress = (player.positionMs().toFloat() / duration).coerceIn(0f, 1f)
             }
             delay(100)
         }
-        if (playing && !player.isPlaying) playing = false
     }
 
     LaunchedEffect(droneOn, question.droneAudio) {
@@ -204,7 +272,7 @@ fun LessonScreen(
                     active = slow,
                     onToggle = {
                         slow = !slow
-                        stopPhrasePlayback()
+                        player.setSpeed(if (slow) SLOW_SPEED else 1f)
                     },
                 )
             }
@@ -242,11 +310,12 @@ fun LessonScreen(
                     text = stringResource(
                         when {
                             comparing -> R.string.lesson_compare_caption
+                            loading -> R.string.lesson_loading_audio
                             playing -> R.string.lesson_playing
                             else -> R.string.lesson_listen
                         },
-                        question.answer.nameAr,
-                        question.contrast.nameAr,
+                        question.answer.name(language),
+                        question.contrast.name(language),
                     ),
                     color = if (comparing) NightGold else NightTextMuted,
                     style = MaterialTheme.typography.labelLarge,
@@ -260,13 +329,36 @@ fun LessonScreen(
                 if (question.droneAudio != null) {
                     DroneToggle(active = droneOn, onToggle = { droneOn = !droneOn })
                 }
-                TextButton(onClick = { playComparison() }) {
-                    Text(
-                        text = stringResource(R.string.lesson_compare),
-                        color = NightGold,
-                        style = MaterialTheme.typography.labelLarge,
-                    )
+                if (question.audio != null && question.contrastAudio != null) {
+                    TextButton(onClick = { playComparison() }) {
+                        Text(
+                            text = stringResource(R.string.lesson_compare),
+                            color = NightGold,
+                            style = MaterialTheme.typography.labelLarge,
+                        )
+                    }
                 }
+                if (RecognitionEngine.hintAvailable(session)) {
+                    TextButton(
+                        onClick = onHint,
+                        modifier = Modifier.semantics {
+                            contentDescription = hintDescription
+                        },
+                    ) {
+                        Text(
+                            text = stringResource(R.string.lesson_hint),
+                            color = NightGold,
+                            style = MaterialTheme.typography.labelLarge,
+                        )
+                    }
+                }
+            }
+            if (hintUnavailable) {
+                Text(
+                    text = stringResource(R.string.lesson_hint_unavailable),
+                    color = NightTextMuted,
+                    style = MaterialTheme.typography.labelMedium,
+                )
             }
             Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
                 question.options.forEachIndexed { index, option ->
@@ -276,25 +368,33 @@ fun LessonScreen(
                         answerId = question.answer.id,
                     )
                     AnswerCard(
-                        label = option.nameAr,
+                        label = option.name(language),
                         state = state,
-                        enabled = !session.answered,
+                        enabled = !session.answered && option.id != session.eliminatedId,
                         onClick = { onAnswer(option.id) },
                         contentDescription = stringResource(
                             R.string.lesson_answer_cd,
-                            option.nameAr,
+                            option.name(language),
                             index + 1,
                             question.options.size,
                         ),
+                        modifier = if (option.id == session.eliminatedId) {
+                            Modifier.alpha(0.4f)
+                        } else {
+                            Modifier
+                        },
                     )
                 }
             }
             if (session.answered) {
                 FeedbackPanel(
                     correct = session.answeredCorrectly,
-                    answerName = question.answer.nameAr,
-                    explanation = question.explanation,
-                    accent = maqamColor(question.answer.id),
+                    answerName = question.answer.name(language),
+                    explanation = question.explanation(language),
+                    accent = maqamColor(question.answer.id, question.answer.color),
+                    track = question.track,
+                    notationUrl = question.notationUrl,
+                    sourceUrl = question.answer.sourceUrl,
                 )
                 PrimaryActionButton(
                     label = stringResource(R.string.lesson_next),
@@ -302,6 +402,7 @@ fun LessonScreen(
                 )
             } else if (audioError) {
                 AudioErrorPanel(
+                    message = if (offline) stringResource(R.string.lesson_audio_offline) else null,
                     onRetry = { playPhrase() },
                     onSkip = onSkip,
                 )

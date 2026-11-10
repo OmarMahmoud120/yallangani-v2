@@ -3,8 +3,10 @@
 **Document date:** 2026-11-09
 **New project:** `/Users/omarmahmoud/Apps/Android/yallangani-v2`
 **Legacy reference:** `/Users/omarmahmoud/Apps/Android/yallanganee` (read-only)
-**Status:** Phase 0 complete; V1 core gameplay, AdMob monetization, and rewarded hints implemented
-and verified locally on the emulator.
+**Status:** Phase 0 complete; recognition lessons, bilingual UI, site content streaming, and the
+approved ad placements (app open, Home banner, post-Results interstitial, rewarded hint) with UMP
+consent implemented and verified locally on the emulator. Real ad unit IDs and store declarations
+remain release tasks.
 
 ---
 
@@ -16,27 +18,28 @@ and Play Games configuration are gone. The old repository cannot reconstruct the
 songs: the bundled `db.db` is encrypted, and no archive copy of the API or audio pack exists.
 
 The recreation is therefore a **new build with new, properly licensed content**, distributed under
-the **same application ID** so it updates the existing Play listing. Gameplay is offline-first, but
-the app now contains AdMob: an interstitial after every five solved rounds and an opt-in rewarded ad
-that reveals one correct letter. Version 1 otherwise focuses on the core game loop; retention, IAP,
-and social features remain deferred.
+the **same application ID** so it updates the existing Play listing. Gameplay is now maqam
+recognition training, and the app monetizes with the placements the owner approved on 2026-11-10: a
+daily app-open ad, a Home banner, an interstitial after every third completed lesson when leaving
+Results, and an optional rewarded 50/50 hint inside a lesson. Retention, IAP, and social features
+remain deferred. Full placement and consent design: `docs/phase0/ads-plan.md`.
 
 ---
 
 ## 2. Audit findings (why this plan looks the way it does)
 
-| Item | Finding |
-| --- | --- |
-| Original package | `com.osmartapps.yallanghanee`, version 1.12 (versionCode 12) |
-| Original stack | Kotlin/Java, XML layouts, Lottie, Retrofit, Firebase, OneSignal, AdMob, Play Games, anjlab billing |
-| Level source | `POST https://osmartapps.com/scratch/YallaNganee.html` → JSON (`LevelInfo[]`) |
-| Audio source | `https://osmartapps.com/audio.zip` → downloaded to internal storage |
-| Server status | Dead; no snapshots under `web.archive.org` for the API or `audio.zip` |
-| Bundled `assets/data/db.db` | 34 KB, entropy ~7.995, no SQLite header → AES/SQLCipher-like; **not referenced by any code**; identical in the old v10 AAB |
-| Recoverable artifact | Deleted `app/release/yallanghanee_V10_01-05 18-release.aab` exists in git commit `3c18100`; recovered and inspected. Contains the same encrypted DB and owned visual assets, no levels |
-| Levels stored on device | Original app used an unencrypted SQLite `Levels.db`, populated from the API |
-| Songs stored on device | `files/audio/<SongName>.mp3` after the first launch |
-| Original content recovery | Only from an old phone or app-data backup (see Appendix A) |
+| Item                        | Finding                                                                                                                                                                                |
+| --------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Original package            | `com.osmartapps.yallanghanee`, version 1.12 (versionCode 12)                                                                                                                           |
+| Original stack              | Kotlin/Java, XML layouts, Lottie, Retrofit, Firebase, OneSignal, AdMob, Play Games, anjlab billing                                                                                     |
+| Level source                | `POST https://osmartapps.com/scratch/YallaNganee.html` → JSON (`LevelInfo[]`)                                                                                                          |
+| Audio source                | `https://osmartapps.com/audio.zip` → downloaded to internal storage                                                                                                                    |
+| Server status               | Dead; no snapshots under `web.archive.org` for the API or `audio.zip`                                                                                                                  |
+| Bundled `assets/data/db.db` | 34 KB, entropy ~7.995, no SQLite header → AES/SQLCipher-like; **not referenced by any code**; identical in the old v10 AAB                                                             |
+| Recoverable artifact        | Deleted `app/release/yallanghanee_V10_01-05 18-release.aab` exists in git commit `3c18100`; recovered and inspected. Contains the same encrypted DB and owned visual assets, no levels |
+| Levels stored on device     | Original app used an unencrypted SQLite `Levels.db`, populated from the API                                                                                                            |
+| Songs stored on device      | `files/audio/<SongName>.mp3` after the first launch                                                                                                                                    |
+| Original content recovery   | Only from an old phone or app-data backup (see Appendix A)                                                                                                                             |
 
 **Implication:** original songs/answers are unavailable from the repo. Shipping the same commercial
 recordings would also carry the copyright risk that may have caused the Play removal. New content
@@ -51,26 +54,28 @@ is the safer and only complete path.
 2. **Project:** fresh repo, modern stack, sibling folder; old repo untouched.
 3. **Store identity:** keep the legacy application ID `com.osmartapps.yallanghanee` to update the
    existing listing (removal reason: policy + audience targeting).
-4. **Scope:** core gameplay + offline content, plus AdMob interstitial every 5 solved rounds and an
-   opt-in rewarded ad for a hint.
+4. **Scope:** core gameplay + offline content, plus the approved AdMob placements (app open, Home
+   banner, post-Results interstitial every third lesson, rewarded 50/50 hint) with UMP consent.
 5. **Agent setup:** `AGENTS.md` plus cross-agent rule files (`CLAUDE.md`, `.cursor/rules`).
 6. **Content delivery (2026-11-10):** the public site is the runtime content source. The app ships a
    bundled pack for offline use, then adopts a newer `pack.json` from the site when its
-   `content_version` differs. See `docs/phase0/remote-pack.md`.
+   `content_version` differs. Schema 3 covers all 35 tracked maqams and streams a random site track
+   per question; only the Pack 1 phrases and drone are bundled. See
+   `docs/phase0/remote-pack.md` and `docs/phase0/site-tracks-plan.md`.
 
 Defaults chosen where the owner did not specify (all changeable before Play upload):
 
-| Setting | Value |
-| --- | --- |
-| App name | يلا نغني |
-| Application ID | `com.osmartapps.yallanghanee` |
-| minSdk / targetSdk / compileSdk | 24 / 36 / 36 |
-| Version | 2.0.0 (versionCode 13, above the legacy 12) |
-| Orientation | Portrait |
-| Language | Arabic only, RTL |
-| Permissions | `INTERNET` + `ACCESS_NETWORK_STATE` (ads only; gameplay and content stay on-device) |
-| Ads | AdMob test unit IDs by default; real IDs injected at release time |
-| Target audience | 13+ (not child-directed; avoids Families policy requirements) |
+| Setting                         | Value                                                                               |
+| ------------------------------- | ----------------------------------------------------------------------------------- |
+| App name                        | يلا نغني                                                                            |
+| Application ID                  | `com.osmartapps.yallanghanee`                                                       |
+| minSdk / targetSdk / compileSdk | 24 / 36 / 36                                                                        |
+| Version                         | 2.0.0 (versionCode 13, above the legacy 12)                                         |
+| Orientation                     | Portrait                                                                            |
+| Language                        | Arabic only, RTL                                                                    |
+| Permissions                     | `INTERNET` + `ACCESS_NETWORK_STATE` (pack refresh, track streaming, notation; ads SDK) |
+| Ads                             | AdMob test unit IDs by default; real IDs injected at release time                   |
+| Target audience                 | 13+ (not child-directed; avoids Families policy requirements)                       |
 
 ---
 
@@ -92,9 +97,11 @@ Defaults chosen where the owner did not specify (all changeable before Play uplo
 
 ### 4.2 Non-functional requirements
 
-- Gameplay, content, and progress work fully offline from the bundled or last-known-good pack;
-  network is only used to refresh content and to request ads.
-- No analytics or tracking beyond what the AdMob SDK collects; no accounts.
+- Lessons, content, and progress load from the bundled or last-known-good pack without a network.
+  Site tracks and notation images need a connection; the network is also used to refresh content
+  and to request ads.
+- Firebase Analytics and Crashlytics collect anonymous usage and crash data; no accounts and no
+  first-party server. Ads stay gated on UMP consent.
 - Arabic/RTL by default; usable at 320 dp width.
 - Cold start to Home < 1.5 s on a mid-range device.
 - Audio starts within 300 ms of tapping play; no clip leaks across levels.
@@ -104,7 +111,8 @@ Defaults chosen where the owner did not specify (all changeable before Play uplo
 ### 4.3 Explicitly out of scope for V1
 
 Coins, extra hint types (skip/remove), daily reward wheel, banner ads, remove-ads IAP, Play Games
-leaderboards, cloud save, push notifications, accounts, social sharing, analytics, crash reporting.
+leaderboards, cloud save, push notifications, accounts, social sharing, Firestore, Firebase Auth,
+Remote Config, and Messaging.
 (Interstitial + rewarded hint are now in scope; see §7 Phase 4. Remote content updates are in scope;
 see §3 item 6 and `docs/phase0/remote-pack.md`.)
 
@@ -120,16 +128,16 @@ for this, not for code.
 
 ### 5.2 Target pack
 
-| Attribute | Target |
-| --- | --- |
-| Levels at launch | 100 Arabic tracks (minimum 60) |
-| Letters per title | 4–6 early, 7–10 mid, 11–16 late |
-| Words per title | 1–3 |
-| Clip length | 10–15 s |
-| Audio format | MP3/AAC, 44.1 kHz, ~−16 LUFS, ≤ −1 dBTP |
-| Genres/themes | Owner choice; keep a mix, avoid ambiguous duplicate titles |
-| Answer uniqueness | No two levels with the same normalized answer |
-| Hints | Rewarded ad reveals one correct letter; no per-level hint text needed |
+| Attribute         | Target                                                                |
+| ----------------- | --------------------------------------------------------------------- |
+| Levels at launch  | 100 Arabic tracks (minimum 60)                                        |
+| Letters per title | 4–6 early, 7–10 mid, 11–16 late                                       |
+| Words per title   | 1–3                                                                   |
+| Clip length       | 10–15 s                                                               |
+| Audio format      | MP3/AAC, 44.1 kHz, ~−16 LUFS, ≤ −1 dBTP                               |
+| Genres/themes     | Owner choice; keep a mix, avoid ambiguous duplicate titles            |
+| Answer uniqueness | No two levels with the same normalized answer                         |
+| Hints             | Rewarded ad reveals one correct letter; no per-level hint text needed |
 
 ### 5.3 Licensing workflow
 
@@ -173,7 +181,8 @@ for this, not for code.
 - AGP 8.13.0, Gradle 8.14.3, JDK 17 bytecode target.
 - kotlinx.serialization for content, DataStore Preferences for progress.
 - Platform `MediaPlayer`/`SoundPool` for audio; Lottie Compose for brand animations.
-- Google Mobile Ads SDK 25.5.0 for interstitial and rewarded formats.
+- Google Mobile Ads SDK 25.5.0 (app open, banner, interstitial, rewarded) and User Messaging
+  Platform 4.0.0 for consent.
 
 No database, DI framework, or navigation library is needed at this scale. Adding them now would be
 architecture theater.
@@ -206,39 +215,53 @@ assets/content/levels.json
 
 ### 6.4 Privacy and security
 
-- `INTERNET` is used only by the AdMob SDK; no first-party server, accounts, or analytics.
-- AdMob collects device/advertising identifiers, IP, and ad interactions. The Data Safety form must
-  declare "Device or other IDs" and "App info and performance" as collected/shared for advertising,
-  with the privacy policy linked in Play Console and the UMP consent flow added for EEA/UK users
-  before launch.
-- Ads use Google's sample unit IDs in source control. Real app/unit IDs come from Gradle properties
-  (`admob.appId`, `admob.interstitialUnitId`, `admob.rewardedUnitId`) and are never committed.
+- `INTERNET` and `ACCESS_NETWORK_STATE` are used only for lesson audio/notation, pack refresh, the
+  ads SDK, and Firebase telemetry; there is no first-party server or account.
+- AdMob collects device/advertising identifiers, IP, and ad interactions. Firebase Analytics and
+  Crashlytics collect a Firebase installation ID, app/device data, approximate location, usage
+  events, and crash diagnostics; they start at first launch and are never sent audio or free text.
+  The Data Safety form must declare "Device or other IDs", "App info and performance", and
+  "App activity" as collected (and shared with Google where applicable), with the privacy policy
+  linked in Play Console.
+- UMP consent gates SDK initialization and every ad load; the Settings screen exposes the privacy
+  options form whenever the provider requires it (`ConsentManager`, `settings_privacy_*`).
+- Ads use Google's sample unit IDs in source control and debug builds. Release builds read
+  `admob.appId`, `admob.bannerUnitId`, `admob.interstitialUnitId`, `admob.rewardedUnitId`,
+  `admob.rewardedInterstitialUnitId`, and `admob.appOpenUnitId` from Gradle properties; a release
+  build fails if any is missing. Real IDs are never committed.
+- Local ad-frequency counters (lessons since the last interstitial, UTC day of the last app-open
+  ad) live in DataStore next to progress and survive a progress reset.
 - `local.properties` and keystores are gitignored; signing keys are backed up offline.
 
 ### 6.5 Remote content delivery
 
 The site publishes `data/pack.json`, generated from `site/public/data/maqams.json` by
-`tools/sync_app_pack.py`. The app keeps a bundled pack as the offline baseline, adopts a newer pack
-when `content_version` differs, and verifies clip digests before use. Full design, limits, and test
-plan: `docs/phase0/remote-pack.md`.
+`tools/sync_app_pack.py`. The app keeps a bundled pack as the baseline, adopts a newer pack when
+`content_version` differs, and verifies bundled clip digests before use. Schema 3 packs carry
+`media_base`, per-maqam notation and tracks, and exploration lessons; lesson audio streams the site
+track with `MediaPlayer` and feedback shows notation, credits, and the source link. Full design,
+limits, and test plan: `docs/phase0/remote-pack.md`.
 
 ### 6.6 Current implementation status
 
-| Area | Status |
-| --- | --- |
-| Gradle/Compose scaffold | Done |
-| Content pack (3 Pack 1 phrases) | Done |
-| Site catalog + generated app pack | Done |
-| Runtime pack updates from the site | Pending (§6.5) |
-| Game engine, Arabic normalization, tests | Done |
-| Home + game + win overlay | Done |
-| Progress persistence (solved IDs), rounds counter, reset dialog | Done |
-| AdMob interstitial (every 5 rounds) + rewarded hint | Done (test unit IDs) |
-| Agent rules (`AGENTS.md`, `CLAUDE.md`, Cursor rule) | Done |
-| Lint/build verification | See Phase 0 acceptance |
-| 100 licensed Arabic tracks, audio focus handling, accessibility pass | Pending |
-| Real AdMob IDs, UMP consent, privacy policy | Pending |
-| Play Console re-upload | Pending |
+| Area                                                                 | Status                 |
+| -------------------------------------------------------------------- | ---------------------- |
+| Gradle/Compose scaffold                                              | Done                   |
+| Content pack (35 maqams; 3 bundled phrases + drone)                   | Done                   |
+| Site catalog + generated app pack (schema 4, Arabic+English)         | Done                   |
+| English site edition (`/en/`) and in-app language switch             | Done                   |
+| Runtime pack updates from the site                                   | Done (§6.5)            |
+| Site track streaming, notation, credits                              | Done                   |
+| Game engine, Arabic normalization, tests                             | Done                   |
+| Home + game + win overlay                                            | Done                   |
+| Progress persistence (solved IDs), rounds counter, reset dialog      | Done                   |
+| AdMob app open, Home banner, post-Results interstitial, rewarded hint | Done (test unit IDs)   |
+| UMP consent gate + Settings → Privacy options                        | Done                   |
+| Agent rules (`AGENTS.md`, `CLAUDE.md`, Cursor rule)                  | Done                   |
+| Lint/build verification                                              | See Phase 0 acceptance |
+| 100 licensed Arabic tracks, audio focus handling, accessibility pass | Pending                |
+| Real AdMob IDs configured locally; AdMob consent messages pending     | Pending (console)      |
+| Play Console re-upload                                               | Pending                |
 
 ---
 
@@ -256,12 +279,8 @@ Timeline assumes one developer working part-time; content production can run in 
 instrumented `GameFlowTest` runs on an API 36 emulator and plays a level end-to-end (start,
 audio toggle, solve, win, next stage). An R8 release build was signed with the debug key,
 installed, and confirmed to load the serialized content pack and play audio. Home and game
-screens were checked at 412 dp and 320 dp widths. Monetization was also exercised on the emulator:
-the rewarded hint showed a Google test ad, reported "Reward granted", and filled one correct
-letter; with the rounds counter seeded to 4, solving one round and tapping next brought the
-interstitial `AdActivity` to the foreground; in airplane mode the hint showed the Arabic
-"ad unavailable" toast while the level stayed playable. The same rewarded ad was confirmed in the
-R8 release build.
+screens were checked at 412 dp and 320 dp widths. (The monetization checks from this phase were
+superseded by the 2026-11-10 placements in Phase 4.)
 
 ### Phase 1 — Launch content pack (2–4 weeks)
 
@@ -310,23 +329,43 @@ offline, TalkBack can operate the board.
 
 **Acceptance:** hint usage cannot corrupt progress; economy tested; no pay-to-win dead ends.
 
-### Phase 4 — Monetization (interstitial + rewarded implemented, 2026-11-09)
+### Phase 4 — Monetization (placements implemented 2026-11-10)
 
-- AdMob interstitial after every **5th solved round**, shown between levels, never mid-round and
-  never on the first round.
-- Opt-in **rewarded ad for a hint**: the player taps «تلميح», watches the ad, and one correct
-  letter is placed in the next empty slot (consuming the matching tray letter).
-- No banners in V1. Real app/unit IDs come from Gradle properties; test IDs are the committed
-  default. UMP consent for EEA/UK is still required before launch.
-- Deferred: remove-ads IAP, turn-based interstitial caps beyond the 5-round rule.
+The owner approved all four placements on 2026-11-10; this supersedes the earlier "no ads in the
+learning loop" rule. Full unit table, placement rules, and risks: `docs/phase0/ads-plan.md`.
 
-**Acceptance:** ads degrade gracefully offline, the hint is granted only after the reward callback,
-the interstitial never interrupts active play, Data Safety and Ads declarations updated.
+- **App open:** shown on a cold start once the Home screen is visible, onboarding is complete, and
+  consent allows ads. At most one attempt per process and one per UTC day; the attempt is recorded
+  when shown, so a failed load does not retry in the same day.
+- **Home banner:** adaptive banner in the Home footer only. It never appears on lesson, feedback,
+  or results screens.
+- **Interstitial:** shown when the learner leaves Results after a newly completed lesson, every
+  third lesson and never for the first. The Results screen itself is ad-free; the ad opens only on
+  Next, Retry, or Home, after the dismissal callback returns.
+- **Rewarded 50/50 hint:** the learner taps the hint button during a lesson to remove one wrong
+  option. One hint per lesson, only on questions with three or more options, and the elimination is
+  applied only after the reward callback. If no ad is available or consent is declined, the lesson
+  stays playable and the UI reports that the hint is unavailable.
+- **Rewarded interstitial:** unit ID is configured in the catalog but no UI uses it.
+- **Consent:** UMP updates consent on launch, shows the form when required, and gates SDK
+  initialization plus every load. Settings → Privacy options opens the UMP form when the provider
+  requires it.
+- **IDs:** Google's sample unit IDs in source and debug builds. Release builds read Gradle
+  properties and `checkReleaseAdIds` fails the build when any real ID is missing.
+- Deferred: remove-ads IAP and any placement inside active learning.
 
-**Verified 2026-11-09 (test unit IDs):** rewarded ad → reward callback → one letter placed;
-interstitial shown after the 5th solved round; offline hint shows the fallback toast and the game
-continues; playback stops before a rewarded ad opens. Real IDs, UMP consent, and store
-declarations remain pending.
+**Acceptance:** ads degrade gracefully offline, the rewarded hint is granted only after the reward
+callback, no ad interrupts listening, answering, feedback, or the Results screen itself, and Data
+Safety and Ads declarations match the shipped placements.
+
+**Verified (2026-11-10):** `assembleDebug`, `testDebugUnitTest` (AdPolicy and hint engine tests),
+`lintDebug`, and `connectedDebugAndroidTest` on a Galaxy S22 pass; `assembleRelease` passes with the
+owner's real IDs stored outside the repo. On device with sample IDs: app open once per day, banner
+only at the end of Home, no interstitial after lessons 1–2, interstitial after the third completed
+lesson when leaving Results, rewarded hint removes one wrong option only after the reward callback,
+early dismissal leaves the question intact, offline shows no ads and reports the hint as
+unavailable, and Arabic/English hold at 320 dp. Consent messages, consent-form testing, and the
+privacy-page deploy remain external setup.
 
 ### Phase 5 — Social (deferred)
 
@@ -341,8 +380,8 @@ updated.
 - Reactivate the existing listing with application ID `com.osmartapps.yallanghanee`; if Play has
   permanently deleted it, publish under a new ID instead and update this plan.
 - Store listing in Arabic, screenshots, feature graphic, short/full description.
-- Content rating questionnaire (Everyone / PEGI 3, ads present), Data Safety (AdMob data),
-  ads declaration (yes), privacy policy URL.
+- Content rating questionnaire (Everyone / PEGI 3, ads present), Data Safety (AdMob, Analytics,
+  and Crashlytics data), ads declaration (yes), privacy policy URL.
 - Declare target audience **13+**; do not opt in to Designed for Families (the old removal cited
   targeting/policy issues).
 - Closed testing (new personal accounts: currently 12 testers for 14 days — verify current policy).
@@ -364,25 +403,73 @@ updated.
 - [ ] Back up the keystore and passwords offline; never commit them.
 - [ ] versionCode 13 (above the legacy 12), versionName 2.0.0.
 
+### Firebase telemetry
+
+- [x] Add `app/google-services.json` for project `yallanganee-73906702`, including the
+      `com.osmartapps.yallanghanee.dev` debug entry. Present in the working tree 2026-11-10;
+      commit it with the release branch.
+- [x] Keep Firebase BOM on 34.x until the Kotlin toolchain reaches 2.4; BOM 35 requires Kotlin 2.4.
+      Pinned 34.19.0 (Analytics 23.2.0) on 2026-11-10.
+- [x] Verify `screen_view`, `lesson_started`, `answer_submitted`, `lesson_completed`,
+      `onboarding_completed`, `setting_changed`, and `rewarded_completed` arrive in Analytics.
+      Verified 2026-11-10 on the signed release build: FA/FA-SVC debug logs showed every event
+      during an Arabic onboarding, two lessons, and the switch to English; the batch upload
+      returned HTTP 204.
+- [x] Verify a test crash appears in Crashlytics after relaunch. Verified 2026-11-10 on the
+      debug-signed `.dev` build sharing the same Firebase app: a main-thread exception was
+      persisted by the handler and uploaded after relaunch (HTTP 200 to
+      `crashlyticsreports-pa.googleapis.com`). The release `uploadCrashlyticsMappingFileRelease`
+      task also succeeds. No NDK crash component ships because the app has no native code of its
+      own; native media/WebView crashes are not collected.
+- [x] Disclose Firebase data in both privacy pages.
+- [ ] Declare Analytics and Crashlytics categories in the Play Data Safety form.
+- [ ] Re-check ad fill before release: the test device logged `Ad failed to load : 3` (NO_FILL)
+      for every real AdMob unit, so no banner, app-open, interstitial, or rewarded ad rendered.
+
 ### Technical
 
-- [ ] `targetSdk = 36`; test on API 36.
-- [ ] 16 KB page-size compatibility (no native libraries currently; keep it that way or verify).
-- [x] Release build with R8; verify serialization models are kept.
-- [ ] Test offline install and first launch with no network; ads must fail silently.
-- [ ] Verify the merged manifest contains only `INTERNET`, `ACCESS_NETWORK_STATE`, and the AdMob
-      `com.google.android.gms.ads.APPLICATION_ID` metadata.
-- [ ] Icon, adaptive icon, and splash behavior look correct on Android 12+.
+- [x] `targetSdk = 36`; test on API 36. Verified 2026-11-10 on the API 36 emulator and the
+      API 36 phone.
+- [x] 16 KB page-size compatibility. Verified 2026-11-10: the two bundled libraries
+      (`libandroidx.graphics.path.so`, `libdatastore_shared_counter.so`) have
+      `p_align = 16384` on all four ABIs and `zipalign -c -P 16` passes.
+- [x] Release build with R8; verify serialization models are kept. Verified 2026-11-10: a
+      debug-key-signed release APK cold-starts offline in 0.9 s, loads the pack, and renders
+      onboarding and Home.
+- [x] Signed release build exercised end to end on the API 36 phone in Arabic and English:
+      onboarding, streamed lesson audio and notation, feedback, Results, exit confirmation,
+      Settings, language switch, 320 dp layout in both directions, and progress/language
+      persistence across force-stop. Verified 2026-11-10 with a temporary release-test key; the
+      Play upload key and Play App Signing remain owner actions.
+- [x] Test offline install and first launch with no network; ads must fail silently. Verified
+      2026-11-10: onboarding, Home, and Settings work; UMP and ad requests log only.
+- [x] Verify the merged manifest declares only the expected entries: `INTERNET`,
+      `ACCESS_NETWORK_STATE`, `com.google.android.gms.permission.AD_ID`, the three
+      `ACCESS_ADSERVICES_*` permissions, `WAKE_LOCK`, `FOREGROUND_SERVICE`, the app-private
+      `DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION`, and the AdMob
+      `com.google.android.gms.ads.APPLICATION_ID` metadata. All extras are library-merged from
+      the ads and UMP SDK. Verified 2026-11-10.
+- [x] Icon, adaptive icon, and splash behavior look correct on Android 12+. Replaced the legacy
+      kids-game artwork on 2026-11-10 with an adaptive icon (night background, gold open ring,
+      waveform bars, cream tonic dot) plus matching legacy PNGs and a monochrome layer; the
+      Android 12 splash now shows the mark on the night background with no white plate. Store
+      masters at `docs/store/ic_launcher_512.png` and `docs/store/ic_launcher_1024.png`.
+- [x] Feature graphic and listing screenshots produced 2026-11-10. Feature graphic
+      `docs/store/feature_graphic_1024x500.png` (1024×500, no alpha) uses the tuning-ring mark with
+      the Aref Ruqaa wordmark and Plex tagline on the Night Majlis palette. Four framed phone
+      screenshots `docs/store/screenshots/{ar,en}-{lesson,feedback}.jpg` (1080×2160, 2:1, opaque
+      JPEG) captured from the device build. Tablet screenshots remain optional.
 
 ### Store listing
 
 - [ ] Arabic title, short description, full description.
-- [ ] 512×512 icon, 1024×500 feature graphic, phone screenshots (at least 2–4).
+- [x] 512×512 icon, 1024×500 feature graphic, and four phone screenshots are ready in
+      `docs/store/`; upload them when the listing copy is set.
 - [ ] Category: Music or Trivia; tags; contact email.
 - [ ] Privacy policy URL (host a simple Arabic/English page).
 - [ ] Content rating questionnaire (music/lyrics, no user-generated content).
 - [ ] Data Safety: declare device/ad IDs and ad interactions collected and shared for advertising.
-- [ ] Ads declaration: yes (interstitial + rewarded).
+- [ ] Ads declaration: yes (app open, banner, interstitial, rewarded).
 - [ ] Target audience 13+; not designed for families; ads content rating set to general audiences.
 - [ ] Closed testing track with required testers; collect feedback.
 - [ ] Staged rollout; pause criteria defined.
@@ -408,17 +495,17 @@ updated.
 
 ### Manual matrix
 
-| Dimension | Cases |
-| --- | --- |
-| Android | 24, 28, 31, 34, 36 |
-| Screens | 320 dp, 360 dp, 411 dp, tablet |
-| Locale | Arabic; system English but app forced RTL |
-| Audio | speaker, headphones, Bluetooth, call interruption, headset unplug |
-| Lifecycle | background/foreground, lock screen, process death, low memory |
-| Network | airplane mode, no SIM, Wi-Fi off; ad load failure paths |
-| Ads | hint without reward, early rewarded dismissal, 5th-round interstitial, no first-round ad |
-| Accessibility | TalkBack, large font, display size, contrast |
-| Content | every level solvable, no duplicate answers, no clipped hooks |
+| Dimension     | Cases                                                                                    |
+| ------------- | ---------------------------------------------------------------------------------------- |
+| Android       | 24, 28, 31, 34, 36                                                                       |
+| Screens       | 320 dp, 360 dp, 411 dp, tablet                                                           |
+| Locale        | Arabic; system English but app forced RTL                                                |
+| Audio         | speaker, headphones, Bluetooth, call interruption, headset unplug                        |
+| Lifecycle     | background/foreground, lock screen, process death, low memory                            |
+| Network       | airplane mode, no SIM, Wi-Fi off; ad load failure paths                                  |
+| Ads           | consent decline, app-open daily cap, 3rd-lesson interstitial, hint without reward, early reward dismissal, banner only on Home |
+| Accessibility | TalkBack, large font, display size, contrast                                             |
+| Content       | every level solvable, no duplicate answers, no clipped hooks                             |
 
 ### Regression hotspots
 
@@ -433,26 +520,29 @@ updated.
 
 ## 10. Risks and mitigations
 
-| Risk | Impact | Mitigation |
-| --- | --- | --- |
-| Music licensing / copyright | App removal, legal claims | CC0/commissioned content, written licenses, legal review, no commercial rips |
-| Unknown reason for original removal | Repeat removal | Check old Play Console notices before launch; fix the root cause |
-| Content production slips | Delayed launch | Start licensing now; ship 60 levels if needed; keep sample pack as fallback demo |
-| Font/menu audio rights unverified | Takedown request | Verify licenses or replace with OFL/CC0 assets |
-| Ambiguous Arabic answers | Frustrating gameplay | Editorial review; ban normalization-duplicate answers |
-| Audio focus bugs | Bad UX | Implement AudioFocus + noisy handling in Phase 2 |
-| Small-screen overflow | Unplayable on cheap devices | Adaptive slot/tile sizing; test at 320 dp |
-| Removed listing cannot be reactivated | No update path under the legacy ID | Confirm listing state in Play Console early; have a new-ID fallback ready |
-| Ad policy violation (placement/consent) | Removal or ad-serving limits | No mid-round ads, 5-round cap, opt-in rewarded only, UMP consent before launch |
-| New-account testing requirements | Delayed production access | Plan the 12-tester/14-day closed test early |
-| No first-party analytics by design | Less visibility | Rely on Play Console vitals, AdMob metrics, and store reviews |
+| Risk                                    | Impact                             | Mitigation                                                                       |
+| --------------------------------------- | ---------------------------------- | -------------------------------------------------------------------------------- |
+| Music licensing / copyright             | App removal, legal claims          | CC0/commissioned content, written licenses, legal review, no commercial rips     |
+| Unknown reason for original removal     | Repeat removal                     | Check old Play Console notices before launch; fix the root cause                 |
+| Content production slips                | Delayed launch                     | Start licensing now; ship 60 levels if needed; keep sample pack as fallback demo |
+| Font/menu audio rights unverified       | Takedown request                   | Verify licenses or replace with OFL/CC0 assets                                   |
+| Ambiguous Arabic answers                | Frustrating gameplay               | Editorial review; ban normalization-duplicate answers                            |
+| Audio focus bugs                        | Bad UX                             | Implement AudioFocus + noisy handling in Phase 2                                 |
+| Small-screen overflow                   | Unplayable on cheap devices        | Adaptive slot/tile sizing; test at 320 dp                                        |
+| Removed listing cannot be reactivated   | No update path under the legacy ID | Confirm listing state in Play Console early; have a new-ID fallback ready        |
+| Ad policy violation (placement/consent) | Removal or ad-serving limits       | Ads only on Home, cold start, Results exit, and opt-in rewarded; UMP consent gate    |
+| New-account testing requirements        | Delayed production access          | Plan the 12-tester/14-day closed test early                                      |
+| Telemetry starts before EEA consent     | GDPR complaint or removal         | Owner chose always-on; add analytics purposes to the UMP message before EEA launch |
 
 ---
 
 ## 11. Decisions still needed from the owner
 
 Resolved: application ID (`com.osmartapps.yallanghanee`), content volume (100 tracks), monetization
-(interstitial every 5 rounds + rewarded hint), removal reason (policy and targeting).
+(app open, Home banner, post-Results interstitial every third lesson, rewarded 50/50 hint), removal
+reason (policy and targeting), and real AdMob app/unit IDs (2026-11-10). Real IDs live in
+`~/.gradle/gradle.properties`, never in the repository; the AdMob console still needs GDPR/US-states
+consent messages before release.
 
 Still open:
 
@@ -464,9 +554,7 @@ Still open:
    the release notes or appeal.
 5. **Play account type** — personal or organization? This affects testing requirements.
 6. **Privacy policy hosting** — where will it live, and who writes the Arabic/English text?
-7. **AdMob account** — confirm the account and app are still active; provide real app/unit IDs
-   through Gradle properties (never commit them).
-10. **Font licensing** — can you provide the Kharabeesh font license, or should we switch to OFL?
+7. **Font licensing** — can you provide the Kharabeesh font license, or should we switch to OFL?
 
 ---
 

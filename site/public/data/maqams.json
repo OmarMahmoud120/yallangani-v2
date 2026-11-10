@@ -11,9 +11,12 @@
       "name": "Maqam Rast",
       "pack": 1,
       "name_ar": "راست",
+      "name_en": "Rast",
       "color": "#E2A45C",
       "jins_ar": "جنس راست",
+      "jins_en": "Jins Rast",
       "signature_ar": "الدرجة الثالثة محايدة بين الكبير والصغير؛ هذا هو قرار الرست.",
+      "signature_en": "Its third degree sits neutrally between major and minor; that is the Rast character.",
       "status": "approved",
       "app_audio": "06-alrast.mp3",
       "drone": "drone-c4.mp3",
@@ -141,9 +144,12 @@
       "name": "Maqam Hijaz",
       "pack": 1,
       "name_ar": "حجاز",
+      "name_en": "Hijaz",
       "color": "#C97B5A",
       "jins_ar": "جنس حجاز",
+      "jins_en": "Jins Hijaz",
       "signature_ar": "المسافة الزائدة بين الدرجتين الثانية والثالثة هي توقيع الحجاز.",
+      "signature_en": "The augmented second between the second and third degrees is the Hijaz signature.",
       "status": "approved",
       "app_audio": "01-alhijaz.mp3",
       "drone": "drone-c4.mp3",
@@ -286,9 +292,12 @@
       "name": "Maqam Nahawand",
       "pack": 1,
       "name_ar": "نهاوند",
+      "name_en": "Nahawand",
       "color": "#C77E9B",
       "jins_ar": "جنس نهاوند",
+      "jins_en": "Jins Nahawand",
       "signature_ar": "الدرجة الثالثة صغيرة؛ هذا هو المقام الصغير المألوف للأذن.",
+      "signature_en": "Its third degree is minor; this is the familiar minor maqam for the ear.",
       "status": "approved",
       "app_audio": "02-alnahawand.mp3",
       "drone": "drone-c4.mp3",
@@ -549,7 +558,15 @@
           "artist": "Ensemble Morkos",
           "audio": "media/maqam/bayati/samai_bayati_shalfun.mp3"
         }
-      ]
+      ],
+      "name_ar": "بياتي",
+      "name_en": "Bayati",
+      "color": "#5BC8A6",
+      "jins_ar": "جنس بياتي",
+      "jins_en": "Jins Bayati",
+      "signature_ar": "الدرجة الثانية نصف المنخفضة تلون البياتي بالحنين.",
+      "signature_en": "A half-flat second degree gives Bayati its longing colour.",
+      "status": "approved"
     },
     {
       "id": "kurd",
@@ -668,7 +685,15 @@
           "artist": "Music by Muhammad Abdel Wahab (Egypt)",
           "audio": "media/maqam/kurd/3ichiqti_ruhak.mp3"
         }
-      ]
+      ],
+      "name_ar": "كرد",
+      "name_en": "Kurd",
+      "color": "#4FA3A5",
+      "jins_ar": "جنس كرد",
+      "jins_en": "Jins Kurd",
+      "signature_ar": "الثالثة الصغيرة مع الرابعة الطبيعية تصنع لون الكرد.",
+      "signature_en": "A minor third with a natural fourth gives Kurd its colour.",
+      "status": "approved"
     },
     {
       "id": "saba",
@@ -775,7 +800,15 @@
           "artist": "Music by Youssef Kassab",
           "audio": "media/maqam/saba/samai_saba_youssef_kassab.mp3"
         }
-      ]
+      ],
+      "name_ar": "صبا",
+      "name_en": "Saba",
+      "color": "#8E6BAE",
+      "jins_ar": "جنس صبا",
+      "jins_en": "Jins Saba",
+      "signature_ar": "الرابعة المنخفضة هي علامة الصبا.",
+      "signature_en": "The lowered fourth is the mark of Saba.",
+      "status": "approved"
     },
     {
       "id": "ajam",
@@ -867,7 +900,15 @@
             "Music by Sayyed Darwish"
           ]
         }
-      ]
+      ],
+      "name_ar": "عجم",
+      "name_en": "‘Ajam",
+      "color": "#D4AF6A",
+      "jins_ar": "جنس عجم",
+      "jins_en": "Jins ‘Ajam",
+      "signature_ar": "الثلاثة الكبيرة تجعل العجم قريبا من الكبير الغربي.",
+      "signature_en": "Its major third makes ‘Ajam close to the Western major scale.",
+      "status": "approved"
     },
     {
       "id": "sikah",
@@ -931,7 +972,15 @@
             "Music by Zakariya Ahmad (Egypt)"
           ]
         }
-      ]
+      ],
+      "name_ar": "سيكاه",
+      "name_en": "Sikah",
+      "color": "#7FAE6B",
+      "jins_ar": "جنس سيكاه",
+      "jins_en": "Jins Sikah",
+      "signature_ar": "الثالثة نصف المنخفضة هي روح السيكاه.",
+      "signature_en": "The half-flat third is the soul of Sikah.",
+      "status": "approved"
     },
     {
       "id": "huzam",
@@ -1047,7 +1096,15 @@
             "Live at Beiteddine"
           ]
         }
-      ]
+      ],
+      "name_ar": "هزام",
+      "name_en": "Huzam",
+      "color": "#5B7FBF",
+      "jins_ar": "جنس هزام",
+      "jins_en": "Jins Huzam",
+      "signature_ar": "سيكاه يصعد إلى حجاز في الثلث العلوي.",
+      "signature_en": "Sikah that rises into Hijaz in its upper register.",
+      "status": "approved"
     },
     {
       "id": "ajam_ushayran",
@@ -1120,7 +1177,15 @@
           "artist": "Sabah Fakhri",
           "audio": "media/maqam/ajam_ushayran/ma_li_3ayni_absarat.mp3"
         }
-      ]
+      ],
+      "name_ar": "عجم عشيران",
+      "name_en": "‘Ajam ‘Ushayran",
+      "color": "#C9A24F",
+      "jins_ar": "جنس عجم",
+      "jins_en": "Jins ‘Ajam",
+      "signature_ar": "عجم على درجة عشيران؛ نفس الطابع من قرار أعلى.",
+      "signature_en": "‘Ajam on the ‘Ushayran degree; the same character from a higher tonic.",
+      "status": "approved"
     },
     {
       "id": "athar_kurd",
@@ -1220,7 +1285,15 @@
             "Maqamat Insolites"
           ]
         }
-      ]
+      ],
+      "name_ar": "أثر كرد",
+      "name_en": "Athar Kurd",
+      "color": "#6E9EB8",
+      "jins_ar": "جنس كرد",
+      "jins_en": "Jins Kurd",
+      "signature_ar": "كرد مع رابعة مرتفعة ولون حجاز في الأعلى.",
+      "signature_en": "Kurd with a raised fourth and a Hijaz colour above.",
+      "status": "approved"
     },
     {
       "id": "awj_iraq",
@@ -1281,7 +1354,15 @@
           "artist": "Samer Nashar",
           "audio": "media/maqam/awj_iraq/hayya_wa_nadim.mp3"
         }
-      ]
+      ],
+      "name_ar": "أوج العراق",
+      "name_en": "Awj ‘Iraq",
+      "color": "#8C7BC4",
+      "jins_ar": "مقام مركّب",
+      "jins_en": "Compound maqam",
+      "signature_ar": "مقام مركّب ينزل من العراق إلى قرار منخفض.",
+      "signature_en": "A compound maqam that descends from ‘Iraq to a lower tonic.",
+      "status": "approved"
     },
     {
       "id": "bastanikar",
@@ -1411,7 +1492,15 @@
             "Taqaseem Oud"
           ]
         }
-      ]
+      ],
+      "name_ar": "بستة نيكار",
+      "name_en": "Bastanikar",
+      "color": "#B57E9E",
+      "jins_ar": "جنس نكريز",
+      "jins_en": "Jins Nikriz",
+      "signature_ar": "نكريز يتصاعد إلى صبا في الجواب.",
+      "signature_en": "Nikriz rising into Saba in the upper register.",
+      "status": "approved"
     },
     {
       "id": "bayati_shuri",
@@ -1504,7 +1593,15 @@
             "Wasla in Bayati Shuri"
           ]
         }
-      ]
+      ],
+      "name_ar": "بياتي شوري",
+      "name_en": "Bayati Shuri",
+      "color": "#6FB59C",
+      "jins_ar": "جنس بياتي",
+      "jins_en": "Jins Bayati",
+      "signature_ar": "بياتي مع سادسة صغيرة ولون شوري.",
+      "signature_en": "Bayati with a minor sixth and a Shuri colour.",
+      "status": "approved"
     },
     {
       "id": "dalanshin",
@@ -1584,7 +1681,15 @@
             "Music by Muhammad ‘Uthman"
           ]
         }
-      ]
+      ],
+      "name_ar": "دلنشين",
+      "name_en": "Dalanshin",
+      "color": "#5C9AA8",
+      "jins_ar": "جنس كرد",
+      "jins_en": "Jins Kurd",
+      "signature_ar": "مسار نازل من الحجاز إلى الكرد.",
+      "signature_en": "A descending path from Hijaz to Kurd.",
+      "status": "approved"
     },
     {
       "id": "f_ajam",
@@ -1797,7 +1902,15 @@
             "Music by Tanburi Cemil Bey"
           ]
         }
-      ]
+      ],
+      "name_ar": "حجازكار",
+      "name_en": "Hijazkar",
+      "color": "#D08A4E",
+      "jins_ar": "جنس حجاز",
+      "jins_en": "Jins Hijaz",
+      "signature_ar": "حجازكار: حجاز واسع على قرار مرتفع.",
+      "signature_en": "Hijazkar: a wide Hijaz on a high tonic.",
+      "status": "approved"
     },
     {
       "id": "hijazkar_kurd",
@@ -1885,7 +1998,15 @@
           "artist": "Saleh Abdel Hayy",
           "audio": "media/maqam/hijazkar_kurd/izzay_tibi3ni.mp3"
         }
-      ]
+      ],
+      "name_ar": "حجازكار كرد",
+      "name_en": "Hijazkar Kurd",
+      "color": "#B96F55",
+      "jins_ar": "جنس حجاز",
+      "jins_en": "Jins Hijaz",
+      "signature_ar": "حجازكار ينتهي بكرد في القرار.",
+      "signature_en": "Hijazkar that resolves to Kurd at the tonic.",
+      "status": "approved"
     },
     {
       "id": "husayni",
@@ -1963,7 +2084,15 @@
           "artist": "Salah ‘Arram Ensemble (Egypt)",
           "audio": "media/maqam/husayni/samai_bayati_khana2.mp3"
         }
-      ]
+      ],
+      "name_ar": "حسيني",
+      "name_en": "Husayni",
+      "color": "#8FB56B",
+      "jins_ar": "جنس بياتي",
+      "jins_en": "Jins Bayati",
+      "signature_ar": "بياتي يتحرك حول الحسيني بلمسة نهاوند.",
+      "signature_en": "Bayati moving around Husayni with a Nahawand touch.",
+      "status": "approved"
     },
     {
       "id": "iraq",
@@ -2035,7 +2164,15 @@
             "Music by Ziad Rahbani"
           ]
         }
-      ]
+      ],
+      "name_ar": "عراق",
+      "name_en": "‘Iraq",
+      "color": "#7B8FC4",
+      "jins_ar": "جنس سيكاه",
+      "jins_en": "Jins Sikah",
+      "signature_ar": "مقام مركّب حول السيكاه مع جواب عجم.",
+      "signature_en": "A compound maqam around Sikah with an ‘Ajam answer.",
+      "status": "approved"
     },
     {
       "id": "jiharkah",
@@ -2130,7 +2267,15 @@
             "Live Au Théatre Des Amandiers"
           ]
         }
-      ]
+      ],
+      "name_ar": "جهاركاه",
+      "name_en": "Jiharkah",
+      "color": "#D3945F",
+      "jins_ar": "جنس حجاز",
+      "jins_en": "Jins Hijaz",
+      "signature_ar": "جهاركاه: حجاز على القرار الرابع.",
+      "signature_en": "Jiharkah: Hijaz on the fourth degree as tonic.",
+      "status": "approved"
     },
     {
       "id": "kirdan",
@@ -2203,7 +2348,15 @@
             "Music by Dawud Husni (Egypt)"
           ]
         }
-      ]
+      ],
+      "name_ar": "كردان",
+      "name_en": "Kirdan",
+      "color": "#5FA69A",
+      "jins_ar": "جنس كرد",
+      "jins_en": "Jins Kurd",
+      "signature_ar": "كردان: كرد نازل من الجواب.",
+      "signature_en": "Kirdan: Kurd descending from the upper register.",
+      "status": "approved"
     },
     {
       "id": "lami",
@@ -2291,7 +2444,15 @@
             "(Iraqi Traditional)"
           ]
         }
-      ]
+      ],
+      "name_ar": "لامي",
+      "name_en": "Lami",
+      "color": "#A58BC0",
+      "jins_ar": "مقام مركّب",
+      "jins_en": "Compound maqam",
+      "signature_ar": "لامي: لون حزين بين الكرد والنهاوند.",
+      "signature_en": "Lami: a mournful colour between Kurd and Nahawand.",
+      "status": "approved"
     },
     {
       "id": "mahur",
@@ -2344,7 +2505,15 @@
           "artist": "Charbel Rouhana",
           "audio": "media/maqam/mahur/bi_sifatin_ja3alatni.mp3"
         }
-      ]
+      ],
+      "name_ar": "ماهور",
+      "name_en": "Mahur",
+      "color": "#D9B36A",
+      "jins_ar": "جنس عجم",
+      "jins_en": "Jins ‘Ajam",
+      "signature_ar": "ماهور: عجم من قرار آخر.",
+      "signature_en": "Mahur: ‘Ajam from a different tonic.",
+      "status": "approved"
     },
     {
       "id": "mustaar",
@@ -2416,7 +2585,15 @@
           "artist": "Sheikh Abu el-‘Ila Muhammad",
           "audio": "media/maqam/mustaar/ya_3adhili_la_talumni.mp3"
         }
-      ]
+      ],
+      "name_ar": "مستعار",
+      "name_en": "Musta‘ar",
+      "color": "#7EA9C9",
+      "jins_ar": "جنس عجم",
+      "jins_en": "Jins ‘Ajam",
+      "signature_ar": "مستعار: حجاز مع لون نكريز.",
+      "signature_en": "Musta‘ar: Hijaz with a Nikriz colour.",
+      "status": "approved"
     },
     {
       "id": "nahawand_murassaa",
@@ -2504,7 +2681,15 @@
             "Music by Sami Abu Shumays"
           ]
         }
-      ]
+      ],
+      "name_ar": "نهاوند مرصع",
+      "name_en": "Nahawand Murassa‘",
+      "color": "#C98AA6",
+      "jins_ar": "جنس نهاوند",
+      "jins_en": "Jins Nahawand",
+      "signature_ar": "نهاوند مرصع: رابعة منخفضة تزيد الحزن.",
+      "signature_en": "Nahawand Murassa‘: a lowered fourth deepens the sadness.",
+      "status": "approved"
     },
     {
       "id": "nairuz",
@@ -2576,7 +2761,15 @@
             "Music by Zakariya Ahmad (Egypt)"
           ]
         }
-      ]
+      ],
+      "name_ar": "نيروز",
+      "name_en": "Nairuz",
+      "color": "#9CBF6A",
+      "jins_ar": "جنس نكريز",
+      "jins_en": "Jins Nikriz",
+      "signature_ar": "نيروز: عجم بنكهة نكريز.",
+      "signature_en": "Nairuz: ‘Ajam with a Nikriz flavour.",
+      "status": "approved"
     },
     {
       "id": "nawa_athar",
@@ -2672,7 +2865,15 @@
             "Improvisations Orientales"
           ]
         }
-      ]
+      ],
+      "name_ar": "نوى أثر",
+      "name_en": "Nawa Athar",
+      "color": "#6B8FA8",
+      "jins_ar": "مقام مركّب",
+      "jins_en": "Compound maqam",
+      "signature_ar": "نوى أثر: أثر كرد من قرار النوى.",
+      "signature_en": "Nawa Athar: Athar Kurd from the Nawa tonic.",
+      "status": "approved"
     },
     {
       "id": "nikriz",
@@ -2769,7 +2970,15 @@
             "Music by Sayyed Darwish"
           ]
         }
-      ]
+      ],
+      "name_ar": "نكريز",
+      "name_en": "Nikriz",
+      "color": "#C28A5E",
+      "jins_ar": "جنس نكريز",
+      "jins_en": "Jins Nikriz",
+      "signature_ar": "نكريز: الثالثة الكبيرة والرابعة المرتفعة.",
+      "signature_en": "Nikriz: a major third and a raised fourth.",
+      "status": "approved"
     },
     {
       "id": "saba_zamzam",
@@ -2856,7 +3065,15 @@
             "Music by Hassan Abu al-Su‘ud"
           ]
         }
-      ]
+      ],
+      "name_ar": "صبا زمزم",
+      "name_en": "Saba Zamzam",
+      "color": "#9A76B8",
+      "jins_ar": "جنس صبا",
+      "jins_en": "Jins Saba",
+      "signature_ar": "صبا زمزم: صبا مع جواب حجازي.",
+      "signature_en": "Saba Zamzam: Saba with a Hijaz upper register.",
+      "status": "approved"
     },
     {
       "id": "shawq_afza",
@@ -2931,7 +3148,15 @@
             "Music by Philemon Wehbe"
           ]
         }
-      ]
+      ],
+      "name_ar": "شوق أفزا",
+      "name_en": "Shawq Afza",
+      "color": "#D1A45C",
+      "jins_ar": "جنس نهاوند",
+      "jins_en": "Jins Nahawand",
+      "signature_ar": "شوق أفزا: نهاوند مع سادسة كبيرة.",
+      "signature_en": "Shawq Afza: Nahawand with a major sixth.",
+      "status": "approved"
     },
     {
       "id": "sikah_baladi",
@@ -3055,7 +3280,15 @@
             "Saltanah"
           ]
         }
-      ]
+      ],
+      "name_ar": "سيكاه بلدي",
+      "name_en": "Sikah Baladi",
+      "color": "#86B37A",
+      "jins_ar": "جنس سيكاه",
+      "jins_en": "Jins Sikah",
+      "signature_ar": "سيكاه بلدي: درجات منخفضة وربع نغمية.",
+      "signature_en": "Sikah Baladi: lowered degrees and quarter tones.",
+      "status": "approved"
     },
     {
       "id": "suzdalara",
@@ -3106,7 +3339,15 @@
             "Music by Baligh Hamdi (Egypt)"
           ]
         }
-      ]
+      ],
+      "name_ar": "سوزدلارا",
+      "name_en": "Suzdalara",
+      "color": "#B07FAF",
+      "jins_ar": "مقام مركّب",
+      "jins_en": "Compound maqam",
+      "signature_ar": "سوزدلارا: حزن نازل بين النهاوند والصبا.",
+      "signature_en": "Suzdalara: a descending sorrow between Nahawand and Saba.",
+      "status": "approved"
     },
     {
       "id": "suznak",
@@ -3186,7 +3427,15 @@
             "Saltanah"
           ]
         }
-      ]
+      ],
+      "name_ar": "سوزناك",
+      "name_en": "Suznak",
+      "color": "#C47A64",
+      "jins_ar": "جنس حجاز",
+      "jins_en": "Jins Hijaz",
+      "signature_ar": "سوزناك: حجاز مع لون نهاوند.",
+      "signature_en": "Suznak: Hijaz with a Nahawand colour.",
+      "status": "approved"
     },
     {
       "id": "ushaq_masri",
@@ -3244,7 +3493,15 @@
           "artist": "Sheikh Abu el-‘Ila Muhammad",
           "audio": "media/maqam/ushaq_masri/layali_nahawand.mp3"
         }
-      ]
+      ],
+      "name_ar": "عشاق مصري",
+      "name_en": "‘Ushaq Masri",
+      "color": "#7FB39C",
+      "jins_ar": "جنس بياتي",
+      "jins_en": "Jins Bayati",
+      "signature_ar": "عشاق مصري: بياتي واسع حول القرار.",
+      "signature_en": "‘Ushaq Masri: a wide Bayati around the tonic.",
+      "status": "approved"
     },
     {
       "id": "zanjaran",
@@ -3351,113 +3608,145 @@
           "artist": "Muhammad Abdel Karim",
           "audio": "media/maqam/zanjaran/taqsim_buzuq.mp3"
         }
-      ]
+      ],
+      "name_ar": "زنجران",
+      "name_en": "Zanjaran",
+      "color": "#6F97B5",
+      "jins_ar": "جنس كرد",
+      "jins_en": "Jins Kurd",
+      "signature_ar": "زنجران: كرد مع لون حجاز في الجواب.",
+      "signature_en": "Zanjaran: Kurd with a Hijaz colour in the upper register.",
+      "status": "approved"
     }
   ],
   "notice": "حزمة تطوير: العبارات الثلاث الأولى ألحان مُصنَّعة داخل المشروع (CC0) وتُستبدل بحزمة المقامات المرخّصة قبل النشر.",
+  "notice_en": "Development pack: the first three phrases are original in-project compositions (CC0) and will be replaced by the licensed maqam pack before release.",
   "onboarding": {
     "steps": [
       {
         "id": "high_low",
         "prompt_ar": "أي النغمتين أعلى؟",
+        "prompt_en": "Which note is higher?",
         "audio": "on-01-high-low.mp3",
         "options": [
           {
             "id": "first",
-            "label_ar": "الأولى"
+            "label_ar": "الأولى",
+            "label_en": "First"
           },
           {
             "id": "second",
-            "label_ar": "الثانية"
+            "label_ar": "الثانية",
+            "label_en": "Second"
           }
         ],
         "answer": "second",
-        "explanation_ar": "الثانية أعلى بخمس درجات تقريبًا؛ الأذن تقيس الارتفاع بسرعة."
+        "explanation_ar": "الثانية أعلى بخمس درجات تقريبًا؛ الأذن تقيس الارتفاع بسرعة.",
+        "explanation_en": "The second note is about five steps higher; the ear judges height quickly."
       },
       {
         "id": "up_down",
         "prompt_ar": "أي المقطعين يبدأ صاعدًا؟",
+        "prompt_en": "Which phrase starts by rising?",
         "audio": "on-02-up-down.mp3",
         "options": [
           {
             "id": "first",
-            "label_ar": "الأولى"
+            "label_ar": "الأولى",
+            "label_en": "First"
           },
           {
             "id": "second",
-            "label_ar": "الثانية"
+            "label_ar": "الثانية",
+            "label_en": "Second"
           }
         ],
         "answer": "first",
-        "explanation_ar": "الصعود يبني التوقع نحو الأعلى، والهبوط يعيدك إلى القرار."
+        "explanation_ar": "الصعود يبني التوقع نحو الأعلى، والهبوط يعيدك إلى القرار.",
+        "explanation_en": "A rise builds expectation upward, while a descent returns you to the tonic."
       },
       {
         "id": "same_different",
         "prompt_ar": "هل النغمتان متطابقتان؟",
+        "prompt_en": "Are the two notes the same?",
         "audio": "on-03-same-different.mp3",
         "options": [
           {
             "id": "same",
-            "label_ar": "متطابقتان"
+            "label_ar": "متطابقتان",
+            "label_en": "Same"
           },
           {
             "id": "different",
-            "label_ar": "مختلفتان"
+            "label_ar": "مختلفتان",
+            "label_en": "Different"
           }
         ],
         "answer": "different",
-        "explanation_ar": "الثانية أعلى قليلًا؛ حتى الفرق الصغير له اسم."
+        "explanation_ar": "الثانية أعلى قليلًا؛ حتى الفرق الصغير له اسم.",
+        "explanation_en": "The second is slightly higher; even a small difference has a name."
       },
       {
         "id": "long_short",
         "prompt_ar": "أي النغمتين أطول؟",
+        "prompt_en": "Which note is longer?",
         "audio": "on-04-long-short.mp3",
         "options": [
           {
             "id": "first",
-            "label_ar": "الأولى"
+            "label_ar": "الأولى",
+            "label_en": "First"
           },
           {
             "id": "second",
-            "label_ar": "الثانية"
+            "label_ar": "الثانية",
+            "label_en": "Second"
           }
         ],
         "answer": "first",
-        "explanation_ar": "المدة جزء من شخصية النغمة، لا الارتفاع وحده."
+        "explanation_ar": "المدة جزء من شخصية النغمة، لا الارتفاع وحده.",
+        "explanation_en": "Length is part of a note's character, not pitch alone."
       },
       {
         "id": "home_note",
         "prompt_ar": "أي المقطعين ينتهي على نغمة البيت؟",
+        "prompt_en": "Which phrase ends on the home note?",
         "audio": "on-05-home-note.mp3",
         "options": [
           {
             "id": "first",
-            "label_ar": "الأولى"
+            "label_ar": "الأولى",
+            "label_en": "First"
           },
           {
             "id": "second",
-            "label_ar": "الثانية"
+            "label_ar": "الثانية",
+            "label_en": "Second"
           }
         ],
         "answer": "second",
-        "explanation_ar": "ما قبل النهاية يبني التوقع، والنهاية تستقر على البيت فوق الدرون."
+        "explanation_ar": "ما قبل النهاية يبني التوقع، والنهاية تستقر على البيت فوق الدرون.",
+        "explanation_en": "What comes before the ending builds expectation; the ending settles on the home note over the drone."
       }
     ],
     "first_win": {
       "prompt_ar": "أي مقام تسمع؟",
+      "prompt_en": "Which maqam do you hear?",
       "audio": "01-alhijaz.mp3",
       "maqam_ids": [
         "hijaz",
         "nahawand"
       ],
       "answer": "hijaz",
-      "explanation_ar": "المسافة الزائدة بين الدرجتين الثانية والثالثة هي توقيع الحجاز."
+      "explanation_ar": "المسافة الزائدة بين الدرجتين الثانية والثالثة هي توقيع الحجاز.",
+      "explanation_en": "The augmented second between the second and third degrees is the Hijaz signature."
     }
   },
   "lessons": [
     {
       "id": "hijaz_nahawand",
       "title_ar": "حجاز أم نهاوند؟",
+      "title_en": "Hijaz or Nahawand?",
       "maqam_ids": [
         "hijaz",
         "nahawand"
@@ -3484,6 +3773,7 @@
     {
       "id": "rast_hijaz",
       "title_ar": "راست أم حجاز؟",
+      "title_en": "Rast or Hijaz?",
       "maqam_ids": [
         "rast",
         "hijaz"
@@ -3510,6 +3800,7 @@
     {
       "id": "rast_nahawand",
       "title_ar": "راست أم نهاوند؟",
+      "title_en": "Rast or Nahawand?",
       "maqam_ids": [
         "rast",
         "nahawand"

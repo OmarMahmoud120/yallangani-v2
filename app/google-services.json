@@ -1,0 +1,102 @@
+{
+  "project_info": {
+    "project_number": "9962336538",
+    "firebase_url": "https://yallanganee-73906702.firebaseio.com",
+    "project_id": "yallanganee-73906702",
+    "storage_bucket": "yallanganee-73906702.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:9962336538:android:f7072dda576149a4",
+        "android_client_info": {
+          "package_name": "com.osmartapps.yallanghanee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "9962336538-pl3sfe8ui78uu2pm73tgdmqtjdho8sn6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.osmartapps.yallanghanee",
+            "certificate_hash": "528d67a6befb734566145dcbfc230b33744dc992"
+          }
+        },
+        {
+          "client_id": "9962336538-c12lmenh67te93u1u4uvqgmv81kb20vu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.osmartapps.yallanghanee",
+            "certificate_hash": "7cd3e676ac0b98f5d72e3460c1088dcb85d421a9"
+          }
+        },
+        {
+          "client_id": "9962336538-18kb4ttlpq92fj7ccbjr1a7mrn11fig1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.osmartapps.yallanghanee",
+            "certificate_hash": "675bc176dd1718c18ed73d6bdc411fac68ba84a3"
+          }
+        },
+        {
+          "client_id": "9962336538-e20h3u8jitu4tv04ujhj2i55qkcel79k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD12E4A35SLgC2gm4mnIoJe9fryuwNSkUM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "9962336538-e20h3u8jitu4tv04ujhj2i55qkcel79k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:9962336538:android:f7072dda576149a4",
+        "android_client_info": {
+          "package_name": "com.osmartapps.yallanghanee.dev"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD12E4A35SLgC2gm4mnIoJe9fryuwNSkUM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "9962336538-e20h3u8jitu4tv04ujhj2i55qkcel79k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

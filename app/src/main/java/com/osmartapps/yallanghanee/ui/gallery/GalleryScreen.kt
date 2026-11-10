@@ -2,6 +2,7 @@ package com.osmartapps.yallanghanee.ui.gallery
 
 import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.background
+import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -22,6 +23,9 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import com.osmartapps.yallanghanee.R
 import com.osmartapps.yallanghanee.model.MaqamPack
+import com.osmartapps.yallanghanee.model.name
+import com.osmartapps.yallanghanee.model.signature
+import com.osmartapps.yallanghanee.ui.LocalAppLanguage
 import com.osmartapps.yallanghanee.ui.components.AnswerCard
 import com.osmartapps.yallanghanee.ui.components.AnswerState
 import com.osmartapps.yallanghanee.ui.components.AudioErrorPanel
@@ -41,6 +45,7 @@ import com.osmartapps.yallanghanee.ui.theme.maqamColor
 @Composable
 fun GalleryScreen(pack: MaqamPack, onBack: () -> Unit) {
     BackHandler(onBack = onBack)
+    val language = LocalAppLanguage.current
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -70,19 +75,22 @@ fun GalleryScreen(pack: MaqamPack, onBack: () -> Unit) {
         }
 
         Section(R.string.gallery_sigils) {
-            Row(horizontalArrangement = Arrangement.spacedBy(18.dp)) {
+            Row(
+                modifier = Modifier.horizontalScroll(rememberScrollState()),
+                horizontalArrangement = Arrangement.spacedBy(18.dp),
+            ) {
                 pack.maqams.forEach { maqam ->
                     Column(
                         horizontalAlignment = Alignment.CenterHorizontally,
                         verticalArrangement = Arrangement.spacedBy(6.dp),
                     ) {
                         MaqamSigil(
-                            nameAr = maqam.nameAr,
-                            color = maqamColor(maqam.id),
+                            name = maqam.name(language),
+                            color = maqamColor(maqam.id, maqam.color),
                             size = 60.dp,
                         )
                         Text(
-                            text = maqam.nameAr,
+                            text = maqam.name(language),
                             color = NightTextMuted,
                             style = MaterialTheme.typography.labelSmall,
                         )
@@ -203,14 +211,14 @@ fun GalleryScreen(pack: MaqamPack, onBack: () -> Unit) {
             Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
                 FeedbackPanel(
                     correct = true,
-                    answerName = pack.maqams.first().nameAr,
-                    explanation = pack.maqams.first().signatureAr,
+                    answerName = pack.maqams.first().name(language),
+                    explanation = pack.maqams.first().signature(language),
                     accent = maqamColor(pack.maqams.first().id),
                 )
                 FeedbackPanel(
                     correct = false,
-                    answerName = pack.maqams.last().nameAr,
-                    explanation = pack.maqams.last().signatureAr,
+                    answerName = pack.maqams.last().name(language),
+                    explanation = pack.maqams.last().signature(language),
                     accent = maqamColor(pack.maqams.last().id),
                 )
             }

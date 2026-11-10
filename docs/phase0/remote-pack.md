@@ -1,16 +1,17 @@
 # Remote content pack (runtime site updates)
 
-Status: proposed 2026-11-10, awaiting owner review.
+Status: approved and shipped 2026-11-10. Schema 3 extended the same day with site tracks,
+notation, and a 35-maqam catalog; see `docs/phase0/site-tracks-plan.md`.
 
 ## Decision
 
 The public site becomes the runtime content source. The app ships a bundled pack for offline use,
 checks the site for a newer pack, and rebuilds its lessons from whatever pack it ends up holding.
 
-This changes two earlier contracts and both must be amended when the work is approved:
+This changed two earlier contracts:
 
-- `AGENTS.md` rule 8 (“offline gameplay is sacred”) becomes “offline gameplay is guaranteed from the
-  bundled or last-known-good pack; the network only refreshes content”.
+- `AGENTS.md` rule 8 (“offline gameplay is sacred”) now reads: the app always has a usable
+  last-known-good pack, and the network refreshes content and streams lesson audio.
 - `docs/RECREATION_PLAN.md` §4.3 drops “remote content updates” from the out-of-scope list.
 
 ## Pack format
@@ -29,15 +30,22 @@ Additions to the app pack:
 
 - `content_version`: 12-hex digest of the pack content (maqams, onboarding, lessons). Equal content
   gives an equal value; any edit changes it. The app compares this value, not ordering.
-- `version` stays the schema version (`2`). Bump it only on a breaking shape change; the app rejects
+- `version` is the schema version (`3`). Bump it only on a breaking shape change; the app rejects
   unknown schema versions instead of guessing.
-- `audio_sha256`: map of clip file name to digest. Required for clips hosted on the site.
+- `media_base`: absolute HTTPS base (`https://yallanganee-73906702.web.app/data/`) for every relative
+  media path in the pack.
+- Per maqam: `notation` (PNG path), `source_url` (MaqamWorld page), and `tracks[]`
+  (`title`, `artist`, `audio`, `credits`). Lesson audio resolves to a random track per question.
+- `audio_sha256`: map of *bundled* clip file name to digest. Site tracks are not downloaded by the
+  app, so they have no digest entry.
 
 Audio:
 
-- `site/public/data/app-audio/<file>` mirrors the Pack 1 clips. It is the download origin for new
-  clips and is generated from the app assets by the sync step.
-- Site recordings (`data/media/...`) are still never shipped or downloaded into the app.
+- Lesson questions stream the site track MP3 directly through `MediaPlayer`; no track is copied into
+  the APK or app cache.
+- `site/public/data/app-audio/<file>` still mirrors the nine Pack 1 clips (phrases, drills, drone);
+  it is the download origin when a pack references one that is not bundled.
+- Notation images are fetched from the site on answer and kept in a small in-memory LRU cache.
 
 ## App behaviour
 
@@ -56,19 +64,22 @@ No periodic background work, no WorkManager.
 
 ### Audio resolution
 
-For a clip named in the active pack:
+A question resolves its source in this order:
 
-1. Bundled asset (`assets/content/audio/`) wins.
-2. `filesDir/pack/audio/<name>` if the digest matches `audio_sha256`.
-3. Otherwise download from `<base>/data/app-audio/<name>`, verify the digest, then play.
+1. Item-level bundled `audio` override.
+2. `<media_base><track.audio>` for the track picked at random from the answer maqam.
+3. The maqam's bundled `audio` phrase (Pack 1 only).
 
-A download failure falls back to the bundled clip for that maqam when one exists, and otherwise
-drops that maqam from the lesson options (`MaqamPackValidator` already rejects unknown answers).
+`MediaPlayer` streams HTTPS sources with `prepareAsync`; `duration`/`position` are only read after
+`onPrepared` because reading them while preparing aborts playback with error `-38` on Samsung.
+A bundled clip named in the active pack still follows bundled asset → verified cache → remote
+`data/app-audio` download.
 
 ### Limits and safety
 
-- Pack body ≤ 512 KB; one clip ≤ 5 MB; referenced cached clips ≤ 50 MB, otherwise the pack is
-  rejected and the previous one stays.
+- Pack body ≤ 512 KB; one bundled clip ≤ 5 MB; referenced cached clips ≤ 50 MB, otherwise the pack
+  is rejected and the previous one stays. Streamed tracks are not downloaded or size-capped by the
+  app; `MediaPlayer` reads them progressively.
 - Reject non-200, non-HTTPS, and bodies over the caps before parsing.
 - Verify `audio_sha256` before a downloaded clip is used.
 - A rejected or partial pack never replaces a working one; writes are temp-file then rename.
@@ -80,12 +91,13 @@ drops that maqam from the lesson options (`MaqamPackValidator` already rejects u
 ## Consequences
 
 - Content edits reach installed apps without a Play release, which is the owner's goal.
-- The app still passes the airplane-mode check: bundled pack on first run, cached pack afterwards.
+- Content and lessons survive offline from the bundled or cached pack, but site tracks and notation
+  need a network connection. The old “works without internet” copy was removed on 2026-11-10.
 - Progress keys are lesson IDs. Removing a lesson leaves its completion flag orphaned but harmless;
   adding lessons does not reset progress.
 - The pack is fetched at launch: one small HTTPS request. It is not ads and carries no identifiers.
-- `INTERNET` is already declared, so no manifest change. If ads are ever removed, the permission is
-  still required by this feature.
+- `INTERNET` is already declared. It is now required for pack refresh, track streaming, and notation
+  images, not only for the retained ads SDK.
 
 ## Test plan
 

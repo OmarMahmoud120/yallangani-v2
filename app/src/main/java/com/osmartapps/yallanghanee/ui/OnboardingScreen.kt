@@ -36,6 +36,10 @@ import androidx.compose.ui.unit.dp
 import com.osmartapps.yallanghanee.R
 import com.osmartapps.yallanghanee.audio.AudioPlayer
 import com.osmartapps.yallanghanee.model.MaqamPack
+import com.osmartapps.yallanghanee.model.explanation
+import com.osmartapps.yallanghanee.model.label
+import com.osmartapps.yallanghanee.model.name
+import com.osmartapps.yallanghanee.model.prompt
 import com.osmartapps.yallanghanee.ui.components.AnswerCard
 import com.osmartapps.yallanghanee.ui.components.AudioErrorPanel
 import com.osmartapps.yallanghanee.ui.components.FeedbackPanel
@@ -62,6 +66,7 @@ fun OnboardingScreen(
 ) {
     val context = LocalContext.current
     val player = remember(context) { AudioPlayer(context) }
+    val language = LocalAppLanguage.current
     val onboarding = pack.onboarding
     val steps = onboarding.steps
     val index = step.coerceIn(0, steps.size)
@@ -75,18 +80,18 @@ fun OnboardingScreen(
     var audioError by remember { mutableStateOf(false) }
     val scrollState = rememberScrollState()
 
-    val prompt = if (firstWin) onboarding.firstWin.promptAr else current!!.promptAr
+    val prompt = if (firstWin) onboarding.firstWin.prompt(language) else current!!.prompt(language)
     val audio = if (firstWin) onboarding.firstWin.audio else current!!.audio
     val answerId = if (firstWin) onboarding.firstWin.answer else current!!.answer
     val explanation = if (firstWin) {
-        onboarding.firstWin.explanationAr
+        onboarding.firstWin.explanation(language)
     } else {
-        current!!.explanationAr
+        current!!.explanation(language)
     }
     val options: List<Pair<String, String>> = if (firstWin) {
-        onboarding.firstWin.maqamIds.map { id -> id to (pack.maqamById(id)?.nameAr ?: id) }
+        onboarding.firstWin.maqamIds.map { id -> id to (pack.maqamById(id)?.name(language) ?: id) }
     } else {
-        current!!.options.map { it.id to it.labelAr }
+        current!!.options.map { it.id to it.label(language) }
     }
     val answerLabel = options.first { it.first == answerId }.second
     val accent = if (firstWin) maqamColor(answerId) else NightGold
@@ -101,7 +106,7 @@ fun OnboardingScreen(
         audioError = false
         progress = 0f
         player.play(
-            assetPath = "$AUDIO_DIR/$audio",
+            source = "$AUDIO_DIR/$audio",
             onFinished = {
                 playing = false
                 progress = 1f
@@ -115,7 +120,7 @@ fun OnboardingScreen(
                 audioError = true
             },
         )
-        playing = player.isPlaying
+        playing = player.isActive
     }
 
     LaunchedEffect(stageKey) {

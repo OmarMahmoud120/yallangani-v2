@@ -9,7 +9,7 @@ private val SAFE_CLIP_NAME = Regex("[A-Za-z0-9][A-Za-z0-9._-]*")
 fun MaqamPack.clipNames(): Set<String> {
     val names = mutableSetOf<String>()
     maqams.forEach { maqam ->
-        names += maqam.audio
+        maqam.audio?.let { names += it }
         maqam.drone?.let { names += it }
     }
     onboarding.steps.forEach { names += it.audio }

@@ -5,6 +5,7 @@ import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.BoxWithConstraints
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -40,6 +41,10 @@ import com.osmartapps.yallanghanee.R
 import com.osmartapps.yallanghanee.model.Maqam
 import com.osmartapps.yallanghanee.model.MaqamPack
 import com.osmartapps.yallanghanee.model.RecognitionLesson
+import com.osmartapps.yallanghanee.model.jins
+import com.osmartapps.yallanghanee.model.name
+import com.osmartapps.yallanghanee.model.notice
+import com.osmartapps.yallanghanee.model.title
 import com.osmartapps.yallanghanee.ui.components.MaqamSigil
 import com.osmartapps.yallanghanee.ui.components.MasteryRing
 import com.osmartapps.yallanghanee.ui.theme.NightBg
@@ -58,9 +63,11 @@ fun HomeScreen(
     onStartLesson: (String) -> Unit,
     onOpenSettings: () -> Unit,
     onOpenGallery: (() -> Unit)? = null,
+    footer: @Composable () -> Unit = {},
 ) {
     val completedCount = pack.lessons.count { it.id in completedLessons }
     val nextLesson = pack.lessons.firstOrNull { it.id !in completedLessons }
+    val language = LocalAppLanguage.current
     val masteredMaqams = remember(pack, completedLessons) { masteredMaqams(pack, completedLessons) }
 
     Box(
@@ -119,13 +126,14 @@ fun HomeScreen(
                 completed = completedCount,
                 total = pack.lessons.size,
             )
-            pack.notice?.let { notice ->
+            pack.notice(language)?.let { notice ->
                 Text(
                     text = notice,
                     color = NightTextMuted.copy(alpha = 0.75f),
                     style = MaterialTheme.typography.labelSmall,
                 )
             }
+            footer()
             Spacer(Modifier.height(4.dp))
         }
     }
@@ -136,37 +144,44 @@ private fun HomeHeader(
     onOpenSettings: () -> Unit,
     onOpenGallery: (() -> Unit)?,
 ) {
-    Row(
-        modifier = Modifier.fillMaxWidth(),
-        verticalAlignment = Alignment.Top,
-    ) {
-        Column(modifier = Modifier.weight(1f)) {
-            Text(
-                text = stringResource(R.string.app_name),
-                color = NightGold,
-                style = MaterialTheme.typography.displayMedium,
-            )
-            Text(
-                text = stringResource(R.string.product_line),
-                color = NightTextMuted,
-                style = MaterialTheme.typography.labelMedium,
-            )
-        }
-        if (onOpenGallery != null) {
-            TextButton(onClick = onOpenGallery) {
+    BoxWithConstraints(modifier = Modifier.fillMaxWidth()) {
+        val compact = maxWidth < 380.dp
+        Row(
+            modifier = Modifier.fillMaxWidth(),
+            verticalAlignment = Alignment.Top,
+        ) {
+            Column(modifier = Modifier.weight(1f)) {
                 Text(
-                    text = stringResource(R.string.gallery_title),
+                    text = stringResource(R.string.app_name),
+                    color = NightGold,
+                    style = if (compact) {
+                        MaterialTheme.typography.titleLarge
+                    } else {
+                        MaterialTheme.typography.displayMedium
+                    },
+                )
+                Text(
+                    text = stringResource(R.string.product_line),
                     color = NightTextMuted,
                     style = MaterialTheme.typography.labelMedium,
                 )
             }
-        }
-        IconButton(onClick = onOpenSettings) {
-            Icon(
-                imageVector = Icons.Filled.Settings,
-                contentDescription = stringResource(R.string.settings_title),
-                tint = NightTextMuted,
-            )
+            if (onOpenGallery != null) {
+                TextButton(onClick = onOpenGallery) {
+                    Text(
+                        text = stringResource(R.string.gallery_title),
+                        color = NightTextMuted,
+                        style = MaterialTheme.typography.labelMedium,
+                    )
+                }
+            }
+            IconButton(onClick = onOpenSettings) {
+                Icon(
+                    imageVector = Icons.Filled.Settings,
+                    contentDescription = stringResource(R.string.settings_title),
+                    tint = NightTextMuted,
+                )
+            }
         }
     }
 }
@@ -179,6 +194,7 @@ private fun ContinueCard(
     hasProgress: Boolean,
     onStart: () -> Unit,
 ) {
+    val language = LocalAppLanguage.current
     Column(
         modifier = Modifier
             .fillMaxWidth()
@@ -201,15 +217,15 @@ private fun ContinueCard(
             )
         } else if (lesson != null) {
             Text(
-                text = stringResource(R.string.home_next_review, lesson.titleAr),
+                text = stringResource(R.string.home_next_review, lesson.title(language)),
                 color = NightText,
                 style = MaterialTheme.typography.headlineSmall,
             )
             Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                 lesson.maqamIds.mapNotNull { pack.maqamById(it) }.forEach { maqam ->
                     MaqamSigil(
-                        nameAr = maqam.nameAr,
-                        color = maqamColor(maqam.id),
+                        name = maqam.name(language),
+                        color = maqamColor(maqam.id, maqam.color),
                         size = 38.dp,
                     )
                 }
@@ -248,9 +264,12 @@ private fun MaqamRow(
     enabled: Boolean,
     onClick: () -> Unit,
 ) {
+    val language = LocalAppLanguage.current
     val masteryLabel = stringResource(
         if (mastered) R.string.maqam_done else R.string.maqam_new,
     )
+    val maqamName = maqam.name(language)
+    val maqamJins = maqam.jins(language)
     Row(
         modifier = Modifier
             .fillMaxWidth()
@@ -258,7 +277,7 @@ private fun MaqamRow(
             .background(NightSurface)
             .border(1.dp, NightOutlineSoft, RoundedCornerShape(20.dp))
             .semantics {
-                contentDescription = "${maqam.nameAr}, ${maqam.jinsAr}, $masteryLabel"
+                contentDescription = "$maqamName, $maqamJins, $masteryLabel"
             }
             .clickable(enabled = enabled, role = Role.Button, onClick = onClick)
             .padding(horizontal = 16.dp, vertical = 14.dp),
@@ -266,17 +285,17 @@ private fun MaqamRow(
         horizontalArrangement = Arrangement.spacedBy(14.dp),
     ) {
         MaqamSigil(
-            nameAr = maqam.nameAr,
-            color = maqamColor(maqam.id),
+            name = maqamName,
+            color = maqamColor(maqam.id, maqam.color),
         )
         Column(modifier = Modifier.weight(1f)) {
             Text(
-                text = maqam.nameAr,
+                text = maqamName,
                 color = NightText,
                 style = MaterialTheme.typography.titleMedium,
             )
             Text(
-                text = maqam.jinsAr,
+                text = maqamJins,
                 color = NightTextMuted,
                 style = MaterialTheme.typography.labelMedium,
             )
@@ -310,7 +329,7 @@ private fun ProgressFooter(completed: Int, total: Int) {
             style = MaterialTheme.typography.labelMedium,
         )
         Text(
-            text = stringResource(R.string.home_offline),
+            text = stringResource(R.string.home_source),
             color = NightTextMuted,
             style = MaterialTheme.typography.labelMedium,
         )

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Yalla Nghanni</string>
+    <string name="product_line">Tune | Maqam</string>
+
+    <string name="home_intro_title">Learn the melody</string>    <string name="home_intro_body">Listen to the phrase, then choose the maqam. No prior knowledge needed.</string>
+    <string name="home_continue">Continue your lesson</string>
+    <string name="home_start">Start the first lesson</string>
+    <string name="home_completed">You mastered every lesson</string>
+    <string name="home_progress">%1$d of %2$d lessons</string>
+    <string name="home_path">Your path</string>
+    <string name="home_source">Content and audio from the site</string>
+    <string name="home_next_review">Your next lesson: %1$s</string>
+    <string name="maqam_done">Mastered</string>
+    <string name="maqam_new">New</string>
+    <string name="maqam_lesson_count">%1$d lessons</string>
+
+    <string name="onboarding_skip">Skip</string>
+    <string name="onboarding_eyebrow">Listening drill</string>
+    <string name="onboarding_challenge">Your first challenge</string>
+    <string name="onboarding_listen_hint">Tap the orb to hear the clip</string>
+    <string name="onboarding_replay_hint">Listen again</string>
+    <string name="onboarding_next">Next</string>
+    <string name="onboarding_start">Start your journey</string>
+
+    <string name="lesson_position">Lesson %1$d of %2$d</string>
+    <string name="lesson_prompt">Which maqam do you hear?</string>
+    <string name="lesson_listen">Listen to the phrase</string>
+    <string name="lesson_playing">Playing…</string>
+    <string name="lesson_loading_audio">Loading the clip…</string>
+    <string name="lesson_stop">Stop playback</string>
+    <string name="lesson_replay">Replay</string>
+    <string name="lesson_slow">Slower</string>
+    <string name="lesson_slow_on">Slower on</string>
+    <string name="lesson_drone">Drone</string>
+    <string name="lesson_drone_on">Drone on</string>
+    <string name="lesson_compare">Hear the difference</string>
+    <string name="lesson_compare_caption">%1$s then %2$s</string>
+    <string name="lesson_correct">Nice work</string>
+    <string name="lesson_wrong">Not quite</string>
+    <string name="lesson_answer_is">Answer: %1$s</string>
+    <string name="lesson_next">Next</string>
+    <string name="lesson_close">Close</string>
+    <string name="lesson_answer_cd">%1$s, option %2$d of %3$d</string>
+    <string name="lesson_progress_cd">Step %1$d of %2$d</string>
+    <string name="lesson_hint">Hint</string>
+    <string name="lesson_hint_cd">Hint: watch an ad to remove one wrong option</string>
+    <string name="lesson_hint_unavailable">The ad is not available right now. Try again later.</string>
+
+    <string name="lesson_exit_title">End the lesson?</string>
+    <string name="lesson_exit_body">Your progress in this lesson will be lost. You can start again later.</string>
+    <string name="lesson_exit_confirm">End</string>
+    <string name="lesson_exit_cancel">Keep going</string>
+
+    <string name="lesson_audio_error">Could not play the clip</string>
+    <string name="lesson_audio_offline">No internet connection. This maqam\'s audio streams from the network.</string>
+    <string name="lesson_retry">Try again</string>
+    <string name="lesson_skip">Skip</string>
+    <string name="lesson_track">Track: %1$s — %2$s</string>
+    <string name="lesson_credits">Credit: %1$s</string>
+    <string name="lesson_notation_cd">%1$s maqam notation</string>
+    <string name="lesson_source">Source: MaqamWorld</string>
+
+    <string name="results_title">Lesson result</string>
+    <string name="results_score">%1$d of %2$d</string>
+    <string name="results_passed">Your ear is starting to hear the difference</string>
+    <string name="results_failed">Retry the lesson to lock in the difference</string>
+    <string name="results_learned">What you learned</string>
+    <string name="results_next">Next lesson</string>
+    <string name="results_retry">Retry lesson</string>
+    <string name="results_home">Back home</string>
+    <string name="results_correct">Correct</string>
+    <string name="results_wrong">Wrong</string>
+    <string name="results_item_cd">%1$s, %2$s</string>
+
+    <string name="reset_title">Reset progress?</string>
+    <string name="reset_message">Your lesson progress will be deleted. This cannot be undone.</string>
+    <string name="reset_confirm">Reset</string>
+    <string name="reset_cancel">Cancel</string>
+
+    <string name="settings_title">Settings</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_language_arabic">العربية</string>
+    <string name="settings_language_english">English</string>
+    <string name="settings_motion">Motion</string>
+    <string name="settings_motion_system">System</string>
+    <string name="settings_motion_reduced">Reduce motion</string>
+    <string name="settings_motion_full">Full motion</string>
+    <string name="settings_motion_hint">Turns off the listening orb pulse when motion is reduced.</string>
+    <string name="settings_privacy">Privacy</string>
+    <string name="settings_privacy_options">Privacy options</string>
+    <string name="settings_privacy_hint">Open the ad consent form and change your choice at any time.</string>
+    <string name="settings_about">About the app</string>
+    <string name="settings_version">Version %1$s</string>
+    <string name="settings_offline">Content and lessons load from the Yalla Nghanni site.</string>
+    <string name="settings_audio_license">Recordings come from the MaqamWorld archive and stream from the site; no copies are stored in the app.</string>
+    <string name="settings_fonts_license">Fonts: IBM Plex Sans Arabic and Aref Ruqaa — OFL 1.1</string>
+    <string name="settings_reset">Reset progress</string>
+    <string name="settings_reset_hint">Deletes lesson mastery only and keeps your settings.</string>
+
+    <string name="loading">Loading content…</string>
+    <string name="load_error">Could not load content</string>
+    <string name="retry">Try again</string>
+
+    <string name="gallery_title">Component lab</string>
+    <string name="gallery_back">Back</string>
+    <string name="gallery_sigils">Maqam sigils</string>
+    <string name="gallery_orb">Listening orb</string>
+    <string name="gallery_orb_idle">Idle</string>
+    <string name="gallery_orb_playing">Playing</string>
+    <string name="gallery_orb_complete">Complete</string>
+    <string name="gallery_orb_disabled">Disabled</string>
+    <string name="gallery_answers">Answer cards</string>
+    <string name="gallery_answer_idle">Idle state</string>
+    <string name="gallery_answer_correct">Correct answer</string>
+    <string name="gallery_answer_incorrect">Wrong answer</string>
+    <string name="gallery_answer_revealed">Revealed answer</string>
+    <string name="gallery_progress">Progress dots</string>
+    <string name="gallery_mastery">Mastery ring</string>
+    <string name="gallery_mastery_none">Not complete</string>
+    <string name="gallery_mastery_done">Complete</string>
+    <string name="gallery_controls">Lesson controls</string>
+    <string name="gallery_feedback">Feedback</string>
+    <string name="gallery_audio_error">Audio error</string>
+    <string name="gallery_typography">Typography</string>
+    <string name="gallery_type_display">Yalla Nghanni</string>
+    <string name="gallery_type_headline">Learn the melody, one lesson at a time</string>
+    <string name="gallery_type_body">Hear the full phrase before you choose; replay is always free.</string>
+    <string name="gallery_type_label">Small details beneath headings</string>
+</resources>

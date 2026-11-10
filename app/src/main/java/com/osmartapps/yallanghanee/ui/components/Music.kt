@@ -60,7 +60,7 @@ import com.osmartapps.yallanghanee.ui.theme.NightTextMuted
 
 @Composable
 fun MaqamSigil(
-    nameAr: String,
+    name: String,
     color: Color,
     size: Dp = 44.dp,
 ) {
@@ -73,12 +73,15 @@ fun MaqamSigil(
         contentAlignment = Alignment.Center,
     ) {
         Text(
-            text = nameAr.take(1),
+            text = sigilLetter(name),
             color = color,
             style = MaterialTheme.typography.titleLarge,
         )
     }
 }
+
+internal fun sigilLetter(name: String): String =
+    name.firstOrNull { it.isLetterOrDigit() }?.toString() ?: name.take(1)
 
 @Composable
 fun ListenOrb(

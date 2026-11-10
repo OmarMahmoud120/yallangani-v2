@@ -6,11 +6,10 @@
     <string name="home_intro_title">تعلّم اللحن</string>    <string name="home_intro_body">اسمع العبارة، ثم اختر المقام. لا تحتاج إلى معرفة مسبقة.</string>
     <string name="home_continue">تابع درسك</string>
     <string name="home_start">ابدأ أول درس</string>
-    <string name="home_completed">أتقنت الدروس الثلاثة</string>
+    <string name="home_completed">أتقنت جميع الدروس</string>
     <string name="home_progress">%1$d من %2$d دروس</string>
     <string name="home_path">مسارك</string>
-    <string name="home_library">المقامات</string>
-    <string name="home_offline">يعمل بدون إنترنت</string>
+    <string name="home_source">المحتوى والأصوات من الموقع</string>
     <string name="home_next_review">درسك القادم: %1$s</string>
     <string name="maqam_done">أُتقن</string>
     <string name="maqam_new">جديد</string>
@@ -28,6 +27,7 @@
     <string name="lesson_prompt">أي مقام تسمع؟</string>
     <string name="lesson_listen">اسمع العبارة</string>
     <string name="lesson_playing">يعمل الآن…</string>
+    <string name="lesson_loading_audio">جارٍ تحميل المقطع…</string>
     <string name="lesson_stop">أوقف التشغيل</string>
     <string name="lesson_replay">إعادة</string>
     <string name="lesson_slow">أبطأ</string>
@@ -43,6 +43,9 @@
     <string name="lesson_close">إغلاق</string>
     <string name="lesson_answer_cd">%1$s، خيار %2$d من %3$d</string>
     <string name="lesson_progress_cd">الخطوة %1$d من %2$d</string>
+    <string name="lesson_hint">تلميح</string>
+    <string name="lesson_hint_cd">تلميح: شاهد إعلانًا لإزالة خيار خاطئ</string>
+    <string name="lesson_hint_unavailable">الإعلان غير متاح الآن. حاول مجددًا لاحقًا.</string>
 
     <string name="lesson_exit_title">إنهاء الدرس؟</string>
     <string name="lesson_exit_body">سيُلغى تقدمك في هذا الدرس، ويمكنك البدء من جديد لاحقًا.</string>
@@ -50,8 +53,13 @@
     <string name="lesson_exit_cancel">متابعة</string>
 
     <string name="lesson_audio_error">تعذّر تشغيل المقطع</string>
+    <string name="lesson_audio_offline">لا يتوفر اتصال بالإنترنت. يُبث صوت هذا المقام عبر الشبكة.</string>
     <string name="lesson_retry">إعادة المحاولة</string>
     <string name="lesson_skip">تخطّي</string>
+    <string name="lesson_track">المقطع: %1$s — %2$s</string>
+    <string name="lesson_credits">حقوق: %1$s</string>
+    <string name="lesson_notation_cd">تدوين مقام %1$s</string>
+    <string name="lesson_source">المصدر: MaqamWorld</string>
 
     <string name="results_title">نتيجة الدرس</string>
     <string name="results_score">%1$d من %2$d</string>
@@ -71,15 +79,21 @@
     <string name="reset_cancel">إلغاء</string>
 
     <string name="settings_title">الإعدادات</string>
+    <string name="settings_language">اللغة</string>
+    <string name="settings_language_arabic">العربية</string>
+    <string name="settings_language_english">English</string>
     <string name="settings_motion">الحركة</string>
     <string name="settings_motion_system">حسب النظام</string>
     <string name="settings_motion_reduced">تقليل الحركة</string>
     <string name="settings_motion_full">تشغيل الحركة</string>
     <string name="settings_motion_hint">يوقف نبض كرة الاستماع عند تقليل الحركة.</string>
+    <string name="settings_privacy">الخصوصية</string>
+    <string name="settings_privacy_options">خيارات الخصوصية</string>
+    <string name="settings_privacy_hint">افتح نموذج الموافقة على الإعلانات ويمكنك تغيير اختيارك في أي وقت.</string>
     <string name="settings_about">عن التطبيق</string>
     <string name="settings_version">الإصدار %1$s</string>
-    <string name="settings_offline">المحتوى والدروس والتقدم تعمل دون إنترنت.</string>
-    <string name="settings_audio_license">العبارات الصوتية: CC0</string>
+    <string name="settings_offline">المحتوى والدروس تُحمَّل من موقع يلا نغني.</string>
+    <string name="settings_audio_license">التسجيلات من أرشيف MaqamWorld وتُبثّ من الموقع؛ لا تُحفظ نسخ منها داخل التطبيق.</string>
     <string name="settings_fonts_license">الخطوط: IBM Plex Sans Arabic وAref Ruqaa — OFL 1.1</string>
     <string name="settings_reset">إعادة التقدم</string>
     <string name="settings_reset_hint">يحذف إتقان الدروس فقط، ويُبقي إعداداتك.</string>
@@ -87,7 +101,6 @@
     <string name="loading">جارٍ تحميل المحتوى…</string>
     <string name="load_error">تعذّر تحميل المحتوى</string>
     <string name="retry">إعادة المحاولة</string>
-    <string name="demo_notice">حزمة تطوير: العبارات ألحان تجريبية.</string>
 
     <string name="gallery_title">مختبر المكوّنات</string>
     <string name="gallery_back">رجوع</string>

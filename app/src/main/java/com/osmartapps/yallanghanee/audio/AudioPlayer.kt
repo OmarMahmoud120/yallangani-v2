@@ -5,6 +5,7 @@ import android.media.AudioAttributes
 import android.media.AudioManager
 import android.media.MediaPlayer
 import android.media.PlaybackParams
+import android.util.Log
 import java.io.File
 
 class AudioPlayer(
@@ -12,9 +13,11 @@ class AudioPlayer(
     private val clipCacheDir: File = File(context.filesDir, "pack/audio"),
 ) {
     private var player: MediaPlayer? = null
+    private var prepared = false
     private var queue: List<String> = emptyList()
     private var queueIndex = 0
     private var speed = 1f
+    private var onStarted: (() -> Unit)? = null
     private var onFinished: (() -> Unit)? = null
     private var onInterrupted: (() -> Unit)? = null
     private var onError: (() -> Unit)? = null
@@ -31,37 +34,41 @@ class AudioPlayer(
     private val noisy = NoisyAudioReceiver(context) { interrupt() }
 
     val isPlaying: Boolean get() = player?.isPlaying == true
+    val isActive: Boolean get() = player != null
     val isDronePlaying: Boolean get() = dronePlayer?.isPlaying == true
 
-    fun positionMs(): Int = runCatching { player?.currentPosition ?: 0 }.getOrDefault(0)
+    fun positionMs(): Int = if (!prepared) 0 else runCatching { player?.currentPosition ?: 0 }.getOrDefault(0)
 
-    fun durationMs(): Int = runCatching { player?.duration ?: 0 }.getOrDefault(0)
+    fun durationMs(): Int = if (!prepared) 0 else runCatching { player?.duration ?: 0 }.getOrDefault(0)
 
     fun play(
-        assetPath: String,
+        source: String,
         speed: Float = 1f,
+        onStarted: () -> Unit = {},
         onFinished: () -> Unit = {},
         onInterrupted: () -> Unit = {},
         onError: () -> Unit = {},
     ) {
-        playSequence(listOf(assetPath), speed, onFinished, onInterrupted, onError)
+        playSequence(listOf(source), speed, onStarted, onFinished, onInterrupted, onError)
     }
 
     fun playSequence(
-        assetPaths: List<String>,
+        sources: List<String>,
         speed: Float = 1f,
+        onStarted: () -> Unit = {},
         onFinished: () -> Unit = {},
         onInterrupted: () -> Unit = {},
         onError: () -> Unit = {},
     ) {
         stopPhrase()
-        if (assetPaths.isEmpty()) {
+        if (sources.isEmpty()) {
             onError()
             return
         }
-        queue = assetPaths
+        queue = sources
         queueIndex = 0
         this.speed = speed
+        this.onStarted = onStarted
         this.onFinished = onFinished
         this.onInterrupted = onInterrupted
         this.onError = onError
@@ -117,11 +124,20 @@ class AudioPlayer(
     fun stopPhrase() {
         queue = emptyList()
         queueIndex = 0
+        onStarted = null
         onFinished = null
         onInterrupted = null
         onError = null
         releasePlayer()
         abandonFocusIfIdle()
+    }
+
+    fun setSpeed(newSpeed: Float) {
+        speed = newSpeed
+        if (!prepared) return
+        runCatching {
+            player?.playbackParams = PlaybackParams().setSpeed(newSpeed).setPitch(1f)
+        }.onFailure { Log.w(TAG, "cannot change speed", it) }
     }
 
     fun stop() {
@@ -136,9 +152,20 @@ class AudioPlayer(
             finish()
             return
         }
-        val path = queue[queueIndex++]
-        val created = runCatching { create(path, speed) }.getOrNull()
-        if (created == null) {
+        val source = queue[queueIndex++]
+        val created = MediaPlayer()
+        val configured = runCatching {
+            setSource(created, source)
+            created.setAudioAttributes(
+                AudioAttributes.Builder()
+                    .setUsage(AudioAttributes.USAGE_MEDIA)
+                    .setContentType(AudioAttributes.CONTENT_TYPE_MUSIC)
+                    .build(),
+            )
+        }
+        if (configured.isFailure) {
+            Log.w(TAG, "cannot set source: $source", configured.exceptionOrNull())
+            runCatching { created.release() }
             fail()
             return
         }
@@ -147,37 +174,48 @@ class AudioPlayer(
             releasePlayer()
             playNext()
         }
-        created.setOnErrorListener { _, _, _ ->
+        created.setOnErrorListener { _, what, extra ->
+            Log.w(TAG, "playback error what=$what extra=$extra source=$source")
             releasePlayer()
             fail()
             true
         }
-        if (!requestFocus()) {
+        if (isRemote(source)) {
+            created.setOnPreparedListener { prepared ->
+                prepared.setOnPreparedListener(null)
+                startPrepared(prepared, source)
+            }
+            if (runCatching { created.prepareAsync() }.isFailure) {
+                Log.w(TAG, "prepareAsync failed: $source")
+                fail()
+            }
+            return
+        }
+        if (runCatching { created.prepare() }.isFailure) {
             fail()
             return
         }
-        val started = runCatching { created.start() }.isSuccess
-        if (!started) {
+        startPrepared(created, source)
+    }
+
+    private fun startPrepared(created: MediaPlayer, source: String) {
+        if (player !== created) return
+        prepared = true
+        if (speed != 1f) {
+            runCatching { created.playbackParams = PlaybackParams().setSpeed(speed).setPitch(1f) }
+        }
+        if (!requestFocus()) {
+            Log.w(TAG, "audio focus denied: $source")
+            fail()
+            return
+        }
+        if (runCatching { created.start() }.isFailure) {
+            Log.w(TAG, "start failed: $source")
             fail()
             return
         }
         noisy.start()
-    }
-
-    private fun create(assetPath: String, speed: Float): MediaPlayer {
-        val created = MediaPlayer()
-        setSource(created, assetPath)
-        created.setAudioAttributes(
-            AudioAttributes.Builder()
-                .setUsage(AudioAttributes.USAGE_MEDIA)
-                .setContentType(AudioAttributes.CONTENT_TYPE_MUSIC)
-                .build(),
-        )
-        created.prepare()
-        if (speed != 1f) {
-            created.playbackParams = PlaybackParams().setSpeed(speed).setPitch(1f)
-        }
-        return created
+        onStarted?.invoke()
     }
 
     private fun createDrone(assetPath: String, volume: Float): MediaPlayer {
@@ -196,6 +234,10 @@ class AudioPlayer(
     }
 
     private fun setSource(created: MediaPlayer, assetPath: String) {
+        if (isRemote(assetPath)) {
+            created.setDataSource(assetPath)
+            return
+        }
         val fromAssets = runCatching {
             context.assets.openFd(assetPath).use { descriptor ->
                 created.setDataSource(descriptor.fileDescriptor, descriptor.startOffset, descriptor.length)
@@ -206,6 +248,8 @@ class AudioPlayer(
         check(cached.isFile) { "missing clip: $assetPath" }
         created.setDataSource(cached.absolutePath)
     }
+
+    private fun isRemote(source: String): Boolean = isRemoteSource(source)
 
     private fun requestFocus(): Boolean {
         if (focusHeld) return true
@@ -258,6 +302,7 @@ class AudioPlayer(
     }
 
     private fun releasePlayer() {
+        prepared = false
         player?.let { current ->
             runCatching { current.stop() }
             runCatching { current.release() }
@@ -271,5 +316,9 @@ class AudioPlayer(
             runCatching { current.release() }
         }
         dronePlayer = null
+    }
+
+    private companion object {
+        const val TAG = "AudioPlayer"
     }
 }

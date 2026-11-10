@@ -2,6 +2,9 @@
 
 **Phase:** 0 — Discovery
 **Status:** Approved 2026-11-10. P0 vertical slice implemented; P1/P2 items remain open.
+**Ads note:** the owner approved app-open, Home banner, post-Results interstitial, and a rewarded
+50/50 hint later on 2026-11-10. The no-ads statements below describe the P0 decision that preceded
+that approval; `ads-plan.md` is authoritative for placements and consent.
 **Date:** 2026-11-10
 **Build audited:** `com.osmartapps.yallanghanee.dev`, commit `f630bd0` + uncommitted `:spike`
 **Device:** Samsung SM-S908E (Galaxy S22 Ultra), 1440 × 3088 @ 600 dpi, Android 16 / API 36
@@ -12,17 +15,17 @@
 
 ### P0 implementation status (2026-11-10)
 
-| Finding | Status | Where |
-|---|---|---|
-| F-01 brand/audience mismatch | Implemented | `ui/theme/Theme.kt`, bundled OFL fonts, Night Majlis home |
-| F-02 spelling instead of recognition | Implemented | `game/RecognitionEngine.kt`, `game/RecognitionViewModel.kt`, `ui/LessonScreen.kt` |
-| F-03 under-instrumented audio | Implemented | `audio/AudioPlayer.kt` (0.75× pitch-preserved, A/B sequence), lesson orb |
-| F-04 non-teaching feedback | Implemented | `ui/LessonScreen.kt` feedback panel + results summary |
-| F-05 ads inside the learning loop | Implemented | `ui/YallaApp.kt` no longer references `AdsController` |
-| §9 component gallery | Implemented (debug builds only) | `ui/gallery/GalleryScreen.kt`, opened from the Home header when `BuildConfig.DEBUG` |
-| §14.2 step 3 onboarding + first win | Implemented | `ui/OnboardingScreen.kt`, `onboarding` block in `maqams.json`, `data/ProgressStore.kt` |
-| §11 accessibility gate | Verified 2026-11-10 | TalkBack traversal, 200% font scale, 320 dp width, measured contrast (see §11.5) |
-| §14.2 step 6 settings (subset of S8) | Implemented | `ui/SettingsScreen.kt`, `data/SettingsStore.kt`, `model/MotionPreference.kt`, gear in `ui/HomeScreen.kt` |
+| Finding                              | Status                          | Where                                                                                                    |
+| ------------------------------------ | ------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| F-01 brand/audience mismatch         | Implemented                     | `ui/theme/Theme.kt`, bundled OFL fonts, Night Majlis home                                                |
+| F-02 spelling instead of recognition | Implemented                     | `game/RecognitionEngine.kt`, `game/RecognitionViewModel.kt`, `ui/LessonScreen.kt`                        |
+| F-03 under-instrumented audio        | Implemented                     | `audio/AudioPlayer.kt` (0.75× pitch-preserved, A/B sequence), lesson orb                                 |
+| F-04 non-teaching feedback           | Implemented                     | `ui/LessonScreen.kt` feedback panel + results summary                                                    |
+| F-05 ads inside the learning loop    | Superseded 2026-11-10           | `ads-plan.md`; active listening, answering, feedback, and Results stay ad-free          |
+| §9 component gallery                 | Implemented (debug builds only) | `ui/gallery/GalleryScreen.kt`, opened from the Home header when `BuildConfig.DEBUG`                      |
+| §14.2 step 3 onboarding + first win  | Implemented                     | `ui/OnboardingScreen.kt`, `onboarding` block in `maqams.json`, `data/ProgressStore.kt`                   |
+| §11 accessibility gate               | Verified 2026-11-10             | TalkBack traversal, 200% font scale, 320 dp width, measured contrast (see §11.5)                         |
+| §14.2 step 6 settings (subset of S8) | Implemented                     | `ui/SettingsScreen.kt`, `data/SettingsStore.kt`, `model/MotionPreference.kt`, gear in `ui/HomeScreen.kt` |
 
 Still open from this plan: the 18-phrase-per-maqam pack, the Library (S7, content-blocked), the
 settings items that depend on features that do not exist yet (daily goal, sound effects, haptics),
@@ -82,16 +85,16 @@ with **no ads anywhere in the learning loop**.
 
 ### 3.1 Screen inventory
 
-| Screen | Current behaviour | Verdict |
-|---|---|---|
-| Loading | Centred spinner + «جارٍ تحميل المحتوى…»; no timeout, no skeleton | Keep primitive, restyle |
-| Error | «تعذّر تحميل المحتوى» + retry only | Keep, add context + secondary action |
-| Home | Curtain + Lottie singer + logo + stage/solved counters + «ابدأ» + footer + reset | Replace layout, keep stage motif |
-| Game | Back, stage pill, play orb, «اضغط للاستماع», question, letter slots, hint, tray | Replace with lesson player |
-| Wrong state | Red board scale + «حاول مرة أخرى» below the hint; tray disabled briefly | Replace with teaching feedback |
-| Win overlay | Full-screen scrim + Lottie + «أحسنت!» + title + «التالي» | Replace with inline feedback + results |
-| Onboarding | 4-line modal paragraph; mentions the rewarded ad | Replace with interactive first-run |
-| Reset dialog | Clear destructive confirmation | Keep, relocate to settings |
+| Screen       | Current behaviour                                                                | Verdict                                |
+| ------------ | -------------------------------------------------------------------------------- | -------------------------------------- |
+| Loading      | Centred spinner + «جارٍ تحميل المحتوى…»; no timeout, no skeleton                 | Keep primitive, restyle                |
+| Error        | «تعذّر تحميل المحتوى» + retry only                                               | Keep, add context + secondary action   |
+| Home         | Curtain + Lottie singer + logo + stage/solved counters + «ابدأ» + footer + reset | Replace layout, keep stage motif       |
+| Game         | Back, stage pill, play orb, «اضغط للاستماع», question, letter slots, hint, tray  | Replace with lesson player             |
+| Wrong state  | Red board scale + «حاول مرة أخرى» below the hint; tray disabled briefly          | Replace with teaching feedback         |
+| Win overlay  | Full-screen scrim + Lottie + «أحسنت!» + title + «التالي»                         | Replace with inline feedback + results |
+| Onboarding   | 4-line modal paragraph; mentions the rewarded ad                                 | Replace with interactive first-run     |
+| Reset dialog | Clear destructive confirmation                                                   | Keep, relocate to settings             |
 
 ### 3.2 Findings
 
@@ -139,12 +142,12 @@ the UI contract is fixed here regardless of engine.
 
 **Evidence:** a correct answer produces a full-screen Lottie and the title (`GameScreen.kt:470-529`).
 A wrong answer produces «حاول مرة أخرى» (`GameScreen.kt:201-208`) and a timed reset; nothing
-explains *why*. The content spec requires an `explanation_ar` on every item and an automatic
+explains _why_. The content spec requires an `explanation_ar` on every item and an automatic
 contrast-pair scaffold after two misses.
 
 **Required:** an inline **feedback sheet** that always states the discriminating interval in
 Arabic, plus an **A/B «اسمع الفرق»** playback of the two candidate phrases. Wrong answers reveal
-the correct option *after submission* but never before. Learning events are recorded per item.
+the correct option _after submission_ but never before. Learning events are recorded per item.
 The full-screen win overlay is reserved for lesson completion.
 
 #### F-05 — Monetization sits inside the learning loop (P0)
@@ -270,7 +273,7 @@ with next steps (review, next pack, library) rather than a restart.
 - The **curtain/stage atmosphere** — reinterpreted as a dark majlis wall with a warm spotlight,
   not a cartoon stage.
 - **One dominant CTA per screen** and full-width primary buttons.
-- **Offline-first messaging** («تعمل بدون إنترنت») — move to settings/about, not the Home footer.
+- ** messaging** («تعمل بدون إنترنت») — move to settings/about, not the Home footer.
 - **RTL-first and edge-to-edge** plumbing (`MainActivity.kt`).
 - **Audio focus and noisy/unplug handling** (`AudioPlayer.kt`, `AudioFocus.kt`).
 - **Loading, error, and destructive-confirmation patterns**, restyled.
@@ -298,7 +301,7 @@ curiosity → focused listening → a small risk (answer) → relief/insight (fe
 → growing confidence → quiet pride (results) → pull to continue
 ```
 
-The current app's arc is *guess → celebrate → repeat*. It produces excitement but no perceived
+The current app's arc is _guess → celebrate → repeat_. It produces excitement but no perceived
 skill growth. The new arc must make the learner **feel the interval**, not the score.
 
 ---
@@ -354,13 +357,13 @@ above the tab bar.
 
 ### 6.2 Back behaviour
 
-| From | System back |
-|---|---|
-| Lesson | Confirm if ≥ 1 item answered; otherwise leave silently. Progress per item is saved. |
-| Results | To Home, not back into the lesson. |
-| Maqam detail / Library | To its parent tab. |
-| Home | Exit app (standard). |
-| Onboarding | Step back; at step 1, skip to Home. |
+| From                   | System back                                                                         |
+| ---------------------- | ----------------------------------------------------------------------------------- |
+| Lesson                 | Confirm if ≥ 1 item answered; otherwise leave silently. Progress per item is saved. |
+| Results                | To Home, not back into the lesson.                                                  |
+| Maqam detail / Library | To its parent tab.                                                                  |
+| Home                   | Exit app (standard).                                                                |
+| Onboarding             | Step back; at step 1, skip to Home.                                                 |
 
 Predictive back is enabled for all routes except an active lesson, where a confirmation is
 required.
@@ -526,20 +529,20 @@ cards press to 0.98 scale; haptic selection on tap; success/error haptics on fee
 
 Measured against the Night Majlis background. Full contrast table in Appendix A.
 
-| Token | Value | Use | Contrast on `bg` |
-|---|---|---|---|
-| `bg` | `#120D0A` | App background | — |
-| `surface` | `#1E1612` | Cards, sheets | — |
-| `surfaceHigh` | `#2A1F19` | Raised cards, chips | — |
-| `outline` | `#7A6353` | 1 dp borders, dividers | 3.44:1 |
-| `outlineSoft` | `#4A3A30` | Decorative only | 1.78:1 (not for UI state) |
-| `text` | `#F7EAD7` | Primary text | 16.3:1 |
-| `textMuted` | `#C9B8A3` | Secondary text | 10.0:1 |
-| `gold` | `#D9A94F` | Primary action, active state | 9.0:1 |
-| `goldPressed` | `#B8862F` | Pressed action | large/graphic |
-| `success` | `#7FB18A` | Correct | 7.9:1 |
-| `error` | `#E07A6A` | Incorrect | 6.6:1 |
-| `scrim` | `#000000` @ 40% | Feedback sheet | — |
+| Token         | Value           | Use                          | Contrast on `bg`          |
+| ------------- | --------------- | ---------------------------- | ------------------------- |
+| `bg`          | `#120D0A`       | App background               | —                         |
+| `surface`     | `#1E1612`       | Cards, sheets                | —                         |
+| `surfaceHigh` | `#2A1F19`       | Raised cards, chips          | —                         |
+| `outline`     | `#7A6353`       | 1 dp borders, dividers       | 3.44:1                    |
+| `outlineSoft` | `#4A3A30`       | Decorative only              | 1.78:1 (not for UI state) |
+| `text`        | `#F7EAD7`       | Primary text                 | 16.3:1                    |
+| `textMuted`   | `#C9B8A3`       | Secondary text               | 10.0:1                    |
+| `gold`        | `#D9A94F`       | Primary action, active state | 9.0:1                     |
+| `goldPressed` | `#B8862F`       | Pressed action               | large/graphic             |
+| `success`     | `#7FB18A`       | Correct                      | 7.9:1                     |
+| `error`       | `#E07A6A`       | Incorrect                    | 6.6:1                     |
+| `scrim`       | `#000000` @ 40% | Feedback sheet               | —                         |
 
 **Per-maqam accents** (from the content spec) are used for sigils, rings, and fills — not body
 text. All clear 3:1 as graphics; Saba `#8E6BAE` is 4.47:1 and must use a lightened text variant
@@ -551,15 +554,15 @@ texture may stay as a low-contrast background image, but the red must not domina
 
 ### 8.2 Typography
 
-| Role | Family | Size / line | Weight |
-|---|---|---|---|
-| Wordmark / maqam name | Calligraphic Arabic display (OFL) | 34 / 44 | 700 |
-| Screen title | Display | 26 / 36 | 700 |
-| Section title | UI face | 20 / 30 | 600 |
-| Body | UI face (OFL, e.g. IBM Plex Sans Arabic) | 16 / 26 | 400 |
-| Button / chip | UI face | 16 / 24 | 600 |
-| Label / caption | UI face | 14 / 22 | 500 |
-| Micro | UI face | 12 / 18 | 500 |
+| Role                  | Family                                   | Size / line | Weight |
+| --------------------- | ---------------------------------------- | ----------- | ------ |
+| Wordmark / maqam name | Calligraphic Arabic display (OFL)        | 34 / 44     | 700    |
+| Screen title          | Display                                  | 26 / 36     | 700    |
+| Section title         | UI face                                  | 20 / 30     | 600    |
+| Body                  | UI face (OFL, e.g. IBM Plex Sans Arabic) | 16 / 26     | 400    |
+| Button / chip         | UI face                                  | 16 / 24     | 600    |
+| Label / caption       | UI face                                  | 14 / 22     | 500    |
+| Micro                 | UI face                                  | 12 / 18     | 500    |
 
 - Arabic line height is 1.5–1.6×; never tighten.
 - Numerals: one format everywhere, wrapped with bidi isolation. Recommended: Western digits with
@@ -576,11 +579,11 @@ texture may stay as a low-contrast background image, but the red must not domina
 
 ### 8.4 Motion
 
-| Token | Duration | Use |
-|---|---|---|
-| `micro` | 120 ms | press, chip selection |
-| `transition` | 220 ms | sheet, route crossfade |
-| `reveal` | 360 ms | sigil bloom, results |
+| Token        | Duration | Use                    |
+| ------------ | -------- | ---------------------- |
+| `micro`      | 120 ms   | press, chip selection  |
+| `transition` | 220 ms   | sheet, route crossfade |
+| `reveal`     | 360 ms   | sigil bloom, results   |
 
 - Motion communicates audio state only. No infinite decorative loops on listening screens.
 - Reduced motion: 120 ms crossfades, no scale/pulse, no Lottie; honour the system animation scale.
@@ -598,25 +601,25 @@ texture may stay as a low-contrast background image, but the red must not domina
 
 Build these as a gallery screen so design and QA can review states (Task 8).
 
-| Component | States / props | Notes |
-|---|---|---|
-| `ListenOrb` | idle, loading, playing, paused, interrupted, error; progress 0–1 | 112/88 dp; 132 dp target; replay from start |
-| `ReplayButton` | enabled | Label «إعادة»; unlimited |
-| `SlowToggle` | off/on, unavailable | 0.75× pitch-preserved; disabled if asset/engine lacks it |
-| `DroneToggle` | off/on, loading | Tonic + fifth loop; ducks phrase audio? No — phrase plays over drone at fixed gain |
-| `ABCompare` | idle, playingA, playingB | «اسمع الفرق»; 1.5 s each; used in feedback and scaffolds |
-| `PitchRibbon` | static, playing (playhead), highlighted interval | Degree dots; labels hidden at < 360 dp |
-| `NoteLadder` | planned (echo, R2) | Not in MVP; reserve layout space |
-| `AnswerChip` | default, pressed, selected, correct, incorrect, disabled | ≥ 64 dp; full width |
-| `ProgressDots` | current index, results per dot | 5 dots; current is a 24 dp pill |
-| `FeedbackSheet` | correct, incorrect, scaffold | 40% height; focus to primary action |
-| `MaqamSigil` | one per maqam, deterministic seed | Shape + colour; never colour alone |
-| `MasteryRing` | 0–4 | Text fallback «٢ من ٤» |
-| `MaqamCard` | locked, available, in progress, mastered, review | Library + map |
-| `LessonCard` | first, continue, complete | Home |
-| `AudioErrorCard` | retry, skip | Inline, never blocks |
-| `ConfirmExitDialog` | — | Standard dialog semantics |
-| `BottomNav` | 3 tabs, selected | 80 dp + inset; label always visible |
+| Component           | States / props                                                   | Notes                                                                              |
+| ------------------- | ---------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| `ListenOrb`         | idle, loading, playing, paused, interrupted, error; progress 0–1 | 112/88 dp; 132 dp target; replay from start                                        |
+| `ReplayButton`      | enabled                                                          | Label «إعادة»; unlimited                                                           |
+| `SlowToggle`        | off/on, unavailable                                              | 0.75× pitch-preserved; disabled if asset/engine lacks it                           |
+| `DroneToggle`       | off/on, loading                                                  | Tonic + fifth loop; ducks phrase audio? No — phrase plays over drone at fixed gain |
+| `ABCompare`         | idle, playingA, playingB                                         | «اسمع الفرق»; 1.5 s each; used in feedback and scaffolds                           |
+| `PitchRibbon`       | static, playing (playhead), highlighted interval                 | Degree dots; labels hidden at < 360 dp                                             |
+| `NoteLadder`        | planned (echo, R2)                                               | Not in MVP; reserve layout space                                                   |
+| `AnswerChip`        | default, pressed, selected, correct, incorrect, disabled         | ≥ 64 dp; full width                                                                |
+| `ProgressDots`      | current index, results per dot                                   | 5 dots; current is a 24 dp pill                                                    |
+| `FeedbackSheet`     | correct, incorrect, scaffold                                     | 40% height; focus to primary action                                                |
+| `MaqamSigil`        | one per maqam, deterministic seed                                | Shape + colour; never colour alone                                                 |
+| `MasteryRing`       | 0–4                                                              | Text fallback «٢ من ٤»                                                             |
+| `MaqamCard`         | locked, available, in progress, mastered, review                 | Library + map                                                                      |
+| `LessonCard`        | first, continue, complete                                        | Home                                                                               |
+| `AudioErrorCard`    | retry, skip                                                      | Inline, never blocks                                                               |
+| `ConfirmExitDialog` | —                                                                | Standard dialog semantics                                                          |
+| `BottomNav`         | 3 tabs, selected                                                 | 80 dp + inset; label always visible                                                |
 
 Component rules: no component owns playback; the lesson state holder exposes a single
 `LessonAudioState` and all controls are stateless. This keeps previews and tests deterministic.
@@ -652,15 +655,15 @@ see which scaffolds actually teach.
 
 ### 11.2 TalkBack semantics
 
-| Element | Label / state |
-|---|---|
-| Listen Orb | «استمع إلى العبارة» + state «قيد التشغيل / متوقف / تعذّر التشغيل» + action «إعادة» |
-| Answer chip | «حجاز، خيار ١ من ٣»; result state after commit |
-| Progress dots | «الخطوة ٢ من ٥»; not individually focusable |
-| Feedback | Live region assertive: «إجابة صحيحة. …» / «إجابة خاطئة. الإجابة حجاز. …» |
-| Audio start/end | Live region polite, but skip if the user initiated the play |
-| Mastery ring | «أتقنت درجتين من أربع» |
-| Win/results | Real screen, not an overlay that leaves focus behind |
+| Element         | Label / state                                                                      |
+| --------------- | ---------------------------------------------------------------------------------- |
+| Listen Orb      | «استمع إلى العبارة» + state «قيد التشغيل / متوقف / تعذّر التشغيل» + action «إعادة» |
+| Answer chip     | «حجاز، خيار ١ من ٣»; result state after commit                                     |
+| Progress dots   | «الخطوة ٢ من ٥»; not individually focusable                                        |
+| Feedback        | Live region assertive: «إجابة صحيحة. …» / «إجابة خاطئة. الإجابة حجاز. …»           |
+| Audio start/end | Live region polite, but skip if the user initiated the play                        |
+| Mastery ring    | «أتقنت درجتين من أربع»                                                             |
+| Win/results     | Real screen, not an overlay that leaves focus behind                               |
 
 Focus order: header → prompt → orb → answers → controls. After feedback, focus «التالي». In RTL,
 the visual order is right-to-left and the traversal follows it automatically.
@@ -691,7 +694,7 @@ Run on the SM-S908E with the debug build, TalkBack enabled for the traversal pas
   cards announce «حجاز، خيار ١ من ٢»; progress announces «الدرس ١ من ٤» (lessons) and «الخطوة ١
   من ٥» (onboarding); close, slow, A/B, retry, and skip controls all have Arabic labels.
 - **Deviations from §11.2:** the shipped orb label is «اسمع العبارة» (not «استمع إلى العبارة»),
-  feedback uses a *polite* (not assertive) live region so it does not interrupt the current
+  feedback uses a _polite_ (not assertive) live region so it does not interrupt the current
   utterance, and progress dots announce the position on the dot row rather than individually.
 - **200% font scale:** onboarding (including feedback and the primary button), Home, lesson, and
   results render without clipping or overlap at 384 dp width. Feedback auto-scrolls to the next
@@ -735,36 +738,36 @@ Run on the SM-S908E with the debug build, TalkBack enabled for the traversal pas
 
 **Core strings**
 
-| Key | Arabic |
-|---|---|
-| `learn_prompt_maqam` | أي مقام تسمع؟ |
-| `learn_prompt_phrase` | أي عبارة تنتهي على القرار؟ |
-| `learn_listen` | اسمع العبارة |
-| `learn_replay` | إعادة |
-| `learn_slow` | أبطأ |
-| `learn_drone` | درون |
-| `learn_compare` | اسمع الفرق |
-| `learn_correct` | أحسنت |
-| `learn_incorrect` | ليس تمامًا |
-| `learn_explanation_prefix` | الفرق في |
-| `learn_next` | التالي |
-| `learn_exit_title` | إنهاء الدرس؟ |
-| `learn_exit_body` | سيُحفظ ما أجبت عنه. |
-| `learn_audio_error` | تعذّر تشغيل المقطع |
-| `learn_skip` | تخطّي |
-| `learn_try_again` | إعادة المحاولة |
-| `home_continue` | تابع درسك |
-| `home_start_first` | ابدأ أول درس |
-| `home_path` | خريطة المقامات |
-| `home_library` | المكتبة |
-| `results_learned` | ما تعلمته |
-| `results_next` | الدرس التالي |
-| `results_home` | إلى الرئيسية |
-| `maqam_locked` | يُفتح بعد إتقان ما قبله |
-| `maqam_review` | قيد المراجعة النظرية |
-| `settings_reset` | إعادة التقدم |
-| `settings_motion` | تقليل الحركة |
-| `settings_about` | عن التطبيق والتراخيص |
+| Key                        | Arabic                     |
+| -------------------------- | -------------------------- |
+| `learn_prompt_maqam`       | أي مقام تسمع؟              |
+| `learn_prompt_phrase`      | أي عبارة تنتهي على القرار؟ |
+| `learn_listen`             | اسمع العبارة               |
+| `learn_replay`             | إعادة                      |
+| `learn_slow`               | أبطأ                       |
+| `learn_drone`              | درون                       |
+| `learn_compare`            | اسمع الفرق                 |
+| `learn_correct`            | أحسنت                      |
+| `learn_incorrect`          | ليس تمامًا                 |
+| `learn_explanation_prefix` | الفرق في                   |
+| `learn_next`               | التالي                     |
+| `learn_exit_title`         | إنهاء الدرس؟               |
+| `learn_exit_body`          | سيُحفظ ما أجبت عنه.        |
+| `learn_audio_error`        | تعذّر تشغيل المقطع         |
+| `learn_skip`               | تخطّي                      |
+| `learn_try_again`          | إعادة المحاولة             |
+| `home_continue`            | تابع درسك                  |
+| `home_start_first`         | ابدأ أول درس               |
+| `home_path`                | خريطة المقامات             |
+| `home_library`             | المكتبة                    |
+| `results_learned`          | ما تعلمته                  |
+| `results_next`             | الدرس التالي               |
+| `results_home`             | إلى الرئيسية               |
+| `maqam_locked`             | يُفتح بعد إتقان ما قبله    |
+| `maqam_review`             | قيد المراجعة النظرية       |
+| `settings_reset`           | إعادة التقدم               |
+| `settings_motion`          | تقليل الحركة               |
+| `settings_about`           | عن التطبيق والتراخيص       |
 
 **Tone:** short, warm, adult. No exclamation marks except the single success line. No «يا بطل»,
 no gambling language, no ad copy. Every explanation names the interval or the note, not just
@@ -777,25 +780,25 @@ no gambling language, no ad copy. Every explanation names the interval or the no
 
 ## 13. States and edge cases
 
-| Situation | Required behaviour |
-|---|---|
-| Airplane mode | Full lesson works; no banner; ads (if ever) no-op |
-| Audio focus loss (call) | Pause, show «توقف الصوت مؤقتًا», keep item state, offer replay |
-| Headphone unplug | Pause, keep state, no auto-resume |
-| App backgrounded | Stop audio; on return, show replay; never auto-play |
-| Process death in lesson | Restore route + item index; unanswered item restarts |
-| Missing/corrupt asset | Inline error, retry, skip (not mastered), telemetry |
-| Slow asset absent | Disable slow with label «غير متاح لهذه العبارة»; do not fake it |
-| Drone loop gap | Crossfade loop; no click; verified on device |
-| TBD maqam (Huzam) | Excluded from paths; library card «قيد المراجعة» |
-| Locked maqam | Preview sheet; explains unlock rule |
-| First run offline | Same as online; no network check |
-| 320 dp / 200% font | No clipped text; answers scroll; orb pinned |
-| RTL + Latin digits | Bidi-isolated; no reversed counters |
-| TalkBack | All states announced; no focus behind sheets |
-| Reduced motion | Crossfades only; no pulsing/Lottie |
-| Ad load failure | Never delays or blocks an item (learning loop has no ads) |
-| All items skipped | Results says «لم نكمل هذا الدرس» and offers retry |
+| Situation               | Required behaviour                                              |
+| ----------------------- | --------------------------------------------------------------- |
+| Airplane mode           | Full lesson works; no banner; ads (if ever) no-op               |
+| Audio focus loss (call) | Pause, show «توقف الصوت مؤقتًا», keep item state, offer replay  |
+| Headphone unplug        | Pause, keep state, no auto-resume                               |
+| App backgrounded        | Stop audio; on return, show replay; never auto-play             |
+| Process death in lesson | Restore route + item index; unanswered item restarts            |
+| Missing/corrupt asset   | Inline error, retry, skip (not mastered), telemetry             |
+| Slow asset absent       | Disable slow with label «غير متاح لهذه العبارة»; do not fake it |
+| Drone loop gap          | Crossfade loop; no click; verified on device                    |
+| TBD maqam (Huzam)       | Excluded from paths; library card «قيد المراجعة»                |
+| Locked maqam            | Preview sheet; explains unlock rule                             |
+| First run offline       | Same as online; no network check                                |
+| 320 dp / 200% font      | No clipped text; answers scroll; orb pinned                     |
+| RTL + Latin digits      | Bidi-isolated; no reversed counters                             |
+| TalkBack                | All states announced; no focus behind sheets                    |
+| Reduced motion          | Crossfades only; no pulsing/Lottie                              |
+| Ad load failure         | Never delays or blocks an item (learning loop has no ads)       |
+| All items skipped       | Results says «لم نكمل هذا الدرس» and offers retry               |
 
 ---
 
@@ -815,15 +818,15 @@ no gambling language, no ad copy. Every explanation names the interval or the no
 
 ### 14.2 Delivery order
 
-| Step | Deliverable | Tasks |
-|---|---|---|
-| 1 | Night Majlis tokens, two-font system, component gallery | #7, #8 |
-| 2 | Navigation graph + Home + Map + Maqam sheet | #9, #15 |
-| 3 | Onboarding + first win | #14 |
-| 4 | Lesson state holder + Listen Orb + audio controls + error states | #12, #16 |
-| 5 | Feedback, scaffolds, results | #17 |
-| 6 | Library + settings | #20 |
-| 7 | Accessibility/RTL gate + 5-user usability test | #25 |
+| Step | Deliverable                                                      | Tasks    |
+| ---- | ---------------------------------------------------------------- | -------- |
+| 1    | Night Majlis tokens, two-font system, component gallery          | #7, #8   |
+| 2    | Navigation graph + Home + Map + Maqam sheet                      | #9, #15  |
+| 3    | Onboarding + first win                                           | #14      |
+| 4    | Lesson state holder + Listen Orb + audio controls + error states | #12, #16 |
+| 5    | Feedback, scaffolds, results                                     | #17      |
+| 6    | Library + settings                                               | #20      |
+| 7    | Accessibility/RTL gate + 5-user usability test                   | #25      |
 
 Steps 1–5 landed in the 2026-11-10 P0 slice (the world map from step 2 is deferred; Home opens the
 three lessons directly). Step 7's accessibility gate landed 2026-11-10 and the settings part of
@@ -851,17 +854,17 @@ content. No production lesson code until the owner approves the corresponding sc
 
 Add to `analytics-taxonomy.md` (Task 5):
 
-| Event | Key properties |
-|---|---|
-| `onboarding_step_view` / `onboarding_complete` | step, skipped, duration |
+| Event                                              | Key properties                           |
+| -------------------------------------------------- | ---------------------------------------- |
+| `onboarding_step_view` / `onboarding_complete`     | step, skipped, duration                  |
 | `lesson_start` / `lesson_complete` / `lesson_exit` | maqam, lesson, items, accuracy, duration |
-| `item_view` | item id, stage, difficulty |
-| `audio_play` / `audio_replay` / `audio_error` | item id, replay count, engine state |
-| `slow_toggle` / `drone_toggle` / `ab_compare` | item id, on/off |
-| `answer_submit` | item id, option, correct, response time |
-| `scaffold_shown` / `scaffold_used` | item id, scaffold type, miss count |
-| `feedback_view` | item id, correct, explanation shown |
-| `results_view` | accuracy, items, next action |
+| `item_view`                                        | item id, stage, difficulty               |
+| `audio_play` / `audio_replay` / `audio_error`      | item id, replay count, engine state      |
+| `slow_toggle` / `drone_toggle` / `ab_compare`      | item id, on/off                          |
+| `answer_submit`                                    | item id, option, correct, response time  |
+| `scaffold_shown` / `scaffold_used`                 | item id, scaffold type, miss count       |
+| `feedback_view`                                    | item id, correct, explanation shown      |
+| `results_view`                                     | accuracy, items, next action             |
 
 Guardrails: no audio recording, no identifiers, no per-user profiles in the MVP. The learning KPI
 is **first-win success** and **Hijaz vs Nahawand accuracy after one session**, not session length.
@@ -870,18 +873,18 @@ is **first-win success** and **Hijaz vs Nahawand accuracy after one session**, n
 
 ## 16. Open decisions for the owner
 
-| # | Decision | Recommendation |
-|---|---|---|
-| D1 | Bottom navigation: 3 or 4 tabs | **3**: `تعلّم` (home + path), `المقامات`, `أنا` |
-| D2 | Numerals: Arabic-Indic (٢) or Western (2) | Pick one globally; recommended Arabic-Indic with a tested OFL font |
-| D3 | Display font | OFL calligraphic face (Aref Ruqaa/Amiri); retire Kharabeesh unless licensed |
-| D4 | Monetization boundary | **No ads in the learning loop**; decide pack unlock vs none for MVP |
-| D5 | Celebration tone | Calm sigil bloom; no confetti |
-| D6 | Maqam names in UI | Arabic first; English secondary only where space allows (advisor Q4) |
-| D7 | Onboarding length | 5 micro-steps, < 90 s, skippable, resumable |
-| D8 | Hints | Free scaffold ladder (recommended); not ad-gated, not paid |
-| D9 | MVP content | Recognition only; echo/hum deferred to release 2 |
-| D10 | Phase 0 docs location | Move to v2 (done in this change); keep v1 docs read-only |
+| #   | Decision                                  | Recommendation                                                              |
+| --- | ----------------------------------------- | --------------------------------------------------------------------------- |
+| D1  | Bottom navigation: 3 or 4 tabs            | **3**: `تعلّم` (home + path), `المقامات`, `أنا`                             |
+| D2  | Numerals: Arabic-Indic (٢) or Western (2) | Pick one globally; recommended Arabic-Indic with a tested OFL font          |
+| D3  | Display font                              | OFL calligraphic face (Aref Ruqaa/Amiri); retire Kharabeesh unless licensed |
+| D4  | Monetization boundary                     | **No ads in the learning loop**; decide pack unlock vs none for MVP         |
+| D5  | Celebration tone                          | Calm sigil bloom; no confetti                                               |
+| D6  | Maqam names in UI                         | Arabic first; English secondary only where space allows (advisor Q4)        |
+| D7  | Onboarding length                         | 5 micro-steps, < 90 s, skippable, resumable                                 |
+| D8  | Hints                                     | Free scaffold ladder (recommended); not ad-gated, not paid                  |
+| D9  | MVP content                               | Recognition only; echo/hum deferred to release 2                            |
+| D10 | Phase 0 docs location                     | Move to v2 (done in this change); keep v1 docs read-only                    |
 
 ---
 
@@ -889,28 +892,28 @@ is **first-win success** and **Hijaz vs Nahawand accuracy after one session**, n
 
 ### A.1 Current palette contrast (passes, but tonally wrong)
 
-| Pair | Ratio |
-|---|---|
-| Gold `#E6A442` on deep red `#4B0200` | 7.46:1 |
-| Cream `#FFF3E0` on deep red | 14.64:1 |
-| Cream 70% on deep red | 7.49:1 |
-| Error `#FF8A80` on deep red | 7.03:1 |
-| Deep red on gold (primary button) | 7.46:1 |
+| Pair                                 | Ratio   |
+| ------------------------------------ | ------- |
+| Gold `#E6A442` on deep red `#4B0200` | 7.46:1  |
+| Cream `#FFF3E0` on deep red          | 14.64:1 |
+| Cream 70% on deep red                | 7.49:1  |
+| Error `#FF8A80` on deep red          | 7.03:1  |
+| Deep red on gold (primary button)    | 7.46:1  |
 
 Contrast is **not** the current problem; hierarchy and tone are. The legacy palette paints the
 primary CTA, stage pill, hint, and accents the same gold, so nothing stands out.
 
 ### A.2 Proposed palette contrast
 
-| Pair | Ratio |
-|---|---|
+| Pair                           | Ratio   |
+| ------------------------------ | ------- |
 | Text `#F7EAD7` on bg `#120D0A` | 16.28:1 |
-| Muted `#C9B8A3` on bg | 9.99:1 |
-| Gold `#D9A94F` on bg | 8.95:1 |
-| Gold on surface `#1E1612` | 8.26:1 |
-| Success `#7FB18A` on bg | 7.87:1 |
-| Error `#E07A6A` on bg | 6.58:1 |
-| Outline `#7A6353` on bg | 3.44:1 |
+| Muted `#C9B8A3` on bg          | 9.99:1  |
+| Gold `#D9A94F` on bg           | 8.95:1  |
+| Gold on surface `#1E1612`      | 8.26:1  |
+| Success `#7FB18A` on bg        | 7.87:1  |
+| Error `#E07A6A` on bg          | 6.58:1  |
+| Outline `#7A6353` on bg        | 3.44:1  |
 
 Per-maqam accents on bg: Rast 8.92, Bayati 9.43, Hijaz 5.94, Saba 4.47 (graphics only; text
 variant `#B49AD4` 7.83), Kurd 6.54, Nahawand 6.33, Ajam 9.32, Sikah 7.51, Huzam 4.81.

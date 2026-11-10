@@ -1,23 +1,26 @@
 ---
-description: Yalla Nghanni Android game project rules
+description: Yalla Nghanni Android project rules
 alwaysApply: true
 ---
 
 # Yalla Nghanni
 
-Offline-first Arabic/RTL song-guessing game. Kotlin + Jetpack Compose, single `:app` module.
+Bilingual Arabic/English maqam ear-training app. Kotlin + Jetpack Compose, single `:app` module.
 Read `AGENTS.md` before making changes.
 
 Key rules:
 
-- Keep `game/GameEngine.kt` pure Kotlin (no Android imports) and covered by unit tests.
-- Route every Arabic comparison through `game/ArabicText.kt`; never compare raw strings.
-- Levels come only from `app/src/main/assets/content/levels.json`; audio only from
-  `app/src/main/assets/content/audio/`. Document every track in `docs/CONTENT_LICENSES.md`.
-- Network is only for AdMob: one interstitial after every 5th solved round, one opt-in rewarded
-  ad for the hint. No banners, app-open ads, analytics, billing, accounts, or Play Games.
-- Never commit real AdMob IDs; builds default to Google test unit IDs and read overrides from
-  Gradle properties (`admob.appId`, `admob.interstitialUnitId`, `admob.rewardedUnitId`).
-- Gameplay must stay fully functional offline; ad failures never block progression.
-- User-facing strings go in `res/values/strings.xml` (Arabic). Layouts must be verified in RTL.
-- Verify with `./gradlew :app:testDebugUnitTest` and `./gradlew :app:assembleDebug`.
+- Keep `game/RecognitionEngine.kt` pure Kotlin (no Android imports) and covered by unit tests.
+- Maqams, lessons, onboarding, and all display copy come only from the generated content pack;
+  never hardcode them in Kotlin. Edit `site/public/data/maqams.json` and regenerate with
+  `python3 tools/sync_app_pack.py`.
+- Arabic is the default language and English is a full translation. Every content field and string
+  resource needs both versions; verify RTL and LTR at 320 dp.
+- Lesson audio and notation stream from the site; only bundled phrases and the drone ship in the APK.
+- Ads only on Home (banner), cold start (app open, once a day), after Results is dismissed (every
+  third lesson), and a rewarded 50/50 hint on 3+ option questions. Never during playback, feedback,
+  Results, lessons, or onboarding. All ad loading needs UMP consent.
+- Never commit real AdMob IDs, keystores, or credentials; builds default to Google test unit IDs.
+- User-facing strings go in `res/values/strings.xml` and `res/values-en/strings.xml`.
+- Verify with `./gradlew :app:testDebugUnitTest`, `:app:assembleDebug`, and `:app:lintDebug`;
+  run `:app:connectedDebugAndroidTest` for UI changes.

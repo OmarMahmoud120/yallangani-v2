@@ -30,6 +30,9 @@ import androidx.compose.ui.unit.dp
 import com.osmartapps.yallanghanee.R
 import com.osmartapps.yallanghanee.game.LessonResult
 import com.osmartapps.yallanghanee.model.MaqamPack
+import com.osmartapps.yallanghanee.model.name
+import com.osmartapps.yallanghanee.model.signature
+import com.osmartapps.yallanghanee.model.title
 import com.osmartapps.yallanghanee.ui.components.MaqamSigil
 import com.osmartapps.yallanghanee.ui.components.MasteryRing
 import com.osmartapps.yallanghanee.ui.components.PrimaryActionButton
@@ -53,6 +56,7 @@ fun ResultsScreen(
     onHome: () -> Unit,
 ) {
     BackHandler(onBack = onHome)
+    val language = LocalAppLanguage.current
     val lesson = pack.lessons.firstOrNull { it.id == result.lessonId }
     val learned = lesson?.maqamIds?.mapNotNull { pack.maqamById(it) }.orEmpty()
 
@@ -87,7 +91,7 @@ fun ResultsScreen(
         )
         if (lesson != null) {
             Text(
-                text = lesson.titleAr,
+                text = lesson.title(language),
                 color = NightTextMuted,
                 style = MaterialTheme.typography.bodyMedium,
             )
@@ -114,18 +118,18 @@ fun ResultsScreen(
                         horizontalArrangement = Arrangement.spacedBy(14.dp),
                     ) {
                         MaqamSigil(
-                            nameAr = maqam.nameAr,
-                            color = maqamColor(maqam.id),
+                            name = maqam.name(language),
+                            color = maqamColor(maqam.id, maqam.color),
                             size = 40.dp,
                         )
                         Column(modifier = Modifier.weight(1f)) {
                             Text(
-                                text = maqam.nameAr,
+                                text = maqam.name(language),
                                 color = NightText,
                                 style = MaterialTheme.typography.titleSmall,
                             )
                             Text(
-                                text = maqam.signatureAr,
+                                text = maqam.signature(language),
                                 color = NightTextMuted,
                                 style = MaterialTheme.typography.bodySmall,
                             )

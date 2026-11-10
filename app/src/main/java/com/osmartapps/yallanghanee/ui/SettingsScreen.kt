@@ -34,8 +34,10 @@ import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.unit.dp
 import com.osmartapps.yallanghanee.BuildConfig
 import com.osmartapps.yallanghanee.R
+import com.osmartapps.yallanghanee.model.AppLanguage
 import com.osmartapps.yallanghanee.model.MaqamPack
 import com.osmartapps.yallanghanee.model.MotionPreference
+import com.osmartapps.yallanghanee.model.notice
 import com.osmartapps.yallanghanee.ui.theme.NightBg
 import com.osmartapps.yallanghanee.ui.theme.NightError
 import com.osmartapps.yallanghanee.ui.theme.NightGold
@@ -48,10 +50,14 @@ import com.osmartapps.yallanghanee.ui.theme.NightTextMuted
 @Composable
 fun SettingsScreen(
     pack: MaqamPack,
+    language: AppLanguage,
     motionPreference: MotionPreference,
+    onLanguageChange: (AppLanguage) -> Unit,
     onMotionChange: (MotionPreference) -> Unit,
     onResetProgress: () -> Unit,
     onBack: () -> Unit,
+    privacyOptionsRequired: Boolean = false,
+    onPrivacyOptions: () -> Unit = {},
 ) {
     BackHandler(onBack = onBack)
     var showResetDialog by rememberSaveable { mutableStateOf(false) }
@@ -85,22 +91,40 @@ fun SettingsScreen(
         }
 
         Text(
+            text = stringResource(R.string.settings_language),
+            color = NightTextMuted,
+            style = MaterialTheme.typography.titleMedium,
+        )
+        Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
+            ChoiceOption(
+                label = stringResource(R.string.settings_language_arabic),
+                selected = language == AppLanguage.ARABIC,
+                onSelect = { onLanguageChange(AppLanguage.ARABIC) },
+            )
+            ChoiceOption(
+                label = stringResource(R.string.settings_language_english),
+                selected = language == AppLanguage.ENGLISH,
+                onSelect = { onLanguageChange(AppLanguage.ENGLISH) },
+            )
+        }
+
+        Text(
             text = stringResource(R.string.settings_motion),
             color = NightTextMuted,
             style = MaterialTheme.typography.titleMedium,
         )
         Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
-            MotionOption(
+            ChoiceOption(
                 label = stringResource(R.string.settings_motion_system),
                 selected = motionPreference == MotionPreference.System,
                 onSelect = { onMotionChange(MotionPreference.System) },
             )
-            MotionOption(
+            ChoiceOption(
                 label = stringResource(R.string.settings_motion_reduced),
                 selected = motionPreference == MotionPreference.Reduced,
                 onSelect = { onMotionChange(MotionPreference.Reduced) },
             )
-            MotionOption(
+            ChoiceOption(
                 label = stringResource(R.string.settings_motion_full),
                 selected = motionPreference == MotionPreference.Full,
                 onSelect = { onMotionChange(MotionPreference.Full) },
@@ -111,6 +135,26 @@ fun SettingsScreen(
             color = NightTextMuted,
             style = MaterialTheme.typography.labelMedium,
         )
+
+        if (privacyOptionsRequired) {
+            Text(
+                text = stringResource(R.string.settings_privacy),
+                color = NightTextMuted,
+                style = MaterialTheme.typography.titleMedium,
+            )
+            TextButton(onClick = onPrivacyOptions) {
+                Text(
+                    text = stringResource(R.string.settings_privacy_options),
+                    color = NightGold,
+                    style = MaterialTheme.typography.labelLarge,
+                )
+            }
+            Text(
+                text = stringResource(R.string.settings_privacy_hint),
+                color = NightTextMuted,
+                style = MaterialTheme.typography.labelMedium,
+            )
+        }
 
         Text(
             text = stringResource(R.string.settings_about),
@@ -136,7 +180,7 @@ fun SettingsScreen(
                 color = NightTextMuted,
                 style = MaterialTheme.typography.bodyMedium,
             )
-            pack.notice?.let { notice ->
+            pack.notice(language)?.let { notice ->
                 Text(
                     text = notice,
                     color = NightTextMuted,
@@ -220,7 +264,7 @@ fun SettingsScreen(
 }
 
 @Composable
-private fun MotionOption(
+private fun ChoiceOption(
     label: String,
     selected: Boolean,
     onSelect: () -> Unit,

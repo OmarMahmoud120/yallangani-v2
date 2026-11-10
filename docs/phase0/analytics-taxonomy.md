@@ -1,9 +1,9 @@
 # Analytics and Baseline Spec
 
-**Phase:** 0 — Discovery  
-**Status:** Draft  
+**Phase:** 6 — Launch  
+**Status:** Core events implemented (2026-11-10)  
 **Date:** 2026-11-10  
-**Tasks:** #5, #19, #23, #25
+**Tasks:** #5, #19, #23, #25, Firebase telemetry pass
 
 ---
 
@@ -11,7 +11,21 @@
 
 Define the event taxonomy, dashboards, privacy rules, and baseline plan for the pivot. The goal is to measure activation, learning, retention, monetization, and quality without collecting personal data or raw audio.
 
-The current app has Firebase Analytics and Crashlytics, but all custom-event calls are commented out. The legacy baseline is therefore mostly install/crash data; custom instrumentation is required in Task #5.
+Firebase Analytics and Crashlytics now ship in version 2.0.0. `telemetry/Telemetry.kt` sends a
+launch-readiness subset of this taxonomy: `screen_view`, `lesson_started`, `answer_submitted`,
+`lesson_completed`, `onboarding_completed`, `setting_changed`, and `rewarded_completed`. The legacy
+baseline stays limited to install and crash data.
+
+Collection begins at first launch by owner decision (2026-11-10), without a UMP gate. Before an EEA
+launch, add analytics purposes to the UMP message or gate collection; the privacy pages disclose
+the current behavior.
+
+Verified on the S22 release build on 2026-11-10: `screen_view` for onboarding, home, lesson,
+results, and settings; `onboarding_completed`; `lesson_started`; eight `answer_submitted`; two
+`lesson_completed`; and `setting_changed` (`language=en`) all reached Firebase (batch upload HTTP
+204). Crashlytics was verified separately on the debug-signed build: a main-thread exception was
+captured and uploaded (HTTP 200) after relaunch. `rewarded_completed` is implemented but still
+unverified because AdMob returned NO_FILL for the rewarded unit on the test device.
 
 ---
 
@@ -185,7 +199,8 @@ Targets are provisional and will be revised after the 7-day baseline.
 - No PII, no free text, no raw audio, no precise location.
 - Microphone audio is processed on-device and never uploaded; analytics only receives `cents_error` and `confidence`.
 - IP anonymization on; data retention 14 months.
-- Consent flow for analytics where required; honor deletion requests.
+- Analytics starts at first launch (owner decision, 2026-11-10); add consent purposes before an EEA
+  launch and honor deletion requests.
 - Play Data Safety form must match the actual collection.
 - Audience is adult/general; COPPA does not apply, but the app remains family-safe.
 
@@ -193,10 +208,12 @@ Targets are provisional and will be revised after the 7-day baseline.
 
 ## 7. Instrumentation checklist
 
-- [ ] Event constants and parameter validation.
+- [x] Event constants and parameter validation (typed helpers in `Telemetry`).
 - [ ] Global parameters wired.
 - [ ] Debug event screen.
-- [ ] QA plan for each event.
+- [x] QA plan for each event (launch subset). Verified 2026-11-10 on the S22 release build for
+      every event except `rewarded_completed`; retest that event once AdMob serves the rewarded
+      unit (current test device gets NO_FILL).
 - [ ] Firebase + BigQuery dashboards.
 - [ ] 7-day legacy baseline captured.
 - [ ] Privacy review signed off.

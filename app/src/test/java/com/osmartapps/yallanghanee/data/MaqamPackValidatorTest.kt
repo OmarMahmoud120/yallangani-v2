@@ -8,6 +8,7 @@ import com.osmartapps.yallanghanee.model.OnboardingOption
 import com.osmartapps.yallanghanee.model.OnboardingStep
 import com.osmartapps.yallanghanee.model.RecognitionItem
 import com.osmartapps.yallanghanee.model.RecognitionLesson
+import com.osmartapps.yallanghanee.model.Track
 import org.junit.Assert.assertEquals
 import org.junit.Test
 
@@ -15,55 +16,105 @@ class MaqamPackValidatorTest {
     private val hijaz = Maqam(
         id = "hijaz",
         nameAr = "حجاز",
+        nameEn = "Hijaz",
         color = "#C97B5A",
         jinsAr = "جنس حجاز",
+        jinsEn = "Jins Hijaz",
         signatureAr = "توقيع الحجاز",
+        signatureEn = "Hijaz signature",
         audio = "01-alhijaz.mp3",
+        notation = "media/maqam/hijaz/hijaz.png",
+        tracks = listOf(track("hijaz")),
     )
     private val nahawand = Maqam(
         id = "nahawand",
         nameAr = "نهاوند",
+        nameEn = "Nahawand",
         color = "#C77E9B",
         jinsAr = "جنس نهاوند",
+        jinsEn = "Jins Nahawand",
         signatureAr = "توقيع النهاوند",
+        signatureEn = "Nahawand signature",
         audio = "02-alnahawand.mp3",
+        notation = "media/maqam/nahawand/nahawand.png",
+        tracks = listOf(track("nahawand")),
     )
     private val lesson = RecognitionLesson(
         id = "hijaz_nahawand",
         titleAr = "حجاز أم نهاوند؟",
+        titleEn = "Hijaz or Nahawand?",
         maqamIds = listOf("hijaz", "nahawand"),
         items = listOf(RecognitionItem(id = "1", answer = "hijaz")),
     )
     private val valid = MaqamPack(
-        version = 2,
+        version = 4,
+        mediaBase = MEDIA_BASE,
         maqams = listOf(hijaz, nahawand),
         onboarding = onboarding(),
         lessons = listOf(lesson),
     )
     private val allAudioPresent: (String) -> Boolean = { true }
 
+    private companion object {
+        const val MEDIA_BASE = "https://yallanganee-73906702.web.app/data/"
+    }
+
+    private fun track(id: String) =
+        Track(title = "لحن", artist = "فنان", audio = "media/maqam/$id/track.mp3")
+
     private fun step(index: Int) = OnboardingStep(
         id = "step_$index",
         promptAr = "سؤال $index",
+        promptEn = "Question $index",
         audio = "on-$index.mp3",
         options = listOf(
-            OnboardingOption(id = "first", labelAr = "الأولى"),
-            OnboardingOption(id = "second", labelAr = "الثانية"),
+            OnboardingOption(id = "first", labelAr = "الأولى", labelEn = "First"),
+            OnboardingOption(id = "second", labelAr = "الثانية", labelEn = "Second"),
         ),
         answer = "second",
         explanationAr = "شرح $index",
+        explanationEn = "Explanation $index",
     )
 
     private fun onboarding(steps: List<OnboardingStep> = (1..5).map(::step)) = Onboarding(
         steps = steps,
         firstWin = FirstWin(
             promptAr = "أي مقام تسمع؟",
+            promptEn = "Which maqam do you hear?",
             audio = "01-alhijaz.mp3",
             maqamIds = listOf("hijaz", "nahawand"),
             answer = "hijaz",
             explanationAr = "توقيع الحجاز",
+            explanationEn = "Hijaz signature",
         ),
     )
+
+    @Test
+    fun `missing media base is rejected`() {
+        val errors = MaqamPackValidator.validate(valid.copy(mediaBase = null), allAudioPresent)
+        assertEquals(listOf("missing media base"), errors)
+    }
+
+    @Test
+    fun `maqam without notation is rejected`() {
+        val pack = valid.copy(maqams = listOf(hijaz.copy(notation = null), nahawand))
+        val errors = MaqamPackValidator.validate(pack, allAudioPresent)
+        assertEquals(listOf("missing notation: hijaz"), errors)
+    }
+
+    @Test
+    fun `maqam without tracks is rejected`() {
+        val pack = valid.copy(maqams = listOf(hijaz.copy(tracks = emptyList()), nahawand))
+        val errors = MaqamPackValidator.validate(pack, allAudioPresent)
+        assertEquals(listOf("no tracks for hijaz"), errors)
+    }
+
+    @Test
+    fun `maqam without a lesson is rejected`() {
+        val pack = valid.copy(maqams = listOf(hijaz, nahawand, hijaz.copy(id = "rast")))
+        val errors = MaqamPackValidator.validate(pack, allAudioPresent)
+        assertEquals(listOf("no lesson covers: rast"), errors)
+    }
 
     @Test
     fun `valid pack has no errors`() {
@@ -71,10 +122,25 @@ class MaqamPackValidatorTest {
     }
 
     @Test
+    fun `missing English maqam copy is rejected`() {
+        val pack = valid.copy(
+            maqams = listOf(hijaz.copy(signatureEn = ""), nahawand),
+        )
+        val errors = MaqamPackValidator.validate(pack, allAudioPresent)
+        assertEquals(listOf("blank English signature for hijaz"), errors)
+    }
+
+    @Test
+    fun `missing English lesson title is rejected`() {
+        val pack = valid.copy(lessons = listOf(lesson.copy(titleEn = "")))
+        val errors = MaqamPackValidator.validate(pack, allAudioPresent)
+        assertEquals(listOf("blank English lesson title: hijaz_nahawand"), errors)
+    }
+
+    @Test
     fun `duplicate maqam ids are rejected`() {
         val pack = valid.copy(
             maqams = listOf(hijaz, hijaz, nahawand),
-            lessons = emptyList(),
         )
         val errors = MaqamPackValidator.validate(pack, allAudioPresent)
         assertEquals(listOf("duplicate maqam id: hijaz"), errors)
@@ -119,7 +185,10 @@ class MaqamPackValidatorTest {
             lessons = listOf(lesson.copy(maqamIds = listOf("hijaz", "rast"))),
         )
         val errors = MaqamPackValidator.validate(pack, allAudioPresent)
-        assertEquals(listOf("unknown maqam in hijaz_nahawand: rast"), errors)
+        assertEquals(
+            listOf("unknown maqam in hijaz_nahawand: rast", "no lesson covers: nahawand"),
+            errors,
+        )
     }
 
     @Test
@@ -128,7 +197,10 @@ class MaqamPackValidatorTest {
             lessons = listOf(lesson.copy(maqamIds = listOf("hijaz", "hijaz"))),
         )
         val errors = MaqamPackValidator.validate(pack, allAudioPresent)
-        assertEquals(listOf("duplicate option in lesson: hijaz_nahawand"), errors)
+        assertEquals(
+            listOf("duplicate option in lesson: hijaz_nahawand", "no lesson covers: nahawand"),
+            errors,
+        )
     }
 
     @Test

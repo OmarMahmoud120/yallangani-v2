@@ -11,7 +11,9 @@ class PackUpdater(
 
     fun loadCached(): MaqamPack? {
         val raw = cache.readPack() ?: return null
-        return runCatching { decode(raw) }.getOrNull()?.takeIf { errors(it).isEmpty() }
+        return runCatching { decode(raw) }
+            .getOrNull()
+            ?.takeIf { it.version == SCHEMA_VERSION && errors(it).isEmpty() }
     }
 
     fun refresh(current: MaqamPack): MaqamPack? {
@@ -55,7 +57,7 @@ class PackUpdater(
     private fun decode(raw: String): MaqamPack = JSON.decodeFromString<MaqamPack>(raw)
 
     companion object {
-        const val SCHEMA_VERSION = 2
+        const val SCHEMA_VERSION = 4
         const val PACK_MAX_BYTES = 512 * 1024
         const val CLIP_MAX_BYTES = 5 * 1024 * 1024
         const val AUDIO_CACHE_MAX_BYTES = 50L * 1024 * 1024

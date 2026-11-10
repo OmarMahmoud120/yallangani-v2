@@ -8,6 +8,7 @@ import com.osmartapps.yallanghanee.model.OnboardingOption
 import com.osmartapps.yallanghanee.model.OnboardingStep
 import com.osmartapps.yallanghanee.model.RecognitionItem
 import com.osmartapps.yallanghanee.model.RecognitionLesson
+import com.osmartapps.yallanghanee.model.Track
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse
 import org.junit.Assert.assertNotNull
@@ -65,7 +66,7 @@ class PackUpdaterTest {
 
     @Test
     fun `unsupported schema version is rejected`() {
-        val newer = pack(contentVersion = "v2").copy(version = 1)
+        val newer = pack(contentVersion = "v2").copy(version = 2)
         remote.respond(REMOTE_PACK, encode(newer))
 
         assertNull(updater(assetExists = { true }).refresh(pack(contentVersion = "v1")))
@@ -150,6 +151,15 @@ class PackUpdaterTest {
     }
 
     @Test
+    fun `site track audio is not downloaded or cached`() {
+        val newer = pack(contentVersion = "v2")
+        remote.respond(REMOTE_PACK, encode(newer))
+
+        assertNotNull(updater(assetExists = { true }).refresh(pack(contentVersion = "v1")))
+        assertEquals(listOf(REMOTE_PACK), remote.requests)
+    }
+
+    @Test
     fun `bundled clip is not downloaded`() {
         val newer = packWithRemoteClip(contentVersion = "v2")
         remote.respond(REMOTE_PACK, encode(newer))
@@ -199,7 +209,8 @@ class PackUpdaterTest {
         contentVersion: String?,
         publishedAt: String = "2026-11-10T00:00:00Z",
     ) = MaqamPack(
-        version = 2,
+        version = PackUpdater.SCHEMA_VERSION,
+        mediaBase = MEDIA_BASE,
         contentVersion = contentVersion,
         publishedAt = publishedAt,
         maqams = listOf(hijaz, nahawand),
@@ -213,7 +224,8 @@ class PackUpdaterTest {
     ): MaqamPack {
         val audio = "new".toByteArray()
         return MaqamPack(
-            version = 2,
+            version = PackUpdater.SCHEMA_VERSION,
+            mediaBase = MEDIA_BASE,
             contentVersion = contentVersion,
             publishedAt = "2026-11-11T00:00:00Z",
             maqams = listOf(hijaz.copy(audio = clipName), nahawand),
@@ -227,23 +239,27 @@ class PackUpdaterTest {
         steps = (1..5).map(::step),
         firstWin = FirstWin(
             promptAr = "أي مقام تسمع؟",
+            promptEn = "Which maqam do you hear?",
             audio = "01-alhijaz.mp3",
             maqamIds = listOf("hijaz", "nahawand"),
             answer = "hijaz",
             explanationAr = "توقيع الحجاز",
+            explanationEn = "Hijaz signature",
         ),
     )
 
     private fun step(index: Int) = OnboardingStep(
         id = "step_$index",
         promptAr = "سؤال $index",
+        promptEn = "Question $index",
         audio = "on-$index.mp3",
         options = listOf(
-            OnboardingOption(id = "first", labelAr = "الأولى"),
-            OnboardingOption(id = "second", labelAr = "الثانية"),
+            OnboardingOption(id = "first", labelAr = "الأولى", labelEn = "First"),
+            OnboardingOption(id = "second", labelAr = "الثانية", labelEn = "Second"),
         ),
         answer = "second",
         explanationAr = "شرح $index",
+        explanationEn = "Explanation $index",
     )
 
     private fun encode(pack: MaqamPack): ByteArray =
@@ -266,29 +282,44 @@ class PackUpdaterTest {
     }
 
     private companion object {
+        const val MEDIA_BASE = "https://yallanganee-73906702.web.app/data/"
         const val REMOTE_PACK = "/data/pack.json"
         const val REMOTE_CLIP = "new-hijaz.mp3"
         const val STALE_CLIP = "stale.mp3"
 
+        val hijazTrack = Track("لحن الحجاز", "فنان", "media/maqam/hijaz/a.mp3")
+        val nahawandTrack = Track("لحن النهاوند", "فنان", "media/maqam/nahawand/a.mp3")
+
         val hijaz = Maqam(
             id = "hijaz",
             nameAr = "حجاز",
+            nameEn = "Hijaz",
             color = "#C97B5A",
             jinsAr = "جنس حجاز",
+            jinsEn = "Jins Hijaz",
             signatureAr = "توقيع الحجاز",
+            signatureEn = "Hijaz signature",
             audio = "01-alhijaz.mp3",
+            notation = "media/maqam/hijaz/hijaz.png",
+            tracks = listOf(hijazTrack),
         )
         val nahawand = Maqam(
             id = "nahawand",
             nameAr = "نهاوند",
+            nameEn = "Nahawand",
             color = "#C77E9B",
             jinsAr = "جنس نهاوند",
+            jinsEn = "Jins Nahawand",
             signatureAr = "توقيع النهاوند",
+            signatureEn = "Nahawand signature",
             audio = "02-alnahawand.mp3",
+            notation = "media/maqam/nahawand/nahawand.png",
+            tracks = listOf(nahawandTrack),
         )
         val lesson = RecognitionLesson(
             id = "hijaz_nahawand",
             titleAr = "حجاز أم نهاوند؟",
+            titleEn = "Hijaz or Nahawand?",
             maqamIds = listOf("hijaz", "nahawand"),
             items = listOf(RecognitionItem(id = "1", answer = "hijaz")),
         )

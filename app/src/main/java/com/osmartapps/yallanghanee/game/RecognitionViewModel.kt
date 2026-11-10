@@ -6,14 +6,18 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
+import com.osmartapps.yallanghanee.ads.AdCounters
+import com.osmartapps.yallanghanee.ads.AdPolicy
 import com.osmartapps.yallanghanee.data.HttpRemotePackSource
 import com.osmartapps.yallanghanee.data.MaqamRepository
 import com.osmartapps.yallanghanee.data.PackCache
 import com.osmartapps.yallanghanee.data.ProgressStore
 import com.osmartapps.yallanghanee.data.SettingsStore
+import com.osmartapps.yallanghanee.model.AppLanguage
 import com.osmartapps.yallanghanee.model.MaqamPack
 import com.osmartapps.yallanghanee.model.MotionPreference
 import com.osmartapps.yallanghanee.model.RecognitionLesson
+import com.osmartapps.yallanghanee.telemetry.Telemetry
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
@@ -41,8 +45,11 @@ data class RecognitionUiState(
     val onboardingStep: Int = 0,
     val onboardingComplete: Boolean? = null,
     val motionPreference: MotionPreference = MotionPreference.System,
+    val language: AppLanguage? = null,
     val session: RecognitionSession? = null,
     val result: LessonResult? = null,
+    val adCounters: AdCounters = AdCounters(),
+    val hintUnavailable: Boolean = false,
 ) {
     val nextLesson: RecognitionLesson?
         get() = pack?.lessons?.firstOrNull { it.id !in completedLessons }
@@ -72,6 +79,11 @@ class RecognitionViewModel(
             }
         }
         viewModelScope.launch {
+            progressStore.adCounters.collect { counters ->
+                _state.update { it.copy(adCounters = counters) }
+            }
+        }
+        viewModelScope.launch {
             progressStore.onboarding.collect { progress ->
                 _state.update {
                     it.copy(
@@ -84,6 +96,11 @@ class RecognitionViewModel(
         viewModelScope.launch {
             settingsStore.motion.collect { preference ->
                 _state.update { it.copy(motionPreference = preference) }
+            }
+        }
+        viewModelScope.launch {
+            settingsStore.language.collect { language ->
+                _state.update { it.copy(language = language) }
             }
         }
     }
@@ -104,12 +121,20 @@ class RecognitionViewModel(
 
     fun completeOnboarding() {
         _state.update { it.copy(onboardingComplete = true) }
+        Telemetry.onboardingCompleted()
         viewModelScope.launch(Dispatchers.IO) { progressStore.completeOnboarding() }
     }
 
     fun setMotionPreference(preference: MotionPreference) {
         _state.update { it.copy(motionPreference = preference) }
+        Telemetry.settingChanged("motion", preference.name)
         viewModelScope.launch(Dispatchers.IO) { settingsStore.setMotion(preference) }
+    }
+
+    fun setLanguage(language: AppLanguage) {
+        _state.update { it.copy(language = language) }
+        Telemetry.settingChanged("language", language.code)
+        viewModelScope.launch(Dispatchers.IO) { settingsStore.setLanguage(language) }
     }
 
     fun startLesson(lessonId: String) {
@@ -121,6 +146,7 @@ class RecognitionViewModel(
                 result = null,
             )
         }
+        Telemetry.lessonStarted(lesson.id, lesson.maqamIds.size)
     }
 
     fun startNextLesson() {
@@ -138,7 +164,47 @@ class RecognitionViewModel(
     fun answer(maqamId: String) {
         val session = _state.value.session ?: return
         if (session.answered) return
-        _state.update { it.copy(session = RecognitionEngine.answer(session, maqamId)) }
+        _state.update {
+            it.copy(
+                session = RecognitionEngine.answer(session, maqamId),
+                hintUnavailable = false,
+            )
+        }
+        Telemetry.answerSubmitted(
+            lessonId = session.lesson.id,
+            itemId = session.question.item.id,
+            maqamId = maqamId,
+            correct = maqamId == session.question.answer.id,
+            position = session.index,
+        )
+    }
+
+    fun grantHint() {
+        val session = _state.value.session ?: return
+        if (!RecognitionEngine.hintAvailable(session)) return
+        _state.update {
+            it.copy(
+                session = RecognitionEngine.eliminateWrongOption(session),
+                hintUnavailable = false,
+            )
+        }
+        Telemetry.rewardedHintGranted()
+    }
+
+    fun hintUnavailable() {
+        _state.update { it.copy(hintUnavailable = true) }
+    }
+
+    fun markInterstitialShown() {
+        val counters = AdPolicy.afterInterstitial(_state.value.adCounters)
+        _state.update { it.copy(adCounters = counters) }
+        viewModelScope.launch(Dispatchers.IO) { progressStore.setAdCounters(counters) }
+    }
+
+    fun markAppOpenShown(todayEpochDay: Long) {
+        val counters = AdPolicy.afterAppOpen(_state.value.adCounters, todayEpochDay)
+        _state.update { it.copy(adCounters = counters) }
+        viewModelScope.launch(Dispatchers.IO) { progressStore.setAdCounters(counters) }
     }
 
     fun next() {
@@ -155,7 +221,7 @@ class RecognitionViewModel(
 
     private fun advance(advanced: RecognitionSession) {
         if (!advanced.finished) {
-            _state.update { it.copy(session = advanced) }
+            _state.update { it.copy(session = advanced, hintUnavailable = false) }
             return
         }
         val result = LessonResult(
@@ -164,8 +230,15 @@ class RecognitionViewModel(
             correct = advanced.correctCount,
             total = advanced.total,
         )
-        _state.update { it.copy(session = advanced, result = result) }
+        val firstCompletion = result.lessonId !in _state.value.completedLessons
+        _state.update { it.copy(session = advanced, result = result, hintUnavailable = false) }
+        Telemetry.lessonCompleted(result.lessonId, result.correct, result.total, result.passed)
         if (result.passed) {
+            if (firstCompletion) {
+                val counters = AdPolicy.afterLessonCompleted(_state.value.adCounters)
+                _state.update { it.copy(adCounters = counters) }
+                viewModelScope.launch(Dispatchers.IO) { progressStore.setAdCounters(counters) }
+            }
             viewModelScope.launch(Dispatchers.IO) {
                 progressStore.markLessonCompleted(result.lessonId)
             }

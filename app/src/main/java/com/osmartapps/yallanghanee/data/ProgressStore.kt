@@ -6,8 +6,10 @@ import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.core.booleanPreferencesKey
 import androidx.datastore.preferences.core.edit
 import androidx.datastore.preferences.core.intPreferencesKey
+import androidx.datastore.preferences.core.longPreferencesKey
 import androidx.datastore.preferences.core.stringSetPreferencesKey
 import androidx.datastore.preferences.preferencesDataStore
+import com.osmartapps.yallanghanee.ads.AdCounters
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 
@@ -22,9 +24,18 @@ class ProgressStore(private val context: Context) {
     private val completedLessonsKey = stringSetPreferencesKey("completed_lessons")
     private val onboardingStepKey = intPreferencesKey("onboarding_step")
     private val onboardingCompleteKey = booleanPreferencesKey("onboarding_complete")
+    private val lessonsSinceAdKey = intPreferencesKey("lessons_since_ad")
+    private val lastAppOpenDayKey = longPreferencesKey("last_app_open_day")
 
     val completedLessons: Flow<Set<String>> = context.progressDataStore.data.map {
         it[completedLessonsKey].orEmpty()
+    }
+
+    val adCounters: Flow<AdCounters> = context.progressDataStore.data.map {
+        AdCounters(
+            completedSinceAd = it[lessonsSinceAdKey] ?: 0,
+            lastAppOpenEpochDay = it[lastAppOpenDayKey] ?: AdCounters.NEVER,
+        )
     }
 
     val onboarding: Flow<OnboardingProgress> = context.progressDataStore.data.map {
@@ -53,5 +64,12 @@ class ProgressStore(private val context: Context) {
 
     suspend fun resetProgress() {
         context.progressDataStore.edit { it.remove(completedLessonsKey) }
+    }
+
+    suspend fun setAdCounters(counters: AdCounters) {
+        context.progressDataStore.edit {
+            it[lessonsSinceAdKey] = counters.completedSinceAd
+            it[lastAppOpenDayKey] = counters.lastAppOpenEpochDay
+        }
     }
 }

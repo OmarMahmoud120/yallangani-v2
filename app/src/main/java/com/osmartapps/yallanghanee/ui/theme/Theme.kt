@@ -15,6 +15,8 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.osmartapps.yallanghanee.model.AppLanguage
+import com.osmartapps.yallanghanee.ui.LocalAppLanguage
 
 // Night Majlis tokens. Contrast verified in docs/phase0/ui-ux-audit.md.
 val NightBg = Color(0xFF120D0A)
@@ -41,17 +43,23 @@ val MaqamAjam = Color(0xFFD4AF6A)
 val MaqamSikah = Color(0xFF7FAE6B)
 val MaqamHuzam = Color(0xFF5B7FBF)
 
-fun maqamColor(id: String): Color = when (id) {
-    "rast" -> MaqamRast
-    "bayati" -> MaqamBayati
-    "hijaz" -> MaqamHijaz
-    "saba" -> MaqamSaba
-    "kurd" -> MaqamKurd
-    "nahawand" -> MaqamNahawand
-    "ajam" -> MaqamAjam
-    "sikah" -> MaqamSikah
-    "huzam" -> MaqamHuzam
-    else -> NightGold
+fun maqamColor(id: String, hex: String? = null): Color {
+    val authored = hex?.let { value ->
+        runCatching { Color(android.graphics.Color.parseColor(value)) }.getOrNull()
+    }
+    if (authored != null) return authored
+    return when (id) {
+        "rast" -> MaqamRast
+        "bayati" -> MaqamBayati
+        "hijaz" -> MaqamHijaz
+        "saba" -> MaqamSaba
+        "kurd" -> MaqamKurd
+        "nahawand" -> MaqamNahawand
+        "ajam" -> MaqamAjam
+        "sikah" -> MaqamSikah
+        "huzam" -> MaqamHuzam
+        else -> NightGold
+    }
 }
 
 private val NightColors = darkColorScheme(
@@ -93,22 +101,24 @@ private fun nightTypography(): Typography {
             Font("fonts/ArefRuqaa-Bold.ttf", assets, FontWeight.Bold),
         )
     }
-    return remember(ui, display) {
+    val language = LocalAppLanguage.current
+    return remember(ui, display, language) {
+        val displayFamily = if (language == AppLanguage.ENGLISH) ui else display
         Typography(
             displayLarge = TextStyle(
-                fontFamily = display,
+                fontFamily = displayFamily,
                 fontWeight = FontWeight.Bold,
                 fontSize = 34.sp,
                 lineHeight = 46.sp,
             ),
             displayMedium = TextStyle(
-                fontFamily = display,
+                fontFamily = displayFamily,
                 fontWeight = FontWeight.Bold,
                 fontSize = 28.sp,
                 lineHeight = 40.sp,
             ),
             displaySmall = TextStyle(
-                fontFamily = display,
+                fontFamily = displayFamily,
                 fontWeight = FontWeight.Bold,
                 fontSize = 24.sp,
                 lineHeight = 36.sp,
