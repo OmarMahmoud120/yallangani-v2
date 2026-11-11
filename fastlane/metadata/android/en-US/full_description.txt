@@ -1,0 +1,28 @@
+Learn maqams by ear, not by memorizing.
+
+Yalla Nghanni is Arabic maqam ear training. You hear a short phrase, choose the maqam it belongs to, and the app explains what makes that maqam distinctive. No prior music knowledge needed.
+
+WHY YALLA NGHANNI
+• 35 documented maqams with Arabic and English names, jins, signature, and symbol.
+• 14 short lessons: guided Pack 1 lessons, then exploration groups of 2–3 maqams.
+• Feedback that teaches: after every answer, see the correct maqam, its explanation, notation, track title, artist, and source.
+• Slow listening: 0.75× speed with pitch preserved.
+• A/B comparison: alternate two maqams to hear the difference.
+• 50/50 hint: remove wrong options when you need help.
+• Arabic first: the interface starts in Arabic; switch to English in Settings. RTL and LTR are both supported.
+• Progress stays on your device. No account and no sign-in.
+
+INTERNET AND MEDIA
+Pack 1 lessons work offline. Other lesson audio and notation stream over the internet. The app never asks for an account and never uploads your recordings.
+
+ADS
+Ads appear on Home and after Results only. No ads play inside a lesson, during listening, or on feedback screens.
+
+CREDITS
+Reference information and notation are based on MaqamWorld. Track titles, artists, and credits appear in the app.
+
+PRIVACY
+The app does not collect your name or email. Anonymous analytics and crash reports help improve the app.
+Policy: https://yallanganee-73906702.web.app/en/privacy.html
+
+Contact: osmartapps@gmail.com

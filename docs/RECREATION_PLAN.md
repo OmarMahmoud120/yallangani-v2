@@ -422,7 +422,12 @@ updated.
       task also succeeds. No NDK crash component ships because the app has no native code of its
       own; native media/WebView crashes are not collected.
 - [x] Disclose Firebase data in both privacy pages.
-- [ ] Declare Analytics and Crashlytics categories in the Play Data Safety form.
+- [x] Declare Analytics and Crashlytics categories in the Play Data Safety form. Published
+      2026-11-11 through the Publisher API: approximate location, device or other IDs, app
+      interactions, crash logs, and diagnostics; encrypted in transit; no account creation.
+- [ ] Complete the Console-only Financial features declaration (Policy and programs → App content).
+      Without it Play rejects every edit commit with `You must let us know whether your app includes
+      any financial features.`
 - [ ] Re-check ad fill before release: the test device logged `Ad failed to load : 3` (NO_FILL)
       for every real AdMob unit, so no banner, app-open, interstitial, or rewarded ad rendered.
 
@@ -462,13 +467,15 @@ updated.
 
 ### Store listing
 
-- [ ] Arabic title, short description, full description.
-- [x] 512×512 icon, 1024×500 feature graphic, and four phone screenshots are ready in
-      `docs/store/`; upload them when the listing copy is set.
-- [ ] Category: Music or Trivia; tags; contact email.
-- [ ] Privacy policy URL (host a simple Arabic/English page).
+- [x] Arabic and English title, short description, and full description live in
+      `fastlane/metadata/android/{ar,en-US}/`.
+- [x] 512×512 icon, 1024×500 feature graphic, and two phone screenshots per locale uploaded to a
+      Play edit on 2026-11-11; the edit is staged until the Console-only declarations are done.
+- [ ] Category: Music or Trivia; tags. Contact email, phone, and website are set.
+- [x] Privacy policy URL in both listings (`/privacy.html`, `/en/privacy.html`).
 - [ ] Content rating questionnaire (music/lyrics, no user-generated content).
-- [ ] Data Safety: declare device/ad IDs and ad interactions collected and shared for advertising.
+- [x] Data Safety: device/ad IDs and ad interactions declared collected and shared for
+      advertising; approximate location, app interactions, crash logs, and diagnostics declared.
 - [ ] Ads declaration: yes (app open, banner, interstitial, rewarded).
 - [ ] Target audience 13+; not designed for families; ads content rating set to general audiences.
 - [ ] Closed testing track with required testers; collect feedback.
