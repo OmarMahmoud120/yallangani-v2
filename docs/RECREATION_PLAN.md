@@ -425,9 +425,8 @@ updated.
 - [x] Declare Analytics and Crashlytics categories in the Play Data Safety form. Published
       2026-11-11 through the Publisher API: approximate location, device or other IDs, app
       interactions, crash logs, and diagnostics; encrypted in transit; no account creation.
-- [ ] Complete the Console-only Financial features declaration (Policy and programs → App content).
-      Without it Play rejects every edit commit with `You must let us know whether your app includes
-      any financial features.`
+- [x] Complete the Console-only Financial features, Government apps, and Advertising ID
+      declarations. Committed the listing edit on 2026-11-11 after the owner completed them.
 - [ ] Re-check ad fill before release: the test device logged `Ad failed to load : 3` (NO_FILL)
       for every real AdMob unit, so no banner, app-open, interstitial, or rewarded ad rendered.
 
@@ -469,8 +468,8 @@ updated.
 
 - [x] Arabic and English title, short description, and full description live in
       `fastlane/metadata/android/{ar,en-US}/`.
-- [x] 512×512 icon, 1024×500 feature graphic, and two phone screenshots per locale uploaded to a
-      Play edit on 2026-11-11; the edit is staged until the Console-only declarations are done.
+- [x] 512×512 icon, 1024×500 feature graphic, and two phone screenshots per locale committed to
+      Play on 2026-11-11; verified in a fresh edit.
 - [ ] Category: Music or Trivia; tags. Contact email, phone, and website are set.
 - [x] Privacy policy URL in both listings (`/privacy.html`, `/en/privacy.html`).
 - [ ] Content rating questionnaire (music/lyrics, no user-generated content).
@@ -478,6 +477,10 @@ updated.
       advertising; approximate location, app interactions, crash logs, and diagnostics declared.
 - [ ] Ads declaration: yes (app open, banner, interstitial, rewarded).
 - [ ] Target audience 13+; not designed for families; ads content rating set to general audiences.
+- [x] Version 13 AAB built (9.4 MB, unsigned); preflight reports 0 errors and 3 warnings
+      (`allowBackup`, Firebase API key restriction, AGP bundle metadata).
+- [ ] Sign the AAB with the registered Play upload key and upload it to a test track. No upload
+      keystore exists in this repo; the owner must supply the key or reset the upload key in Play.
 - [ ] Closed testing track with required testers; collect feedback.
 - [ ] Staged rollout; pause criteria defined.
 
