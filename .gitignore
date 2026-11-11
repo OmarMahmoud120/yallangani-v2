@@ -9,5 +9,6 @@ build/
 .cxx
 *.jks
 *.keystore
+/key/
 app/src/main/assets/content/audio/*.wav
 __pycache__/

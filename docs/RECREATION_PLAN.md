@@ -397,11 +397,10 @@ updated.
 
 ### Identity and signing
 
-- [ ] Keep application ID `com.osmartapps.yallanghanee`; confirm the listing still exists in Play
-      Console (a removed app that was permanently deleted cannot be revived under the same ID).
-- [ ] Generate a new upload keystore; enroll in Play App Signing.
-- [ ] Back up the keystore and passwords offline; never commit them.
-- [ ] versionCode 13 (above the legacy 12), versionName 2.0.0.
+- [x] Keep application ID `com.osmartapps.yallanghanee`; the listing still exists in Play Console.
+- [x] Use the legacy upload keystore; Play accepted versionCode 13 with it on 2026-11-11.
+- [ ] Back up the keystore and passwords offline; never commit them. `key/` is gitignored.
+- [x] versionCode 13 (above the legacy 12), versionName 2.0.0.
 
 ### Firebase telemetry
 
@@ -429,6 +428,9 @@ updated.
       declarations. Committed the listing edit on 2026-11-11 after the owner completed them.
 - [ ] Re-check ad fill before release: the test device logged `Ad failed to load : 3` (NO_FILL)
       for every real AdMob unit, so no banner, app-open, interstitial, or rewarded ad rendered.
+      Confirmed again on 2026-11-11 on the Galaxy A14 for the Home banner, the third-lesson
+      post-Results interstitial, and the rewarded 50/50 hint; each failure is handled quietly
+      (collapsed banner slot, no interstitial, "The ad is not available right now" on Hint).
 
 ### Technical
 
@@ -472,6 +474,19 @@ updated.
       Play on 2026-11-11; verified in a fresh edit.
 - [ ] Category: Music or Trivia; tags. Contact email, phone, and website are set.
 - [x] Privacy policy URL in both listings (`/privacy.html`, `/en/privacy.html`).
+- [ ] Replace the App content privacy policy URL. Play flagged the declaration on 2026-11-11: it
+      still points at `http://osmartappscom.ipage.com/yalla_privacy_policy.html`, which returns 404
+      over HTTP and HTTPS. The Publisher API exposes no field for this declaration and the store
+      listing resource has no privacy URL field, so it is a Console-only edit: App content →
+      Privacy policy, set `https://yallanganee-73906702.web.app/privacy.html`, save, then resolve
+      the policy issue in the Publishing overview.
+- [x] Deploy the current privacy pages. The host had been serving pre-telemetry text that denied
+      analytics and crash reporting. Deployed `site/public` to `yallanganee-73906702` on
+      2026-11-11 and rechecked: `/privacy.html` (Arabic, RTL) and `/en/privacy.html` (English, LTR)
+      return 200 and are byte-identical to the repo copies. Both carry the Firebase Analytics and
+      Crashlytics section, the four ad placements, and no stale "no analytics"/"no ads in lessons"
+      claims; the language switch and hreflang links resolve both ways, and the CSS, fonts, index
+      pages, and content pack are unchanged.
 - [ ] Content rating questionnaire (music/lyrics, no user-generated content).
 - [x] Data Safety: device/ad IDs and ad interactions declared collected and shared for
       advertising; approximate location, app interactions, crash logs, and diagnostics declared.
@@ -479,10 +494,39 @@ updated.
 - [ ] Target audience 13+; not designed for families; ads content rating set to general audiences.
 - [x] Version 13 AAB built (9.4 MB, unsigned); preflight reports 0 errors and 3 warnings
       (`allowBackup`, Firebase API key restriction, AGP bundle metadata).
-- [ ] Sign the AAB with the registered Play upload key and upload it to a test track. No upload
-      keystore exists in this repo; the owner must supply the key or reset the upload key in Play.
+- [x] Sign the AAB with the legacy upload key (`key/`, local only, gitignored) and publish
+      versionCode 13 to the internal track as release `2.0.0` on 2026-11-11. Play accepted the
+      upload, confirming the key matches the app.
+- [ ] Add internal testers and install the Play-signed build, then promote to beta/production.
+      The owner added testers in Console on 2026-11-11. The Publisher API cannot see them: it
+      exposes only Google Groups, not individual emails, and `gplay testers get` returns `{}` for
+      every track. The attached test phone (`spdevices22@gmail.com`, Galaxy A14) still gets
+      "App not available" from the internal opt-in link, so that account is not on the list.
+      Add `spdevices22@gmail.com` (or a Google Group) to internal testing to verify Play delivery.
+- [x] Exercise the uploaded artifact in release mode on the attached Galaxy A14 (Android 15) on
+      2026-11-11. Built universal APKs from `/tmp/app-release-signed.aab` with bundletool and
+      signed with the debug keystore for local install only (functional check, not Play delivery).
+      Verified: Arabic onboarding (five steps, correct/wrong feedback), Home, streamed site tracks
+      with rotating titles, notation images, track/credit/source block, slow mode, A/B playback,
+      exit confirmation, Results, three lessons completed with Mastered state, the three-option
+      Bayati/Kurd/Saba lesson with the 50/50 Hint entry (shows "ad not available" when the
+      rewarded ad fails), Settings language switch, Reduce motion, reset dialog, and language and
+      progress persistence across force-stop. Arabic RTL and English LTR both hold at 320 dp.
+- [x] Promote versionCode 13 to the beta track on 2026-11-11 as release `2.0.0`, carrying the
+      Arabic and English notes from internal. The first commit was rejected because automatic review
+      submission was disabled while the privacy-policy issue was open. The block cleared later the
+      same day (verified by validating and then committing a real track change without
+      `changesNotSentForReview`), and the beta release was re-committed, which submits it for review.
+      `alpha` has no release and is not active. The API exposes no per-release review state, so
+      approval must be read from the Console.
 - [ ] Closed testing track with required testers; collect feedback.
-- [ ] Staged rollout; pause criteria defined.
+- [x] Publish versionCode 13 to production on 2026-11-11 at the owner's explicit request as a full
+      rollout: release `2.0.0`, `status=completed`, no user fraction, replacing `1.12`
+      (versionCode 12). The edit committed without `changesNotSentForReview`, so it is sent for
+      review. Play rejects a fraction on a completed release, so a staged rollout would have needed
+      `status=inProgress` plus `userFraction`; that path was not used. Once approved, every install
+      can update to v13; a completed release cannot be halted, so any emergency needs a new
+      versionCode.
 
 ### Legal and policy
 
